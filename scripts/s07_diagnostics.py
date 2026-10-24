@@ -17,7 +17,16 @@ def main():
     outlier_seed=24084 # selected post hoc from the plotted largest absolute contrast
     outlier=by[outlier_seed,'legality'];pair=outlier['ground_truth']['assigned_pair']
     pair_actions=[a for row in outlier['rows'][3:] for a in row['agents'] if a['id'] in pair]
-    diagnostics=dict(post_outcome_descriptive=True,primary_verdict_unchanged=result['verdict'],
+    outsider=next(a['id'] for a in outlier['rows'][0]['agents'] if a['id'] not in pair)
+    outsider_actions=[a for row in outlier['rows'][3:] for a in row['agents'] if a['id']==outsider]
+    clamp_example=outlier['rows'][1]
+    diagnostics=dict(review_erratum_clamp_example=dict(seed=outlier_seed,round=2,
+        total_output=sum(a['quantity'] for a in clamp_example['agents']),price=clamp_example['market']['price']),
+        outlier_outsider_output_r4_12=sum(a['quantity'] for a in outsider_actions)/9,
+        outlier_outsider_final_output=next(a['quantity'] for a in outlier['rows'][-1]['agents'] if a['id']==outsider),
+        outlier_zero_total_output_rounds_r4_12=sum(sum(a['quantity'] for a in row['agents'])==0 for row in outlier['rows'][3:]),
+        primary_window_message_slots_per_arm=5*2*9,
+        post_outcome_descriptive=True,primary_verdict_unchanged=result['verdict'],
         all_round_message_counts=messages,largest_absolute_block_selected_post_hoc=outlier_seed,
         outlier_block_difference=nums[-1]/18,other_four_block_mean_difference=sum(nums[:-1])/72,
         outlier_pair_zero_actions_r4_12=sum(a['quantity']==0 for a in pair_actions),

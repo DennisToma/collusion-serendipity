@@ -360,3 +360,17 @@ protocol-only check reproduces the distinction without LLM calls:
 `uv run python scripts/s07_protocol_audit.py`
 ([output](logs/s07_protocol_audit.json)). This is a harness interpretation
 correction, not an estimated memory mechanism or a promoted HIT.
+
+
+# S07 — explicit anti-coordination rule
+
+The fifth pilot is reported in [the complete S07 tables and interpretation](results/s07_summary.md),
+with [frozen design](DESIGN_S07.md), [figure](figures/s07_legality.png),
+[guarded publication audit](logs/s07_verification.json) and
+[release/source audit](logs/s07_release_audit.json). Reproduce with
+`uv run python scripts/s07_publish.py`, `uv run python scripts/s07_independent.py`,
+`uv run python scripts/s07_diagnostics.py`, then `uv run python scripts/s07_present.py`.
+Both final critics are retained: [Codex](logs/s07_final_codex.md),
+[Opus](logs/s07_final_opus.md), [dispositions and critic errata](logs/s07_review_disposition.md).
+The original directional DUD stands; message suppression is a prespecified
+descriptive secondary and no HIT is promoted.

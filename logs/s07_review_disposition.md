@@ -60,3 +60,40 @@ mean>=1 is the rule. No current HIT; original critic artifacts retained.
 Opus final launch failed before a model request because the pasted context
 exceeded the OS argv limit (OSError7). Retried through stdin, without rerunning
 the successful Codex critic. This is a review transport repair, not a new experiment.
+
+
+# Final Opus dispositions
+
+Opus stdin retry completed successfully (initial OS argv failure retained).
+Hand arithmetic confirms all arm/seed/window means, t arithmetic, exact signs
+and DUD. Opus did not recompute bootstrap quantiles/raw outcomes; Codex and the
+cache-only independent scripts supply those checks. Both independent final
+reviews are complete, without a changed estimate or decision.
+
+Accepted: neutral near-Nash headroom versus the +1 prioritization threshold;
+realized channel use disappears under the cue; dominant block has low outsider
+output too; all12-round count window explicit; sign-flip label; degenerate
+message intervals and n5 clustering; formula price in no-trade rounds; profit
+t interval spanning zero; S07 design link. Full diagnostics retained, no block
+excluded. Publication guard fixes are accepted by Opus too.
+
+Interpretation judgment: channel use is a treatment-induced possible mediator,
+not a pre-treatment confound. The total prompt-package contrast is still the
+registered estimand; direct/mediated pathways cannot be separated. Static q6 is
+a benchmark, not necessarily the best response to every realized rival action.
+Low/zero profits do not logically exclude attempted coordination; they do not
+establish successful profitable restraint. These stronger critic inferences
+are not adopted.
+
+Opus's claim of no price-clamp activation anywhere is incorrect: block24084,
+legality round2 totals32 with formula price0, reproduced by the diagnostic
+script. Production/independent calculations retain max(0,30-Q); no metric uses
+a globally unclamped linear-price assumption. Original review preserved.
+
+Deferred optional rejected-versus-accepted action comparisons: the estimand is
+explicitly the fixed valid-output retry policy, with all18 rejection reasons
+and arm counts disclosed. No retrospective acceptance or retry-policy change.
+Bootstrap checks reproduce the registered RNG stream; they do not validate
+coverage. Existing integration tests intentionally use the committed live
+registration as an integration fixture; frozen lock-handle/ISO-string concerns
+have no effect on this completed dataset and frozen sources remain archived.

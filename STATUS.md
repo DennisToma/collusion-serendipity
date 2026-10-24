@@ -1,20 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24 17:01 UTC; Phase2, iteration4 final review)
+## Current state (2026-10-24 17:04 UTC; Phase2, iteration4 complete)
 - S01 DUD; S02 ODD; S04 ODD/UNINFORMATIVE; S03 DUD; S07 F DUD for predicted increase. No HIT.
-- S07: ten T12 games/5 fresh blocks; 378 cached calls, 18 retries (neutral6/legality12), no failed game.
-- Pair output legality-neutral -0.956 [-2.889,+0.267] descriptive bootstrap; t[-3.592,+1.681]; upper p=.8125.
-- Neutral mean5.800, legality4.844. Lower mean dominated by one block; no profitable-restraint claim.
-- Nonempty message slots0/120 legality vs120/120 neutral: prespecified secondary, no secondary HIT.
-- Posthoc largest block: 16/18 primary pair actions zero; no block excluded or rule/window changed.
-- Mandatory full cache replay, every key once, exports/independent primary/payoffs and canonical audit PASS.
-- Separate verifier: all210 metric/window values, all7 metrics' intervals and exact verdict match.
-- Supplementary checker NumPy-int mean bug fixed/logged; original retained; frozen sources/results unchanged.
-- Both design critics + final Codex confirm results; final Opus retry running. Figure inspected.
-- S02 source audit: own sent messages echoed; historical interpretation caveat added, no old estimate change.
-- New publication/resume guards +3 regressions PASS; pre-run30 tests PASS; release audit byte-identical.
-- Next: final Opus disposition and final ledger/status push; then D/E. Own S05/S06/S08 queued.
-- Risks: n5/outlier, cue+retry bundling, API identity/sampling, no OS isolation or agreement/execution labels.
+- S07: ten T12 games/5 fresh blocks;378 cached calls,18 retries (neutral6/legality12), no failed game.
+- Pair output legality-neutral -0.956[-2.889,+0.267] descriptive bootstrap; t[-3.592,+1.681]; upper sign-flip p=.8125.
+- Nonempty message slots0/120 legality vs120/120 neutral, all12 rounds/5 games per arm; no secondary HIT.
+- Neutral5.8 near Nash6; +1 HIT target6.8. Dominant posthoc block has market-wide low output; no exclusion.
+- Full cache/key/export/primary/payoff checks PASS; canonical result byte-identical; frozen source/commit hashes match.
+- Separate arithmetic: all210 metric/window cells,21 bootstrap intervals,7 paired-t intervals and exact DUD match.
+- Pre-run30 tests +3 post-run guard regressions PASS; both Codex/Opus design AND final reviews complete; figure inspected.
+- Guarded publication/resume rejects terminal failures, live-verification bypass and invalid registration/config; no scientific change.
+- S02 own-message echo caveat added; old data/estimates unchanged. Checker correction/timing and critic errata retained.
+- Next: cover D/E before deepening. Own S05/S06/S08 queued; no active generation/review process.
+- Risks: n5/outlier, cue/retry bundling, API identity/sampling, no OS isolation or agreement/execution truth labels.
 
 ## Log
 
@@ -63,3 +61,5 @@
 - 2026-10-24T16:57:44.646039+00:00: final Codex critic independently reproduces every numerical claim and unchanged DUD. Accepted three prospective guard fixes via new safe-run/publication wrappers (original frozen sources preserved): failure-marker monotonicity, live verification independent of allow-dry, registration/config resolution. Three post-run regressions PASS; guarded publication leaves canonical bytes unchanged. Corrected timing claims (checker freeze after60 responses but before inspection; production registration before all calls; launch34m9s, not>35m). Opus final launch hit OS argument limit before model execution; retrying via stdin. No new scientific calls, tuning or outcome exclusions.
 
 - 2026-10-24T17:00:58.389876+00:00: complete S07 artifacts ready for milestone push: guarded publication and release audits PASS, all frozen sources match registration commit, every dataset/result byte unchanged after cached resume, last call16:45:39.639 before cutoff. Local document/figure links resolve; repo7.5MB excluding env/git. Final Codex review accepted; final Opus stdin retry remains running. No active generation and no further scientific calls.
+
+- 2026-10-24T17:04:41.072841+00:00: S07 scientific artifacts committed/pushed as b30edb1. Final Opus stdin retry confirms unchanged DUD/numbers; accepted headroom, realized channel-use/mediation, outsider collapse, count-window, sign-flip/degenerate-interval and no-trade-price clarifications. Rejected critic overstatements (no price clamp globally; low profits proving no attempted coordination; static Nash universally best response); source diagnostic confirms round2 total32/price0. Both final critics complete; final dispositions retained. No new scientific calls, exclusions, tuning, HIT or sibling headline change. Final ledger result reference set to b30edb1; guarded/source/byte verification remains PASS. D/E next.

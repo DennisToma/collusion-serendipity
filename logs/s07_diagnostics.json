@@ -1,4 +1,14 @@
 {
+  "review_erratum_clamp_example": {
+    "seed": 24084,
+    "round": 2,
+    "total_output": 32,
+    "price": 0
+  },
+  "outlier_outsider_output_r4_12": 2.6666666666666665,
+  "outlier_outsider_final_output": 0,
+  "outlier_zero_total_output_rounds_r4_12": 6,
+  "primary_window_message_slots_per_arm": 90,
   "post_outcome_descriptive": true,
   "primary_verdict_unchanged": "DUD",
   "all_round_message_counts": {
