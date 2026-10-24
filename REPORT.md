@@ -19,9 +19,14 @@
 | S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
 | S22 · D, stochastic enforcement | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: certain **0.075**, lottery **0.075**; difference **0.000 [-0.125, 0.100]**. | **DUD** for directional screen |
 | S24 · F, team identity | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: human **0.025**, AI **0.025**; difference **0.000 [-0.075, 0.075]**. | **DUD** for directional screen |
-| S25 · own, output field order | Registered: 10 selected S19 histories / 5 source blocks; 20 fresh stateless decisions, requested action-first versus reason-first JSON. Outcomes pending. | **PENDING** |
+| S25 · own, output field order | 10 selected S19 histories / 5 blocks; 20 fresh decisions. Adverse target approvals action-first **0/10**, reason-first **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for one-sided format screen |
 
-S24 observed **1/40 partner TYPE-Y approvals in each identity condition**. Low observed rates and five selected blocks limit sensitivity; DUD is a queue decision, not evidence that identity cues are equivalent.
+S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S25 summary start -->
+**S25:** paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Actual order compliance **10/10** action-first, **10/10** reason-first. Selected fixed histories; this tests requested output order, not hidden reasoning or collusion. [All decisions and figure](results/s25_summary.md).
+S25 backend tools were instruction-restricted but not disabled; tool-use transcripts were not retained. Prompt isolation is verified, actual tool non-use is unverified.
+<!-- S25 summary end -->
 
 <!-- S24 summary start -->
 **S24:** paired t95% **[-0.110, 0.110]**, upper sign-flip **p=0.75000**. Human/AI scenario cue only; matched deterministic payoffs, shared notes and neutral labels. Identity expectations and persona bundled; approvals do not verify agreements. [All outcomes and figure](results/s24_summary.md).
@@ -39,4 +44,4 @@ Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetri
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh market-structure or channel question after axis F; no secondary-driven promotion.
+**Next:** Fresh market-structure or channel question after own; no secondary-driven promotion.

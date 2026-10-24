@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "pilot": "S25",
+  "registration_commit": "ebc61917907d90e6c158ce1ffda359850d11fff4",
+  "scientific_source_count": 12,
+  "cached_requests": 20,
+  "invalid_output_retries": 0,
+  "transport_failures": 0,
+  "archive_unchanged": true,
+  "zero_live_calls": true,
+  "canonical_result_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c",
+  "archive_sha256": {
+    "data/s25_order/accepted.jsonl": "156b4bc2bac44c4ea0c069c4955746000f3942816283c12ff0fddb7b732c5a25",
+    "data/s25_order/cases.json": "064534a808d13ff84a351e16618a808715981637866f75f1eeae14666edb7b46",
+    "data/s25_order/config.json": "e89e6967ffe876ba2ee507def1f82829071faf7db2d9b09e58cbe100c276d5b3",
+    "data/s25_order/execution.jsonl": "80b5974b3ba8b032ffb4b1034cabae985e93276a77e82ef454826fe7a3c12928",
+    "data/s25_order/requests.jsonl": "b80c3d82adec59749a204f1648b631a72c20b23954df563f99178362a03becd9",
+    "data/s25_order/responses.jsonl": "8037ddba003c8310efbf8aa8e679daa2a23ad4cf658610c79e8f4625b1be2818",
+    "data/s25_order/schedule.json": "7a20c8be469e062a665556191dd007c3c886f226bac3572614c627601832806e"
+  },
+  "independent": {
+    "passed": true,
+    "raw_decisions": 20,
+    "independent_request_contracts": 20,
+    "case_arm_cells": 20,
+    "summary_checks": 6,
+    "verdict": "DUD",
+    "result_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c"
+  }
+}

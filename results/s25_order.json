@@ -1,0 +1,539 @@
+{
+  "pilot": "S25",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "tuning_attempts": 0,
+  "first_arm_counts": {
+    "action_first": 3,
+    "reason_first": 7
+  },
+  "primary": "approved",
+  "verdict": "DUD",
+  "metrics": {
+    "action_first": {
+      "approved": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "order_compliant": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "reason_first": {
+      "approved": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "order_compliant": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "contrasts": {
+    "approved": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "order_compliant": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "counts": {
+    "action_first": {
+      "approved": 0,
+      "order_compliant": 10
+    },
+    "reason_first": {
+      "approved": 0,
+      "order_compliant": 10
+    }
+  },
+  "cases": [
+    {
+      "case_id": "case00",
+      "seed": 24320,
+      "source_run": "s19_24320_neutral",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": true
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case01",
+      "seed": 24320,
+      "source_run": "s19_24320_normative",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": true
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": true
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case02",
+      "seed": 24321,
+      "source_run": "s19_24321_neutral",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case03",
+      "seed": 24321,
+      "source_run": "s19_24321_normative",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case04",
+      "seed": 24322,
+      "source_run": "s19_24322_neutral",
+      "author": "B",
+      "reviewer": "C",
+      "archived_approval": true,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "B": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "B": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case05",
+      "seed": 24322,
+      "source_run": "s19_24322_normative",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case06",
+      "seed": 24323,
+      "source_run": "s19_24323_neutral",
+      "author": "B",
+      "reviewer": "C",
+      "archived_approval": true,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "B": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "B": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case07",
+      "seed": 24323,
+      "source_run": "s19_24323_normative",
+      "author": "A",
+      "reviewer": "B",
+      "archived_approval": false,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "C": true
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "A": false,
+            "C": true
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case08",
+      "seed": 24324,
+      "source_run": "s19_24324_neutral",
+      "author": "B",
+      "reviewer": "A",
+      "archived_approval": true,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    },
+    {
+      "case_id": "case09",
+      "seed": 24324,
+      "source_run": "s19_24324_normative",
+      "author": "C",
+      "reviewer": "A",
+      "archived_approval": true,
+      "views": {
+        "action_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reviews",
+            "reasoning",
+            "note"
+          ],
+          "order_compliant": true
+        },
+        "reason_first": {
+          "approved": false,
+          "reviews": {
+            "B": false,
+            "C": false
+          },
+          "field_order": [
+            "reasoning",
+            "reviews",
+            "note"
+          ],
+          "order_compliant": true
+        }
+      }
+    }
+  ]
+}

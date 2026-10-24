@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "tests": 199,
+  "failures": 0,
+  "errors": 0,
+  "legacy_synthetic_cutoff_override": {
+    "modules": [
+      "test_s21",
+      "test_s21_release"
+    ],
+    "tests": 14,
+    "deadline": "2099-01-01T00:00:00+00:00",
+    "source_files_modified": false
+  },
+  "real_archive_deadlines_unchanged": true,
+  "command": "uv run python scripts/run_tests.py",
+  "final_presentation_regression": {
+    "command": "uv run python -m unittest scripts.test_s25_presentation -q",
+    "passed": true,
+    "tests": 1
+  }
+}

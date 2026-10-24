@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "commands": [
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s25_analyze.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s25_independent.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s25_present_safe.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s25_release.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s25_replay.py"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s25_order.json": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c",
+    "results/s25_summary.md": "cd4676550dc514de65632e664ac0212c48aa8ccf72ac5968741a7062f1e0a5b9",
+    "figures/s25_order.png": "8283b3913b5c630b7782ff9631b4ff5783368ba2f0f6550161ebba769c44c139",
+    "REPORT.md": "686362231cf694d7bbabd0d8e283c7f2c2e5863d36a2520df9c902bfd7284670",
+    "logs/s25_independent.json": "2b10101f54d3955791b19297b8bd72beb214bbfa7164fde669aacb70337c3698",
+    "logs/s25_release.json": "6a2b2d1be7d0123acc8856ef9e3c10e50e276dbf1d9e79d55994c39e9a856c1e"
+  },
+  "scientific_sources_unchanged": true,
+  "additional_model_calls": 0
+}

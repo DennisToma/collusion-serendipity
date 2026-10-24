@@ -520,3 +520,46 @@ publication rejects every failed or interrupted dataset. Frozen code is retained
 for exact reproduction. Future live reuse must make abort transitions and
 admission atomic and define treatment of already-admitted requests. See
 [the review disposition](logs/s24_review_disposition.md).
+
+
+## S25: requested output order at fixed histories
+
+[Design](DESIGN_S25.md): twenty fresh stateless decisions at ten selected S19
+histories, five source blocks. Requested reviews/reasoning field order swaps;
+all incentives and visible history stay fixed within case. This is an enriched
+challenge, with no fresh-game, prevalence or internal-reasoning claim. Do not
+restart an interrupted pilot; the external launch receipt prohibits relaunch.
+Completed archives reproduce offline:
+
+```sh
+uv run python scripts/s25_analyze.py
+uv run python scripts/s25_independent.py
+uv run python scripts/s25_present_safe.py
+uv run python scripts/s25_release.py
+uv run python -m unittest scripts.test_s25
+```
+
+All repository regressions: `uv run python scripts/run_tests.py`. The runner
+uses a scoped in-memory future cutoff for only14 legacy S21 synthetic tests;
+S25 mocked/dry fixtures have their own scoped future cutoff. Scientific source
+bytes and actual archive cutoffs remain unchanged. Verify the real S21 archive
+separately with `uv run python scripts/s21_release.py`.
+
+The new pilot freezes12 scientific code/design/environment files, all10 source
+games and both raw S19 logs. Actual JSON field order is read from raw response
+text, not the sorted-key journal. Complete offline validation preserves every
+scientific file; opening the empty `.writer.lock` is the filesystem exception.
+Exact recorded Python/numpy/scipy versions are required. Clean-clone checks reuse
+the installed frozen dependency environment, rather than claiming a separate
+installation. No `.python-version` is present.
+
+S25 rendering uses a post-outcome presentation wrapper to restore the original
+renderer's one-use prose anchor before each render. All12 frozen sources and
+scientific result bytes remain unchanged; repeated report/summary/figure bytes
+are checked by `scripts.test_s25_presentation`.
+
+S25 source hashes are checked at each dispatch and at whole-pilot final completion,
+not after each individual response. Codex tools were instruction-restricted, not
+disabled; tool-use transcripts were not retained. Exact prompt isolation is
+verified; actual tool non-use is unverified. Future live harnesses should disable
+tools and retain execution evidence rather than retroactively changing llm.py.

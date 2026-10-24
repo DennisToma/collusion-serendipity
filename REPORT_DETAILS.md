@@ -436,3 +436,24 @@ Earlier Cournot games: three firms, integer output, P=max(0,30−total output), 
 **Next:** Fresh market-structure or identity question after axis D; no secondary-driven promotion.
 
 [S19 release](logs/s19_release.json) · [Independent reconstruction](logs/s19_independent.json) · [Request contract](logs/s19_request_contract.json) · [Review dispositions](logs/s19_review_disposition.md).
+
+
+## S25 — requested JSON output order at fixed histories
+
+[All outcomes, case review maps and figure](results/s25_summary.md) ·
+[Registered design](DESIGN_S25.md). Twenty fresh decisions, ten selected S19
+histories/five blocks, no new games. Both arms0/10 adverse target approvals,
+action-first minus reason-first0[0,0] empirical degenerate bootstrap/t, upper
+p1;actual field order10/10 in both. The one-sided DUD is a queue decision with
+no fresh adverse baseline, no hidden-reasoning, agreement or zero-risk claim.
+Source approvals enrich the challenge but are excluded from the fresh contrast.
+All20 exact requests, original-source bindings, raw JSON field orders and six
+statistical summaries independently verified;zero retries/failures/tuning.
+
+A post-outcome presentation-only wrapper fixes the frozen renderer's consumed
+S24 prose anchor so rerendering is byte-identical. Original12 scientific sources
+(including the renderer) remain untouched; numerical result hash unchanged.
+The wrapper adds the observed no-adverse-baseline caveat and corrects the
+reproduction command;it computes no new outcome and changes no estimate/screen.
+[Renderer regression](scripts/test_s25_presentation.py) ·
+[Review dispositions](logs/s25_review_disposition.md).

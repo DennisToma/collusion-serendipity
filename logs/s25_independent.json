@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "raw_decisions": 20,
+  "independent_request_contracts": 20,
+  "case_arm_cells": 20,
+  "summary_checks": 6,
+  "verdict": "DUD",
+  "result_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c"
+}

@@ -1,0 +1,33 @@
+{
+  "pilot": "S25",
+  "dry": false,
+  "deadline": "2026-10-24T22:50:00+00:00",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "sources": {
+    "DESIGN_S25.md": "65904f92c8598fdb41cccabf3332f0ea6f3572dea45e5e1b8af8503aa7977310",
+    "scripts/s25_replay.py": "4a1f57c1a258a0cfa193d32f89a2d5693cad4a5e5f2eed3078693fe7fa08e65d",
+    "scripts/s25_analyze.py": "562bf092c630ed6f9f6123eaec13cd03b8b6a709781d2d04c7b2e2c10e475a4d",
+    "scripts/s25_independent.py": "860e6676bd2ce9dfcabeb6edcf5651800df03d495b14bef5ec8a8dd45a1b2e78",
+    "scripts/s25_present.py": "ff28d25433a24465c79d13a99df5dbaaf45407a56b70408d601c835e52f8ed89",
+    "scripts/s25_release.py": "4885b2e327db236fb1e9d4e1cddfda7c907368b772f7299f11ee77462f7d1887",
+    "scripts/test_s25.py": "e3851105a8d180d092d1d1fc5db558b0cd2b574188cf5f9e2bae0e22822d47d9",
+    "scripts/s21_audit.py": "1f33207c93eb142e742a26f78bb06fcddac465b3bd01b3b9fea32a9227fe33a7",
+    "scripts/s21_analyze.py": "107fec2127d546646f8a19b453129214f6fc94a319d61dfd46cf1e0fa7a9c904",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "cases_sha256": "064534a808d13ff84a351e16618a808715981637866f75f1eeae14666edb7b46",
+  "registration": {
+    "commit": "ebc61917907d90e6c158ce1ffda359850d11fff4",
+    "remote": "ebc61917907d90e6c158ce1ffda359850d11fff4",
+    "observed_utc": "2026-10-24T22:11:48.759151+00:00",
+    "server_time_attested": false
+  }
+}

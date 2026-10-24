@@ -16,8 +16,8 @@ def main():
                  'Separate concrete remaining bugs from explicitly acknowledged limitations. '
                  'Give concise actionable review within500 words; finish within4 minutes if possible. ')
     if a.stage=='final':
-        files+=['REPORT.md','results/s25_order.json','results/s25_summary.md','logs/s25_independent.json','data/s25_order/config.json']
-        instruction+='Independently recompute twenty target approvals/actual top-level field orders, all six five-block summaries and frozen verdict using raw responses. This is a requested output-format contrast, not hidden reasoning or collusion identification. '
+        files+=['REPORT.md','results/s25_order.json','results/s25_summary.md','logs/s25_independent.json','data/s25_order/config.json','data/s25_order/responses.jsonl','logs/s25_review_disposition.md']
+        instruction+='Independently recompute twenty target approvals/actual top-level field orders, all six five-block summaries and frozen verdict using raw responses. Opus sees these raw responses only as supplied text, not via filesystem or code execution; state actual verification scope. This is a requested output-format contrast, not hidden reasoning or collusion identification. '
     def codex():
         path=Path(f'logs/s25_{a.stage}_codex.md')
         rc=run_bounded(['codex','exec','--skip-git-repo-check','-s','read-only','-C',str(Path.cwd()),'-m','gpt-6.1-sol',

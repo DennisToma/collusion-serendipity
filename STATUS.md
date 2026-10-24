@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T22:11:32.107238+00:00; Phase2, iteration15 PRELAUNCH)
-- S25 own registered:20 fresh decisions/10 selected S19 histories/5blocks.
-- Requested action-first versus reason-first JSON order;fixed history/incentives.
-- Primary:action-first minus reason-first adverse target approval rate.
-- Both methodology critics exit0;source/case drift and independent prompt checks fixed.
-- 12 protocol tests/full dry20-key replay/six-summary reconstruction PASS.
-- First arm action3/10/reason7/10;no rebalancing or scientific outcome seen.
-- One-sided HIT requires five positive blocks;selection limits sensitivity.
-- Full suite uses scoped historical S21 synthetic cutoff;real S21 release PASS.
-- Next:freeze/push,launch one-shot20 calls,verify,final reviews,report/push.
-- S24 remains DUD:1/40 each,AI-human0[-.075,.075];186 prior tests.
-- Risks:n5,enriched histories,uncontrolled draws;no hidden-reasoning/causal-null claim.
+## Current state (2026-10-24T22:16:42.596984+00:00; Phase2, iteration15 VERIFIED)
+- S25 own complete:20 fresh decisions/10 selected S19 histories/5blocks.
+- Adverse target approvals0/10 each;action-first minus reason-first0[0,0].
+- Paired t[0,0],upper p1;frozen one-sided DUD,no HIT.
+- Actual requested-order compliance10/10each;no fresh adverse baseline.
+- Zero retries/failures;all20 exact requests/12 frozen sources PASS.
+- Independent20 prompt contracts/20 decision cells/six statistics PASS.
+- Both final critics confirm counts/verdict;Opus supplied-text scope explicit.
+- 199 repo tests PASS;14 legacy S21 synthetic cutoff overrides explicit.
+- Real S21 archive/original cutoff PASS;presentation-only repair regression PASS.
+- Six artifacts byte-identical;result SHA3cc8648a unchanged.
+- Source ebc6191 pushed;results push/clean-clone next.
+- Next:fresh B/C question;new own S26 queued,zero tuning/pooling/sibling writes.
+- Risks:n5,selected histories,no baseline;actual backend tool non-use unverified.
 
 ## Log
 
@@ -196,3 +198,9 @@
 - 2026-10-24T22:07:01.845725+00:00: iteration15 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling summaries read-only. Selected queued own S25 after F S24. Registered prospective20-call output-order replay at ten selected S19 histories/five source blocks. Deliberate proposal refinement from new games to fixed histories isolates format from downstream feedback;not a population or hidden-reasoning claim. Ten validity checks/dry full replay and independent six-summary reconstruction PASS after fixing synthetic raw-order roundtrip. No live scientific calls,tuning,pooling or sibling writes. Independent methodology critics next.
 
 - 2026-10-24T22:11:32.107238+00:00: S25 both prelaunch critics exit0;all dispositions retained. Added per-admission/completion hashes for canonical cases and all12 archived S19 inputs;independent20-prompt literal reconstruction/source binding and actual-order timestamp checks;directional/n5 screen caveats.12 tests/final dry20-key replay/six exact bootstrap+t+sign summaries PASS. Scoped synthetic cutoff repair for14 old S21 tests leaves original scientific sources/deadline unchanged;real S21 archive separately passes original release. No live scientific call,tuning,pooling or sibling write.
+
+- 2026-10-24T22:12:14.432351+00:00: S25 source freezeebc6191 committed/pushed;one-shot20-call generation started with two case workers/seed barriers and22:50UTC cutoff.198 repository tests PASS with explicit14-test historical S21 synthetic cutoff override;real S21 release unchanged/PASS. No partial decisions/effects inspected;all12 scientific sources frozen. Source ledger linked to freeze.
+
+- 2026-10-24T22:14:28.952575+00:00: S25 all20 fresh decisions complete22:12:25UTC,zero retries/transport/parse/route failures. Frozen directional DUD:0/10 adverse target approvals each arm,difference0[0,0] empirical bootstrap/t,p1;actual order compliance10/10each. No fresh adverse baseline,mechanism/equivalence/zero-risk claim. Full20-key exact raw request/source/registration/order/timestamp replay and independent20 prompt contracts/20 decision cells/six bootstrap+t+sign summaries PASS;12 original scientific sources unchanged,result SHA3cc8648a. Discovered frozen renderer one-use prose-anchor defect;separate presentation wrapper/regression fixes rerendering without source/estimate changes and adds no-adverse-baseline caveat. Final critics running. No new scientific calls,tuning,pooling,sibling writes or HIT.
+
+- 2026-10-24T22:16:42.596984+00:00: S25 final Codex and Opus critics exit0,all dispositions complete. Codex raw-reconstructs20 maps/orders,selection/history/status/notepad visibility,20 literal request contracts and all3125 bootstrap/32 sign summaries;Opus supplied-text hand-check scope explicit. Accepted baseline,per-arm-p,schedule-versus-timestamps,independent-checker scope and tool-non-use caveats;clarified hashes checked per admission and whole-pilot completion.199 repo tests PASS with14 explicit legacy synthetic cutoff overrides;real S21 release unchanged/PASS;final presentation regression PASS. Six artifacts byte-identical under analyze/independent/safe-render/release/completed-cache-resume;all12 scientific sources/result SHA3cc8648a unchanged. Figure inspected;no additional scientific call,tuning,secondary promotion,pooling,HIT or sibling write. S26 own hypothesis queued,not a causal explanation of S25/S19. Results commit/push then clean-clone remain.

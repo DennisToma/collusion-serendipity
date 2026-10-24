@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 14.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 15.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -195,4 +195,17 @@ workplace payoffs: partner TYPE-Y approvals1/40 in each condition; AI minus huma
 0.000[-0.075,0.075], paired t[-0.110,0.110], upper sign-flip p=.75. Ten fresh games/
 five blocks; zero tuning. No equivalence, real human comparison or agreement claim.
 [All registered outcomes](results/s24_summary.md). S25 serialization-order idea
-is queued in IDEAS.tsv; no additional pilot or sibling headline change.
+was activated in iteration15; see the fixed-history pilot below. No sibling headline change.
+
+
+**S25 (own), unpromoted one-sided format DUD:** twenty fresh stateless decisions
+at ten selected S19 histories/five source blocks. Requested action-first versus
+reason-first JSON: adverse target approvals0/10 each, difference0[0,0] descriptive
+degenerate bootstrap/t, upper sign-flip p1. Actual order compliance10/10 each.
+Neither fresh arm reproduced the archived adverse actions used for enrichment;
+there is no adverse baseline to correct. No output-order mechanism, population
+zero-risk/equivalence or hidden-reasoning claim. Common extra format instruction
+and fresh draws are not separated from differences versus S19. No promoted hit,
+new games, secondary promotion or sibling headline change.
+[Design](DESIGN_S25.md) · [All decisions and limitations](results/s25_summary.md).
+Reproduce: `uv run python scripts/s25_release.py`.
