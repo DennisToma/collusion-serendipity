@@ -645,3 +645,26 @@ is a post-outcome companion that independently binds all200 raw notes/explanatio
 and counts,including20 final-round outputs. `uv run python -m unittest scripts.test_s29_auxiliary`
 rejects both reported in-memory mutations. Original18 frozen sources/result stay
 unchanged;the companion and its tests are verification-only,not a revised estimator.
+
+S28 (iteration18,own): role-attached payoff decomposition in two-person neutral
+shared-note workplace games. Prose arm retains the original bonus rules;table
+adds six role-specific rows without changing incentives or notes. Five fresh
+blocks24520..24524,ten games,T10,200 decisions;primary prose-minus-table reduction,
+no profit gate. [Registered design](DESIGN_S28.md). No isolated arithmetic mechanism.
+
+```bash
+uv run python scripts/s28_launch.py       # one-shot live after source push
+uv run python scripts/s28_analyze.py      # complete archive and all-key replay
+uv run python scripts/s28_independent.py  # raw metrics/stats/history/notes
+uv run python scripts/s28_present.py      # full outcomes and figure
+uv run python scripts/s28_release.py      # cache-only release/resume
+uv run python -m unittest scripts.test_s28
+```
+
+Dry: `uv run python -m sim.payoff_table --dry --out /var/tmp/s28_example`,then
+`uv run python scripts/s28_analyze.py --allow-dry --data /var/tmp/s28_example
+--out /var/tmp/s28_example/result.json`. Exact frozen environment required;no
+failed/interrupted resume,replacement,pooling or outcome-dependent rule changes.
+Independent checker also binds final-round notes/reasons and note counts;backend
+tool non-use remains unverified. Per-arm t JSON fields use inherited names for
+one-sample bounds;paired contrast bounds are actual paired intervals.

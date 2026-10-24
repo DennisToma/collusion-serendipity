@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T23:00:38.255061+00:00; Phase2, iteration17 COMPLETE)
-- S29 C:ten fresh two-person self/shared-note games,five blocks;200 decisions.
-- Partner Y approvals self2/40,shared15/40;difference+.325[.100,.575].
-- Paired t[-.048790,.698790],upper p.0625;frozen ODD,no HIT.
-- Four positive blocks/one tie;sign threshold unmet;bonus+1.3 mechanically follows.
-- Zero retries/failures;all200 keys/18 sources/registration/timing/exports PASS.
-- Independent50cells/15 bootstrap+t summaries/15sign sets/200 histories PASS.
-- Both final critics confirm;Codex raw replay,Opus supplied-text-only scope.
-- Post-outcome checker binds all200 notes/reasons;17-event appendix has no labels.
-- Full227 tests PASS;remote clone17 checks/nine artifacts byte-identical,clean.
-- Source d504dab/results3c4438f pushed;scientific SHA0b8e2562 unchanged.
-- No tuning,pooling,secondary promotion,HIT,sibling writes or active run/review.
-- Next:fresh A/own S28;S29 confirmation suggestion remains unrun/unpromoted.
-- Risks:n5;delivery/expectations/memory-volume/history bundled;tool non-use unverified.
+## Current state (2026-10-24T23:08:25.622342+00:00; Phase2, iteration18 PRELAUNCH)
+- S28 own:ten fresh two-person shared-note games/five blocks24520..24524,T10.
+- Primary prose-minus-table Y approval reduction;frozen screen,no profit gate.
+- Six-row role table added;incentives/types/roster/note access fixed.
+- Both methodology critics exit0;static/supplied-text scopes explicit.
+- All16 protocol checks,full243 tests,dry200-key replay/independent checks PASS.
+- Final-note/hash/attempt/marker/environment/timestamp guards now included.
+- All18 scientific sources ready;freeze/push before any live call.
+- Once launched:DO NOT EDIT ANY SOURCE in sim.payoff_table.SOURCES until publication.
+- Uncached cutoff Sun00:00UTC;two game workers,block barrier,no interrupted resume.
+- No tuning,pooling,HIT,sibling writes or live scientific calls yet.
+- Risks:n5,bundled repetition/format/detail,sparse baseline,unverified tool non-use.
 
 ## Log
 
@@ -234,3 +232,7 @@
 - 2026-10-24T22:59:08.573072+00:00: S29 final227-test full repository suite PASS after restoring legacy report anchor;all18 frozen sources and scientific SHA0b8e2562 unchanged. Final analysis/independent/render/offline release/cache-only resume regenerate six core artifacts byte-for-byte;post-outcome auxiliary checker and all17-event appendix PASS. Both final critic dispositions complete;manager-only scope of figure,companion and supplement explicit. REPORT46 lines,all-pilot table/HITS/README/DETAILS current. Results commit/push and fresh remote-origin clone remain;no extra scientific calls,new metric,HIT,pooling or sibling writes.
 
 - 2026-10-24T23:00:38.255061+00:00: iteration17 COMPLETE. S29 registrationd504dabcc1541a5d0258ddd8b6c1c4a2317db3c6 and results3c4438fa436de1b79e19dfcd1a351e3101aee115 committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes complete cache-only release,17 protocol/auxiliary/presentation checks,independent raw reconstruction,all200 note/reason bindings,all17-event supplement and real S21 original-cutoff release. Nine artifacts regenerate byte-for-byte(scientific result,summary,figure,REPORT,independent/release/auxiliary receipts,both supplement exports);clone git status clean. logs/s29_remote_clean_clone.json records exact commit/commands/hashes and explicit installed frozen-environment reuse. Full227-test suite PASS with14 scoped historical S21 synthetic cutoff overrides;actual S21 archive unchanged/PASS. Both final critics disposed;all18 frozen scientific sources and canonical SHA0b8e2562 unchanged. Result ledger points to results commit. REPORT46 lines with legacy S25 prose anchor restored,old context archived verbatim;HITS/README/DETAILS current. No further scientific calls,second pilot,new metric,semantic classifier,exclusion,tuning,subgroup/reverse/secondary promotion,pooling,HIT,sibling write,direction deviation or active generation/review process. Next fresh A/own S28;S29 independent confirmation is suggested,not run or promoted.
+
+- 2026-10-24T23:03:21.460185+00:00: iteration18 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling summaries read-only. Activated queued own S28 after C/S29;prospective ten-game/five-block shared-note role-table comparison registered before calls. Prose-minus-table reduction screen has no profit gate because fewer adverse approvals mechanically lower pair bonus. Added detail,repetition,format,role salience and prompt length bundled;no arithmetic mechanism claim. No direction deviation,tuning,pooling,HIT or sibling writes. Synthetic validation and independent methodology critics next.
+
+- 2026-10-24T23:08:25.622342+00:00: S28 Codex and Opus methodology reviews exit0. Applied independent raw hash/bijection/attempt/route/optimization checks,completion environment observation,embedded-marker parser and parsed-datetime chronology before live outcomes. All16 protocol checks/full243 repository tests/final dry200-key replay,50metric cells,15bootstrap+t summaries,15sign sets,200histories/snapshots/notes/reasons including20final outputs PASS. Historical14 S21 synthetic clock overrides remain scoped;actual S21 archive original-cutoff release PASS. All18 source hashes in readiness manifest. New own S30 input-key ordering proposal queued,not run. No live calls,tuning,pooling or direction deviation;freeze/push then detached one-shot run.

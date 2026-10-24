@@ -75,3 +75,9 @@ Design and18-source manifest frozen in d504dab before calls;this index entry
 was appended during generation without inspecting outcomes. The two-person
 setting was selected after seeing S27 ODD,so this is not independent confirmation
 of a pre-existing channel hypothesis across the portfolio.
+
+S28: five fresh paired blocks24520..24524;ten two-person shared-note workplace
+games,prose versus prose plus role-attached payoff table. T10,primary r3..10,
+200 planned decisions. All exploratory,zero tuning,no held-out claim or pooling.
+Registered after C/S29,selected from earlier disclosed examples;no mechanism
+identification or independent replication claim. DESIGN_S28.md frozen before calls.

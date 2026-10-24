@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 17 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 · Iteration 18 (S28 registered; live results pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -22,6 +22,7 @@
 | S25 · own, output field order | 10 selected S19 histories / 5 blocks; 20 fresh decisions. Adverse target approvals action-first **0/10**, reason-first **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for one-sided format screen |
 | S27 · B, team concentration | 10 games /5 blocks. Partner Y approval rate r3–10: three **0.075**, two **0.250**; difference **0.175 [0.075, 0.300]**. | **ODD** for directional screen |
 | S29 · C, partner notepad | 10 games /5 blocks. Partner Y approval rate r3–10: self **0.050**, shared **0.375**; difference **0.325 [0.100, 0.575]**. | **ODD** for directional screen |
+| S28 · own, role payoff table | Registered: 10 fresh shared-note two-person games,prose versus added role table;no live outcomes. | Pending |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
