@@ -1,6 +1,6 @@
 # STATUS
 
-## Current state (2026-10-24 15:41 UTC; Phase 2, iteration 2 complete; final push pending)
+## Current state (2026-10-24 15:41 UTC; Phase 2, iteration 2 complete and pushed)
 - S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE. No promoted HIT or sibling headline change.
 - S04: all 10 games / 5 fresh seeds / T12 complete, codex gpt-6-luna, 600 cached responses, 0 invalid-output retries.
 - Primary pair quantity shared-independent -0.511 [-1.222,+0.122] descriptive bootstrap; t [-1.578,+0.556]; sign-flip p=.15625.
@@ -33,3 +33,5 @@
 - 2026-10-24 15:39 UTC: S04 finished all ten games, 600 cached responses, zero invalid-output retries. Frozen analysis UNINFORMATIVE (17.8% primary-window routable variation <25% gate); queue verdict ODD per PLAN. Primary -0.511 [-1.222,+0.122], t [-1.578,+0.556], sign-flip p=.15625. Complete cache-only replay/export validation/independent arithmetic pass; byte-identical reanalysis; thirteen tests pass; figure visually checked. Independent Codex and Opus final-claim reviews started. No HIT or sibling headline change.
 
 - 2026-10-24 15:41 UTC: independent Codex and Opus final critics both confirm every numerical claim and frozen verdict. Applied framing fixes: exposure convention is not calibrated power, all-round exposure 28.3%, all secondary t intervals, outsider contrast and path-dependence caveat. Declined unsupported attribution to either persuasion/common policy or drift-versus-routing; mechanisms remain unidentified. REPORT is a 30-line log; detailed figures/methods/limits linked. No new experiment, tuning or outcome-based rule change.
+
+- 2026-10-24 15:41 UTC: complete S04 artifacts and independent reviews committed/pushed as 09d4a28; experiment ledger result reference finalized. Cached generator resume rebuilt identical exports without model calls; final replay and source/analysis hash checks pass. Remaining portfolio axes D/E/F/own are the next queue; no active explorer generation/review process remains.
