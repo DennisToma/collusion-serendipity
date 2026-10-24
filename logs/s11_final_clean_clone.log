@@ -1,0 +1,72 @@
+S11 all ten games and exports complete
+{
+  "independent_metric_cells": 240,
+  "bootstrap_intervals": 24,
+  "paired_t_intervals": 8,
+  "primary_numerators": [
+    11,
+    -25,
+    57,
+    27,
+    52
+  ],
+  "primary_mean": 0.9037037037037037,
+  "upper_p": 0.09375,
+  "lower_p": 0.9375,
+  "verdict": "ODD",
+  "exact_3125_bootstrap_ci95": [
+    -0.08888888888888889,
+    1.8148148148148149
+  ],
+  "sha256": {
+    "data/s11_delay/raw/responses.jsonl": "01a4372c3ea2f8bbadff3589e77ec5198f4d21d46a94b24582ec5e97d31e648b",
+    "data/s11_delay/raw/requests.jsonl": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58",
+    "results/s11_delay.json": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2"
+  }
+}
+{
+  "kind": "post-review independent raw-request protocol audit; no new estimator or outcome",
+  "requests_checked": 366,
+  "by_arm": {
+    "immediate": 182,
+    "delayed": 184
+  },
+  "conditional_tables_checked": 317,
+  "all_history_rounds_exact": true,
+  "no_recent_row_in_structured_history": true,
+  "actual_request_tables_and_rival_summaries_match_visible_history": true,
+  "system_lag_cue_correct": true,
+  "sha256": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58"
+}
+PASS: cached resume, exact analysis bytes, independent arithmetic, sources/registration; 17 artifacts
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 0.868s
+
+OK
+{
+  "independent_metric_cells": 240,
+  "bootstrap_intervals": 24,
+  "paired_t_intervals": 8,
+  "primary_numerators": [
+    11,
+    -25,
+    57,
+    27,
+    52
+  ],
+  "primary_mean": 0.9037037037037037,
+  "upper_p": 0.09375,
+  "lower_p": 0.9375,
+  "verdict": "ODD",
+  "exact_3125_bootstrap_ci95": [
+    -0.08888888888888889,
+    1.8148148148148149
+  ],
+  "sha256": {
+    "data/s11_delay/raw/responses.jsonl": "01a4372c3ea2f8bbadff3589e77ec5198f4d21d46a94b24582ec5e97d31e648b",
+    "data/s11_delay/raw/requests.jsonl": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58",
+    "results/s11_delay.json": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2"
+  }
+}
+PASS clean clone 1477204fd55418427a4a0b914225e7ad04924e2b: release audit,protocol tests,4 output artifacts byte-identical

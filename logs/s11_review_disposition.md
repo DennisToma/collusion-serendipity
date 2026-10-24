@@ -101,3 +101,8 @@ covered separately by Codex and the independent raw-game checker.
 
 All numerical results and the original frozen sources/config remain unchanged.
 There is no active scientific generation and no additional live model call.
+
+Final revised clean clone of1477204 PASS: archive-only worker guard,17 protocol
+checks,47 local links and4 output artifacts byte-identical (frozen result,
+summary,figure,independent raw-metric audit). All69 discovered tests PASS.
+All13 scientific source hashes and original result SHA remain unchanged.
