@@ -66,3 +66,12 @@ S27: five fresh paired blocks24440..24444; ten workplace games, three versus two
 active employees. Pair task schedules and directed incentives matched, T10,
 primary r3..10;250 planned valid decisions. Exploratory, zero tuning, no held-out
 claim, pooling or selected-subgroup promotion. Full design frozen before calls.
+
+S29: five fresh paired blocks24480..24484; ten two-person workplace games,
+self-only versus shared notepads. Matched roster, type schedules, directed
+incentives and own-note persistence; T10, primary r3..10;200 planned decisions.
+All exploratory,zero tuning,no held-out claim,pooling or secondary promotion.
+Design and18-source manifest frozen in d504dab before calls;this index entry
+was appended during generation without inspecting outcomes. The two-person
+setting was selected after seeing S27 ODD,so this is not independent confirmation
+of a pre-existing channel hypothesis across the portfolio.

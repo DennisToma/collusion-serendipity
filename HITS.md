@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 16.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 17.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -238,3 +238,26 @@ includes explicit reciprocity language and payoff-role confusions;no semantic
 counts/classifier,intent labels or agreement verification were added. Treat these
 as examples motivating fresh checks,not a discovered mechanism. Scientific
 sources,result hash,all outcomes and ODD verdict remain unchanged.
+
+
+**S29: unpromoted channel diagnostic, ODD/inconclusive.** Ten fresh two-person
+neutral-label workplace games/five blocks24480..24484. Shared-note delivery versus
+self-only notes,with roster,directed incentives,type schedules and own-note
+persistence fixed. Partner Y approvals shared15/40,self2/40;difference+.325
+[.100,.575] descriptive bootstrap;paired t[-.048790,.698790],upper sign p.0625.
+Four positive blocks/one tie. The frozen sign threshold fails despite magnitude,
+bootstrap and mechanically positive bonus gates;no HIT or headline change.
+Pair bonus7.2→8.5 points/round;X approvals40/40 each. All200 decisions retained,
+zero retries/failures,zero tuning,no pooling. Delivery and stated readability,
+message content,expectations,memory volume and later history are bundled;public
+actions visible in both arms;adverse approvals do not verify agreement.
+
+Both siblings: this suggests a fresh setting worth confirmation,not evidence
+against either market detector headline. Pre-register independent fresh seeds,
+retain own-note control and enough blocks to resolve the frozen directional
+screen;distinguish harmful action from verified agreement. This is a suggestion,
+not an executed larger pilot or promotion of a secondary/reverse effect.
+[Design](DESIGN_S29.md) · [All outcomes/figure](results/s29_summary.md) ·
+[Source-bound action/text appendix](results/s29_action_text.md).
+Reproduce: `uv run python scripts/s29_release.py`;
+`uv run python scripts/s29_present.py`; `uv run python scripts/s29_action_text.py`.

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "event_count": 17,
+  "counts": {
+    "self": 2,
+    "shared": 15
+  },
+  "model_calls_forbidden": true,
+  "scientific_archive_and_result_unchanged": true,
+  "byte_identical_supplements": {
+    "results/s29_action_text.json": "9612aab322f7086b8f90633c7f0ee39165bc7e3e9869d2d57fc7e37a2c45dd41",
+    "results/s29_action_text.md": "941dc2ccb5a102c24a73f2ee969e04e4f21ff69032a5ba115e65efab64453ec9"
+  }
+}

@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T22:43:22.820192+00:00; Phase2, iteration17 IN PROGRESS)
-- S29 C registered:two-person partner-note delivery versus self-only memory.
-- Five fresh blocks24480..24484;ten games,T10;200 decisions planned.
-- Pair roster/incentives/type schedules/own notes fixed;readability sentence varies.
-- Primary shared-minus-self Y approvals;frozen .25/sign/bonus HIT screen.
-- Fourteen dry protocol checks/full200-key replay/independent50cells PASS.
-- Atomic terminal-abort/logical-admission regression PASS;earlier sources untouched.
-- Both methodology critics complete;atomic patch separately Codex-reviewed;no live calls.
-- No tuning,pooling,secondary promotion,HIT or sibling write.
-- S27 remains ODD:+.175[.075,.300],paired t crosses0,upper p.0625.
-- Risks:n5;delivery/expectations/memory-volume/history bundled;tools not disabled.
-- Next:dispose critics,freeze/push sources,run once,verify/report/review/push.
+## Current state (2026-10-24T22:53:40.062858+00:00; Phase2, iteration17 FINAL VERIFICATION)
+- S29 C:ten fresh two-person self/shared-note games,five blocks;200 decisions.
+- Partner Y approvals self2/40,shared15/40;difference+.325[.100,.575].
+- Paired t[-.048790,.698790],upper p.0625;frozen ODD,no HIT.
+- Four positive blocks/one tie;sign threshold unmet despite magnitude/bonus gates.
+- X approvals40/40each;pair bonus7.2→8.5 mechanically follows Y approvals.
+- Zero retries/failures;all200 keys/18 sources/registration/timing/exports PASS.
+- Independent50cells/15 bootstrap+t summaries/15sign sets/200 histories PASS.
+- Source d504dab pushed before calls;scientific SHA0b8e2562 unchanged.
+- Full227-test suite PASS;both final critics complete;result push/clone next.
+- Post-outcome all17-adverse-event appendix prepared without semantic labels.
+- No tuning,pooling,secondary promotion,HIT,sibling writes or second pilot.
+- Risks:n5;delivery/expectations/memory-volume/history bundled;tool non-use unverified.
+- Next:commit/push results,remote-clone reproduction;then fresh A/own S28.
 
 ## Log
 
@@ -222,3 +224,11 @@
 - 2026-10-24T22:43:22.820192+00:00: iteration17 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Selected C/S29 after B/S27:partner note delivery in fixed two-person neutral-label workplace,five fresh paired blocks,ten games,200 planned decisions. Earlier S18 normative three-person floor and S16 procurement failure documented as distinct designs;new setting motivated by S27 ODD,not a confirmatory replication. Registered before any calls;13 protocol tests/full dry200-key replay/independent50 metric cells,15 bootstrap+t summaries and15 sign tails PASS. New terminal-abort transitions serialize with logical admission;already-admitted transport may finish after failure. Codex+Opus methodology critics pending. No live scientific calls,tuning,pooling,HIT,sibling writes or direction deviation.
 
 - 2026-10-24T22:45:58.209394+00:00: S29 methodology critics both exit0;Codex static and Opus supplied-text scopes explicit. Accepted clearer common notepad wording,hard-negative-null check,completed-invalid/no-rerun disposition,floor/ceiling caveat. Actual frozen llm._codex already uses new empty external temp directory/read-only sandbox;new mocked command canary verifies construction,not actual tool non-use or OS isolation. Additional Codex patch critic confirms atomic abort/logical-admission semantics;14 protocol checks/final dry200-key replay/independent50cells,15 bootstrap+t summaries,15 sign-tail sets,200 histories/200 snapshots PASS. Eighteen final source hashes recorded in readiness manifest. No live scientific calls,tuning,pooling or sibling writes;full225-test repository suite PASS before freeze;14 scoped historical S21 synthetic clock overrides,real S21 archive unchanged/PASS.
+
+- 2026-10-24T22:46:19.288826+00:00: S29 source freeze d504dabcc1541a5d0258ddd8b6c1c4a2317db3c6 committed/pushed;launcher observed matching remote at 2026-10-24T22:46:08.602085+00:00;first admission revalidated18 source hashes,registered environment,source commit and historical runtime headroom 53.86min versus 19.59min requirement. Ten fresh games with two concurrent workers/seed barrier launched once,23:40UTC cutoff. No partial action,note or treatment contrast inspected;scientific sources now frozen. Ledger registration linked to source commit;no additional pilot or sibling write.
+
+- 2026-10-24T22:53:40.062858+00:00: S29 all10games/200valid decisions complete22:52UTC,zero retries/transport/parse/route failures. Frozen ODD:shared15/40 versus self2/40 partner Y approvals,difference+.325[.100,.575],paired t[-.048790,.698790],upper p.0625;four positive blocks/one tie. Magnitude/bootstrap/bonus gates pass but sign gate fails;no HIT,reverse/subgroup/secondary promotion or pooling. X approvals40/40each;internal/total bonus+1.3 mechanical from Y approvals. Mandatory200-key exact replay,18-source registration/admission/headroom/export/payoff/chronology checks and independent50cells/15 bootstrap+t summaries/15 sign-tail sets/200 histories/200 snapshots PASS. Canonical scientific SHA0b8e2562. Preparing post-outcome all17-event source-bound appendix without semantic labels or new metric;no scientific source edits. Final critics/full suite/release/clone next;no additional scientific calls or sibling write.
+
+- 2026-10-24T22:58:02.209209+00:00: S29 final Codex and Opus critics exit0,confirm primary+.325[.100,.575],paired t[-.048790,.698790],upperp.0625 and ODD;Codex raw-reconstructs50cells/all15 bootstrap+t summaries/sign sets/full200-key replay/18 sources,Opus supplied-text-only hand arithmetic. Canonical replay covers final notes,but standalone independent checker omits raw final-note/nonempty-metadata binding. Added separate post-outcome raw auxiliary verifier,all200 notes/explanations including20 final-round outputs and self100/shared99 nonempty counts PASS;two in-memory adversarial mutation regressions PASS. No frozen source or scientific result change. Figure inspected;17-event appendix twice byte-identical under forbidden calls. Post-companion227-test suite caught one legacy S25 presentation error after REPORT condensation removed a required prose anchor;restored original archived paragraph,focused regression PASS,full227 rerun pending. REPORT now46 lines;removed old context preserved verbatim in DETAILS. No additional scientific calls,new outcome,tuning,pooling,HIT or sibling write.
+
+- 2026-10-24T22:59:08.573072+00:00: S29 final227-test full repository suite PASS after restoring legacy report anchor;all18 frozen sources and scientific SHA0b8e2562 unchanged. Final analysis/independent/render/offline release/cache-only resume regenerate six core artifacts byte-for-byte;post-outcome auxiliary checker and all17-event appendix PASS. Both final critic dispositions complete;manager-only scope of figure,companion and supplement explicit. REPORT46 lines,all-pilot table/HITS/README/DETAILS current. Results commit/push and fresh remote-origin clone remain;no extra scientific calls,new metric,HIT,pooling or sibling writes.

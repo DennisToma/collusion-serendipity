@@ -1,0 +1,21 @@
+{
+  "command": "uv run python scripts/run_tests.py",
+  "result": {
+    "passed": true,
+    "tests": 227,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "real_s21_archive_separately_verified": true,
+  "prior_presentation_anchor_failure": "Fixed by restoring exact archived S25 paragraph;no scientific-source edit"
+}

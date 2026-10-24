@@ -474,3 +474,47 @@ action differences do not verify agreement. No larger rerun or sibling headline
 change. Exact all-key replay,independent50 cells/15 summaries and full211-test
 suite pass;final review dispositions and clean-clone receipts are linked from the
 results summary/reproduction commands. No source/archive was modified after freeze.
+
+
+## S29 — Partner notepad delivery (iteration17,axis C)
+
+[Prospective design](DESIGN_S29.md) · [All outcomes and figure](results/s29_summary.md).
+Ten fresh two-person games/five paired blocks24480..24484,neutral labels,matched
+roster,stage incentives,type schedules and own-note persistence;primary r3–10.
+Shared supplies partner notes;self supplies only own notes. A single truthful
+readability sentence changes at matched empty history;later histories can diverge.
+Shared15/40 versus self2/40 Y approvals;difference+.325[.100,.575] descriptive
+exact bootstrap,t[-.048790,.698790],upper p.0625. Four positive blocks/one tie.
+ODD:the frozen p<=.05 HIT criterion fails;no secondary/reverse promotion,pooling
+or sibling headline change. X approvals40/40 both;pair bonus7.2→8.5,mechanically
+from Y approvals. Internal/total bonus fields duplicate in two-person teams.
+Delivery,expectations,memory volume,note content and downstream history bundled;
+public actions remain an implicit channel. Harmful approvals are not verified
+agreement. Exploratory setting chosen after S27 ODD;multiple pilots,n5,one model,
+uncontrolled draws and instruction-only backend-tool restriction limit transfer.
+Full200-key replay/source/registration/export/timing checks and independent50
+metric cells/15 bootstrap+t summaries/15 sign-tail sets/200 histories and200 note
+snapshots PASS. All scientific sources frozen before outcomes and remain unchanged.
+A separate post-outcome appendix lists every primary adverse event with raw
+explanation,emitted note,and the actual past-note snapshot;no semantic classifier,
+new outcome,exclusion or mechanism claim. [Appendix](results/s29_action_text.md).
+
+
+## Earlier report context retained verbatim during iteration17 condensation
+
+S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S25 summary start -->
+**S25:** paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Actual order compliance **10/10** action-first, **10/10** reason-first. Selected fixed histories; this tests requested output order, not hidden reasoning or collusion. [All decisions and figure](results/s25_summary.md).
+S25 backend tools were instruction-restricted but not disabled; tool-use transcripts were not retained. Prompt isolation is verified, actual tool non-use is unverified.
+<!-- S25 summary end -->
+
+<!-- S24 summary start -->
+**S24:** paired t95% **[-0.110, 0.110]**, upper sign-flip **p=0.75000**. Human/AI scenario cue only; matched deterministic payoffs, shared notes and neutral labels. Identity expectations and persona bundled; approvals do not verify agreements. [All outcomes and figure](results/s24_summary.md).
+<!-- S24 summary end -->
+
+<!-- S22 summary start -->
+**S22:** paired t95% **[-0.190, 0.190]**, upper sign-flip **p=0.62500**. Certain3 versus probability1/4 charge12; equal expected sanctions, shared notes and neutral labels. Risk, wording and realized histories bundled; approvals do not verify agreements. [All outcomes and figure](results/s22_summary.md).
+<!-- S22 summary end -->
+
+S27 post-outcome transparency appendix lists all 13 primary adverse approvals with raw explanations and notes. Some texts invoke reciprocity and others misstate payoffs; no intent labels or mechanism are inferred. [All source-bound events](results/s27_action_text.md).

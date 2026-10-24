@@ -606,7 +606,7 @@ The readability sentence changes truthfully; roster, directed incentives, type
 schedules and initial schema are matched. Delivery, expectations, note volume
 and downstream histories are bundled; public actions remain visible in both arms.
 [Prospective design](DESIGN_S29.md). Five fresh paired blocks, ten games,T10,
-200 planned decisions. No pooling with S27 or prior note-access pilots.
+200 accepted decisions,zero retries/failures. No pooling with S27 or prior note-access pilots.
 
 ```bash
 uv run python scripts/s29_launch.py        # one-shot live, after frozen source push
@@ -629,3 +629,19 @@ Internal/total pair bonus duplicate in two-person teams. Per-arm `paired_t_ci95`
 fields are one-sample t bounds; contrast fields are paired t bounds. Clean-clone
 checks reuse the installed frozen environment. Actual backend tool non-use and
 provider-side sampling/timing remain unverified.
+
+S29 landed ODD/inconclusive:shared15/40 versus self2/40 partner Y approvals,
+difference+.325[.100,.575] descriptive bootstrap;t[-.048790,.698790],upperp.0625.
+Four positive blocks/one tie;frozen sign threshold unmet,no promoted hit. All five
+registered outcomes appear in [the summary](results/s29_summary.md).
+`uv run python scripts/s29_action_text.py` regenerates a post-outcome appendix of
+all17 primary adverse approvals,including raw explanations,emitted notes and the
+actual past-notepad snapshots. It changes no scientific source,metric or verdict.
+
+Final Codex review found a scope gap in the standalone independent checker:
+final-round emitted notes and nonempty-note metadata were covered by canonical
+replay but not separately raw-bound there. `uv run python scripts/s29_auxiliary_check.py`
+is a post-outcome companion that independently binds all200 raw notes/explanations
+and counts,including20 final-round outputs. `uv run python -m unittest scripts.test_s29_auxiliary`
+rejects both reported in-memory mutations. Original18 frozen sources/result stay
+unchanged;the companion and its tests are verification-only,not a revised estimator.

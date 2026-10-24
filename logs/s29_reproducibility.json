@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "commands": [
+    [
+      "scripts/s29_analyze.py"
+    ],
+    [
+      "scripts/s29_independent.py"
+    ],
+    [
+      "scripts/s29_present.py"
+    ],
+    [
+      "scripts/s29_release.py"
+    ],
+    [
+      "-m",
+      "sim.notepad"
+    ],
+    [
+      "scripts/s29_auxiliary_check.py"
+    ],
+    [
+      "scripts/s29_action_text.py"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s29_notepad.json": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+    "results/s29_summary.md": "b8a24f0e1c609b9a8bbb60ef7a8b36fa70023877e809a694b2c30d5ab459aaf9",
+    "logs/s29_independent.json": "e34824a4db715a0b98533ecb1899f0b3f0e5f0fbc07b09c77d216d31411c016d",
+    "figures/s29_notepad.png": "5ad87679d8011ce7050986a546348c19baf0b8e5ab93e881d04985f80ddbc765",
+    "REPORT.md": "e99e2c6110329c65b2b67cd527bb1aca0419b2476267dbe3d8c28afeabb403ea",
+    "logs/s29_release.json": "0e4325bc97ac20f5ed2558beae515906ca091ffddedeee5349c04cbbcd3fce75"
+  }
+}

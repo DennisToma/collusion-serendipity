@@ -47,4 +47,61 @@ Actual scientific calls:zero when these methodology dispositions were written.
 
 ## Final claims
 
-Pending completed dataset and independent final reviews. No live estimate yet.
+All ten games/200 decisions completed;frozen ODD result and full reconstruction
+available. Independent final reviews requested;dispositions pending. The
+post-outcome17-event appendix was prepared before final-review launch,although
+it is outside the fixed final-review file list and scientific source manifest;
+do not treat it as separately critic-certified without an explicit reviewer check.
+
+### Final disposition
+
+Both final critics exit0: [Codex](s29_final_codex.md) and
+[Opus](s29_final_opus.md). Both confirm primary0.325[0.100,0.575],paired
+t[-0.048790,0.698790],upperp0.0625 and ODD. No estimate-changing bug found.
+
+Codex independently reconstructs all50 metric cells,15 exhaustive bootstrap+t
+summaries and32 inclusive sign patterns per metric from raw reviews;all200
+request hashes/decisions/history/snapshots,18 registration hashes,canonical
+cache-only replay and timing/publication checks pass. Six selected tests run.
+Figure,appendix,full suite and clean clone remain manager checks,not Codex claims.
+
+Opus is supplied-text-only:hand-recomputes counts,primary bootstrap multiplicities,
+t/sign arithmetic,bonus and screen;no raw archive/tool/hash/git execution. Its
+publication/findings list describes pending snapshot obligations,not verified
+current git state. Results/commit/clean-clone steps are completed and logged
+separately. Existing final Codex process was running concurrently with Opus.
+Accepted explicit `post-outcome` label for REPORT appendix;all-event selection
+has no semantic labels or inferred intent. Dead outsider branch/stale literal and
+unused compatibility variables do not execute in two-person games;retain frozen
+source bytes.
+
+Codex identifies a real scope gap in the STANDALONE independent checker:it does
+not raw-bind final emitted note text or independently verify the registered
+nonempty-note metadata. Canonical replay already rejects both mutations and the
+present archive is valid. Added separate post-outcome verifier
+[s29_auxiliary_check.py](../scripts/s29_auxiliary_check.py),outside frozen science,
+which raw-binds all200 emitted notes/explanations including20 final-round outputs
+and verifies self100/100,shared99/100 nonempty-note counts. Two adversarial
+in-memory regressions reject the precise final-note and count mutations reported
+by Codex. [Receipt](s29_raw_auxiliary_check.json). No frozen code,data,metric,
+threshold,exclusion or result change. This companion verification was written
+after final critics,so it is manager-verified,not independently critic-certified.
+
+Manager inspected the figure. All17 primary adverse events in the separate
+post-outcome appendix bind accepted raw action/reason/note and actual prior-note
+snapshot;two forbidden-model-call runs reproduce both supplement artifacts
+byte-for-byte,all scientific files/result unchanged. [Receipt](s29_supplement_check.json).
+Full pre-companion suite225 PASS;final227-test suite and pushed clean-clone
+publication receipt are the remaining final checks at this entry's timestamp.
+
+Presentation-regression note:condensing REPORT removed the prose anchor required
+by the historical S25 safe renderer. The first post-companion227-test sweep had
+one presentation error (no scientific failure). Restored the exact archived S25
+paragraph;focused legacy regression PASS and final full sweep rerun. REPORT is
+46 lines;older context remains archived verbatim. No historical source changed.
+
+Final full227-test suite PASS after anchor restoration;all18 original source
+hashes and canonical result SHA0b8e2562 unchanged. Final analyze/independent/
+present/release/cache-resume reproduce six core artifacts byte-for-byte;raw
+auxiliary check and all17-event supplement PASS. Results push/remote-clone receipt
+are recorded in STATUS and logs/s29_remote_clean_clone.json after publication.
