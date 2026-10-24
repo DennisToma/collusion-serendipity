@@ -1,0 +1,3 @@
+time_utc	id	hypothesis	change	dataset/split	metric (with 95% CI)	decision(keep/discard/inconclusive)	commit
+2026-10-24T14:38:06+00:00	S01	Last-digit partner signal	Fixed grouped ridge; DESIGN.md	llm_v1 + llm_ds_p2; 5 run folds	pending	inconclusive	7e9fe9f
+2026-10-24T14:38:06+00:00	S02	Private channel restricts Cournot output	10 games, qwen-3.6-35b, T12; DESIGN.md	5 paired seeds 24020..24024; exploratory	pending	inconclusive	7e9fe9f

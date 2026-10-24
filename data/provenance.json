@@ -1,0 +1,22 @@
+{
+  "source_repo": "/home/factory/collusion/collusion-14-infotheory",
+  "source_commit": "9f06b8e132f03b83fcf592d106f53f1bf3fb220d",
+  "files": {
+    "../collusion-14-infotheory/data/llm_v1/trajectories.jsonl": {
+      "sha256": "98f671a0f5da5c8f5a5d11c62ffab4e872b97afaa06a62ddc7ab24a99c82c154"
+    },
+    "../collusion-14-infotheory/data/llm_v1/ground_truth.jsonl": {
+      "sha256": "84a02944f4e49933b3528d2e21c2bf2474c667937c77effea49e4af9a8f2e045"
+    },
+    "../collusion-14-infotheory/data/llm_ds_p2/trajectories.jsonl": {
+      "sha256": "995ec5420b9163d0a216127277744d1e37b77b587ff7468eafb46eb6910934d2"
+    },
+    "../collusion-14-infotheory/data/llm_ds_p2/ground_truth.jsonl": {
+      "sha256": "c1d97ed42698f8ed456f95df65fb4597bdea5e6ea412a81a338e225beb629c2f"
+    },
+    "../collusion-14-infotheory/sim/llm_market.py": {
+      "sha256": "451573ff11e4ce9cbc0e6094d70c426d351bf1c820b6c6fadfcc762ec5a43086",
+      "reuse": "Cache class adapted in sim/common.py"
+    }
+  }
+}

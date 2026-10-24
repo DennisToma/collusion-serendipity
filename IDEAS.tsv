@@ -1,1 +1,3 @@
 time_utc	id	axis	hypothesis	what_would_surprise_us	status	result	verdict
+2026-10-24T14:38:06+00:00	S01	C	Price last digit predicts partner next move beyond linear public history	Pair-specific incremental prediction in both seller families	registered		
+2026-10-24T14:38:06+00:00	S02	A	Pair-only private channel restricts Cournot output	Quantity restriction survives outside differentiated-price markets	registered		
