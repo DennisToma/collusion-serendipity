@@ -2,14 +2,14 @@
 
 ## Current state (2026-10-24 16:18 UTC; Phase 2, iteration 3 complete)
 - S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE; no promoted HIT.
-- S03 (own): 10 games / 5 fresh blocks / T12; 368 cached calls, 8 retries (calculator5/none3), zero failures.
+- S03 (own): 10 games / 5 fresh blocks / T12; 368 cached calls, 8 retries (calculator 5 / none 3), zero failures.
 - Output calculator-none -0.881 [-1.170,-0.489] descriptive bootstrap; t [-1.433,-0.330]; higher-output p=1.
 - Frozen DUD for predicted increase; all five r4-12 contrasts negative but reverse magnitude <1.
-- Controls above Nash; calculator cycles around Nash (all-round mean6.006, only4/5 all-round contrasts negative).
-- Prespecified change +2.689; lag stage regret2.570→0.119; current stage regret2.630→8.259. No collusion claim.
+- Controls above Nash; calculator cycles around Nash (all-round mean 6.006, only 4/5 all-round contrasts negative).
+- Prespecified change +2.689; lag stage regret 2.570→0.119; current stage regret 2.630→8.259. No collusion claim.
 - Mandatory + independent cache-only replay/export/primary/regret checks PASS; full canonical result byte-identical.
-- Codex+Opus design/final reviews complete; 8 S03 tests in21-test pre-run suite +2 publication regressions PASS.
-- All frozen source/data/result hashes match; every raw key consumed once; figure inspected; repo <6MB excluding env/git.
+- Codex+Opus design/final reviews complete; 8 S03 tests in 21-test pre-run suite + 2 publication regressions PASS.
+- All frozen source/data/result hashes match; every raw key consumed once; figure inspected; repo <6 MB excluding env/git.
 - Next: cover D/E/F before deepening. Own S05 authority-label and S06 denomination ideas remain queued.
 - Risks: n5, window phase, bundled cues, API dependence/model identity; frozen transport cutoff not per-internal-retry.
 
@@ -44,3 +44,5 @@
 - 2026-10-24T16:10:58.888576+00:00: S03 finished all ten games; 368 cached calls, eight invalid-output retries, zero failures. Frozen primary -0.881 [-1.170,-0.489], t [-1.433,-0.330], registered upper p=1, reverse descriptive p=.03125. DUD retained (predicted increase failed; reverse magnitude <1). Prespecified change/regret diagnostics and figure show cycling consistent with lagged best responses; no isolated arithmetic mechanism or collusion claim. Mandatory analyzer replay + independent full replay/export/primary/regret checks PASS; byte-identical reanalysis; all frozen hashes match. Added post-outcome interpretive presentation supplement without changing frozen sources or estimates. Final independent Codex and Opus reviews running. No direction deviation or second pilot.
 
 - 2026-10-24T16:18:04.590830+00:00: independent final Codex and Opus critics confirm all numbers and unchanged DUD classification. Codex independently reproduces all 240 game/window metric values, aggregate bootstrap/t intervals and displayed tables; Opus hand-verifies means, exact signs and t arithmetic. Applied baseline-overproduction/phase sensitivity, all-round4/5 signs and lag-regret manipulation-check framing. Added read-only execution/publication audit: all368 keys consumed once, all games finish before cutoff, retries5/3 all overlong reasoning, complete result byte-identical to canonical and bound by SHA256, independent rational verdict DUD. Two mutation/orphan publication regressions PASS. Retained frozen transport internal-retry cutoff limitation explicitly (actual run finished before16:08, no cutoff violation). All frozen sources/data/cache/export/result hashes match; no new LLM calls, tuning, second pilot, HIT or sibling headline change. Report remains33 lines; current work queue D/E/F.
+
+- 2026-10-24T16:18:23.221341+00:00: complete S03 artifacts, data, reports, independent reviews and publication audits committed/pushed as e728926. Result ledger reference finalized. No active generation or review process remains; next iteration should select D/E/F, retaining the unchanged DUD screen and phase/cycling limitations.
