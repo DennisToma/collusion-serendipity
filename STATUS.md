@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T18:52:07.531325+00:00; Phase2, iteration7 RELEASE CHECK)
-- S06 own denomination ODD: ten fresh no-message calculator games/five paired blocks.
-- CENT−UNIT mean quantity -0.266667[-0.518519,-0.022222]; t[-0.658776,+0.125443]; two-sided p=.1875.
+## Current state (2026-10-24T18:56:22.082152+00:00; Phase2, iteration7 COMPLETE)
+- S06 own denomination ODD:10 fresh no-message calculator games/five time-matched pairs.
+- Quantity CENT−UNIT -0.266667[-0.518519,-0.022222]; t[-0.658776,+0.125443]; two-sided p=.1875.
 - Exact block numerators[-8,-19,-3,4,-10]/27; no HIT or sibling headline change.
-- Secondary change+3.451852; all-round quantities6.011111/5.955556; phase sensitivity, not collusion.
-- 362 cached responses/360 actions;2 overlong-reasoning retries in CENT,0 UNIT; zero failures.
-- Exact-request replay/all-key/source/registration/export/payoff checks and cached resume PASS.
+- Prespecified secondary swings/all-round means expose phase sensitivity; no mechanism or collusion claim.
+- 362 responses/360 actions;2 overlong-reasoning retries CENT/0 UNIT, zero failures; last call18:50:08.
+- Mandatory exact-request/all-key/source/registration/export/payoff replay and cached resume PASS.
 - Independent240 cells/24 bootstrap/8 t/exact32 signs and3125 resamples agree; figure inspected.
-- Independent362 saved histories/332 actual tables and local chronology PASS; no server-time attestation.
-- Original13 scientific sources and result SHA f9253e97 unchanged; both final critics exit0; all findings disposed.
--80 discovered tests PASS; supplementary metadata/attempt guards PASS; clean clone next.
-- All axes covered; choose different axis next, favor a new world (A1 procurement/A4 workplace).
+- All362 saved histories/332 tables and raw rejection/timestamp/chronology checks PASS.
+- Original13 scientific sources and result SHA f9253e97 unchanged; both final critics exit0.
+- 80 repo tests PASS; new metadata/duplicate-record contract guard preserves frozen sources.
+- Pushed results afd880d; its clean clone passes11 checks and reproduces5 outputs byte-for-byte.
+- All axes covered; next different axis, favor A1 procurement/A4 workplace; checkpoint20:00UTC.
+- Risks: n5, phase-sensitive mean, calculator assistance, bundled denomination, shared backend.
 
 ## Log
 
@@ -100,3 +102,5 @@
 - 2026-10-24T18:52:07.531325+00:00: S06 finished all10 games/362 responses,360 valid actions,2 overlong-reasoning retries in CENT/0 UNIT, no failure. Frozen verdict ODD: quantity CENT−UNIT -0.26666666666666644, bootstrap[-0.5185185185185187, -0.02222222222222179], paired t[-0.6587763163713949, 0.125442983038062], two-sided p=0.1875. Mandatory all-key exact replay, source/registration/export/payoff/attempt checks, cached resume and independent240-cell/24-bootstrap/8-t/exact-sign verification PASS; all3125 empirical resamples agree. Independent362 saved request histories/332 tables and local chronology PASS. Original13 frozen sources/result unchanged; no tuning, exclusions, pooling or new experiment. Figure inspected. Renderer-only variable-shadowing/idempotence bug corrected before publication; initial traceback preserved in review disposition, canonical scientific result unchanged. Both both final critics exit0; all findings disposed. No direction deviation.
 
 - 2026-10-24T18:55:16.074006+00:00: both final critics exit0 confirm ODD/numbers. Codex independently recomputes all240 raw cells/intervals; Opus hand-checks supplied metric tables and primary t/sign arithmetic, without raw/shell/bootstrap access. Preserved13 frozen sources/result SHA f9253e97. Separate contract wrapper fixes original independent-checker metadata/duplicate-record gap; mutation regression PASS. Independent362 raw-response count/rejection/timestamp check PASS, original attempt auditor matches registration source. Accepted odd-window/all-round scope, declined unsupported deterministic/initial-choice mechanism and secondary promotion.80 discovered tests PASS; full release cached resume/reanalysis/source/requests/chronology/independent-statistics checks PASS. Final results milestone push then clean clone. No new calls, tuning, exclusions, pooling or sibling write.
+
+- 2026-10-24T18:56:22.082152+00:00: iteration7 COMPLETE. Source freeze1bb6619/resultsafd880d pushed. Clean clone of full results commit passes release audit,11 S06 protocol/publication checks and48 local-document links; regenerates5 outputs byte-for-byte (scientific result,summary,figure,independent audit,REPORT).80 discovered repo tests PASS. Independent original attempt-audit source matches registration, every frozen scientific source and result SHA f9253e97 unchanged. Both final critics fully disposed; scientific generation/reviews exited. Updated ledgers, current one-page REPORT/HITS and handoff. No extra game, new estimator, outcome tuning, exclusions, pooling or sibling writes; no direction deviation. Next pilot must use a different axis; favor an actually different world (A1 procurement/A4 workplace) over another Cournot-interface variation.
