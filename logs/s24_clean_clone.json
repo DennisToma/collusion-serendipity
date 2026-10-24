@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "commit": "3440796a4d252586271165e72853214ee52de4d0",
+  "dependency_environment": "Existing venv with frozen dependencies",
+  "byte_identical_artifacts": {
+    "results/s24_identity.json": "236d34b8723f629b976675506040382b208e0c197a488797a6724957eaa4d2d4",
+    "results/s24_summary.md": "2505c18856addbadcd82db10d4c212e6e749bf0b11a978253cb8cb21f757ec19",
+    "logs/s24_independent.json": "6883a96a65f9ef4558773d29783d19bda93d413f5a641c863b8925ef078b970a",
+    "figures/s24_identity.png": "853a0bc75ce524f6b4d45699d3951ae59c813cce336a9db2cb60c7735064888e",
+    "REPORT.md": "379a4ab20000836e313122ccf992a9a2136f284b5e30d3195dd60310ba2da00a",
+    "logs/s24_release.json": "aabb6a2656dddaf8af1dd14b647fec2fe347896cf8ed9a6bb1b0036a345702bd"
+  },
+  "commands": [
+    [
+      "scripts/s24_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s24",
+      "scripts.test_s24_publication"
+    ],
+    [
+      "scripts/s24_checked_independent.py"
+    ],
+    [
+      "scripts/s24_present.py"
+    ]
+  ]
+}
