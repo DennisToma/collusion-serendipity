@@ -105,3 +105,10 @@ hashes and canonical result SHA0b8e2562 unchanged. Final analyze/independent/
 present/release/cache-resume reproduce six core artifacts byte-for-byte;raw
 auxiliary check and all17-event supplement PASS. Results push/remote-clone receipt
 are recorded in STATUS and logs/s29_remote_clean_clone.json after publication.
+
+Publication COMPLETE:results commit 3c4438fa436de1b79e19dfcd1a351e3101aee115 pushed.
+[Fresh origin-remote clean clone](s29_remote_clean_clone.json) passes17 checks,
+all registered offline validation and nine byte-identical artifacts,including
+raw auxiliary and supplement outputs;clone git status clean. Existing frozen
+dependency environment reused explicitly. Full227-test root suite PASS.
+No further scientific call or frozen-source/result change.

@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "utc": "2026-10-24T22:59:42.325147+00:00",
+  "commit": "3c4438fa436de1b79e19dfcd1a351e3101aee115",
+  "observed_remote_main": "3c4438fa436de1b79e19dfcd1a351e3101aee115",
+  "clone_source": "origin remote URL",
+  "full_history": true,
+  "dependency_environment": "Reused installed frozen venv,not a separate installation",
+  "commands": [
+    [
+      "scripts/s29_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s29",
+      "scripts.test_s29_auxiliary",
+      "scripts.test_s25_presentation"
+    ],
+    [
+      "scripts/s29_independent.py"
+    ],
+    [
+      "scripts/s29_present.py"
+    ],
+    [
+      "scripts/s29_auxiliary_check.py"
+    ],
+    [
+      "scripts/s29_action_text.py"
+    ],
+    [
+      "scripts/s21_release.py"
+    ]
+  ],
+  "protocol_and_presentation_checks": 17,
+  "scientific_result_and_source_unchanged": true,
+  "byte_identical_artifacts": {
+    "results/s29_notepad.json": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+    "results/s29_summary.md": "b8a24f0e1c609b9a8bbb60ef7a8b36fa70023877e809a694b2c30d5ab459aaf9",
+    "logs/s29_independent.json": "e34824a4db715a0b98533ecb1899f0b3f0e5f0fbc07b09c77d216d31411c016d",
+    "figures/s29_notepad.png": "5ad87679d8011ce7050986a546348c19baf0b8e5ab93e881d04985f80ddbc765",
+    "REPORT.md": "e99e2c6110329c65b2b67cd527bb1aca0419b2476267dbe3d8c28afeabb403ea",
+    "logs/s29_release.json": "0e4325bc97ac20f5ed2558beae515906ca091ffddedeee5349c04cbbcd3fce75",
+    "logs/s29_raw_auxiliary_check.json": "a218d66c994c7769b8cb6bc46c42d3958d0c08b4a8ff8ff51b5a2cf2287d36b7",
+    "results/s29_action_text.json": "9612aab322f7086b8f90633c7f0ee39165bc7e3e9869d2d57fc7e37a2c45dd41",
+    "results/s29_action_text.md": "941dc2ccb5a102c24a73f2ee969e04e4f21ff69032a5ba115e65efab64453ec9"
+  },
+  "clone_git_status_clean": true
+}
