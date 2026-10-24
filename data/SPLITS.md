@@ -57,3 +57,7 @@ S24: five fresh paired blocks24400..24404; ten shared-note neutral-label workpla
 games, human employees versus AI agents scenario cue; deterministic charge3 both
 arms, T10, primary r3..10. Exploratory, zero tuning, no held-out claim or pooling.
 The full design/source manifest is frozen before live calls.
+
+S25: twenty fresh stateless decisions at the ten selected S21/S19 source histories,
+five source blocks24320..24324. Requested action-first/reason-first output orders,
+zero tuning, no held-out/prevalence or new-game claim. No pooling with S19 outcomes.

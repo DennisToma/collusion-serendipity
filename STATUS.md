@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T22:03:43.608663+00:00; Phase2, iteration14 COMPLETE)
-- S24 F complete:10games/5blocks;300valid gpt-6-luna responses.
-- Human/AI partner Y approvals1/40 each;AI−human0[-.075,.075].
-- Paired t[-.109749,.109749],upper p.75;frozen DUD;no HIT.
-- Identity phrase only;deterministic payoffs/shared notes matched.
-- Zero retries/failures;all300 requests/20 frozen sources PASS.
-- Independent100 cells/30 bootstrap+t summaries/300 histories PASS.
-- Both final critics disposed;Opus supplied-context scope explicit.
-- Full186-test suite PASS;clean-clone20 S24 checks PASS.
-- Six artifacts byte-identical;result SHA236d34b8 unchanged.
-- Source d151cde/results3440796 pushed;clean-clone receipt recorded.
-- REPORT/HITS/ledgers current;zero tuning,pooling or sibling writes.
-- Next:fresh B/C question or queued own S25 serialization-order idea.
-- Risks:n5,low rates,persona bundle;abort cancellation non-atomic.
+## Current state (2026-10-24T22:11:32.107238+00:00; Phase2, iteration15 PRELAUNCH)
+- S25 own registered:20 fresh decisions/10 selected S19 histories/5blocks.
+- Requested action-first versus reason-first JSON order;fixed history/incentives.
+- Primary:action-first minus reason-first adverse target approval rate.
+- Both methodology critics exit0;source/case drift and independent prompt checks fixed.
+- 12 protocol tests/full dry20-key replay/six-summary reconstruction PASS.
+- First arm action3/10/reason7/10;no rebalancing or scientific outcome seen.
+- One-sided HIT requires five positive blocks;selection limits sensitivity.
+- Full suite uses scoped historical S21 synthetic cutoff;real S21 release PASS.
+- Next:freeze/push,launch one-shot20 calls,verify,final reviews,report/push.
+- S24 remains DUD:1/40 each,AI-human0[-.075,.075];186 prior tests.
+- Risks:n5,enriched histories,uncontrolled draws;no hidden-reasoning/causal-null claim.
 
 ## Log
 
@@ -194,3 +192,7 @@
 - 2026-10-24T22:02:29.670116+00:00: S24 final Codex and Opus critics both exit0,confirming DUD/all primary numbers. Codex independently raw-reconstructs counts/bootstrap/sign/t/score and all300 fixed-history phrase contrasts plus complete replay;Opus supplied-context only,scope explicit. Accepted low non-atomic abort/admission race as prospective harness limitation:zero actual failures/aborts,failed datasets never publish;no frozen code mutation. Deferred harmless inherited count-rounding/dead-code cleanup after independent exact verification;declined directional-opposition framing for zero selectivity. Full186tests/figure remain manager checks. Dispositions complete;20 sources and result SHA236d34b8 unchanged. Final release/results push/clean-clone follow.
 
 - 2026-10-24T22:03:43.608663+00:00: iteration14 COMPLETE. S24 sourced151cdeadf80605284a188a41294176fab339d49 and results3440796a4d252586271165e72853214ee52de4d0 committed/pushed. Clean local full-history clone of results commit passes offline release,20 S24 protocol/publication checks and complete independent reconstruction;regenerates six artifacts byte-for-byte(scientific result,summary,figure,independent audit,REPORT,release receipt). logs/s24_clean_clone.json records exact commit/commands/artifact hashes and explicit frozen dependency-environment reuse. Full186-test suite PASS. Both final critics disposed;Codex raw reconstruction and Opus supplied-context-only scope explicit. All20 sources/result SHA236d34b8 unchanged;all300 responses preserved,zero retries/failures. Result ledger points to3440796a4d252586271165e72853214ee52de4d0. REPORT condensed with prior context archived verbatim;S25 own serialization-order proposal queued. No additional scientific calls,prompt/threshold tuning,subgroup/reverse/secondary promotion,pooling,HIT,sibling write,direction deviation or active generation/review process. Next choose fresh B/C or own S25;carry non-atomic abort/admission caveat into any future harness.
+
+- 2026-10-24T22:07:01.845725+00:00: iteration15 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling summaries read-only. Selected queued own S25 after F S24. Registered prospective20-call output-order replay at ten selected S19 histories/five source blocks. Deliberate proposal refinement from new games to fixed histories isolates format from downstream feedback;not a population or hidden-reasoning claim. Ten validity checks/dry full replay and independent six-summary reconstruction PASS after fixing synthetic raw-order roundtrip. No live scientific calls,tuning,pooling or sibling writes. Independent methodology critics next.
+
+- 2026-10-24T22:11:32.107238+00:00: S25 both prelaunch critics exit0;all dispositions retained. Added per-admission/completion hashes for canonical cases and all12 archived S19 inputs;independent20-prompt literal reconstruction/source binding and actual-order timestamp checks;directional/n5 screen caveats.12 tests/final dry20-key replay/six exact bootstrap+t+sign summaries PASS. Scoped synthetic cutoff repair for14 old S21 tests leaves original scientific sources/deadline unchanged;real S21 archive separately passes original release. No live scientific call,tuning,pooling or sibling write.

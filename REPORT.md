@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 14 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 · Iteration 15 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -19,6 +19,7 @@
 | S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
 | S22 · D, stochastic enforcement | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: certain **0.075**, lottery **0.075**; difference **0.000 [-0.125, 0.100]**. | **DUD** for directional screen |
 | S24 · F, team identity | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: human **0.025**, AI **0.025**; difference **0.000 [-0.075, 0.075]**. | **DUD** for directional screen |
+| S25 · own, output field order | Registered: 10 selected S19 histories / 5 source blocks; 20 fresh stateless decisions, requested action-first versus reason-first JSON. Outcomes pending. | **PENDING** |
 
 S24 observed **1/40 partner TYPE-Y approvals in each identity condition**. Low observed rates and five selected blocks limit sensitivity; DUD is a queue decision, not evidence that identity cues are equivalent.
 
