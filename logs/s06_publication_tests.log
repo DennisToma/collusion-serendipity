@@ -1,0 +1,6 @@
+test_rejects_false_metadata_and_duplicate_game (scripts.test_s06_publication.Tests.test_rejects_false_metadata_and_duplicate_game) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK

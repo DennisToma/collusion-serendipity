@@ -17,11 +17,13 @@ def check(out='logs/s06_release.json'):
     from scripts.s06_analyze import analyze
     from sim import denomination
     from scripts.s06_request_audit import main as audit_requests
-    from scripts.s06_independent import check as independent
+    from scripts.s06_checked_independent import check as independent
+    from scripts.s06_chronology import main as chronology
+    from scripts.s06_attempt_check import main as attempts
     d=Path('data/s06_denomination');result=Path('results/s06_denomination.json')
     paths=sorted(p for p in d.rglob('*') if p.is_file() and p.name!='.writer.lock')+[result]
     before={str(p):p.read_bytes() for p in paths}
-    with patch('sim.common.llm.chat',side_effect=AssertionError('Release forbids live calls')),patch.object(denomination,'checked_call',denomination.checked_call):
+    with patch('sim.common.llm.chat',side_effect=AssertionError('Release forbids live calls')):
         with patch.object(sys,'argv',['sim.denomination']):denomination.main()
         actual=analyze(d)
     assert (json.dumps(actual,indent=2)+'\n').encode()==before[str(result)]
@@ -29,6 +31,8 @@ def check(out='logs/s06_release.json'):
     with tempfile.TemporaryDirectory(dir='/var/tmp') as td:
         independent(d,result,Path(td)/'independent.json')
     audit_requests()
+    chronology()
+    attempts()
     cfg=json.loads((d/'config.json').read_text())
     assert not cfg['dry']
     for file,sha in cfg['sources'].items():
@@ -43,7 +47,7 @@ def check(out='logs/s06_release.json'):
             target=Path(doc).parent/href
             assert target.exists() or target.resolve()==Path(out).resolve(),(doc,href)
             checked_links+=1
-    audit=dict(worker_level_abort_propagation=True,independent_raw_request_timing=True,local_document_links_checked=checked_links,cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,
+    audit=dict(worker_level_abort_propagation=True,independent_raw_request_displays=True,within_game_sequential_timestamps=True,inter_block_barriers=True,local_registration_chronology=True,local_document_links_checked=checked_links,cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,independent_metadata_contract=True,independent_raw_attempt_counts=True,
                source_and_registration_hashes=True,registration_commit=cfg['registration_commit'],
                sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
     Path(out).write_text(json.dumps(audit,indent=2)+'\n')
@@ -58,12 +62,12 @@ def clean_clone():
         env=dict(os.environ,VIRTUAL_ENV=str(root/'.venv'),TMPDIR='/var/tmp',PYTHONDONTWRITEBYTECODE='1')
         interpreter=str(root/'.venv/bin/python')
         subprocess.run([interpreter,'scripts/s06_release.py'],cwd=clone,env=env,check=True)
-        subprocess.run([interpreter,'-m','unittest','scripts.test_s06'],cwd=clone,env=env,check=True)
-        scientific=['results/s06_denomination.json','results/s06_summary.md','figures/s06_denomination.png','logs/s06_independent.json']
-        subprocess.run([interpreter,'scripts/s06_independent.py'],cwd=clone,env=env,check=True)
+        subprocess.run([interpreter,'-m','unittest','scripts.test_s06','scripts.test_s06_publication'],cwd=clone,env=env,check=True)
+        scientific=['results/s06_denomination.json','results/s06_summary.md','figures/s06_denomination.png','logs/s06_independent.json','REPORT.md']
+        subprocess.run([interpreter,'scripts/s06_checked_independent.py'],cwd=clone,env=env,check=True)
         subprocess.run([interpreter,'scripts/s06_present.py'],cwd=clone,env=env,check=True)
         assert all((clone/f).read_bytes()==(root/f).read_bytes() for f in scientific)
-        print(f'PASS clean clone {head}: release audit,protocol tests,4 output artifacts byte-identical')
+        print(f'PASS clean clone {head}: release audit,protocol tests,5 output artifacts byte-identical')
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--clean-clone',action='store_true');a=p.parse_args()

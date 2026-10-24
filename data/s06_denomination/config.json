@@ -1,0 +1,33 @@
+{
+  "version": "denomination-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 12,
+  "n": 5,
+  "seed0": 24160,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/denomination.py": "99e76855af2dfebf0124f3fa6acda3c82b6da38470da5718a5014393c218b1ae",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S06.md": "b515f03eb90cc0fbb3cc5941bdc33be6cf196be131366f219ba984306ed39dd2",
+    "scripts/s06_analyze.py": "ea6db3ac71486b9731c440b031cd73680bc44e17abea48be61881ad1c1f604ce",
+    "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "scripts/test_s06.py": "610b7685acf9503fa3ab5d8476fe919ba766e8c02a7217e729b9a983528be6a1",
+    "scripts/s06_independent.py": "64672603a4117d8d7ecde77f3b15d1500a0cbd67983356ec2f60ec07e5268c8e",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-24T19:15:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "1bb661962d23857370c2e0f8475653bb0cfb4aa2"
+}

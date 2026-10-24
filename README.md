@@ -267,7 +267,7 @@ exploratory, not equivalence testing or a collusion label.
 ```bash
 TMPDIR=/var/tmp uv run python -m sim.denomination
 uv run python scripts/s06_analyze.py
-uv run python scripts/s06_independent.py
+uv run python scripts/s06_checked_independent.py
 uv run python scripts/s06_retry_audit.py
 uv run python scripts/s06_request_audit.py
 uv run python scripts/s06_present.py
@@ -287,3 +287,10 @@ Dry runs need a separate destination, e.g. `uv run python -m sim.denomination --
 --out /var/tmp/s06_offline`; dry analysis requires `--allow-dry` and a separate
 `--out`. Choose a fresh dry directory after source changes. No sibling checkout
 or model credentials are needed for archived replay/publication.
+
+S06 final-review note: the original frozen independent checker verifies arithmetic
+but does not validate report metadata or duplicate result-game records. Use
+`s06_checked_independent.py` above; its contract guard requires the registered
+contrast/window/count/denominator and ten unique records before the unchanged
+independent arithmetic check. The release audit also binds the complete result
+to canonical reanalysis. Original scientific sources and result bytes are preserved.

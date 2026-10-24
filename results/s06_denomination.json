@@ -1,0 +1,651 @@
+{
+  "primary_metric": "quantity",
+  "primary_contrast": "cent minus unit",
+  "secondary_contrast": "cent minus unit",
+  "pilot": "S06",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "quantity": {
+      "unit": {
+        "mean": 5.962962962962963,
+        "ci95": [
+          5.9037037037037035,
+          6.0
+        ]
+      },
+      "cent": {
+        "mean": 5.696296296296297,
+        "ci95": [
+          5.45925925925926,
+          5.9037037037037035
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.26666666666666644,
+        "ci95": [
+          -0.5185185185185187,
+          -0.02222222222222179
+        ],
+        "paired_t_ci95": [
+          -0.6587763163713949,
+          0.125442983038062
+        ],
+        "exact_signflip_p_upper": 0.9375,
+        "exact_signflip_p_lower": 0.09375,
+        "exact_signflip_p_two_sided": 0.1875
+      },
+      "seed_differences": [
+        -0.29629629629629584,
+        -0.7037037037037042,
+        -0.11111111111111072,
+        0.1481481481481488,
+        -0.37037037037037024
+      ],
+      "exact_seed_difference_numerators": [
+        -8,
+        -19,
+        -3,
+        4,
+        -10
+      ],
+      "exact_denominator": 27
+    },
+    "price": {
+      "unit": {
+        "mean": 12.11111111111111,
+        "ci95": [
+          12.0,
+          12.288888888888888
+        ]
+      },
+      "cent": {
+        "mean": 13.2,
+        "ci95": [
+          12.288888888888888,
+          14.488888888888889
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.088888888888889,
+        "ci95": [
+          0.08888888888888893,
+          2.422222222222222
+        ],
+        "paired_t_ci95": [
+          -0.7784550409888733,
+          2.9562328187666513
+        ]
+      },
+      "seed_differences": [
+        0.8888888888888893,
+        3.5555555555555554,
+        0.3333333333333339,
+        -0.44444444444444464,
+        1.1111111111111107
+      ]
+    },
+    "profit": {
+      "unit": {
+        "mean": 35.666666666666664,
+        "ci95": [
+          34.75555555555555,
+          36.24444444444445
+        ]
+      },
+      "cent": {
+        "mean": 21.896296296296295,
+        "ci95": [
+          3.1851851851851825,
+          33.8
+        ]
+      },
+      "paired_difference": {
+        "mean": -13.770370370370369,
+        "ci95": [
+          -33.31111111111111,
+          -0.9555555555555536
+        ],
+        "paired_t_ci95": [
+          -40.8309579704601,
+          13.29021722971936
+        ]
+      },
+      "seed_differences": [
+        -8.074074074074073,
+        -51.851851851851855,
+        -1.6666666666666643,
+        2.074074074074076,
+        -9.333333333333332
+      ]
+    },
+    "actual_stage_regret": {
+      "unit": {
+        "mean": 1.0296296296296297,
+        "ci95": [
+          0.0,
+          3.0740740740740735
+        ]
+      },
+      "cent": {
+        "mean": 25.037037037037038,
+        "ci95": [
+          4.718518518518519,
+          56.703703703703695
+        ]
+      },
+      "paired_difference": {
+        "mean": 24.007407407407406,
+        "ci95": [
+          2.177777777777778,
+          56.074074074074076
+        ],
+        "paired_t_ci95": [
+          -21.21820758952189,
+          69.23302240433671
+        ]
+      },
+      "seed_differences": [
+        15.592592592592593,
+        86.92592592592592,
+        4.0,
+        -5.111111111111111,
+        18.62962962962963
+      ]
+    },
+    "lag_conditional_regret": {
+      "unit": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "cent": {
+        "mean": 1.4074074074074074,
+        "ci95": [
+          0.11851851851851851,
+          3.303703703703704
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.4074074074074074,
+        "ci95": [
+          0.11851851851851851,
+          3.303703703703704
+        ],
+        "paired_t_ci95": [
+          -1.2118654808145024,
+          4.026680295629317
+        ]
+      },
+      "seed_differences": [
+        0.5925925925925926,
+        5.037037037037037,
+        0.0,
+        0.0,
+        1.4074074074074074
+      ]
+    },
+    "distance_nash": {
+      "unit": {
+        "mean": 0.22962962962962963,
+        "ci95": [
+          0.0,
+          0.6740740740740742
+        ]
+      },
+      "cent": {
+        "mean": 2.051851851851852,
+        "ci95": [
+          0.8,
+          3.7555555555555555
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.8222222222222224,
+        "ci95": [
+          -0.06666666666666661,
+          3.7333333333333334
+        ],
+        "paired_t_ci95": [
+          -1.016256962741998,
+          4.660701407186442
+        ]
+      },
+      "seed_differences": [
+        2.0000000000000004,
+        5.222222222222222,
+        1.0,
+        -1.1111111111111112,
+        2.0
+      ]
+    },
+    "absolute_change": {
+      "unit": {
+        "mean": 0.48888888888888893,
+        "ci95": [
+          0.007407407407407407,
+          1.4
+        ]
+      },
+      "cent": {
+        "mean": 3.940740740740741,
+        "ci95": [
+          1.540740740740741,
+          7.125925925925927
+        ]
+      },
+      "paired_difference": {
+        "mean": 3.4518518518518526,
+        "ci95": [
+          0.16296296296296325,
+          7.051851851851852
+        ],
+        "paired_t_ci95": [
+          -1.9496209758500251,
+          8.85332467955373
+        ]
+      },
+      "seed_differences": [
+        3.9629629629629637,
+        9.777777777777779,
+        1.962962962962963,
+        -2.2962962962962963,
+        3.8518518518518525
+      ]
+    },
+    "all_equal": {
+      "unit": {
+        "mean": 0.9333333333333332,
+        "ci95": [
+          0.8444444444444444,
+          1.0
+        ]
+      },
+      "cent": {
+        "mean": 0.6444444444444445,
+        "ci95": [
+          0.39999999999999997,
+          0.888888888888889
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.2888888888888889,
+        "ci95": [
+          -0.5555555555555556,
+          0.02222222222222221
+        ],
+        "paired_t_ci95": [
+          -0.7526569127191243,
+          0.17487913494134638
+        ]
+      },
+      "seed_differences": [
+        -0.5555555555555556,
+        -0.5555555555555556,
+        0.0,
+        0.2222222222222222,
+        -0.5555555555555556
+      ]
+    }
+  },
+  "games": [
+    {
+      "seed": 24160,
+      "condition": "cent",
+      "primary": {
+        "quantity": 5.703703703703704,
+        "price": 12.88888888888889,
+        "profit": 27.925925925925927,
+        "actual_stage_regret": 15.592592592592593,
+        "lag_conditional_regret": 0.5925925925925926,
+        "distance_nash": 2.0000000000000004,
+        "absolute_change": 3.9629629629629637,
+        "all_equal": 0.4444444444444444
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 19.999999999999996,
+        "actual_stage_regret": 21.555555555555557,
+        "lag_conditional_regret": 0.606060606060606,
+        "distance_nash": 2.277777777777778,
+        "absolute_change": 4.3939393939393945,
+        "all_equal": 0.3333333333333333
+      },
+      "final": {
+        "quantity": 5.333333333333333,
+        "price": 14.0,
+        "profit": 42.666666666666664,
+        "actual_stage_regret": 2.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.6666666666666666,
+        "absolute_change": 1.3333333333333333,
+        "all_equal": 0.0
+      }
+    },
+    {
+      "seed": 24160,
+      "condition": "unit",
+      "primary": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24161,
+      "condition": "cent",
+      "primary": {
+        "quantity": 5.2592592592592595,
+        "price": 15.666666666666666,
+        "profit": -15.444444444444448,
+        "actual_stage_regret": 86.96296296296296,
+        "lag_conditional_regret": 5.037037037037037,
+        "distance_nash": 5.2592592592592595,
+        "absolute_change": 9.88888888888889,
+        "all_equal": 0.3333333333333333
+      },
+      "all_rounds": {
+        "quantity": 5.749999999999999,
+        "price": 13.833333333333334,
+        "profit": -17.61111111111111,
+        "actual_stage_regret": 80.55555555555556,
+        "lag_conditional_regret": 4.121212121212121,
+        "distance_nash": 4.916666666666666,
+        "absolute_change": 9.515151515151514,
+        "all_equal": 0.25
+      },
+      "final": {
+        "quantity": 3.3333333333333335,
+        "price": 20.0,
+        "profit": 46.666666666666664,
+        "actual_stage_regret": 29.666666666666668,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 2.6666666666666665,
+        "absolute_change": 5.0,
+        "all_equal": 0.0
+      }
+    },
+    {
+      "seed": 24161,
+      "condition": "unit",
+      "primary": {
+        "quantity": 5.962962962962964,
+        "price": 12.11111111111111,
+        "profit": 36.407407407407405,
+        "actual_stage_regret": 0.037037037037037035,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.037037037037037035,
+        "absolute_change": 0.1111111111111111,
+        "all_equal": 0.8888888888888888
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 35.72222222222222,
+        "actual_stage_regret": 0.36111111111111116,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.16666666666666666,
+        "absolute_change": 0.303030303030303,
+        "all_equal": 0.6666666666666666
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24162,
+      "condition": "cent",
+      "primary": {
+        "quantity": 5.888888888888889,
+        "price": 12.333333333333334,
+        "profit": 34.333333333333336,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 32.61111111111111,
+        "actual_stage_regret": 4.5,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0555555555555556,
+        "absolute_change": 2.090909090909091,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24162,
+      "condition": "unit",
+      "primary": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.037037037037037035,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.027777777777778,
+        "price": 11.916666666666666,
+        "profit": 35.416666666666664,
+        "actual_stage_regret": 0.3333333333333333,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.13888888888888887,
+        "absolute_change": 0.2424242424242424,
+        "all_equal": 0.75
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24163,
+      "condition": "cent",
+      "primary": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 35.94444444444444,
+        "actual_stage_regret": 0.08333333333333333,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.1111111111111111,
+        "absolute_change": 0.09090909090909091,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24163,
+      "condition": "unit",
+      "primary": {
+        "quantity": 5.851851851851851,
+        "price": 12.444444444444445,
+        "profit": 33.925925925925924,
+        "actual_stage_regret": 5.111111111111111,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.1111111111111112,
+        "absolute_change": 2.2962962962962963,
+        "all_equal": 0.7777777777777778
+      },
+      "all_rounds": {
+        "quantity": 6.027777777777778,
+        "price": 11.916666666666666,
+        "profit": 30.083333333333332,
+        "actual_stage_regret": 7.638888888888888,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.3055555555555556,
+        "absolute_change": 2.575757575757576,
+        "all_equal": 0.5833333333333334
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24164,
+      "condition": "cent",
+      "primary": {
+        "quantity": 5.62962962962963,
+        "price": 13.11111111111111,
+        "profit": 26.666666666666668,
+        "actual_stage_regret": 18.62962962962963,
+        "lag_conditional_regret": 1.4074074074074074,
+        "distance_nash": 2.0,
+        "absolute_change": 3.8518518518518525,
+        "all_equal": 0.4444444444444444
+      },
+      "all_rounds": {
+        "quantity": 6.027777777777778,
+        "price": 11.916666666666666,
+        "profit": 13.972222222222221,
+        "actual_stage_regret": 29.305555555555554,
+        "lag_conditional_regret": 1.1515151515151516,
+        "distance_nash": 2.4722222222222223,
+        "absolute_change": 4.575757575757576,
+        "all_equal": 0.3333333333333333
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24164,
+      "condition": "unit",
+      "primary": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    }
+  ],
+  "cached_responses": 362,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Denomination bundles numeric magnitude, formatting and explicit conversion cue; not real stakes",
+    "Lag-conditioned table is not a forecast or a dynamic optimum",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No messages and no verified agreement/execution labels",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}

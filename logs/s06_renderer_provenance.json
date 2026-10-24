@@ -1,0 +1,8 @@
+{
+  "registration_commit": "1bb661962d23857370c2e0f8475653bb0cfb4aa2",
+  "renderer": "scripts/s06_present.py",
+  "renderer_scientifically_frozen": false,
+  "revised_after_outcomes": true,
+  "changes": "Variable shadowing and repeat-run correction; explicit phase/CI/secondary scope; scientific estimates unchanged",
+  "sha256": "a5b6924543ec9e05fa44aa357b0a50bd4a4ce4b09e817b9979f5b67bf9d790fe"
+}

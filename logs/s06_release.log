@@ -1,0 +1,62 @@
+S06 all ten games and exports complete
+{
+  "independent_metric_cells": 240,
+  "bootstrap_intervals": 24,
+  "paired_t_intervals": 8,
+  "primary_numerators": [
+    -8,
+    -19,
+    -3,
+    4,
+    -10
+  ],
+  "primary_mean": -0.26666666666666666,
+  "upper_p": 0.9375,
+  "lower_p": 0.09375,
+  "two_sided_p": 0.1875,
+  "verdict": "ODD",
+  "exact_3125_bootstrap_ci95": [
+    -0.5185185185185185,
+    -0.022222222222222223
+  ],
+  "sha256": {
+    "data/s06_denomination/raw/responses.jsonl": "db942dee23b5b0a4d74d8400b64bbc153278dca71b9ca69f226ff7883a03f65b",
+    "data/s06_denomination/raw/requests.jsonl": "45a20c56e191bd43f3caca8687ed0a2d2e080818da963b7028b2bcedc6ee1c7f",
+    "results/s06_denomination.json": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3"
+  }
+}
+{
+  "independent_saved_requests": 362,
+  "independent_actual_tables": 332,
+  "all_displayed_money_scaled": true,
+  "all_history_rounds_and_quantities_unchanged": true,
+  "conversion_and_formula_cues_verified": true
+}
+{
+  "observed_utc": "2026-10-24T18:55:03.313065+00:00",
+  "registration_commit": "1bb661962d23857370c2e0f8475653bb0cfb4aa2",
+  "remote_observation_utc": "2026-10-24T18:34:21.978709+00:00",
+  "first_client_call_started_utc": "2026-10-24T18:34:22.199214+00:00",
+  "last_client_call_completed_utc": "2026-10-24T18:50:07.978740+00:00",
+  "remote_seen_before_first_call": true,
+  "source_hashes_unchanged": true,
+  "server_time_attested": false
+}
+{
+  "independent_raw_responses_checked": 362,
+  "extra_requests_by_arm": {
+    "cent": 2
+  },
+  "rejected_responses_by_arm": {
+    "cent": 2
+  },
+  "valid_actions_by_arm": {
+    "cent": 180,
+    "unit": 180
+  },
+  "rejection_reasons_verified": true,
+  "first_last_timestamps_verified": true,
+  "original_attempt_auditor_matches_registration": true,
+  "result_sha256": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3"
+}
+PASS: cached resume, exact analysis bytes, independent arithmetic, sources/registration; 17 artifacts

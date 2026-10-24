@@ -1,0 +1,12 @@
+....................................s07_24080_legality complete 36 calls
+/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/traceback.py:241: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/tmp/tmp8b5yokzh/.writer.lock' mode='w' encoding='UTF-8'>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.................................
+----------------------------------------------------------------------
+Ran 80 tests in 2.211s
+
+OK

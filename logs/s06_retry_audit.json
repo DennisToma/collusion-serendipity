@@ -1,0 +1,23 @@
+{
+  "valid_decisions": {
+    "cent": 180,
+    "unit": 180
+  },
+  "rejected_responses": {
+    "cent": 2
+  },
+  "retry_requests": {
+    "cent": 2
+  },
+  "rejection_reasons": {
+    "cent": {
+      "reasoning_over_40_words": 2
+    }
+  },
+  "cached_responses": 362,
+  "first_call_started_utc": "2026-10-24T18:34:22.199214+00:00",
+  "last_call_completed_utc": "2026-10-24T18:50:07.978740+00:00",
+  "all_routes_pinned": true,
+  "all_360_attempt_sequences_valid": true,
+  "all_logical_calls_before_cutoff": true
+}

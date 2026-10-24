@@ -1,0 +1,17 @@
+{
+  "independent_raw_responses_checked": 362,
+  "extra_requests_by_arm": {
+    "cent": 2
+  },
+  "rejected_responses_by_arm": {
+    "cent": 2
+  },
+  "valid_actions_by_arm": {
+    "cent": 180,
+    "unit": 180
+  },
+  "rejection_reasons_verified": true,
+  "first_last_timestamps_verified": true,
+  "original_attempt_auditor_matches_registration": true,
+  "result_sha256": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3"
+}

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 7 (S06 registered) · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 7 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -11,17 +11,15 @@
 | S07 · F, anti-coordination rule | 10 games, 5 blocks. Pair output r4–12: neutral **5.800**, legality **4.844**; difference **-0.956 [-2.889, +0.267]**. | **DUD for predicted increase** |
 | S09 · E, transcript-removal replay | 10 six-round continuations / 5 observed prefixes. Pair output r7–12: retain **5.900**, erase **6.000**; difference **+0.100 [+0.000, +0.300]**. | **DUD** for directional screen; near-Nash baseline |
 | S11 · D, delayed feedback | 10 no-message calculator games / 5 time-matched pairs. Mean consecutive output change r4–12: immediate **2.430**, delayed **1.526**; reduction **+0.904 [-0.089, +1.815]**. | **ODD** for timing screen |
-| S06 · own, denomination | Registered: ten fresh games, k1 vs k100; identical real incentives. No live results yet. | Pending |
+| S06 · own, denomination | 10 games / 5 time-matched pairs. Mean quantity r4–12: UNIT **5.963**, CENT **5.696**; difference **-0.267 [-0.519, -0.022]**. | **ODD** for invariance screen |
 
-**S11:** immediate−delayed change, paired t95% **[-0.630, +2.438]**, upper sign-flip **p=0.09375**. Four of five block differences are positive; the HIT screen is unmet. At n5, HIT means all five strictly positive differences and mean reduction≥1; its bootstrap/sign conditions are not independent checks. Secondary mean quantity delayed−immediate **-0.030 [-0.148, +0.067]**, t95% [-0.206, +0.147]. [All outcomes, blocks and figure](results/s11_summary.md).
+**S06:** all displayed prices/profits and conditional tables scale100x, with explicit conversion and identical real incentives. CENT−UNIT quantity: paired t95% **[-0.659, 0.125]**, two-sided sign-flip **p=0.1875**. The registered .10 queue threshold allows the n5 minimum p=.0625; this is exploratory. The bootstrap excludes zero while the t interval and sign screen do not resolve a mean shift; ODD is retained. The odd nine-round window is phase-sensitive, with all-round arm means near Nash. Denomination bundles magnitude, formatting and numeric conversion cue in calculator-assisted games. No equivalence or collusion claim. [All outcomes and figure](results/s06_summary.md).
 
-The delay withholds all feedback, including own actions/profits; delayed round2 also lacks the calculator. Both arms retain the same payoff rule and never communicate. Slower consecutive changes do not establish convergence, lower long-run variance, learning or reduced collusion. Symmetric best-response cycles initialized away from Nash can slow under delay; that alone is not surprising evidence of a new coordination mechanism. Block IDs pair games by execution time and do not seed model draws or initial states. The short primary window is phase-sensitive; S03 is motivation, not pooled data.
-
-**Earlier caveats:** S01 digits are deterministic functions of exact prices; its linear screen cannot identify coding. S02 n3 is inconclusive and also replayed own sent messages. S04 fails its routable-exposure gate (17.8%<25%, a screening convention, not calibrated power). S03 is phase-sensitive cycling from above-Nash controls. S07 is dominated by one low-output block, and rule wording and channel use remain bundled. S09 removes incoming round6 information as well as older message history; public imprint and future renegotiation remain, with previously observed prefixes. [Earlier detail](REPORT_DETAILS.md) · [S07](results/s07_summary.md) · [S09](results/s09_summary.md).
+**Earlier caveats:** S11 compares delayed feedback including own recall/warmup; slower consecutive changes do not establish convergence or reduced collusion. [S11 details](results/s11_summary.md). S01 digits are deterministic functions of exact prices; its linear screen cannot identify coding. S02 n3 is inconclusive and also replayed own sent messages. S04 fails its routable-exposure gate (17.8%<25%, a screening convention, not calibrated power). S03 is phase-sensitive cycling from above-Nash controls. S07 is dominated by one low-output block, and rule wording and channel use remain bundled. S09 removes incoming round6 information as well as older message history; public imprint and future renegotiation remain, with previously observed prefixes. [Earlier detail](REPORT_DETAILS.md) · [S07](results/s07_summary.md) · [S09](results/s09_summary.md).
 
 Fresh markets have three firms, integer output, P=max(0,30-total output), cost6; symmetric static Nash q6, P12, profit36. S09 has only six new rounds per continuation; source prefix is context. No verified agreement/execution labels; quantity, message influence and profitable coordination are distinct. Tiny samples, exploratory selection, multiple pilots and shared-backend interference limit inference. Model labels are client metadata; sampling/temperature and OS isolation are not independently attested. No sibling headline change.
 
-[Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [S11](DESIGN_S11.md) · [Reproduce](README.md).
-**Next:** A/B/C/D/E/F/own portfolio coverage complete. Choose a fresh own-axis invariance pilot (queued denomination S06) or a justified independent confirmation; avoid deepening on a secondary result.
+[Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [S11](DESIGN_S11.md) · [S06](DESIGN_S06.md) · [Reproduce](README.md).
+**Next:** Portfolio complete; choose a different axis next, or a justified fresh confirmation. Keep checkpoint documents presentable; no secondary-driven promotion.
 
-[S11 replay/release verification](logs/s11_release.json) · [Independent checks](logs/s11_independent.json) · [Review dispositions](logs/s11_review_disposition.md).
+[S06 replay/release verification](logs/s06_release.json) · [Independent checks](logs/s06_independent.json) · [Review dispositions](logs/s06_review_disposition.md).
