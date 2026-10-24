@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24 17:31 UTC; Phase2, iteration5 results)
-- Prior pilots S01/S03/S07 DUD; S02 ODD; S04 ODD/UNINFORMATIVE. S09 DUD.
-- S09:10 six-round continuations of all5 observed neutral S07 prefixes; 183 cached calls, retries{'retain': 3, 'erase': 0}; no failures.
-- Pair output erase-retain +0.100[+0.000,+0.300], t[-0.178,+0.378], upper p=0.50000.
-- Fork round7 output difference +0.200; full outcomes/figure in results/s09_summary.md.
-- Public prefix identical; both received transcripts jointly removed; new messages can repair from r8.
-- Full cache-only replay, source/registration/prefix/export/payoff checks PASS; cached resume byte-identical.
-- Independent210 cells,22 bootstrap and7 t intervals, exact primary/p/verdict PASS;19 new/52 discovered tests PASS.
-- Registration4474418 pushed before all calls; every response completed before17:48 cutoff.
-- Opus design complete; Codex first transport-timeout/partial audit retained; retry/final status below.
-- Next: complete independent final reviews and push; then D is sole uncovered portfolio axis.
-- Risks: n5 observed prefixes, empty-inbox cues, public imprint/new-message repair, no OS isolation/truth labels.
+## Current state (2026-10-24 17:46 UTC; Phase2, iteration5 final verification)
+- S09 E DUD:10 six-round continuations/all5 observed S07-neutral prefixes; no HIT or sibling headline change.
+- Pair output erase-retain +0.100[0.000,0.300], t[-0.178,+0.378], upper sign-flip p=.5; retain5.9 near Nash6.
+- 183 cached calls/180 valid decisions;3 overlong-reasoning retries, all retain; no failed game or exclusion.
+- Jointly withholds old transcripts AND unread round6 incoming messages; later renegotiation remains possible.
+- Full cache-only replay/source/prefix/export/payoff checks PASS; cached resume/result bytes unchanged.
+- Separate210-cell/22-bootstrap/7-t recomputation PASS; exact3125-resample primary/fork checks agree.
+- All19 new/52 discovered tests PASS; first clean clone reproduces6 outputs; extended clone audit next.
+- Independent Codex+Opus design AND final reviews complete; dispositions/first transport-timeout retained.
+- Frozen source4474418, results c39abfa pushed; client push chronology verified, server timestamp unattested.
+- Source/result SHA unchanged; figures inspected; final docs distinguish screen failure from equivalence.
+- Next: final clean-check/push, then D is sole untouched axis; own S05/S06/S08/S10 queued.
+- Risks: n5 seen prefixes, near-Nash headroom, inbox cues/public imprint, unattested OS isolation/truth labels.
 
 ## Log
 
@@ -74,3 +75,7 @@
 - 2026-10-24T17:30:35.396981+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.
 
 - 2026-10-24T17:31:55.641601+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.
+
+- 2026-10-24T17:41:54.204015+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.
+
+- 2026-10-24T17:46:17.895409+00:00: final Codex/Opus reviews exit0 confirm unchanged DUD and all checked numbers. Codex independently reproduces raw210 cells/all intervals/keys/prompt timing/source hashes; Opus analytically checks primary/fork bootstrap and t/sign arithmetic from per-game records. Applied scope clarification: erasure includes unread round6 incoming messages, not pure forgetting; future messages permit renegotiation rather than arbitrary-content recovery. Retained frozen design/source/result unchanged; declined posthoc UNINFORMATIVE gate and unsupported power/contamination-direction claims. Post-review exact3125-resample enumeration agrees with primary/fork bounds; raw audit confirms all90 erase actions q6 and retain pair counts threeq4/57q6. Marked diagnostics posthoc, no exclusion/secondary promotion. Current source/result hashes unchanged; reviewed figure. Full scientific data/requests/responses already committed/pushed c39abfa and reproduced in clean clone; final revised-summary portable audit follows. Server push timestamp unavailable without configured GitHub API auth; observed remote ancestry/client chronology retained explicitly without independent server-time claim. No active generation/review process.

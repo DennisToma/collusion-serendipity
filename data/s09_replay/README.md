@@ -36,3 +36,11 @@ identity is re-extracted from the original S07 neutral games before analysis.
 The release script blocks live calls and requires cached resume to preserve all
 input and result bytes. See `DESIGN_S09.md`, `results/s09_summary.md`, and the
 independent review files under `logs/s09_*` for inference and isolation limitations.
+
+Round6 messages were not in the source agents' round6 decision prompts: they
+would first be read at round7. Erasure therefore blocks incoming information as
+well as prior transcript history. From round8 agents can renegotiate from public
+history; exact deleted content need not be recovered. After17:48 the generator
+command is an archive resume, not fresh generation. Independent server-side push
+time is not attested; see `logs/s09_remote_push_evidence.json` for client evidence
+and observed remote ancestry.

@@ -8,7 +8,7 @@ assert audit['canonical_result_identical'] and audit['independent']['verdict']==
 assert r['dry'] is False
 stamp=datetime.now(timezone.utc).isoformat();display=datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 q=r['metrics']['quantity'];z=q['paired_difference'];v=r['verdict'];lo,hi=z['ci95'];tlo,thi=z['paired_t_ci95']
-row=(f"| S09 · E, transcript-memory replay | 10 six-round continuations / 5 observed prefixes. Pair output r7–12: retain **{q['retain']['mean']:.3f}**, erase **{q['erase']['mean']:.3f}**; difference **{z['mean']:+.3f} [{lo:+.3f}, {hi:+.3f}]**. | **{v}** for predicted increase |")
+row=(f"| S09 · E, transcript-removal replay | 10 six-round continuations / 5 observed prefixes. Pair output r7–12: retain **{q['retain']['mean']:.3f}**, erase **{q['erase']['mean']:.3f}**; difference **{z['mean']:+.3f} [{lo:+.3f}, {hi:+.3f}]**. | **{v}** for directional screen; near-Nash baseline |")
 old=Path('REPORT.md').read_text();prior=[line for line in old.splitlines() if line.startswith('| S0') and not line.startswith('| S09')]
 intro=('**No hits promoted.**' if v!='HIT' else '**S09 quantity-memory HIT; see HITS.md for narrow handoff.**')
 screen=('The directional screen failed; this does not establish equivalence or no message effect.' if v=='DUD' else
@@ -25,7 +25,7 @@ text=f'''# Serendipity log — Beyond Words
 
 **S09:** erase–retain paired t95% **[{tlo:+.3f}, {thi:+.3f}]**, upper sign-flip **p={z['exact_signflip_p_upper']:.5f}**. {screen} At n5, HIT requires all five positive differences and a mean increase ≥1. Round7-only difference **{fork['mean']:+.3f} [{fork['ci95'][0]:+.3f}, {fork['ci95'][1]:+.3f}]**. Retain output is near symmetric Nash6; the +1 screen would require erase mean {q['retain']['mean']+1:.3f}. Pair-profit difference **{profit['mean']:+.3f}**, t95% [{profit['paired_t_ci95'][0]:+.3f}, {profit['paired_t_ci95'][1]:+.3f}]. [All outcomes and figure](results/s09_summary.md).
 
-Both firms jointly lose their received-message transcripts from rounds1–6; public history is initially identical and future boxes stay open. All five source prefixes were previously observed, including their original suffixes, and none was selected out. Public actions retain earlier message imprint; new messages may repair missing information. Empty-inbox cues and message semantics remain bundled. The original suffix is not a control, and this is not independent-seed replication or the original channel's causal effect.
+Both firms jointly lose messages sent in rounds1–6; round6 messages would first appear in round7, so the intervention blocks incoming information as well as previously seen history. Public history is initially identical and future boxes stay open. All five source prefixes were previously observed, including their original suffixes, and none was selected out. Public actions retain earlier message imprint; new messages may rebuild coordination from public history. Empty-inbox cues and message semantics remain bundled. The original suffix is not a control, and this is not pure forgetting, independent-seed replication or the original channel's causal effect.
 
 **Earlier caveats:** S01 digits are deterministic functions of exact prices; its linear prediction screen cannot identify coding. S02 n3 is inconclusive (exact lower p=.25; paired t [-2.099,+1.136]) and also replayed own sent messages. S04 fails its prespecified routable-exposure screen (17.8%<25%, a screening convention, not calibrated power). S03's output reduction is phase-sensitive cycling from above-Nash controls. S07's mean is dominated by one market-wide low-output block; its rule cue and realized channel use are unseparated. [Full earlier results](REPORT_DETAILS.md).
 
@@ -56,7 +56,7 @@ current=f'''## Current state ({display}; Phase2, iteration5 results)
 - S09:10 six-round continuations of all5 observed neutral S07 prefixes; {r['cached_responses']} cached calls, retries{r['retries_by_arm']}; no failures.
 - Pair output erase-retain {z['mean']:+.3f}[{lo:+.3f},{hi:+.3f}], t[{tlo:+.3f},{thi:+.3f}], upper p={z['exact_signflip_p_upper']:.5f}.
 - Fork round7 output difference {fork['mean']:+.3f}; full outcomes/figure in results/s09_summary.md.
-- Public prefix identical; both received transcripts jointly removed; new messages can repair from r8.
+- Public prefix identical; both transcripts jointly removed, including unread r6 messages; later renegotiation remains possible.
 - Full cache-only replay, source/registration/prefix/export/payoff checks PASS; cached resume byte-identical.
 - Independent210 cells,22 bootstrap and7 t intervals, exact primary/p/verdict PASS;19 new/52 discovered tests PASS.
 - Registration4474418 pushed before all calls; every response completed before17:48 cutoff.

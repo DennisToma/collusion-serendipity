@@ -72,3 +72,48 @@ retry audit retained without exclusions. Five primary difference numerators are
 checks and cached-resume byte preservation pass. Figure inspected after common-axis
 revision; near-Nash headroom interpretation explicitly marked post-outcome, not a
 rule revision. All frozen sources and canonical result bytes unchanged.
+
+## Final reviews and dispositions
+
+Codex final exit0: independently recalculated210 metric cells,22 bootstrap and7 t
+intervals from raw games, exact signs/verdict, prompt/inbox timing, key uniqueness,
+registration/source/release hashes and seed barriers. No confirmed code/statistical
+bug. Accepted its scope correction: source-round6 messages had not entered a prior
+decision prompt, so withholding1–6 mixes lost prior transcript and blocked incoming
+information. REPORT/summary/HITS/README now describe transcript visibility rather
+than pure forgetting. Frozen design wording/source/result bytes are preserved.
+
+Opus final exit0: independently recalculated means, signs, paired t intervals and
+primary/fork bootstrap bounds analytically from per-game records. It explicitly
+had no raw-file tools and did not recompute message-length bootstrap; those are
+covered by the Codex raw recomputation and independent checker, not claimed Opus work.
+- Items1–2: full caches/results/figure already committed and pushed in c39abfa after
+  the Opus snapshot. Clean local clone reproduced six then-checked outputs exactly,
+  passed19 tests and33 links. Extended clean check includes the new exact diagnostic.
+  `raw/` is tracked, not ignored. Docs clarify archive-only cached resume after cutoff.
+  SSH remote ancestry observed and retained; GitHub API CLI lacks authentication, so
+  no independent server push timestamp obtained or claimed. Client push record and
+  orchestrator command completion support chronology; server timing is unattested.
+- Item3 accepted clearer wording: later messages can rebuild coordination/renegotiate
+  from public history, rather than recover arbitrary deleted bits. No information
+  recovery was measured. Original frozen DESIGN is not rewritten after outcomes.
+- Item4: retain5.9 near symmetric Nash6 and +1 screen requiring aggregate6.9 are
+  emphasized in table/text, with explicit no-equivalence/no-collusion claims. Keep
+  original DUD rather than adding an outcome-dependent UNINFORMATIVE gate. No claim
+  of calibrated power or “almost no chance.” HIT requires five positive differences
+  plus MEAN>=1, not each block>=1. Nash6 is not a universal conditional best response.
+  Posthoc raw diagnostic confirms all90 erase actions are6; retain pair counts are
+  three4s and57 sixes. Aggregate moments did not establish both pair members at5;
+  the critic's suggested symmetric path is only one moment-compatible example.
+- Item5: clarify independently IMPLEMENTED arithmetic recomputation uses the same
+  frozen Monte Carlo design to reproduce numeric outputs, not independent population
+  validation. New post-review exact empirical-bootstrap enumeration (3125 resamples)
+  reproduces primary/fork bounds via a different computation; does not replace them.
+- Item6: add descriptive all-five-block sent-message shortening, with no secondary
+  promotion and no claim that it attests filesystem isolation or agreement execution.
+- Decline unproved assertion that any filesystem leak could only attenuate effects;
+  direction of potential contamination is not identified. Zero-width intervals do
+  describe observed resampling support; they do not establish population certainty.
+
+No new LLM calls, source/config changes, tuning, exclusions or scientific rule changes.
+No HIT or sibling headline change. Figure common axes/overlap count visually inspected.

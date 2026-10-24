@@ -1,0 +1,192 @@
+COMMAND: python scripts/s09_snapshot.py
+All five complete S07 neutral prefixes match deterministic extraction
+
+COMMAND: python scripts/s09_analyze.py
+{
+  "pilot": "S09",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "7..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 183,
+  "retries_by_arm": {
+    "retain": 3,
+    "erase": 0
+  },
+  "fork_quantity_difference": {
+    "mean": 0.2,
+    "ci95": [
+      0.0,
+      0.6
+    ]
+  },
+  "fork_seed_differences": [
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fork_outsider_seed_differences": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "fork_outsider_mean_difference": 0.0,
+  "fork_mean_absolute_difference": 0.2,
+  "prefix_nonempty_message_slots": {
+    "24080": 12,
+    "24081": 12,
+    "24082": 12,
+    "24083": 12,
+    "24084": 12
+  },
+  "verification": {
+    "cache_only_replay": true,
+    "all_keys_consumed_once": true,
+    "exports_match": true,
+    "source_and_registration_match": true
+  },
+  "limitations": [
+    "n5 exploratory previously observed prefixes; not independent replication",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Public history retains earlier message imprint; future messages may restore memory",
+    "Empty-inbox cue and message semantics not separated",
+    "No independently verified agreement/execution labels or collusion claim",
+    "API seeds/temperature uncontrolled; model labels not independent attestation",
+    "Logical-call cutoff does not bound internal transport retries"
+  ]
+}
+Primary: {'mean': 0.1, 'ci95': [0.0, 0.3], 'paired_t_ci95': [-0.1776445105197794, 0.37764451051977943], 'exact_signflip_p_upper': 0.5, 'exact_signflip_p_lower': 1.0}
+
+COMMAND: python scripts/s09_independent.py
+{
+  "metric_window_cells": 210,
+  "bootstrap_intervals": 22,
+  "paired_t_intervals": 7,
+  "exact_numerators": [
+    0,
+    6,
+    0,
+    0,
+    0
+  ],
+  "exact_primary_mean": 0.1,
+  "exact_upper_p": 0.5,
+  "verdict": "DUD",
+  "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb"
+}
+
+COMMAND: python scripts/s09_release.py
+{
+  "canonical_result_identical": true,
+  "mandatory_cache_only_replay": true,
+  "cached_resume_bytes_unchanged": true,
+  "live_calls_forbidden_during_resume": true,
+  "registration_pushed_before_all_calls": true,
+  "all_calls_finished_before_cutoff": true,
+  "earliest_call": "2026-10-24T17:18:36.692476+00:00",
+  "latest_completion": "2026-10-24T17:30:18.870086+00:00",
+  "independent": {
+    "metric_window_cells": 210,
+    "bootstrap_intervals": 22,
+    "paired_t_intervals": 7,
+    "exact_numerators": [
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "exact_primary_mean": 0.1,
+    "exact_upper_p": 0.5,
+    "verdict": "DUD",
+    "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb"
+  }
+}
+
+COMMAND: python scripts/s09_retry_audit.py
+{
+  "valid_decisions": 180,
+  "invalid_responses": 3,
+  "retry_calls": 3,
+  "invalid": [
+    {
+      "run_id": "s09_24081_retain",
+      "round": 10,
+      "agent": "A",
+      "attempt": 0,
+      "reasons": [
+        "overlong_reasoning"
+      ],
+      "word_counts": {
+        "reasoning": 41,
+        "private_message": 20
+      }
+    },
+    {
+      "run_id": "s09_24083_retain",
+      "round": 7,
+      "agent": "A",
+      "attempt": 0,
+      "reasons": [
+        "overlong_reasoning"
+      ],
+      "word_counts": {
+        "reasoning": 50,
+        "private_message": 0
+      }
+    },
+    {
+      "run_id": "s09_24083_retain",
+      "round": 8,
+      "agent": "A",
+      "attempt": 0,
+      "reasons": [
+        "overlong_reasoning"
+      ],
+      "word_counts": {
+        "reasoning": 41,
+        "private_message": 0
+      }
+    }
+  ],
+  "interpretation": "All parser retries are part of operational contrast; no exclusion or mechanism attribution."
+}
+
+COMMAND: python scripts/s09_present.py
+
+COMMAND: python -m unittest scripts.test_s09 -v
+s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+test_all_prefixes_fixed (scripts.test_s09.Protocol.test_all_prefixes_fixed) ... ok
+test_cache_refuses_torn_append_before_recovery (scripts.test_s09.Protocol.test_cache_refuses_torn_append_before_recovery) ... ok
+test_codex_invocation_is_fresh_readonly_and_direct (scripts.test_s09.Protocol.test_codex_invocation_is_fresh_readonly_and_direct) ... ok
+test_dry_calls_only_suffix_and_next_round_delivery (scripts.test_s09.Protocol.test_dry_calls_only_suffix_and_next_round_delivery) ... ok
+test_exact_boundaries (scripts.test_s09.Protocol.test_exact_boundaries) ... ok
+test_new_messages_survive_and_own_do_not_echo (scripts.test_s09.Protocol.test_new_messages_survive_and_own_do_not_echo) ... ok
+test_only_inbox_differs (scripts.test_s09.Protocol.test_only_inbox_differs) ... ok
+test_terminal_abort_blocks_uncached_partner (scripts.test_s09.Protocol.test_terminal_abort_blocks_uncached_partner) ... ok
+test_dry_default_generation_rejected (scripts.test_s09.Publication.test_dry_default_generation_rejected) ... ok
+test_dry_default_publication_rejected (scripts.test_s09.Publication.test_dry_default_publication_rejected) ... ok
+test_dry_not_published (scripts.test_s09.Publication.test_dry_not_published) ... ok
+test_duplicate_key_rejected (scripts.test_s09.Publication.test_duplicate_key_rejected) ... ok
+test_export_mutation_rejected (scripts.test_s09.Publication.test_export_mutation_rejected) ... ok
+test_failure_marker_blocks_analysis_and_resume (scripts.test_s09.Publication.test_failure_marker_blocks_analysis_and_resume) ... ok
+test_missing_game_rejected (scripts.test_s09.Publication.test_missing_game_rejected) ... ok
+test_mutated_action_rejected (scripts.test_s09.Publication.test_mutated_action_rejected) ... ok
+test_raw_mutation_rejected (scripts.test_s09.Publication.test_raw_mutation_rejected) ... ok
+test_source_manifest_rejected (scripts.test_s09.Publication.test_source_manifest_rejected) ... ok
+test_torn_cache_recovery_rejected (scripts.test_s09.Publication.test_torn_cache_recovery_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.725s
+
+OK
+

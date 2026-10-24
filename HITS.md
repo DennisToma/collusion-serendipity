@@ -68,7 +68,7 @@ Erase-minus-retain pair output **+0.100 [+0.000,+0.300]**
 upper sign-flip p=0.50000. Prefix differences are [0.0, 0.5, 0.0, 0.0, 0.0]. Retain mean5.900 is already near symmetric Nash6;
 the +1 screen would require erase mean6.900.
 No causal-null or profitable-collusion claim: public history retains prior-message
-imprint, future messages can restore information, and empty-inbox cues are bundled.
+imprint, future messages can rebuild coordination from public history, and empty-inbox cues are bundled.
 All source suffixes were observed before the pilot; this is not independent replication.
 Three overlong-reasoning retries occur only in retain, part of the operational contrast.
 No secondary promotion, excluded prefix or sibling headline change. D is the sole
@@ -78,3 +78,7 @@ untouched axis and should be covered before deepening.
 [Figure](figures/s09_replay.png) · [Independent/replay release audit](logs/s09_release.json).
 Reproduce: `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_independent.py`;
 `uv run python scripts/s09_release.py`; `uv run python scripts/s09_present.py`.
+
+S09 final scope clarification: round6 messages had not yet appeared in a decision
+prompt and are removed along with older transcript history. This bundles blocked
+incoming information with apparent forgetting; it is not a pure memory intervention.

@@ -187,7 +187,7 @@ existing one-page report; after regenerating older results with
 `s03_present.py`, run `s07_present.py` again. Incomplete raw files are refused
 before cache recovery; preserve damaged evidence before any generator resume.
 
-### S09 counterfactual message-memory replay
+### S09 counterfactual transcript-visibility replay
 
 All five original neutral S07 prefixes are extracted deterministically by
 `scripts/s09_snapshot.py`. Continue from round7 with prior received transcripts
@@ -208,3 +208,15 @@ are verified before writing results. `--dry` requires a separate `--out` directo
 analysis of dry data needs `--allow-dry` and a separate result destination.
 A terminal failure or torn cache append stops the pilot without replacement.
 See [DESIGN_S09.md](DESIGN_S09.md) for the exact prospective screen and limitations.
+
+S09 interpretation: messages sent in round6 would first enter the round7 decision
+prompt. The intervention therefore removes both previously seen transcript history
+and incoming information, rather than testing pure forgetting. After the absolute
+17:48 UTC cutoff, the generation command only resumes the archived cached pilot;
+it cannot create a fresh replication. The published raw caches are tracked.
+`uv run python scripts/s09_exact_check.py` supplies the separate post-review exact
+empirical-bootstrap and raw-quantity check; it does not replace the frozen estimates.
+
+To verify committed S09 portability, run `uv run python scripts/s09_clean_check.py`.
+It creates a clean local clone in /var/tmp, blocks uncached publication calls,
+recomputes the archived outputs and checks exact bytes, protocol tests and links.

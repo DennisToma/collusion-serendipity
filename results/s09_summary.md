@@ -1,4 +1,4 @@
-# S09 — erase versus retain prior private-message memory
+# S09 — erase versus retain earlier private messages
 
 **DUD for the registered quantity-increase screen.** Ten six-round continuations of all five previously observed S07 neutral prefixes; five matched blocks, no tuning.
 
@@ -29,7 +29,13 @@ Cached responses: 183; retries by arm: {'retain': 3, 'erase': 0}. No failed game
 
 ![S09 fork and continuation paths](../figures/s09_replay.png)
 
-The initial public history is identical within each block. Only received rounds1–6 private messages are removed; both arms retain their boxes and receive new messages from round8. Public actions can preserve prior agreements; future messages can repair missing information. This estimates the total continuation effect of erasing message memory at this fork, including later behavioral feedback, rather than the original channel effect. It cannot separate empty-inbox cues from message semantics.
+The initial public history is identical within each block. Messages sent in rounds1–6 are jointly withheld; both arms retain their boxes and receive new messages from round8. Public actions can preserve prior agreements; future messages can rebuild coordination from public history. This estimates the total continuation effect of withholding these transcripts at this fork, including later behavioral feedback, rather than the original channel effect. It cannot separate empty-inbox cues from message semantics.
+
+Scope clarification after final review: round6 messages had not appeared in any source decision prompt and would first be read in round7. Jointly removing rounds1–6 therefore combines loss of previously seen transcript history with blocked incoming information. This is a transcript-visibility intervention, not pure forgetting. New messages can renegotiate from public history, without necessarily recovering arbitrary deleted content. The original registered DESIGN_S09.md is preserved unchanged; this paragraph narrows interpretation without changing the rule or estimates.
+
+Parser retries remain part of the operational contrast (three retain, zero erase); see [retry audit](../logs/s09_retry_audit.json). Separately implemented arithmetic recomputation uses the frozen resampling seed to reproduce the same estimand. A post-review exhaustive empirical-bootstrap check also matches both primary and fork bounds; this validates arithmetic under the same resampling assumptions, not population inference. [Exact check and raw quantity histograms](../logs/s09_exact_check.json). Posthoc raw quantity counts: all-agent erase {'6': 90}; pair erase {'6': 60}; pair retain {'4': 3, '6': 57}. These are posthoc diagnostics, not new hypotheses or exclusions.
+
+Sent-message-length difference is -6.167 words (erase–retain), with 5/5 negative block differences. This descriptive behavior response does not attest erasure isolation or coordination; no secondary HIT is promoted.
 
 Intervals that collapse for constant paired differences describe observed resampling support; they do not establish zero population uncertainty. The outsider has identical round7 prompts across arms, but its separately sampled action can still differ without leakage.
 
@@ -37,6 +43,6 @@ Prefixes were previously observed; no independent-seed replication. With n=5, bo
 
 Mandatory cache-only full replay, every key consumed once, prefix/source/registration and exports/payoffs checks pass. Independent full metric/statistic check: [audit](../logs/s09_independent.json).
 
-Reproduce: `TMPDIR=/var/tmp uv run python -m sim.replay`; `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_independent.py`; `uv run python scripts/s09_present.py`.
+Reproduce: `TMPDIR=/var/tmp uv run python -m sim.replay`; `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_independent.py`; `uv run python scripts/s09_exact_check.py`; `uv run python scripts/s09_present.py`. After17:48 the generator command is an archived-cache resume, not a fresh replication.
 
 [Registered design](../DESIGN_S09.md) · [Machine-readable results](s09_replay.json)
