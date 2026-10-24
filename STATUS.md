@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T22:16:42.596984+00:00; Phase2, iteration15 VERIFIED)
-- S25 own complete:20 fresh decisions/10 selected S19 histories/5blocks.
-- Adverse target approvals0/10 each;action-first minus reason-first0[0,0].
+## Current state (2026-10-24T22:18:23.979613+00:00; Phase2, iteration15 COMPLETE)
+- S25 own:20 fresh decisions/10 selected S19 histories/5blocks complete.
+- Adverse target approvals0/10each;action-first minus reason-first0[0,0].
 - Paired t[0,0],upper p1;frozen one-sided DUD,no HIT.
-- Actual requested-order compliance10/10each;no fresh adverse baseline.
-- Zero retries/failures;all20 exact requests/12 frozen sources PASS.
-- Independent20 prompt contracts/20 decision cells/six statistics PASS.
-- Both final critics confirm counts/verdict;Opus supplied-text scope explicit.
+- Actual order compliance10/10each;no fresh adverse baseline or mechanism claim.
+- Zero retries/failures;20 exact requests/12 frozen scientific sources PASS.
+- Independent20 prompt contracts/20 decision cells/six summaries PASS.
+- Both final critics confirm;Opus supplied-text-only scope explicit.
 - 199 repo tests PASS;14 legacy S21 synthetic cutoff overrides explicit.
-- Real S21 archive/original cutoff PASS;presentation-only repair regression PASS.
+- Real S21 archive/original cutoff PASS;13 S25 clean-clone checks PASS.
 - Six artifacts byte-identical;result SHA3cc8648a unchanged.
-- Source ebc6191 pushed;results push/clean-clone next.
-- Next:fresh B/C question;new own S26 queued,zero tuning/pooling/sibling writes.
+- Source ebc6191/results4c2c89b pushed;remote-clone receipt recorded.
+- Next:fresh B/C question;own S26 queued,zero tuning/pooling/sibling writes.
 - Risks:n5,selected histories,no baseline;actual backend tool non-use unverified.
 
 ## Log
@@ -204,3 +204,5 @@
 - 2026-10-24T22:14:28.952575+00:00: S25 all20 fresh decisions complete22:12:25UTC,zero retries/transport/parse/route failures. Frozen directional DUD:0/10 adverse target approvals each arm,difference0[0,0] empirical bootstrap/t,p1;actual order compliance10/10each. No fresh adverse baseline,mechanism/equivalence/zero-risk claim. Full20-key exact raw request/source/registration/order/timestamp replay and independent20 prompt contracts/20 decision cells/six bootstrap+t+sign summaries PASS;12 original scientific sources unchanged,result SHA3cc8648a. Discovered frozen renderer one-use prose-anchor defect;separate presentation wrapper/regression fixes rerendering without source/estimate changes and adds no-adverse-baseline caveat. Final critics running. No new scientific calls,tuning,pooling,sibling writes or HIT.
 
 - 2026-10-24T22:16:42.596984+00:00: S25 final Codex and Opus critics exit0,all dispositions complete. Codex raw-reconstructs20 maps/orders,selection/history/status/notepad visibility,20 literal request contracts and all3125 bootstrap/32 sign summaries;Opus supplied-text hand-check scope explicit. Accepted baseline,per-arm-p,schedule-versus-timestamps,independent-checker scope and tool-non-use caveats;clarified hashes checked per admission and whole-pilot completion.199 repo tests PASS with14 explicit legacy synthetic cutoff overrides;real S21 release unchanged/PASS;final presentation regression PASS. Six artifacts byte-identical under analyze/independent/safe-render/release/completed-cache-resume;all12 scientific sources/result SHA3cc8648a unchanged. Figure inspected;no additional scientific call,tuning,secondary promotion,pooling,HIT or sibling write. S26 own hypothesis queued,not a causal explanation of S25/S19. Results commit/push then clean-clone remain.
+
+- 2026-10-24T22:18:23.979613+00:00: iteration15 COMPLETE. S25 sourceebc61917907d90e6c158ce1ffda359850d11fff4 and full results4c2c89bfc5e63899a8568302900b129dbb3133ab committed/pushed. Fresh remote-origin full-history clone passes13 S25 protocol/presentation checks,complete offline release/raw replay/independent reconstruction,completed-cache resume and real S21 original-cutoff release;regenerates six artifacts byte-for-byte(scientific result,summary,figure,REPORT,independent receipt,release receipt). logs/s25_clean_clone.json records exact commit/commands/versions/artifact hashes and explicit installed-environment reuse;clone git status clean. Full199 repo tests PASS with14 documented legacy synthetic cutoff overrides;final renderer regression PASS. Both final critics disposed,all12 scientific sources/result SHA3cc8648a unchanged;20 responses retained,zero retries/failures. Result ledger points to4c2c89bfc5e63899a8568302900b129dbb3133ab. REPORT/HITS/README current;presentation-only idempotence repair and tool-non-use limitation explicit. No additional scientific calls,semantic classifier,subgroup/reverse/secondary promotion,tuning,pooling,HIT,sibling writes,direction deviation or active generation/review process. Next fresh B/C;S26 remains an unrun own hypothesis,not a mechanism inference.

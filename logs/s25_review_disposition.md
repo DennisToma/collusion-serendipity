@@ -91,8 +91,9 @@ source-byte/test/figure verification. Not represented as a second raw-file repla
   Exact supplied-prompt isolation is verified; actual tool non-use is unverified.
   Do not claim no leakage from absence of evidence. Future harnesses should disable
   tools and retain execution evidence. No extra scientific call or frozen edit.
-- Results push and clean-clone reproduction: still owed after critics; the
-  eventual receipt will record exact results commit and commands. Critics did not independently attest
+- Results push and clean-clone reproduction: completed after critics;
+  logs/s25_clean_clone.json records results4c2c89bfc5e63899a8568302900b129dbb3133ab, exact commands,13 tests
+  and six byte-identical artifacts, using the recorded installed environment. Critics did not independently attest
   remote equality, clean-clone reproduction or wall-clock/server provenance.
 
 Manager: inspected figure, all199 repo tests PASS (14 historical S21 synthetic
