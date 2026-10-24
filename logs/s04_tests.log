@@ -1,0 +1,16 @@
+test_economics (scripts.test_research.ResearchValidity.test_economics) ... ok
+test_group_folds_and_identifiability (scripts.test_research.ResearchValidity.test_group_folds_and_identifiability) ... ok
+test_message_timing_and_privacy (scripts.test_research.ResearchValidity.test_message_timing_and_privacy) ... ok
+test_missing_or_wrong_model_provenance (scripts.test_research.ResearchValidity.test_missing_or_wrong_model_provenance) ... ok
+test_predictive_positive_control (scripts.test_research.ResearchValidity.test_predictive_positive_control) ... ok
+test_strict_actions (scripts.test_research.ResearchValidity.test_strict_actions) ... ok
+test_torn_cache_recovery (scripts.test_research.ResearchValidity.test_torn_cache_recovery) ... ok
+test_cache_slot_game_and_retry_separation (scripts.test_s04.AdvisorValidity.test_cache_slot_game_and_retry_separation) ... ok
+test_known_secondary_metrics (scripts.test_s04.AdvisorValidity.test_known_secondary_metrics) ... ok
+test_routing_and_privacy (scripts.test_s04.AdvisorValidity.test_routing_and_privacy) ... ok
+test_strict_advice (scripts.test_s04.AdvisorValidity.test_strict_advice) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.018s
+
+OK

@@ -1,17 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24 15:02 UTC; Phase 2, iteration 1 complete)
-- First-pilot queue complete: S01 (C) DUD; S02 (A) ODD/inconclusive. No promoted HIT, no sibling headline change.
-- S01: 104 games scanned; primary n32 luna/n15 deepseek; gains +0.00175 [-0.00184,+0.00631] / +0.00899 [-0.04249,+0.05535].
-- S02: 6 complete luna/codex games, 3 seeds, T12; pair quantity private-none -0.481 [-1.222,0.000], t CI [-2.099,+1.136], exact p=.25.
-- S02 pair profits essentially unchanged (+0.056); 2/3 private games end at Nash. Opportunity contrast, no verified collusion labels.
-- Original qwen gateway failed: 4 starts, 1 cached decision, 0 complete games; preserved separately. Fallback used remaining 6/10 slots, no pooling.
-- REPORT.md is a one-page log; REPORT_DETAILS.md has full outcomes/limits. Figure, raw caches, source hashes, generator and offline commands included.
-- Independent Codex + Opus design and final-claims reviews complete; implementation gaps fixed. All 7 validity tests PASS.
-- Cache-only replay and S02 JSON recomputation byte-identical; independent export calculation matches. No active explorer generation/probe remains.
-- Zero tuning attempts; all findings exploratory. Bootstrap bounds descriptive (n3 bounds equal range; S01 ignores refit uncertainty).
-- Next: choose a B/D/E/F pilot, preserve axis diversity; queued own S03 neutral calculator idea follows transcript arithmetic mistakes. No deepening yet.
-- Open risks: tiny pilot, changed seller model/sample, bundled prompt/delivery, uncontrolled Codex temperature/seed and client-only model identity.
+## Current state (2026-10-24 15:11 UTC; Phase 2, iteration 2 in progress)
+- S01 (C) DUD; S02 (A) ODD/inconclusive; no promoted HIT, no sibling headline change.
+- Iteration 2 selected S04 (B): shared vs independent identical-prompt public-information advisor samples.
+- Registered ten fresh Cournot games, five paired seeds 24040..24044, T12; pinned codex gpt-6-luna, two workers.
+- Both arms sample two advisor responses/round; scalar own advice only; prompts blinded to shared identity, no seller messages.
+- Independent Codex and Opus design reviews complete; amendments frozen in DESIGN_S04.md before live outcomes.
+- New exposure gate: <25% routable recommendation variation => UNINFORMATIVE. No strong claim from null/degenerate advice.
+- Cache/routing/privacy/economics checks: 11 tests PASS; complete ten-game offline dry run and analyzer PASS.
+- Separate synthetic-state instrument precheck running; no prompt/model selection planned. Live games not yet started.
+- Primary: r4–12 assigned-pair quantity shared-independent; profit and action/equality/variation secondaries descriptive.
+- S03 own calculator idea remains queued. D/E/F/own remain for coverage before deepening any axis.
+- Risks: n5, conditional sign-flip assumptions, Codex model labels and uncontrolled sampling; common sampling is narrower than hub collusion.
 
 ## Log
 
@@ -22,3 +22,5 @@
 - 2026-10-24 15:02 UTC: S02 complete (216 cached decisions, no invalid-output retries); frozen analysis ODD, seed differences -0.222/-1.222/0.000, no HITS promotion. Codex + Opus final reviews verified numbers and requested secondary outcomes/actual primary n; added these plus enumerated pair-as-one-actor benchmark (three grid equilibria; pair profit never exceeds unmerged benchmark). Original contrasts unchanged. Full detail moved to REPORT_DETAILS to keep REPORT one page. Seven validity tests, independent calculation and offline replay pass. Queued own S03 idea; no additional experiment.
 
 - 2026-10-24 15:03 UTC: results/reports/caches/figure committed and pushed as c6c168a. Ledger commit column now points to commits containing each registration/result. Final handoff: C and A covered; B/D/E/F and own remain.
+
+- 2026-10-24 15:11 UTC: iteration 2 read manager/planning/direction/ledger and both sibling state/report summaries. Selected S04 common-advisor-sampling pilot (axis B); registered design, implemented adapter and frozen analysis, obtained independent Codex + Opus reviews. Accepted cache/exposure/failure/interpretation fixes; retained one primary to avoid co-primary selection. Eleven validity tests and complete dry run pass. No direction deviation; initial requested C/A queue already complete.

@@ -1,0 +1,173 @@
+{
+  "states": [
+    null,
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      4,
+      4,
+      4
+    ],
+    [
+      4,
+      4,
+      8
+    ]
+  ],
+  "samples": [
+    {
+      "quantities": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "reasoning": "With no history, symmetric Cournot quantities are a reasonable starting point: each firm produces about 6 units in total-market equilibrium, but the 12-unit cap and integer choices make 4 a cautious opening."
+    },
+    {
+      "quantities": {
+        "A": 6,
+        "B": 6,
+        "C": 6
+      },
+      "reasoning": "With no prior rounds, 6 is a symmetric best-response quantity: against two firms choosing 6, it maximizes profit."
+    },
+    {
+      "quantities": {
+        "A": 6,
+        "B": 6,
+        "C": 6
+      },
+      "reasoning": "With rivals at 6 each, any quantity above 6 lowers price enough to reduce profit; below 6 sells fewer units. Six is a best response to the observed choices."
+    },
+    {
+      "quantities": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "reasoning": "With rivals at 4 each, a quantity of 4 maximizes profit: price is 18 and profit is 48. The previous round\u2019s equal quantities suggest symmetry."
+    },
+    {
+      "quantities": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "reasoning": "The only observed round had all firms choose 4. Given the other two choose 4, choosing 4 yields profit 48, higher than any other integer quantity from 0 to 12."
+    },
+    {
+      "quantities": {
+        "A": 4,
+        "B": 4,
+        "C": 4
+      },
+      "reasoning": "Round 1 suggests symmetric quantities of 4. Against rivals totaling 8, quantity 4 maximizes profit: price 18 and profit 48; nearby choices yield less."
+    },
+    {
+      "quantities": {
+        "A": 5,
+        "B": 5,
+        "C": 5
+      },
+      "reasoning": "With total quantity 15, price is 15 and each earns 45. Given others produce 10, 5 is a best response: nearby quantities yield lower profit."
+    },
+    {
+      "quantities": {
+        "A": 4,
+        "B": 4,
+        "C": 8
+      },
+      "reasoning": "The observed total of 16 yields price 14. With the others producing 12, quantity 4 is a best response; with the others producing 8, quantity 8 is a best response."
+    }
+  ],
+  "call_provenance": [
+    {
+      "round": 0,
+      "agent": "advisor0",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:37.040450+00:00",
+      "call_completed_utc": "2026-10-24T15:10:40.609490+00:00"
+    },
+    {
+      "round": 0,
+      "agent": "advisor1",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:37.040953+00:00",
+      "call_completed_utc": "2026-10-24T15:10:42.521868+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor0",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:40.609669+00:00",
+      "call_completed_utc": "2026-10-24T15:10:45.143549+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor1",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:42.522140+00:00",
+      "call_completed_utc": "2026-10-24T15:10:47.310535+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor0",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:45.143670+00:00",
+      "call_completed_utc": "2026-10-24T15:10:50.881943+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor1",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:47.310763+00:00",
+      "call_completed_utc": "2026-10-24T15:10:51.977754+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor0",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:50.882074+00:00",
+      "call_completed_utc": "2026-10-24T15:10:55.259161+00:00"
+    },
+    {
+      "round": 1,
+      "agent": "advisor1",
+      "attempt": 0,
+      "model": "gpt-6-luna",
+      "backend": "codex",
+      "call_started_utc": "2026-10-24T15:10:51.977892+00:00",
+      "call_completed_utc": "2026-10-24T15:10:58.322568+00:00"
+    }
+  ],
+  "vector_disagreements": [
+    true,
+    true,
+    false,
+    true
+  ],
+  "component_disagreements": [
+    3,
+    3,
+    0,
+    3
+  ],
+  "caveat": "Four synthetic states only; no prompt/model selection or seller outcomes"
+}

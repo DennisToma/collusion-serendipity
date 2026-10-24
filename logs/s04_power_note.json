@@ -1,0 +1,6 @@
+{
+  "source": "S02 three paired differences, unstable planning estimate only",
+  "sd": 0.6510516974535906,
+  "optimistic_normal_shift_for_80pct_all_five_negative": 1.113195866147456,
+  "caveat": "Not full HIT-rule power: magnitude and profit criteria further reduce power; new intervention may have different variance"
+}
