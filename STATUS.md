@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T17:53:19.191384+00:00; Phase2, iteration6 active)
-- Selected S11 D3: lag1 vs lag2 feedback in ten fresh no-message calculator games.
-- Primary: immediate-minus-delayed mean consecutive output change, r4-12; no collusion label.
-- Five blocks24110..24114, pinned codex/gpt-6-luna, zero tuning; DESIGN_S11.md registered.
-- Fifteen protocol tests, full dry replay/240-cell independent check PASS;67 discovered tests PASS.
-- Independent Codex+Opus methodology reviews exit0; prospective provenance fix verified.
-- No live S11 calls or outcomes; full source/design/config freeze and push ready.
-- S01/S03/S07/S09 DUD; S02 ODD; S04 UNINFORMATIVE; no promoted hit.
-- D is last uncovered axis; S11 completes portfolio breadth before deeper followup.
-- Own S12 cycle-period idea queued; S05/S06/S08/S10 remain queued.
-- Risks: n5, feedback/warmup bundle, own-action feedback delayed, no OS isolation.
+## Current state (2026-10-24T18:16:55.892132+00:00; Phase2, iteration6 verification)
+- S11 D3 ODD:10 fresh no-message calculator games/5 blocks; no HIT or sibling headline change.
+- Change reduction immediate-delayed +0.903704[-0.088889,+1.814815]; t[-0.630379,+2.437787]; p=.09375.
+- Four positive blocks/one negative; secondary delayed-immediate quantity -0.029630[-0.148148,+0.066667].
+- 366 cached calls/360 valid actions;6 overlong-reasoning retries (2 immediate/4 delayed), zero failures.
+- Full feedback/own-action recall/warmup bundled; slower changes are not convergence or less collusion.
+- Mandatory exact-request replay/source/registration/export/payoff checks and cached resume PASS.
+- Independent240 metric/window cells,24 bootstrap/8 t intervals/exact32 signs/verdict PASS.
+- Exact3125-resample primary bounds agree; original result SHA d136e501 unchanged.
+- 15 protocol/67 discovered tests PASS; figure inspected; final Codex+Opus claim reviews running.
+- Source/design freeze703a0a8 pushed before calls; local remote/client chronology verified only.
+- All A/B/C/D/E/F/own axes now covered; next fresh own invariance S06 or justified confirmation.
+- No active scientific generation; no tuning, exclusions, pooling or secondary promotion.
 
 ## Log
 
@@ -83,3 +85,7 @@
 - 2026-10-24T17:53:19.191384+00:00: iteration6 read all required rules/state/ledger and both sibling summaries. Chose last untouched D axis: S11 delayed feedback with calculator both arms, no messaging. Registered single consecutive-change primary, all secondary contrasts and n5 screen before outcomes. Queued own S12 period-versus-smoothness idea. Initial full dry pipeline and independent240-cell/24-bootstrap/8-t checks PASS; strengthened strict cache/abort/timing/invocation tests (11 PASS). Both design critics requested; no live calls, tuning or direction deviation.
 
 - 2026-10-24T17:55:37.839453+00:00: both S11 methodology critics exit0 before live calls. Codex found missing-audit backfill; fixed constructor mismatch/hash rejection with two regressions. Opus scope/RNG/n5-screen clarifications accepted; retained common directional verdict with actual estimates always reported.15 tests plus full final dry replay/independent240-cell/24-bootstrap/8-t check PASS;67 discovered tests PASS. No live calls or outcome-based change. Source freeze/push follows.
+
+- 2026-10-24T17:55:52.546725+00:00: S11 registration/source freeze 703a0a898b5a54ddee093458d6fa1881dbb7c460 pushed before calls. Remote main resolves to same SHA; all13 frozen source/dependency entries independently resolve against commit. Local observation/client chronology only, no server-time attestation. Starting ten games with two workers/seed barrier, TMPDIR=/var/tmp; fixed logical-call cutoff18:35UTC. No partial outcome estimation.
+
+- 2026-10-24T18:16:55.892132+00:00: S11 all10 games complete,366 calls/360 valid actions,6 overlong-reasoning retries(2 immediate/4 delayed), no failed game. Last completion18:15:32.053656 before18:35 cutoff. Frozen verdict ODD: primary consecutive-change reduction +0.903704[-0.088889,+1.814815], t[-0.630379,+2.437787], upper p=.09375, exact block numerators[11,-25,57,27,52]/27. Secondary quantity -0.029630[-0.148148,+0.066667]. Full mandatory replay/all-key/source/registration/export/payoff checks, byte-identical cached resume/result and independent240-cell/24-bootstrap/8-t/exact-sign checks PASS. Exact3125 bootstrap agrees. Figure inspected; both final critics requested. No scientific source/estimator/rule change, excluded game, tuning, secondary promotion, HIT or sibling headline change. All portfolio axes now covered; no direction deviation.

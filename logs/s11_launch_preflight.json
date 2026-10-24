@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-24T17:55:52.546725+00:00",
+  "registration_commit": "703a0a898b5a54ddee093458d6fa1881dbb7c460",
+  "observed_remote_main": "703a0a898b5a54ddee093458d6fa1881dbb7c460",
+  "sources_verified": 13,
+  "before_live_calls": true,
+  "server_time_attested": false
+}

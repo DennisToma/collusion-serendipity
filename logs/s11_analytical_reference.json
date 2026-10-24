@@ -1,0 +1,49 @@
+{
+  "kind": "analytical toy reference; not LLM data",
+  "initialization": "q4 for each firm until first feedback",
+  "policy": "simultaneous symmetric one-step conditional best response; smallest maximizer",
+  "arms": {
+    "immediate": {
+      "quantity_path": [
+        4,
+        8,
+        4,
+        8,
+        4,
+        8,
+        4,
+        8,
+        4,
+        8,
+        4,
+        8
+      ],
+      "primary_change": 4.0,
+      "primary_exact": "4",
+      "all_round_mean": 6,
+      "all_round_population_variance": 4
+    },
+    "delayed": {
+      "quantity_path": [
+        4,
+        4,
+        8,
+        8,
+        4,
+        4,
+        8,
+        8,
+        4,
+        4,
+        8,
+        8
+      ],
+      "primary_change": 1.7777777777777777,
+      "primary_exact": "16/9",
+      "all_round_mean": 6,
+      "all_round_population_variance": 4
+    }
+  },
+  "primary_reduction_exact": "20/9",
+  "interpretation": "Consecutive change can fall while mean and full-window variance stay identical. Toy periodicity is not stabilization, learning or collusion."
+}

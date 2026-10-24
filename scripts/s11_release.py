@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -32,7 +33,15 @@ def check(out='logs/s11_release.json'):
         assert hashlib.sha256(Path(file).read_bytes()).hexdigest()==sha
         assert hashlib.sha256(subprocess.check_output(['git','show',f'{cfg["registration_commit"]}:{file}'])).hexdigest()==sha
     subprocess.run(['git','merge-base','--is-ancestor',cfg['registration_commit'],'HEAD'],check=True)
-    audit=dict(cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,
+    checked_links=0
+    for doc in ['REPORT.md','README.md','HITS.md','results/s11_summary.md']:
+        for href in re.findall(r'\]\(([^)]+)\)',Path(doc).read_text()):
+            href=href.strip('<>').split('#')[0]
+            if not href or '://' in href or href.startswith('mailto:'):continue
+            target=Path(doc).parent/href
+            assert target.exists() or target.resolve()==Path(out).resolve(),(doc,href)
+            checked_links+=1
+    audit=dict(local_document_links_checked=checked_links,cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,
                source_and_registration_hashes=True,registration_commit=cfg['registration_commit'],
                sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
     Path(out).write_text(json.dumps(audit,indent=2)+'\n')

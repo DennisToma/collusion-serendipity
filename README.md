@@ -232,6 +232,9 @@ uv run python scripts/s11_analyze.py
 uv run python scripts/s11_independent.py
 uv run python scripts/s11_present.py
 uv run python -m unittest scripts.test_s11 -v
+uv run python scripts/s11_release.py
+# After committing all outputs, verify a clean clone:
+uv run python scripts/s11_release.py --clean-clone
 ```
 
 The raw request/response caches are archived with the games. After18:35UTC Oct24,

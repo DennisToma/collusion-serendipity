@@ -1,0 +1,27 @@
+{
+  "local_document_links_checked": 45,
+  "cache_only_resume": true,
+  "byte_identical_data_and_result": true,
+  "independent_raw_metrics_and_statistics": true,
+  "source_and_registration_hashes": true,
+  "registration_commit": "703a0a898b5a54ddee093458d6fa1881dbb7c460",
+  "sha256": {
+    "data/s11_delay/config.json": "76baee0de941dcc7f5bbe30ffb8d8164c25030ec4040611e187f7d7874b54e8b",
+    "data/s11_delay/game_24110_delayed.json": "44e70f9eac6944e87fc89c1ebb732c6900bd93a07750abd62707ad7aa536ee6b",
+    "data/s11_delay/game_24110_immediate.json": "c71e8bb97a83d0d938a76cd5f4cc5008f14dba6aa290c4811098ba08c39e3f7f",
+    "data/s11_delay/game_24111_delayed.json": "56620a98a641a4267721e85906ac92be1e0d4f9e6bf5bc8dddad0fdc94588ea1",
+    "data/s11_delay/game_24111_immediate.json": "5f1a2f42a1d6a2f838806bd5c44edc76ab6f7059106ebd697fee68e4f694763e",
+    "data/s11_delay/game_24112_delayed.json": "9ece097260fe73f45a127446bb86c2d0cc73cc6bbdc1e8ddce355ce16d1237bf",
+    "data/s11_delay/game_24112_immediate.json": "82c0bb8d6aa6398ce4cc3e0cf4a8011194e875a6a4fb9d66b1c6788762803595",
+    "data/s11_delay/game_24113_delayed.json": "27534af7977959171fba908e8f1de89d392071cb828633943d6818f9f5d337dd",
+    "data/s11_delay/game_24113_immediate.json": "162edf4d659be347841534e49cd872d8f3c265d14b1dd3973b5bc7ae07039d8f",
+    "data/s11_delay/game_24114_delayed.json": "1f1cc0fee4c57957edd62bad09d7c09b93888c9dfa8538fe435db242d334d816",
+    "data/s11_delay/game_24114_immediate.json": "aae621f26a602423a7ee09d701a9878aaeb25c2c955ca6c2635ee6e6312e7110",
+    "data/s11_delay/ground_truth.jsonl": "7722c23afcc26ddd9a4d819718d80c69902509217026a1cfcfa0dad6e9e18097",
+    "data/s11_delay/raw/requests.jsonl": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58",
+    "data/s11_delay/raw/responses.jsonl": "01a4372c3ea2f8bbadff3589e77ec5198f4d21d46a94b24582ec5e97d31e648b",
+    "data/s11_delay/schedule.json": "a913e7025ab4e997488edb75c8b1f2c3a1414a88b1add00946bedb94ff8cd075",
+    "data/s11_delay/trajectories.jsonl": "b293bc625a0eb36611121066abc90d99d811952e25548ca98fd8d5d5ebc6df6e",
+    "results/s11_delay.json": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2"
+  }
+}

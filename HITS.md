@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 5.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 6.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -32,7 +32,7 @@ false positive. This is a follow-up suggestion, not a confirmed hit.
 [S03 frozen results](results/s03_calculator.json) ·
 [S03 figure](figures/s03_calculator.png) · [Verification](logs/s03_verification.json).
 Reproduce: `uv run python scripts/s03_audit.py`; `uv run python scripts/s03_analyze.py`; `uv run python scripts/s03_verify.py`;
-`uv run python scripts/s03_present.py`. Cover remaining D before deepening.
+`uv run python scripts/s03_present.py`. D was subsequently covered by S11.
 
 
 **S07: unpromoted diagnostic, DUD for predicted output increase (axis F).**
@@ -47,7 +47,7 @@ This exact cue suppresses words in this sample; it does not verify compliance,
 reduced collusion, an enforcement effect or a channel-mediated mechanism.
 No fines are implemented and there is no no-channel arm. Both siblings should
 keep normative wording and degenerate/low-profit actions in mind when interpreting
-text or level screens. Cover D before deeper confirmation on fresh seeds.
+text or level screens. D was subsequently covered by S11; any confirmation still needs fresh seeds.
 
 Reproduce: `uv run python scripts/s07_publish.py`; `uv run python
 scripts/s07_independent.py`; `uv run python scripts/s07_retry_audit.py`;
@@ -71,8 +71,7 @@ No causal-null or profitable-collusion claim: public history retains prior-messa
 imprint, future messages can rebuild coordination from public history, and empty-inbox cues are bundled.
 All source suffixes were observed before the pilot; this is not independent replication.
 Three overlong-reasoning retries occur only in retain, part of the operational contrast.
-No secondary promotion, excluded prefix or sibling headline change. D is the sole
-untouched axis and should be covered before deepening.
+No secondary promotion, excluded prefix or sibling headline change. S11 subsequently covers the D axis; all portfolio axes are now covered.
 
 [Registered design](DESIGN_S09.md) · [All outcomes](results/s09_summary.md) ·
 [Figure](figures/s09_replay.png) · [Independent/replay release audit](logs/s09_release.json).
@@ -82,3 +81,10 @@ Reproduce: `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_in
 S09 final scope clarification: round6 messages had not yet appeared in a decision
 prompt and are removed along with older transcript history. This bundles blocked
 incoming information with apparent forgetting; it is not a pure memory intervention.
+
+
+**S11: unpromoted ODD for the registered timing screen (axis D3).**
+Ten fresh no-message calculator games/five blocks. Immediate−delayed consecutive quantity change r4–12 **+0.904 [-0.089, +1.815]**, paired t[-0.630, +2.438], upper p=0.09375. Secondary delayed−immediate quantity **-0.030 [-0.148, +0.067]**.
+This tests bundled feedback timing/own recall/warmup. Naive delayed best response predicts slower consecutive changes, so that finding alone is not surprising evidence of collusion, learning or stabilization. Both siblings may use it as motivation for action-cycle negative controls; no detector was run and neither sibling headline should change. Confirm on fresh registered seeds with longer phase-balanced windows and explicit period/amplitude diagnostics before mechanism claims. No pooling with S03.
+
+Reproduce: `uv run python scripts/s11_analyze.py`; `uv run python scripts/s11_independent.py`; `uv run python scripts/s11_release.py`; `uv run python scripts/s11_present.py`. [Design](DESIGN_S11.md) · [All outcomes](results/s11_summary.md) · [Figure](figures/s11_delay.png).

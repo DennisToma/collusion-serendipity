@@ -1,0 +1,10 @@
+{
+  "observed_utc": "2026-10-24T18:03:14.320159+00:00",
+  "registration_commit": "703a0a898b5a54ddee093458d6fa1881dbb7c460",
+  "remote_seen_before_first_call": true,
+  "remote_observation_utc": "2026-10-24T17:55:52.546725+00:00",
+  "first_client_call_started_utc": "2026-10-24T17:55:52.825256+00:00",
+  "source_hashes_unchanged": true,
+  "server_time_attested": false,
+  "partial_treatment_metrics_inspected": false
+}

@@ -16,7 +16,7 @@ convergence, long-run variance reduction or collusion removal. The critic
 found no remaining timing/arithmetic/screen error. Its snapshot predated the
 new constructor guards; the final review will inspect frozen sources.
 
-Opus design review: pending; no live calls yet.
+Opus design review: completed below; both design reviews preceded live calls.
 
 Opus design review exit0: no blocking implementation defect in pasted snapshot.
 - Retained the common directional screening rule used by preceding pilots, including
@@ -39,3 +39,17 @@ Opus design review exit0: no blocking implementation defect in pasted snapshot.
   source/version/game/failure/cache tampering and missing/corrupt provenance.
 - Switched config temperature constant to TEMPERATURE. Fixed own locking resource
   cleanup below; no live scientific request or outcome yet.
+
+Supplementary checks after launch, before any S11 treatment-effect inspection:
+- `s11_transport_audit.py` uses only synthetic responses and mocked transport.
+  Wrong-model refusal, valid-but-orphan cache key refusal and byte-identical
+  cached replay after cutoff all PASS; zero live model calls. It does not edit
+  any frozen source or inspect partial treatment outcomes.
+- `s11_reference.py` implements the prespecified deterministic q4/q8 toy example.
+  Both lags have full-window mean6 and population variance4; consecutive-change
+  reduction is20/9 over the primary window. This is analytical protocol
+  verification, not an LLM result, new pilot or mechanism label.
+- `s11_chronology.json` checks all13 source hashes against703a0a8 and config.
+  Remote reference was observed17:55:52.546725, first client call17:55:52.825256.
+  All ordering is based on local observation/client timestamps; no independent
+  server-time attestation. No partial treatment estimates inspected.

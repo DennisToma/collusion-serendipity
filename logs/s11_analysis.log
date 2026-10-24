@@ -1,0 +1,25 @@
+{
+  "primary_metric": "absolute_change",
+  "primary_contrast": "immediate minus delayed",
+  "secondary_contrast": "delayed minus immediate",
+  "pilot": "S11",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 366,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "All feedback delayed, including own prior actions/profit; timing and warmup bundled",
+    "Lag-conditioned table is not a forecast or a dynamic optimum",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No messages and no verified agreement/execution labels",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}
+Primary: {'mean': 0.9037037037037037, 'ci95': [-0.0888888888888888, 1.8148148148148144], 'paired_t_ci95': [-0.6303793882988986, 2.437786795706306], 'exact_signflip_p_upper': 0.09375, 'exact_signflip_p_lower': 0.9375}

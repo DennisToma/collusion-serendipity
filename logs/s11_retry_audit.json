@@ -1,0 +1,28 @@
+{
+  "valid_decisions": {
+    "immediate": 180,
+    "delayed": 180
+  },
+  "rejected_responses": {
+    "delayed": 4,
+    "immediate": 2
+  },
+  "retry_requests": {
+    "delayed": 4,
+    "immediate": 2
+  },
+  "rejection_reasons": {
+    "delayed": {
+      "reasoning_over_40_words": 4
+    },
+    "immediate": {
+      "reasoning_over_40_words": 2
+    }
+  },
+  "cached_responses": 366,
+  "first_call_started_utc": "2026-10-24T17:55:52.825256+00:00",
+  "last_call_completed_utc": "2026-10-24T18:15:32.053656+00:00",
+  "all_routes_pinned": true,
+  "all_360_attempt_sequences_valid": true,
+  "all_logical_calls_before_cutoff": true
+}

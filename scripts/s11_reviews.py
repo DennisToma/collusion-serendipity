@@ -37,7 +37,10 @@ def main():
     if args.stage=='final':
         files+=['results/s11_summary.md','REPORT.md','results/s11_delay.json',
                 'logs/s11_independent.json','data/s11_delay/config.json','logs/s11_tests.log',
-                'logs/s11_review_disposition.md']
+                'logs/s11_review_disposition.md','scripts/s11_release.py',
+                'logs/s11_release.json','logs/s11_chronology.json','logs/s11_launch_preflight.json',
+                'logs/s11_transport_audit.json','scripts/s11_transport_audit.py',
+                'logs/s11_analytical_reference.json','scripts/s11_reference.py']
         instruction+='Independently recalculate S11 numerical claims, using raw games if useful. '
     def codex():
         path=Path(f'logs/s11_{args.stage}_codex{args.suffix}.md')

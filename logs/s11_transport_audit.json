@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-24T17:57:57.460918+00:00",
+  "kind": "supplementary synthetic protocol audit; no scientific outcomes",
+  "route_mismatch_refused": true,
+  "valid_orphan_cache_key_refused": true,
+  "cached_request_after_deadline_allowed": true,
+  "cache_and_audit_unchanged": true,
+  "live_model_calls": 0
+}
