@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 13 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 14 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -18,37 +18,24 @@
 | S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
 | S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
 | S22 · D, stochastic enforcement | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: certain **0.075**, lottery **0.075**; difference **0.000 [-0.125, 0.100]**. | **DUD** for directional screen |
+| S24 · F, team identity | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: human **0.025**, AI **0.025**; difference **0.000 [-0.075, 0.075]**. | **DUD** for directional screen |
+
+S24 observed **1/40 partner TYPE-Y approvals in each identity condition**. Low observed rates and five selected blocks limit sensitivity; DUD is a queue decision, not evidence that identity cues are equivalent.
+
+<!-- S24 summary start -->
+**S24:** paired t95% **[-0.110, 0.110]**, upper sign-flip **p=0.75000**. Human/AI scenario cue only; matched deterministic payoffs, shared notes and neutral labels. Identity expectations and persona bundled; approvals do not verify agreements. [All outcomes and figure](results/s24_summary.md).
+<!-- S24 summary end -->
 
 <!-- S22 summary start -->
 **S22:** paired t95% **[-0.190, 0.190]**, upper sign-flip **p=0.62500**. Certain3 versus probability1/4 charge12; equal expected sanctions, shared notes and neutral labels. Risk, wording and realized histories bundled; approvals do not verify agreements. [All outcomes and figure](results/s22_summary.md).
 <!-- S22 summary end -->
-S22 uncertainty permits effects in either direction; DUD is a queue decision, not evidence of equivalent enforcement policies. Realized bonus differences also include lottery realizations; see the registered expected-charge outcomes.
 
-<!-- S21 summary start -->
-**S21:** action/both correct **10/10** / **10/10**; explanation-only **0/10** correct, **0/10** confident errors, **10/10** abstentions. Source-priority instructions and enriched post-outcome case selection limit this to factual action reading; no intent/agreement labels or population error bound. Primary upper sign-flip p=1.00000. [All views, uncertainty and figure](results/s21_summary.md).
-<!-- S21 summary end -->
-S21 includes the previously listed action/explanation contradictions. Full explanations retain embedded payoff language; separate payout/history fields are omitted. [Independent original-game truth and all-event audit](logs/s21_source_audit.json).
+Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion.
 
-<!-- S19 summary start -->
-**S19:** paired t95% **[-0.010, 0.160]**, upper sign-flip **p=0.12500**. Shared notes in both arms; PASS/FAIL versus TYPE-X/TYPE-Y framing at matched payoffs. Negative-type approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s19_summary.md).
-<!-- S19 summary end -->
-S19 observed **0/40 versus 3/40** partner negative-type approvals. Its descriptive resampling bounds exclude zero with three positive blocks out of five, while t/sign uncertainty remains unresolved; the frozen DUD is because the bootstrap upper bound **0.125** misses the **0.25** queue threshold. Selectivity is descriptive, not a verified agreement. [Every adverse review and its unverified explanation](results/s19_action_text.md); some JSON actions conflict with their explanations.
+Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible.
 
-<!-- S18 summary start -->
-**S18:** paired t95% **[0.000, 0.000]**, upper sign-flip **p=1.00000**. Explicit synthetic PASS/FAIL labels and fixed bonus incentives; reciprocal bad approvals are profitable but stage-dominated. Incorrect approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s18_summary.md).
-<!-- S18 summary end -->
+**Earlier caveats:** S01 digits cannot identify coding; S02 echoed own notes; S04 fails its exposure gate; S03/S11 dynamics depend on timing/window phase; S07 is driven by one block; S09 removes incoming information as well as memory; S16 is an operational failure with no effect estimate. S19 adverse JSON actions can contradict explanations; S21's action-aware auditor correctly reads the selected challenge cases. No sibling headline change.
 
-**S16:** strict reasoning-length failure; all173 requests replay, incomplete-data analysis and live restart blocked. No replacement or subset estimate. [Failure evidence](results/s16_summary.md).
+[All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**S14:** payment upper sign-flip p=.375; opposite large block contrasts, with high paths beginning before incoming messages. Divisible ties and bundled channel cues; no agreement labels. [All outcomes](results/s14_summary.md).
-
-**S06:** its bootstrap excludes zero, while paired t[-.659,.125] and two-sided p=.1875 remain unresolved. Denomination bundles magnitude, formatting and conversion; nine-round windows are phase-sensitive. [All outcomes](results/s06_summary.md).
-
-**Earlier caveats:** digits cannot identify coding; S02 also replayed own messages; S04 fails its exposure gate; S03/S11 show timing-sensitive cycles; S07 is driven by one block; S09 erases incoming information as well as memory. [Earlier detail](REPORT_DETAILS.md) · [S07](results/s07_summary.md) · [S09](results/s09_summary.md) · [S11](results/s11_summary.md).
-
-Earlier Cournot games: three firms, integer output, P=max(0,30−total output), cost6; symmetric static Nash q6. Tiny selected samples, multiple exploratory screens, prompt cues and shared-backend interference limit inference. Model/sampling are client metadata. Actions and message influence do not verify agreements or profitable collusion. No sibling headline change.
-
-[Methods, designs and reproduction](README.md).
-**Next:** Fresh market-structure or identity question after axis D; no secondary-driven promotion.
-
-[S19 release](logs/s19_release.json) · [Independent reconstruction](logs/s19_independent.json) · [Request contract](logs/s19_request_contract.json) · [Review dispositions](logs/s19_review_disposition.md).
+**Next:** Fresh market-structure or channel question after axis F; no secondary-driven promotion.

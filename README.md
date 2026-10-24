@@ -512,3 +512,11 @@ Validation only opens the empty `.writer.lock`; archived scientific files stay
 unchanged. Inherited expected-score metrics duplicate deterministic realized
 bonuses. `paired_t_ci95` within one arm is a one-sample t interval over five games;
 in the contrast it is the paired t interval over five block differences.
+
+S24 final-review operational caveat: abort and dispatch admission are not fully
+atomic. A worker can pass the abort check and proceed if a partner aborts in the
+short gap before base transport. No abort/failure occurred in this archive;
+publication rejects every failed or interrupted dataset. Frozen code is retained
+for exact reproduction. Future live reuse must make abort transitions and
+admission atomic and define treatment of already-admitted requests. See
+[the review disposition](logs/s24_review_disposition.md).

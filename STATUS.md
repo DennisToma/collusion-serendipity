@@ -1,15 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T21:47:01.024874+00:00; Phase2, iteration14 IN PROGRESS)
-- Selected fresh F/S24: human versus AI scenario identity at identical payoffs.
-- Ten fresh games/5blocks24400..24404 planned; T10; shared notes both arms.
-- Stage economics/type schedules fixed; one identity phrase differs at fixed history.
--16 protocol tests and full dry300-key replay PASS.
-- Independent dry100 cells/30 intervals/300 histories/200 snapshots PASS.
-- Codex+Opus methodology critics running; no live scientific calls yet.
-- Prior S22 remains DUD; all earlier scientific artifacts unchanged.
-- Next: dispose reviews,freeze/push sources,one-shot generation,verify/report.
-- Risks:n5,identity expectations/persona bundled,one model,possible approval floor.
+## Current state (2026-10-24T21:59:09.084716+00:00; Phase2, iteration14 VERIFYING)
+- S24 F complete:10games/5blocks;300valid gpt-6-luna responses.
+- Human/AI partner Y approvals1/40 each;AI−human0[-.075,.075].
+- Paired t[-.109749,.109749],upper p.75;frozen DUD;no HIT.
+- Identity phrase only at fixed history;deterministic payoffs/shared notes matched.
+- Zero retries/failures;all300 request keys/20 frozen sources PASS.
+- Independent100 cells/30 bootstrap+t summaries/300 histories PASS.
+- Figure inspected;no secondary/reverse promotion or agreement claim.
+- Full186-test suite PASS;both final critics disposed;six artifacts identical.
+- REPORT condensed;previous context retained in REPORT_DETAILS.
+- Next:fresh B/C question or queued own S25 serialization-order hypothesis.
+- Risks:n5,low approval rates,identity expectations/persona bundled.
 
 ## Log
 
@@ -178,3 +180,13 @@
 - 2026-10-24T21:47:01.024874+00:00: iteration14 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Chose fresh F S24 scenario identity after D S22. Registered ten-game5-block AI-minus-human directional pilot at identical deterministic stage payoffs, TYPE-X/Y schedules and shared notes. Adapted archived S22 lifecycle without changing prior sources.16 protocol tests/full dry300-key replay and independent100 cells/30 bootstrap+t summaries/30 tails/300 histories/200 snapshots PASS. Codex and Opus methodology critics requested before live outcomes; one inherited lottery-only wording test corrected during dry readiness. No live calls,partial effects,tuning,pooling or sibling writes.
 
 - 2026-10-24T21:49:22.907449+00:00: S24 methodology critics both exit0;Codex accepted post-preflight cutoff recheck/admission timestamp and canonical-export byte validation,with two targeted no-live regressions. Opus supplied snapshot lagged already-corrected stale test/equality assertions;scope/timing explicitly recorded. Retained matched expected-bonus wording and documented fail-closed launcher lock gap. All18 S24 protocol tests/final dry300-key exact replay/independent100 cells,30 bootstrap+t summaries,30 tails,300 histories,200 snapshots PASS.20-source readiness hashes recorded before freeze. No scientific live calls,tuning or sibling writes.
+
+- 2026-10-24T21:49:56.815548+00:00: S24 full20-source freezed151cdeadf80605284a188a41294176fab339d49 committed/pushed; launcher observed matching remote at2026-10-24T21:49:28.551628+00:00. One-shot live generation started with two workers/seed barrier,22:35UTC cutoff. No partial actions,notes or treatment estimates inspected;source files frozen. Result ledger registration points to source commit. No new pilot or sibling write.
+
+- 2026-10-24T21:50:36.647516+00:00: while S24 runs, condensed REPORT to one-page-style all-pilot table and retained prior context verbatim in REPORT_DETAILS. Read archived S19 adverse-action explanations;queued new own S25 serialization-order hypothesis motivated by explanations saying correction/reject after a structured approval. No new metric,action relabeling,scientific calls or second pilot. Live S24 monitored only by completion/failure counts;20 source hashes unchanged.
+
+- 2026-10-24T21:59:09.084716+00:00: S24 all10games/300valid responses complete before21:59UTC;zero retries/transport/parse/route failures. Frozen DUD:human and AI partner Y approvals1/40each;AI-human0[-.075,.075],paired t[-.109749,.109749],upper p.75. Mandatory300-key exact replay,20-source/registration/admission/headroom/export-byte/payoff/chronology checks PASS;independent100 metric cells/30 bootstrap+t summaries/30 tails/300 histories/200 snapshots PASS. Expected/realized bonuses equal under deterministic charges. Figure inspected;all outcomes retained,no secondary promotion/equivalence/agreement claim. Own S25 queued;no second pilot,tuning,pooling or sibling writes. Final critics and full tests follow.
+
+- 2026-10-24T22:00:05.097622+00:00: S24 full repository186 tests PASS. Offline release validates all300 cache/request keys,all20 frozen sources,registration/admission/timing,canonical export bytes and complete independent reconstruction. Six result/summary/figure/report/independent/release artifacts remain byte-identical after reanalysis,rereconstruction,rerender and completed-cache resume. Scientific result SHA236d34b8 unchanged;raw request cache1.37MB,response cache0.14MB. Final critics running;no additional scientific calls,source edits,tuning,pooling or sibling write.
+
+- 2026-10-24T22:02:29.670116+00:00: S24 final Codex and Opus critics both exit0,confirming DUD/all primary numbers. Codex independently raw-reconstructs counts/bootstrap/sign/t/score and all300 fixed-history phrase contrasts plus complete replay;Opus supplied-context only,scope explicit. Accepted low non-atomic abort/admission race as prospective harness limitation:zero actual failures/aborts,failed datasets never publish;no frozen code mutation. Deferred harmless inherited count-rounding/dead-code cleanup after independent exact verification;declined directional-opposition framing for zero selectivity. Full186tests/figure remain manager checks. Dispositions complete;20 sources and result SHA236d34b8 unchanged. Final release/results push/clean-clone follow.
