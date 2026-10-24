@@ -1,0 +1,40 @@
+test_economics (scripts.test_research.ResearchValidity.test_economics) ... ok
+test_group_folds_and_identifiability (scripts.test_research.ResearchValidity.test_group_folds_and_identifiability) ... ok
+test_message_timing_and_privacy (scripts.test_research.ResearchValidity.test_message_timing_and_privacy) ... ok
+test_missing_or_wrong_model_provenance (scripts.test_research.ResearchValidity.test_missing_or_wrong_model_provenance) ... ok
+test_predictive_positive_control (scripts.test_research.ResearchValidity.test_predictive_positive_control) ... ok
+test_strict_actions (scripts.test_research.ResearchValidity.test_strict_actions) ... ok
+test_torn_cache_recovery (scripts.test_research.ResearchValidity.test_torn_cache_recovery) ... ok
+test_cache_slot_game_and_retry_separation (scripts.test_s04.AdvisorValidity.test_cache_slot_game_and_retry_separation) ... ok
+test_exact_threshold_and_zero_profit_boundary (scripts.test_s04.AdvisorValidity.test_exact_threshold_and_zero_profit_boundary) ... ok
+test_frozen_screen_and_exposure_gate (scripts.test_s04.AdvisorValidity.test_frozen_screen_and_exposure_gate) ... ok
+test_known_secondary_metrics (scripts.test_s04.AdvisorValidity.test_known_secondary_metrics) ... ok
+test_routing_and_privacy (scripts.test_s04.AdvisorValidity.test_routing_and_privacy) ... ok
+test_strict_advice (scripts.test_s04.AdvisorValidity.test_strict_advice) ... ok
+test_cache_reuse_and_arm_separation (scripts.test_s03.S03Validity.test_cache_reuse_and_arm_separation) ... ok
+test_complete_dry_analysis_and_failure_gates (scripts.test_s03.S03Validity.test_complete_dry_analysis_and_failure_gates) ... ok
+test_delivery_and_no_current_action_leak (scripts.test_s03.S03Validity.test_delivery_and_no_current_action_leak) ... ok
+test_exact_screen_boundaries (scripts.test_s03.S03Validity.test_exact_screen_boundaries) ... ok
+test_exact_signflip_zeros_and_ties (scripts.test_s03.S03Validity.test_exact_signflip_zeros_and_ties) ... ok
+test_invalid_provenance_and_failure_closed (scripts.test_s03.S03Validity.test_invalid_provenance_and_failure_closed) ... ok
+test_strict_actions_and_deadline (scripts.test_s03.S03Validity.test_strict_actions_and_deadline) ... ok
+test_table_exhaustive (scripts.test_s03.S03Validity.test_table_exhaustive) ... ok
+test_mutated_verdict_and_intervals_fail (scripts.test_s03_publication.S03Publication.test_mutated_verdict_and_intervals_fail) ... ok
+test_orphan_and_missing_requests_fail (scripts.test_s03_publication.S03Publication.test_orphan_and_missing_requests_fail) ... ok
+test_deadline_blocks_new_call (scripts.test_s07.S07.test_deadline_blocks_new_call) ... ok
+test_exact_boundaries (scripts.test_s07.S07.test_exact_boundaries) ... ok
+test_failed_game_preserves_completed_partner (scripts.test_s07.S07.test_failed_game_preserves_completed_partner) ... s07_24080_legality complete 36 calls
+/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/traceback.py:241: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/tmp/tmppq8u21sw/.writer.lock' mode='w' encoding='UTF-8'>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_full_dry_and_tampering (scripts.test_s07.S07.test_full_dry_and_tampering) ... ok
+test_next_round_private_only (scripts.test_s07.S07.test_next_round_private_only) ... s07_24080_legality complete 6 calls
+ok
+test_routing_fails (scripts.test_s07.S07.test_routing_fails) ... ok
+test_strict_parser (scripts.test_s07.S07.test_strict_parser) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 1.008s
+
+OK

@@ -133,3 +133,25 @@ The frozen transport wrapper's deadline is checked per logical call, while
 internal transport retries are not separately bounded/logged. This run finished
 before 16:08 UTC; a future experiment near a strict cutoff needs per-transport
 attempt enforcement. See final critic dispositions for the precise limitation.
+
+S07 (iteration4, axis F) compares a neutral market-rule cue with an explicit
+anti-coordination prohibition; both arms have the same pair-only private box.
+No fines or enforcement are implemented, so this tests the exact normative cue
+package. See [DESIGN_S07.md](DESIGN_S07.md); ten fresh exploratory games, zero
+tuning, no agreement/execution truth labels and no no-channel control.
+
+```bash
+uv run python -m sim.legality             # pinned live/resume, source drift rejected
+uv run python scripts/s07_analyze.py      # complete arms + mandatory offline replay
+uv run python scripts/s07_verify.py       # independent arithmetic, exports, all keys
+uv run python scripts/s07_report.py       # current report + detailed tables + figure
+uv run python -m unittest scripts.test_s07 -v
+```
+
+Dry run: `uv run python -m sim.legality --dry --out /var/tmp/s07_offline`, then
+`uv run python scripts/s07_analyze.py --data /var/tmp/s07_offline --out
+/var/tmp/s07_offline/result.json --allow-dry`. Use a fresh directory after source
+changes. `s07_report.py` updates S07 in the existing report; after regenerating
+older pilots with `s03_present.py`, run `s07_report.py` again. The analysis and
+verifier refuse incomplete raw files before the inherited cache can recover
+them; preserve damaged evidence and inspect it before any generator resume.

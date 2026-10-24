@@ -1,17 +1,15 @@
 # STATUS
 
-## Current state (2026-10-24 16:18 UTC; Phase 2, iteration 3 complete)
-- S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE; no promoted HIT.
-- S03 (own): 10 games / 5 fresh blocks / T12; 368 cached calls, 8 retries (calculator 5 / none 3), zero failures.
-- Output calculator-none -0.881 [-1.170,-0.489] descriptive bootstrap; t [-1.433,-0.330]; higher-output p=1.
-- Frozen DUD for predicted increase; all five r4-12 contrasts negative but reverse magnitude <1.
-- Controls above Nash; calculator cycles around Nash (all-round mean 6.006, only 4/5 all-round contrasts negative).
-- Prespecified change +2.689; lag stage regret 2.570→0.119; current stage regret 2.630→8.259. No collusion claim.
-- Mandatory + independent cache-only replay/export/primary/regret checks PASS; full canonical result byte-identical.
-- Codex+Opus design/final reviews complete; 8 S03 tests in 21-test pre-run suite + 2 publication regressions PASS.
-- All frozen source/data/result hashes match; every raw key consumed once; figure inspected; repo <6 MB excluding env/git.
-- Next: cover D/E/F before deepening. Own S05 authority-label and S06 denomination ideas remain queued.
-- Risks: n5, window phase, bundled cues, API dependence/model identity; frozen transport cutoff not per-internal-retry.
+## Current state (2026-10-24 16:30 UTC; Phase2, iteration4 in progress)
+- Prior: S01 DUD; S02 ODD; S04 ODD/UNINFORMATIVE; S03 DUD for predicted increase. No HIT.
+- S07 (F): registered ten-game explicit anti-coordination cue pilot; both arms retain private boxes.
+- Five fresh blocks24080..24084; T12; one primary pair output r4–12, legality-neutral.
+- Seven S07 tests/full dry run PASS in 30-test suite; sources frozen; both design reviews complete.
+- No live S07 calls/outcomes; no tuning; no no-channel or verified collusion claim.
+- Mandatory replay checks every raw/request key consumed once and refuses incomplete raw files.
+- Queued own S08 reasoning-persistence idea; no second pilot this iteration.
+- Next: registration push → run → replay/independent arithmetic → final review/report/push.
+- Remaining portfolio axes after F: D/E. Risks: n5, cue bundling, API sampling/model labels.
 
 ## Log
 
@@ -46,3 +44,7 @@
 - 2026-10-24T16:18:04.590830+00:00: independent final Codex and Opus critics confirm all numbers and unchanged DUD classification. Codex independently reproduces all 240 game/window metric values, aggregate bootstrap/t intervals and displayed tables; Opus hand-verifies means, exact signs and t arithmetic. Applied baseline-overproduction/phase sensitivity, all-round4/5 signs and lag-regret manipulation-check framing. Added read-only execution/publication audit: all368 keys consumed once, all games finish before cutoff, retries5/3 all overlong reasoning, complete result byte-identical to canonical and bound by SHA256, independent rational verdict DUD. Two mutation/orphan publication regressions PASS. Retained frozen transport internal-retry cutoff limitation explicitly (actual run finished before16:08, no cutoff violation). All frozen sources/data/cache/export/result hashes match; no new LLM calls, tuning, second pilot, HIT or sibling headline change. Report remains33 lines; current work queue D/E/F.
 
 - 2026-10-24T16:18:23.221341+00:00: complete S03 artifacts, data, reports, independent reviews and publication audits committed/pushed as e728926. Result ledger reference finalized. No active generation or review process remains; next iteration should select D/E/F, retaining the unchanged DUD screen and phase/cycling limitations.
+
+- 2026-10-24T16:24:22.521244+00:00: iteration4 read rules/state/direction/ledger and both sibling summaries. Selected new axis F rather than deepen S03; registered S07 neutral-versus-prohibition cue (private boxes both arms), fresh ten-game design. Dry run, strict parser/timing/routing/deadline/exact-boundary/tamper checks PASS. Independent Codex+Opus design reviews requested before live calls. Queued own S08 idea; no direction deviation.
+
+- 2026-10-24T16:30:44.046726+00:00: S07 independent Codex/Opus design reviews complete. Fixed recipient-only inbox, failure-partner preservation, strict duplicate/nonstandard JSON rejection, explicit cache-miss/key-use rejection and verified-publication gating. Added retry-by-arm/sent-message conventions; retained fixed scientific rule and two-game concurrency based on prior measured throughput. All30 tests PASS; full source manifest frozen before live calls. No tuning, extra games or direction deviation.
