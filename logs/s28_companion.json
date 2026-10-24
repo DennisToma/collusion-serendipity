@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "raw_route_metadata_outputs": 200,
+  "matched_prompt_contracts": 100,
+  "initial_user_prompt_pairs": 10,
+  "pair_internal_bonus_difference_exact": "2/5",
+  "scientific_result_sha256": "c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3",
+  "scope": "Post-outcome metadata/prompt verification only;no new scientific metric or frozen-source edit"
+}

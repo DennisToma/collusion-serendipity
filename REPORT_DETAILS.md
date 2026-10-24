@@ -518,3 +518,66 @@ S25 backend tools were instruction-restricted but not disabled; tool-use transcr
 <!-- S22 summary end -->
 
 S27 post-outcome transparency appendix lists all 13 primary adverse approvals with raw explanations and notes. Some texts invoke reciprocity and others misstate payoffs; no intent labels or mechanism are inferred. [All source-bound events](results/s27_action_text.md).
+
+
+## S28 prospective setup (iteration18, own)
+
+[Registered design](DESIGN_S28.md), source freeze58fc296. Ten fresh two-person
+shared-note workplace games, five paired blocks24520..24524, T10, primary r3–10.
+Both arms receive the same explicit prose incentive rules. The table arm appends
+six rows identifying reviewer, author, type, approve/reject and each employee's
+directed payoff. The table is stage-equivalent: outgoing X/Y approvals yield
+reviewer+1/−2 and author+6; incoming approvals yield own+6 and partner+1/−2.
+Reject gives both0. Public action histories, simultaneous review timing and
+shared notes remain available in both arms. Current actions/writes stay hidden
+until both submit. Private explanations are saved without replay.
+
+Primary prose-minus-table Y approval reduction uses exact ordered block bootstrap,
+paired t interval and inclusive sign flips. The magnitude/sign screen is registered
+without a positive-profit gate because fewer Y approvals lower joint pair bonus
+at fixed X approvals. Five outcomes are all retained. Internal and total pair
+bonus duplicate; organization loss mechanically follows adverse approvals.
+Table detail, repetition, format, role salience and length are bundled. Selection
+after S27/S29, many exploratory pilots, n5, uncontrolled model draws, shared-service
+interference and synthetic work types preclude isolated arithmetic mechanisms,
+held-out claims, equivalence or inferred agreements. Sparse fresh baseline may
+limit the screen; no outcome-dependent gate or secondary/reverse promotion.
+
+Prelaunch verification:16 protocol checks/full243 tests,complete dry200-key replay,
+independent50 raw metric cells/15 bootstrap+t summaries/15 sign sets/200 histories
+and snapshots,200 accepted note/reason bindings including20 final outputs.
+Codex static and Opus supplied-text methodology reviews both exit0;accepted
+changes and reviewer scopes are in [the dispositions](logs/s28_review_disposition.md).
+Live outcomes are complete;see the landing below. Earlier frozen sources and results remain unchanged.
+
+### S28 landing — frozen ODD,inconclusive
+
+[Complete five-outcome summary](results/s28_summary.md). Prose7/40 versus table3/40
+partner Y approvals;prose-minus-table+.100[-.050,.275] descriptive bootstrap95%,
+paired t[-.155033,.355033],inclusive upper sign p.25. Seed differences are
+[0,.375,-.125,0,.250];two positive,one negative,two ties. The frozen .25
+magnitude and sign HIT gates are unmet;upper bootstrap bound .275 prevents
+DUD by the registered upper-bound rule. No secondary/reverse promotion or
+post-outcome gate. X approvals40/40 each. Pair internal/total bonus contrast
++.4[-.2,1.1],paired t[-.620131,1.420131],p.25;organization loss+1.0[-.5,2.75],
+paired t[-1.550328,3.550328],p.25. These secondary outcomes mechanically follow
+adverse approvals,and the two bonus fields duplicate. All200 responses valid,
+zero retries/failures;100/100 nonempty notes each. Adverse approvals persist in
+both arms;this pilot neither resolves a reduction nor isolates arithmetic errors.
+
+All-key replay/18-source registration/headroom/environment/chronology/export
+checks PASS;independent50 raw metric cells,15 bootstrap/t summaries,15 sign
+sets,200 request histories/snapshots and200 accepted notes/reasons including20
+final outputs PASS. Figure inspected. Canonical scientific SHA256
+`c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3`. Final critic dispositions and clean remote-clone
+reproduction will be recorded in the release logs once completed. No new calls,
+exclusions,pooling,tuning,agreement labels or sibling writes.
+
+Final reviews both returned exit0 and confirmed ODD;Codex raw arithmetic preceded
+its later reading of Opus's supplied-text final review,so final narratives are
+not fully blinded. [Dispositions](logs/s28_review_disposition.md). Separate
+post-outcome metadata/prompt [companion](scripts/s28_companion.py) binds200 raw
+route records,100 actual paired prompt contracts and the redundant bonus field;
+two mutation regressions PASS. Full repository245 tests PASS after this addition;
+all18 frozen sources and scientific result remain unchanged. Companion checks,
+figure inspection and full suite are manager validation. Publication/clone follows.

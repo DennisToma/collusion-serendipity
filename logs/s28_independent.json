@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "raw_auxiliary_outputs": 200,
+  "final_round_outputs": 20,
+  "note_counts": {
+    "prose": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "table": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "rejections": {
+    "prose": 0,
+    "table": 0
+  },
+  "verdict": "ODD"
+}

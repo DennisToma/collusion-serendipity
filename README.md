@@ -668,3 +668,19 @@ failed/interrupted resume,replacement,pooling or outcome-dependent rule changes.
 Independent checker also binds final-round notes/reasons and note counts;backend
 tool non-use remains unverified. Per-arm t JSON fields use inherited names for
 one-sample bounds;paired contrast bounds are actual paired intervals.
+
+S28 landed ODD/inconclusive:prose7/40 versus table3/40 partner Y approvals,
+prose-minus-table+.100[-.050,.275] descriptive bootstrap;t[-.155033,.355033],
+upperp.25. All200 responses valid,zero retries/failures;all18 scientific sources
+unchanged. The magnitude/sign screen is unmet;no promoted HIT,arithmetic
+mechanism,verified agreement or pooling. [All outcomes](results/s28_summary.md).
+
+Final S28 reviews confirmed the numbers. A separate post-outcome companion
+`uv run python scripts/s28_companion.py` additionally binds all top-level route/
+bonus metadata and100 matched actual prompt contracts,including nonempty
+histories. `uv run python -m unittest scripts.test_s28_companion` rejects the
+reviewers' three metadata mutations and an extra prompt prefix. The18 frozen
+scientific sources/result are unchanged;this companion is manager-validated
+and was outside the final critics' fixed input set. Codex reconstructed raw
+arithmetic before later reading Opus's supplied-text review;their final texts
+are not fully blinded. [Dispositions](logs/s28_review_disposition.md).

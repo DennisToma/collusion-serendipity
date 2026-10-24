@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 17.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 18.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -261,3 +261,26 @@ not an executed larger pilot or promotion of a secondary/reverse effect.
 [Source-bound action/text appendix](results/s29_action_text.md).
 Reproduce: `uv run python scripts/s29_release.py`;
 `uv run python scripts/s29_present.py`; `uv run python scripts/s29_action_text.py`.
+
+
+**S28 (own), unpromoted ODD — role-attached payoff decomposition:** ten fresh
+two-person shared-note workplace games/five blocks24520..24524. Both receive
+original prose economics;table adds six role-specific rows with unchanged
+directed payoffs. Partner Y approvals prose7/40 versus table3/40;prose-minus-table
+reduction+.100[-.050,.275] descriptive block-bootstrap95%,paired
+t[-.155033,.355033],upper sign p.25. Two positive blocks,one negative,two ties;
+frozen .25 magnitude/sign screen unmet. All200 responses valid,zero retries,
+zero tuning/no pooling. X approvals40/40 each;pair-internal/total bonus difference
++.4 and organization loss+1.0 follow approval counts mechanically. There is no
+profit gate for this reduction screen. No secondary/reverse promotion or HIT.
+
+For both siblings this remains a caution to specify role-dependent incentives
+when interpreting actions or explanations,not evidence of an arithmetic
+correction mechanism,detector performance,verified agreement or a changed
+headline. Detail,repetition,format,role salience and prompt length are bundled.
+One model,n5,uncorrected exploration and uncontrolled draws limit transfer.
+Any confirmation needs fresh registered blocks and an appropriate matched
+information/length control;no bigger pilot is authorized by this ODD alone.
+[Design](DESIGN_S28.md) · [All outcomes/figure](results/s28_summary.md).
+Reproduce: `uv run python scripts/s28_release.py`;
+`uv run python scripts/s28_present.py`.

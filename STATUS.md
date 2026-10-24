@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T23:08:25.622342+00:00; Phase2, iteration18 PRELAUNCH)
-- S28 own:ten fresh two-person shared-note games/five blocks24520..24524,T10.
-- Primary prose-minus-table Y approval reduction;frozen screen,no profit gate.
-- Six-row role table added;incentives/types/roster/note access fixed.
-- Both methodology critics exit0;static/supplied-text scopes explicit.
-- All16 protocol checks,full243 tests,dry200-key replay/independent checks PASS.
-- Final-note/hash/attempt/marker/environment/timestamp guards now included.
-- All18 scientific sources ready;freeze/push before any live call.
-- Once launched:DO NOT EDIT ANY SOURCE in sim.payoff_table.SOURCES until publication.
-- Uncached cutoff Sun00:00UTC;two game workers,block barrier,no interrupted resume.
-- No tuning,pooling,HIT,sibling writes or live scientific calls yet.
-- Risks:n5,bundled repetition/format/detail,sparse baseline,unverified tool non-use.
+## Current state (2026-10-24T23:16:04.146437+00:00; Phase2, iteration18 RELEASE READY)
+- S28 own:ten fresh two-person shared-note games/five blocks;200valid decisions.
+- Partner Y approvals prose7/40,table3/40;prose-minus-table+.100[-.050,.275].
+- Paired t[-.155033,.355033],upperp.25;frozen ODD,no HIT.
+- Two positive blocks/one negative/two ties;magnitude/sign screen unmet.
+- X approvals40/40each;bonus+.4 and organization loss+1.0 mechanical.
+- Zero retries/failures;200-key replay/18 sources/registration/timing/exports PASS.
+- Independent50cells/15bootstrap+t summaries/sign sets/allhistories/notes PASS.
+- Metadata/100prompt companion PASS;full245tests PASS.
+- Both final critics confirm;Codex raw arithmetic preceded later Opus-text read.
+- All18 scientific sources FROZEN;result SHAc89482ea unchanged.
+- No tuning,pooling,secondary/reverse promotion,HIT or sibling writes.
+- Next:fresh A world after own;S30 input-order proposal unrun.
+- Risks:n5,bundled repetition/format/detail,uncontrolled draws,tool non-use unverified.
 
 ## Log
 
@@ -236,3 +238,11 @@
 - 2026-10-24T23:03:21.460185+00:00: iteration18 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling summaries read-only. Activated queued own S28 after C/S29;prospective ten-game/five-block shared-note role-table comparison registered before calls. Prose-minus-table reduction screen has no profit gate because fewer adverse approvals mechanically lower pair bonus. Added detail,repetition,format,role salience and prompt length bundled;no arithmetic mechanism claim. No direction deviation,tuning,pooling,HIT or sibling writes. Synthetic validation and independent methodology critics next.
 
 - 2026-10-24T23:08:25.622342+00:00: S28 Codex and Opus methodology reviews exit0. Applied independent raw hash/bijection/attempt/route/optimization checks,completion environment observation,embedded-marker parser and parsed-datetime chronology before live outcomes. All16 protocol checks/full243 repository tests/final dry200-key replay,50metric cells,15bootstrap+t summaries,15sign sets,200histories/snapshots/notes/reasons including20final outputs PASS. Historical14 S21 synthetic clock overrides remain scoped;actual S21 archive original-cutoff release PASS. All18 source hashes in readiness manifest. New own S30 input-key ordering proposal queued,not run. No live calls,tuning,pooling or direction deviation;freeze/push then detached one-shot run.
+
+- 2026-10-24T23:08:57.220205+00:00: S28 source freeze58fc296 committed/pushed;one-shot detached launcher observed matching remote main at 2026-10-24T23:08:36.126723+00:00. Historical headroom 51.42min versus required 19.59min;all18 source hashes verified. Two concurrent game workers/seed barrier,Sun00:00 uncached cutoff. Scientific sources frozen;no partial action,note or treatment contrasts inspected.
+
+- 2026-10-24T23:16:04.146437+00:00: S28 all10games/200valid decisions complete before23:15UTC,zero retries/parse/route/transport failures. Frozen ODD:prose7/40 versus table3/40 Y approvals,prose-minus-table+.100[-.050,.275],paired t[-.155033,.355033],upperp.25;two positive/one negative/two tied blocks. Magnitude/sign gates unmet,no secondary/reverse promotion,pooling,HIT or arithmetic-mechanism claim. X40/40 each;bonus+.4 and organization loss+1.0 mechanically follow Y approvals. Exact200-key replay,18-source registration/admission/headroom/completion environment/UTC chronology/export checks and independent50cells/15bootstrap+t summaries/15sign sets/200histories/snapshots/notes/reasons including20final outputs PASS. Figure inspected;scientific SHAc89482ea. Final claims critics/full suite/release/remote-clone next;no frozen-source edit or further scientific call.
+
+- 2026-10-24T23:20:11.112636+00:00: S28 final Codex/Opus critics exit0 and confirm all primary numbers/ODD. Codex raw-reconstructs50cells/all15bootstrap+t summaries/five complete sign sets (three tails),200histories/notes and full source/replay/registration gates;nine selected tests PASS. Opus hand-reconstructs supplied per-game counts/statistics without shell/raw cache. Codex raw arithmetic precedes its later reading of Opus final output;final narratives not fully blinded. Added separate post-outcome companion for correct-but-unbound top-level route/bonus metadata and100 actual prompt contracts;200raw records/10initial user pairs/bonus2/5 PASS,two mutation regressions PASS. No frozen scientific source or canonical SHAc89482ea change. Full suite rerun with companion tests pending;publication/remote clone next.
+
+- 2026-10-24T23:20:52.336217+00:00: S28 post-companion full245-test repository suite PASS with14 scoped historical S21 synthetic cutoff overrides;actual S21 original archive separately verified. Canonical scientific SHAc89482ea and all18 frozen source hashes unchanged. Both final critics fully disposed;figure and companion scope manager-only. Final byte regeneration,results commit/push and remote-origin clean clone follow;no scientific calls,new outcome,source mutation,tuning,pooling,HIT or sibling writes.
