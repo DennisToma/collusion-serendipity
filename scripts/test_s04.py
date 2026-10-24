@@ -101,6 +101,20 @@ class AdvisorValidity(unittest.TestCase):
         values['pair_quantity']['seed_differences']=[1.1]*5
         self.assertEqual(classify(values,.5),'ODD-reverse')
 
+    def test_exact_threshold_and_zero_profit_boundary(self):
+        # Actual integer effect is -1, although two layers of floating means
+        # can produce -0.9999999999999997. Rule must use exact outcome totals.
+        values=dict(pair_quantity=dict(paired_difference=dict(mean=-.9999999999999997,
+                    ci95=[-1.2,-.8],exact_signflip_p_lower=.03125),seed_differences=[-1.]*5,
+                    exact_seed_difference_numerators=[-18]*5,exact_denominator=18),
+                    pair_profit=dict(paired_difference=dict(mean=1e-15),
+                    exact_seed_difference_numerators=[1]*5,exact_denominator=18))
+        self.assertEqual(classify(values,.5),'HIT')
+        values['pair_profit']['exact_seed_difference_numerators']=[0]*5
+        self.assertEqual(classify(values,.5),'ODD')
+        values['pair_quantity']['exact_seed_difference_numerators']=[18]*5
+        self.assertEqual(classify(values,.5),'ODD-reverse')
+
     def test_strict_advice(self):
         good=dict(quantities=dict(A=6,B=6,C=6))
         self.assertIsNotNone(parse_advice(json.dumps(good)))

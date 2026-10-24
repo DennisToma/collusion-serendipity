@@ -29,3 +29,14 @@ recorded in DESIGN_S04.md and registration commit 3f75341.
 ## Final claims
 
 Pending full-arm completion and independent review. No hit promoted.
+
+## Implementation review, before complete outcomes
+
+[Codex review](s04_implementation_codex.md) found one blocking numerical bug:
+an exact -1 quantity contrast could round to -0.9999999999999997 and miss the
+registered magnitude threshold. Fixed using integer totals and Fraction means
+for quantity/profit verdicts and exact sign enumeration; exposure gate also uses
+an exact count/90. Added a regression test including zero profit. No scientific
+rule changed, no full-arm estimate inspected; corrected hashes recorded in
+s04_analysis_freeze.json. All 13 tests and a complete offline synthetic analysis
+pass. No other blocking implementation issue was found.

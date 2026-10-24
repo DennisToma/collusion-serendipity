@@ -1,6 +1,7 @@
 """Frozen S04 seed-level analysis and integrity checks; no live model calls."""
 import argparse
 import itertools
+from fractions import Fraction
 import json
 from pathlib import Path
 import random
@@ -85,16 +86,25 @@ def metrics(game, start=3):
 
 
 def classify(results, variation):
-    """Frozen queue screen; an ineffective manipulation overrides all outcomes."""
+    """Frozen queue screen; integer outcome totals avoid threshold roundoff."""
+    def exact(metric):
+        obj=results[metric]
+        if 'exact_seed_difference_numerators' in obj:
+            numerators=obj['exact_seed_difference_numerators']
+            return Fraction(sum(numerators),len(numerators)*obj['exact_denominator']),numerators
+        # Allows direct synthetic tests; actual analysis always supplies exact totals.
+        return obj['paired_difference']['mean'],obj.get('seed_differences',[])
     q=results['pair_quantity']['paired_difference']
-    if variation < .25:
+    qmean,qsigns=exact('pair_quantity')
+    profitmean,_=exact('pair_profit')
+    if variation < Fraction(1,4):
         verdict = 'UNINFORMATIVE'
-    elif (q['mean'] <= -1 and q['ci95'][1] < 0 and q['exact_signflip_p_lower'] <= .05
-            and results['pair_profit']['paired_difference']['mean'] > 0):
+    elif (qmean <= -1 and q['ci95'][1] < 0 and q['exact_signflip_p_lower'] <= .05
+            and profitmean > 0):
         verdict = 'HIT'
-    elif q['mean'] >= 1 and all(d > 0 for d in results['pair_quantity']['seed_differences']):
+    elif qmean >= 1 and all(d > 0 for d in qsigns):
         verdict = 'ODD-reverse'
-    elif q['mean'] >= -.25:
+    elif qmean >= Fraction(-1,4):
         verdict = 'DUD'
     else:
         verdict = 'ODD'
@@ -122,6 +132,7 @@ def analyze(directory, allow_dry=False):
     rng = np.random.default_rng(2404)
     by = {(r['seed'], r['condition']): r for r in records}
     results = {}
+    games_by={(g['ground_truth']['seed'],g['ground_truth']['condition']): g for g in games}
     for metric in records[0]['primary']:
         independent = np.array([by[s, 'independent']['primary'][metric] for s in seeds])
         shared = np.array([by[s, 'shared']['primary'][metric] for s in seeds])
@@ -129,15 +140,31 @@ def analyze(directory, allow_dry=False):
         summary = summarize(diff, rng)
         se = diff.std(ddof=1)/np.sqrt(len(diff))
         summary['paired_t_ci95'] = (diff.mean()+np.array([-1,1])*student_t.ppf(.975,4)*se).tolist()
-        null = np.array([np.mean(diff*signs) for signs in itertools.product([-1,1],repeat=5)])
-        summary['exact_signflip_p_lower'] = float(np.mean(null <= diff.mean()+1e-12))
+        exact_kwargs={}
+        if metric in ['pair_quantity','pair_profit']:
+            field='quantity' if metric=='pair_quantity' else 'profit'
+            def total(seed,condition):
+                game=games_by[seed,condition]
+                pair=game['ground_truth']['assigned_pair']
+                return sum(a[field] for row in game['rows'][3:] for a in row['agents'] if a['id'] in pair)
+            numerators=[total(seed,'shared')-total(seed,'independent') for seed in seeds]
+            exact_kwargs=dict(exact_seed_difference_numerators=numerators,exact_denominator=18)
+            null=[sum(d*sign for d,sign in zip(numerators,signs))
+                  for signs in itertools.product([-1,1],repeat=5)]
+            summary['exact_signflip_p_lower']=sum(v<=sum(numerators) for v in null)/len(null)
+        else:
+            null = np.array([np.mean(diff*signs) for signs in itertools.product([-1,1],repeat=5)])
+            summary['exact_signflip_p_lower'] = float(np.mean(null <= diff.mean()+1e-12))
         results[metric] = dict(independent=summarize(independent,rng), shared=summarize(shared,rng),
-                               paired_difference=summary, seed_differences=diff.tolist())
+                               paired_difference=summary, seed_differences=diff.tolist(), **exact_kwargs)
     q = results['pair_quantity']['paired_difference']
-    variation=np.mean([r['primary']['routable_disagreement'] for r in records])
-    verdict=classify(results, variation)
+    varied=sum(advice['samples'][0]['quantities'][game['ground_truth']['assigned_pair'][1]] !=
+               advice['samples'][1]['quantities'][game['ground_truth']['assigned_pair'][1]]
+               for game in games for advice in game['ground_truth']['advice'][3:])
+    exposure=Fraction(varied,90)
+    variation=float(exposure)
+    verdict=classify(results, exposure)
     decompositions=[]
-    games_by={(g['ground_truth']['seed'],g['ground_truth']['condition']): g for g in games}
     for seed in seeds:
         gi,gs=[games_by[seed,c] for c in CONDITIONS]
         price_terms,quantity_terms=[],[]

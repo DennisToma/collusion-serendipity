@@ -7,5 +7,13 @@
     "scripts/s04_report.py": "83e8fa71a6ca7b0e72d5adb6f296c608aa0269a3a6aec19beb2fafa61cb87bce",
     "scripts/render_report.py": "6dfeec9a186bd02571f420ef6baf6776622ea97710d6435234030ce07dec96fb",
     "scripts/test_s04.py": "3ff88a4a75d027502cca9c3e710a8c54403274eca30a85e37983cdb48001f013"
+  },
+  "implementation_correction_before_complete_outcomes": {
+    "time_utc": "2026-10-24T15:21:24.823100+00:00",
+    "reason": "Independent reviewer found -1 boundary could round above threshold. Exact integer sums/rational mean now decide primary magnitude, sign enumeration, reverse direction, exposure gate and positive profit; no rule/metric change, no live outcomes inspected.",
+    "sha256": {
+      "scripts/s04_analyze.py": "02632a9fef98309a593e6ac14ee0c11380511bd5f8fbbd5090e8c531d37d2514",
+      "scripts/test_s04.py": "216b2f08bdec99f1943561a3afc82e73bde0d5326ba385dc700f182dd347719b"
+    }
   }
 }
