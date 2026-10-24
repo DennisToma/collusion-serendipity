@@ -597,3 +597,22 @@ unchanged. Fresh S31 copies the cache to `sim/labor_cache.py` and sets `retries=
 with one pinned codex/luna route, so a logical backend failure aborts the pilot.
 The Codex CLI itself and provider execution remain unobserved. This correction
 was made before any S31 live calls. See [review disposition](logs/s31_review_disposition.md).
+
+
+### S31 — Employer notes and paid wages (A2)
+
+Fresh labor-world pilot; [design](DESIGN_S31.md),[all five metrics and figure](results/s31_summary.md),
+[raw results](results/s31_labor.json),[independent check](logs/s31_independent.json).
+Ten games/five fresh blocks24560..24564,200valid decisions,zero retries/failures.
+Worker earnings r3–10:self10.000/shared10.000;self−shared0[0,0] degenerate empirical
+bootstrap,t[0,0],upper sign p1. Frozen DUD,no secondary/reverse promotion or pooling.
+All five block differences zero;the intervals describe this empirical sample,
+not an equivalence bound or proof of zero population effect. Pure Nash wage
+profiles are(18,18),(19,19),(20,20);wages far below these do not establish an
+agreement. Both arms see public wages and their own notes. Total employer
+profits equal20−worker earnings,so the profit gate supplies no independent evidence.
+Shared delivery and stated readability are bundled. Five uncorrected exploratory
+blocks,uncontrolled model draws and passive synthetic workers limit transfer.
+All200 raw keys replay,18 frozen sources/registration/environment/UTC/export
+checks and independent50metric cells/15bootstrap+t summaries/five sign-tail
+sets/all200notes and reasons PASS. Final Codex and Opus critics confirm DUD. Codex reconstructed raw actions and prompt contracts;Opus supplied-text-only arithmetic/analytic economics. Neither read the other final review. See [disposition](logs/s31_review_disposition.md). Codex binary/effective inherited CLI configuration was not frozen;[post-run observation](logs/s31_runtime_observation.json) is not execution-time attestation. Cache-only release and full257-test suite PASS;figure visually checked. Remote clone pending.

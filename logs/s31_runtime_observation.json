@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-10-24T23:39:14.971465+00:00",
+  "scope": "POST-RUN observation only; does not reconstruct or attest execution-time binary, configuration, environment or provider behavior",
+  "cli_version": "codex-cli 0.163.0",
+  "launcher_path": "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js",
+  "cli_file_sha256": {
+    "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70"
+  },
+  "config_exists": true,
+  "config_sha256": "cf0ea790b1028a5a11e08ea5250e2567e0d647e45d39ef21c6c4d72ad6531e5b",
+  "config_path": "/home/factory/.codex/config.toml",
+  "effective_configuration_reconstructed": false,
+  "configuration_controlled_during_run": false,
+  "note_counts_from_game_archives": {
+    "self": {
+      "written": 100,
+      "nonempty": 100
+    },
+    "shared": {
+      "written": 100,
+      "nonempty": 100
+    }
+  },
+  "frozen_scientific_sources_unchanged": true,
+  "scientific_result_sha256": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0"
+}

@@ -284,3 +284,23 @@ information/length control;no bigger pilot is authorized by this ODD alone.
 [Design](DESIGN_S28.md) · [All outcomes/figure](results/s28_summary.md).
 Reproduce: `uv run python scripts/s28_release.py`;
 `uv run python scripts/s28_present.py`.
+
+
+**S31 (A2), unpromoted DUD — wage-setting employers:** ten fresh games/five
+paired blocks24560..24564;self-only versus shared employer notepads. Worker
+earnings r3–10 are10.000 in both arms,primary self−shared0[0,0] degenerate
+empirical bootstrap,t[0,0],upper sign p1;all five block differences zero.
+200 responses,zero retries/failures,zero tuning,no pooling. The registered
+wage-reduction screen fails;no equivalence,zero population effect,agreement or
+HIT claim. Total employer profits also10 per round in both arms by construction.
+
+For both siblings: the common low wage level (symmetric integer pure Nash18–20)
+occurs with self-only notepads as well as shared notes. Public wages are visible
+in both arms. This cannot distinguish common prompts/policy,public signaling,
+private content or reciprocal intent. The synthetic duopsony is economically
+procurement-equivalent;passive workers accept zero. Do not transfer it as
+real-world wage-fixing evidence or change the detector headline. Any follow-up
+needs fresh registered scenarios and an appropriate public-history or incentive
+control. [Design](DESIGN_S31.md) · [All outcomes/figure](results/s31_summary.md).
+Reproduce: `uv run python scripts/s31_release.py`;
+`uv run python scripts/s31_present.py`.

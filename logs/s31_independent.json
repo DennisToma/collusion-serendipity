@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "metric_cells": 50,
+  "bootstrap_and_t_summaries": 15,
+  "sign_sets": 5,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "verdict": "DUD",
+  "primary_mean": 0.0,
+  "primary_ci": [
+    0.0,
+    0.0
+  ],
+  "upper_p": 1.0,
+  "result_sha256": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0"
+}

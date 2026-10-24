@@ -690,3 +690,45 @@ release,18 protocol/companion checks and real S21 original-cutoff release. Seven
 core/companion artifacts regenerate byte-for-byte;clone status is clean. Receipt:
 logs/s28_remote_clean_clone.json. The clone reused the installed frozen environment,
 not a separate dependency installation.
+
+## S31 — Labor duopsony (iteration19)
+
+Fresh two-employer wage competition: five paired blocks24560..24564,ten games,
+self-only versus shared notepads,T10,primary r3–10. Worker earnings are the
+highest offered wage;total employer profit is20 minus those earnings. The
+integer-grid pure Nash profiles are(18,18),(19,19),(20,20),not a unique20 benchmark.
+Shared access bundles note delivery with the disclosed readability rule. No
+agreement or execution label is inferred. All exploratory,zero tuning,no pooling.
+[Prospective design](DESIGN_S31.md),[methodology disposition](logs/s31_review_disposition.md).
+
+Reproduce the completed archive:
+
+```bash
+uv run python scripts/s31_analyze.py
+uv run python scripts/s31_independent.py
+uv run python scripts/s31_present.py
+uv run python scripts/s31_release.py
+uv run python -m unittest scripts.test_s31
+```
+
+Dry example: `uv run python -m sim.labor --dry --out /var/tmp/s31_example`,then
+`uv run python scripts/s31_analyze.py --allow-dry --data /var/tmp/s31_example
+--out /var/tmp/s31_example/result.json`. Live launch is one-shot and registration
+already frozen;do not launch again or resume interrupted/failed data. S31's copied
+cache calls `llm.chat(retries=1)`,while earlier archived cache sources remain
+unchanged. CLI internal retries and actual tool non-use are unverified. The
+release script verifies every cached request,all18 frozen sources,registration,
+exports,timing and independent raw reconstruction without model calls.
+
+S31 landed DUD:worker earnings10.000 in each arm;reduction0[0,0] degenerate
+bootstrap,t[0,0],upperp1,five tied blocks. No equivalence or verified-agreement
+claim. [All outcomes and figure](results/s31_summary.md). All200 decisions valid,
+zero retries/failures. Source freeze09e7f7a remains unchanged.
+
+Final critics independently confirm the frozen DUD. Codex reconstructed raw
+arithmetic/prompt contracts;Opus checked supplied-text arithmetic without raw
+access. The Codex executable/effective inherited CLI configuration was not
+frozen. `uv run python scripts/s31_runtime_observation.py` records current
+post-run version/file hashes and counts actual notes;it does not attest the
+execution-time binary/configuration and is outside the scientific source freeze.
+[Final dispositions](logs/s31_review_disposition.md).

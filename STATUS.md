@@ -1,15 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24T23:26:16.171325+00:00; Phase2, iteration19 IN PROGRESS)
-- S31 fresh A2 labor duopsony selected after own/S28;five new paired blocks.
-- Ten games/T10/200 planned decisions;self-only versus shared employer notes.
-- Primary self-minus-shared worker earnings;r3..10;frozen directional screen.
-- Enumerated441 stage profiles;pure Nash(18,18),(19,19),(20,20).
-- Twelve scoped checks/full dry200-key replay/independent50cells+15summaries PASS.
-- Codex/Opus design reviews disposed;independent patch critic PASS;no live calls.
-- Earlier S28 ODD and S29 ODD unchanged;no promoted HIT.
-- Full257 tests PASS;next freeze/push,one-shot generation,verify and report.
-- Risks:n5,synthetic passive workers,prompt/delivery bundle,uncontrolled draws.
+## Current state (2026-10-24T23:39:47.631659+00:00; Phase2, iteration19 PUBLICATION)
+- S31 fresh A2 labor duopsony:10games/5blocks,200valid decisions.
+- Worker earnings self10/shared10;primary0[0,0] degenerate bootstrap.
+- Paired t[0,0],upperp1;five ties;frozen DUD,no HIT/equivalence claim.
+- Zero retries/failures;200-key replay/18sources/registration/UTC/exports PASS.
+- Independent50cells/15bootstrap+t summaries/five sign sets/200notes+reasons PASS.
+- Full257 post-live tests/real S21 archive/cache-only release PASS.
+- Both final critics confirm;Codex raw reconstruction,Opus supplied-text scope.
+- Scientific SHA0673f925 and source freeze09e7f7a unchanged.
+- CLI binary/effective config unfrozen;post-run observation not attestation.
+- Next:results push,remote clean-clone reproduction;S30/S32 remain unrun.
 
 ## Log
 
@@ -250,3 +251,13 @@
 - 2026-10-24T23:28:43.103392+00:00: S31 methodology Codex/Opus critics completed. Codex mocked probe found inherited llm.chat default retries could hide backend failures; implemented S31-only copied cache with retries=1 and pinned route,leaving historical sources untouched. Independent response acceptance now checks every attempt;Opus cutoff/prefix/interruption wording fixes applied. Twelve scoped checks/final dry200-key replay/independent50cells+15summaries+five sign sets/all200notes+reasons PASS. Historical required raw paths unignored;full257-test suite running;patch-specific Codex critic requested before freeze. Archived transport-retry uncertainty disclosed in REPORT_DETAILS;no earlier scientific source/data/estimate change,no live calls or tuning.
 
 - 2026-10-24T23:29:39.196124+00:00: S31 patch-specific independent Codex critic confirms one logical transport invocation,terminal abort/no later admission,first-valid acceptance with full synthetic200-key discarded-valid mutation,and admitted-after-cutoff completion/cached-replay boundary. No remaining blockers. Final dry200-key replay,independent50cells/15bootstrap+t summaries/five sign-tail sets/all200notes+reasons PASS;18 source hashes recorded in readiness. Full257 repository tests PASS,real S21 original-cutoff release separately PASS. Source freeze/push and one-shot generation next;no live outcomes yet.
+
+- 2026-10-24T23:29:58.134981+00:00: S31 source freeze09e7f7a145058437b4510c3f7cc352823d7af285 committed/pushed;one-shot launcher observed matching remote at2026-10-24T23:29:46.914799+00:00. Historical headroom60.24min versus required19.59min;18 sources pinned,two concurrent games/seed barrier,Sun00:30 uncached admission cutoff. No partial wages/notes/treatment contrast inspected;source files now frozen. Ledger registration linked;no extra pilot or sibling write.
+
+- 2026-10-24T23:32:32.246883+00:00: S31 metadata-only checkpoint:4/10 games complete,100 cached requests,no failure marker;no partial wages,notes or treatment estimates read. Reproduction commands documented while generation proceeds;all scientific sources remain frozen.
+
+- 2026-10-24T23:36:20.369676+00:00: S31 ten games/200valid decisions finished23:35UTC,zero retries/transport/parse/route failures. Frozen DUD:self worker earnings10 versus shared10,primary0[0,0] degenerate bootstrap,t[0,0],upperp1;five ties. No equivalence/population-zero-effect,agreement,HIT,reverse/secondary promotion or pooling. Exact200-key replay,18-source registration/admission/headroom/completion environment/UTC/export checks and independent50cells/15bootstrap+t summaries/five complete sign-tail sets/all200raw notes+reasons PASS. Canonical scientific SHA0673f925;all frozen sources unchanged. Reports/HITS updated;final critics,figure/full suite/release/remote clone next.
+
+- 2026-10-24T23:39:15.138434+00:00: S31 final Codex/Opus critics exit0,confirm DUD/primary0[0,0]/t[0,0]/upperp1. Codex raw-reconstructsall5metrics/bootstrap/signs/all200prompts/18sources;Opus supplied-text-only arithmetic/analytic equilibria,both without reading other final critique. Accepted ambiguous agreement wording fix and unresolved medium CLI binary/effective-config provenance gap;separate post-run observation records currentversion/launcher/binary/config hashes and actual100notes perarm,explicitly not retrospective attestation. No frozen source/result changes. Full257 post-live tests/cache-only release PASS;figure inspected;new ownS32 resource-framing idea queued,not run. Final regeneration/results commit/push/remote clone next.
+
+- 2026-10-24T23:39:47.631659+00:00: S31 final all18 source hashes match registration09e7f7a;canonical scientific SHA0673f925 unchanged. Complete analysis/independent/render regeneration under forbidden model calls leaves four artifacts byte-identical;cache-only release PASS with final documentation. Both final review dispositions complete;no new scientific calls,tuning,pooling,HIT,secondary/reverse promotion,sibling writes or frozen-source edits. Results commit/push and remote clean clone next.

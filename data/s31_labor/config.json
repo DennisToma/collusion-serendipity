@@ -1,0 +1,38 @@
+{
+  "version": "labor-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 10,
+  "n": 5,
+  "seed0": 24560,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/labor.py": "d05848a80ad041a4f498edbfa5f0e6b47b94db60daf01780212434bd18011ec4",
+    "sim/labor_cache.py": "8892fb09986b2f2e689a012f6d62f368e559946a61eaa54655b8bc0e56215779",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S31.md": "dbd77a5476a94ea34a57cef731b6539656bf41937f8323d19d9266e8eb713243",
+    "scripts/s31_analyze.py": "7628e907b17864036524595e3040f48ac4fd90b108ab2c92de644ccf26c2e6f2",
+    "scripts/test_s31.py": "1f3806a25dd90ae982433fb71d2bd3902bd2bd669df7a7cbdd94eb8ed00965ed",
+    "scripts/s31_launch.py": "6ba975f24f921f5244a7d5eb000b83bf8f172be8ef491ee44300189de97ce323",
+    "scripts/s31_independent.py": "fe405ddceadbde63d080aac2d88daa392a926adc35ff6834be888ae4086bc647",
+    "scripts/s31_present.py": "59bf323f855e63a882386150828d7887dcd25f849251bb7f296e849d142f4eac",
+    "scripts/s31_reviews.py": "60ebf60c2dd48696f2ef90ea5bc0012210f91435ff6db0342c922668f342fbec",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-25T00:30:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "09e7f7a145058437b4510c3f7cc352823d7af285"
+}
