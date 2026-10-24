@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 19 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 · Iteration 20 (S32 registered; awaiting outcomes) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -53,4 +53,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh own/structure question after A; S30 remains unrun. No secondary-driven promotion.
+**Next:** S32 registered: fresh human-labor versus automated-compute identity phrase at identical economics, five paired blocks; no live outcomes yet. S30 remains unrun. No secondary-driven promotion.

@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24T23:40:39.832064+00:00; Phase2, iteration19 COMPLETE)
-- S31 fresh A2 labor duopsony:10games/5blocks,200valid decisions.
-- Worker earnings self10/shared10;primary0[0,0] degenerate bootstrap.
-- Paired t[0,0],upperp1;five ties;frozen DUD,no HIT/equivalence claim.
-- Zero retries/failures;200-key replay/18sources/registration/UTC/exports PASS.
-- Independent50cells/15bootstrap+t summaries/five sign sets/200notes+reasons PASS.
-- Full257 tests/cache-only release/real S21 original archive PASS.
-- Both critics confirm;Codex raw reconstruction,Opus supplied-text scope.
-- Remote clone:12checks/six artifacts byte-identical,clone clean.
-- Registration09e7f7a/resultsc62f9ce pushed;scientific SHA0673f925 unchanged.
-- CLI binary/effective config unfrozen;post-run observation not attestation.
-- No active run/review,tuning,pooling,HIT or sibling writes.
-- Next:fresh own/structure question;S30/S32 proposals remain unrun.
+## Current state (2026-10-24T23:44:48.847931+00:00; Phase2, iteration20 ACTIVE)
+- Selected own/S32 resource identity after A/S31;fresh10games/5blocks planned.
+- Single human-labor/automated-compute phrase;self-only notes both arms.
+- Primary human-minus-compute paid rate;fixed directional screen,zero tuning.
+- No live calls yet;14 protocol checks/first full dry replay PASS.
+- Dry independent50cells/15bootstrap+t/five sign sets/200notes+reasons PASS.
+- Prospective known CLI-input fingerprint added;effective config not attested.
+- Codex+Opus methodology reviews/full repository tests running.
+- S31 remains DUD:earnings10 both arms,contrast0[0,0],no equivalence claim.
+- No pooling,HIT,sibling writes or direction deviation.
+- Next:dispose critics,final dry freeze/push,one-shot S32 run,verify/review.
 
 ## Log
 
@@ -265,3 +263,7 @@
 - 2026-10-24T23:39:47.631659+00:00: S31 final all18 source hashes match registration09e7f7a;canonical scientific SHA0673f925 unchanged. Complete analysis/independent/render regeneration under forbidden model calls leaves four artifacts byte-identical;cache-only release PASS with final documentation. Both final review dispositions complete;no new scientific calls,tuning,pooling,HIT,secondary/reverse promotion,sibling writes or frozen-source edits. Results commit/push and remote clean clone next.
 
 - 2026-10-24T23:40:39.832064+00:00: iteration19 COMPLETE. S31 registration09e7f7a145058437b4510c3f7cc352823d7af285 and resultsc62f9ceb2f4f2f2dd5f66b75c5949f58c02ee54e committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes full cache-only release,12 protocol checks,independent raw reconstruction and six byte-identical regenerations(scientific result,summary,figure,independent/release receipts,REPORT);clone git status clean. Receipt logs/s31_remote_clean_clone.json explicitly records frozen installed-environment reuse,not fresh dependency installation. Full257 repository tests PASS with14 scoped historical S21 synthetic clock overrides;real original-cutoff S21 archive separately PASS. Both final critics disposed without reading each other;Codex raw reconstruction versus Opus supplied-text-only scope clear. All18 scientific sources and canonical SHA0673f925 unchanged;200responses,zero retries/failures,DUD retained,no equivalence/verified-agreement claim. CLI binary/effective inherited configuration was not frozen;current post-run hash/version observation is not retrospective attestation. Ledger result reference finalized. Reports/HITS/README/DETAILS current;no extra scientific call,second pilot,tuning,pooling,exclusion,reverse/secondary promotion,HIT,sibling write,direction deviation or active generation/review. S30/S32 remain unrun,next fresh own/structure axis after A.
+
+- 2026-10-24T23:43:44.725018+00:00: iteration20 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/status summaries read-only. Activated queued own S32 after A/S31:single human-labor versus automated-compute identity sentence at identical resource allocation/payoffs,self-only notes in both arms,five fresh blocks/ten games. Fixed human-minus-compute directional screen,no profit gate,mechanism or S31 pooling claim. Synthetic economics/parser/visibility/transport checks and first full dry200-key replay/independent50cells+15summaries+five sign sets PASS. Prospective local CLI input fingerprints added;effective configuration/provider execution still unverified. No live calls or direction deviation;methodology critics next.
+
+- 2026-10-24T23:48:02.574470+00:00: S32 methodology Codex+Opus exit0;accepted response-completion freeze guard,actual call-interval timing,resolved dry-publication paths,fixed synthetic clocks,independent full prompt contracts,explicit cache-only mode and n5 rule equivalence. Patch-specific independent Codex review confirms no blockers,nine read-only tests;manager17 scoped/full274 repository tests and final dry200-key replay/independent50cells+15bootstrap+t summaries+five sign sets+200prompt/note/reason bindings PASS. All19 source hashes recorded;real S21 original-cutoff release PASS. No live outcomes,tuning,pooling or historical-source edits;freeze/push then one-shot run.

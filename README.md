@@ -737,3 +737,20 @@ Fresh full-history origin-remote clone of resultsc62f9ce passed12 S31 protocol
 checks,all offline release/replay checks and six byte-identical artifact
 regenerations;clone clean. Receipt:logs/s31_remote_clean_clone.json. It reused
 the installed frozen dependency environment,not a fresh dependency installation.
+
+S32 (iteration20) prospectively compares one human-labor versus automated-compute
+identity sentence with identical passive-resource allocation/payoffs and self-only
+notes. [Design](DESIGN_S32.md). Ten fresh games/five blocks24600..24604,T10,primary
+r3..10;zero tuning,no pooling with S31. Directional human-minus-compute framing
+screen,without a profit gate or fairness/agreement interpretation. Known local
+CLI binary/config/routing inputs are fingerprinted at launch,each admission and
+response completion;all effective CLI layers and provider behavior remain
+unattested. Historical S31's unfrozen execution provenance is unchanged.
+
+Offline reproduction after completion:
+`uv run python scripts/s32_release.py`; `uv run python scripts/s32_present.py`.
+Synthetic smoke test: `uv run python -m sim.resource --dry --out /var/tmp/s32_example`,
+then `uv run python scripts/s32_analyze.py --allow-dry --data /var/tmp/s32_example
+--out /var/tmp/s32_example/result.json`. A live launch is one-shot;never restart
+interrupted or failed scientific evidence. All S32 synthetic tests use a fixed
+clock,independent of the actual experiment's unchanged UTC cutoff.

@@ -86,3 +86,8 @@ S31: five fresh paired blocks24560..24564;ten two-employer labor games,
 self-only versus shared notepads,T10,primary r3..10;200planned decisions.
 All exploratory,zero tuning,no held-out claim,pooling or secondary promotion.
 DESIGN_S31.md and source manifest committed/pushed before live calls.
+
+S32: five fresh paired blocks24600..24604;ten self-only-note resource games,
+human labor versus automated compute in one identity sentence. T10,primary
+r3..10;200 planned decisions. Exploratory,zero tuning,no held-out claim or
+pooling with S31;directional screen and source manifest frozen before calls.

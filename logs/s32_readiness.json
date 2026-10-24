@@ -1,0 +1,58 @@
+{
+  "scope": "PRE-LIVE synthetic validation only",
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/resource.py": "118078a35be33b6723bfe9f1dc0cd00128577c90eb0eb626f696c8cfb01c1ab8",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s32_runtime.py": "ef668a4a9f4faf3404bae2e0850ab22489e85f328142374e2ee8233ef627087b",
+    "DESIGN_S32.md": "8252c84192d78664654d9cfe5ea4c6324613d9e6bc349fc0c02c1cb1e8f1f766",
+    "scripts/s32_analyze.py": "68d1900cee2f56da5761c6fc74bd9832ce0adb114baf4f0448a7a1bc21583b16",
+    "scripts/test_s32.py": "3d515d1f90cb44bf940db15ffc5f43e974a31c6ea80c705b4161f2af56b863fa",
+    "scripts/s32_launch.py": "f905b78c0fc550b9f77a231ac16e37ca52bb191938ce0d47ce85425a0be5f01c",
+    "scripts/s32_independent.py": "339080176d7f09684628d5aa3c179a9a61bc3e0fdb33cd543b0612ddf75829db",
+    "scripts/s32_present.py": "18ce9c9e58bcddd7ddc8258c9d06b25f6c31f4855ee27d70dcb648674d939e5f",
+    "scripts/s32_reviews.py": "66757888d85e07510764353f5c54aebc7c4cb7862e4c26ca28e989a134cc595f",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "repo_tests": {
+    "passed": true,
+    "tests": 274,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "dry_independent": {
+    "passed": true,
+    "metric_cells": 50,
+    "bootstrap_and_t_summaries": 15,
+    "sign_sets": 5,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "DUD",
+    "primary_mean": 0.5,
+    "primary_ci": [
+      -0.2,
+      1.15
+    ],
+    "upper_p": 0.15625,
+    "result_sha256": "b321cfef94ddc8a08fed9846bd3fe6404195a5fe7132d4214214a706cf41e9f2"
+  },
+  "real_s21_archive_original_cutoff_passed": true
+}
