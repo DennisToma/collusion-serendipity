@@ -220,3 +220,25 @@ empirical-bootstrap and raw-quantity check; it does not replace the frozen estim
 To verify committed S09 portability, run `uv run python scripts/s09_clean_check.py`.
 It creates a clean local clone in /var/tmp, blocks uncached publication calls,
 recomputes the archived outputs and checks exact bytes, protocol tests and links.
+
+### S11 delayed-feedback intervention (D3)
+
+Ten fresh no-message calculator games compare lag1 with lag2 market feedback.
+The primary is consecutive output-change reduction; it is not a collusion label.
+
+```bash
+TMPDIR=/var/tmp uv run python -m sim.delay
+uv run python scripts/s11_analyze.py
+uv run python scripts/s11_independent.py
+uv run python scripts/s11_present.py
+uv run python -m unittest scripts.test_s11 -v
+```
+
+The raw request/response caches are archived with the games. After18:35UTC Oct24,
+the generator can only replay the existing cache, not start a fresh replication.
+Cache-only analysis verifies every request key, payoff, export, source SHA and
+registration commit before writing a result. An independent implementation checks
+all metric/window cells and intervals. Dry runs require a separate destination:
+`uv run python -m sim.delay --dry --out /var/tmp/s11_offline`; then analyze with
+`--data /var/tmp/s11_offline --out /var/tmp/s11_offline/result.json --allow-dry`.
+Use a fresh dry directory after source changes. See [DESIGN_S11.md](DESIGN_S11.md).

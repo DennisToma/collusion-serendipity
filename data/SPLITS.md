@@ -14,3 +14,6 @@ S09: all five previously observed S07 neutral prefixes24080..24084, fork after r
 Ten fresh r7-12 continuations in matched blocks; exploratory discovery, zero tuning.
 Public prefix histories and source message exposure are not held-out data.
 No independent-seed replication, no pooling with S07 original suffix or legality arm.
+
+S11: five fresh paired blocks24110..24114; ten exploratory games, zero tuning.
+No held-out test claim, no pooling with S03; confirm on fresh registered seeds.

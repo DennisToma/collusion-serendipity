@@ -1,0 +1,25 @@
+{
+  "independent_metric_cells": 240,
+  "bootstrap_intervals": 24,
+  "paired_t_intervals": 8,
+  "primary_numerators": [
+    -17,
+    -23,
+    -20,
+    -11,
+    -39
+  ],
+  "primary_mean": -0.8148148148148148,
+  "upper_p": 1.0,
+  "lower_p": 0.03125,
+  "verdict": "DUD",
+  "exact_3125_bootstrap_ci95": [
+    -1.162962962962963,
+    -0.5407407407407407
+  ],
+  "sha256": {
+    "/var/tmp/s11_frozen_dry/raw/responses.jsonl": "22c1e53da6e9ec02a1a16fe2a5ea5262f696f7d93875b9ec4653e99809ab281d",
+    "/var/tmp/s11_frozen_dry/raw/requests.jsonl": "45822087d1354f20d1c80798b9f58b8e33961e9343b343ca2babe4fcc65d9c94",
+    "/var/tmp/s11_frozen_result.json": "0d6af5fddb7c83c0c667f9ea83beba1090679c9d624755af39d36ead9e80cc81"
+  }
+}

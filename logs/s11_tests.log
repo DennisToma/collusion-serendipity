@@ -1,0 +1,20 @@
+test_dry_generation_cannot_touch_live_destination (scripts.test_s11.PublicationTests.test_dry_generation_cannot_touch_live_destination) ... ok
+test_full_pipeline_and_tamper (scripts.test_s11.PublicationTests.test_full_pipeline_and_tamper) ... ok
+test_abort (scripts.test_s11.Tests.test_abort) ... ok
+test_all_tables (scripts.test_s11.Tests.test_all_tables) ... ok
+test_cache_damage (scripts.test_s11.Tests.test_cache_damage) ... ok
+test_corrupt_provenance_rejected (scripts.test_s11.Tests.test_corrupt_provenance_rejected) ... ok
+test_counterfactual_hidden_row (scripts.test_s11.Tests.test_counterfactual_hidden_row) ... ok
+test_deadline (scripts.test_s11.Tests.test_deadline) ... ok
+test_dry_replay_tamper (scripts.test_s11.Tests.test_dry_replay_tamper) ... ok
+test_empty_directory_transport (scripts.test_s11.Tests.test_empty_directory_transport) ... ok
+test_information_delay (scripts.test_s11.Tests.test_information_delay) ... ok
+test_metric_and_boundaries (scripts.test_s11.Tests.test_metric_and_boundaries) ... ok
+test_missing_provenance_rejected (scripts.test_s11.Tests.test_missing_provenance_rejected) ... ok
+test_no_same_round_leak (scripts.test_s11.Tests.test_no_same_round_leak) ... ok
+test_strict_parser (scripts.test_s11.Tests.test_strict_parser) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.399s
+
+OK

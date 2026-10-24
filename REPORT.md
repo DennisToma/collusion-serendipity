@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 17:48 UTC · Iteration 5 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 17:54 UTC · Iteration 6 in progress · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -9,6 +9,7 @@
 | S04 · B, shared advisor sample | 10 games, 5 seed blocks. Pair output r4–12: independent **5.422**, shared **4.911**; difference **-0.511 [-1.222, +0.122]** units/firm. | **ODD / UNINFORMATIVE** |
 | S03 · own, conditional calculator | 10 games, 5 blocks. Mean output/firm r4–12: none **6.719**, calculator **5.837**; difference **-0.881 [-1.170, -0.489]**. | **DUD for predicted increase** |
 | S07 · F, anti-coordination rule | 10 games, 5 blocks. Pair output r4–12: neutral **5.800**, legality **4.844**; difference **-0.956 [-2.889, +0.267]**. | **DUD for predicted increase** |
+| S11 · D, delayed market feedback | Registered ten fresh no-message calculator games; primary consecutive-change reduction, lag1 vs lag2. Reviews/dry checks in progress; no live outcomes. | **PENDING** |
 | S09 · E, transcript-removal replay | 10 six-round continuations / 5 observed prefixes. Pair output r7–12: retain **5.900**, erase **6.000**; difference **+0.100 [+0.000, +0.300]**. | **DUD** for directional screen; near-Nash baseline |
 
 **S09:** erase–retain paired t95% **[-0.178, +0.378]**, upper sign-flip **p=0.50000**. The directional screen failed; this does not establish equivalence or no message effect. At n5, HIT requires all five positive differences and a mean increase ≥1. Round7-only difference **+0.200 [+0.000, +0.600]**. Retain output is near symmetric Nash6; the +1 screen would require erase mean 6.900. Pair-profit difference **-0.200**, t95% [-1.560, +1.160]. [All outcomes and figure](results/s09_summary.md).
@@ -20,6 +21,6 @@ Both firms jointly lose messages sent in rounds1–6; round6 messages would firs
 All fresh markets have three firms, integer output, P=max(0,30-total output), cost6; static Nash q6, P12, profit36. S09 adds only rounds7–12 of each continuation: source rounds1–6 are duplicated context, not new observations. No verified agreement/execution labels; quantity, message influence and profitable coordination are distinct. Tiny samples, exploratory selection and multiple pilots limit claims. Backend/model labels are client metadata; sampling seeds/temperature and OS isolation are not attested. Fresh directories/read-only requests do not prove erased files were inaccessible. No sibling headline change.
 
 [Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [Reproduce](README.md).
-**Next:** cover D, the sole untouched axis, before deepening; own S05/S06/S08/S10 ideas queued.
+**Next:** finish S11 D-axis pilot; own S05/S06/S08/S10/S12 ideas queued.
 
 [Release verification](logs/s09_release.json) · [Independent review dispositions](logs/s09_review_disposition.md).

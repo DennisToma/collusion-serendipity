@@ -1,0 +1,18 @@
+.........................s07_24080_legality complete 36 calls
+/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/traceback.py:241: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/tmp/tmpcsbf6x3n/.writer.lock' mode='w' encoding='UTF-8'>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+................/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/traceback.py:241: ResourceWarning: unclosed file <_io.TextIOWrapper name='data/s11_delay/.writer.lock' mode='w' encoding='UTF-8'>
+  tb.tb_frame.clear()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+./home/factory/collusion/collusion-serendipity/scripts/test_s11.py:145: ResourceWarning: unclosed file <_io.TextIOWrapper name='/var/tmp/tmpsllizo22/.writer.lock' mode='w' encoding='UTF-8'>
+  with contextlib.redirect_stdout(io.StringIO()),patch.object(sys,'argv',['sim.delay','--dry','--out',td]):main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+..............
+----------------------------------------------------------------------
+Ran 67 tests in 2.901s
+
+OK

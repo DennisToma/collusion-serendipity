@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24 17:48 UTC; Phase2, iteration5 complete)
-- S09 E DUD:10 six-round continuations/all5 observed S07-neutral prefixes; no HIT or sibling headline change.
-- Pair output erase-retain +0.100[0.000,0.300], t[-0.178,+0.378], upper sign-flip p=.5; retain5.9 near Nash6.
-- 183 cached calls/180 valid decisions;3 overlong-reasoning retries, all retain; no failed game or exclusion.
-- Withholds old transcripts AND unread round6 incoming messages; later renegotiation remains possible.
-- Full cache-only replay/source/prefix/export/payoff checks PASS; cached resume/result bytes unchanged.
-- Separate210-cell/22-bootstrap/7-t recomputation PASS; exact3125-resample primary/fork checks agree.
-- All19 new/52 discovered tests PASS; final clean clone:7 outputs byte-identical,8 steps,37 links PASS.
-- Independent Codex+Opus design AND final reviews complete; first Codex transport-timeout retained.
-- Frozen source4474418/results c39abfa/review fixes e0c4dc5 pushed; client chronology, no server-time attestation.
-- Source/result SHA unchanged; figures inspected; no active scientific generation or review process.
-- Next: cover D (sole untouched axis) before deepening; own S05/S06/S08/S10 queued.
-- Risks: n5 seen prefixes, near-Nash headroom, inbox/public-history cues, no OS isolation/agreement truth labels.
+## Current state (2026-10-24T17:53:19.191384+00:00; Phase2, iteration6 active)
+- Selected S11 D3: lag1 vs lag2 feedback in ten fresh no-message calculator games.
+- Primary: immediate-minus-delayed mean consecutive output change, r4-12; no collusion label.
+- Five blocks24110..24114, pinned codex/gpt-6-luna, zero tuning; DESIGN_S11.md registered.
+- Fifteen protocol tests, full dry replay/240-cell independent check PASS;67 discovered tests PASS.
+- Independent Codex+Opus methodology reviews exit0; prospective provenance fix verified.
+- No live S11 calls or outcomes; full source/design/config freeze and push ready.
+- S01/S03/S07/S09 DUD; S02 ODD; S04 UNINFORMATIVE; no promoted hit.
+- D is last uncovered axis; S11 completes portfolio breadth before deeper followup.
+- Own S12 cycle-period idea queued; S05/S06/S08/S10 remain queued.
+- Risks: n5, feedback/warmup bundle, own-action feedback delayed, no OS isolation.
 
 ## Log
 
@@ -81,3 +79,7 @@
 - 2026-10-24T17:46:17.895409+00:00: final Codex/Opus reviews exit0 confirm unchanged DUD and all checked numbers. Codex independently reproduces raw210 cells/all intervals/keys/prompt timing/source hashes; Opus analytically checks primary/fork bootstrap and t/sign arithmetic from per-game records. Applied scope clarification: erasure includes unread round6 incoming messages, not pure forgetting; future messages permit renegotiation rather than arbitrary-content recovery. Retained frozen design/source/result unchanged; declined posthoc UNINFORMATIVE gate and unsupported power/contamination-direction claims. Post-review exact3125-resample enumeration agrees with primary/fork bounds; raw audit confirms all90 erase actions q6 and retain pair counts threeq4/57q6. Marked diagnostics posthoc, no exclusion/secondary promotion. Current source/result hashes unchanged; reviewed figure. Full scientific data/requests/responses already committed/pushed c39abfa and reproduced in clean clone; final revised-summary portable audit follows. Server push timestamp unavailable without configured GitHub API auth; observed remote ancestry/client chronology retained explicitly without independent server-time claim. No active generation/review process.
 
 - 2026-10-24T17:48:09.875681+00:00: iteration5 COMPLETE. Final revised artifacts committed/pushed e0c4dc5; clean clone of that commit executes8 steps and reproduces all7 scientific outputs byte-for-byte, including exact-bootstrap diagnostic, full archived cache/replay and figure;19 protocol tests and37 local links PASS. Frozen source/config and original result SHA80b03077 unchanged. Complete results first pushed c39abfa; ledger references finalized. REPORT remains a concise six-pilot log, no HIT or sibling headline change. Final Codex/Opus findings fully disposed; original design/result preserved. All scientific generation and critics exited. D is next, with no new pilot in this iteration.
+
+- 2026-10-24T17:53:19.191384+00:00: iteration6 read all required rules/state/ledger and both sibling summaries. Chose last untouched D axis: S11 delayed feedback with calculator both arms, no messaging. Registered single consecutive-change primary, all secondary contrasts and n5 screen before outcomes. Queued own S12 period-versus-smoothness idea. Initial full dry pipeline and independent240-cell/24-bootstrap/8-t checks PASS; strengthened strict cache/abort/timing/invocation tests (11 PASS). Both design critics requested; no live calls, tuning or direction deviation.
+
+- 2026-10-24T17:55:37.839453+00:00: both S11 methodology critics exit0 before live calls. Codex found missing-audit backfill; fixed constructor mismatch/hash rejection with two regressions. Opus scope/RNG/n5-screen clarifications accepted; retained common directional verdict with actual estimates always reported.15 tests plus full final dry replay/independent240-cell/24-bootstrap/8-t check PASS;67 discovered tests PASS. No live calls or outcome-based change. Source freeze/push follows.
