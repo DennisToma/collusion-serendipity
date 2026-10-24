@@ -77,3 +77,5 @@ Full166-test repository suite PASS; figure visually inspected. Complete offline
 release and six-artifact regeneration PASS. Results commit/push and clean-clone
 reproduction are the final publication steps; their receipts/status log record
 actual completion separately.
+
+Final publication: results0295421e2522e05f0f68bc8200943c289289ff16 pushed;clean full-history clone PASS at2026-10-24T21:43:51.606009+00:00,17 S22 checks and six byte-identical artifacts. See logs/s22_clean_clone.json. All20 scientific sources and canonical result SHA b00e5199 unchanged.

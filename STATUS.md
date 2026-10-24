@@ -1,15 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24T21:37:53.080292+00:00; Phase2, iteration13 VERIFYING)
+## Current state (2026-10-24T21:43:51.606009+00:00; Phase2, iteration13 COMPLETE)
 - S22 D complete:10games/5blocks;300valid gpt-6-luna responses.
 - Partner Y approvals3/40 both arms;lottery−certain0[-.125,.100].
 - Paired t[-.190090,.190090],upper p.625;frozen DUD;no HIT.
 - Certain3 vs25% charge12;equal expected−2 own payoff,shared notes both.
-- Zero retries/failures;all300 exact cached requests/20source hashes PASS.
+- Zero retries/failures;all300 requests/20 frozen sources PASS.
 - Independent100 cells/30 bootstrap,t/sign summaries/300 histories PASS.
-- Full offline release/read-only resume PASS;result SHA b00e5199 unchanged.
-- Full166-test suite PASS;both accepted final critics exit0/disposed.
-- Source8a689e5 pushed;results commit and clean-clone reproduction next.
+- Both final critics accepted/disposed;Opus retry scope explicitly recorded.
+- Full166-test suite PASS;clean-clone17 S22 checks PASS.
+- Six artifacts byte-identical;result SHA b00e5199 unchanged.
+- Source8a689e5/results0295421 pushed;clean-clone receipt recorded.
 - REPORT/HITS/ledgers current;zero tuning,pooling or sibling writes.
 - Next:fresh B/F question;S20/S23 own hypotheses remain unrun.
 - Risks:smalln,expected≠realized costs,risk/wording/history bundled.
@@ -175,3 +176,5 @@
 - 2026-10-24T21:37:53.080292+00:00: S22 all10games/300valid responses complete before21:37UTC;zero retries/transport/parse/route failures. Frozen DUD:partner Y approvals3/40 both arms,lottery−certain0[-.125,.100],paired t[-.190090,.190090],upper p.625;no equivalence or agreement claim. Mandatory300-key exact replay,20-source/registration/dispatch/headroom/export/payoff/chronology checks PASS;independent100 metric cells/30 bootstrap,t/sign summaries/300 histories/200 snapshots PASS. Realized and expected-score outcomes reconstructed separately;all10 outcomes retained,no secondary promotion. Canonical/replay/resume bytes unchanged,result SHA b00e5199;figure inspected. Final critics/full suite requested;no further scientific calls,tuning,source edits,pooling or sibling write.
 
 - 2026-10-24T21:41:56.286842+00:00: S22 final Codex critic exit0 independently verifies all raw outcomes/audits/charges/100 cells/30 bootstrap+t summaries/all sign tails/300 histories/200 notes/full replay and registration/timing. Initial Opus final exit0 emitted only unexecuted tool-call text;retained and NOT accepted. Supplied-context-only retry exit0 hand-verifies primary arithmetic/bootstrap multiplicities/t/sign/DUD,explicitly without raw access. Applied documentation-only lock-file write exception,per-arm t-field semantics,realized-versus-expected score and broad-uncertainty clarifications;rejected entirely-luck/HIT-every-criterion overstatements. All166 tests PASS;figure inspected;20 frozen sources and result SHA b00e5199 unchanged. No scientific source edit,additional estimate/tuning,promotion,pooling or sibling write. Final regeneration/results commit and clean-clone next.
+
+- 2026-10-24T21:43:51.606009+00:00: iteration13 COMPLETE. S22 source8a689e5bfff6e3ff271d0f1ab3cbf85c46e64b0b and results0295421e2522e05f0f68bc8200943c289289ff16 committed/pushed. Clean local full-history clone of results commit passes offline release,17 S22 protocol/publication checks and complete independent reconstruction;regenerates six artifacts byte-for-byte(scientific result,summary,figure,independent audit,REPORT,release receipt). logs/s22_clean_clone.json records exact commit/commands/artifact hashes and explicit frozen-environment reuse. Full166-test suite PASS. Both accepted final critics disposed;initial unexecuted Opus tool-text attempt retained and excluded. All20 frozen sources/result SHA b00e5199 unchanged;all300 responses preserved,zero retries/failures. Result ledger points to0295421. No additional scientific calls,prompt/threshold tuning,subgroup/reverse/secondary promotion,pooling,HIT,sibling write,direction deviation or active generation/review process. Fresh B/F question next;S20/S23 own hypotheses remain queued/unrun.
