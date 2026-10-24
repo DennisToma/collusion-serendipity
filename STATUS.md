@@ -1,19 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T20:37:37.144877+00:00; Phase2, iteration10 RELEASE CHECK)
+## Current state (2026-10-24T20:39:53.968179+00:00; Phase2, iteration10 COMPLETE)
 - S18 A4 complete:10 games/5 blocks,T10;300 valid responses,zero retries/failures.
 - Frozen DUD:partner FAIL approvals0/40 each arm;difference0,bootstrap[0,0],upper p1.
 - Observed floor/degenerate bounds do not establish population zero risk or equivalence.
 - All300 keys replay exactly;13 scientific sources/result SHAfc759e79 unchanged.
 - Independent70 cells/21 bootstrap/t/sign checks,300 histories/200 snapshots PASS.
-- Both final critics exit0;raw Codex reconstruction and supplied-metrics Opus checks agree.
-- New publication wrapper fixes original verifier's missing-metric gap;original preserved.
+- Both final critics exit0/disposed;original verifier omission fixed by publication wrapper.
 -116 repo tests/12 S18 checks,full release/cached resume/53 local links PASS.
-- Source freeze6877a0a pushed before calls;complete artifacts ready for commit/push.
-- REPORT concise/current;no HIT,sibling headline change,excluded data,tuning or pooling.
-- S16 unchanged failed/unclassified;S19 neutral-label idea queued,not run.
-- Next:clean-clone reproduction after results commit,final receipts/push;then different axis.
-- Risks:n5,explicit/normative labels,bundled access,tacit reciprocity,shared backend.
+- Source freeze6877a0a/results19d2b5d pushed;clean clone19d2b5d reproduces6 artifacts exactly.
+- REPORT/HITS/ledgers current;no HIT or sibling headline change;no active generation/reviews.
+- S16 remains unchanged failed/unclassified;no selected subset,parser relaxation or pooling.
+- Next:different axis after A4;queued own S19 neutral-vs-normative labels needs fresh seeds.
+- Risks:n5,explicit labels/normative framing,bundled access,tacit reciprocity,shared backend.
 
 ## Log
 
@@ -142,3 +141,5 @@
 - 2026-10-24T20:30:41.612477+00:00: S18 completed all10 games/300 responses,zero invalid-output retries/failures. Frozen DUD:partner FAIL approvals0/40 each arm,shared−self0,exact empirical bootstrap/t[0,0],upper sign-flip p1. Bounds are degenerate empirical summaries, not zero population-risk/equivalence evidence. All secondary outcomes retained (PASS approvals self1/shared.991667;pair bonus−.15/round);no secondary promotion. Mandatory300-key exact request replay,13 frozen sources/registration/exports/payoffs/chronology/barrier validation PASS;independent70 cells/21 bootstrap/t/sign checks and300 saved histories/200 snapshots PASS. Cached resume and canonical reanalysis byte-identical,result SHAfc759e79 unchanged. REPORT shortened with old details linked;no original numerical result changed. Final critics requested next;no further live calls,source edits,tuning,exclusions,pooling or sibling write.
 
 - 2026-10-24T20:37:37.144877+00:00: S18 both final critics exit0. Codex independently reconstructs raw outcomes/all21 bootstrap/t intervals/all sign tails and300-key replay;Opus hand-checks supplied primary/secondary arithmetic without raw/shell access. Fixed original independent-verifier missing-metric acceptance via separate publication contract guard;two regressions (four malformed-contract cases plus complete archive) PASS. Original13 scientific sources and result SHAfc759e79 unchanged. Accepted observed-floor wording and directly labeled degenerate bootstrap tablecell;declined posthoc scientific UNINFORMATIVE reclassification and unsupported claim outsider cannot be indirectly affected.116 discovered tests/12 S18 tests,full release,cached resume and53 local links PASS. Nine prelaunch readiness hashes independently resolve against source freeze6877a0a. Figure inspected;all generation/review processes exited. Results commit/push and clean-clone check follow;no new model call,tuning,exclusion,pooling,secondary promotion or sibling write.
+
+- 2026-10-24T20:39:53.968179+00:00: iteration10 COMPLETE. Source freeze6877a0a and full results19d2b5d committed/pushed. Clean local clone of19d2b5df31b6f93edeec71625f9d0474ed99ff16 passes full offline release,12 S18 protocol/publication tests and checked independent reconstruction;regenerates six artifacts byte-for-byte (scientific result,summary,figure,independent audit,REPORT,release receipt). Structured receipt logs/s18_clean_clone.json stores exact commit/artifact SHAs;existing frozen dependency environment reused explicitly.116 discovered repo tests PASS. Both final critics fully disposed,13 original scientific sources/result SHAfc759e79 unchanged;all300 returned responses preserved,zero retries/failures. Final ledger points to results19d2b5d;queued own S19 is a hypothesis from explicit normative framing,not an S18 mechanism diagnosis or extra pilot. No HIT,secondary promotion,sibling write,tuning,exclusion,pooling or further model call. No direction deviation;no active generation/review process.

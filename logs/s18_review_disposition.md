@@ -95,3 +95,13 @@ arithmetic; explicitly has no raw/shell access. Confirms unchanged DUD.
 The figure was locally inspected; code/data clean-clone checks follow the complete
 results commit. Critic limits are attributed accurately; no provider attestation
 or adversarial disk-crash guarantee is claimed.
+
+## Final release completion (2026-10-24T20:39:53.968179+00:00)
+
+Full results19d2b5d pushed. Clean local clone of that exact commit passes full
+release,12 S18 tests and checked independent reconstruction; all six result,
+summary,figure,independent audit,REPORT and release artifacts regenerate
+byte-identically. Receipt: logs/s18_clean_clone.json; transcript:
+logs/s18_clean_clone.log.116 repository tests PASS. Both final critics' process
+requests are fulfilled; all scientific source/result bytes remain unchanged.
+Closing changes are receipts, STATUS and ledger result reference only.

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "local_links_checked": 53,
+  "source_entries": 13,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 70,
+    "bootstrap_intervals": 21,
+    "t_intervals": 21,
+    "sign_tests": 21,
+    "saved_request_histories": 300,
+    "note_snapshots": 200,
+    "rejections": {
+      "self": 0,
+      "shared": 0
+    },
+    "verdict": "DUD",
+    "complete_registered_contract": true
+  },
+  "result_sha256": "fc759e79b10924eaa634f1451049697ccbd20e7f09d2a5214f2a627c3492eb60"
+}
+............
+----------------------------------------------------------------------
+Ran 12 tests in 1.020s
+
+OK
+{
+  "passed": true,
+  "raw_metric_cells": 70,
+  "bootstrap_intervals": 21,
+  "t_intervals": 21,
+  "sign_tests": 21,
+  "saved_request_histories": 300,
+  "note_snapshots": 200,
+  "rejections": {
+    "self": 0,
+    "shared": 0
+  },
+  "verdict": "DUD",
+  "complete_registered_contract": true
+}
+S18 summary, figure and REPORT rendered from result
+PASS clean clone 19d2b5df31b6f93edeec71625f9d0474ed99ff16: six byte-identical artifacts
