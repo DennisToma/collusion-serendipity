@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scientific_archive_byte_identical": true,
+  "repeated_supplement_byte_identical": true,
+  "model_calls_forbidden": true,
+  "scientific_result_sha256": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+  "outputs": {
+    "results/s27_action_text.json": "78f1f10f6c4ccfa4ea32a781f96cb7f49fcfd53b04124ca6b3d9a65e5df792cd",
+    "results/s27_action_text.md": "db3153e96afdfafbd416f9ef874eab8aa5a4a8e50ed3d08b1aee993de96c25c0"
+  }
+}

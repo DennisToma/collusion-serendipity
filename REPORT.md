@@ -20,9 +20,13 @@
 | S22 · D, stochastic enforcement | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: certain **0.075**, lottery **0.075**; difference **0.000 [-0.125, 0.100]**. | **DUD** for directional screen |
 | S24 · F, team identity | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: human **0.025**, AI **0.025**; difference **0.000 [-0.075, 0.075]**. | **DUD** for directional screen |
 | S25 · own, output field order | 10 selected S19 histories / 5 blocks; 20 fresh decisions. Adverse target approvals action-first **0/10**, reason-first **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for one-sided format screen |
-| S27 · B, team concentration | Registered: 10 fresh games /5 blocks, two versus three active employees; matched pair payoffs/types/shared notes. | Pending live pilot |
+| S27 · B, team concentration | 10 games /5 blocks. Partner Y approval rate r3–10: three **0.075**, two **0.250**; difference **0.175 [0.075, 0.300]**. | **ODD** for directional screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S27 summary start -->
+**S27:** paired t95% **[-0.002, 0.352]**, upper sign-flip **p=0.06250**. Two versus three active employees; pair payoffs and shared notes fixed. Team size bundles outsider interaction, workload and history dimension; approvals do not verify agreement. [All outcomes and figure](results/s27_summary.md).
+<!-- S27 summary end -->
 
 <!-- S25 summary start -->
 **S25:** paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Actual order compliance **10/10** action-first, **10/10** reason-first. Selected fixed histories; this tests requested output order, not hidden reasoning or collusion. [All decisions and figure](results/s25_summary.md).
@@ -43,6 +47,8 @@ Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetri
 
 **Earlier caveats:** S01 digits cannot identify coding; S02 echoed own notes; S04 fails its exposure gate; S03/S11 dynamics depend on timing/window phase; S07 is driven by one block; S09 removes incoming information as well as memory; S16 is an operational failure with no effect estimate. S19 adverse JSON actions can contradict explanations; S21's action-aware auditor correctly reads the selected challenge cases. No sibling headline change.
 
+S27 post-outcome transparency appendix lists all 13 primary adverse approvals with raw explanations and notes. Some texts invoke reciprocity and others misstate payoffs; no intent labels or mechanism are inferred. [All source-bound events](results/s27_action_text.md).
+
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh market-structure or channel question after own; no secondary-driven promotion.
+**Next:** Fresh channel or other-world question after B; no secondary-driven promotion.

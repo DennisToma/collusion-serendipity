@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 250,
+  "note_snapshots": 200,
+  "rejections": {
+    "three": 0,
+    "two": 0
+  },
+  "verdict": "ODD"
+}

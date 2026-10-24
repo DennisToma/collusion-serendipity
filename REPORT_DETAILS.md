@@ -457,3 +457,20 @@ The wrapper adds the observed no-adverse-baseline caveat and corrects the
 reproduction command;it computes no new outcome and changes no estimate/screen.
 [Renderer regression](scripts/test_s25_presentation.py) ·
 [Review dispositions](logs/s25_review_disposition.md).
+
+
+## S27 — Team concentration (iteration16, axis B)
+
+[Prospective design](DESIGN_S27.md) and [complete results](results/s27_summary.md).
+Ten fresh games/five paired blocks compare three active employees with only the
+designated pair. Matched directed pair payoffs/task schedules/shared-note access,
+primary r3–10;250 valid decisions,zero retries,zero tuning. Partner Y approvals
+3/40 versus10/40;two-minus-three+.175[.075,.300] descriptive exact bootstrap,
+t[-.001964,.351964],upper p.0625. Four positive differences and one tie;the frozen
+magnitude and sign thresholds are unmet,so ODD/inconclusive. Pair-internal bonus
+increases mechanically;total pair income falls because outsider income disappears.
+Active reviewer count, workload/schema/history and outside income are bundled;
+action differences do not verify agreement. No larger rerun or sibling headline
+change. Exact all-key replay,independent50 cells/15 summaries and full211-test
+suite pass;final review dispositions and clean-clone receipts are linked from the
+results summary/reproduction commands. No source/archive was modified after freeze.

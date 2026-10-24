@@ -1,15 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T22:21:36.094192+00:00; Phase2, iteration16 IN PROGRESS)
-- Selected S27 axis B:two versus three-person workplace teams after own/S25.
-- Fresh10 games/5blocks24440..24444,T10;pair payoffs/types/notes fixed.
-- Primary partner Y approvals r3-10;two-minus-three;zero tuning/pooling.
-- 12 prelaunch checks PASS;full dry250-key replay/independent50 cells PASS.
-- Frozen descriptive block bootstrap/t/sign screen;no partial live inspection.
-- Both design critics complete;token/environment/runtime fixes accepted prelaunch.
-- All earlier results unchanged;no HIT promoted or sibling writes.
-- Next:resolve critics,freeze/push,launch,independently verify,report/push.
-- Risks:n5,one model;team size bundles outsider interactions/workload/history.
+## Current state (2026-10-24T22:35:09.921869+00:00; Phase2, iteration16 VERIFYING)
+- S27 B complete:10 fresh two/three-person games/5blocks24440..24444,T10.
+- Partner Y approvals three3/40,two10/40;difference+.175[.075,.300].
+- Paired t[-.001964,.351964],upper p.0625;frozen ODD,no HIT.
+- Magnitude<.25 and p>.05;positive bootstrap alone is not promotion.
+- Pair internal bonus+.7;total pair bonus-6.7 includes removed outsider income.
+- 250responses/accepted decisions;zero retries/failures;notes100/100each.
+- Exact250-key replay/18 scientific sources/registration/export checks PASS.
+- Independent50 cells/15 bootstrap+t/sign summaries/250 histories PASS.
+- All211 repository tests PASS;scientific result SHAfa82d206 unchanged.
+- Both final critics confirm ODD/numbers;Opus supplied-text-only scope explicit.
+- Next:final regeneration/results commit-push,clean-clone verification/receipt.
+- Risks:n5,one model;size bundles outsider/workload/history/schema/income.
 
 ## Log
 
@@ -206,3 +209,11 @@
 - 2026-10-24T22:21:36.094192+00:00: iteration16 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Selected fresh B/S27 team concentration after own/S25;ten games/five fresh paired blocks,two versus three active employees,matching pair directed incentives/task schedules/shared-note access. Registered before calls;11 synthetic economics,visibility,parser,failure,deadline,archive,independent-statistics and renderer checks PASS. Full dry250-key replay/50 metric cells/15 bootstrap+t summaries PASS;Codex+Opus design critics requested. No live scientific calls,tuning,pooling,second pilot,direction deviation or sibling write.
 
 - 2026-10-24T22:24:29.391946+00:00: S27 both design critics exit0 before live calls;Codex independently checked528 stage cases and all15 balanced schedules,Opus supplied-text-only scope explicit. Corrected token-limit claim,registered and enforced exact environment,verified historical30-call/game runtime reference,deterministic charge wording,n5 feasibility and clean-clone command. Twelve final pilot checks and fresh dry250-key replay/independent50 cells/15 bootstrap+t summaries PASS;earlier full suite210 PASS. Final18-source readiness manifest recorded;no live calls or outcome changes. Freeze/push then one-shot launch.
+
+- 2026-10-24T22:24:51.070584+00:00: S27 source registration9e7e45a78ca80b100d299c7e0681ac9a6a7dd3f5 pushed and observed matching remote main before all calls. First dispatch revalidated18-source registration and fixed environment;historical reference30calls/game verified;headroom 50.42min versus 19.59min required. Two concurrent game workers with seed-block barrier,23:15UTC uncached cutoff. No live actions/notes/treatment contrasts inspected;scientific sources frozen.
+
+- 2026-10-24T22:35:09.921869+00:00: S27 complete with all10games/250valid responses,zero retries/failures. Frozen ODD:three3/40,two10/40 partner Y approvals;two-minus-three+.175[.075,.300],paired t[-.001964,.351964],upper sign p.0625;four positive blocks/one tie. Magnitude and sign thresholds for HIT unmet;no secondary/reverse/subgroup promotion. Internal bonus+.7 mechanically follows unchanged X approvals and Y approvals;total pair bonus-6.7 removes outsider income and is not a matched directed incentive contrast. Exact250-key replay,18-source registration/deadline/chronology/export checks and independent50 metric cells/15 bootstrap+t summaries/15sign tests/250histories/200snapshots PASS;byte-identical reanalysis and cached resume PASS,result SHAfa82d206. Full211-test suite PASS. Final critics requested,no scientific source changes or further calls.
+
+- 2026-10-24T22:37:41.813023+00:00: S27 final critics both exit0. Codex independently reproduces all50 raw metric cells/15 exhaustive bootstrap+t summaries/three sign tails per contrast,full250-key replay/18-source registration,all10 matched empty-history prompt contrasts,528 economics cases and seven selected tests;no substantive scientific bug. Opus supplied-text-only hand-verifies primary polynomial/bootstrap/t/sign/ODD,not a second raw replay. Documented inherited per-arm t-field naming;retained frozen sources and raw-derived active-roster logic;publication/clone final step pending. Inspected figure. Added separate post-outcome source-bound appendix for all13 primary adverse decisions,reasoning/notes/actual charges;contains reciprocity language and payoff errors without semantic labels/counts or inferred mechanism. No new scientific source/estimate/exclusion/tuning,model call,secondary promotion,HIT,pooling or sibling write.
+
+- 2026-10-24T22:38:20.923341+00:00: S27 final offline regeneration/cache-only release PASS,canonical SHAfa82d206 unchanged;all18 frozen source hashes match registration. Full211 tests already PASS;no subsequent frozen-source edits. Post-outcome13-event supplement rerun twice under forbidden model calls;both artifacts byte-identical and all scientific archive/result bytes unchanged. REPORT/HITS/README/DETAILS current;ODD retained and no HIT. Queued fresh own S28 exact-role-payoff hypothesis from disclosed examples,without causal inference or running a second pilot. Results commit/push and clean-clone reproduction follow.

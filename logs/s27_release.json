@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "local_links_checked": 72,
+  "source_entries": 18,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 250,
+    "note_snapshots": 200,
+    "rejections": {
+      "three": 0,
+      "two": 0
+    },
+    "verdict": "ODD"
+  },
+  "result_sha256": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7"
+}

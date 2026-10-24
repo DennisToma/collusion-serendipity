@@ -569,7 +569,7 @@ The designated pair retains matched type schedules, directed bonus rules and
 shared-note access; two removes outsider decisions and income edges. Team size
 also changes workload, action schema and public-history dimension, so mechanisms
 are bundled. [Design](DESIGN_S27.md). Five fresh paired blocks, ten games,T10,
-250 accepted decisions planned; all exploratory, zero tuning and no held-out claim.
+250 accepted decisions completed; all exploratory, zero tuning and no held-out claim.
 
 ```bash
 uv run python scripts/s27_launch.py        # one-shot live, after frozen source push
@@ -585,3 +585,17 @@ Dry checks need no model: `uv run python -m sim.concentration --dry --out
 --out /var/tmp/s27_example/result.json`. Frozen source/environment versions are
 required for archived analyses. Backend tools remain instruction-restricted;
 actual tool non-use and provider sampling are unverified, as in earlier pilots.
+
+S27 landed ODD/inconclusive:partner Y approvals3/40 (three) versus10/40 (two),
+difference+.175[.075,.300] descriptive bootstrap;t[-.001964,.351964],upper p.0625.
+The frozen .25-magnitude/sign screen is unmet;no promoted hit or mechanism claim.
+[All five registered outcomes and limits](results/s27_summary.md).
+
+`uv run python scripts/s27_action_text.py` regenerates a post-outcome transparency
+appendix listing all13 registered-primary adverse approvals,with source-bound
+raw explanations/notes and actual directed charges. It changes no scientific
+metric,source,exclusion or verdict and applies no semantic/intent classifier.
+
+In S27 JSON, per-arm `paired_t_ci95` fields retain the inherited name but contain
+one-sample t bounds across five blocks. The `paired_difference` field contains
+the actual paired-contrast t interval displayed in the report.

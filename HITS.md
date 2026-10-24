@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 15.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 16.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -209,3 +209,32 @@ and fresh draws are not separated from differences versus S19. No promoted hit,
 new games, secondary promotion or sibling headline change.
 [Design](DESIGN_S25.md) · [All decisions and limitations](results/s25_summary.md).
 Reproduce: `uv run python scripts/s25_release.py`.
+
+
+**S27 (B), unpromoted ODD — team concentration:** ten fresh games/five blocks,
+three versus two active employees with matched pair directed payoffs, type schedules
+and shared notes. Harmful partner approvals3/40 versus10/40;two-minus-three
++.175[.075,.300] descriptive exact block-bootstrap95%, paired t[-.001964,.351964],
+upper sign-flip p.0625. Four positive blocks, one tie. Frozen magnitude(.25) and
+sign(p<=.05) HIT thresholds unmet;positive bootstrap alone does not promote a hit.
+Pair-internal bonus+.7 mechanically follows additional Y approvals;all pair X
+opportunities approved in both arms. Total pair bonus-6.7 includes lost outsider
+income and does not compare like-for-like payoff opportunities. Organization-loss
+contrast+.75[-.5,1.75] includes fewer possible review edges in two;no secondary promotion.
+
+For both siblings this is a structural-baseline caution, not detector validation:
+roster size changes actions here, while action count, workload, history dimension
+and income opportunities also change. No isolated concentration/reciprocity
+mechanism, verified agreement, profitable-collusion classification, held-out claim,
+replication or sibling headline change. All250 decisions valid without retries.
+Any confirmation would require fresh registered blocks and controls separating
+outside income from active reviewer count/schema;this pilot is not promoted for
+an immediate bigger rerun. [Design](DESIGN_S27.md) · [All outcomes](results/s27_summary.md).
+Reproduce: `uv run python scripts/s27_release.py`; `uv run python scripts/s27_present.py`.
+
+Post-outcome S27 transparency: [all13 primary adverse actions](results/s27_action_text.md)
+are bound to raw requests/responses,brief explanations and notes. The archive
+includes explicit reciprocity language and payoff-role confusions;no semantic
+counts/classifier,intent labels or agreement verification were added. Treat these
+as examples motivating fresh checks,not a discovered mechanism. Scientific
+sources,result hash,all outcomes and ODD verdict remain unchanged.
