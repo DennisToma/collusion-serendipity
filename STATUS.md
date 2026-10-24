@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24T20:03:02.729699+00:00; Phase2, iteration9 COMPLETE)
-- S16 C2 FAILED its registered output contract; scientific screen unclassified, no effect estimate.
-- Four/10 games complete; two partial/aborted, four unstarted; no replacement or subset estimate.
-- All173 responses retained:163 accepted decisions,10 >40-word reasoning rejections.
-- Fatal pair memberC(seed24242,r3) reasoning47/44/46 words; last call19:48:07UTC.
-- Exact173-key prefix replay; independent173 histories/116 file snapshots PASS.
-- Analysis/live restart blocked; all16 scientific sources/failure-result SHA e2fcadfc unchanged.
-- Both final critics exit0/disposed; two supplementary timestamp guards/regressions PASS.
--104 repo tests/15 S16 checks PASS; clean clone0863f3e regenerates4 artifacts byte-identically.
-- Source freeze73fe09d, checkpoint evidenceede7e70, final audit guards0863f3e pushed.
-- REPORT/HITS/ledgers current; no HIT or sibling headline change; no active generation/reviews.
-- Next:different axis after C; favor workplace/labour and preregister less brittle reasoning validity.
-- Risks:operational censoring,small selected pilots,bundled access cues,shared backend,no truth labels.
+## Current state (2026-10-24T20:09:11.236064+00:00; Phase2, iteration10 IN PROGRESS)
+- Registered S18 A4 workplace review game,10 fresh games/5 blocks24280..24284,T10.
+- Self/shared notepads; pair identity/own-note persistence held in both arms.
+- Primary: partner approval rate on authoritative FAIL tasks,r3..10;8 opportunities/game.
+- Bonus incentives exhaustively verified; strict JSON with no auxiliary word-count rejection.
+- Seven protocol/economics tests and300-decision dry run/replay PASS; critics running.
+- No live S18 calls or effect inspection; independent verifier being finalized.
+- S16 archive remains failed/unclassified; no selected-subset estimate or source changes.
+- REPORT remains checkpoint-presentable; no HIT or sibling headline change.
+- Next: dispose design critics,freeze/push sources,run once,verify/publish.
+- Risks: n5,explicit synthetic defects,bundled access cues,tacit reciprocity,shared backend.
 
 ## Log
 
@@ -131,3 +129,7 @@
 - 2026-10-24T20:01:41.200312+00:00: checkpoint evidence committed/pushed asede7e70. Both final critics exit0, fully disposed: Codex independently reproduces every failure count/prefix/raw-history check with writes/model/metrics blocked; Opus verifies supplied counts/code without raw/shell access. Codex in-memory mutations found two timestamp-validator gaps; supplementary guards plus two regressions fix them. Actual timestamps already valid; full scientific result SHA e2fcadfc and all16 original sources/data unchanged.15 S16 tests and104 repository tests PASS;59 local links resolve. No remaining generation/review process. Clean-clone release still pending until guard commit.
 
 - 2026-10-24T20:03:02.729699+00:00: iteration9 COMPLETE. Guard commit0863f3e178d7b6c6d9d457e588932d2446a26ba4 pushed; clean local clone passes full failed-archive release,15 protocol/failure tests and four byte-identical regenerated artifacts (failure JSON,summary,protocol figure,REPORT). Structured receipt logs/s16_clean_clone.json records exact commit/output SHA values.104 repo tests PASS. Both critics fully disposed,16 scientific sources and failure result SHA e2fcadfc unchanged; all173 responses preserved, no selected-subset estimate or new scientific call. Current handoff: strict S16 archive stays failed; choose another axis and register any future output-contract revision on fresh seeds. No sibling writes or direction deviation.
+
+- 2026-10-24T20:09:11.236064+00:00: iteration10 read required rule/state/direction/ledgers and both sibling report/state summaries read-only. Selected A4 workplace-review pilot S18 after C-axis S16. Registered ten fresh games and unchanged directional screen before live calls; balanced authoritative task labels expose objectively incorrect approvals without claiming agreements. Reused S16 lifecycle/cache; auxiliary-text word counts no longer invalidate fresh S18 decisions. Seven tests/full dry replay PASS; independent Codex/Opus design critics requested. No direction deviation, live S18 call or sibling write.
+
+- 2026-10-24T20:16:36.264830+00:00: S18 prelaunch readiness PASS. Opus design exit0; initial Codex360s timeout preserved, concise independent Codex retry exit0 finds no scientific blocker. Accepted neutral boolean template, pre-receipt launch checks, complete preflight/ancestry binding, failed-transport payload journal, exact-cutoff and interrupted/tampered-archive regressions. Retained explicit local-lifetime timing/abort-guard races and strict-JSON feasibility limits.114 discovered/10 S18 tests and final dry exact replay/independent70 cells,21 bootstrap/t/sign checks,300 histories/200 snapshots PASS.13-source manifest finalized; no live response or tuning.

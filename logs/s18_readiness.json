@@ -1,0 +1,33 @@
+{
+  "ready": true,
+  "utc": "2026-10-24T20:16:36.264830+00:00",
+  "live_calls_before_freeze": 0,
+  "scientific_sources": {
+    "sim/workplace.py": "37bc7e91f1e02a78f6a931307eb4d800acf4186a34e0bde814a1e6621e8b0863",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S18.md": "a1122090c321a6dfd6c5d07e3e3f56191af6c08c6c085e40bbc7b0091169ea74",
+    "scripts/s18_analyze.py": "05e5f95041abbfb81abb8a2a54090ad852e917be0a02049edca5cb5620a500e7",
+    "scripts/test_s18.py": "bb04b5fc6f0f2617080a2576f608b3c4f34682ae0c5a123d4356f80abeb3ecc5",
+    "scripts/s18_launch.py": "58ec77803dc4a6b40f2bb16fa4e596995adedc4c71acb57162e966db95440cbc",
+    "scripts/s18_independent.py": "401caa5d88a602d62d3f571cc87c37a3806e930cdf4b4cdb8b8da8912c07619f",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "evidence": {
+    "logs/s18_tests.log": "6550e83edb566fc5a351cd2d78d06c66c37add0f72742b5dc1e4ccca131655d3",
+    "logs/s18_all_tests.log": "fae6f82b3c3900c1cdf9a20b1464f90fcd825f9cd713a2ffedef50439b977e61",
+    "logs/s18_dry.log": "63eb6747ed0aa818e641565773cc718f127696a5dcc8594df01366a27abb31ce",
+    "logs/s18_dry_independent.json": "f4133a95aff22033cf921eba7bd720e8449f8c54555ec25a0ed17534383978a1",
+    "logs/s18_design_codex.md": "bfbb7d07596417bbc55633028f636a1c1caabcb8a03ba9083d91fa2ea2cd52e6",
+    "logs/s18_design_codex_timeout.log": "bfeff268c930a453495ef1c1529f0a261cb93d6cb02e008c85d6df720349426c",
+    "logs/s18_design_codex_retry.md": "7851cc0d269ee2d4527916b0724d0c80ca8d40231adc1ad9dd3b2d6c2fa1e84c",
+    "logs/s18_design_opus.md": "2c21f3f59b8231663ed5d526829f8430209e19247ec95a4c7a2dbcefc5026eb9",
+    "logs/s18_review_disposition.md": "655c4176649bedaedc1801f4e9794ac85b79bbbf766c7f45516ba1187cfad9b3"
+  },
+  "local_tests": 114,
+  "s18_tests": 10
+}

@@ -1,0 +1,15 @@
+test_balanced_truth (scripts.test_s18.Tests.test_balanced_truth) ... ok
+test_cache_fail_closed (scripts.test_s18.Tests.test_cache_fail_closed) ... ok
+test_deadline_and_archive_no_live (scripts.test_s18.Tests.test_deadline_and_archive_no_live) ... ok
+test_exact_statistics_and_screen (scripts.test_s18.Tests.test_exact_statistics_and_screen) ... ok
+test_exhaustive_stage_incentives (scripts.test_s18.Tests.test_exhaustive_stage_incentives) ... ok
+test_failed_transport_journal_and_abort (scripts.test_s18.Tests.test_failed_transport_journal_and_abort) ... ok
+test_full_dry_archive_and_mutation_guards (scripts.test_s18.Tests.test_full_dry_archive_and_mutation_guards) ... ok
+test_information_timing_and_scoring (scripts.test_s18.Tests.test_information_timing_and_scoring) ... ok
+test_invalid_json_attempts_abort_worker (scripts.test_s18.Tests.test_invalid_json_attempts_abort_worker) ... ok
+test_parser_contract (scripts.test_s18.Tests.test_parser_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.713s
+
+OK

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 9 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 10 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -14,6 +14,7 @@
 | S06 · own, denomination | 10 games / 5 time-matched pairs. Mean quantity r4–12: UNIT **5.963**, CENT **5.696**; difference **-0.267 [-0.519, -0.022]**. | **ODD** for invariance screen |
 | S14 · A1, procurement auction | 10 games / 5 time-matched pairs. Buyer payment r4–12: none **8.778**, private **11.111**; difference **+2.333 [-5.600, +9.733]**. | **ODD** for payment screen |
 | S16 · C2, notes-file channel | Aborted under frozen strict-output rule: 4/10 games complete; 173 responses, 10 overlong-reasoning rejections. No effect estimated. | **FAILED / unclassified** |
+| S18 · A4, workplace review | Registered:10 fresh games /5 blocks; partner approvals of authoritative FAIL tasks, self/shared notes. No live calls or estimate yet. | **PENDING** |
 
 **S16:** Same pair/writing cues and own-note persistence in both arms; shared adds partner access. Three consecutive >40-word reasoning outputs triggered the registered abort. All173 cached requests replay exactly; incomplete-data analysis and live restart are blocked. No replacement or selected-subset estimate. [Failure evidence and protocol figure](results/s16_summary.md).
 

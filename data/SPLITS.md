@@ -34,3 +34,8 @@ S16 archival outcome: strict-output failure after4 complete games and2 partial
 prefixes,4 unstarted. No primary/test metric computed, no selected-completer
 analysis, and no replacement or pooling. This is an operationally failed pilot;
 its originally registered ten-game target/split is preserved.
+
+S18: five fresh paired blocks24280..24284; ten workplace-review games, self/shared
+notes, T10, primary r3..10. All exploratory, zero tuning, no held-out claim, no
+pooling. Balanced task statuses and fresh output-validity contract registered
+before live calls in DESIGN_S18.md. S16 strict failure remains unchanged.
