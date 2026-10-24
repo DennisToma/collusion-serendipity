@@ -39,3 +39,7 @@ S18: five fresh paired blocks24280..24284; ten workplace-review games, self/shar
 notes, T10, primary r3..10. All exploratory, zero tuning, no held-out claim, no
 pooling. Balanced task statuses and fresh output-validity contract registered
 before live calls in DESIGN_S18.md. S16 strict failure remains unchanged.
+
+S19: five fresh paired blocks24320..24324; ten shared-note workplace games,
+normative versus neutral semantic labels; T10, primary r3..10. Exploratory, zero
+tuning, no held-out claim or pooling. DESIGN_S19.md frozen before all live calls.

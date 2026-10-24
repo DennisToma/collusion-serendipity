@@ -387,3 +387,29 @@ aggregate metric, so use `s18_checked_independent.py` above. It requires the com
 seven-outcome contract, denominators, summary fields and unique per-game records
 before the original arithmetic. Both original sources and scientific result stay
 unchanged; publication regressions exercise the omission found by the critic.
+
+### S19 normative versus neutral labels (own)
+
+Ten fresh workplace games hold incentives and shared-note access fixed. The
+normative arm uses PASS/FAIL quality language; neutral uses TYPE-X/TYPE-Y and
+organization-charge language. Primary: negative-type approvals between partners,
+neutral minus normative, rounds3..10. Descriptive selectivity compares approvals
+of the partner versus outsider; neither outcome verifies an agreement or intent.
+All eight outcomes and the directional screen are registered in [DESIGN_S19.md](DESIGN_S19.md).
+DUD includes reverse effects; no secondary promotion, tuning or pooling.
+
+```bash
+TMPDIR=/var/tmp uv run python scripts/s19_launch.py # one invocation after source freeze/push
+uv run python scripts/s19_analyze.py
+uv run python scripts/s19_checked_independent.py
+uv run python scripts/s19_present.py
+uv run python scripts/s19_release.py
+uv run python -m unittest scripts.test_s19 scripts.test_s19_publication -v
+uv run python scripts/s19_release.py --clean-clone # after committing all artifacts
+```
+
+Completed `uv run python -m sim.labels` invocations validate the full archive
+without rewriting exports or making model calls. Analysis requires the recorded
+Python/NumPy/SciPy versions. Fresh dry runs use a separate destination:
+`uv run python -m sim.labels --dry --out /var/tmp/s19_offline`, then
+`uv run python scripts/s19_analyze.py --data /var/tmp/s19_offline --allow-dry --out /var/tmp/s19_offline/result.json`.

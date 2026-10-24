@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-24T20:46:23.961189+00:00",
+  "sources": {
+    "sim/labels.py": "1a0adb53898353dbb09a7adbb7acc84193824085871066fdd15287f82f34bd59",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S19.md": "755d75b8cd9d9202e9e81fb8e37a8119181bd41c856b5cb0136396ae96e0c356",
+    "scripts/s19_analyze.py": "0b1f18cb83eef538b1218b80637711dbbf8df5fec20420723c587e2840f04c42",
+    "scripts/test_s19.py": "a2c50a99967c78bfeaddcf9382bb0d7afc29d663e9a72e41dd45d942c8b83e6a",
+    "scripts/s19_launch.py": "3c0168d763dde275da9d650414c13407ce6b13912881ce05cc1d295f759a6483",
+    "scripts/s19_independent.py": "e6df1d9c0e4e5dec5410c333cf553bf98ab809fbf9aaa14eb04b16e4c211750e",
+    "scripts/s19_checked_independent.py": "3ae74a50412ec59d05a5e5de8d533f1a96d5a0e691dd3412fba042b6dcd85cd4",
+    "scripts/test_s19_publication.py": "556c39e56204725c3d43304ce3805ffd9b11983261c21fb340fd67b9c8cc9e31",
+    "scripts/s19_present.py": "10d98baeda5d21f0206e0ff183184124557a28fb05d81a8ef00770cf9cd0fb74",
+    "scripts/s19_release.py": "2992b3f568a8a8d9f3b6bb15180fd76ef8b5974b6547ad8394c46204b7dff025",
+    "scripts/s19_reviews.py": "f7acbfc2fa4c617be9971517f5542a206e020ceb9582120982c13376b707ccd6",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "evidence": {
+    "logs/s19_prelaunch_all_tests.log": "728d2c1abf9af66982c858cba1441c34ca278126b8ce2410c3e3e12c0377b98a",
+    "logs/s19_tests.log": "019fd98a035d730ae3091790587bd09b01a8e447578c786091f141902122c528",
+    "logs/s19_dry_independent.json": "7e2663a4b797d7d8c09be0cb867e8f6ad0553834a209aa4cb006488b40a344ab",
+    "logs/s19_design_codex.md": "389c2401304d92de2b58e88e63dbb041b2139477dbcc33e6db00133de5b5aacf",
+    "logs/s19_design_opus.md": "12cf3cc0ff1c3313a53c526c0230b964d663f400116f929250be510de5039f8f",
+    "logs/s19_review_disposition.md": "0767d28eefc7ee41e1e54c41ab0460d22fc0ca4c324ae4f944c588432b6d140c"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "prelaunch_tests": 127,
+  "excluded_tests": "two live-archive publication tests; full dry contract checked separately",
+  "design_critics": {
+    "codex": 0,
+    "opus": 0
+  },
+  "passed": true
+}
