@@ -563,3 +563,25 @@ not after each individual response. Codex tools were instruction-restricted, not
 disabled; tool-use transcripts were not retained. Exact prompt isolation is
 verified; actual tool non-use is unverified. Future live harnesses should disable
 tools and retain execution evidence rather than retroactively changing llm.py.
+
+S27 (iteration16, B): team concentration, three versus two active employees.
+The designated pair retains matched type schedules, directed bonus rules and
+shared-note access; two removes outsider decisions and income edges. Team size
+also changes workload, action schema and public-history dimension, so mechanisms
+are bundled. [Design](DESIGN_S27.md). Five fresh paired blocks, ten games,T10,
+250 accepted decisions planned; all exploratory, zero tuning and no held-out claim.
+
+```bash
+uv run python scripts/s27_launch.py        # one-shot live, after frozen source push
+uv run python scripts/s27_analyze.py       # all ten games, mandatory exact replay
+uv run python scripts/s27_independent.py   # independent raw arithmetic and histories
+uv run python scripts/s27_present.py       # complete registered outcomes and figure
+uv run python scripts/s27_release.py       # cache-only analysis/resume and byte checks
+uv run python -m unittest scripts.test_s27
+```
+
+Dry checks need no model: `uv run python -m sim.concentration --dry --out
+/var/tmp/s27_example` then analyze with `--data /var/tmp/s27_example --allow-dry
+--out /var/tmp/s27_example/result.json`. Frozen source/environment versions are
+required for archived analyses. Backend tools remain instruction-restricted;
+actual tool non-use and provider sampling are unverified, as in earlier pilots.

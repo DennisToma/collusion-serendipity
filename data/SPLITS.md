@@ -61,3 +61,8 @@ The full design/source manifest is frozen before live calls.
 S25: twenty fresh stateless decisions at the ten selected S21/S19 source histories,
 five source blocks24320..24324. Requested action-first/reason-first output orders,
 zero tuning, no held-out/prevalence or new-game claim. No pooling with S19 outcomes.
+
+S27: five fresh paired blocks24440..24444; ten workplace games, three versus two
+active employees. Pair task schedules and directed incentives matched, T10,
+primary r3..10;250 planned valid decisions. Exploratory, zero tuning, no held-out
+claim, pooling or selected-subgroup promotion. Full design frozen before calls.

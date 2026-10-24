@@ -1,19 +1,15 @@
 # STATUS
 
-## Current state (2026-10-24T22:18:23.979613+00:00; Phase2, iteration15 COMPLETE)
-- S25 own:20 fresh decisions/10 selected S19 histories/5blocks complete.
-- Adverse target approvals0/10each;action-first minus reason-first0[0,0].
-- Paired t[0,0],upper p1;frozen one-sided DUD,no HIT.
-- Actual order compliance10/10each;no fresh adverse baseline or mechanism claim.
-- Zero retries/failures;20 exact requests/12 frozen scientific sources PASS.
-- Independent20 prompt contracts/20 decision cells/six summaries PASS.
-- Both final critics confirm;Opus supplied-text-only scope explicit.
-- 199 repo tests PASS;14 legacy S21 synthetic cutoff overrides explicit.
-- Real S21 archive/original cutoff PASS;13 S25 clean-clone checks PASS.
-- Six artifacts byte-identical;result SHA3cc8648a unchanged.
-- Source ebc6191/results4c2c89b pushed;remote-clone receipt recorded.
-- Next:fresh B/C question;own S26 queued,zero tuning/pooling/sibling writes.
-- Risks:n5,selected histories,no baseline;actual backend tool non-use unverified.
+## Current state (2026-10-24T22:21:36.094192+00:00; Phase2, iteration16 IN PROGRESS)
+- Selected S27 axis B:two versus three-person workplace teams after own/S25.
+- Fresh10 games/5blocks24440..24444,T10;pair payoffs/types/notes fixed.
+- Primary partner Y approvals r3-10;two-minus-three;zero tuning/pooling.
+- 12 prelaunch checks PASS;full dry250-key replay/independent50 cells PASS.
+- Frozen descriptive block bootstrap/t/sign screen;no partial live inspection.
+- Both design critics complete;token/environment/runtime fixes accepted prelaunch.
+- All earlier results unchanged;no HIT promoted or sibling writes.
+- Next:resolve critics,freeze/push,launch,independently verify,report/push.
+- Risks:n5,one model;team size bundles outsider interactions/workload/history.
 
 ## Log
 
@@ -206,3 +202,7 @@
 - 2026-10-24T22:16:42.596984+00:00: S25 final Codex and Opus critics exit0,all dispositions complete. Codex raw-reconstructs20 maps/orders,selection/history/status/notepad visibility,20 literal request contracts and all3125 bootstrap/32 sign summaries;Opus supplied-text hand-check scope explicit. Accepted baseline,per-arm-p,schedule-versus-timestamps,independent-checker scope and tool-non-use caveats;clarified hashes checked per admission and whole-pilot completion.199 repo tests PASS with14 explicit legacy synthetic cutoff overrides;real S21 release unchanged/PASS;final presentation regression PASS. Six artifacts byte-identical under analyze/independent/safe-render/release/completed-cache-resume;all12 scientific sources/result SHA3cc8648a unchanged. Figure inspected;no additional scientific call,tuning,secondary promotion,pooling,HIT or sibling write. S26 own hypothesis queued,not a causal explanation of S25/S19. Results commit/push then clean-clone remain.
 
 - 2026-10-24T22:18:23.979613+00:00: iteration15 COMPLETE. S25 sourceebc61917907d90e6c158ce1ffda359850d11fff4 and full results4c2c89bfc5e63899a8568302900b129dbb3133ab committed/pushed. Fresh remote-origin full-history clone passes13 S25 protocol/presentation checks,complete offline release/raw replay/independent reconstruction,completed-cache resume and real S21 original-cutoff release;regenerates six artifacts byte-for-byte(scientific result,summary,figure,REPORT,independent receipt,release receipt). logs/s25_clean_clone.json records exact commit/commands/versions/artifact hashes and explicit installed-environment reuse;clone git status clean. Full199 repo tests PASS with14 documented legacy synthetic cutoff overrides;final renderer regression PASS. Both final critics disposed,all12 scientific sources/result SHA3cc8648a unchanged;20 responses retained,zero retries/failures. Result ledger points to4c2c89bfc5e63899a8568302900b129dbb3133ab. REPORT/HITS/README current;presentation-only idempotence repair and tool-non-use limitation explicit. No additional scientific calls,semantic classifier,subgroup/reverse/secondary promotion,tuning,pooling,HIT,sibling writes,direction deviation or active generation/review process. Next fresh B/C;S26 remains an unrun own hypothesis,not a mechanism inference.
+
+- 2026-10-24T22:21:36.094192+00:00: iteration16 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Selected fresh B/S27 team concentration after own/S25;ten games/five fresh paired blocks,two versus three active employees,matching pair directed incentives/task schedules/shared-note access. Registered before calls;11 synthetic economics,visibility,parser,failure,deadline,archive,independent-statistics and renderer checks PASS. Full dry250-key replay/50 metric cells/15 bootstrap+t summaries PASS;Codex+Opus design critics requested. No live scientific calls,tuning,pooling,second pilot,direction deviation or sibling write.
+
+- 2026-10-24T22:24:29.391946+00:00: S27 both design critics exit0 before live calls;Codex independently checked528 stage cases and all15 balanced schedules,Opus supplied-text-only scope explicit. Corrected token-limit claim,registered and enforced exact environment,verified historical30-call/game runtime reference,deterministic charge wording,n5 feasibility and clean-clone command. Twelve final pilot checks and fresh dry250-key replay/independent50 cells/15 bootstrap+t summaries PASS;earlier full suite210 PASS. Final18-source readiness manifest recorded;no live calls or outcome changes. Freeze/push then one-shot launch.

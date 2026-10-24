@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "utc": "2026-10-24T22:24:29.391946+00:00",
+  "prelaunch_tests": 12,
+  "previous_full_suite_tests": 210,
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/concentration.py": "b782fe9fc86b7ad7dd618bf0c5cdeba96535169ac86440566b89dc279ec557d8",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S27.md": "3c8588da5f073a81cc9e557a7aada352947776e7f13a8b3b181d860d21bb14f1",
+    "scripts/s27_analyze.py": "d2f1ac55da296d350188dd51cb95325c118765d3979952f7f9d61a2f23791edf",
+    "scripts/test_s27.py": "b050a7d1754eaa2d59220d14d878c6eb77a1830333f4d6d9812c31f36d765f5d",
+    "scripts/s27_launch.py": "a8a8e8c4119f53ba0330760bad83475f2cbf8bd6afb1921e0f5ce0db8021aacb",
+    "scripts/s27_independent.py": "508a39d2c3edf3eca25bee1d444ea2fb0e0cd9ed331f3653a59c5263e4460d81",
+    "scripts/s27_present.py": "e75a5a7307c38c93056f24657e08da8fcb4a4e5990f6f52740ce15484c5b3421",
+    "scripts/s27_release.py": "8d116dee0d948b7c7ada582bffbca30ac7f17261d2791d2b87e9364f4e93fbc5",
+    "scripts/s27_reviews.py": "4d0b3298345eb14781a9ad5ad8edb0a1e026ff409cac84056c03e34589f404bb",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "dry_analysis_sha256": "f22ee529b39fb2e904f3086be316190dd008635ff1f21293707ca15426d07078",
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 250,
+    "note_snapshots": 200,
+    "rejections": {
+      "three": 0,
+      "two": 0
+    },
+    "verdict": "DUD"
+  }
+}
