@@ -1,0 +1,647 @@
+{
+  "pilot": "S03",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "quantity": {
+      "none": {
+        "mean": 6.718518518518519,
+        "ci95": [
+          6.333333333333334,
+          6.985185185185185
+        ]
+      },
+      "calculator": {
+        "mean": 5.837037037037037,
+        "ci95": [
+          5.792592592592593,
+          5.881481481481481
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.8814814814814813,
+        "ci95": [
+          -1.1703703703703703,
+          -0.4888888888888886
+        ],
+        "paired_t_ci95": [
+          -1.4327570031957806,
+          -0.33020595976718203
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 0.03125
+      },
+      "seed_differences": [
+        -0.7777777777777777,
+        -1.2222222222222214,
+        -1.1481481481481488,
+        -1.1111111111111107,
+        -0.14814814814814792
+      ],
+      "exact_seed_difference_numerators": [
+        -21,
+        -33,
+        -31,
+        -30,
+        -4
+      ],
+      "exact_denominator": 27
+    },
+    "price": {
+      "none": {
+        "mean": 9.844444444444445,
+        "ci95": [
+          9.044444444444444,
+          11.0
+        ]
+      },
+      "calculator": {
+        "mean": 12.488888888888889,
+        "ci95": [
+          12.355555555555558,
+          12.622222222222222
+        ]
+      },
+      "paired_difference": {
+        "mean": 2.644444444444445,
+        "ci95": [
+          1.4666666666666668,
+          3.5111111111111115
+        ],
+        "paired_t_ci95": [
+          0.9906178793015472,
+          4.298271009587342
+        ]
+      },
+      "seed_differences": [
+        2.333333333333334,
+        3.666666666666666,
+        3.4444444444444446,
+        3.333333333333334,
+        0.44444444444444464
+      ]
+    },
+    "profit": {
+      "none": {
+        "mean": 25.385185185185186,
+        "ci95": [
+          21.251851851851853,
+          31.133333333333336
+        ]
+      },
+      "calculator": {
+        "mean": 31.77777777777778,
+        "ci95": [
+          28.674074074074078,
+          34.407407407407405
+        ]
+      },
+      "paired_difference": {
+        "mean": 6.392592592592594,
+        "ci95": [
+          2.0518518518518496,
+          10.414814814814818
+        ],
+        "paired_t_ci95": [
+          -0.3640263914732893,
+          13.149211576658477
+        ]
+      },
+      "seed_differences": [
+        7.666666666666668,
+        8.037037037037042,
+        4.407407407407408,
+        13.333333333333336,
+        -1.481481481481488
+      ]
+    },
+    "actual_stage_regret": {
+      "none": {
+        "mean": 2.6296296296296298,
+        "ci95": [
+          1.1333333333333333,
+          3.8962962962962964
+        ]
+      },
+      "calculator": {
+        "mean": 8.25925925925926,
+        "ci95": [
+          4.066666666666666,
+          12.992592592592592
+        ]
+      },
+      "paired_difference": {
+        "mean": 5.62962962962963,
+        "ci95": [
+          1.8,
+          9.770370370370369
+        ],
+        "paired_t_ci95": [
+          -0.66520838070078,
+          11.924467639960039
+        ]
+      },
+      "seed_differences": [
+        2.333333333333333,
+        8.962962962962964,
+        12.518518518518519,
+        0.0,
+        4.333333333333333
+      ]
+    },
+    "lag_conditional_regret": {
+      "none": {
+        "mean": 2.5703703703703704,
+        "ci95": [
+          1.1037037037037036,
+          3.807407407407408
+        ]
+      },
+      "calculator": {
+        "mean": 0.11851851851851851,
+        "ci95": [
+          0.0,
+          0.3555555555555555
+        ]
+      },
+      "paired_difference": {
+        "mean": -2.4518518518518517,
+        "ci95": [
+          -3.5703703703703704,
+          -1.0148148148148148
+        ],
+        "paired_t_ci95": [
+          -4.442215354522435,
+          -0.461488349181268
+        ]
+      },
+      "seed_differences": [
+        -1.6666666666666667,
+        -3.4074074074074074,
+        -3.3333333333333335,
+        -3.8518518518518516,
+        0.0
+      ]
+    },
+    "distance_nash": {
+      "none": {
+        "mean": 0.7185185185185186,
+        "ci95": [
+          0.3333333333333333,
+          0.9851851851851852
+        ]
+      },
+      "calculator": {
+        "mean": 1.3777777777777778,
+        "ci95": [
+          1.0074074074074075,
+          1.7703703703703701
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.6592592592592593,
+        "ci95": [
+          0.274074074074074,
+          1.0148148148148148
+        ],
+        "paired_t_ci95": [
+          0.07267000707452531,
+          1.2458485114439934
+        ]
+      },
+      "seed_differences": [
+        0.33333333333333337,
+        0.8518518518518521,
+        1.0740740740740742,
+        0.0,
+        1.037037037037037
+      ]
+    },
+    "absolute_change": {
+      "none": {
+        "mean": 0.04444444444444444,
+        "ci95": [
+          0.0,
+          0.11851851851851851
+        ]
+      },
+      "calculator": {
+        "mean": 2.7333333333333334,
+        "ci95": [
+          2.022222222222222,
+          3.5111111111111115
+        ]
+      },
+      "paired_difference": {
+        "mean": 2.688888888888889,
+        "ci95": [
+          2.0074074074074075,
+          3.4
+        ],
+        "paired_t_ci95": [
+          1.551870410432953,
+          3.825907367344825
+        ]
+      },
+      "seed_differences": [
+        2.0,
+        3.5555555555555554,
+        3.814814814814815,
+        1.962962962962963,
+        2.111111111111111
+      ]
+    },
+    "all_equal": {
+      "none": {
+        "mean": 0.7555555555555555,
+        "ci95": [
+          0.3555555555555555,
+          1.0
+        ]
+      },
+      "calculator": {
+        "mean": 0.9333333333333332,
+        "ci95": [
+          0.8444444444444444,
+          1.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.17777777777777776,
+        "ci95": [
+          -0.13333333333333336,
+          0.6
+        ],
+        "paired_t_ci95": [
+          -0.42831657018882935,
+          0.7838721257443848
+        ]
+      },
+      "seed_differences": [
+        1.0,
+        -0.2222222222222222,
+        0.2222222222222222,
+        0.0,
+        -0.11111111111111116
+      ]
+    }
+  },
+  "games": [
+    {
+      "seed": 24060,
+      "condition": "calculator",
+      "primary": {
+        "quantity": 5.888888888888889,
+        "price": 12.333333333333334,
+        "profit": 34.333333333333336,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 32.61111111111111,
+        "actual_stage_regret": 4.527777777777778,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0555555555555556,
+        "absolute_change": 2.090909090909091,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24060,
+      "condition": "none",
+      "primary": {
+        "quantity": 6.666666666666667,
+        "price": 10.0,
+        "profit": 26.666666666666668,
+        "actual_stage_regret": 1.6666666666666667,
+        "lag_conditional_regret": 1.6666666666666667,
+        "distance_nash": 0.6666666666666666,
+        "absolute_change": 0.0,
+        "all_equal": 0.0
+      },
+      "all_rounds": {
+        "quantity": 6.722222222222222,
+        "price": 9.833333333333334,
+        "profit": 25.666666666666668,
+        "actual_stage_regret": 2.1388888888888893,
+        "lag_conditional_regret": 1.8787878787878791,
+        "distance_nash": 0.7222222222222222,
+        "absolute_change": 0.0606060606060606,
+        "all_equal": 0.0
+      },
+      "final": {
+        "quantity": 6.666666666666667,
+        "price": 10.0,
+        "profit": 26.666666666666668,
+        "actual_stage_regret": 1.6666666666666667,
+        "lag_conditional_regret": 1.6666666666666667,
+        "distance_nash": 0.6666666666666666,
+        "absolute_change": 0.0,
+        "all_equal": 0.0
+      }
+    },
+    {
+      "seed": 24061,
+      "condition": "calculator",
+      "primary": {
+        "quantity": 5.777777777777779,
+        "price": 12.666666666666666,
+        "profit": 29.03703703703704,
+        "actual_stage_regret": 12.962962962962964,
+        "lag_conditional_regret": 0.5925925925925926,
+        "distance_nash": 1.851851851851852,
+        "absolute_change": 3.5555555555555554,
+        "all_equal": 0.7777777777777778
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 25.777777777777782,
+        "actual_stage_regret": 13.722222222222221,
+        "lag_conditional_regret": 0.4848484848484848,
+        "distance_nash": 1.888888888888889,
+        "absolute_change": 3.6363636363636362,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 5.333333333333333,
+        "price": 14.0,
+        "profit": 42.666666666666664,
+        "actual_stage_regret": 2.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.6666666666666666,
+        "absolute_change": 1.3333333333333333,
+        "all_equal": 0.0
+      }
+    },
+    {
+      "seed": 24061,
+      "condition": "none",
+      "primary": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 21.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 4.0,
+        "distance_nash": 1.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 20.944444444444446,
+        "actual_stage_regret": 4.083333333333333,
+        "lag_conditional_regret": 3.8787878787878785,
+        "distance_nash": 1.0,
+        "absolute_change": 0.09090909090909091,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 21.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 4.0,
+        "distance_nash": 1.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24062,
+      "condition": "calculator",
+      "primary": {
+        "quantity": 5.777777777777778,
+        "price": 12.666666666666666,
+        "profit": 26.666666666666668,
+        "actual_stage_regret": 16.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 2.0,
+        "absolute_change": 4.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 24.0,
+        "actual_stage_regret": 16.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 2.0,
+        "absolute_change": 4.0,
+        "all_equal": 1.0
+      },
+      "final": {
+        "quantity": 4.0,
+        "price": 18.0,
+        "profit": 48.0,
+        "actual_stage_regret": 16.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 2.0,
+        "absolute_change": 4.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24062,
+      "condition": "none",
+      "primary": {
+        "quantity": 6.9259259259259265,
+        "price": 9.222222222222221,
+        "profit": 22.25925925925926,
+        "actual_stage_regret": 3.481481481481482,
+        "lag_conditional_regret": 3.3333333333333335,
+        "distance_nash": 0.9259259259259258,
+        "absolute_change": 0.18518518518518517,
+        "all_equal": 0.7777777777777778
+      },
+      "all_rounds": {
+        "quantity": 6.888888888888889,
+        "price": 9.333333333333334,
+        "profit": 22.777777777777782,
+        "actual_stage_regret": 3.4166666666666665,
+        "lag_conditional_regret": 3.272727272727273,
+        "distance_nash": 0.9444444444444443,
+        "absolute_change": 0.393939393939394,
+        "all_equal": 0.5833333333333334
+      },
+      "final": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 21.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 4.0,
+        "distance_nash": 1.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24063,
+      "condition": "calculator",
+      "primary": {
+        "quantity": 5.888888888888889,
+        "price": 12.333333333333334,
+        "profit": 34.333333333333336,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 32.61111111111111,
+        "actual_stage_regret": 4.527777777777778,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0555555555555556,
+        "absolute_change": 2.090909090909091,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24063,
+      "condition": "none",
+      "primary": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 21.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 3.8518518518518516,
+        "distance_nash": 1.0,
+        "absolute_change": 0.037037037037037035,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 20.944444444444446,
+        "actual_stage_regret": 4.083333333333333,
+        "lag_conditional_regret": 3.9393939393939394,
+        "distance_nash": 1.0,
+        "absolute_change": 0.1515151515151515,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 7.0,
+        "price": 9.0,
+        "profit": 21.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 4.0,
+        "distance_nash": 1.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24064,
+      "condition": "calculator",
+      "primary": {
+        "quantity": 5.851851851851852,
+        "price": 12.444444444444445,
+        "profit": 34.51851851851851,
+        "actual_stage_regret": 4.333333333333333,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.037037037037037,
+        "absolute_change": 2.111111111111111,
+        "all_equal": 0.8888888888888888
+      },
+      "all_rounds": {
+        "quantity": 6.027777777777778,
+        "price": 11.916666666666666,
+        "profit": 31.083333333333332,
+        "actual_stage_regret": 6.277777777777779,
+        "lag_conditional_regret": 0.0303030303030303,
+        "distance_nash": 1.1944444444444444,
+        "absolute_change": 2.333333333333333,
+        "all_equal": 0.6666666666666666
+      },
+      "final": {
+        "quantity": 5.0,
+        "price": 15.0,
+        "profit": 45.0,
+        "actual_stage_regret": 4.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 1.0,
+        "absolute_change": 2.0,
+        "all_equal": 1.0
+      }
+    },
+    {
+      "seed": 24064,
+      "condition": "none",
+      "primary": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      },
+      "all_rounds": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 32.44444444444444,
+        "actual_stage_regret": 5.0,
+        "lag_conditional_regret": 1.9393939393939392,
+        "distance_nash": 0.4444444444444444,
+        "absolute_change": 0.7272727272727273,
+        "all_equal": 0.8333333333333334
+      },
+      "final": {
+        "quantity": 6.0,
+        "price": 12.0,
+        "profit": 36.0,
+        "actual_stage_regret": 0.0,
+        "lag_conditional_regret": 0.0,
+        "distance_nash": 0.0,
+        "absolute_change": 0.0,
+        "all_equal": 1.0
+      }
+    }
+  ],
+  "cached_responses": 368,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Table arithmetic, salience, myopia and framing not separated",
+    "Lag-conditioned table is not a forecast or a dynamic optimum",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No messages and no verified agreement/execution labels",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}

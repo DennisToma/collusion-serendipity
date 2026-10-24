@@ -1,0 +1,15 @@
+{
+  "time_utc": "2026-10-24T16:17:27.932706+00:00",
+  "frozen_sources_match": true,
+  "data_export_cache_hashes_match": true,
+  "canonical_result_hash_matches": true,
+  "result_sha256": "bda05e1e727bdaec30ada9dd7be082026f85571e74040fb8ee1f1f5cd1e8435b",
+  "verdict": "DUD",
+  "post_outcome_sources": {
+    "scripts/s03_audit.py": "b16698e15f056b15fec1a336df50e496fe67ddc9cc71317dcca62e4dcbf471a4",
+    "scripts/s03_present.py": "d4e93d40367da0805c5663994597808c5678bc421652dd9a080ea2974bbbfa24",
+    "scripts/s03_economics.py": "73c957cfac0afa157a314b3ab10795a3cd6fec3a924f1d3ad8706290da205d84",
+    "scripts/s03_progress.py": "e68944b160e2099db33189d48ef70cff5061f83db139ed2aa32caa96ea4d9c85",
+    "scripts/test_s03_publication.py": "ba227f7748c7d686b0ec2679e10028c27792ec052f997d6d00a7b6910e4ff1a8"
+  }
+}

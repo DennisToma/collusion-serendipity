@@ -1,0 +1,23 @@
+{
+  "registration_commit": "424c351",
+  "implementation_commit": "29a4b3f",
+  "source_hashes": {
+    "sim/calculator.py": "94eeb837d4fe7d79fe72f5445ec97b2dfd2683395b9ec9ea34d832acf8342ab9",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S03.md": "075b039d3c6df834de7c2fd5f39f0eef85b944cc6acfc1a5d5dc2daa5d9df8f4",
+    "scripts/s03_analyze.py": "ac87d5cfbb77113f0b20856c698956a1e63303314823d25f074131aeef4a2e79",
+    "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "adapted_from": [
+    "sim/cournot.py (S02)",
+    "sim/advisor.py (S04)",
+    "sim/common.py (sibling-derived cache)"
+  ],
+  "no_sibling_writes": true,
+  "provenance_recorded_utc": "2026-10-24T15:54:41.424700+00:00"
+}

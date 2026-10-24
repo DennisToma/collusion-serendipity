@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-24T16:16:09.992312+00:00",
+  "analysis_changed": false,
+  "thresholds_changed": false,
+  "post_outcome_interpretation": true,
+  "inputs": [
+    "results/s03_calculator.json",
+    "figures/s03_calculator.png",
+    "logs/s03_economics.json"
+  ]
+}

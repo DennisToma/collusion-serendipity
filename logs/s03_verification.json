@@ -1,0 +1,37 @@
+{
+  "cache_only_replay_all_games": true,
+  "raw_cache_unchanged": true,
+  "independent_primary_matches": true,
+  "independent_regret_metrics_match": true,
+  "exports_match_authoritative_games": true,
+  "source_hashes_match": true,
+  "games": 10,
+  "rounds": 120,
+  "cached_responses": 368,
+  "invalid_attempts": 8,
+  "primary_seed_differences": [
+    -0.7777777777777778,
+    -1.2222222222222223,
+    -1.1481481481481481,
+    -1.1111111111111112,
+    -0.14814814814814814
+  ],
+  "primary_mean": -0.8814814814814815,
+  "exact_higher_output_signflip_p": 1.0,
+  "sha256": {
+    "data/s03_calculator/game_24060_calculator.json": "708dac4d75229e1be4682fbe96239c2c29cf419c25a87be30ffbc1e0ea5e06ff",
+    "data/s03_calculator/game_24060_none.json": "bf22919045c69e8a908f985b43f173b76e1eea6c2db11f092171d9ee3d3d4984",
+    "data/s03_calculator/game_24061_calculator.json": "c6eb5d5cc207b549c695d4bfbc7f26604fb5e757ef020826c4e99428b65f91aa",
+    "data/s03_calculator/game_24061_none.json": "c2fd24f4cc9b97017d2cb3219fa07f256b364edf358bdad624ed7ab74c5a7b13",
+    "data/s03_calculator/game_24062_calculator.json": "3173f1169bb2fd5281ddc1963b88d20a02ae5f34897f804e8b9dcb1ed5752407",
+    "data/s03_calculator/game_24062_none.json": "42bcd54aca8964f30c5999fa9f6fd3b6aa34ccd8b015dfd04a149839e1eb06df",
+    "data/s03_calculator/game_24063_calculator.json": "e742205ca2d165f174ba92915d644795763efc58178dec8d67f163e4156e5de7",
+    "data/s03_calculator/game_24063_none.json": "310c0ce96d3b1d68275f4d8f8ac268e9e1b8c1e9bb21019d87247c8fd95493fe",
+    "data/s03_calculator/game_24064_calculator.json": "13f3df927dc7ed1ece814c055efb57ffdffee49d1bfd06df2fb142a12c061304",
+    "data/s03_calculator/game_24064_none.json": "fb8b361b055481692c8b369de3d25e412519d3d961e64911e140a8e397ab06b1",
+    "data/s03_calculator/raw/responses.jsonl": "5e6b233d618b00ec8e259ba99fa39975567c2fa80b0eb57597bb65f635e1ae47",
+    "data/s03_calculator/raw/requests.jsonl": "c3802a5899c9951c6f42e2c00ca67a1fd30a02b106b1c3d33362c28ce3778de2",
+    "data/s03_calculator/trajectories.jsonl": "eb56d7172b723bb3b24639b4e8be5406a678f27765797600593763e5dcc4b715",
+    "data/s03_calculator/ground_truth.jsonl": "3a81c19faf1a69f7cb9cc0163827b14fe0f24c2c99c013277745801ccfe6aea1"
+  }
+}

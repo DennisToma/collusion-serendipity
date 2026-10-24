@@ -1,0 +1,50 @@
+{
+  "stage_nash_profiles": [
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      5,
+      7,
+      6
+    ],
+    [
+      6,
+      5,
+      7
+    ],
+    [
+      6,
+      6,
+      6
+    ],
+    [
+      6,
+      7,
+      5
+    ],
+    [
+      7,
+      5,
+      6
+    ],
+    [
+      7,
+      6,
+      5
+    ]
+  ],
+  "asymmetric_nash_profiles": 6,
+  "nash_total_output": 18,
+  "symmetric_best_response_cycle": [
+    4,
+    8,
+    4,
+    8
+  ],
+  "cycle_mean_quantity": 6,
+  "cycle_absolute_change": 4,
+  "maximum_one_stage_joint_profit": 144
+}

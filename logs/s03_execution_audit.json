@@ -1,0 +1,33 @@
+{
+  "raw_files_newline_terminated": true,
+  "raw_files_unchanged": true,
+  "all_cache_entries_consumed_once": true,
+  "all_calls_started_before_deadline": true,
+  "all_games_ended_before_deadline": true,
+  "complete_saved_result_matches_canonical": true,
+  "independent_classification": "DUD",
+  "result_sha256": "bda05e1e727bdaec30ada9dd7be082026f85571e74040fb8ee1f1f5cd1e8435b",
+  "cached_responses": 368,
+  "calls_by_arm": {
+    "calculator": 185,
+    "none": 183
+  },
+  "invalid_retries_by_arm": {
+    "calculator": 5,
+    "none": 3
+  },
+  "invalid_reasons_by_arm": {
+    "none": {
+      "reasoning_word_limit": 3
+    },
+    "calculator": {
+      "reasoning_word_limit": 5
+    }
+  },
+  "first_call_started_utc": "2026-10-24T15:53:53.656449+00:00",
+  "last_call_started_utc": "2026-10-24T16:06:58.690453+00:00",
+  "sha256": {
+    "data/s03_calculator/raw/responses.jsonl": "5e6b233d618b00ec8e259ba99fa39975567c2fa80b0eb57597bb65f635e1ae47",
+    "data/s03_calculator/raw/requests.jsonl": "c3802a5899c9951c6f42e2c00ca67a1fd30a02b106b1c3d33362c28ce3778de2"
+  }
+}

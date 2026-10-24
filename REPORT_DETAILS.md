@@ -1,7 +1,7 @@
 # Detailed pilot results
 
-Exploratory attacks on the sibling projects' price-market findings. Iteration 1,
-updated 2026-10-24 15:53 UTC. **No hits promoted.** Frozen designs and review amendments:
+Historical S01/S02 results from iteration 1; rendering
+updated 2026-10-24 16:16 UTC. **No hits promoted.** Frozen designs and review amendments:
 [DESIGN.md](DESIGN.md). Zero detector tuning attempts; these are discovery results.
 
 | Pilot | Idea → result (descriptive 95% bootstrap interval) | Verdict |
@@ -88,8 +88,8 @@ Independent reviews: [Codex design](logs/design_codex.md),
 [dispositions](logs/review_disposition.md); final claims reviews
 [Codex](logs/final_claims_codex.md), [Opus](logs/final_claims_opus.md).
 
-**Next:** cover B, D, E, F and an `own` idea before deepening a prior axis.
-S03 arithmetic-tool idea is queued, not run. Any promotion needs fresh seeds.
+**Historical iteration-1 queue:** superseded by the S04 and S03 sections below.
+Current remaining axes are D/E/F. Any promotion needs fresh registered seeds.
 
 
 # S04 — shared public-information advisor
@@ -224,4 +224,125 @@ in [S04 review disposition](logs/s04_review_disposition.md).
 
 # S03 — exact conditional own-profit calculator
 
-Registered; live outcome not yet analyzed. See [design](DESIGN_S03.md).
+**Observed direction and mechanism diagnostic (post-outcome interpretation,
+prespecified metrics):** the predicted increase failed; all five seed contrasts
+are negative *in r4–12*. Controls produced above symmetric Nash 6 (mean
+6.719 in the primary window), so the proposed removal-of-restraint mechanism
+was not present in this baseline. The frozen reverse screen also requires a mean decrease of at
+least one unit, so the result remains DUD under the unchanged rule.
+This label is about the directional hypothesis, not lack of behavioral change.
+The plotted quantities oscillate, absolute changes rise +2.689,
+lag-conditioned stage regret falls to 0.119 (none
+2.570), while current-rivals regret rises to
+8.259 (none 2.630). This pattern
+is consistent with following lagged best responses; it does not identify the
+reasoning mechanism or coordinated intent. The primary 9-round window has an
+unequal mix of alternating phases. Prespecified all-round quantity means are
+none 6.722, calculator 6.006; endpoint and
+window interpretations should acknowledge the cycling phase. No window/rule
+was changed. All-round seed differences in seed order are
+-0.722222, -1.000000, -0.888889, -1.000000, +0.027778: only 4/5 are negative.
+The decrease relative to control reflects both the above-Nash baseline and the
+odd window's cycling phase; it does not demonstrate a steady low-output regime.
+Lag-conditioned regret is a table-adherence/manipulation check, not independent
+evidence of better optimization. Current-rivals regret is a one-stage diagnostic
+consistent with simultaneous lagged responses, not a dynamic rationality test.
+Primary-window price/profit differences and the final-round row are phase-sensitive;
+all five final rounds occur in a low-output phase. Calculator profit is below
+static symmetric Nash profit 36 in both the primary window and all rounds.
+Secondary outcomes and the reverse-tail p are descriptive, with no
+multiplicity adjustment or secondary HIT. No sibling detector was tested here.
+The deterministic-cycle/Nash checks reproduce with
+`uv run python scripts/s03_economics.py` ([output](logs/s03_economics.json)).
+Current rendered interpretation reproduces with `uv run python scripts/s03_present.py`;
+the original pre-outcome renderer and all analysis hashes remain unchanged.
+
+**Execution audit:** every one of 368 raw response keys is consumed exactly
+once; all calls started before the cutoff. Invalid retries: calculator
+5, none 3; all exceeded the 40-word
+reasoning limit. Invalid attempts remain cached, with no retroactive acceptance.
+Raw files are newline-terminated and unchanged. Reproduce before any replay:
+`uv run python scripts/s03_audit.py`. Frozen Cache recovery can normalize a damaged
+last line before rejecting mutation, so verify these raw preconditions first.
+[Read-only execution audit](logs/s03_execution_audit.json).
+
+**Frozen verdict: DUD.** Five fresh seed blocks, ten complete games,
+T12, 368 cached responses, codex gpt-6-luna, zero tuning attempts.
+Every firm gets the same arm's interface; no firm pair, messages or advisor.
+From round 2, a calculator lists exact profits for all 13 own quantities conditional
+on rivals repeating their last completed quantities. Both arms see those lagged
+quantities and all public history; round-one prompts match. This table is not a
+forecast. The own-total-profit objective and undisclosed horizon are unchanged.
+
+One primary: output per firm r4–12, calculator minus none **-0.881 [-1.170, -0.489]**;
+paired t 95% interval [-1.433, -0.330], conditional exact one-sided
+higher-output sign enumeration p=1.00000
+(lower-tail descriptive p=0.03125). Decisions use exact
+integer totals over 27 firm-rounds per game, not rounded numbers. All five seed
+contrasts and all prespecified secondaries follow. Bootstrap bounds resample five
+seed blocks (10,000 draws, RNG 2406); they are descriptive and may under-cover.
+The t interval is fragile at n5. Sign enumeration assumes exchangeable execution
+slots/symmetric block differences and can fail under backend/time interference.
+The HIT rule requires >=1 unit increase, positive bootstrap lower and p<=.05.
+The n5 HIT sign rule requires all five contrasts strictly positive.
+DUD is the frozen prioritization label, not proof of no effect or equivalence;
+negative effects require the separately registered ODD-reverse rule.
+
+| Seed block | None mean quantity | Calculator mean quantity | Difference |
+|---|---|---|---|
+| 24060 | 6.666667 | 5.888889 | -0.777778 |
+| 24061 | 7.000000 | 5.777778 | -1.222222 |
+| 24062 | 6.925926 | 5.777778 | -1.148148 |
+| 24063 | 7.000000 | 5.888889 | -1.111111 |
+| 24064 | 6.000000 | 5.851852 | -0.148148 |
+
+**Primary-window outcomes:** all differences are calculator minus none. Only
+quantity is the primary; no secondary qualifies as a HIT or tunes a choice.
+Regret means one-stage forgone profit; it is not dynamic regret or evidence that
+an action was irrational in a repeated game. The lagged benchmark matches the
+table; actual-rivals regret uses contemporaneous quantities only after decisions.
+
+| Outcome | None | Calculator | Difference [descriptive bootstrap 95%] | Paired t 95% |
+|---|---|---|---|---|
+| Quantity per firm | 6.719 | 5.837 | -0.881 [-1.170, -0.489] | [-1.433, -0.330] |
+| Market price | 9.844 | 12.489 | +2.644 [+1.467, +3.511] | [+0.991, +4.298] |
+| Profit per firm | 25.385 | 31.778 | +6.393 [+2.052, +10.415] | [-0.364, +13.149] |
+| Stage regret against actual rivals | 2.630 | 8.259 | +5.630 [+1.800, +9.770] | [-0.665, +11.924] |
+| Conditional regret against lagged rivals | 2.570 | 0.119 | -2.452 [-3.570, -1.015] | [-4.442, -0.461] |
+| Absolute distance from symmetric Nash q=6 | 0.719 | 1.378 | +0.659 [+0.274, +1.015] | [+0.073, +1.246] |
+| Absolute quantity change | 0.044 | 2.733 | +2.689 [+2.007, +3.400] | [+1.552, +3.826] |
+| All-three quantity equality rate | 0.756 | 0.933 | +0.178 [-0.133, +0.600] | [-0.428, +0.784] |
+
+**Other prespecified windows:** lag-conditioned regret/change exclude round one.
+
+| Window | Arm | Quantity | Price | Profit | Actual regret | Lag regret | Distance Nash | Abs change | All equal |
+|---|---|---|---|---|---|---|---|---|---|
+| All rounds | none | 6.722 | 9.833 | 24.556 | 3.744 | 2.982 | 0.822 | 0.285 | 0.617 |
+| All rounds | calculator | 6.006 | 11.983 | 29.217 | 9.011 | 0.103 | 1.439 | 2.830 | 0.833 |
+| Final round | none | 6.733 | 9.800 | 25.133 | 2.733 | 2.733 | 0.733 | 0.000 | 0.800 |
+| Final round | calculator | 4.867 | 15.400 | 45.133 | 6.000 | 0.000 | 1.133 | 2.267 | 0.800 |
+
+![Calculator pilot trajectories and seed contrasts](figures/s03_calculator.png)
+*Mean market quantity paths; bands show the range of five games, not confidence
+intervals. Right panel shows one primary contrast per seed block.*
+
+**Limits:** the intervention bundles correct arithmetic, longer context, salience
+and a possible myopic-policy cue. Changes cannot be attributed to arithmetic
+error correction alone. Histories diverge endogenously. No message channel does
+not establish tacit collusion; agreement/execution labels remain null. This is a
+tiny exploratory test of one table and one model, with no equivalence claim.
+Best responses to lagged rivals can cycle (symmetric q4 to q8 and back),
+changing behavior while leaving mean output at q6. Read the change and regret
+diagnostics beside the primary. Distance |q-6| refers only to symmetric Nash;
+the six permutations of (5,6,7) are also grid Nash equilibria.
+All seeds provide server-sampled replicates with randomized arm execution slots;
+no API seed/temperature control or independent model attestation. Cache-key
+separation prevents accidental response reuse; it cannot guarantee independence
+of model draws. No sibling headline change follows from this screen alone.
+
+[Design](DESIGN_S03.md) · [Frozen JSON](results/s03_calculator.json) ·
+[Verification](logs/s03_verification.json) ·
+[Review dispositions](logs/s03_review_disposition.md).
+Reproduce: `uv run python scripts/s03_analyze.py`;
+`uv run python scripts/s03_verify.py`; `uv run python scripts/render_report.py`;
+`uv run python scripts/s03_report.py` (figure only).

@@ -100,3 +100,36 @@ source files change. Exported trajectories have `quantity` actions, no text;
 metadata has `assigned_pair=null`, unverified labels, tables and reasoning notes.
 A small sample DUD is a queue screen and cannot establish equivalence, lack of
 cycles or lack of a policy effect. Raw caches are retained for paid-call reuse.
+
+While S03 is running, `uv run python scripts/s03_progress.py` logs only
+completion/routing/retry/latency metadata to `logs/s03_runtime_checkpoints.jsonl`;
+it does not expose actions or treatment-effect estimates. Required cache-only
+reconstruction runs inside the analyzer as well as the independent verifier.
+
+`uv run python scripts/s03_economics.py` independently enumerates the static
+integer-game equilibria and verifies the q4/q8 lag-best-response cycle used in
+the S03 interpretation notes. It reads no LLM outcomes and writes
+`logs/s03_economics.json`.
+
+The final S03 interpretation is rendered with `uv run python scripts/s03_present.py`.
+It first runs the original frozen renderer, then adds the observed cycling
+interpretation from prespecified metrics and clarifies that DUD concerns the
+registered directional prediction. It changes no estimates, windows, thresholds
+or frozen source hashes. Run this after a base `render_report.py` refresh.
+
+Before replaying S03, run `uv run python scripts/s03_audit.py`. This read-only
+preflight checks newline-complete raw files, use of every cache entry exactly
+once, actual UTC start times against the cutoff, and invalid-retry reasons by arm.
+It protects the committed evidence from the shared cache's recovery behavior on
+a damaged final line. The audit is also a post-run verification, with output in
+`logs/s03_execution_audit.json`; it changes no scientific estimate or verdict.
+
+Final verification also binds the entire result JSON to canonical byte-identical
+reanalysis and independently checks the queue verdict (`logs/s03_execution_audit.json`).
+`uv run python -m unittest scripts.test_s03_publication -v` checks rejection of
+altered verdicts/intervals and unused cache entries. Pre-run validation comprised
+8 S03 tests within the 21-test suite; these are 2 additional publication checks.
+The frozen transport wrapper's deadline is checked per logical call, while
+internal transport retries are not separately bounded/logged. This run finished
+before 16:08 UTC; a future experiment near a strict cutoff needs per-transport
+attempt enforcement. See final critic dispositions for the precise limitation.

@@ -1,0 +1,22 @@
+{
+  "pilot": "S03",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 368,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Table arithmetic, salience, myopia and framing not separated",
+    "Lag-conditioned table is not a forecast or a dynamic optimum",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No messages and no verified agreement/execution labels",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}
+Primary: {'mean': -0.8814814814814813, 'ci95': [-1.1703703703703703, -0.4888888888888886], 'paired_t_ci95': [-1.4327570031957806, -0.33020595976718203], 'exact_signflip_p_upper': 1.0, 'exact_signflip_p_lower': 0.03125}

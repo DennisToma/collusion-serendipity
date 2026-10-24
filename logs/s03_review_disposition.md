@@ -35,7 +35,7 @@ Initial registration commit: 424c351. All fixes below precede live outcomes.
   pairing provides temporal blocks, not common random numbers.
 - Documentation: cached exact requests are now stored, not merely reconstructible;
   temperature is requested in shared harness but uncontrolled in Codex.
-- Validation: 21 tests PASS, including complete dry analysis/replay, strict parser,
+- Validation: 8 S03 tests within a 21-test suite PASS, including complete dry analysis/replay, strict parser,
   deadline/cache reuse, missing/empty manifests, malformed cache, tampering and
   incomplete/dry publication gates. Final complete dry run uses /var/tmp only.
   Intermediate dry failures came from the inherited dummy's fake message and
@@ -43,5 +43,58 @@ Initial registration commit: 424c351. All fixes below precede live outcomes.
 
 ## Final claim reviews
 
-Pending complete games, independent verification, and report rendering. No HIT
-promoted and no scientific outcome viewed at the design freeze.
+All ten games completed; 368 cached calls, 8 invalid-output retries, zero failed
+games. Mandatory analyzer replay, separate full replay/export/independent primary
+and regret checks PASS. Reanalysis byte-identical and all frozen source hashes
+match. Figure visually inspected. Final claims reviews requested below.
+
+Post-outcome interpretation uses prespecified quantity-change and regret metrics:
+observed output decrease/cycling is visible, but original higher-output hypothesis
+and reverse-screen magnitude rules remain DUD. No secondary HIT or new detector
+experiment; no promotion. Presentation supplement s03_present.py leaves all
+pre-outcome simulation/analysis/report-source hashes unchanged.
+
+## Final critic outcomes and applied dispositions
+
+Both final critics completed exit 0:
+[Codex](s03_final_codex.md), [Opus](s03_final_opus.md).
+Codex independently recalculated all 240 game/window metric cells, aggregate
+means, seed contrasts, bootstrap/t intervals and displayed tables; complete
+canonical reanalysis was byte-identical. Opus independently checked means,
+integer totals, sign enumeration, t intervals and table arithmetic; it did not
+execute bootstrap code. Both confirm the unchanged DUD verdict and find no
+numerical defect in this dataset.
+
+- Opus C1–C3: explicitly state above-Nash control baseline, extra low-output phase
+  in the nine-round primary window, all-round 4/5 negative contrasts, calculator
+  all-round mean 6.006 near Nash 6, phase-sensitive endpoints/price/profit and
+  profits below static Nash. No secondary/negative-tail HIT or changed window.
+- Opus C4: describe lag-regret as table adherence/manipulation check; current-rival
+  regret is a one-stage diagnostic, not dynamic rationality or proof of mechanism.
+- Opus B1: inherited Cache can normalize a malformed last line during construction.
+  Added read-only s03_audit preflight that requires newline-complete raw evidence
+  before reconstruction; current raw hashes unchanged. Frozen code retained.
+- Both critics' unused-cache defect: s03_audit now requires every raw key consumed
+  exactly once, matching all recorded attempts and request keys. All 368 pass.
+  Publication regression test rejects orphan/missing requests.
+- Codex incomplete-verifier defect: the new audit binds result SHA256, requires
+  byte-identical full canonical results and independently recomputes the rational
+  queue classification. New tests reject a changed verdict, changed confidence
+  bounds, and even a canonical-equal but wrongly labeled result. All pass.
+- Opus timing/retry details: audit parses actual UTC datetimes; every game ended
+  before the cutoff, and all logical starts preceded it. Invalid retries are
+  calculator 5 / none 3, all reasoning >40 words; all failed attempts retained.
+- Codex transport-cutoff defect: llm.chat may retry internally after the wrapper
+  deadline check. This limitation of the FROZEN transport harness is retained,
+  not claimed fixed by logical timestamp checks. The entire run finished before
+  16:08 UTC, well before 16:35, so it cannot explain this run. Future strict
+  cutoff enforcement must occur per backend/transport attempt, with separate
+  attempt logs, before any new experiment relies on that boundary.
+- Test wording corrected: 8 S03 tests within a 21-test pre-run suite. Two further
+  publication-audit regression tests pass after concrete final-review findings.
+- Opus low-severity notes do not justify changing any scientific outcome, parser,
+  threshold or window after results. Nearly deterministic paths, n5, uncontrolled
+  API draws/interference and the bundled treatment remain stated limitations.
+
+No new model calls or experiment followed completion. No HIT or sibling headline
+change. The next portfolio work is D/E/F, before deepening own/B/A/C axes.

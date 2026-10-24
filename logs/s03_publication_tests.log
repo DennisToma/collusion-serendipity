@@ -1,0 +1,7 @@
+test_mutated_verdict_and_intervals_fail (scripts.test_s03_publication.S03Publication.test_mutated_verdict_and_intervals_fail) ... ok
+test_orphan_and_missing_requests_fail (scripts.test_s03_publication.S03Publication.test_orphan_and_missing_requests_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
