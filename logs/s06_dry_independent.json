@@ -1,0 +1,26 @@
+{
+  "independent_metric_cells": 240,
+  "bootstrap_intervals": 24,
+  "paired_t_intervals": 8,
+  "primary_numerators": [
+    -1,
+    -42,
+    21,
+    24,
+    40
+  ],
+  "primary_mean": 0.3111111111111111,
+  "upper_p": 0.3125,
+  "lower_p": 0.71875,
+  "two_sided_p": 0.625,
+  "verdict": "ODD",
+  "exact_3125_bootstrap_ci95": [
+    -0.6444444444444445,
+    1.1037037037037036
+  ],
+  "sha256": {
+    "/var/tmp/s06_dry_final/raw/responses.jsonl": "73a5d36126b99fd3e5920fda8571144a3ea9d12cbc16ab7221d1d33d2612ccd4",
+    "/var/tmp/s06_dry_final/raw/requests.jsonl": "0a74b00701d0c61628d74a7f08eb0c925028acfc38982ad85e107e3282f7d189",
+    "/var/tmp/s06_dry_final/result.json": "edf2b6f3ca6978b72a1fc381656d135b34b7e4e38c6640757e4042cd58aa8319"
+  }
+}

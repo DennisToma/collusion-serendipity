@@ -1,18 +1,15 @@
 # STATUS
 
-## Current state (2026-10-24T18:25:59.427570+00:00; Phase2, iteration6 COMPLETE)
-- S11 D3 ODD:10 fresh no-message calculator games/5 time-matched pairs; no HIT/headline change.
-- Change reduction immediate-delayed +0.903704[-0.088889,+1.814815]; t[-0.630379,+2.437787]; p=.09375.
-- Four positive pairs/one negative; secondary quantity delayed-immediate -0.029630[-0.148148,+0.066667].
-- 366 cached calls/360 valid actions;6 overlong-reasoning retries (2 immediate/4 delayed), zero failures.
-- Feedback/own recall/warmup bundled; IDs do not seed actions; smoothness is not less collusion.
-- Mandatory exact-request replay/source/registration/export/payoff checks and cached resume PASS.
-- Independent240 cells/24 bootstrap/8 t intervals/exact32 signs/verdict PASS; exact3125 bounds agree.
-- Original13 scientific sources/config and result SHA d136e501 unchanged; figure inspected.
-- Both final critics exit0;17 S11 checks/69 discovered tests PASS; all findings disposed.
-- Revised1477204 clean clone PASS:17 checks,47 links,4 byte-identical scientific/presentation outputs.
-- Worker-abort archive wrapper +366-history/317-table independent request audit PASS; no new calls.
-- All A/B/C/D/E/F/own axes covered; next fresh own invariance S06 or justified confirmation.
+## Current state (2026-10-24T18:34:08.937783+00:00; Phase2, iteration7 IN PROGRESS)
+- Selected own-axis S06 denomination invariance; previous axis D, all axes covered.
+- Ten fresh no-message calculator games planned, five time-matched blocks24160..24164.
+- Every monetary display k1 vs k100, explicit conversion; real best responses identical.
+- Primary quantity CENT−UNIT r4–12; symmetric exploratory .10 screen, zero tuning.
+- Both methodology critics exit0 before launch; resume/timing/metric-set fixes applied.
+- Full dry replay/independent240-cell/24-bootstrap/8-t checks and tests PASS.
+- No live S06 calls or outcome inspection; committed source freeze/push follows.
+- Earlier pilots unchanged; no HIT or sibling headline change. Checkpoint20:00UTC.
+- Risks: n5, calculator assistance, denomination package, API interference, fragile CIs.
 
 ## Log
 
@@ -93,3 +90,5 @@
 - 2026-10-24T18:24:12.973204+00:00: both S11 final critics exit0 confirm unchanged ODD/numbers. Codex independently recomputes240 raw cells/all intervals and identifies a low-severity worker-to-collector abort gap; none occurred. Original scientific sources preserved; new archive-only wrapper propagates abort at worker and forbids live calls,2 regressions PASS. Added independent366 raw request-history/317 actual-table checks; all PASS. Accepted time-matched-pair, hidden-lag1-regret, away-from-Nash and renderer-chronology scope clarifications; no new tests of scientific effects, exclusions or secondary promotion. Opus cannot access raw files/recompute bootstrap; attributed checks accurately. Original1a8c435 clean clone PASS17-artifact release/15 tests/4 byte-identical outputs. All69 discovered tests PASS. Final revised-wrapper clone follows.
 
 - 2026-10-24T18:25:59.427570+00:00: iteration6 COMPLETE. Source freeze703a0a8/results1a8c435/final-review fixes1477204 all pushed. Final revised1477204 clean clone runs archive guard,17 protocol checks and47 local links; regenerates4 outputs byte-for-byte (result,summary,figure,independent audit). Every one of13 frozen scientific sources/config and original result SHAd136e501 unchanged. All69 discovered tests PASS; both final critics and all generation processes exited. REPORT is a concise seven-pilot log, HITS retains unpromoted ODD, ledgers reference result commit1a8c435. Local remote/client chronology only, no server-time attestation. No extra game, analysis tuning, exclusions, pooling or sibling write; no direction deviation. Next iteration should select queued own S06 denomination invariance or justify confirmation on fresh seeds.
+
+- 2026-10-24T18:34:08.937783+00:00: iteration7 read rules/state/direction/ledger and sibling summaries. Activated queued own S06 after D-axis S11; registered ten fresh denomination games, one symmetric primary and zero tuning. Both design critics exit0; applied prospective resume-start, sequential/barrier audit, complete metric-set, interrupt-abort and unit-wording fixes. Exhaustive scaled economics/history/parser/provenance/strict-screen checks plus full dry independent replay PASS. No live calls, outcomes or direction deviation; source freeze/push next.

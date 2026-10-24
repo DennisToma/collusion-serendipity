@@ -1,0 +1,15 @@
+test_all_displayed_money_scaled (scripts.test_s06.Tests.test_all_displayed_money_scaled) ... ok
+test_deadline_and_worker_abort (scripts.test_s06.Tests.test_deadline_and_worker_abort) ... ok
+test_dry_destination (scripts.test_s06.Tests.test_dry_destination) ... ok
+test_dry_full_pipeline_and_tamper (scripts.test_s06.Tests.test_dry_full_pipeline_and_tamper) ... ok
+test_exhaustive_real_payoff_and_argmax_invariance (scripts.test_s06.Tests.test_exhaustive_real_payoff_and_argmax_invariance) ... ok
+test_no_current_round_or_reasoning_leak (scripts.test_s06.Tests.test_no_current_round_or_reasoning_leak) ... ok
+test_resume_preserves_earliest_call_and_sequential_validation (scripts.test_s06.Tests.test_resume_preserves_earliest_call_and_sequential_validation) ... ok
+test_strict_action_and_route (scripts.test_s06.Tests.test_strict_action_and_route) ... ok
+test_torn_missing_and_changed_cache (scripts.test_s06.Tests.test_torn_missing_and_changed_cache) ... ok
+test_two_sided_screen (scripts.test_s06.Tests.test_two_sided_screen) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.596s
+
+OK

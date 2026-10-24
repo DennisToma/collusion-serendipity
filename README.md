@@ -255,3 +255,35 @@ uses this wrapper and independently parses every saved request history/table.
 Run `uv run python -m unittest scripts.test_s11_safe_run -v` for both regressions.
 The renderer is presentation code revised after outcomes, separate from the frozen
 scientific manifest; its initial version was committed in703a0a8 before calls.
+
+### S06 monetary-denomination invariance (own axis)
+
+Ten fresh no-message, calculator-assisted Cournot games display every monetary
+amount at1x or100x with an explicit conversion rate. Underlying payoffs, quantities
+and optimal actions are identical. All money metrics normalize to common currency.
+See [DESIGN_S06.md](DESIGN_S06.md); n5 and the two-sided .10 queue screen are
+exploratory, not equivalence testing or a collusion label.
+
+```bash
+TMPDIR=/var/tmp uv run python -m sim.denomination
+uv run python scripts/s06_analyze.py
+uv run python scripts/s06_independent.py
+uv run python scripts/s06_retry_audit.py
+uv run python scripts/s06_request_audit.py
+uv run python scripts/s06_present.py
+uv run python scripts/s06_release.py
+uv run python -m unittest scripts.test_s06 -v
+# After committing results, verify from a clean local clone:
+uv run python scripts/s06_release.py --clean-clone
+```
+
+Source/configuration/registration hashes, every cached exact request, every key,
+all exports, attempt sequences and payoffs are required before analysis. Worker
+failure sets shared abort before executor cleanup; the audit checks within-game
+sequential timestamps and inter-block barriers. Calls already past the guard may
+finish; no atomic transport cancellation. Absolute cutoff19:15UTC Oct24 forbids
+new uncached logical calls; cached replay remains possible. Raw caches are tracked.
+Dry runs need a separate destination, e.g. `uv run python -m sim.denomination --dry
+--out /var/tmp/s06_offline`; dry analysis requires `--allow-dry` and a separate
+`--out`. Choose a fresh dry directory after source changes. No sibling checkout
+or model credentials are needed for archived replay/publication.

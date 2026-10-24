@@ -1,0 +1,11 @@
+S06’s treatment starts in round 1; the calculator starts in round 2. Monetary scaling, completed-history visibility, normalized payoffs, and the primary decision rule match the design. I found three remaining bugs:
+
+1. **Incomplete-game resume produces invalid provenance.** Restarting resets `started_utc`, while cached responses retain earlier timestamps. Validation then rejects those responses as preceding the game start. Resume can spend additional calls completing a dataset that cannot pass analysis. See [denomination.py:146](/home/factory/collusion/collusion-serendipity/sim/denomination.py:146) and [s06_analyze.py:52](/home/factory/collusion/collusion-serendipity/scripts/s06_analyze.py:52).
+
+2. **Timing validation does not establish execution order.** It checks each call against game bounds and deadline, but does not check sequential calls, prior-round completion, or barriers between blocks. An in-memory example with all 36 calls overlapping passed validation. This is an audit gap, not evidence that execution actually violated timing. See [s06_analyze.py:45](/home/factory/collusion/collusion-serendipity/scripts/s06_analyze.py:45).
+
+3. **The independent checker accepts missing aggregate metrics.** It iterates over whatever metrics the result supplies without asserting the registered metric set. Removing `all_equal` still passed, checking 21 bootstrap intervals instead of 24. See [s06_independent.py:70](/home/factory/collusion/collusion-serendipity/scripts/s06_independent.py:70).
+
+Acknowledged limitations, rather than remaining bugs: five exploratory blocks; assumption-dependent sign-flip inference; descriptive bootstrap and fragile t intervals; multiple pilots; uncontrolled sampling and timing/interference; denomination bundled with formatting/conversion cues; no equivalence conclusion from DUD; no identification of arithmetic errors, risk preferences, or collusion; and client-side provenance without independent model/time attestation.
+
+Five read-only unit tests passed; targeted in-memory checks reproduced the findings above. No edits or live model calls.

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 18:24 UTC · Iteration 6 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 7 (S06 registered) · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -11,6 +11,7 @@
 | S07 · F, anti-coordination rule | 10 games, 5 blocks. Pair output r4–12: neutral **5.800**, legality **4.844**; difference **-0.956 [-2.889, +0.267]**. | **DUD for predicted increase** |
 | S09 · E, transcript-removal replay | 10 six-round continuations / 5 observed prefixes. Pair output r7–12: retain **5.900**, erase **6.000**; difference **+0.100 [+0.000, +0.300]**. | **DUD** for directional screen; near-Nash baseline |
 | S11 · D, delayed feedback | 10 no-message calculator games / 5 time-matched pairs. Mean consecutive output change r4–12: immediate **2.430**, delayed **1.526**; reduction **+0.904 [-0.089, +1.815]**. | **ODD** for timing screen |
+| S06 · own, denomination | Registered: ten fresh games, k1 vs k100; identical real incentives. No live results yet. | Pending |
 
 **S11:** immediate−delayed change, paired t95% **[-0.630, +2.438]**, upper sign-flip **p=0.09375**. Four of five block differences are positive; the HIT screen is unmet. At n5, HIT means all five strictly positive differences and mean reduction≥1; its bootstrap/sign conditions are not independent checks. Secondary mean quantity delayed−immediate **-0.030 [-0.148, +0.067]**, t95% [-0.206, +0.147]. [All outcomes, blocks and figure](results/s11_summary.md).
 

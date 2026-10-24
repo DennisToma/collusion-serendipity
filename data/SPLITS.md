@@ -17,3 +17,6 @@ No independent-seed replication, no pooling with S07 original suffix or legality
 
 S11: five fresh paired blocks24110..24114; ten exploratory games, zero tuning.
 No held-out test claim, no pooling with S03; confirm on fresh registered seeds.
+
+S06: five fresh time-matched blocks24160..24164; ten exploratory games, zero tuning.
+No held-out test claim, no pooling with other pilots; confirmation needs fresh seeds.
