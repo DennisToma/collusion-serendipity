@@ -599,3 +599,33 @@ metric,source,exclusion or verdict and applies no semantic/intent classifier.
 In S27 JSON, per-arm `paired_t_ci95` fields retain the inherited name but contain
 one-sample t bounds across five blocks. The `paired_difference` field contains
 the actual paired-contrast t interval displayed in the report.
+
+S29 (iteration17, C): partner notepad delivery in two-person neutral-label teams.
+Both arms write/retain own notes; shared additionally receives partner notes.
+The readability sentence changes truthfully; roster, directed incentives, type
+schedules and initial schema are matched. Delivery, expectations, note volume
+and downstream histories are bundled; public actions remain visible in both arms.
+[Prospective design](DESIGN_S29.md). Five fresh paired blocks, ten games,T10,
+200 planned decisions. No pooling with S27 or prior note-access pilots.
+
+```bash
+uv run python scripts/s29_launch.py        # one-shot live, after frozen source push
+uv run python scripts/s29_analyze.py       # all ten games and exact raw replay
+uv run python scripts/s29_independent.py   # independent metrics/stats/history checks
+uv run python scripts/s29_present.py       # all registered outcomes and figure
+uv run python scripts/s29_release.py       # offline release and cache-only resume
+uv run python -m unittest scripts.test_s29
+```
+
+Dry generation: `uv run python -m sim.notepad --dry --out /var/tmp/s29_example`;
+analyze with `--allow-dry --data /var/tmp/s29_example --out /var/tmp/s29_example/result.json`.
+An interrupted or failed pilot must never be resumed/replaced for publication.
+S29 fixes the previously documented abort/admission race prospectively: failure
+transitions and logical admission share one lock. Already-admitted requests may
+start or finish transport after failure; no later request is admitted. All failed
+or interrupted datasets remain unpublishable. Source/environment checks and the
+launch receipt apply as in S27. Historical source bytes remain unchanged.
+Internal/total pair bonus duplicate in two-person teams. Per-arm `paired_t_ci95`
+fields are one-sample t bounds; contrast fields are paired t bounds. Clean-clone
+checks reuse the installed frozen environment. Actual backend tool non-use and
+provider-side sampling/timing remain unverified.
