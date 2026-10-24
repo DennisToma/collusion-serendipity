@@ -1,0 +1,21 @@
+{
+  "independent_metric_cells": 270,
+  "bootstrap_intervals": 27,
+  "paired_t_intervals": 9,
+  "primary_numerators": [
+    12,
+    11,
+    6,
+    -13,
+    -6
+  ],
+  "primary_mean": 0.2222222222222222,
+  "upper_p": 0.40625,
+  "pair_profit_difference": 0.7888888888888889,
+  "verdict": "DUD",
+  "exact_3125_bootstrap_ci95": [
+    -0.7555555555555555,
+    1.1555555555555554
+  ],
+  "result_sha256": "37b0fac10539bb4e27c00e5a1fa667651c3e996d28da104d0ce39b2f5954f2b4"
+}

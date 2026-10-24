@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T18:56:22.082152+00:00; Phase2, iteration7 COMPLETE)
-- S06 own denomination ODD:10 fresh no-message calculator games/five time-matched pairs.
-- Quantity CENT−UNIT -0.266667[-0.518519,-0.022222]; t[-0.658776,+0.125443]; two-sided p=.1875.
-- Exact block numerators[-8,-19,-3,4,-10]/27; no HIT or sibling headline change.
-- Prespecified secondary swings/all-round means expose phase sensitivity; no mechanism or collusion claim.
-- 362 responses/360 actions;2 overlong-reasoning retries CENT/0 UNIT, zero failures; last call18:50:08.
-- Mandatory exact-request/all-key/source/registration/export/payoff replay and cached resume PASS.
-- Independent240 cells/24 bootstrap/8 t/exact32 signs and3125 resamples agree; figure inspected.
-- All362 saved histories/332 tables and raw rejection/timestamp/chronology checks PASS.
-- Original13 scientific sources and result SHA f9253e97 unchanged; both final critics exit0.
-- 80 repo tests PASS; new metadata/duplicate-record contract guard preserves frozen sources.
-- Pushed results afd880d; its clean clone passes11 checks and reproduces5 outputs byte-for-byte.
-- All axes covered; next different axis, favor A1 procurement/A4 workplace; checkpoint20:00UTC.
-- Risks: n5, phase-sensitive mean, calculator assistance, bundled denomination, shared backend.
+## Current state (2026-10-24T19:00:37.467645+00:00; Phase2, iteration8 IN PROGRESS)
+- S14 A1 procurement selected:10 fresh games/five time-matched none/private pairs;T12.
+- Different world:sealed bids6..20,cost6,lowest bid paid,divisible equal ties,outsider present.
+- Primary buyer-payment increase r4..12; HIT also requires positive pair-profit contrast.
+- Full offline replay/independent9-metric stats, strict parsing,visibility/cache/deadline checks PASS.
+- Exhaustive3375 profiles:44 pure Nash profiles,payment set{6,7};not a unique benchmark.
+- Both original critics exit0; exact-threshold and interrupted-invocation fixes pass8 tests.
+- Both corrected-source critics exit0;89 repo tests/9 S14 checks and final dry pipeline PASS.
+- Exact rational primary bounds/profit gate and journal-bound/-O guards verified; no live outcomes.
+- S06 remains ODD quantity -.267; no prior HIT or sibling headline change.
+- Next:review dispositions,freeze/push,ten games,independent audit/final critics,checkpoint docs.
+- Open risks:n5,role/box cues bundled,one backend,divisible ties,shared service interference.
 
 ## Log
 
@@ -104,3 +102,7 @@
 - 2026-10-24T18:55:16.074006+00:00: both final critics exit0 confirm ODD/numbers. Codex independently recomputes all240 raw cells/intervals; Opus hand-checks supplied metric tables and primary t/sign arithmetic, without raw/shell/bootstrap access. Preserved13 frozen sources/result SHA f9253e97. Separate contract wrapper fixes original independent-checker metadata/duplicate-record gap; mutation regression PASS. Independent362 raw-response count/rejection/timestamp check PASS, original attempt auditor matches registration source. Accepted odd-window/all-round scope, declined unsupported deterministic/initial-choice mechanism and secondary promotion.80 discovered tests PASS; full release cached resume/reanalysis/source/requests/chronology/independent-statistics checks PASS. Final results milestone push then clean clone. No new calls, tuning, exclusions, pooling or sibling write.
 
 - 2026-10-24T18:56:22.082152+00:00: iteration7 COMPLETE. Source freeze1bb6619/resultsafd880d pushed. Clean clone of full results commit passes release audit,11 S06 protocol/publication checks and48 local-document links; regenerates5 outputs byte-for-byte (scientific result,summary,figure,independent audit,REPORT).80 discovered repo tests PASS. Independent original attempt-audit source matches registration, every frozen scientific source and result SHA f9253e97 unchanged. Both final critics fully disposed; scientific generation/reviews exited. Updated ledgers, current one-page REPORT/HITS and handoff. No extra game, new estimator, outcome tuning, exclusions, pooling or sibling writes; no direction deviation. Next pilot must use a different axis; favor an actually different world (A1 procurement/A4 workplace) over another Cournot-interface variation.
+
+- 2026-10-24T19:00:37.467679+00:00: iteration8 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling report/state summaries. Selected S14 A1 procurement after own-axis S06, extending exploration beyond repeated Cournot interfaces. Registered10 fresh games/5 pairs and frozen-direction screen before calls; zero tuning. Full offline pipeline and independent270-cell/27-bootstrap/9-t/sign check PASS; exhaustive3375 profiles identify44 pure equilibria with payment6 or7. Both methodology critics requested. No direction deviation or sibling writes.
+
+- 2026-10-24T19:09:29.069774+00:00: S14 original and guarded Codex/Opus methodology reviews exit0 before live calls; accepted exact-boundary, profit-gate, persistent invocation, journal/timestamp and optimization fixes. Final dry replay and independent270-cell/27-bootstrap/9-t/exact-sign reconstruction PASS;89 discovered tests/9 S14 checks PASS. Fourteen scientific source/dependency/design files ready to freeze. Renderer/launch/release and dataset schema prepared. Queued own S15 tie-realization idea; no second pilot. No scientific outcomes, tuning or direction deviation.

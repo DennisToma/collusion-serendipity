@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 7 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 8 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -20,6 +20,6 @@
 Fresh markets have three firms, integer output, P=max(0,30-total output), cost6; symmetric static Nash q6, P12, profit36. S09 has only six new rounds per continuation; source prefix is context. No verified agreement/execution labels; quantity, message influence and profitable coordination are distinct. Tiny samples, exploratory selection, multiple pilots and shared-backend interference limit inference. Model labels are client metadata; sampling/temperature and OS isolation are not independently attested. No sibling headline change.
 
 [Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [S11](DESIGN_S11.md) · [S06](DESIGN_S06.md) · [Reproduce](README.md).
-**Next:** Portfolio complete; choose a different axis next, or a justified fresh confirmation. Keep checkpoint documents presentable; no secondary-driven promotion.
+**Next:** S14 procurement auction registered; methodology review pending, no live results yet. [Design](DESIGN_S14.md). Keep checkpoint documents presentable; no secondary-driven promotion.
 
 [S06 replay/release verification](logs/s06_release.json) · [Independent checks](logs/s06_independent.json) · [Review dispositions](logs/s06_review_disposition.md).

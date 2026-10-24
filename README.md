@@ -294,3 +294,29 @@ but does not validate report metadata or duplicate result-game records. Use
 contrast/window/count/denominator and ten unique records before the unchanged
 independent arithmetic check. The release audit also binds the complete result
 to canonical reanalysis. Original scientific sources and result bytes are preserved.
+
+### S14 procurement auction (A1)
+
+Ten fresh repeated first-price tenders compare a pair-only private box with no
+channel. Bids are6..20, cost6; ties divide one unit equally. Primary buyer payment
+and pair-total profit are distinct from agreement/execution labels. See
+[DESIGN_S14.md](DESIGN_S14.md). All data exploratory; zero tuning.
+
+```bash
+TMPDIR=/var/tmp uv run python scripts/s14_launch.py # first live launch, after freeze/push
+TMPDIR=/var/tmp uv run python -m sim.tender       # completed archive, cache-only
+uv run python scripts/s14_analyze.py
+uv run python scripts/s14_independent.py
+uv run python scripts/s14_economics.py
+uv run python scripts/s14_present.py
+uv run python scripts/s14_release.py
+uv run python -m unittest scripts.test_s14 -v
+```
+
+The raw exact requests/responses are archived. Analysis refuses missing/extra
+keys, partial games, code/registration drift and failed blocks. All calls are
+replayed offline before estimation. Two games run concurrently with a block
+barrier; no uncached logical call begins at/after19:45UTC Oct24. Cached resume
+stays available. For offline smoke checks, use a separate directory with
+`uv run python -m sim.tender --dry --out /var/tmp/s14_offline`, then
+`uv run python scripts/s14_analyze.py --data /var/tmp/s14_offline --allow-dry --out /var/tmp/s14_offline/result.json`.
