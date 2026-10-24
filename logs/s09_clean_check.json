@@ -1,17 +1,18 @@
 {
-  "commit": "c39abfa5eb002cd735384b82a292cebd7265b0fb",
-  "clone": "/var/tmp/s09-clean-lwhhnz7d/repo",
-  "steps": 7,
+  "commit": "e0c4dc58cc8edfb8815fe1fca88978168ef1107c",
+  "clone": "/var/tmp/s09-clean-7ekqwxn3/repo",
+  "steps": 8,
   "scientific_outputs_byte_identical": true,
   "publication_cache_only": true,
   "tests": 19,
-  "local_file_links": 33,
+  "local_file_links": 37,
   "sha256": {
     "results/s09_replay.json": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
-    "results/s09_summary.md": "46dc950ff5a8389e58f21413f0534f0554e3293dcc49765fbaf7b15b958a4256",
+    "results/s09_summary.md": "41cd8f277918e6fc838bf4e8c6928c3aaa14bbed334d7bdaa76a76800885ec1a",
     "figures/s09_replay.png": "cbfb0aac2fa83eedd024a827d5e64e4d28b67f60e745a1559760e7d2b55b83f7",
     "logs/s09_independent.json": "abe3507e4f09e2903dde61bc2f1bb78daa6cb238e2029c73ae693fffafa889dc",
     "logs/s09_release.json": "46c1f2a1c49140a7bda09cce14b9dcbae5886d67648482a5a9400285df68b921",
-    "logs/s09_retry_audit.json": "c99001e3881cc87323846d6d850a21fe113bcd1d795f31f68eafccce88d6f358"
+    "logs/s09_retry_audit.json": "c99001e3881cc87323846d6d850a21fe113bcd1d795f31f68eafccce88d6f358",
+    "logs/s09_exact_check.json": "f7d6446d08b159ae7d842a8423e905b722aa5c072f0a8979fb21778a7e77ef5d"
   }
 }

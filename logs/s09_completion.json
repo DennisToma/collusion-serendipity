@@ -1,0 +1,23 @@
+{
+  "completed_utc": "2026-10-24T17:48:09.875681+00:00",
+  "iteration": 5,
+  "pilot": "S09",
+  "verdict": "DUD",
+  "tuning_attempts": 0,
+  "source_registration": "44744180d9f8a36f7d2442fbe58001ba8d98bf91",
+  "result_commit": "c39abfa5eb002cd735384b82a292cebd7265b0fb",
+  "clean_checked_commit": "e0c4dc58cc8edfb8815fe1fca88978168ef1107c",
+  "scientific_output_hashes": {
+    "results/s09_replay.json": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
+    "results/s09_summary.md": "41cd8f277918e6fc838bf4e8c6928c3aaa14bbed334d7bdaa76a76800885ec1a",
+    "figures/s09_replay.png": "cbfb0aac2fa83eedd024a827d5e64e4d28b67f60e745a1559760e7d2b55b83f7",
+    "logs/s09_independent.json": "abe3507e4f09e2903dde61bc2f1bb78daa6cb238e2029c73ae693fffafa889dc",
+    "logs/s09_release.json": "46c1f2a1c49140a7bda09cce14b9dcbae5886d67648482a5a9400285df68b921",
+    "logs/s09_retry_audit.json": "c99001e3881cc87323846d6d850a21fe113bcd1d795f31f68eafccce88d6f358",
+    "logs/s09_exact_check.json": "f7d6446d08b159ae7d842a8423e905b722aa5c072f0a8979fb21778a7e77ef5d"
+  },
+  "all_frozen_sources_unchanged": true,
+  "independent_design_and_final_reviews_complete": true,
+  "active_generation_or_reviews": false,
+  "next_portfolio_axis": "D"
+}

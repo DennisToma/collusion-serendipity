@@ -160,6 +160,73 @@ COMMAND: python scripts/s09_retry_audit.py
   "interpretation": "All parser retries are part of operational contrast; no exclusion or mechanism attribution."
 }
 
+COMMAND: python scripts/s09_exact_check.py
+{
+  "posthoc_diagnostic": true,
+  "frozen_estimates_changed": false,
+  "exact_checks": {
+    "primary": {
+      "ordered_resamples": 3125,
+      "exact_bootstrap_ci95": [
+        0.0,
+        0.3
+      ],
+      "frozen_monte_carlo_ci95": [
+        0.0,
+        0.3
+      ],
+      "distribution_counts": {
+        "0": 1024,
+        "1/10": 1280,
+        "1/5": 640,
+        "3/10": 160,
+        "2/5": 20,
+        "1/2": 1
+      }
+    },
+    "fork": {
+      "ordered_resamples": 3125,
+      "exact_bootstrap_ci95": [
+        0.0,
+        0.6
+      ],
+      "frozen_monte_carlo_ci95": [
+        0.0,
+        0.6
+      ],
+      "distribution_counts": {
+        "0": 1024,
+        "1/5": 1280,
+        "2/5": 640,
+        "3/5": 160,
+        "4/5": 20,
+        "1": 1
+      }
+    }
+  },
+  "all_agent_quantity_counts": {
+    "retain": {
+      "4": 3,
+      "6": 86,
+      "7": 1
+    },
+    "erase": {
+      "6": 90
+    }
+  },
+  "pair_quantity_counts": {
+    "retain": {
+      "4": 3,
+      "6": 57
+    },
+    "erase": {
+      "6": 60
+    }
+  },
+  "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
+  "inference_limit": "Exact empirical bootstrap checks arithmetic under the same resampling assumptions; not independent population validation."
+}
+
 COMMAND: python scripts/s09_present.py
 
 COMMAND: python -m unittest scripts.test_s09 -v
@@ -186,7 +253,7 @@ test_source_manifest_rejected (scripts.test_s09.Publication.test_source_manifest
 test_torn_cache_recovery_rejected (scripts.test_s09.Publication.test_torn_cache_recovery_rejected) ... ok
 
 ----------------------------------------------------------------------
-Ran 19 tests in 0.725s
+Ran 19 tests in 0.773s
 
 OK
 

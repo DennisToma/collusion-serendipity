@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24 17:46 UTC; Phase2, iteration5 final verification)
+## Current state (2026-10-24 17:48 UTC; Phase2, iteration5 complete)
 - S09 E DUD:10 six-round continuations/all5 observed S07-neutral prefixes; no HIT or sibling headline change.
 - Pair output erase-retain +0.100[0.000,0.300], t[-0.178,+0.378], upper sign-flip p=.5; retain5.9 near Nash6.
 - 183 cached calls/180 valid decisions;3 overlong-reasoning retries, all retain; no failed game or exclusion.
-- Jointly withholds old transcripts AND unread round6 incoming messages; later renegotiation remains possible.
+- Withholds old transcripts AND unread round6 incoming messages; later renegotiation remains possible.
 - Full cache-only replay/source/prefix/export/payoff checks PASS; cached resume/result bytes unchanged.
 - Separate210-cell/22-bootstrap/7-t recomputation PASS; exact3125-resample primary/fork checks agree.
-- All19 new/52 discovered tests PASS; first clean clone reproduces6 outputs; extended clone audit next.
-- Independent Codex+Opus design AND final reviews complete; dispositions/first transport-timeout retained.
-- Frozen source4474418, results c39abfa pushed; client push chronology verified, server timestamp unattested.
-- Source/result SHA unchanged; figures inspected; final docs distinguish screen failure from equivalence.
-- Next: final clean-check/push, then D is sole untouched axis; own S05/S06/S08/S10 queued.
-- Risks: n5 seen prefixes, near-Nash headroom, inbox cues/public imprint, unattested OS isolation/truth labels.
+- All19 new/52 discovered tests PASS; final clean clone:7 outputs byte-identical,8 steps,37 links PASS.
+- Independent Codex+Opus design AND final reviews complete; first Codex transport-timeout retained.
+- Frozen source4474418/results c39abfa/review fixes e0c4dc5 pushed; client chronology, no server-time attestation.
+- Source/result SHA unchanged; figures inspected; no active scientific generation or review process.
+- Next: cover D (sole untouched axis) before deepening; own S05/S06/S08/S10 queued.
+- Risks: n5 seen prefixes, near-Nash headroom, inbox/public-history cues, no OS isolation/agreement truth labels.
 
 ## Log
 
@@ -79,3 +79,5 @@
 - 2026-10-24T17:41:54.204015+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.
 
 - 2026-10-24T17:46:17.895409+00:00: final Codex/Opus reviews exit0 confirm unchanged DUD and all checked numbers. Codex independently reproduces raw210 cells/all intervals/keys/prompt timing/source hashes; Opus analytically checks primary/fork bootstrap and t/sign arithmetic from per-game records. Applied scope clarification: erasure includes unread round6 incoming messages, not pure forgetting; future messages permit renegotiation rather than arbitrary-content recovery. Retained frozen design/source/result unchanged; declined posthoc UNINFORMATIVE gate and unsupported power/contamination-direction claims. Post-review exact3125-resample enumeration agrees with primary/fork bounds; raw audit confirms all90 erase actions q6 and retain pair counts threeq4/57q6. Marked diagnostics posthoc, no exclusion/secondary promotion. Current source/result hashes unchanged; reviewed figure. Full scientific data/requests/responses already committed/pushed c39abfa and reproduced in clean clone; final revised-summary portable audit follows. Server push timestamp unavailable without configured GitHub API auth; observed remote ancestry/client chronology retained explicitly without independent server-time claim. No active generation/review process.
+
+- 2026-10-24T17:48:09.875681+00:00: iteration5 COMPLETE. Final revised artifacts committed/pushed e0c4dc5; clean clone of that commit executes8 steps and reproduces all7 scientific outputs byte-for-byte, including exact-bootstrap diagnostic, full archived cache/replay and figure;19 protocol tests and37 local links PASS. Frozen source/config and original result SHA80b03077 unchanged. Complete results first pushed c39abfa; ledger references finalized. REPORT remains a concise six-pilot log, no HIT or sibling headline change. Final Codex/Opus findings fully disposed; original design/result preserved. All scientific generation and critics exited. D is next, with no new pilot in this iteration.
