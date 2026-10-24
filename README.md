@@ -489,3 +489,26 @@ charges; the realization residual is +0.525 points/round. This is an arithmetic
 identity for the observed paths, not a causal luck/behavior decomposition: those
 paths may themselves respond to past draws. The two bonus measures are already
 prespecified outcomes; no additional contrast or subgroup is promoted.
+
+## S24: simulated team identity
+
+[Design](DESIGN_S24.md): ten fresh shared-note workplace games. A single phrase
+frames the same simulated team as human employees or AI agents; deterministic
+stage payoffs, model and information are fixed. This tests identity framing, not
+actual human versus AI behavior. Do not restart interrupted live generation.
+Completed archives reproduce offline with:
+
+```sh
+uv run python scripts/s24_analyze.py
+uv run python scripts/s24_checked_independent.py
+uv run python scripts/s24_present.py
+uv run python scripts/s24_release.py
+uv run python -m unittest scripts.test_s24 scripts.test_s24_publication
+```
+
+Dry synthetic generation: `uv run python -m sim.identity --dry --out
+/var/tmp/s24_synthetic`; analyze with `--allow-dry` and a noncanonical output.
+Validation only opens the empty `.writer.lock`; archived scientific files stay
+unchanged. Inherited expected-score metrics duplicate deterministic realized
+bonuses. `paired_t_ci95` within one arm is a one-sample t interval over five games;
+in the contrast it is the paired t interval over five block differences.

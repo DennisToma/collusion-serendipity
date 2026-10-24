@@ -52,3 +52,8 @@ S22: five fresh paired blocks24360..24364; ten shared-note neutral-label workpla
 games, certain3 versus probability1/4 charge12; T10, primary r3..10. All
 exploratory, zero tuning, no held-out claim or pooling. Audit/type schedules,
 expected-score profit gate and all outcomes frozen before live calls.
+
+S24: five fresh paired blocks24400..24404; ten shared-note neutral-label workplace
+games, human employees versus AI agents scenario cue; deterministic charge3 both
+arms, T10, primary r3..10. Exploratory, zero tuning, no held-out claim or pooling.
+The full design/source manifest is frozen before live calls.

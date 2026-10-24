@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "observed_utc": "2026-10-24T21:49:22.907449+00:00",
+  "protocol_tests": 18,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/identity.py": "ce5dd289805812f108f67f815019cfc2f5dc80d18bf66cae8c6f42a426ee64ec",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S24.md": "c5904e91f91f2499612d69c05500638f46b77b91ac7961c78c2411ff6e0e21ed",
+    "scripts/s24_analyze.py": "7749aaa78115613f9934319354641f65904e2ddd33b2878d016b4cb0b4b6138b",
+    "scripts/test_s24.py": "db718df858849f8e28227005e3969b46f3c87fd96a178400186a2427b676f7cc",
+    "scripts/s24_launch.py": "09e4a910a6f7fbdd6ee97c977222f8825c8572c9fbcfb0bcf33f781307d8bfd8",
+    "scripts/s24_independent.py": "810fd47ebd85ed8b761e9882feae57c8fd52a834a6d5b6eb604446029aceb574",
+    "scripts/s24_checked_independent.py": "9a784673e5505aba56bac1939d4fd52427c1b92f0120003e8631052ed3f503da",
+    "scripts/test_s24_publication.py": "97c717f5c247967137a7fc2fd53e80aff71c5dc84d03eecbcce01cbdb4315329",
+    "scripts/s24_present.py": "cd0035b1e9cbdb226d3e865d2b7df252f6be93a66ba5713d3e8877f93cdc3a15",
+    "scripts/s24_release.py": "95b1560909cb5aa5cf0576a3e5ff6be1f06a75938f22464e2cf17c3240cad65f",
+    "scripts/s24_reviews.py": "1560454cdb29f957ae521040deb8c2f0b99f12bd5c702a0035d54a825195dc51",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "dry_independent": {
+    "passed": true,
+    "raw_metric_cells": 100,
+    "bootstrap_intervals": 30,
+    "t_intervals": 30,
+    "sign_tests": 30,
+    "saved_request_histories": 300,
+    "note_snapshots": 200,
+    "rejections": {
+      "human": 0,
+      "ai": 0
+    },
+    "verdict": "DUD",
+    "complete_registered_contract": true
+  },
+  "dry_data": "/var/tmp/s24_final_readiness",
+  "commands": [
+    "uv run python -m unittest scripts.test_s24",
+    "uv run python -m sim.identity --dry --out /var/tmp/s24_final_readiness",
+    "uv run python scripts/s24_analyze.py --data /var/tmp/s24_final_readiness --allow-dry --out /var/tmp/s24_final_readiness_result.json",
+    "uv run python scripts/s24_checked_independent.py --data /var/tmp/s24_final_readiness --result /var/tmp/s24_final_readiness_result.json --out /var/tmp/s24_final_readiness_independent.json"
+  ]
+}
