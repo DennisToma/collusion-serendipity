@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 4.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 5.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -32,7 +32,7 @@ false positive. This is a follow-up suggestion, not a confirmed hit.
 [S03 frozen results](results/s03_calculator.json) ·
 [S03 figure](figures/s03_calculator.png) · [Verification](logs/s03_verification.json).
 Reproduce: `uv run python scripts/s03_audit.py`; `uv run python scripts/s03_analyze.py`; `uv run python scripts/s03_verify.py`;
-`uv run python scripts/s03_present.py`. Cover remaining D/E before deepening.
+`uv run python scripts/s03_present.py`. Cover remaining D before deepening.
 
 
 **S07: unpromoted diagnostic, DUD for predicted output increase (axis F).**
@@ -47,7 +47,7 @@ This exact cue suppresses words in this sample; it does not verify compliance,
 reduced collusion, an enforcement effect or a channel-mediated mechanism.
 No fines are implemented and there is no no-channel arm. Both siblings should
 keep normative wording and degenerate/low-profit actions in mind when interpreting
-text or level screens. Cover D/E before deeper confirmation on fresh seeds.
+text or level screens. Cover D before deeper confirmation on fresh seeds.
 
 Reproduce: `uv run python scripts/s07_publish.py`; `uv run python
 scripts/s07_independent.py`; `uv run python scripts/s07_retry_audit.py`;
@@ -59,3 +59,22 @@ scripts/s07_independent.py`; `uv run python scripts/s07_retry_audit.py`;
 messages. Its channel contrast bundles self-message memory; no memory effect
 has been estimated. S07 corrected recipient-only delivery before calls.
 `uv run python scripts/s07_protocol_audit.py` reproduces this synthetic check.
+
+
+**S09: unpromoted diagnostic, DUD for predicted transcript-erasure output increase (axis E).**
+All five previously observed neutral S07 prefixes, ten new r7–12 continuations.
+Erase-minus-retain pair output **+0.100 [+0.000,+0.300]**
+(descriptive bootstrap), paired t[-0.178,+0.378],
+upper sign-flip p=0.50000. Prefix differences are [0.0, 0.5, 0.0, 0.0, 0.0]. Retain mean5.900 is already near symmetric Nash6;
+the +1 screen would require erase mean6.900.
+No causal-null or profitable-collusion claim: public history retains prior-message
+imprint, future messages can restore information, and empty-inbox cues are bundled.
+All source suffixes were observed before the pilot; this is not independent replication.
+Three overlong-reasoning retries occur only in retain, part of the operational contrast.
+No secondary promotion, excluded prefix or sibling headline change. D is the sole
+untouched axis and should be covered before deepening.
+
+[Registered design](DESIGN_S09.md) · [All outcomes](results/s09_summary.md) ·
+[Figure](figures/s09_replay.png) · [Independent/replay release audit](logs/s09_release.json).
+Reproduce: `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_independent.py`;
+`uv run python scripts/s09_release.py`; `uv run python scripts/s09_present.py`.

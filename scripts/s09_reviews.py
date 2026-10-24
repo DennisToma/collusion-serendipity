@@ -37,7 +37,8 @@ def main():
            'logs/s09_review_disposition.md']
     if args.stage=='final':
         files+=['results/s09_summary.md','REPORT.md','results/s09_replay.json',
-                'logs/s09_independent.json','data/s09_replay/config.json','logs/s09_tests.log']
+                'logs/s09_independent.json','logs/s09_release.json','scripts/s09_independent.py',
+                'scripts/s09_release.py','data/s09_replay/config.json','logs/s09_tests.log']
         instruction+='Independently recalculate S09 numerical claims, using raw games if useful. '
     def codex():
         path=Path(f'logs/s09_{args.stage}_codex{args.suffix}.md')

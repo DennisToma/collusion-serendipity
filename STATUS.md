@@ -1,16 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24 17:18 UTC; Phase2, iteration5 registration)
-- Prior pilots S01/S03/S07 DUD; S02 ODD; S04 ODD/UNINFORMATIVE. No HIT.
-- S09 axis E registered: fork all five S07-neutral games after r6; erase vs retain prior inbox.
-- Ten six-round continuations; future boxes open in both; 180 valid decisions, pinned codex/gpt-6-luna.
-- Primary erase-retain pair output r7-12; exact +1/bootstrap/sign-flip screen; no collusion label.
-- 19 protocol/publication tests and full dry cache-only replay PASS; independent210-cell stats check PASS.
-- Opus design review complete; first Codex timed out on transport; partial tests retained, retry running.
-- Public prefix imprint/new-message repair and n5 limit causal scope; existing prefixes were observed.
-- Logical-call deadline17:48 UTC; freeze and push sources before live run; two concurrent games.
-- Next: complete S09, verify, review final claims; D is then the sole uncovered axis.
-- Own S05/S06/S08/S10 queued; no deviation from director queue.
+## Current state (2026-10-24 17:31 UTC; Phase2, iteration5 results)
+- Prior pilots S01/S03/S07 DUD; S02 ODD; S04 ODD/UNINFORMATIVE. S09 DUD.
+- S09:10 six-round continuations of all5 observed neutral S07 prefixes; 183 cached calls, retries{'retain': 3, 'erase': 0}; no failures.
+- Pair output erase-retain +0.100[+0.000,+0.300], t[-0.178,+0.378], upper p=0.50000.
+- Fork round7 output difference +0.200; full outcomes/figure in results/s09_summary.md.
+- Public prefix identical; both received transcripts jointly removed; new messages can repair from r8.
+- Full cache-only replay, source/registration/prefix/export/payoff checks PASS; cached resume byte-identical.
+- Independent210 cells,22 bootstrap and7 t intervals, exact primary/p/verdict PASS;19 new/52 discovered tests PASS.
+- Registration4474418 pushed before all calls; every response completed before17:48 cutoff.
+- Opus design complete; Codex first transport-timeout/partial audit retained; retry/final status below.
+- Next: complete independent final reviews and push; then D is sole uncovered portfolio axis.
+- Risks: n5 observed prefixes, empty-inbox cues, public imprint/new-message repair, no OS isolation/truth labels.
 
 ## Log
 
@@ -65,3 +66,11 @@
 - 2026-10-24T17:10 UTC: iteration5 read rules/state/direction/ledger and both sibling summaries. Selected S09 E counterfactual-message-memory ablation using all five neutral S07 prefixes, no selection or original-suffix pooling. Registered ten r7-12 continuations and queued own S10 public-history-imprint idea. Full dry replay, 19 fail-closed protocol/publication tests and independent210-cell/22-bootstrap/7-t arithmetic checks PASS. Codex+Opus design reviews running before live calls. No direction deviation.
 
 - 2026-10-24T17:18:14.419293+00:00: S09 prospective review fixes complete: original-source extraction identity, dry destination guards, joint transcript-removal scope, explicit strict n5 screen, reverse-screen ODD clarification, sent/fork metric windows, outsider fork diagnostic, temporary-directory invocation canary, torn-cache refusal and partner abort. Opus design review complete; Codex first attempt timed out480s on transport after independently demonstrating two now-fixed guards; full partial audit retained, bounded retry running. All19 new tests and52 discovered repo tests PASS; full dry replay/independent210-cell/22-bootstrap/7-t checks PASS. No live S09 calls or S09 outcome inspection.
+
+- 2026-10-24T17:18:36.086187+00:00: S09 source/design/prefix freeze committed and pushed as 4474418 before any live continuation call. Starting ten continuations at two games concurrently with per-prefix barrier, TMPDIR=/var/tmp, codex/gpt-6-luna; logical-call cutoff17:48 UTC. Codex design retry still running; no partial treatment-effect inspection.
+
+- 2026-10-24T17:22:05.430662+00:00: Codex design retry exit0, no remaining confirmed implementation bug. It independently verifies current timing/provenance/failure guards and exact rule boundaries using in-memory checks. Completed after live launch, before manager treatment-effect inspection; first attempt and complete Opus review remain retained. Metadata-only progress two complete games/40 cached responses, pinned routing, zero failures. No source/config or scientific-rule changes.
+
+- 2026-10-24T17:30:35.396981+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.
+
+- 2026-10-24T17:31:55.641601+00:00: S09 complete and verified: all10 continuations, 183 cached calls/retries{'retain': 3, 'erase': 0}, no failed game. Frozen screen DUD; pair output erase-retain+0.100000[+0.000000,+0.300000], t[-0.177645,+0.377645], upper p=0.5. Full mandatory cache-only replay and prefix/registration/export/payoff checks PASS, independently210 metric/window cells/22 bootstrap/7 t intervals/exact verdict reproduced; release cached resume leaves every byte unchanged. No source edits, tuning, excluded prefixes, extra pilot or original-suffix pooling. Final independent reviews to follow. No direction deviation.

@@ -28,6 +28,7 @@ lines+=['', f"Round7-only pair output: {interval(r['fork_quantity_difference'])}
         f"Cached responses: {r['cached_responses']}; retries by arm: {r['retries_by_arm']}. No failed games.",
         '', '![S09 fork and continuation paths](../figures/s09_replay.png)', '',
         'The initial public history is identical within each block. Only received rounds1–6 private messages are removed; both arms retain their boxes and receive new messages from round8. Public actions can preserve prior agreements; future messages can repair missing information. This estimates the total continuation effect of erasing message memory at this fork, including later behavioral feedback, rather than the original channel effect. It cannot separate empty-inbox cues from message semantics.',
+        '', 'Intervals that collapse for constant paired differences describe observed resampling support; they do not establish zero population uncertainty. The outsider has identical round7 prompts across arms, but its separately sampled action can still differ without leakage.',
         '', 'Prefixes were previously observed; no independent-seed replication. With n=5, bootstrap and t intervals are fragile; the sign-flip calculation assumes slot exchangeability/symmetric differences. A DUD screen is not evidence of equivalence or absence of a communication effect. No verified agreement/execution labels or collusion inference. Pair-profit changes are descriptive and are not a HIT gate. Model/backend labels and sampling/isolation limitations are inherited from S07.',
         '', 'Mandatory cache-only full replay, every key consumed once, prefix/source/registration and exports/payoffs checks pass. Independent full metric/statistic check: [audit](../logs/s09_independent.json).',
         '', 'Reproduce: `TMPDIR=/var/tmp uv run python -m sim.replay`; `uv run python scripts/s09_analyze.py`; `uv run python scripts/s09_independent.py`; `uv run python scripts/s09_present.py`.',
@@ -46,6 +47,13 @@ axes[0].set(xticks=[0,1],xticklabels=['Retain','Erase'],ylabel='Pair quantity pe
 axes[0].legend(fontsize=7,ncol=2)
 axes[1].set(xlabel='Round',ylabel='Pair quantity per firm',title='Mean continuation paths')
 axes[1].legend()
-for ax in axes:ax.axhline(6,color='gray',ls=':',lw=1);ax.grid(alpha=.2)
+from collections import Counter
+pairs=Counter(tuple(by[seed,c]['primary']['quantity'] for c in ['retain','erase']) for seed in range(24080,24085))
+for (a,b),count in pairs.items():
+    if count>1:axes[0].annotate(f'{count} overlapping pairs',(.5,(a+b)/2),xytext=(0,8),textcoords='offset points',ha='center',fontsize=8)
+for ax in axes:
+    ax.axhline(6,color='gray',ls=':',lw=1)
+    ax.set_ylim(4,8)
+    ax.grid(alpha=.2)
 fig.suptitle(f"S09: erase − retain {diff['mean']:+.3f}; {r['verdict']} (exploratory n=5)")
 fig.savefig('figures/s09_replay.png',dpi=150)

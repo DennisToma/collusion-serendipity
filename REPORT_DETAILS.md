@@ -374,3 +374,7 @@ Both final critics are retained: [Codex](logs/s07_final_codex.md),
 [Opus](logs/s07_final_opus.md), [dispositions and critic errata](logs/s07_review_disposition.md).
 The original directional DUD stands; message suppression is a prespecified
 descriptive secondary and no HIT is promoted.
+
+## S09 — private-transcript counterfactual replay
+
+See [full S09 results, diagnostics, figure and limitations](results/s09_summary.md).

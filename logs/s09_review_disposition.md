@@ -49,3 +49,26 @@ raw-input refusal and shared abort, with regressions. Partial CLI transcript
 retained (`s09_design_codex_partial.log`). Retry requested on current sources.
 The completed Opus review and all19 local protocol checks support proceeding
 with the frozen pilot; no unresolved confirmed scientific bug.
+
+Registration 44744180d9f8a36f7d2442fbe58001ba8d98bf91 push completed before 2026-10-24T17:18:36.086187+00:00, before live continuation launch.
+
+Codex design retry (`s09_design_codex_retry.md`, exit0) completed 2026-10-24T17:22:05.430662+00:00,
+after live launch but before any manager inspection of treatment effects.
+It finds no remaining confirmed bugs; independently checks timing, original prefix
+identity, source/config freeze, cache/failure guards and exact screen boundaries.
+Its in-memory checks do not substitute for completed-run cache/export/deadline audit.
+Agreed limitations retained in design and final reporting. No new code changes.
+
+Minor critic erratum: Codex retry calls its3125 checked vectors “sign patterns.”
+Its retained CLI code enumerates5^5 numerator vectors from {-24,-12,0,12,24},
+with32 sign flips per vector;3125 is the number of numerator test cases, not
+the per-experiment null size. Scientific code always uses32 null signs. No
+reported research statistic or rule changes.
+
+Post-run verification: all183 cached response/request keys consumed once;180 valid
+suffix decisions and3 rejected overlong-reasoning responses, all retain. Independent
+retry audit retained without exclusions. Five primary difference numerators are
+[0,6,0,0,0] over12; exact mean+.1 and upper p=.5. Full independent210-cell/22-bootstrap/7-t
+checks and cached-resume byte preservation pass. Figure inspected after common-axis
+revision; near-Nash headroom interpretation explicitly marked post-outcome, not a
+rule revision. All frozen sources and canonical result bytes unchanged.

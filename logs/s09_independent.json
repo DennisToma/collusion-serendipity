@@ -1,0 +1,16 @@
+{
+  "metric_window_cells": 210,
+  "bootstrap_intervals": 22,
+  "paired_t_intervals": 7,
+  "exact_numerators": [
+    0,
+    6,
+    0,
+    0,
+    0
+  ],
+  "exact_primary_mean": 0.1,
+  "exact_upper_p": 0.5,
+  "verdict": "DUD",
+  "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb"
+}

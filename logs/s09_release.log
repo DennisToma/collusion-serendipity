@@ -1,0 +1,26 @@
+{
+  "canonical_result_identical": true,
+  "mandatory_cache_only_replay": true,
+  "cached_resume_bytes_unchanged": true,
+  "live_calls_forbidden_during_resume": true,
+  "registration_pushed_before_all_calls": true,
+  "all_calls_finished_before_cutoff": true,
+  "earliest_call": "2026-10-24T17:18:36.692476+00:00",
+  "latest_completion": "2026-10-24T17:30:18.870086+00:00",
+  "independent": {
+    "metric_window_cells": 210,
+    "bootstrap_intervals": 22,
+    "paired_t_intervals": 7,
+    "exact_numerators": [
+      0,
+      6,
+      0,
+      0,
+      0
+    ],
+    "exact_primary_mean": 0.1,
+    "exact_upper_p": 0.5,
+    "verdict": "DUD",
+    "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb"
+  }
+}

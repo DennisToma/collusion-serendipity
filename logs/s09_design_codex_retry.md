@@ -1,0 +1,9 @@
+No concrete remaining bugs confirmed in the current S09 implementation.
+
+- **Treatment timing:** Round 7 uses the same public prefix in both arms. Erasure removes messages sent through round 6; round 7 messages first become visible in round 8. No current-round action/message leakage found. ([replay.py](/home/factory/collusion/collusion-serendipity/sim/replay.py:116))
+- **Provenance:** All five snapshots match deterministic extraction from their original neutral games, and current source hashes match the registration config. The torn-cache refusal, partner-abort guard, and mandatory cache-only publication replay are present; earlier resolved findings should remain closed.
+- **Inference and decision rules:** The primary uses five paired blocks and exact integer numerators over 12 decisions. HIT, ODD, ODD-reverse, and DUD boundaries match registration. The sign-flip calculation correctly requires five positive differences for upper-tail \(p\le .05\). ([s09_analyze.py](/home/factory/collusion/collusion-serendipity/scripts/s09_analyze.py:81))
+
+Acknowledged limitations remain substantial: previously observed prefixes make this exploratory; n=5 intervals are fragile; sign-flip inference requires exchangeability/symmetry assumptions; erasure combines transcript removal with an empty-inbox cue; public history preserves earlier message effects and later messages can restore information. File/tool isolation and model identity lack independent attestation, and internal transport retries can exceed the logical-call cutoff. Consequently, any HIT supports only the narrowly defined transcript-visibility intervention—not semantic memory, profitable collusion, or replication claims.
+
+Verification used ten in-memory mocked continuations, 3,125 sign patterns, and source/snapshot checks. No files were written or live model calls made. Completed-run cache, export, and deadline validation remains necessary before publishing results.
