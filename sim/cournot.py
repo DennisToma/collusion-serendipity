@@ -80,8 +80,12 @@ def run_game(seed, condition, cache, model, backend, rounds):
             for attempt in range(3):
                 response = cache.call(system_prompt(agent, partner), user, 'cheap', backend,
                                       run_id, t, agent, attempt, model)
+                if not cache.dry and (response['model'] != model or response['backend'] != backend):
+                    raise RuntimeError(f'{run_id}: model/backend mismatch, refusing fallback')
                 calls.append(dict(round=t, agent=agent, attempt=attempt,
-                                  model=response['model'], backend=response['backend']))
+                                  model=response['model'], backend=response['backend'],
+                                  call_started_utc=response.get('call_started_utc'),
+                                  call_completed_utc=response.get('call_completed_utc')))
                 result = parse(response['text'])
                 if result is not None:
                     break

@@ -1,0 +1,7 @@
+{
+  "stopped_utc": "2026-10-24T14:49:39.665521+00:00",
+  "complete_games": 0,
+  "started_game_slots": 4,
+  "cached_calls": 1,
+  "reason": "Only one response in about eight minutes; alternate Aqueduct health probe also stalled; codex probe OK in 3.18s. Preserve partial attempt; no outcome estimate."
+}

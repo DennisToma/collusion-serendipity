@@ -4,6 +4,7 @@ import io
 import json
 from pathlib import Path
 import unittest
+import tempfile
 
 import numpy as np
 from sklearn.linear_model import Ridge
@@ -11,6 +12,8 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 from sim.cournot import parse, payoffs, run_game
+from sim.common import Cache
+from scripts.s02_analyze import validate_calls
 
 
 class RecordingCache:
@@ -71,6 +74,24 @@ class ResearchValidity(unittest.TestCase):
             self.assertEqual(len(all_test), ds['runs'])
             self.assertEqual(ds['exact_price_digit_residual_max'], 0)
 
+    def test_missing_or_wrong_model_provenance(self):
+        cache = RecordingCache()
+        with contextlib.redirect_stdout(io.StringIO()):
+            _, gt = run_game(24020, 'none', cache, 'dry', 'dry', 1)
+        cfg = dict(rounds=1, dry=True, model='dry', backend='dry')
+        validate_calls(gt, cfg)
+        calls = gt['call_provenance']
+        gt['call_provenance'] = []
+        with self.assertRaises(AssertionError):
+            validate_calls(gt, cfg)
+        gt['call_provenance'] = calls
+        cfg.update(dry=False, model='qwen-3.6-35b', backend='aqueduct')
+        with self.assertRaises(AssertionError):
+            validate_calls(gt, cfg)
+        cache.dry = False
+        with self.assertRaisesRegex(RuntimeError, 'model/backend mismatch'):
+            run_game(24020, 'none', cache, 'qwen-3.6-35b', 'aqueduct', 1)
+
     def test_predictive_positive_control(self):
         # Known nonlinear digit mechanism: a flexible digit term must recover it
         # on independent synthetic observations, whereas raw price cannot.
@@ -85,6 +106,19 @@ class ResearchValidity(unittest.TestCase):
             errs.append(np.mean((target[1500:] - fit.predict(x[1500:]))**2))
         self.assertGreater(errs[0] - errs[1], 1)
         self.assertLess(errs[1], .03)
+
+    def test_torn_cache_recovery(self):
+        with tempfile.TemporaryDirectory(dir='/var/tmp') as folder:
+            path = Path(folder) / 'responses.jsonl'
+            valid = json.dumps(dict(key='paid', response=dict(text='saved'))).encode() + b'\n'
+            path.write_bytes(valid + b'{"key":"torn')
+            cache = Cache(path, dry=True)
+            self.assertEqual(cache.entries['paid']['text'], 'saved')
+            self.assertEqual(path.read_bytes(), valid)
+            self.assertEqual(len(list(Path(folder).glob('*.torn.*'))), 1)
+            path.write_bytes(b'broken\n' + valid)
+            with self.assertRaisesRegex(ValueError, 'Damaged cache'):
+                Cache(path, dry=True)
 
 
 if __name__ == '__main__':

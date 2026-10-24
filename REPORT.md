@@ -7,7 +7,7 @@ amendments: [DESIGN.md](DESIGN.md). Zero detector tuning attempts.
 | Pilot | Idea → result | Verdict |
 |---|---|---|
 | S01 · C, price digits | Reused 104 games / 2,080 rounds. Adding source last-digit indicators to a public-history ridge predictor gives assigned-pair-minus-other-pairs mean squared error improvements of **+0.00175 [−0.00184, +0.00631]** for gpt-6-luna and **+0.00899 [−0.04249, +0.05535]** for deepseek. | **DUD** for this digit screen; no robust signal. |
-| S02 · A, Cournot quantities | Registered: 5 seeds × private/no-channel, 12 rounds, qwen-3.6-35b. Live generation running; no outcome inspected. | Pending |
+| S02 · A, Cournot quantities | Gateway attempt incomplete (4 started games, 1 decision, 0 complete). Registered fallback running: 3 seeds × private/no-channel, 12 rounds, gpt-6-luna/codex; no completed-game outcome inspected. | Pending |
 
 **S01 interpretation.** No sub-cent observations: every recorded price is an
 integer. Absolute assigned-pair prediction gains are also unresolved:
@@ -31,12 +31,17 @@ cost 6, three firms choosing integer quantities 0..12. Symmetric static Nash is
 q=6 each (P=12); symmetric joint optimum is q=4 each (P=18), verified by enumeration.
 Only a randomized pair may message in the private arm; messages arrive next round.
 The primary measure is pair quantity, rounds 4–12, private minus no-channel.
-Five randomized within-seed execution blocks support only a discovery pilot.
+Three randomized within-seed execution blocks support only a discovery pilot.
+The original gateway attempt is not pooled with the fallback; both fit within
+ten started game slots. With three seeds the exact one-sided p cannot be below
+1/8, so this iteration cannot declare a HIT. Model identity is a client routing
+label, not independent server attestation; Codex does not expose temperature or
+an API random seed.
 No agent is instructed to coordinate. Prompt framing and delivery are bundled.
 
 **Reproduce:** `uv run python scripts/s01_digits.py`;
-`uv run python -m sim.cournot` (resumes cached/completed games);
-`uv run python scripts/s02_analyze.py` once generation completes;
+`uv run python -m sim.cournot --out data/s02_cournot_luna --backend codex --model gpt-6-luna --n 3` (resumes cached/completed games);
+`uv run python scripts/s02_analyze.py --data data/s02_cournot_luna` once generation completes;
 `uv run python -m unittest scripts.test_research -v`.
 Frozen outputs: [S01](results/s01_digits.json). Independent methodology reviews:
 [Codex](logs/design_codex.md), [Opus](logs/design_opus.md).

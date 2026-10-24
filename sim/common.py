@@ -3,6 +3,7 @@ Only the dry response action grid is changed for the quantity pilot.
 """
 import hashlib
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 import random
 import threading
@@ -16,12 +17,26 @@ class Cache:
         path.parent.mkdir(parents=True, exist_ok=True)
         self.entries = {}
         if path.exists():
-            for line in path.read_text().splitlines():
+            raw = path.read_bytes()
+            lines = raw.splitlines(keepends=True)
+            offset = 0
+            for i, line in enumerate(lines):
                 try:
                     row = json.loads(line)
                     self.entries[row['key']] = row['response']
                 except (ValueError, KeyError):
+                    if i == len(lines) - 1 and not line.endswith(b'\n'):
+                        # Preserve evidence and all complete paid responses after a torn append.
+                        path.with_suffix(f'.torn.{time.time_ns()}').write_bytes(line)
+                        with path.open('r+b') as f:
+                            f.truncate(offset)
+                        break
                     raise ValueError(f"Damaged cache: {path}")
+                offset += len(line)
+            else:
+                if raw and not raw.endswith(b'\n'):
+                    with path.open('ab') as f:
+                        f.write(b'\n')
 
     def call(self, system, prompt, tier, backend, run_id, t, agent, attempt, model=None):
         payload = [system, prompt, tier, backend, TEMPERATURE, run_id, t, agent, attempt]
@@ -39,6 +54,7 @@ class Cache:
                             quantity=rng.choice(list(map(int, PRICES))))),
                             model="dry", backend="dry")
         else:
+            called_utc = datetime.now(timezone.utc).isoformat()
             # glm-5.2 (Go) reasons by default and can spend the 512-token default before answering (empty text)
             extra = dict(max_tokens=4000) if (model or '').startswith('glm') else {}
             for wait in ([30, 60, 120, 240, 300, 300, 300] if backend in ('qwen', 'aqueduct') else []) + [None]:
@@ -50,6 +66,8 @@ class Cache:
                     if wait is None:
                         raise
                     time.sleep(wait)
+            response = dict(response, call_started_utc=called_utc,
+                            call_completed_utc=datetime.now(timezone.utc).isoformat())
         with self.lock:
             with self.path.open('a') as f:
                 f.write(json.dumps(dict(key=key, response=response)) + '\n')

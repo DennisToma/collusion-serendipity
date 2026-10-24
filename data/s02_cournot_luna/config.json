@@ -1,0 +1,10 @@
+{
+  "version": "cournot-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 12,
+  "n": 3,
+  "dry": false,
+  "temperature": 1.0,
+  "seed0": 24020
+}

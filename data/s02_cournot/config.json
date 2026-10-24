@@ -1,0 +1,10 @@
+{
+  "version": "cournot-0.1",
+  "model": "qwen-3.6-35b",
+  "backend": "aqueduct",
+  "rounds": 12,
+  "n": 5,
+  "dry": false,
+  "temperature": 1.0,
+  "seed0": 24020
+}

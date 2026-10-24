@@ -10,15 +10,16 @@ Install/run with `uv` (Python >=3.12). The pinned dependency resolution is in
 ```bash
 uv run python scripts/s01_digits.py
 uv run python -m unittest scripts.test_research -v
-uv run python -m sim.cournot
-uv run python scripts/s02_analyze.py
+uv run python -m sim.cournot --out data/s02_cournot_luna --backend codex --model gpt-6-luna --n 3
+uv run python scripts/s02_analyze.py --data data/s02_cournot_luna
 ```
 
-The quantity generator needs the Aqueduct credentials used by `llm.py`, loaded
-from `~/collusion/compute.env`. It uses that module's shared rate limiter and pins
-qwen-3.6-35b: failures do not silently switch models. Completed per-game files
-are authoritative; JSONL exports are rebuilt after all ten games finish.
-`data/s02_cournot/raw/responses.jsonl` caches every response so incomplete runs
+The registered fallback above uses the local Codex subscription, pinned to
+gpt-6-luna. The original Aqueduct attempt is incomplete and retained separately;
+that backend uses credentials from `~/collusion/compute.env` and the shared rate
+limiter in `llm.py`. No scientific result pools models. Completed per-game files
+are authoritative; JSONL exports are rebuilt after all planned games finish.
+`data/s02_cournot_luna/raw/responses.jsonl` caches every response so incomplete runs
 can resume without re-spending successful calls. Configuration mismatches and
 concurrent writers to the same dataset fail closed. Never mix dry and real data.
 

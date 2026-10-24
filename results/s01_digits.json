@@ -1198,7 +1198,14 @@
         ]
       }
     ],
-    "verdict": "DUD for an identifiable digit side channel; linear prediction diagnostic only"
+    "verdict": "DUD for an identifiable digit side channel; linear prediction diagnostic only",
+    "secondary_channel_minus_control_gain": {
+      "mean": 0.0014036962877597456,
+      "ci95": [
+        -0.0019873193911797847,
+        0.0052007720895074685
+      ]
+    }
   },
   "llm_ds_p2": {
     "dataset": "llm_ds_p2",
@@ -1741,6 +1748,13 @@
         ]
       }
     ],
-    "verdict": "DUD for an identifiable digit side channel; linear prediction diagnostic only"
+    "verdict": "DUD for an identifiable digit side channel; linear prediction diagnostic only",
+    "secondary_channel_minus_control_gain": {
+      "mean": 0.0033475417033219327,
+      "ci95": [
+        -0.04653390081214906,
+        0.04849701277395956
+      ]
+    }
   }
 }

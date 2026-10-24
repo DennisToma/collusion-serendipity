@@ -2,3 +2,5 @@ time_utc	id	hypothesis	change	dataset/split	metric (with 95% CI)	decision(keep/d
 2026-10-24T14:38:06+00:00	S01	Last-digit partner signal	Fixed grouped ridge; DESIGN.md	llm_v1 + llm_ds_p2; 5 run folds	pending	inconclusive	7e9fe9f
 2026-10-24T14:38:06+00:00	S02	Private channel restricts Cournot output	10 games, qwen-3.6-35b, T12; DESIGN.md	5 paired seeds 24020..24024; exploratory	pending	inconclusive	7e9fe9f
 2026-10-24T14:43:07+00:00	S01-result	Last-digit partner signal	Frozen linear prediction diagnostic; no tuning	104 snapshotted games; 5 grouped folds	luna +0.00175 [-0.00184,0.00631]; deepseek +0.00899 [-0.04249,0.05535]; descriptive bootstrap	discard	a162991
+2026-10-24T14:50:07+00:00	S02-aqueduct-failed	Private channel restricts Cournot output	Pinned qwen-3.6-35b stalled; stopped four partial games	0 complete games; 1 cached decision	No scientific estimate	inconclusive	329e25a
+2026-10-24T14:50:07+00:00	S02-runtime-amend	Same quantity hypothesis; operational fallback	Pinned codex gpt-6-luna; remaining 6 game slots; no pooling	3 paired seeds 24020..24022, T12; exploratory	pending; no HIT possible with exact-p rule at n3	inconclusive	329e25a

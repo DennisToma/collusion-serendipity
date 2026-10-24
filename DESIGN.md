@@ -88,3 +88,22 @@ each seed block (fixed schedule RNG 2402), rather than deterministic alternation
 record schedule plus run start/end UTC. Both games in a block are submitted next
 to each other. Independent API sampling remains part of uncertainty. Five seed
 HIT/DUD/ODD labels prioritize future work only; they are not confirmatory verdicts.
+
+### Operational fallback, 2026-10-24 14:49 UTC, before any completed live game
+
+Aqueduct qwen-3.6-35b stalled: four game slots started, one cached decision, zero
+completed games after about eight minutes. A qwen-3.8-27b health probe also did not
+return promptly; gpt-6-luna/codex health probe returned OK in 3.18 seconds. Stop the
+four incomplete games; preserve their cache and INCOMPLETE.json, do not estimate
+an outcome from them. This is an operational choice, not an outcome-based model
+choice; the one available action had been inspected for parse/response validity.
+
+Use the remaining SIX game slots (stay within ten started games for this pilot):
+gpt-6-luna pinned via codex, seeds 24020..24022, private/none, T=12, same economics,
+prompts, schedule RNG, metrics and verdict thresholds. New directory
+`data/s02_cournot_luna`; never pool models. Default generator still points at the
+original arm; use explicit flags. With n=3, the smallest one-sided exact sign-flip
+p is 1/8, so no result can qualify as HIT this iteration. All intervals remain
+descriptive. codex exec does not expose the requested temperature or API random
+seed; requested temperature=1 in the cache key is not enforced on that backend.
+No scientific outcomes for the replacement arm exist at amendment time.

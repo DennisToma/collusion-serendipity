@@ -95,6 +95,13 @@ def analyze(dataset):
                   control_gain=interval([r['gain'] for r in control]),
                   exact_price_digit_residual_max=residual_max, run_results=records, folds=folds,
                   verdict='DUD for an identifiable digit side channel; linear prediction diagnostic only')
+    rng = np.random.default_rng(2401)
+    c = np.array([r['gain'] for r in channel])
+    a = np.array([r['gain'] for r in control])
+    draws = c[rng.integers(len(c), size=(10000, len(c)))].mean(axis=1) - (
+        a[rng.integers(len(a), size=(10000, len(a)))].mean(axis=1))
+    result['secondary_channel_minus_control_gain'] = dict(
+        mean=float(c.mean()-a.mean()), ci95=np.quantile(draws, [.025, .975]).tolist())
     return result
 
 

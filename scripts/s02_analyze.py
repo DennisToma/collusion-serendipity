@@ -14,13 +14,31 @@ def summarize(values, rng):
     return dict(mean=float(a.mean()), ci95=np.quantile(means, [.025, .975]).tolist())
 
 
+def validate_calls(gt, config):
+    expected = set(itertools.product(range(config['rounds']), ['A', 'B', 'C']))
+    attempts = {}
+    for call in gt['call_provenance']:
+        key = (call['round'], call['agent'])
+        assert key in expected
+        attempts.setdefault(key, []).append(call['attempt'])
+        if not config['dry']:
+            assert call['model'] == config['model'] and call['backend'] == config['backend']
+    assert set(attempts) == expected, 'Missing action-level model provenance'
+    assert all(v == list(range(len(v))) and 1 <= len(v) <= 3 for v in attempts.values())
+    for field in ['model', 'backend']:
+        required = 'dry' if config['dry'] else config[field]
+        assert gt[field] == {a: required for a in ['A', 'B', 'C']}
+
+
 def analyze(directory, allow_dry=False):
     directory = Path(directory)
     config = json.loads((directory / 'config.json').read_text())
-    assert config['rounds'] == 12 and config['n'] == 5
+    assert config['rounds'] == 12 and config['n'] in [3, 5]
+    n = config['n']
+    seeds = range(config['seed0'], config['seed0'] + n)
     assert allow_dry or not config['dry'], 'Cannot publish synthetic data'
     games = [json.loads(p.read_text()) for p in sorted(directory.glob('game_*.json'))]
-    assert len(games) == 10
+    assert len(games) == 2 * n
     seen, records, provenance = set(), [], []
     for game in games:
         gt, rows = game['ground_truth'], game['rows']
@@ -30,9 +48,7 @@ def analyze(directory, allow_dry=False):
         assert [r['round'] for r in rows] == list(range(12))
         assert gt['dry'] == config['dry']
         assert len(gt['private_chat']) == (24 if cond == 'private' else 0)
-        for call in gt['call_provenance']:
-            if not config['dry']:
-                assert call['model'] == config['model'] and call['backend'] == config['backend']
+        validate_calls(gt, config)
         provenance.extend(gt['call_provenance'])
         for row in rows:
             assert row['run_id'] == rid
@@ -55,22 +71,22 @@ def analyze(directory, allow_dry=False):
         records.append(dict(run_id=rid, seed=seed, condition=cond, pair=gt['assigned_pair'],
                             primary=metrics(rows[3:]), all_rounds=metrics(rows), final=metrics(rows[-1:]),
                             invalid_attempts=sum(c['attempt'] > 0 for c in gt['call_provenance'])))
-    assert seen == set(itertools.product(range(24020, 24025), ['none', 'private']))
+    assert seen == set(itertools.product(seeds, ['none', 'private']))
     by = {(r['seed'], r['condition']): r for r in records}
-    assert all(by[s, 'none']['pair'] == by[s, 'private']['pair'] for s in range(24020, 24025))
+    assert all(by[s, 'none']['pair'] == by[s, 'private']['pair'] for s in seeds)
     rng = np.random.default_rng(2402)
     results = {}
     for metric in records[0]['primary']:
-        none = np.array([by[s, 'none']['primary'][metric] for s in range(24020, 24025)])
-        private = np.array([by[s, 'private']['primary'][metric] for s in range(24020, 24025)])
+        none = np.array([by[s, 'none']['primary'][metric] for s in seeds])
+        private = np.array([by[s, 'private']['primary'][metric] for s in seeds])
         diff = private - none
         smry = summarize(diff, rng)
         se = diff.std(ddof=1) / np.sqrt(len(diff))
-        smry['paired_t_ci95'] = (diff.mean() + np.array([-1, 1]) * student_t.ppf(.975, 4) * se).tolist()
-        null = np.array([np.mean(diff * signs) for signs in itertools.product([-1, 1], repeat=5)])
+        smry['paired_t_ci95'] = (diff.mean() + np.array([-1, 1]) * student_t.ppf(.975, n-1) * se).tolist()
+        null = np.array([np.mean(diff * signs) for signs in itertools.product([-1, 1], repeat=n)])
         smry['exact_signflip_p_lower'] = float(np.mean(null <= diff.mean() + 1e-12))
-        unpaired = (private[rng.integers(5, size=(10000, 5))].mean(axis=1) -
-                    none[rng.integers(5, size=(10000, 5))].mean(axis=1))
+        unpaired = (private[rng.integers(n, size=(10000, n))].mean(axis=1) -
+                    none[rng.integers(n, size=(10000, n))].mean(axis=1))
         smry['unpaired_ci95'] = np.quantile(unpaired, [.025, .975]).tolist()
         results[metric] = dict(none=summarize(none, rng), private=summarize(private, rng),
                                paired_difference=smry, seed_differences=diff.tolist())
@@ -81,9 +97,9 @@ def analyze(directory, allow_dry=False):
         verdict = 'DUD'
     else:
         verdict = 'ODD'
-    return dict(config=config, n_games=10, n_seeds=5, metrics=results, verdict=verdict,
+    return dict(config=config, n_games=2*n, n_seeds=n, metrics=results, verdict=verdict,
                 calls=len(provenance), invalid_attempts=sum(r['invalid_attempts'] for r in records),
-                records=records, caveat='Exploratory opportunity contrast, not verified collusion; 5 seeds only')
+                records=records, caveat=f'Exploratory opportunity contrast, not verified collusion; {n} seeds only')
 
 
 def figure(directory, out):
@@ -107,7 +123,7 @@ def figure(directory, out):
     axes[1].axhline(18, ls=':', color='gray')
     axes[1].set_ylabel('Market price')
     for ax in axes:
-        ax.set_xlabel('Round (bands: range across 5 games)')
+        ax.set_xlabel(f'Round (bands: range across {len(games)} games)')
     axes[0].legend(fontsize=7)
     fig.tight_layout()
     fig.savefig(out, dpi=170)
