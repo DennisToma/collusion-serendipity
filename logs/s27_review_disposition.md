@@ -86,3 +86,10 @@ estimate or mechanism claim is introduced. The appendix was prepared after final
 reviews began and was self-checked, not represented as separately critic-reviewed.
 It is outside the frozen scientific source manifest;all18 frozen sources and
 canonical scientific result SHAfa82d206 remain unchanged. No new scientific calls.
+
+Release process findings resolved:scientific artifacts committed and pushed as
+02b99657c1ab9efaaa10b19054119e66cb839404. [Core clean-clone receipt](s27_clean_clone.json)
+confirms12 protocol checks and six byte-identical artifacts. [Remote appendix clone](s27_remote_supplement_clone.json)
+confirms origin-remote commit equality,both supplement artifacts byte-identical,
+scientific result untouched,forbidden model calls and a clean clone worktree.
+Both explicitly reused the installed frozen dependency environment.

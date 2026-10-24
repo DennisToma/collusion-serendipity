@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "commit": "02b99657c1ab9efaaa10b19054119e66cb839404",
+  "observed_remote_head": "02b99657c1ab9efaaa10b19054119e66cb839404",
+  "clone_source": "origin remote",
+  "dependency_environment": "Existing venv with frozen dependencies",
+  "scientific_result_sha256": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+  "model_calls_forbidden": true,
+  "command": [
+    "-c",
+    "from unittest.mock import patch; import runpy; p=patch('llm.chat',side_effect=AssertionError('Remote supplement forbids model calls')); p.start(); runpy.run_path('scripts/s27_action_text.py',run_name='__main__')"
+  ],
+  "byte_identical_supplements": {
+    "results/s27_action_text.json": "78f1f10f6c4ccfa4ea32a781f96cb7f49fcfd53b04124ca6b3d9a65e5df792cd",
+    "results/s27_action_text.md": "db3153e96afdfafbd416f9ef874eab8aa5a4a8e50ed3d08b1aee993de96c25c0"
+  },
+  "clone_git_status_clean": true
+}

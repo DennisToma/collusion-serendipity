@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "commit": "02b99657c1ab9efaaa10b19054119e66cb839404",
+  "dependency_environment": "Existing venv with frozen dependencies",
+  "byte_identical_artifacts": {
+    "results/s27_concentration.json": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+    "results/s27_summary.md": "c11e40577b39a938cb8bba1698a4e4251d4de2548e262b8a47e73fe7b9e5d271",
+    "logs/s27_independent.json": "56abab5690bfb082a74d7f725feb1cc3781fc555dd25d60b96cc6a3720b39f10",
+    "figures/s27_concentration.png": "caed8a6c03d532d45ad4c66dcb6dbbc37998addbb5b1e26ef7ff167c383cd3f1",
+    "REPORT.md": "34dd4668f83b7142f1e738fdf3bafbbfd93144932bc986b668cd38558cba9faa",
+    "logs/s27_release.json": "bee9e9a4a8d6341fd15c6a4d9fe235c435a6be40f942c71da14265c094194fe1"
+  },
+  "commands": [
+    [
+      "scripts/s27_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s27"
+    ],
+    [
+      "scripts/s27_independent.py"
+    ],
+    [
+      "scripts/s27_present.py"
+    ]
+  ]
+}

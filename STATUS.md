@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T22:35:09.921869+00:00; Phase2, iteration16 VERIFYING)
-- S27 B complete:10 fresh two/three-person games/5blocks24440..24444,T10.
+## Current state (2026-10-24T22:39:37.395127+00:00; Phase2, iteration16 COMPLETE)
+- S27 B:10 fresh two/three-person games/5blocks;250 decisions,no retries/failures.
 - Partner Y approvals three3/40,two10/40;difference+.175[.075,.300].
 - Paired t[-.001964,.351964],upper p.0625;frozen ODD,no HIT.
-- Magnitude<.25 and p>.05;positive bootstrap alone is not promotion.
-- Pair internal bonus+.7;total pair bonus-6.7 includes removed outsider income.
-- 250responses/accepted decisions;zero retries/failures;notes100/100each.
-- Exact250-key replay/18 scientific sources/registration/export checks PASS.
-- Independent50 cells/15 bootstrap+t/sign summaries/250 histories PASS.
-- All211 repository tests PASS;scientific result SHAfa82d206 unchanged.
-- Both final critics confirm ODD/numbers;Opus supplied-text-only scope explicit.
-- Next:final regeneration/results commit-push,clean-clone verification/receipt.
-- Risks:n5,one model;size bundles outsider/workload/history/schema/income.
+- Four positive blocks/one tie;magnitude<.25 and p>.05 prevent HIT.
+- Pair internal bonus+.7;total bonus-6.7 includes removed outsider edges.
+- All250 keys/18 scientific sources/registration/exports/timing verify.
+- Independent50 metric cells/15 bootstrap+t summaries/all sign tails PASS.
+- Both final critics confirm;Opus supplied-text-only scope explicit.
+- All211 tests PASS;clean clone12 checks/six core artifacts byte-identical.
+- Remote-clone13-event appendix reproduces;scientific SHAfa82d206 unchanged.
+- Source9e7e45a/results02b9965 pushed;no active generation/review process.
+- Next:fresh C/A;own S28 payoff-decomposition question queued,not-run.
+- Risks:n5;size bundles workload/history/income;actual tool non-use unverified.
 
 ## Log
 
@@ -217,3 +218,5 @@
 - 2026-10-24T22:37:41.813023+00:00: S27 final critics both exit0. Codex independently reproduces all50 raw metric cells/15 exhaustive bootstrap+t summaries/three sign tails per contrast,full250-key replay/18-source registration,all10 matched empty-history prompt contrasts,528 economics cases and seven selected tests;no substantive scientific bug. Opus supplied-text-only hand-verifies primary polynomial/bootstrap/t/sign/ODD,not a second raw replay. Documented inherited per-arm t-field naming;retained frozen sources and raw-derived active-roster logic;publication/clone final step pending. Inspected figure. Added separate post-outcome source-bound appendix for all13 primary adverse decisions,reasoning/notes/actual charges;contains reciprocity language and payoff errors without semantic labels/counts or inferred mechanism. No new scientific source/estimate/exclusion/tuning,model call,secondary promotion,HIT,pooling or sibling write.
 
 - 2026-10-24T22:38:20.923341+00:00: S27 final offline regeneration/cache-only release PASS,canonical SHAfa82d206 unchanged;all18 frozen source hashes match registration. Full211 tests already PASS;no subsequent frozen-source edits. Post-outcome13-event supplement rerun twice under forbidden model calls;both artifacts byte-identical and all scientific archive/result bytes unchanged. REPORT/HITS/README/DETAILS current;ODD retained and no HIT. Queued fresh own S28 exact-role-payoff hypothesis from disclosed examples,without causal inference or running a second pilot. Results commit/push and clean-clone reproduction follow.
+
+- 2026-10-24T22:39:37.395127+00:00: iteration16 COMPLETE. S27 registration9e7e45a78ca80b100d299c7e0681ac9a6a7dd3f5 and results02b99657c1ab9efaaa10b19054119e66cb839404 committed/pushed. Clean local full-history clone of results commit passes full cache-only release,12 S27 checks and independent reconstruction;regenerates six core artifacts byte-for-byte. Receipt logs/s27_clean_clone.json records exact commit/commands/hashes and frozen-environment reuse. Separate fresh ORIGIN REMOTE clone of same pushed commit regenerates both13-event appendix artifacts byte-for-byte under forbidden model calls,leaves scientific result untouched and clone git status clean;receipt logs/s27_remote_supplement_clone.json. Full211-test suite PASS;all18 scientific sources and canonical scientific SHAfa82d206 unchanged. Ledger result reference finalized to results commit. No new scientific calls,second pilot,semantic classifier/subgroup/reverse/secondary promotion,tuning,pooling,HIT,sibling writes,direction deviation or active generation/review process. Next fresh C/A;S28 remains unrun own hypothesis motivated by disclosed text examples,not a mechanism inference.
