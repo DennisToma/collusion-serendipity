@@ -15,5 +15,13 @@
       "scripts/s04_analyze.py": "02632a9fef98309a593e6ac14ee0c11380511bd5f8fbbd5090e8c531d37d2514",
       "scripts/test_s04.py": "216b2f08bdec99f1943561a3afc82e73bde0d5326ba385dc700f182dd347719b"
     }
+  },
+  "post_review_presentation_only": {
+    "time_utc": "2026-10-24T15:41:12.814648+00:00",
+    "reason": "Both independent final critics confirmed arithmetic. Add all-round exposure, t intervals and correct exposure/causal wording; no numerical analysis or classification change.",
+    "sha256": {
+      "scripts/s04_report.py": "cf01eb2471e1c7aac80100f682bb580b8c9f1faef7bb2893c206be0951fd26d7",
+      "scripts/render_report.py": "6dfeec9a186bd02571f420ef6baf6776622ea97710d6435234030ce07dec96fb"
+    }
   }
 }

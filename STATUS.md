@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24 15:21 UTC; Phase 2, iteration 2 in progress)
-- S01 (C) DUD; S02 (A) ODD/inconclusive; no promoted HIT, no sibling headline change.
-- Iteration 2 selected S04 (B): shared vs independent identical-prompt public-information advisor samples.
-- Registered ten fresh Cournot games, five paired seeds 24040..24044, T12; pinned codex gpt-6-luna, two workers.
-- Both arms sample two advisor responses/round; scalar own advice only; prompts blinded to shared identity, no seller messages.
-- Independent Codex and Opus design reviews complete; amendments frozen in DESIGN_S04.md before live outcomes.
-- New exposure gate: <25% routable recommendation variation => UNINFORMATIVE. No strong claim from null/degenerate advice.
-- Cache/routing/privacy/economics/screen checks: 13 tests PASS; complete ten-game offline dry run and analyzer PASS.
-- Synthetic precheck: vector differences at 3/4 fixed states; no selection. Ten-game live run started 15:11 UTC.
-- Primary: r4–12 assigned-pair quantity shared-independent; profit and action/equality/variation secondaries descriptive.
-- S03 own calculator idea remains queued. D/E/F/own remain for coverage before deepening any axis.
-- Risks: n5, conditional sign-flip assumptions, Codex model labels and uncontrolled sampling; common sampling is narrower than hub collusion.
+## Current state (2026-10-24 15:41 UTC; Phase 2, iteration 2 complete; final push pending)
+- S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE. No promoted HIT or sibling headline change.
+- S04: all 10 games / 5 fresh seeds / T12 complete, codex gpt-6-luna, 600 cached responses, 0 invalid-output retries.
+- Primary pair quantity shared-independent -0.511 [-1.222,+0.122] descriptive bootstrap; t [-1.578,+0.556]; sign-flip p=.15625.
+- Frozen exposure gate failed: routable advice disagreement 17.8% <25% in r4-12; no null/exoneration claim.
+- Pair profits +3.367 [+0.322,+5.444] descriptive bootstrap, but t [-0.838,+7.571]; equality difference +0.400.
+- Gate uses late endogenous states: earlier advice may affect later paths, so UNINFORMATIVE is a queue label, not invalid causal randomization.
+- Cache-only replay all 600 responses matches every game/advice/provenance; exports and independent primary arithmetic match.
+- Frozen analysis rerun byte-identical; source hashes match; 13 tests PASS; figure inspected; repo artifacts <3 MB.
+- Independent Codex + Opus methodology/final-claim reviews complete; final framing corrections applied.
+- Reviewer-found threshold-rounding bug fixed via exact integer/Fraction decisions before full-arm outcomes; no rule or tuning change.
+- Next: cover D/E/F/own before deepening; own S03 calculator and S05 authority-label ideas queued.
+- Risks: n5, weak late exposure/path dependence, conditional sign-flip assumptions, unverified collusion labels and Codex sampling/model identity.
 
 ## Log
 
@@ -28,3 +29,7 @@
 - 2026-10-24 15:16 UTC: precheck completed (8 cached calls; vector differences at 3/4 fixed synthetic states), so proceeded without changing model/prompt. Registration and source hashes pushed as 3f75341. Ten-game S04 run started 15:11 UTC with two workers and a seed-block barrier. Froze analysis/report/replay hashes before full-arm estimation; twelve tests pass. Queued own S05 authority-label idea from the instrument response variation; no second pilot.
 
 - 2026-10-24 15:21 UTC: independent Codex implementation critic found one threshold-rounding bug using synthetic data only. Corrected to exact integer/rational verdict calculations and sign enumeration; positive profit and exposure gate exact too. Regression test plus complete offline analysis pass (13 tests total). Original and corrected code hashes preserved; no live full-arm outcome inspected or scientific rule changed.
+
+- 2026-10-24 15:39 UTC: S04 finished all ten games, 600 cached responses, zero invalid-output retries. Frozen analysis UNINFORMATIVE (17.8% primary-window routable variation <25% gate); queue verdict ODD per PLAN. Primary -0.511 [-1.222,+0.122], t [-1.578,+0.556], sign-flip p=.15625. Complete cache-only replay/export validation/independent arithmetic pass; byte-identical reanalysis; thirteen tests pass; figure visually checked. Independent Codex and Opus final-claim reviews started. No HIT or sibling headline change.
+
+- 2026-10-24 15:41 UTC: independent Codex and Opus final critics both confirm every numerical claim and frozen verdict. Applied framing fixes: exposure convention is not calibrated power, all-round exposure 28.3%, all secondary t intervals, outsider contrast and path-dependence caveat. Declined unsupported attribution to either persuasion/common policy or drift-versus-routing; mechanisms remain unidentified. REPORT is a 30-line log; detailed figures/methods/limits linked. No new experiment, tuning or outcome-based rule change.

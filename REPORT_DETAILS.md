@@ -1,7 +1,7 @@
 # Detailed pilot results
 
 Exploratory attacks on the sibling projects' price-market findings. Iteration 1,
-updated 2026-10-24 15:13 UTC. **No hits promoted.** Frozen designs and review amendments:
+updated 2026-10-24 15:40 UTC. **No hits promoted.** Frozen designs and review amendments:
 [DESIGN.md](DESIGN.md). Zero detector tuning attempts; these are discovery results.
 
 | Pilot | Idea → result (descriptive 95% bootstrap interval) | Verdict |
@@ -92,6 +92,132 @@ Independent reviews: [Codex design](logs/design_codex.md),
 S03 arithmetic-tool idea is queued, not run. Any promotion needs fresh seeds.
 
 
-# S04 — registered and running
+# S04 — shared public-information advisor
 
-See [frozen design](DESIGN_S04.md). No partial game outcomes are reported.
+Iteration 2, axis B; **UNINFORMATIVE** under the frozen, exposure-gated screen.
+10 games / 5 seed blocks, T12, all exploratory, zero tuning attempts.
+Fresh seed range 24040..24044. [Design and pre-outcome amendments](DESIGN_S04.md).
+No model pooling with S02, no baseline no-advice arm, no confirmed-collusion label.
+
+The firms use S02's quantity economics: q in 0..12, P=max(0,30-total q), cost 6,
+symmetric static Nash q=6, P=12, per-firm profit 36. Two same-model,
+identical-prompt advisor calls see only full completed public history; the pair
+sees scalar own recommendations. Shared routing uses one vector, independent
+routing uses a different vector for each firm; both arms make both calls. Seller
+prompts contain no shared-identity cue, private messages or other firm's advice.
+Pair ordering and active advisor slot are randomized in advance. Each seed block
+finishes before the next begins. This isolates common sampling rather than
+branding, persistent advisor memory, private data aggregation or strategic hub
+collusion. Same-model calls need not be statistically independent server draws.
+
+## Results (rounds 4–12)
+
+Primary shared-independent pair quantity difference **-0.511 [-1.222, +0.122]**.
+Paired t interval [-1.578, +0.556].
+One-sided sign-flip enumeration diagnostic (32 assignments, zeros retained):
+0.15625. Exchangeable slots or symmetric block differences
+under a no-effect null are required; backend drift/interference can violate this.
+At five blocks the intervals are descriptive and may under-cover.
+
+| Outcome | Independent | Shared | Shared-independent [descriptive 95% bootstrap] | Paired t interval |
+|---|---|---|---|---|
+| pair_quantity | 5.422 | 4.911 | -0.511 [-1.222, +0.122] | [-1.578, +0.556] |
+| outsider_quantity | 6.044 | 5.511 | -0.533 [-0.933, -0.133] | [-1.169, +0.102] |
+| total_quantity | 16.889 | 15.333 | -1.556 [-3.111, -0.067] | [-3.885, +0.774] |
+| price | 13.111 | 14.667 | +1.556 [+0.067, +3.111] | [-0.774, +3.885] |
+| pair_profit | 37.567 | 40.933 | +3.367 [+0.322, +5.444] | [-0.838, +7.571] |
+| action_equality | 0.511 | 0.911 | +0.400 [+0.067, +0.778] | [-0.165, +0.965] |
+| advice_equality | 0.511 | 1.000 | +0.489 [+0.133, +0.844] | [-0.101, +1.079] |
+| advice_adoption | 0.978 | 0.944 | -0.033 [-0.100, +0.022] | [-0.138, +0.071] |
+| sample_vector_disagreement | 0.178 | 0.289 | +0.111 [-0.089, +0.333] | [-0.227, +0.449] |
+| routable_disagreement | 0.111 | 0.244 | +0.133 [-0.044, +0.311] | [-0.181, +0.448] |
+| outsider_unshown_adoption | 0.844 | 0.800 | -0.044 [-0.178, +0.089] | [-0.275, +0.186] |
+| pair_abs_change | 0.089 | 0.222 | +0.133 [-0.044, +0.311] | [-0.154, +0.420] |
+| pair_change_product | 0.000 | 0.267 | +0.267 [+0.022, +0.600] | [-0.197, +0.730] |
+
+Routable disagreement compares the second pair member's two sampled advice
+components within each observed game state (not an observed counterfactual game).
+The frozen gate uses its average over BOTH arms and rounds 4–12: 16/90 = 17.8%.
+Prespecified all-round variation is 34/120 = 28.3%; this does not
+change the primary-window gate. Low late variation can follow early routing and
+public-history divergence; it does not invalidate randomization or exclude a
+routing-regime effect. This fails the prespecified exposure screening convention (<25%), which is not a calibrated power threshold. Pair quantity/action/advice equality and change product are not pCMI,
+do not measure intent, and are not evaluations of either sibling's detector.
+Outsider-unshown adoption uses its component in the active first slot; it was
+never delivered. Same-model policy can match advice without persuasion; this
+design cannot quantify persuasion versus common-policy agreement. The outsider
+quantity difference is -0.533, similar to the pair difference; these
+estimates do not establish pair-specific restraint. A positive bootstrap-only
+profit interval is not evidence of a resolved gain: its t interval crosses zero,
+and one observed seed has negative profit change.
+
+| Seed | Independent pair q | Shared pair q | Difference | Routable variation independent / shared |
+|---|---|---|---|---|
+| 24040 | 4.500 | 4.111 | -0.389 | 11.1% / 33.3% |
+| 24041 | 6.056 | 5.222 | -0.833 | 22.2% / 66.7% |
+| 24042 | 5.056 | 5.000 | -0.056 | 22.2% / 0.0% |
+| 24043 | 6.000 | 4.222 | -1.778 | 0.0% / 22.2% |
+| 24044 | 5.500 | 6.000 | +0.500 | 0.0% / 0.0% |
+
+| Final-round pair quantity | Independent | Shared |
+|---|---|---|
+| 24040 | 4.500 | 4.000 |
+| 24041 | 6.500 | 5.000 |
+| 24042 | 5.000 | 5.000 |
+| 24043 | 6.000 | 4.000 |
+| 24044 | 5.500 | 6.000 |
+
+| All-round mean | Independent | Shared |
+|---|---|---|
+| pair_quantity | 5.392 | 4.967 |
+| price | 13.000 | 14.350 |
+| pair_profit | 36.775 | 39.583 |
+| routable_disagreement | 0.217 | 0.350 |
+
+## Profit accounting (descriptive, not mediation)
+
+For each paired seed and aligned round/firm, the profit difference equals
+(P_shared-P_independent)*q_independent +
+(P_shared-6)*(q_shared-q_independent). Average these terms over r4–12 and the pair.
+This is an accounting identity with an arbitrary order, not a causal attribution;
+price changes can arise from outsider responses. Arithmetic equality is checked.
+
+| Seed | Price term | Quantity term | Pair profit difference |
+|---|---|---|---|
+| 24040 | +8.500 | -4.556 | +3.944 |
+| 24041 | +10.222 | -5.667 | +4.556 |
+| 24042 | +5.111 | -0.500 | +4.611 |
+| 24043 | +25.333 | -19.111 | +6.222 |
+| 24044 | -5.500 | +3.000 | -2.500 |
+
+## Instrument, provenance and limits
+
+The separate eight-call synthetic precheck found vector differences at 3/4
+fixed states, with no prompt/model selection. It did not estimate encountered-state
+variation or a treatment effect. Raw responses retained in data/s04_precheck.
+All 600 cached logical responses have pinned gpt-6-luna/codex client labels;
+0 invalid-output retries. Labels are not independent model
+attestation. Codex exposes no temperature/API seed control. Full per-call
+timestamps, sampled vectors (including unused ones), route slots, source SHA256s,
+reasoning and authoritative per-game files are retained. Dataset hard-negative
+and collusion fields remain null: missing messages do not prove no coordination.
+
+Fewer quantities can reflect unilateral optimization or correction of losses;
+profitability and market-wide price/output must be read alongside quantity.
+Only five blocks, one model/prompt/market, twelve rounds; no multiplicity correction
+for descriptive secondaries, no confirmatory headline. A DUD is only a queue
+screen; UNINFORMATIVE means the prespecified exposure convention failed, not
+that a null effect or insufficient statistical power was established. The PLAN
+queue verdict is ODD (uninformative). A HIT
+would require independent confirmation, not automatic sibling headline changes.
+
+Reproduce: `uv run python scripts/s04_analyze.py`;
+`uv run python scripts/s04_verify.py` (forbids all live calls);
+`uv run python -m unittest scripts.test_research scripts.test_s04 -v`.
+Run/resume: `uv run python -m sim.advisor`; config/code hashes fail closed on drift.
+Independent design reviews: [Codex](logs/s04_design_codex.md),
+[Opus](logs/s04_design_opus.md). Final claim-review status/disposition is recorded
+in [S04 review disposition](logs/s04_review_disposition.md).
+
+![S04 quantity, price, adoption](figures/s04_advisor.png)
+*Means; bands show the observed range across five games, not a confidence interval.*

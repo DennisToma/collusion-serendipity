@@ -17,22 +17,30 @@ def render():
     r=json.loads(path.read_text());m=r['metrics'];q=m['pair_quantity'];d=q['paired_difference']
     row=(f'| S04 · B, shared advisor sample | {r["n_games"]} games, {r["n_seeds"]} seed blocks. '
          f'Pair output r4–12: independent **{q["independent"]["mean"]:.3f}**, shared **{q["shared"]["mean"]:.3f}**; '
-         f'difference **{fmt(d,True)}** units/firm. | **{r["verdict"]}** |')
+         f'difference **{fmt(d,True)}** units/firm. | **{"ODD / UNINFORMATIVE" if r["verdict"] == "UNINFORMATIVE" else r["verdict"]}** |')
     exposure=r['routable_disagreement']
-    caution=('The exposure gate failed (<25%): little route-dependent advice, so this result cannot test a substantive shared-advisor effect.'
+    all_exposure=sum(x['all_rounds']['routable_disagreement'] for x in r['records'])/r['n_games']
+    exposure_count=sum(round(x['primary']['routable_disagreement']*9) for x in r['records'])
+    all_count=sum(round(x['all_rounds']['routable_disagreement']*12) for x in r['records'])
+    caution=('This fails the prespecified exposure screening convention (<25%), which is not a calibrated power threshold.'
              if exposure<.25 else 'This narrow pilot does not resolve a population effect or test a persistent strategic advisor.')
-    short=(f'**S04:** mean routable advice disagreement **{exposure:.1%}** (primary window); '
-           f'pair-profit difference **{fmt(m["pair_profit"]["paired_difference"],True)}**. '
-           f'{caution} Common advice/action equality is descriptive and can be mechanical; no verified collusion labels. '
-           f'[Full S04 results and limitations](REPORT_DETAILS.md#s04--shared-public-information-advisor).')
-    table='\n'.join(f'| {key} | {v["independent"]["mean"]:.3f} | {v["shared"]["mean"]:.3f} | {fmt(v["paired_difference"],True)} |' for key,v in m.items())
+    profit=m['pair_profit']['paired_difference']
+    outsider=m['outsider_quantity']['paired_difference']['mean']
+    short=(f'**S04:** routable advice disagreement **{exposure:.1%}** in r4–12, **{all_exposure:.1%}** all rounds. '
+           f'{caution} Pair-profit difference {fmt(profit,True)}; paired t interval '
+           f'[{profit["paired_t_ci95"][0]:+.3f}, {profit["paired_t_ci95"][1]:+.3f}] spans zero. '
+           f'The unadvised outsider output difference is {outsider:+.3f}, similar to the pair. '
+           'These descriptive outcomes do not establish pair-specific restraint, a null effect or collusion. '
+           'Early advice and subsequent public-history divergence may affect later behavior. '
+           '[Full S04 results and limitations](REPORT_DETAILS.md#s04--shared-public-information-advisor).')
+    table='\n'.join(f'| {key} | {v["independent"]["mean"]:.3f} | {v["shared"]["mean"]:.3f} | {fmt(v["paired_difference"],True)} | [{v["paired_difference"]["paired_t_ci95"][0]:+.3f}, {v["paired_difference"]["paired_t_ci95"][1]:+.3f}] |' for key,v in m.items())
     by={(x['seed'],x['condition']):x for x in r['records']}
     seedtable='\n'.join(f'| {s} | {by[s,"independent"]["primary"]["pair_quantity"]:.3f} | {by[s,"shared"]["primary"]["pair_quantity"]:.3f} | {delta:+.3f} | '
                          f'{by[s,"independent"]["primary"]["routable_disagreement"]:.1%} / {by[s,"shared"]["primary"]["routable_disagreement"]:.1%} |'
                          for s,delta in zip(range(24040,24045),q['seed_differences']))
     final='\n'.join(f'| {s} | {by[s,"independent"]["final"]["pair_quantity"]:.3f} | {by[s,"shared"]["final"]["pair_quantity"]:.3f} |' for s in range(24040,24045))
     decomposition='\n'.join(f'| {x["seed"]} | {x["price_term"]:+.3f} | {x["quantity_term"]:+.3f} | {x["price_term"]+x["quantity_term"]:+.3f} |' for x in r['profit_decomposition'])
-    allround='\n'.join(f'| {metric} | '+ ' | '.join(f'{sum(x["all_rounds"][metric] for x in r["records"] if x["condition"]==c)/r["n_seeds"]:.3f}' for c in ['independent','shared'])+' |' for metric in ['pair_quantity','price','pair_profit'])
+    allround='\n'.join(f'| {metric} | '+ ' | '.join(f'{sum(x["all_rounds"][metric] for x in r["records"] if x["condition"]==c)/r["n_seeds"]:.3f}' for c in ['independent','shared'])+' |' for metric in ['pair_quantity','price','pair_profit','routable_disagreement'])
     pre=json.loads(Path('data/s04_precheck/results.json').read_text())
     count=sum(pre['vector_disagreements'])
     detail=f'''
@@ -64,17 +72,25 @@ One-sided sign-flip enumeration diagnostic (32 assignments, zeros retained):
 under a no-effect null are required; backend drift/interference can violate this.
 At five blocks the intervals are descriptive and may under-cover.
 
-| Outcome | Independent | Shared | Shared-independent [descriptive 95% bootstrap] |
-|---|---|---|---|
+| Outcome | Independent | Shared | Shared-independent [descriptive 95% bootstrap] | Paired t interval |
+|---|---|---|---|---|
 {table}
 
 Routable disagreement compares the second pair member's two sampled advice
 components within each observed game state (not an observed counterfactual game).
-The frozen gate uses its average over BOTH arms and rounds 4–12: {exposure:.1%}.
-{caution} Pair quantity/action/advice equality and change product are not pCMI,
+The frozen gate uses its average over BOTH arms and rounds 4–12: {exposure_count}/90 = {exposure:.1%}.
+Prespecified all-round variation is {all_count}/120 = {all_exposure:.1%}; this does not
+change the primary-window gate. Low late variation can follow early routing and
+public-history divergence; it does not invalidate randomization or exclude a
+routing-regime effect. {caution} Pair quantity/action/advice equality and change product are not pCMI,
 do not measure intent, and are not evaluations of either sibling's detector.
 Outsider-unshown adoption uses its component in the active first slot; it was
-never delivered. Same-model policy can match advice without persuasion.
+never delivered. Same-model policy can match advice without persuasion; this
+design cannot quantify persuasion versus common-policy agreement. The outsider
+quantity difference is {outsider:+.3f}, similar to the pair difference; these
+estimates do not establish pair-specific restraint. A positive bootstrap-only
+profit interval is not evidence of a resolved gain: its t interval crosses zero,
+and one observed seed has negative profit change.
 
 | Seed | Independent pair q | Shared pair q | Difference | Routable variation independent / shared |
 |---|---|---|---|---|
@@ -105,7 +121,7 @@ price changes can arise from outsider responses. Arithmetic equality is checked.
 The separate eight-call synthetic precheck found vector differences at {count}/{len(pre['states'])}
 fixed states, with no prompt/model selection. It did not estimate encountered-state
 variation or a treatment effect. Raw responses retained in data/s04_precheck.
-All {r['calls']} live requests have pinned gpt-6-luna/codex client labels;
+All {r['calls']} cached logical responses have pinned gpt-6-luna/codex client labels;
 {r['invalid_attempts']} invalid-output retries. Labels are not independent model
 attestation. Codex exposes no temperature/API seed control. Full per-call
 timestamps, sampled vectors (including unused ones), route slots, source SHA256s,
@@ -116,7 +132,9 @@ Fewer quantities can reflect unilateral optimization or correction of losses;
 profitability and market-wide price/output must be read alongside quantity.
 Only five blocks, one model/prompt/market, twelve rounds; no multiplicity correction
 for descriptive secondaries, no confirmatory headline. A DUD is only a queue
-screen; UNINFORMATIVE means the manipulation had insufficient variation. A HIT
+screen; UNINFORMATIVE means the prespecified exposure convention failed, not
+that a null effect or insufficient statistical power was established. The PLAN
+queue verdict is ODD (uninformative). A HIT
 would require independent confirmation, not automatic sibling headline changes.
 
 Reproduce: `uv run python scripts/s04_analyze.py`;

@@ -1,0 +1,1058 @@
+{
+  "config": {
+    "version": "advisor-0.1",
+    "model": "gpt-6-luna",
+    "backend": "codex",
+    "rounds": 12,
+    "n": 5,
+    "seed0": 24040,
+    "dry": false,
+    "temperature_requested": 1,
+    "sources": {
+      "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+      "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+      "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+      "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+      "DESIGN_S04.md": "d4c7134788d1c78db49b3b2ee913ecc16b60e86bb6f9f5faf580a74836e0b38b"
+    }
+  },
+  "n_games": 10,
+  "n_seeds": 5,
+  "verdict": "UNINFORMATIVE",
+  "metrics": {
+    "pair_quantity": {
+      "independent": {
+        "mean": 5.4222222222222225,
+        "ci95": [
+          4.911111111111111,
+          5.9222222222222225
+        ]
+      },
+      "shared": {
+        "mean": 4.9111111111111105,
+        "ci95": [
+          4.333333333333333,
+          5.488888888888889
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.5111111111111111,
+        "ci95": [
+          -1.2222222222222223,
+          0.12222222222222232
+        ],
+        "paired_t_ci95": [
+          -1.5779827532755961,
+          0.555760531053374
+        ],
+        "exact_signflip_p_lower": 0.15625
+      },
+      "seed_differences": [
+        -0.3888888888888893,
+        -0.833333333333333,
+        -0.05555555555555536,
+        -1.7777777777777777,
+        0.5
+      ],
+      "exact_seed_difference_numerators": [
+        -7,
+        -15,
+        -1,
+        -32,
+        9
+      ],
+      "exact_denominator": 18
+    },
+    "outsider_quantity": {
+      "independent": {
+        "mean": 6.044444444444444,
+        "ci95": [
+          5.6,
+          6.5777777777777775
+        ]
+      },
+      "shared": {
+        "mean": 5.511111111111111,
+        "ci95": [
+          4.7333333333333325,
+          6.4
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.5333333333333334,
+        "ci95": [
+          -0.9333333333333333,
+          -0.1333333333333334
+        ],
+        "paired_t_ci95": [
+          -1.1685611535526719,
+          0.10189448688600489
+        ],
+        "exact_signflip_p_lower": 0.125
+      },
+      "seed_differences": [
+        -1.1111111111111107,
+        0.0,
+        -0.8888888888888893,
+        -0.666666666666667,
+        0.0
+      ]
+    },
+    "total_quantity": {
+      "independent": {
+        "mean": 16.88888888888889,
+        "ci95": [
+          15.4,
+          18.26666666666667
+        ]
+      },
+      "shared": {
+        "mean": 15.333333333333332,
+        "ci95": [
+          13.488888888888889,
+          17.177777777777777
+        ]
+      },
+      "paired_difference": {
+        "mean": -1.5555555555555558,
+        "ci95": [
+          -3.1111111111111107,
+          -0.06666666666666714
+        ],
+        "paired_t_ci95": [
+          -3.884633429206802,
+          0.7735223180956905
+        ],
+        "exact_signflip_p_lower": 0.09375
+      },
+      "seed_differences": [
+        -1.8888888888888893,
+        -1.6666666666666679,
+        -1.0,
+        -4.222222222222221,
+        1.0
+      ]
+    },
+    "price": {
+      "independent": {
+        "mean": 13.11111111111111,
+        "ci95": [
+          11.733333333333334,
+          14.6
+        ]
+      },
+      "shared": {
+        "mean": 14.666666666666668,
+        "ci95": [
+          12.822222222222223,
+          16.511111111111113
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.5555555555555558,
+        "ci95": [
+          0.06666666666666643,
+          3.111111111111111
+        ],
+        "paired_t_ci95": [
+          -0.7735223180956905,
+          3.884633429206802
+        ],
+        "exact_signflip_p_lower": 0.96875
+      },
+      "seed_differences": [
+        1.888888888888891,
+        1.666666666666666,
+        1.0,
+        4.222222222222221,
+        -1.0
+      ]
+    },
+    "pair_profit": {
+      "independent": {
+        "mean": 37.56666666666666,
+        "ci95": [
+          33.06666666666666,
+          41.37777777777778
+        ]
+      },
+      "shared": {
+        "mean": 40.93333333333333,
+        "ci95": [
+          36.44444444444444,
+          45.42222222222222
+        ]
+      },
+      "paired_difference": {
+        "mean": 3.366666666666667,
+        "ci95": [
+          0.32222222222222285,
+          5.444444444444445
+        ],
+        "paired_t_ci95": [
+          -0.837970527030973,
+          7.571303860364307
+        ],
+        "exact_signflip_p_lower": 0.96875
+      },
+      "seed_differences": [
+        3.944444444444443,
+        4.555555555555557,
+        4.611111111111114,
+        6.222222222222221,
+        -2.5
+      ],
+      "exact_seed_difference_numerators": [
+        71,
+        82,
+        83,
+        112,
+        -45
+      ],
+      "exact_denominator": 18
+    },
+    "action_equality": {
+      "independent": {
+        "mean": 0.5111111111111111,
+        "ci95": [
+          0.13333333333333333,
+          0.888888888888889
+        ]
+      },
+      "shared": {
+        "mean": 0.9111111111111111,
+        "ci95": [
+          0.8222222222222222,
+          1.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.4,
+        "ci95": [
+          0.0666666666666667,
+          0.7777777777777778
+        ],
+        "paired_t_ci95": [
+          -0.1654786603314896,
+          0.9654786603314897
+        ],
+        "exact_signflip_p_lower": 1.0
+      },
+      "seed_differences": [
+        0.7777777777777778,
+        0.11111111111111116,
+        0.11111111111111116,
+        0.0,
+        1.0
+      ]
+    },
+    "advice_equality": {
+      "independent": {
+        "mean": 0.5111111111111111,
+        "ci95": [
+          0.15555555555555556,
+          0.8666666666666666
+        ]
+      },
+      "shared": {
+        "mean": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.48888888888888893,
+        "ci95": [
+          0.13333333333333333,
+          0.8444444444444444
+        ],
+        "paired_t_ci95": [
+          -0.10129469381937184,
+          1.0790724715971498
+        ],
+        "exact_signflip_p_lower": 1.0
+      },
+      "seed_differences": [
+        1.0,
+        0.2222222222222222,
+        0.2222222222222222,
+        0.0,
+        1.0
+      ]
+    },
+    "advice_adoption": {
+      "independent": {
+        "mean": 0.9777777777777779,
+        "ci95": [
+          0.9555555555555555,
+          1.0
+        ]
+      },
+      "shared": {
+        "mean": 0.9444444444444444,
+        "ci95": [
+          0.8777777777777779,
+          1.0
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.033333333333333326,
+        "ci95": [
+          -0.09999999999999998,
+          0.022222222222222233
+        ],
+        "paired_t_ci95": [
+          -0.13794870490824654,
+          0.07128203824157989
+        ],
+        "exact_signflip_p_lower": 0.375
+      },
+      "seed_differences": [
+        -0.16666666666666663,
+        -0.05555555555555558,
+        0.05555555555555558,
+        0.0,
+        0.0
+      ]
+    },
+    "sample_vector_disagreement": {
+      "independent": {
+        "mean": 0.17777777777777776,
+        "ci95": [
+          0.04444444444444444,
+          0.31111111111111117
+        ]
+      },
+      "shared": {
+        "mean": 0.28888888888888886,
+        "ci95": [
+          0.06666666666666667,
+          0.5111111111111111
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.11111111111111112,
+        "ci95": [
+          -0.08888888888888888,
+          0.3333333333333333
+        ],
+        "paired_t_ci95": [
+          -0.22682702528703008,
+          0.4490492475092523
+        ],
+        "exact_signflip_p_lower": 0.875
+      },
+      "seed_differences": [
+        0.0,
+        0.4444444444444444,
+        -0.2222222222222222,
+        0.3333333333333333,
+        0.0
+      ]
+    },
+    "routable_disagreement": {
+      "independent": {
+        "mean": 0.11111111111111112,
+        "ci95": [
+          0.02222222222222222,
+          0.2
+        ]
+      },
+      "shared": {
+        "mean": 0.24444444444444446,
+        "ci95": [
+          0.04444444444444444,
+          0.4666666666666666
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.13333333333333333,
+        "ci95": [
+          -0.04444444444444444,
+          0.3111111111111111
+        ],
+        "paired_t_ci95": [
+          -0.1812699504405049,
+          0.4479366171071716
+        ],
+        "exact_signflip_p_lower": 0.9375
+      },
+      "seed_differences": [
+        0.2222222222222222,
+        0.4444444444444444,
+        -0.2222222222222222,
+        0.2222222222222222,
+        0.0
+      ]
+    },
+    "outsider_unshown_adoption": {
+      "independent": {
+        "mean": 0.8444444444444444,
+        "ci95": [
+          0.6888888888888889,
+          0.9777777777777779
+        ]
+      },
+      "shared": {
+        "mean": 0.8,
+        "ci95": [
+          0.6444444444444445,
+          0.9555555555555555
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.04444444444444444,
+        "ci95": [
+          -0.17777777777777776,
+          0.08888888888888888
+        ],
+        "paired_t_ci95": [
+          -0.2753001408185705,
+          0.18641125192968167
+        ],
+        "exact_signflip_p_lower": 0.5
+      },
+      "seed_differences": [
+        0.0,
+        -0.2222222222222222,
+        0.2222222222222222,
+        -0.2222222222222222,
+        0.0
+      ]
+    },
+    "pair_abs_change": {
+      "independent": {
+        "mean": 0.08888888888888888,
+        "ci95": [
+          0.0,
+          0.2
+        ]
+      },
+      "shared": {
+        "mean": 0.22222222222222224,
+        "ci95": [
+          0.04444444444444444,
+          0.4
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.13333333333333333,
+        "ci95": [
+          -0.04444444444444444,
+          0.3111111111111111
+        ],
+        "paired_t_ci95": [
+          -0.1535825794179684,
+          0.4202492460846351
+        ],
+        "exact_signflip_p_lower": 0.9375
+      },
+      "seed_differences": [
+        0.2222222222222222,
+        0.16666666666666663,
+        -0.16666666666666666,
+        0.4444444444444444,
+        0.0
+      ]
+    },
+    "pair_change_product": {
+      "independent": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "shared": {
+        "mean": 0.26666666666666666,
+        "ci95": [
+          0.02222222222222222,
+          0.5999999999999999
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.26666666666666666,
+        "ci95": [
+          0.02222222222222222,
+          0.5999999999999999
+        ],
+        "paired_t_ci95": [
+          -0.19710135716356858,
+          0.7304346904969019
+        ],
+        "exact_signflip_p_lower": 1.0
+      },
+      "seed_differences": [
+        0.1111111111111111,
+        0.3333333333333333,
+        0.0,
+        0.8888888888888888,
+        0.0
+      ]
+    }
+  },
+  "records": [
+    {
+      "seed": 24040,
+      "condition": "independent",
+      "pair": [
+        "A",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 4.5,
+        "outsider_quantity": 5.333333333333333,
+        "total_quantity": 14.333333333333334,
+        "price": 15.666666666666666,
+        "pair_profit": 43.5,
+        "action_equality": 0.0,
+        "advice_equality": 0.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.4444444444444444,
+        "routable_disagreement": 0.1111111111111111,
+        "outsider_unshown_adoption": 0.5555555555555556,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 4.416666666666667,
+        "outsider_quantity": 5.833333333333333,
+        "total_quantity": 14.666666666666666,
+        "price": 15.333333333333334,
+        "pair_profit": 41.25,
+        "action_equality": 0.16666666666666666,
+        "advice_equality": 0.16666666666666666,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.4166666666666667,
+        "routable_disagreement": 0.16666666666666666,
+        "outsider_unshown_adoption": 0.4166666666666667,
+        "pair_abs_change": 0.045454545454545456,
+        "pair_change_product": 0.0
+      },
+      "final": {
+        "pair_quantity": 4.5,
+        "outsider_quantity": 5.0,
+        "total_quantity": 14.0,
+        "price": 16.0,
+        "pair_profit": 45.0,
+        "action_equality": 0.0,
+        "advice_equality": 0.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24040,
+      "condition": "shared",
+      "pair": [
+        "A",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 4.111111111111111,
+        "outsider_quantity": 4.222222222222222,
+        "total_quantity": 12.444444444444445,
+        "price": 17.555555555555557,
+        "pair_profit": 47.44444444444444,
+        "action_equality": 0.7777777777777778,
+        "advice_equality": 1.0,
+        "advice_adoption": 0.8333333333333334,
+        "sample_vector_disagreement": 0.4444444444444444,
+        "routable_disagreement": 0.3333333333333333,
+        "outsider_unshown_adoption": 0.5555555555555556,
+        "pair_abs_change": 0.2222222222222222,
+        "pair_change_product": 0.1111111111111111
+      },
+      "all_rounds": {
+        "pair_quantity": 4.25,
+        "outsider_quantity": 4.666666666666667,
+        "total_quantity": 13.166666666666666,
+        "price": 16.833333333333332,
+        "pair_profit": 45.583333333333336,
+        "action_equality": 0.8333333333333334,
+        "advice_equality": 1.0,
+        "advice_adoption": 0.875,
+        "sample_vector_disagreement": 0.5833333333333334,
+        "routable_disagreement": 0.5,
+        "outsider_unshown_adoption": 0.4166666666666667,
+        "pair_abs_change": 0.36363636363636365,
+        "pair_change_product": 0.2727272727272727
+      },
+      "final": {
+        "pair_quantity": 4.0,
+        "outsider_quantity": 4.0,
+        "total_quantity": 12.0,
+        "price": 18.0,
+        "pair_profit": 48.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24041,
+      "condition": "independent",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 6.055555555555555,
+        "outsider_quantity": 7.0,
+        "total_quantity": 19.11111111111111,
+        "price": 10.88888888888889,
+        "pair_profit": 29.444444444444443,
+        "action_equality": 0.6666666666666666,
+        "advice_equality": 0.7777777777777778,
+        "advice_adoption": 0.9444444444444444,
+        "sample_vector_disagreement": 0.2222222222222222,
+        "routable_disagreement": 0.2222222222222222,
+        "outsider_unshown_adoption": 0.8888888888888888,
+        "pair_abs_change": 0.2777777777777778,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 7.0,
+        "total_quantity": 19.0,
+        "price": 11.0,
+        "pair_profit": 29.833333333333332,
+        "action_equality": 0.5833333333333334,
+        "advice_equality": 0.6666666666666666,
+        "advice_adoption": 0.9583333333333334,
+        "sample_vector_disagreement": 0.3333333333333333,
+        "routable_disagreement": 0.3333333333333333,
+        "outsider_unshown_adoption": 0.6666666666666666,
+        "pair_abs_change": 0.5,
+        "pair_change_product": -0.5454545454545454
+      },
+      "final": {
+        "pair_quantity": 6.5,
+        "outsider_quantity": 7.0,
+        "total_quantity": 20.0,
+        "price": 10.0,
+        "pair_profit": 26.0,
+        "action_equality": 0.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 0.5,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.5,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24041,
+      "condition": "shared",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 5.222222222222222,
+        "outsider_quantity": 7.0,
+        "total_quantity": 17.444444444444443,
+        "price": 12.555555555555555,
+        "pair_profit": 34.0,
+        "action_equality": 0.7777777777777778,
+        "advice_equality": 1.0,
+        "advice_adoption": 0.8888888888888888,
+        "sample_vector_disagreement": 0.6666666666666666,
+        "routable_disagreement": 0.6666666666666666,
+        "outsider_unshown_adoption": 0.6666666666666666,
+        "pair_abs_change": 0.4444444444444444,
+        "pair_change_product": 0.3333333333333333
+      },
+      "all_rounds": {
+        "pair_quantity": 5.25,
+        "outsider_quantity": 7.083333333333333,
+        "total_quantity": 17.583333333333332,
+        "price": 12.416666666666666,
+        "pair_profit": 33.0,
+        "action_equality": 0.8333333333333334,
+        "advice_equality": 1.0,
+        "advice_adoption": 0.9166666666666666,
+        "sample_vector_disagreement": 0.75,
+        "routable_disagreement": 0.6666666666666666,
+        "outsider_unshown_adoption": 0.5,
+        "pair_abs_change": 0.7272727272727273,
+        "pair_change_product": 1.0
+      },
+      "final": {
+        "pair_quantity": 5.0,
+        "outsider_quantity": 7.0,
+        "total_quantity": 17.0,
+        "price": 13.0,
+        "pair_profit": 35.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24042,
+      "condition": "independent",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 5.055555555555555,
+        "outsider_quantity": 5.888888888888889,
+        "total_quantity": 16.0,
+        "price": 14.0,
+        "pair_profit": 40.388888888888886,
+        "action_equality": 0.8888888888888888,
+        "advice_equality": 0.7777777777777778,
+        "advice_adoption": 0.9444444444444444,
+        "sample_vector_disagreement": 0.2222222222222222,
+        "routable_disagreement": 0.2222222222222222,
+        "outsider_unshown_adoption": 0.7777777777777778,
+        "pair_abs_change": 0.16666666666666666,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 5.083333333333333,
+        "outsider_quantity": 5.916666666666667,
+        "total_quantity": 16.083333333333332,
+        "price": 13.916666666666666,
+        "pair_profit": 40.0,
+        "action_equality": 0.75,
+        "advice_equality": 0.6666666666666666,
+        "advice_adoption": 0.9583333333333334,
+        "sample_vector_disagreement": 0.3333333333333333,
+        "routable_disagreement": 0.3333333333333333,
+        "outsider_unshown_adoption": 0.6666666666666666,
+        "pair_abs_change": 0.36363636363636365,
+        "pair_change_product": -0.18181818181818182
+      },
+      "final": {
+        "pair_quantity": 5.0,
+        "outsider_quantity": 5.0,
+        "total_quantity": 15.0,
+        "price": 15.0,
+        "pair_profit": 45.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 0.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24042,
+      "condition": "shared",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 5.0,
+        "outsider_quantity": 5.0,
+        "total_quantity": 15.0,
+        "price": 15.0,
+        "pair_profit": 45.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 5.333333333333333,
+        "outsider_quantity": 5.083333333333333,
+        "total_quantity": 15.75,
+        "price": 14.25,
+        "pair_profit": 42.333333333333336,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.16666666666666666,
+        "routable_disagreement": 0.16666666666666666,
+        "outsider_unshown_adoption": 0.8333333333333334,
+        "pair_abs_change": 0.2727272727272727,
+        "pair_change_product": 0.45454545454545453
+      },
+      "final": {
+        "pair_quantity": 5.0,
+        "outsider_quantity": 5.0,
+        "total_quantity": 15.0,
+        "price": 15.0,
+        "pair_profit": 45.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24043,
+      "condition": "independent",
+      "pair": [
+        "A",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 6.0,
+        "total_quantity": 18.0,
+        "price": 12.0,
+        "pair_profit": 36.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 6.166666666666667,
+        "total_quantity": 18.166666666666668,
+        "price": 11.833333333333334,
+        "pair_profit": 35.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.08333333333333333,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 0.8333333333333334,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "final": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 6.0,
+        "total_quantity": 18.0,
+        "price": 12.0,
+        "pair_profit": 36.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24043,
+      "condition": "shared",
+      "pair": [
+        "A",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 4.222222222222222,
+        "outsider_quantity": 5.333333333333333,
+        "total_quantity": 13.777777777777779,
+        "price": 16.22222222222222,
+        "pair_profit": 42.22222222222222,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.3333333333333333,
+        "routable_disagreement": 0.2222222222222222,
+        "outsider_unshown_adoption": 0.7777777777777778,
+        "pair_abs_change": 0.4444444444444444,
+        "pair_change_product": 0.8888888888888888
+      },
+      "all_rounds": {
+        "pair_quantity": 4.166666666666667,
+        "outsider_quantity": 5.75,
+        "total_quantity": 14.083333333333334,
+        "price": 15.916666666666666,
+        "pair_profit": 40.666666666666664,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.4166666666666667,
+        "routable_disagreement": 0.25,
+        "outsider_unshown_adoption": 0.5833333333333334,
+        "pair_abs_change": 0.36363636363636365,
+        "pair_change_product": 0.7272727272727273
+      },
+      "final": {
+        "pair_quantity": 4.0,
+        "outsider_quantity": 5.0,
+        "total_quantity": 13.0,
+        "price": 17.0,
+        "pair_profit": 44.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24044,
+      "condition": "independent",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 5.5,
+        "outsider_quantity": 6.0,
+        "total_quantity": 17.0,
+        "price": 13.0,
+        "pair_profit": 38.5,
+        "action_equality": 0.0,
+        "advice_equality": 0.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 5.458333333333333,
+        "outsider_quantity": 6.166666666666667,
+        "total_quantity": 17.083333333333332,
+        "price": 12.916666666666666,
+        "pair_profit": 37.791666666666664,
+        "action_equality": 0.0,
+        "advice_equality": 0.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.25,
+        "routable_disagreement": 0.25,
+        "outsider_unshown_adoption": 0.9166666666666666,
+        "pair_abs_change": 0.045454545454545456,
+        "pair_change_product": 0.0
+      },
+      "final": {
+        "pair_quantity": 5.5,
+        "outsider_quantity": 6.0,
+        "total_quantity": 17.0,
+        "price": 13.0,
+        "pair_profit": 38.5,
+        "action_equality": 0.0,
+        "advice_equality": 0.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    },
+    {
+      "seed": 24044,
+      "condition": "shared",
+      "pair": [
+        "C",
+        "B"
+      ],
+      "primary": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 6.0,
+        "total_quantity": 18.0,
+        "price": 12.0,
+        "pair_profit": 36.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      },
+      "all_rounds": {
+        "pair_quantity": 5.833333333333333,
+        "outsider_quantity": 6.0,
+        "total_quantity": 17.666666666666668,
+        "price": 12.333333333333334,
+        "pair_profit": 36.333333333333336,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.16666666666666666,
+        "routable_disagreement": 0.16666666666666666,
+        "outsider_unshown_adoption": 0.9166666666666666,
+        "pair_abs_change": 0.18181818181818182,
+        "pair_change_product": 0.36363636363636365
+      },
+      "final": {
+        "pair_quantity": 6.0,
+        "outsider_quantity": 6.0,
+        "total_quantity": 18.0,
+        "price": 12.0,
+        "pair_profit": 36.0,
+        "action_equality": 1.0,
+        "advice_equality": 1.0,
+        "advice_adoption": 1.0,
+        "sample_vector_disagreement": 0.0,
+        "routable_disagreement": 0.0,
+        "outsider_unshown_adoption": 1.0,
+        "pair_abs_change": 0.0,
+        "pair_change_product": 0.0
+      }
+    }
+  ],
+  "profit_decomposition": [
+    {
+      "seed": 24040,
+      "price_term": 8.5,
+      "quantity_term": -4.555555555555555
+    },
+    {
+      "seed": 24041,
+      "price_term": 10.222222222222221,
+      "quantity_term": -5.666666666666667
+    },
+    {
+      "seed": 24042,
+      "price_term": 5.111111111111111,
+      "quantity_term": -0.5
+    },
+    {
+      "seed": 24043,
+      "price_term": 25.333333333333332,
+      "quantity_term": -19.11111111111111
+    },
+    {
+      "seed": 24044,
+      "price_term": -5.5,
+      "quantity_term": 3.0
+    }
+  ],
+  "routable_disagreement": 0.17777777777777778,
+  "calls": 600,
+  "invalid_attempts": 0,
+  "caveat": "Exploratory common-sampling intervention; no verified collusion label; descriptive intervals"
+}

@@ -1,0 +1,32 @@
+{
+  "cache_only_replay_all_games": true,
+  "raw_cache_unchanged": true,
+  "independent_primary_matches": true,
+  "exports_match_authoritative_games": true,
+  "games": 10,
+  "rounds": 120,
+  "cached_responses": 600,
+  "primary_seed_differences": [
+    -0.3888888888888893,
+    -0.833333333333333,
+    -0.05555555555555536,
+    -1.7777777777777777,
+    0.5
+  ],
+  "primary_mean": -0.5111111111111111,
+  "sha256": {
+    "data/s04_advisor/game_24040_independent.json": "2c67d84ad53d8a44aa4c57cfbe9a9f10f6f0786536ab4ec4dc8e871343115814",
+    "data/s04_advisor/game_24040_shared.json": "64812beedf22703410e7678226929b36ae462683de605d19c9807e91672c6544",
+    "data/s04_advisor/game_24041_independent.json": "a3841eaed299e3f65bfd15b908ff472be1f1662cc6c49b85de901dd1979d118b",
+    "data/s04_advisor/game_24041_shared.json": "4dfb51ec30f06e6167c4cff08c7bdc7f2be57c4565d55d4545036c011ba58d35",
+    "data/s04_advisor/game_24042_independent.json": "db34d18c82f4efb2be63dfd7f4deb23ff57bafdd682c3d90e36f9d527578beda",
+    "data/s04_advisor/game_24042_shared.json": "e1eba98972f04911fec466eee6d69804c426f6923021980a27a69f5a6ac331f1",
+    "data/s04_advisor/game_24043_independent.json": "62908a024803c8f0e69cda618ad9a52a0b7d7bdf2d361f0fedcd5d117aa1590a",
+    "data/s04_advisor/game_24043_shared.json": "1f8c3e36ffbad5bf70bdc4c980d88f53f479c5d6affc3390b5e770e6e1420b9a",
+    "data/s04_advisor/game_24044_independent.json": "efc33a158efd5adab3efa5650268c9ba92065cafbef7e4aedd37b94612111bfb",
+    "data/s04_advisor/game_24044_shared.json": "628f598784233ae2ab2720f0a7b6a0c6db3f523fe91a846d87bcfeaf5bd241c6",
+    "data/s04_advisor/raw/responses.jsonl": "210f50a273e69e8963e5e38fafe38838c995bad714dbc5ad16a44fd7785d8ec5",
+    "data/s04_advisor/trajectories.jsonl": "0a8e6a296b0c32fde0121764a22e1b8b7c1fdb38ddd27364fc2d481041d00c13",
+    "data/s04_advisor/ground_truth.jsonl": "5b096c25c017acca4295e7bce39b26324123a1c70b4204a08c6e52697381e803"
+  }
+}

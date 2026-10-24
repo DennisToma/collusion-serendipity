@@ -1,14 +1,14 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 15:13 UTC · Iteration 2 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 15:40 UTC · Iteration 2 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
 | S01 · C, price digits | 104 games scanned; primary on 32 luna / 15 deepseek channel games. Pair-minus-other-pairs prediction gain **+0.00175 [-0.00184, +0.00631]** / **+0.00899 [-0.04249, +0.05535]** squared price units. | **DUD** for this screen |
 | S02 · A, Cournot quantities | 6 games, 3 seed blocks. Pair output r4–12: none **5.870**, private **5.389**; difference **-0.481 [-1.222, +0.000]** units/firm. | **ODD**, inconclusive |
-| S04 · B, shared advisor sample | Registered ten games, five fresh seed blocks, T12. Shared vs independent identical-prompt advisor responses; running, no partial outcome estimate. | **PENDING** |
+| S04 · B, shared advisor sample | 10 games, 5 seed blocks. Pair output r4–12: independent **5.422**, shared **4.911**; difference **-0.511 [-1.222, +0.122]** units/firm. | **ODD / UNINFORMATIVE** |
 
-**S04 running:** seller prompts hide shared identity; both arms sample two advisor responses per round. Low routable advice variation will yield UNINFORMATIVE. This tests common sampling, not a persistent strategic hub.
+**S04:** routable advice disagreement **17.8%** in r4–12, **28.3%** all rounds. This fails the prespecified exposure screening convention (<25%), which is not a calibrated power threshold. Pair-profit difference +3.367 [+0.322, +5.444]; paired t interval [-0.838, +7.571] spans zero. The unadvised outsider output difference is -0.533, similar to the pair. These descriptive outcomes do not establish pair-specific restraint, a null effect or collusion. Early advice and subsequent public-history divergence may affect later behavior. [Full S04 results and limitations](REPORT_DETAILS.md#s04--shared-public-information-advisor).
 
 **S01:** digits are determined by integer prices: nonlinear prediction gains
 cannot identify intentional coding or rule out signaling. Bootstrap omits

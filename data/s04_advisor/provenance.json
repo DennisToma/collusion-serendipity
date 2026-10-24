@@ -1,0 +1,17 @@
+{
+  "pilot": "S04",
+  "implementation_origin": "S02 Cournot adapter and cache, themselves copied/adapted from Q1.4",
+  "sibling_original": "/home/factory/collusion/collusion-14-infotheory",
+  "sibling_original_commit": "9f06b8e132f03b83fcf592d106f53f1bf3fb220d",
+  "reuse": {
+    "cournot": "payoffs/system_prompt/strict action parser from sim/cournot.py",
+    "cache": "Cache from sim/common.py",
+    "analysis": "summarize bootstrap helper from scripts/s02_analyze.py"
+  },
+  "new": "sim/advisor.py samples and routes advice; scripts/s04_analyze.py validates and computes fixed contrasts",
+  "source_hash_locations": [
+    "data/s04_advisor/config.json",
+    "logs/s04_analysis_freeze.json"
+  ],
+  "sibling_policy": "Read only; no sibling files modified"
+}

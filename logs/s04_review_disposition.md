@@ -28,7 +28,34 @@ recorded in DESIGN_S04.md and registration commit 3f75341.
 
 ## Final claims
 
-Pending full-arm completion and independent review. No hit promoted.
+Complete: [Codex final review](s04_final_codex.md) and [Opus final review](s04_final_opus.md) both returned successful independent reviews and confirmed the numerical results and UNINFORMATIVE screen. No hit promoted.
+
+Accepted final corrections:
+- Replaced the unsupported phrase "cannot test a substantive effect" with failure
+  of the prespecified screening convention; 25% is not calibrated power.
+- Added prespecified all-round routable variation (34/120) alongside the primary
+  window (16/90); neither window nor the gate was changed after outcomes.
+- Added paired t intervals to every secondary table row and the front-page
+  profit statement. Bootstrap-only positive bounds do not establish a gain.
+- Added the unadvised outsider quantity contrast and explicit caution against a
+  pair-specific restraint claim.
+- Explained that late endogenous histories may reflect early routing. Low
+  late exposure does not exonerate common-advisor regimes or invalidate the
+  assignment; inference still requires the documented exchangeability caveat.
+- PLAN's allowed queue verdict is ODD (uninformative), with UNINFORMATIVE retained
+  as the frozen evidence-screen class in the JSON.
+
+Not adopted as causal conclusions: Opus suggested that high adoption "mostly
+reflects" common policy and that trajectories drift "not from routing". Neither
+mechanism is identified. Unshown-advice agreement supports common policy as an
+alternative, while early routing can itself cause subsequent history divergence.
+The report states these limits without assigning the mechanism. No new
+significance test, tuned window, prompt change, or post-outcome verdict change.
+
+Review access: Opus received the report/design/results/verification as text and
+could not open the review disposition. It exists and is linked here. Codex read
+repo artifacts directly. Both were run independently without reading each other's
+final critiques. No unavailable review is counted as completed.
 
 ## Implementation review, before complete outcomes
 
