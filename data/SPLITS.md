@@ -25,3 +25,7 @@ S14: five fresh time-matched blocks24200..24204; ten exploratory procurement gam
 Seed/arm/window were registered in6a4d83e before calls; zero tuning, no locked-test
 claim and no pooling with Cournot pilots. Any confirmation needs fresh registered
 seeds. Pair identity is seeded; API sampling draws are not experimentally seeded.
+
+S16: five fresh time-matched blocks24240..24244; ten exploratory procurement games,
+self versus shared notes. All seed/arm/window/rule choices frozen before calls;
+zero tuning, no held-out claim, no pooling with S14. Confirmation needs fresh seeds.

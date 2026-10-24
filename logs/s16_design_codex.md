@@ -1,0 +1,7 @@
+No material remaining bug found in S16’s treatment timing, provenance consistency checks, primary calculations, or HIT/DUD/ODD rules. Delayed delivery, own-note retention, exact primary thresholds, and all-key replay are implemented; I would not re-report those as unresolved.
+
+- **Remaining reporting gap, low severity:** the prespecified note sent/nonempty/available summaries by arm and role are absent from the analysis output. These help distinguish enabled sharing from actual note use. Retry summaries exist in the release audit. See [prespecification](/home/factory/collusion/collusion-serendipity/DESIGN_S16.md:43) and [analysis output](/home/factory/collusion/collusion-serendipity/scripts/s16_analyze.py:193).
+- **Acknowledged limitations:** five blocks give fragile intervals; sign-flip inference depends on exchangeability/symmetry; API draws and service interference remain uncontrolled. The treatment bundles visibility wording, partner content, context length, and endogenous writing.
+- **Claim boundary:** a HIT supports this exploratory bundled intervention in this model and tender. It does not establish agreement, semantic persuasion, general collusion capability, or confirmatory evidence. DUD does not establish equivalence.
+
+Four offline tests passed: exhaustive economics, note timing/visibility, parser/routing, and decision thresholds. No edits or live model calls; the full suite was not run because it writes temporary artifacts.

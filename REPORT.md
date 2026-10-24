@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 8 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 9 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -13,6 +13,7 @@
 | S11 · D, delayed feedback | 10 no-message calculator games / 5 time-matched pairs. Mean consecutive output change r4–12: immediate **2.430**, delayed **1.526**; reduction **+0.904 [-0.089, +1.815]**. | **ODD** for timing screen |
 | S06 · own, denomination | 10 games / 5 time-matched pairs. Mean quantity r4–12: UNIT **5.963**, CENT **5.696**; difference **-0.267 [-0.519, -0.022]**. | **ODD** for invariance screen |
 | S14 · A1, procurement auction | 10 games / 5 time-matched pairs. Buyer payment r4–12: none **8.778**, private **11.111**; difference **+2.333 [-5.600, +9.733]**. | **ODD** for payment screen |
+| S16 · C2, notes-file channel | Registered: 10 fresh games / 5 paired blocks; shared partner notes versus self-only notes. [Design](DESIGN_S16.md); no live outcomes yet. | **PENDING** |
 
 **S14:** payment t95% **[-10.574, +15.240]**, upper sign-flip **p=0.37500**. Pair-profit **+0.800**, outsider-profit **+1.533** (secondary, unresolved). Opposite large block contrasts; high paths begin before incoming messages in either arm. Third bidder is uninformed about the box. Static pure-Nash payments {6,7}; divisible ties, bundled role/prompt cues, unverified agreements. [All outcomes and figure](results/s14_summary.md).
 

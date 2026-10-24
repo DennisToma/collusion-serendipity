@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T19:31:30.372695+00:00; Phase2, iteration8 COMPLETE)
-- S14 A1 procurement ODD:10 fresh games/5 time-matched pairs; no HIT or sibling headline change.
-- Buyer payment private−none +2.333333[-5.600000,+9.733333];t[-10.573736,+15.240403];upper p=.375.
-- Block sums[99,0,117,-117,6]/9; pair-profit+.800, outsider-profit+1.533 (unresolved secondaries).
-- High paths begin before incoming messages in both arms; no message/initial-cue mechanism claim.
-- All376 responses/360 decisions;16 overlong-reasoning retries(8/8), zero failures; last call19:23:04.
-- Mandatory exact all-key/request/source/registration/export/payoff replay and cached resume PASS.
-- Independent270 cells/27 bootstrap/9 t/32 signs,376 histories/inboxes and overlap/barrier checks PASS.
-- Full3125 empirical upper10 differs from frozen10k upper9.733; disclosed, unchanged ODD.
-- Both final critics exit0; findings disposed;14 scientific sources/result SHA ecba9a8f unchanged.
-- Pushed full results3bcdbd5; clean clone passes9 protocol checks and5 byte-identical outputs.
-- All89 repo tests PASS; REPORT/HITS/ledgers current; no generation/review process remains.
-- Next:different axis after A; favor C2 shared notes or B entry over immediate selected confirmation.
-- Risks:n5,large block heterogeneity,bundled role/box cues,divisible ties,shared backend/client provenance.
+## Current state (2026-10-24T19:37:35.847362+00:00; Phase2, iteration9 IN PROGRESS)
+- Selected S16 C2 after A1: shared partner notes versus author-only notes in procurement.
+- Ten fresh games/five blocks24240..24244 planned; T12, zero tuning, no pooling.
+- Both arms name pair, permit writing and replay own notes; shared adds partner access.
+- Logical append/snapshot harness, not external filesystem-tool evaluation.
+- Registered primary payment shared−self r4–12; unchanged directional HIT/DUD screen.
+- Ten S16 protocol tests/full dry replay/independent270-cell statistics checks PASS.
+- Independent saved-snapshot dry audit and3375-profile/44-equilibrium enumeration PASS.
+- Both methodology critics exit0; all findings disposed;99 repository tests PASS.
+- Checkpoint REPORT remains presentable with S16 explicitly pending; S14 ODD unchanged.
+- Next:freeze/push16 scientific sources, run at most10 games, verify and publish.
+- Risks:n5,access wording/content/context bundled,shared backend,divisible ties,no truth labels.
 
 ## Log
 
@@ -118,3 +116,7 @@
 - 2026-10-24T19:30:02.462969+00:00: both final critics exit0 confirm all reported S14 primary numbers and unchanged ODD. Codex independently verifies270 raw cells/27 bootstrap/9 t/all32 signs/44 equilibria/376 requests; Opus hand-checks supplied means/t/sign/conservation/counts without raw/shell/bootstrap-stream access. Accepted explicit pre-inbox high starts (all10 first-round values shown as posthoc timing illustration), related profit-gate/outsider-profit interpretation and uninformed-outsider caveats. Declined unverified tacit-coordination/initial-cue mechanism attribution. No scientific source/estimator/rule change; result SHA ecba9a8f unchanged. Full local release PASS and89 repo tests PASS; clean-clone requirement remains explicitly pending until artifacts committed/pushed. No active generation/review processes or further scientific calls.
 
 - 2026-10-24T19:31:30.372695+00:00: iteration8 COMPLETE. Source freeze6a4d83e/results3bcdbd5 committed/pushed. Clean clone of full results commit passes9 protocol checks/full offline release and regenerates5 artifacts byte-for-byte (scientific result,summary,figure,independent audit,REPORT);52 local document links at that audit. All89 discovered repo tests PASS. Both final critics fully disposed,14 scientific source hashes and result SHA ecba9a8f unchanged. Final handoff documents/ledger result reference updated; no new game, estimator tuning, excluded outcome, pooling, secondary promotion or sibling write. No active scientific/review process. Next pilot must select a different axis; keep checkpoint artifacts presentable and avoid selecting a confirmation from the large positive mean alone.
+
+- 2026-10-24T19:37:35.847362+00:00: iteration9 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Selected different axis C2 after S14 A: fresh S16 author-only versus shared notes, holding designated pair and own-note persistence in both arms. Registered design/ledger before calls. Reused archived tender harness without modifying S14 files. Nine S16 tests/full dry replay/independent270 cells,27 bootstrap,9 t,32 signs and saved-snapshot audit PASS; exhaustive economics unchanged. Both methodology critics requested; no scientific call or live outcome inspection. No direction deviation.
+
+- 2026-10-24T19:40:10.520865+00:00: S16 Codex/Opus methodology reviews exit0 before calls. Fixed ambiguous partner-reader sentence; froze note/retry descriptives with independent reconstruction; added launch source/chronology/ancestry and exact environment guards. Retained explicit near-cutoff timestamp race fail-closed limitation; no shared historical source edits.10 S16 tests and99 repository tests PASS; independent saved-snapshot audit PASS.16 scientific sources prepared for freeze/push; no live calls or outcome inspection.
