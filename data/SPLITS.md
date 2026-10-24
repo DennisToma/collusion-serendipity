@@ -47,3 +47,8 @@ tuning, no held-out claim or pooling. DESIGN_S19.md frozen before all live calls
 S21: ten post-outcome-selected S19 challenge cases (one/game), five source seed
 blocks24320..24324. Three frozen auditor views; zero tuning and no held-out or
 population-prevalence claim. All four adverse actions intentionally retained.
+
+S22: five fresh paired blocks24360..24364; ten shared-note neutral-label workplace
+games, certain3 versus probability1/4 charge12; T10, primary r3..10. All
+exploratory, zero tuning, no held-out claim or pooling. Audit/type schedules,
+expected-score profit gate and all outcomes frozen before live calls.

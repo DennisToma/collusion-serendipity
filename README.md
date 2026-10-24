@@ -456,3 +456,22 @@ checks). The frozen `s21_independent.py` is the arithmetic checker and must be
 used with protocol validation. Explanations retain embedded payoff amounts and
 reciprocity claims; only separate payout/history fields are omitted. The term
 confident error means a wrong non-null answer, without elicited probability.
+
+## S22: expected sanctions, uncertain enforcement
+
+[Design](DESIGN_S22.md): fresh ten-game workplace pilot, certain3 versus a25%
+chance of charge12, neutral labels/shared notes both arms. Same expected reviewer
+payoff; risk, wording and realized history bundled. No agreement labels.
+Source freeze and remote receipt precede the one-shot live launcher; do not rerun
+live generation after an interrupted attempt. Complete archives reproduce with:
+
+```sh
+uv run python scripts/s22_analyze.py
+uv run python scripts/s22_checked_independent.py
+uv run python scripts/s22_present.py
+uv run python scripts/s22_release.py
+uv run python -m unittest scripts.test_s22 scripts.test_s22_publication
+```
+
+Dry synthetic generation uses `uv run python -m sim.enforcement --dry --out
+/var/tmp/s22_synthetic`; analysis requires `--allow-dry` and a noncanonical output.

@@ -1,0 +1,15 @@
+Reviewed all seven requested files. Read-only inspection; no edits, tests that write artifacts, or live model calls.
+
+Three remaining bugs:
+
+- **Medium — Runtime headroom can expire before launch.** [s22_launch.py:43](/home/factory/collusion/collusion-serendipity/scripts/s22_launch.py:43) checks remaining time before network/git operations. [enforcement.py:311](/home/factory/collusion/collusion-serendipity/sim/enforcement.py:311) accepts an existing receipt without rechecking headroom or requiring freshness. A delayed launch can therefore start despite violating the prespecified runtime gate. **Remedy:** recompute remaining headroom immediately before the first uncached request and validate the recorded runtime precheck during analysis.
+
+- **Medium — Source freezing is checked at snapshots, not throughout execution.** [enforcement.py:299](/home/factory/collusion/collusion-serendipity/sim/enforcement.py:299) hashes sources once; the execution loop never rechecks them. Analysis checks their later contents. A source change followed by restoration can escape detection; modules imported before hashing can also differ from the files recorded in the manifest. **Remedy:** launch a fresh interpreter from an immutable registered checkout and verify its manifest before dispatch and completion. Treat any mismatch as terminal.
+
+- **Medium — Transport failure does not immediately stop request admission.** [enforcement.py:87](/home/factory/collusion/collusion-serendipity/sim/enforcement.py:87) acquires the cache lock and writes the failure journal before setting `abort`. The partner thread can start another uncached call during that interval. The separate abort checks also race with dispatch. **Remedy:** set the terminal event immediately on catching failure, then synchronize request admission with terminal-state transitions. Add a deterministic concurrency test. Existing failure markers still prevent publication, so this concerns stopping guarantees and unnecessary calls, rather than demonstrated selection bias.
+
+I found no arithmetic defect in the reviewed economics or statistics: reviewer expectations are −2; reciprocal adverse approvals yield expected +4 each; balanced schedules support the stated denominators; bootstrap interpolation, inclusive sign flips, expected-score repricing and HIT/DUD ordering match the design. Prompts expose authoritative current types and completed history; current decisions and notes remain hidden until round completion. Replay reconstructs requests and consumes every cache key, with live calls blocked.
+
+**Acknowledged limitations, separate from bugs:** five exploratory blocks, degenerate empirical intervals, directional screening, unverified sign-flip assumptions under service interference, bundled risk/wording/history effects, unequal realized sanctions, and no evidence establishing reciprocal intent. The expected-score gate is mechanically related to actions and does not independently establish welfare or counterfactual policy value. These limits are already stated appropriately.
+
+These are implementation gaps identified by inspection, not evidence that a recorded S22 run encountered them.

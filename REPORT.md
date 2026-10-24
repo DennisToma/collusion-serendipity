@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 12 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 13 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -17,6 +17,7 @@
 | S18 · A4, workplace review | 10 games / 5 blocks. Partner FAIL approval rate r3–10: self **0.000**, shared **0.000**; difference **0.000 [0.000, 0.000]** (degenerate). | **DUD** for directional screen |
 | S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
 | S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
+| S22 · D, stochastic enforcement | Registered: ten fresh workplace games; certain3 versus25% charge12 at identical expected sanction. No live result yet. | **PENDING** |
 
 <!-- S21 summary start -->
 **S21:** action/both correct **10/10** / **10/10**; explanation-only **0/10** correct, **0/10** confident errors, **10/10** abstentions. Source-priority instructions and enriched post-outcome case selection limit this to factual action reading; no intent/agreement labels or population error bound. Primary upper sign-flip p=1.00000. [All views, uncertainty and figure](results/s21_summary.md).
