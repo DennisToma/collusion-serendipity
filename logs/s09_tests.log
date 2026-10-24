@@ -1,0 +1,26 @@
+test_all_prefixes_fixed (scripts.test_s09.Protocol.test_all_prefixes_fixed) ... ok
+test_cache_refuses_torn_append_before_recovery (scripts.test_s09.Protocol.test_cache_refuses_torn_append_before_recovery) ... ok
+test_codex_invocation_is_fresh_readonly_and_direct (scripts.test_s09.Protocol.test_codex_invocation_is_fresh_readonly_and_direct) ... ok
+test_dry_calls_only_suffix_and_next_round_delivery (scripts.test_s09.Protocol.test_dry_calls_only_suffix_and_next_round_delivery) ... s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+ok
+test_exact_boundaries (scripts.test_s09.Protocol.test_exact_boundaries) ... ok
+test_new_messages_survive_and_own_do_not_echo (scripts.test_s09.Protocol.test_new_messages_survive_and_own_do_not_echo) ... ok
+test_only_inbox_differs (scripts.test_s09.Protocol.test_only_inbox_differs) ... ok
+test_terminal_abort_blocks_uncached_partner (scripts.test_s09.Protocol.test_terminal_abort_blocks_uncached_partner) ... ok
+test_dry_default_generation_rejected (scripts.test_s09.Publication.test_dry_default_generation_rejected) ... ok
+test_dry_default_publication_rejected (scripts.test_s09.Publication.test_dry_default_publication_rejected) ... ok
+test_dry_not_published (scripts.test_s09.Publication.test_dry_not_published) ... ok
+test_duplicate_key_rejected (scripts.test_s09.Publication.test_duplicate_key_rejected) ... ok
+test_export_mutation_rejected (scripts.test_s09.Publication.test_export_mutation_rejected) ... ok
+test_failure_marker_blocks_analysis_and_resume (scripts.test_s09.Publication.test_failure_marker_blocks_analysis_and_resume) ... ok
+test_missing_game_rejected (scripts.test_s09.Publication.test_missing_game_rejected) ... ok
+test_mutated_action_rejected (scripts.test_s09.Publication.test_mutated_action_rejected) ... ok
+test_raw_mutation_rejected (scripts.test_s09.Publication.test_raw_mutation_rejected) ... ok
+test_source_manifest_rejected (scripts.test_s09.Publication.test_source_manifest_rejected) ... ok
+test_torn_cache_recovery_rejected (scripts.test_s09.Publication.test_torn_cache_recovery_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.423s
+
+OK

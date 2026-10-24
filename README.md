@@ -186,3 +186,25 @@ correction record. It changes no estimate or verdict. It updates S07 in the
 existing one-page report; after regenerating older results with
 `s03_present.py`, run `s07_present.py` again. Incomplete raw files are refused
 before cache recovery; preserve damaged evidence before any generator resume.
+
+### S09 counterfactual message-memory replay
+
+All five original neutral S07 prefixes are extracted deterministically by
+`scripts/s09_snapshot.py`. Continue from round7 with prior received transcripts
+retained or erased for both pair members, with new messages delivered normally:
+
+```bash
+TMPDIR=/var/tmp uv run python -m sim.replay --out data/s09_replay
+uv run python scripts/s09_analyze.py
+uv run python scripts/s09_independent.py
+uv run python scripts/s09_present.py
+uv run python -m unittest scripts.test_s09 -v
+```
+
+Existing caches permit complete offline resume/replay. Raw cache keys and full
+requests are retained; the analyzer prohibits uncached model calls. Source and
+registration hashes, original prefix identity, all attempts, exports and payoffs
+are verified before writing results. `--dry` requires a separate `--out` directory;
+analysis of dry data needs `--allow-dry` and a separate result destination.
+A terminal failure or torn cache append stops the pilot without replacement.
+See [DESIGN_S09.md](DESIGN_S09.md) for the exact prospective screen and limitations.

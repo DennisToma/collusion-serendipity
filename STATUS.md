@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24 17:04 UTC; Phase2, iteration4 complete)
-- S01 DUD; S02 ODD; S04 ODD/UNINFORMATIVE; S03 DUD; S07 F DUD for predicted increase. No HIT.
-- S07: ten T12 games/5 fresh blocks;378 cached calls,18 retries (neutral6/legality12), no failed game.
-- Pair output legality-neutral -0.956[-2.889,+0.267] descriptive bootstrap; t[-3.592,+1.681]; upper sign-flip p=.8125.
-- Nonempty message slots0/120 legality vs120/120 neutral, all12 rounds/5 games per arm; no secondary HIT.
-- Neutral5.8 near Nash6; +1 HIT target6.8. Dominant posthoc block has market-wide low output; no exclusion.
-- Full cache/key/export/primary/payoff checks PASS; canonical result byte-identical; frozen source/commit hashes match.
-- Separate arithmetic: all210 metric/window cells,21 bootstrap intervals,7 paired-t intervals and exact DUD match.
-- Pre-run30 tests +3 post-run guard regressions PASS; both Codex/Opus design AND final reviews complete; figure inspected.
-- Guarded publication/resume rejects terminal failures, live-verification bypass and invalid registration/config; no scientific change.
-- S02 own-message echo caveat added; old data/estimates unchanged. Checker correction/timing and critic errata retained.
-- Next: cover D/E before deepening. Own S05/S06/S08 queued; no active generation/review process.
-- Risks: n5/outlier, cue/retry bundling, API identity/sampling, no OS isolation or agreement/execution truth labels.
+## Current state (2026-10-24 17:18 UTC; Phase2, iteration5 registration)
+- Prior pilots S01/S03/S07 DUD; S02 ODD; S04 ODD/UNINFORMATIVE. No HIT.
+- S09 axis E registered: fork all five S07-neutral games after r6; erase vs retain prior inbox.
+- Ten six-round continuations; future boxes open in both; 180 valid decisions, pinned codex/gpt-6-luna.
+- Primary erase-retain pair output r7-12; exact +1/bootstrap/sign-flip screen; no collusion label.
+- 19 protocol/publication tests and full dry cache-only replay PASS; independent210-cell stats check PASS.
+- Opus design review complete; first Codex timed out on transport; partial tests retained, retry running.
+- Public prefix imprint/new-message repair and n5 limit causal scope; existing prefixes were observed.
+- Logical-call deadline17:48 UTC; freeze and push sources before live run; two concurrent games.
+- Next: complete S09, verify, review final claims; D is then the sole uncovered axis.
+- Own S05/S06/S08/S10 queued; no deviation from director queue.
 
 ## Log
 
@@ -63,3 +61,7 @@
 - 2026-10-24T17:00:58.389876+00:00: complete S07 artifacts ready for milestone push: guarded publication and release audits PASS, all frozen sources match registration commit, every dataset/result byte unchanged after cached resume, last call16:45:39.639 before cutoff. Local document/figure links resolve; repo7.5MB excluding env/git. Final Codex review accepted; final Opus stdin retry remains running. No active generation and no further scientific calls.
 
 - 2026-10-24T17:04:41.072841+00:00: S07 scientific artifacts committed/pushed as b30edb1. Final Opus stdin retry confirms unchanged DUD/numbers; accepted headroom, realized channel-use/mediation, outsider collapse, count-window, sign-flip/degenerate-interval and no-trade-price clarifications. Rejected critic overstatements (no price clamp globally; low profits proving no attempted coordination; static Nash universally best response); source diagnostic confirms round2 total32/price0. Both final critics complete; final dispositions retained. No new scientific calls, exclusions, tuning, HIT or sibling headline change. Final ledger result reference set to b30edb1; guarded/source/byte verification remains PASS. D/E next.
+
+- 2026-10-24T17:10 UTC: iteration5 read rules/state/direction/ledger and both sibling summaries. Selected S09 E counterfactual-message-memory ablation using all five neutral S07 prefixes, no selection or original-suffix pooling. Registered ten r7-12 continuations and queued own S10 public-history-imprint idea. Full dry replay, 19 fail-closed protocol/publication tests and independent210-cell/22-bootstrap/7-t arithmetic checks PASS. Codex+Opus design reviews running before live calls. No direction deviation.
+
+- 2026-10-24T17:18:14.419293+00:00: S09 prospective review fixes complete: original-source extraction identity, dry destination guards, joint transcript-removal scope, explicit strict n5 screen, reverse-screen ODD clarification, sent/fork metric windows, outsider fork diagnostic, temporary-directory invocation canary, torn-cache refusal and partner abort. Opus design review complete; Codex first attempt timed out480s on transport after independently demonstrating two now-fixed guards; full partial audit retained, bounded retry running. All19 new tests and52 discovered repo tests PASS; full dry replay/independent210-cell/22-bootstrap/7-t checks PASS. No live S09 calls or S09 outcome inspection.

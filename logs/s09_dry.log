@@ -1,0 +1,73 @@
+s09_24080_erase complete 18 calls
+s09_24080_retain complete 18 calls
+s09_24081_erase complete 18 calls
+s09_24081_retain complete 18 calls
+s09_24082_retain complete 18 calls
+s09_24082_erase complete 18 calls
+s09_24083_retain complete 18 calls
+s09_24083_erase complete 18 calls
+s09_24084_erase complete 18 calls
+s09_24084_retain complete 18 calls
+S09 all ten games and exports complete
+{
+  "pilot": "S09",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "7..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": true,
+  "cached_responses": 180,
+  "retries_by_arm": {
+    "retain": 0,
+    "erase": 0
+  },
+  "fork_quantity_difference": {
+    "mean": 1.0,
+    "ci95": [
+      -2.9,
+      5.8
+    ]
+  },
+  "fork_seed_differences": [
+    9.0,
+    -4.5,
+    -2.0,
+    -1.5,
+    4.0
+  ],
+  "fork_outsider_seed_differences": [
+    0.0,
+    7.0,
+    -12.0,
+    9.0,
+    0.0
+  ],
+  "fork_outsider_mean_difference": 0.8,
+  "fork_mean_absolute_difference": 4.2,
+  "prefix_nonempty_message_slots": {
+    "24080": 12,
+    "24081": 12,
+    "24082": 12,
+    "24083": 12,
+    "24084": 12
+  },
+  "verification": {
+    "cache_only_replay": true,
+    "all_keys_consumed_once": true,
+    "exports_match": true,
+    "source_and_registration_match": true
+  },
+  "limitations": [
+    "n5 exploratory previously observed prefixes; not independent replication",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Public history retains earlier message imprint; future messages may restore memory",
+    "Empty-inbox cue and message semantics not separated",
+    "No independently verified agreement/execution labels or collusion claim",
+    "API seeds/temperature uncontrolled; model labels not independent attestation",
+    "Logical-call cutoff does not bound internal transport retries"
+  ]
+}
+Primary: {'mean': 0.050000000000000176, 'ci95': [-1.1666666666666665, 1.4833333333333336], 'paired_t_ci95': [-2.0215084033167097, 2.12150840331671], 'exact_signflip_p_upper': 0.46875, 'exact_signflip_p_lower': 0.5625}

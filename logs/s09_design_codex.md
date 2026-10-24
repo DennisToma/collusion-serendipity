@@ -1,0 +1,1 @@
+UNAVAILABLE: first design reviewer timed out at480s after websocket403/HTTPS retry. Partial independent tests retained in s09_design_codex_partial.log; two discovered guard issues fixed before live calls. Retry requested.

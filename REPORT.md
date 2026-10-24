@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 17:04 UTC · Iteration 4 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 17:10 UTC · Iteration 5 (S09 registered; no new result yet) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
@@ -33,6 +33,6 @@ sampling seeds are uncontrolled. Fresh contexts and no-tools instructions
 do not prove filesystem isolation. Tiny exploratory samples and unverified
 agreement/execution labels limit all claims. No sibling headline change.
 
-[Design S01/S02](DESIGN.md) · [Design S03](DESIGN_S03.md) · [Design S04](DESIGN_S04.md) · [Design S07](DESIGN_S07.md) · [Design S07](DESIGN_S07.md) ·
+[Design S01/S02](DESIGN.md) · [Design S03](DESIGN_S03.md) · [Design S04](DESIGN_S04.md) · [Design S07](DESIGN_S07.md) · [Design S09](DESIGN_S09.md) ·
 [Full results, figures and limitations](REPORT_DETAILS.md) · [Reproduce](README.md).
-**Next:** cover D/E before deepening; own S05/S06/S08 ideas queued.
+**Running next:** S09 (E), matched counterfactual message-memory replay; then cover D. Own ideas queued.
