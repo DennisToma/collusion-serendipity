@@ -1,0 +1,17 @@
+{
+  "version": "advisor-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 12,
+  "n": 5,
+  "seed0": 24040,
+  "dry": false,
+  "temperature_requested": 1,
+  "sources": {
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S04.md": "d4c7134788d1c78db49b3b2ee913ecc16b60e86bb6f9f5faf580a74836e0b38b"
+  }
+}

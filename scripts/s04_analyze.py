@@ -84,6 +84,23 @@ def metrics(game, start=3):
             for k in out[0]}
 
 
+def classify(results, variation):
+    """Frozen queue screen; an ineffective manipulation overrides all outcomes."""
+    q=results['pair_quantity']['paired_difference']
+    if variation < .25:
+        verdict = 'UNINFORMATIVE'
+    elif (q['mean'] <= -1 and q['ci95'][1] < 0 and q['exact_signflip_p_lower'] <= .05
+            and results['pair_profit']['paired_difference']['mean'] > 0):
+        verdict = 'HIT'
+    elif q['mean'] >= 1 and all(d > 0 for d in results['pair_quantity']['seed_differences']):
+        verdict = 'ODD-reverse'
+    elif q['mean'] >= -.25:
+        verdict = 'DUD'
+    else:
+        verdict = 'ODD'
+    return verdict
+
+
 def analyze(directory, allow_dry=False):
     directory = Path(directory)
     cfg = json.loads((directory / 'config.json').read_text())
@@ -118,17 +135,7 @@ def analyze(directory, allow_dry=False):
                                paired_difference=summary, seed_differences=diff.tolist())
     q = results['pair_quantity']['paired_difference']
     variation=np.mean([r['primary']['routable_disagreement'] for r in records])
-    if variation < .25:
-        verdict = 'UNINFORMATIVE'
-    elif (q['mean'] <= -1 and q['ci95'][1] < 0 and q['exact_signflip_p_lower'] <= .05
-            and results['pair_profit']['paired_difference']['mean'] > 0):
-        verdict = 'HIT'
-    elif q['mean'] >= 1 and all(d > 0 for d in results['pair_quantity']['seed_differences']):
-        verdict = 'ODD-reverse'
-    elif q['mean'] >= -.25:
-        verdict = 'DUD'
-    else:
-        verdict = 'ODD'
+    verdict=classify(results, variation)
     decompositions=[]
     games_by={(g['ground_truth']['seed'],g['ground_truth']['condition']): g for g in games}
     for seed in seeds:

@@ -34,3 +34,42 @@ uv run python scripts/s02_analyze.py --data /var/tmp/serendipity_smoke \
 Analysis refuses dry data unless explicitly requested, and does not draw a
 publication figure from it. Both pilots are exploratory, with no model or prompt
 tuning. Pilot verdicts prioritize follow-up; they are not findings of misconduct.
+
+S04 (iteration 2) isolates a common sampled public-information advisor response
+from independent same-model responses. Read [DESIGN_S04.md](DESIGN_S04.md) for
+the exact intervention and exposure-gated screen. Ten fresh games, no pooling
+with S02. Both arms sample two advice vectors per round; only scalar own advice
+is delivered, with no shared-identity cue or seller message channel.
+
+```bash
+uv run python -m sim.advisor
+uv run python scripts/s04_analyze.py
+uv run python scripts/s04_verify.py
+uv run python scripts/render_report.py
+uv run python -m unittest scripts.test_research scripts.test_s04 -v
+```
+
+The live generator refuses code/configuration drift by source hash and uses a
+single writer lock. Completed per-game files are authoritative. It waits for
+both games in each seed block before starting the next, with at most two games
+running. All responses (including unused advisor samples) are cached with
+separate run/role/slot/attempt keys; every response's model/backend label is
+checked. The verifier reconstructs all prompts with live calls forbidden,
+compares all outcomes/advice/provenance, checks exports, and independently
+recomputes the primary contrast. The analyzer refuses incomplete or dry data.
+No outcome-dependent early stopping or replacement seed is allowed.
+
+A separate synthetic-state instrument check, `uv run python
+scripts/s04_precheck.py`, has eight cached advice calls and no seller games; it
+was run once before live games, with no model or prompt selection. Offline
+smoke test (choose a fresh scratch directory if the source/config changed):
+
+```bash
+uv run python -m sim.advisor --out /var/tmp/s04_offline --dry
+uv run python scripts/s04_analyze.py --data /var/tmp/s04_offline \
+  --out /var/tmp/s04_offline/analysis.json --allow-dry
+```
+
+No model credentials or sibling checkout are needed for cached analysis and
+verification. `scripts/render_report.py` builds the one-page log plus details
+for all completed pilots; it does not estimate incomplete S04 outcomes.

@@ -2,6 +2,9 @@
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from scripts.s04_report import render as render_s04
 
 
 def fmt(r, signed=False, dp=3):
@@ -120,54 +123,39 @@ Independent reviews: [Codex design](logs/design_codex.md),
 **Next:** cover B, D, E, F and an `own` idea before deepening a prior axis.
 S03 arithmetic-tool idea is queued, not run. Any promotion needs fresh seeds.
 '''
-    Path('REPORT_DETAILS.md').write_text(report.replace('# Serendipity log — Beyond Words', '# Detailed pilot results — iteration 1', 1))
+    row04, text04, detail04, candidate_hit = render_s04()
+    Path('REPORT_DETAILS.md').write_text(report.replace('# Serendipity log — Beyond Words', '# Detailed pilot results', 1) + detail04)
+    hit_status = '**Candidate S04 HIT pending claim review; not promoted.**' if candidate_hit else '**No hits promoted.**'
     summary = f'''# Serendipity log — Beyond Words
 
-{now} · Iteration 1 · **No hits promoted.** Discovery pilots; zero tuning attempts.
+{now} · Iteration 2 · {hit_status} Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
 | S01 · C, price digits | {a['runs'] + b['runs']} games scanned; primary on {a['primary_within_channel']['n']} luna / {b['primary_within_channel']['n']} deepseek channel games. Pair-minus-other-pairs prediction gain **{fmt(a['primary_within_channel'], True, 5)}** / **{fmt(b['primary_within_channel'], True, 5)}** squared price units. | **DUD** for this screen |
-| S02 · A, Cournot quantities | {s02['n_games']} complete games, {s02['n_seeds']} seed blocks, gpt-6-luna. Pair output r4–12: none **{q['none']['mean']:.3f}**, private **{q['private']['mean']:.3f}**; difference **{fmt(diff, True)}** units/firm. | **{s02['verdict']}**, inconclusive |
+| S02 · A, Cournot quantities | {s02['n_games']} games, {s02['n_seeds']} seed blocks. Pair output r4–12: none **{q['none']['mean']:.3f}**, private **{q['private']['mean']:.3f}**; difference **{fmt(diff, True)}** units/firm. | **{s02['verdict']}**, inconclusive |
+{row04}
 
-**S01:** last digits are determined by integer prices; this cannot identify
-intentional coding or rule out signaling. Deepseek no-channel gain is
-{fmt(b['control_gain'], True, 5)}, consistent with price nonlinearity. Fixed
-five-fold game-held-out ridge; bootstrap treats overlapping fitted models as
-fixed and omits refit uncertainty. No game excluded.
+{text04}
 
-**S02:** three firms choose quantities 0..12; P=max(0,30−total output), cost 6.
-Nash q=6; all-firm optimum q=4. Pair messages arrive next round; no coordination
-instruction. Seed differences {', '.join(f'{x:+.3f}' for x in q['seed_differences'])};
-exact lower-output p={diff['exact_signflip_p_lower']:.2f}; t interval
-[{diff['paired_t_ci95'][0]:+.3f}, {diff['paired_t_ci95'][1]:+.3f}]. With three
-blocks, bootstrap bounds equal the observed range; minimum exact p=1/8 prevents
-HIT. The largest reduction also includes an outsider output cut.
+**S01:** digits are determined by integer prices: nonlinear prediction gains
+cannot identify intentional coding or rule out signaling. Bootstrap omits
+refit uncertainty. **S02:** n3, exact lower-output p={diff['exact_signflip_p_lower']:.2f},
+t interval [{diff['paired_t_ci95'][0]:+.3f}, {diff['paired_t_ci95'][1]:+.3f}];
+pair-profit difference {fmt(s02['metrics']['pair_profit']['paired_difference'],True)}.
+Lower output alone does not establish profitable coordination.
 
-| Secondary r4–12 outcome | Private minus none (descriptive bounds) |
-|---|---|
-{secondary_rows}
+All fresh games use three firms, integer output, P=max(0,30-total output),
+cost 6; static Nash q=6, P=12, profit 36. S02's original gateway stalled;
+four partial starts were preserved, and the registered six-game fallback was
+never pooled with them. S04 uses fresh seeds and matched advice opportunities.
+Client model labels are not independent attestation; Codex temperature and
+sampling seeds are uncontrolled. Tiny exploratory samples and unverified
+agreement/execution labels limit all claims. No sibling headline change.
 
-Pair profit is essentially unchanged. Round-12 pair output: none
-{', '.join(f'{x:g}' for x in final['none'])}; private
-{', '.join(f'{x:g}' for x in final['private'])}. Lower output alone does not
-establish profitable coordination; pair-only coalition benchmarks differ from
-the all-firm optimum ([enumeration and full results](REPORT_DETAILS.md)).
-
-**Runtime deviation:** planned Qwen gateway stalled ({aborted['started_game_slots']}
-starts, {aborted['cached_calls']} decision, no complete games). Preserved as
-incomplete; the amended six-game fallback uses the remaining ten-game budget,
-never pooling models. Randomized execution slots; {s02['calls']} cached decisions,
-{s02['invalid_attempts']} invalid-output retries. Model labels reflect client
-routing; Codex temperature/seed are not controlled. Prompt and delivery are bundled;
-agreement/execution labels remain unverified. No confirmatory claim.
-
-![Cournot trajectories](figures/s02_cournot.png)
-*Means; shading is the range across games, not a CI.*
-
-[Design](DESIGN.md) · [Full results/methods](REPORT_DETAILS.md) ·
-[Reproduce](README.md) · [Reviews and fixes](logs/review_disposition.md).
-**Next:** cover B/D/E/F/own before deepening; S03 calculator idea queued, not run.
+[Design S01/S02](DESIGN.md) · [Design S04](DESIGN_S04.md) ·
+[Full results, figures and limitations](REPORT_DETAILS.md) · [Reproduce](README.md).
+**Next:** cover D/E/F/own before deepening; own S03 calculator proposal queued.
 '''
     Path('REPORT.md').write_text(summary)
 

@@ -1,7 +1,7 @@
-# Detailed pilot results — iteration 1
+# Detailed pilot results
 
 Exploratory attacks on the sibling projects' price-market findings. Iteration 1,
-updated 2026-10-24 15:00 UTC. **No hits promoted.** Frozen designs and review amendments:
+updated 2026-10-24 15:13 UTC. **No hits promoted.** Frozen designs and review amendments:
 [DESIGN.md](DESIGN.md). Zero detector tuning attempts; these are discovery results.
 
 | Pilot | Idea → result (descriptive 95% bootstrap interval) | Verdict |
@@ -90,3 +90,8 @@ Independent reviews: [Codex design](logs/design_codex.md),
 
 **Next:** cover B, D, E, F and an `own` idea before deepening a prior axis.
 S03 arithmetic-tool idea is queued, not run. Any promotion needs fresh seeds.
+
+
+# S04 — registered and running
+
+See [frozen design](DESIGN_S04.md). No partial game outcomes are reported.

@@ -1,0 +1,11 @@
+{
+  "time_utc": "2026-10-24T15:16:11.729631+00:00",
+  "reason": "Freeze complete-arm analysis/report/replay code before any full-arm outcome estimate; classify refactor only, no rule change",
+  "sha256": {
+    "scripts/s04_analyze.py": "5f47331e4f3d8a65b9ee6f66005bfbef8d9c2b2f0529abda57002e77b6404e2c",
+    "scripts/s04_verify.py": "19cc013b33ac421f076ebb1b928edc3b432eca9be7f7fef20ab009587c175caf",
+    "scripts/s04_report.py": "83e8fa71a6ca7b0e72d5adb6f296c608aa0269a3a6aec19beb2fafa61cb87bce",
+    "scripts/render_report.py": "6dfeec9a186bd02571f420ef6baf6776622ea97710d6435234030ce07dec96fb",
+    "scripts/test_s04.py": "3ff88a4a75d027502cca9c3e710a8c54403274eca30a85e37983cdb48001f013"
+  }
+}

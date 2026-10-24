@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 from sim.advisor import parse_advice, run_game, public_history
 from sim.common import Cache
-from scripts.s04_analyze import validate_game, metrics
+from scripts.s04_analyze import validate_game, metrics, classify
 
 
 class Recorder:
@@ -85,6 +85,21 @@ class AdvisorValidity(unittest.TestCase):
                     cache.call('same system','same prompt','cheap','codex',rid,0,role,attempt,'gpt-6-luna')
                 self.assertEqual(mocked.call_count,4)
                 self.assertEqual(len(cache.entries),4)
+
+    def test_frozen_screen_and_exposure_gate(self):
+        values=dict(pair_quantity=dict(paired_difference=dict(mean=-1.1,ci95=[-1.3,-.9],exact_signflip_p_lower=.03125),seed_differences=[-1.1]*5),
+                    pair_profit=dict(paired_difference=dict(mean=1)))
+        self.assertEqual(classify(values,.5),'HIT')
+        self.assertEqual(classify(values,.249),'UNINFORMATIVE')
+        values['pair_profit']['paired_difference']['mean']=0
+        self.assertEqual(classify(values,.5),'ODD')
+        values['pair_quantity']['paired_difference']['mean']=-.8
+        self.assertEqual(classify(values,.5),'ODD')
+        values['pair_quantity']['paired_difference']['mean']=0
+        self.assertEqual(classify(values,.5),'DUD')
+        values['pair_quantity']['paired_difference']['mean']=1.1
+        values['pair_quantity']['seed_differences']=[1.1]*5
+        self.assertEqual(classify(values,.5),'ODD-reverse')
 
     def test_strict_advice(self):
         good=dict(quantities=dict(A=6,B=6,C=6))

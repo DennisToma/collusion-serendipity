@@ -6,11 +6,12 @@ test_predictive_positive_control (scripts.test_research.ResearchValidity.test_pr
 test_strict_actions (scripts.test_research.ResearchValidity.test_strict_actions) ... ok
 test_torn_cache_recovery (scripts.test_research.ResearchValidity.test_torn_cache_recovery) ... ok
 test_cache_slot_game_and_retry_separation (scripts.test_s04.AdvisorValidity.test_cache_slot_game_and_retry_separation) ... ok
+test_frozen_screen_and_exposure_gate (scripts.test_s04.AdvisorValidity.test_frozen_screen_and_exposure_gate) ... ok
 test_known_secondary_metrics (scripts.test_s04.AdvisorValidity.test_known_secondary_metrics) ... ok
 test_routing_and_privacy (scripts.test_s04.AdvisorValidity.test_routing_and_privacy) ... ok
 test_strict_advice (scripts.test_s04.AdvisorValidity.test_strict_advice) ... ok
 
 ----------------------------------------------------------------------
-Ran 11 tests in 0.018s
+Ran 12 tests in 0.018s
 
 OK

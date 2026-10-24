@@ -7,8 +7,8 @@
 - Both arms sample two advisor responses/round; scalar own advice only; prompts blinded to shared identity, no seller messages.
 - Independent Codex and Opus design reviews complete; amendments frozen in DESIGN_S04.md before live outcomes.
 - New exposure gate: <25% routable recommendation variation => UNINFORMATIVE. No strong claim from null/degenerate advice.
-- Cache/routing/privacy/economics checks: 11 tests PASS; complete ten-game offline dry run and analyzer PASS.
-- Separate synthetic-state instrument precheck running; no prompt/model selection planned. Live games not yet started.
+- Cache/routing/privacy/economics/screen checks: 12 tests PASS; complete ten-game offline dry run and analyzer PASS.
+- Synthetic precheck: vector differences at 3/4 fixed states; no selection. Ten-game live run started 15:11 UTC.
 - Primary: r4–12 assigned-pair quantity shared-independent; profit and action/equality/variation secondaries descriptive.
 - S03 own calculator idea remains queued. D/E/F/own remain for coverage before deepening any axis.
 - Risks: n5, conditional sign-flip assumptions, Codex model labels and uncontrolled sampling; common sampling is narrower than hub collusion.
@@ -24,3 +24,5 @@
 - 2026-10-24 15:03 UTC: results/reports/caches/figure committed and pushed as c6c168a. Ledger commit column now points to commits containing each registration/result. Final handoff: C and A covered; B/D/E/F and own remain.
 
 - 2026-10-24 15:11 UTC: iteration 2 read manager/planning/direction/ledger and both sibling state/report summaries. Selected S04 common-advisor-sampling pilot (axis B); registered design, implemented adapter and frozen analysis, obtained independent Codex + Opus reviews. Accepted cache/exposure/failure/interpretation fixes; retained one primary to avoid co-primary selection. Eleven validity tests and complete dry run pass. No direction deviation; initial requested C/A queue already complete.
+
+- 2026-10-24 15:16 UTC: precheck completed (8 cached calls; vector differences at 3/4 fixed synthetic states), so proceeded without changing model/prompt. Registration and source hashes pushed as 3f75341. Ten-game S04 run started 15:11 UTC with two workers and a seed-block barrier. Froze analysis/report/replay hashes before full-arm estimation; twelve tests pass. Queued own S05 authority-label idea from the instrument response variation; no second pilot.
