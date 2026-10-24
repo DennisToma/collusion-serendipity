@@ -1,0 +1,56 @@
+{
+  "registration_commit": "f64d98d64c2915a36e8c856342e6ba256b7da66c",
+  "commit_time_client": "2026-10-24T20:46:24Z",
+  "observed_remote_head": "f64d98d64c2915a36e8c856342e6ba256b7da66c",
+  "observed_utc": "2026-10-24T20:46:33.303684+00:00",
+  "server_time_attested": false,
+  "runtime_precheck": {
+    "previous_block_seconds": [
+      160.928335,
+      157.573452,
+      147.653247,
+      151.351479,
+      141.860829
+    ],
+    "previous_response_count": 300,
+    "previous_responses_sha256": "8b7565fc3764c44444305b75aa3c98f548dcea11873371ddddc4f93a0a06c458",
+    "previous_game_sha256": {
+      "data/s18_workplace/game_24280_self.json": "b65dba3f3e1ee4d0970eb995b425309a3ea1e82ccc86ae1020ee50aba14b9739",
+      "data/s18_workplace/game_24280_shared.json": "fcc98636dcfb1f91a1cf07b6979095434b920cfa45bfe7899dff23d92563af52",
+      "data/s18_workplace/game_24281_self.json": "932c327728854dc95349b434661c698fd8c0b1a3be1153d08e9fedf55b6996d8",
+      "data/s18_workplace/game_24281_shared.json": "11d95b2be6f3e599e9f781fa2062ee2b1a1ff3a5d7aceaf1cbfb34f6764b218e",
+      "data/s18_workplace/game_24282_self.json": "83978cd49af6611cb7cc915ad16177db0e670940d3292ee7bf6739a0281b9e14",
+      "data/s18_workplace/game_24282_shared.json": "b4c20435bbb0da7065c349863bfec9dd21f52c0e02c15b2f2dbb531e0950badb",
+      "data/s18_workplace/game_24283_self.json": "e333ee6d3408445fbd24c21c07ace11711f1495b30e8c97f0b4012857cf219c3",
+      "data/s18_workplace/game_24283_shared.json": "a6f8a498d5adec2ed4d60b4961cae5ee1a26ba2c02a6ee797210ee8913dd475c",
+      "data/s18_workplace/game_24284_self.json": "e898cabb16aedd82ed77df594e49bdd64af04e04d96c06669c4a088af5bdc2e5",
+      "data/s18_workplace/game_24284_shared.json": "ab84bd1aa1f6771ac8169b732b4087d3b4ba8a76862020bcebaae12572ffb12f"
+    },
+    "required_seconds": 1206.9625125,
+    "remaining_seconds": 2607.857371,
+    "model": "gpt-6-luna",
+    "backend": "codex",
+    "passed": true
+  },
+  "sources": {
+    "sim/labels.py": "1a0adb53898353dbb09a7adbb7acc84193824085871066fdd15287f82f34bd59",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S19.md": "755d75b8cd9d9202e9e81fb8e37a8119181bd41c856b5cb0136396ae96e0c356",
+    "scripts/s19_analyze.py": "0b1f18cb83eef538b1218b80637711dbbf8df5fec20420723c587e2840f04c42",
+    "scripts/test_s19.py": "a2c50a99967c78bfeaddcf9382bb0d7afc29d663e9a72e41dd45d942c8b83e6a",
+    "scripts/s19_launch.py": "3c0168d763dde275da9d650414c13407ce6b13912881ce05cc1d295f759a6483",
+    "scripts/s19_independent.py": "e6df1d9c0e4e5dec5410c333cf553bf98ab809fbf9aaa14eb04b16e4c211750e",
+    "scripts/s19_checked_independent.py": "3ae74a50412ec59d05a5e5de8d533f1a96d5a0e691dd3412fba042b6dcd85cd4",
+    "scripts/test_s19_publication.py": "556c39e56204725c3d43304ce3805ffd9b11983261c21fb340fd67b9c8cc9e31",
+    "scripts/s19_present.py": "10d98baeda5d21f0206e0ff183184124557a28fb05d81a8ef00770cf9cd0fb74",
+    "scripts/s19_release.py": "2992b3f568a8a8d9f3b6bb15180fd76ef8b5974b6547ad8394c46204b7dff025",
+    "scripts/s19_reviews.py": "f7acbfc2fa4c617be9971517f5542a206e020ceb9582120982c13376b707ccd6",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  }
+}

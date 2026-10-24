@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "requests": 300,
+  "by_condition": {
+    "normative": 150,
+    "neutral": 150
+  },
+  "system_semantics_and_exact_payoffs": true,
+  "exogenous_history_and_current_labels": true,
+  "shared_access_for_both_arms": true,
+  "endogenous_note_vocabulary_unrestricted": true,
+  "raw_requests_sha256": "06ab5d37e487f9949c08ae61cfa6641a46342afd6fe32439324763c4dbbfe546"
+}

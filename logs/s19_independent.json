@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "raw_metric_cells": 80,
+  "bootstrap_intervals": 24,
+  "t_intervals": 24,
+  "sign_tests": 24,
+  "saved_request_histories": 300,
+  "note_snapshots": 200,
+  "rejections": {
+    "normative": 0,
+    "neutral": 0
+  },
+  "verdict": "DUD",
+  "complete_registered_contract": true
+}

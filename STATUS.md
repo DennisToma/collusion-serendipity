@@ -1,15 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T20:43:20.769187+00:00; Phase2, iteration11 IN PROGRESS)
-- S19 own-label pilot registered:10 fresh games/5 blocks24320..24324,T10,r3-10.
-- Contrast neutral TYPE-X/TYPE-Y versus normative PASS/FAIL; shared notes both arms.
-- Numeric incentives, pair identities, truth schedules and note access matched.
-- 127 prelaunch tests/11 S19 checks PASS; full dry exact replay PASS.
-- Independent final dry reconstruction80 cells/24 bootstrap,t/sign summaries PASS.
-- Both design critics exit0/disposed;19-source final manifest; no live S19 call.
-- S18 DUD and S16 failed archive unchanged; no pooling, tuning or sibling writes.
-- Next:dispose design reviews,freeze/push sources,launch once,verify/publish result.
-- Risks:semantic wording bundle,n5,stage-dominated adverse approvals,shared backend.
+## Current state (2026-10-24T20:58:40.448890+00:00; Phase2, iteration11 RESULTS READY FOR CLEAN CLONE)
+- S19 own-label pilot:10 games/5 fresh blocks,T10;300 responses,zero retries/failures.
+- Partner negative approvals normative0/40,neutral3/40;difference+.075[.025,.125].
+- Paired t[-.010,.160],upper p.125;frozen DUD because upper bound<.25 screen.
+- Selectivity+.100[.025,.175],t[-.030,.230],p.125;descriptive,no promotion.
+- Exact300-key replay/19 frozen sources and independent80 cells/24 stats PASS.
+- All300 request histories/200 snapshots,offline release,cached read-only resume PASS.
+- Source freeze f64d98d pushed;scientific result SHA f2ba647f unchanged after release.
+- No HIT,agreement claim,tuning,pooling or sibling write;S18/S16 unchanged.
+- Both final critics+focused supplement critic exit0/disposed;132 repo tests PASS.
+- Next:results commit/push and required clean-clone reproduction.
+- Risks:n5,semantic/label-order bundle,bootstrap-vs-t/sign disagreement,shared backend.
 
 ## Log
 
@@ -144,3 +146,9 @@
 - 2026-10-24T20:43:20.769187+00:00: iteration11 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling STATUS/report summaries read-only. Activated queued own S19 after A4 S18: fresh normative-versus-neutral semantics at fixed workplace incentives and shared-note access. Registered before calls;11 tests,full dry exact replay and independent70 cells/21 bootstrap,t/sign checks/300 histories/200 snapshots PASS. Requested independent Codex and Opus methodology critics. No direction deviation,live scientific call,tuning,pooling or sibling write.
 
 - 2026-10-24T20:46:23.961189+00:00: S19 prelaunch readiness PASS. Both design critics exit0; accepted read-only completed-archive validation,exact environment enforcement,failed-transport start timestamps,conservative historical runtime/model gate,prelaunch partner-minus-outsider descriptive selectivity,full19-source publication manifest and framing/reverse-screen caveats.127 prelaunch tests/11 S19 tests,final full dry exact replay and independent80 cells/24 bootstrap,t/sign summaries/300 histories/200 snapshots PASS. No live S19 response,tuning or partial outcome inspection. Source freeze/push then one-shot launch follow.
+
+- 2026-10-24T20:47:11.893312+00:00: S19 full19-source freeze f64d98d64c2915a36e8c856342e6ba256b7da66c committed/pushed. Launcher observed matching remote main at20:46:33.303684UTC before logical calls; prior300 responses all codex/gpt-6-luna,43.5min remaining versus20.1min conservative headroom requirement. Started ten games with two workers and seed barrier,21:30UTC absolute uncached-call cutoff. Local chronology only. Metadata-only monitoring; no partial actions,notes or contrasts inspected. No scientific sources changed after freeze.
+
+- 2026-10-24T20:58:40.448890+00:00: S19 all10 games/300 valid decisions complete,zero retries/failures. Frozen DUD:partner negative approvals normative0/40,neutral3/40;difference+.075[.025,.125],t[-.010011,.160011],upper p.125. Upper bootstrap bound<.25 queue threshold;positive bootstrap is not a confirmed framing effect. All eight outcomes retained;selectivity+.100[.025,.175],t[-.030,.230],p.125 descriptive only. Mandatory300-key exact replay,19-source/registration/export/payoff/chronology checks and independent80 raw cells/24 bootstrap,t/sign checks/300 histories/200 snapshots PASS. Offline release and read-only cached resume byte-identical,result SHA f2ba647f unchanged. No new LLM call,tuning,secondary promotion,pooling or sibling write. Both final critics requested next.
+
+- 2026-10-24T21:04:19.083897+00:00: S19 both final critics exit0,full dispositions retained. Codex independently reproduces raw primary,all80 metric cells/24 bootstrap,t/sign summaries,300 histories/200 snapshots and full replay;Opus supplied-file review hand-checks primary bootstrap multiplicities,t/sign/DUD and selected secondaries. Accepted separate independent300-request exogenous system/payoff/status/access check;three new regressions PASS,132 repository tests PASS. Post-outcome descriptive audit lists all four registered-window adverse approvals with accepted raw JSON/explanations;no labels or new window. Focused Codex critic exit0 independently verifies all events,hashes,300 request contracts and200 snapshots;accepted explicit zero-retry/hash checks in supplementary extractor. Five diagnostic/presentation artifacts byte-identical after rerender;original19 scientific sources/result SHA f2ba647f unchanged. Six prelaunch evidence hashes resolve against f64d98d. Figure inspected;all reviews/generation exited. No new scientific call,tuning,exclusion,pooling,HIT or sibling write. Results commit/push then clean-clone follow.

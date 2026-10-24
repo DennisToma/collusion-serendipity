@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 10.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 11.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -148,3 +148,19 @@ availability does not show semantic influence. No HIT or sibling headline change
 Reproduce: `uv run python scripts/s18_release.py`; `uv run python scripts/s18_present.py`.
 Queued S19 neutral-type versus normative-label hypothesis is fresh work, not an
 S18 mechanism diagnosis or permission to relax its outcome rule.
+
+
+**S19: unpromoted semantic-framing pilot, DUD for directional magnitude screen (own).**
+Ten fresh shared-note workplace games/five blocks. Normative PASS/FAIL versus
+neutral TYPE-X/TYPE-Y at identical bonus rules: partner negative-type approvals
+0/40 versus3/40; neutral−normative+.075[.025,.125] descriptive exact bootstrap,
+t[-.010,.160], upper sign-flip p=.125. Frozen DUD because bootstrap upper<.25
+queue threshold; positive bootstrap alone is not a confirmed framing effect.
+Prespecified partner-minus-outsider selectivity+.100[.025,.175],t[-.030,.230],
+upper p=.125, descriptive only. No secondary promotion, agreement/intent claim,
+S18 pooling, HIT or sibling headline change. Wording/label ordering bundled,n5,
+shared backend and stage incentives limit interpretation. No further games.
+
+[Design](DESIGN_S19.md) · [All outcomes](results/s19_summary.md) ·
+[Independent reconstruction](logs/s19_independent.json).
+Reproduce: `uv run python scripts/s19_release.py`.

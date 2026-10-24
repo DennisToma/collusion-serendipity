@@ -413,3 +413,10 @@ without rewriting exports or making model calls. Analysis requires the recorded
 Python/NumPy/SciPy versions. Fresh dry runs use a separate destination:
 `uv run python -m sim.labels --dry --out /var/tmp/s19_offline`, then
 `uv run python scripts/s19_analyze.py --data /var/tmp/s19_offline --allow-dry --out /var/tmp/s19_offline/result.json`.
+
+S19 post-outcome supplements preserve all original scientific sources and results:
+`uv run python scripts/s19_request_contract.py` independently checks every saved
+exogenous system/payoff/status/access clause; endogenous note vocabulary is not
+forbidden. `uv run python scripts/s19_action_text.py` lists every negative-type
+approval in the registered window with its accepted raw explanation. These are
+descriptive audits, with no new causal, agreement or intention labels.

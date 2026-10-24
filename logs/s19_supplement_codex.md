@@ -1,0 +1,10 @@
+No substantive defects found in the post-outcome supplements.
+
+- **All four events verified:** neutral 24322 r9 C→B, 24323 r4 C→B, 24324 r9 A→B; normative 24324 r3 A→C. Each matches its accepted raw response, request key, response hash, structured reviews, reasoning, and game record. Independent enumeration of registered r3–10 found exactly these four events: three neutral partner approvals and one normative nonpartner approval.
+- **Prose is supported:** three explanations describe rejection despite structured approvals; one invokes possible reciprocity. The supplement and current REPORT describe these outputs without establishing intent, agreement, or a framing mechanism.
+- **All 300 request contracts passed**, including 150 per arm. Independently checked request/response hashes, payoff and status wording, full public histories, and access boundaries. All 200 partner note snapshots matched prior-round records; outsiders received none. Endogenous note vocabulary remained unrestricted. Paired system prompts matched after normalizing the registered wording differences. All three supplement regression tests passed.
+- **Frozen result preserved:** the scientific-result hash matches both the supplement and release receipt. All 19 frozen source hashes match current files, the launch manifest, and registration-commit bytes. The DUD result remains unchanged; earlier arithmetic was not repeated.
+
+One nonblocking robustness limitation: the event extractor selects the highest attempt and does not itself validate request hashes. This archive has exactly one attempt per game/round/agent, and independent hash checks passed, so that shortcut does not affect these events.
+
+Unchecked limits: saved artifacts cannot independently authenticate provider execution or establish private intent or causal mechanisms. No files were written and no live scientific model calls were made.

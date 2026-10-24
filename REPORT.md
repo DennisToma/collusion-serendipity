@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 10 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 11 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -15,6 +15,12 @@
 | S14 · A1, procurement auction | 10 games / 5 time-matched pairs. Buyer payment r4–12: none **8.778**, private **11.111**; difference **+2.333 [-5.600, +9.733]**. | **ODD** for payment screen |
 | S16 · C2, notes-file channel | Aborted under frozen strict-output rule: 4/10 games complete; 173 responses, 10 overlong-reasoning rejections. No effect estimated. | **FAILED / unclassified** |
 | S18 · A4, workplace review | 10 games / 5 blocks. Partner FAIL approval rate r3–10: self **0.000**, shared **0.000**; difference **0.000 [0.000, 0.000]** (degenerate). | **DUD** for directional screen |
+| S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
+
+<!-- S19 summary start -->
+**S19:** paired t95% **[-0.010, 0.160]**, upper sign-flip **p=0.12500**. Shared notes in both arms; PASS/FAIL versus TYPE-X/TYPE-Y framing at matched payoffs. Negative-type approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s19_summary.md).
+<!-- S19 summary end -->
+S19 observed **0/40 versus 3/40** partner negative-type approvals. Its descriptive resampling bounds exclude zero with three positive blocks out of five, while t/sign uncertainty remains unresolved; the frozen DUD is because the bootstrap upper bound **0.125** misses the **0.25** queue threshold. Selectivity is descriptive, not a verified agreement. [Every adverse review and its unverified explanation](results/s19_action_text.md); some JSON actions conflict with their explanations.
 
 <!-- S18 summary start -->
 **S18:** paired t95% **[0.000, 0.000]**, upper sign-flip **p=1.00000**. Explicit synthetic PASS/FAIL labels and fixed bonus incentives; reciprocal bad approvals are profitable but stage-dominated. Incorrect approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s18_summary.md).
@@ -31,6 +37,6 @@
 Earlier Cournot games: three firms, integer output, P=max(0,30−total output), cost6; symmetric static Nash q6. Tiny selected samples, multiple exploratory screens, prompt cues and shared-backend interference limit inference. Model/sampling are client metadata. Actions and message influence do not verify agreements or profitable collusion. No sibling headline change.
 
 [Methods, designs and reproduction](README.md).
-**Next:** Different axis after A4; preserve completed screens and select a fresh mechanism question. No secondary-driven promotion.
+**Next:** Different axis after own-label framing; favor a fresh market-structure or intervention question. No secondary-driven promotion.
 
-[S18 release](logs/s18_release.json) · [Independent reconstruction](logs/s18_independent.json) · [Review dispositions](logs/s18_review_disposition.md).
+[S19 release](logs/s19_release.json) · [Independent reconstruction](logs/s19_independent.json) · [Request contract](logs/s19_request_contract.json) · [Review dispositions](logs/s19_review_disposition.md).
