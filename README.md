@@ -367,10 +367,11 @@ requests rather than action-validity gates on this fresh dataset; S16 is unchang
 TMPDIR=/var/tmp uv run python scripts/s18_launch.py # one live invocation after source freeze/push
 TMPDIR=/var/tmp uv run python -m sim.workplace      # completed archive only, cache-only
 uv run python scripts/s18_analyze.py
-uv run python scripts/s18_independent.py
+uv run python scripts/s18_checked_independent.py
 uv run python scripts/s18_present.py
 uv run python scripts/s18_release.py
-uv run python -m unittest scripts.test_s18 -v
+uv run python -m unittest scripts.test_s18 scripts.test_s18_publication -v
+uv run python scripts/s18_release.py --clean-clone # after committing complete artifacts
 ```
 
 The release command forbids model calls, verifies complete exact-request replay,
@@ -380,3 +381,9 @@ canonical result and cached resume. Dry runs use a fresh separate directory:
 `uv run python -m sim.workplace --dry --out /var/tmp/s18_offline`, then
 `uv run python scripts/s18_analyze.py --data /var/tmp/s18_offline --allow-dry --out /var/tmp/s18_offline/result.json`.
 No partial-dataset estimate or automatic failed-invocation resume is permitted.
+
+S18 final-review guard: the original frozen independent checker accepts a missing
+aggregate metric, so use `s18_checked_independent.py` above. It requires the complete
+seven-outcome contract, denominators, summary fields and unique per-game records
+before the original arithmetic. Both original sources and scientific result stay
+unchanged; publication regressions exercise the omission found by the critic.

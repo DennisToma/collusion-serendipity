@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 9.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 10.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -132,3 +132,19 @@ fallback, replacement games or relaxed parser. The failure is a caution about
 output-validity censoring, not about channel efficacy. [Failure evidence](results/s16_summary.md).
 Reproduce: `uv run python scripts/s16_failure_audit.py`; `uv run python
 scripts/s16_release.py`; `uv run python scripts/s16_present.py`.
+
+
+**S18: unpromoted DUD in workplace review incentives (axis A4).**
+Ten games/five fresh blocks; labeled-defective partner approvals0/40 in each arm,
+shared−self rate0, exact block-bootstrap/t[0,0], upper sign-flip p1. Empirical
+resampling degenerates when all observed blocks agree; these bounds do not prove
+zero population risk, equivalence or general workplace safety. Explicit synthetic
+PASS/FAIL labels, normative wording and fixed bonus incentives limit transfer.
+Reciprocal bad approvals would net4 points each, but none were observed in the
+registered primary opportunities. No agreement/intent label or sibling detector
+claim. All300 responses valid, no retries,100 nonempty note writes/arm; note
+availability does not show semantic influence. No HIT or sibling headline change.
+[All outcomes](results/s18_summary.md) · [Design](DESIGN_S18.md).
+Reproduce: `uv run python scripts/s18_release.py`; `uv run python scripts/s18_present.py`.
+Queued S19 neutral-type versus normative-label hypothesis is fresh work, not an
+S18 mechanism diagnosis or permission to relax its outcome rule.

@@ -55,3 +55,43 @@ payoff/statistic/visibility blocker. Scope and limitations accepted:
 Independent verifier checks canonical result metadata/unique records, every
 outcome and saved request. No live responses, tuning or source changes after
 scientific generation begins are allowed.
+
+## Final claim reviews
+
+Both final critics exit0; full frozen analysis/release and independent reconstruction
+PASS before reviews. All13 scientific sources and canonical result SHAfc759e79
+remain unchanged. No scientific generation remains active.
+
+Codex independently reconstructs all raw primary/secondary outcomes, all21
+bootstrap intervals with rational enumeration, all32 sign flips/t intervals,
+source/registration/time/exports and exact300-key replay. Confirms DUD.
+- Accepted concrete low-severity omission bug: original frozen independent
+  verifier could accept an aggregate metric omitted from the result and hardcoded
+  sign_tests=21. Original scientific verifier is unchanged. New publication guard
+  s18_checked_independent.py requires the exact seven outcomes, all summary/tail
+  fields, registered denominators, complete unique game records and raw counts;
+  reports actual checks from the now-enforced complete contract. Two regressions
+  cover the demonstrated omission plus denominator/summary/duplicate mutations
+  and a positive full-archive check. Release/README now use this guard. Original
+  audit retained as s18_independent_original.json; scientific result is unchanged.
+
+Opus hand-checks supplied per-game primary and secondary exact-bootstrap/t/sign
+arithmetic; explicitly has no raw/shell access. Confirms unchanged DUD.
+- Process items (commit/push, clean clone, final disposition) are pending release
+  work, not contrary scientific evidence; completed below as receipts land.
+- Accepted observed FAIL-approval floor and direct degenerate label in the primary
+  table/summary. Declined a posthoc UNINFORMATIVE scientific reclassification:
+  the frozen one-sided increase screen had room for treatment approvals above a
+  zero control baseline. Its DUD does not identify a channel-null mechanism or
+  imply population zero risk. No pooled risk bound or new scientific statistic.
+- Declined claim that an outsider cannot be affected by channel assignment merely
+  because it lacks a notepad: changed public partner behavior can affect future
+  outsider decisions, and API draws are uncontrolled. The single rejected PASS
+  has no identified cause; no mechanism claim or secondary promotion is made.
+- Cosmetic hardcoded note availability is constrained by full replay and20 notes
+  per game; exact denominators make current float→count conversion unambiguous.
+  Existing timestamps are UTC-normalized; frozen chronology checks pass.
+
+The figure was locally inspected; code/data clean-clone checks follow the complete
+results commit. Critic limits are attributed accurately; no provider attestation
+or adversarial disk-crash guarantee is claimed.

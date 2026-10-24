@@ -1,16 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T20:09:11.236064+00:00; Phase2, iteration10 IN PROGRESS)
-- Registered S18 A4 workplace review game,10 fresh games/5 blocks24280..24284,T10.
-- Self/shared notepads; pair identity/own-note persistence held in both arms.
-- Primary: partner approval rate on authoritative FAIL tasks,r3..10;8 opportunities/game.
-- Bonus incentives exhaustively verified; strict JSON with no auxiliary word-count rejection.
-- Seven protocol/economics tests and300-decision dry run/replay PASS; critics running.
-- No live S18 calls or effect inspection; independent verifier being finalized.
-- S16 archive remains failed/unclassified; no selected-subset estimate or source changes.
-- REPORT remains checkpoint-presentable; no HIT or sibling headline change.
-- Next: dispose design critics,freeze/push sources,run once,verify/publish.
-- Risks: n5,explicit synthetic defects,bundled access cues,tacit reciprocity,shared backend.
+## Current state (2026-10-24T20:37:37.144877+00:00; Phase2, iteration10 RELEASE CHECK)
+- S18 A4 complete:10 games/5 blocks,T10;300 valid responses,zero retries/failures.
+- Frozen DUD:partner FAIL approvals0/40 each arm;difference0,bootstrap[0,0],upper p1.
+- Observed floor/degenerate bounds do not establish population zero risk or equivalence.
+- All300 keys replay exactly;13 scientific sources/result SHAfc759e79 unchanged.
+- Independent70 cells/21 bootstrap/t/sign checks,300 histories/200 snapshots PASS.
+- Both final critics exit0;raw Codex reconstruction and supplied-metrics Opus checks agree.
+- New publication wrapper fixes original verifier's missing-metric gap;original preserved.
+-116 repo tests/12 S18 checks,full release/cached resume/53 local links PASS.
+- Source freeze6877a0a pushed before calls;complete artifacts ready for commit/push.
+- REPORT concise/current;no HIT,sibling headline change,excluded data,tuning or pooling.
+- S16 unchanged failed/unclassified;S19 neutral-label idea queued,not run.
+- Next:clean-clone reproduction after results commit,final receipts/push;then different axis.
+- Risks:n5,explicit/normative labels,bundled access,tacit reciprocity,shared backend.
 
 ## Log
 
@@ -133,3 +136,9 @@
 - 2026-10-24T20:09:11.236064+00:00: iteration10 read required rule/state/direction/ledgers and both sibling report/state summaries read-only. Selected A4 workplace-review pilot S18 after C-axis S16. Registered ten fresh games and unchanged directional screen before live calls; balanced authoritative task labels expose objectively incorrect approvals without claiming agreements. Reused S16 lifecycle/cache; auxiliary-text word counts no longer invalidate fresh S18 decisions. Seven tests/full dry replay PASS; independent Codex/Opus design critics requested. No direction deviation, live S18 call or sibling write.
 
 - 2026-10-24T20:16:36.264830+00:00: S18 prelaunch readiness PASS. Opus design exit0; initial Codex360s timeout preserved, concise independent Codex retry exit0 finds no scientific blocker. Accepted neutral boolean template, pre-receipt launch checks, complete preflight/ancestry binding, failed-transport payload journal, exact-cutoff and interrupted/tampered-archive regressions. Retained explicit local-lifetime timing/abort-guard races and strict-JSON feasibility limits.114 discovered/10 S18 tests and final dry exact replay/independent70 cells,21 bootstrap/t/sign checks,300 histories/200 snapshots PASS.13-source manifest finalized; no live response or tuning.
+
+- 2026-10-24T20:17:46.211574+00:00: S18 source freeze6877a0aa7523d6b661eb11f2e995673e1010f105 pushed. Launcher observed identical remote main at20:16:45.701647UTC before logical calls; config binds all13 source/dependency hashes and preregistration. Started ten fresh workplace games with two workers and seed barrier, absolute20:55UTC cutoff. Local client chronology only, no server/provider-time attestation. Metadata-only monitoring; no partial decisions, notes or contrasts inspected.
+
+- 2026-10-24T20:30:41.612477+00:00: S18 completed all10 games/300 responses,zero invalid-output retries/failures. Frozen DUD:partner FAIL approvals0/40 each arm,shared−self0,exact empirical bootstrap/t[0,0],upper sign-flip p1. Bounds are degenerate empirical summaries, not zero population-risk/equivalence evidence. All secondary outcomes retained (PASS approvals self1/shared.991667;pair bonus−.15/round);no secondary promotion. Mandatory300-key exact request replay,13 frozen sources/registration/exports/payoffs/chronology/barrier validation PASS;independent70 cells/21 bootstrap/t/sign checks and300 saved histories/200 snapshots PASS. Cached resume and canonical reanalysis byte-identical,result SHAfc759e79 unchanged. REPORT shortened with old details linked;no original numerical result changed. Final critics requested next;no further live calls,source edits,tuning,exclusions,pooling or sibling write.
+
+- 2026-10-24T20:37:37.144877+00:00: S18 both final critics exit0. Codex independently reconstructs raw outcomes/all21 bootstrap/t intervals/all sign tails and300-key replay;Opus hand-checks supplied primary/secondary arithmetic without raw/shell access. Fixed original independent-verifier missing-metric acceptance via separate publication contract guard;two regressions (four malformed-contract cases plus complete archive) PASS. Original13 scientific sources and result SHAfc759e79 unchanged. Accepted observed-floor wording and directly labeled degenerate bootstrap tablecell;declined posthoc scientific UNINFORMATIVE reclassification and unsupported claim outsider cannot be indirectly affected.116 discovered tests/12 S18 tests,full release,cached resume and53 local links PASS. Nine prelaunch readiness hashes independently resolve against source freeze6877a0a. Figure inspected;all generation/review processes exited. Results commit/push and clean-clone check follow;no new model call,tuning,exclusion,pooling,secondary promotion or sibling write.

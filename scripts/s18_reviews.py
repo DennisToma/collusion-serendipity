@@ -11,10 +11,10 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('stage',choices=['design','final']);args=p.parse_args()
     files=['DESIGN_S18.md','sim/workplace.py','scripts/s18_analyze.py','scripts/test_s18.py','sim/common.py','sim/advisor.py','scripts/s18_launch.py']
     instruction=('Independent adversarial research review, S18 ONLY. No edits or live model calls. Check economics, truth/simultaneity, causal scope, cache/replay integrity, frozen configuration, statistic arithmetic, failure handling and screening rule. '
-                 'Report concrete remaining bugs with severity and remedies; separate acknowledged limitations. ')
+                 'Report concrete remaining bugs with severity and remedies; separate acknowledged limitations. Give a final review within500 words and finish promptly. ')
     if args.stage=='final':
         files+=['REPORT.md','results/s18_workplace.json','results/s18_summary.md','logs/s18_independent.json','logs/s18_review_disposition.md','data/s18_workplace/config.json','scripts/s18_independent.py','logs/s18_launch_preflight.json']
-        instruction+='Independently reconstruct reported numbers from raw game files where available. '
+        instruction+='Prioritize independently recomputing the S18 primary from raw game review decisions, all3125 bootstrap bounds and32 sign flips; verify the frozen verdict and report scope. Earlier pilots are out of scope. Finish within four minutes where possible; state unchecked items rather than repeatedly reading unchanged code. '
     def codex():
         path=Path(f'logs/s18_{args.stage}_codex.md')
         rc=run_bounded(['codex','exec','--skip-git-repo-check','-s','read-only','-C',str(Path.cwd()),'-m','gpt-6.1-sol','-c','model_reasoning_effort=high','-o',str(path.resolve()),instruction+'Read '+', '.join(files)],f'/var/tmp/s18_{args.stage}_codex_cli.log')
