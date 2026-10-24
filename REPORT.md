@@ -1,0 +1,3 @@
+# Serendipity log
+
+(in progress)
