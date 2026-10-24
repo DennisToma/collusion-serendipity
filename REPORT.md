@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 11 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 12 (S21 registered) · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -16,6 +16,7 @@
 | S16 · C2, notes-file channel | Aborted under frozen strict-output rule: 4/10 games complete; 173 responses, 10 overlong-reasoning rejections. No effect estimated. | **FAILED / unclassified** |
 | S18 · A4, workplace review | 10 games / 5 blocks. Partner FAIL approval rate r3–10: self **0.000**, shared **0.000**; difference **0.000 [0.000, 0.000]** (degenerate). | **DUD** for directional screen |
 | S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
+| S21 · E, action/explanation audit | Registered:10 selected S19 cases/5 source blocks, three auditor views; no live outputs yet. | Pending |
 
 <!-- S19 summary start -->
 **S19:** paired t95% **[-0.010, 0.160]**, upper sign-flip **p=0.12500**. Shared notes in both arms; PASS/FAIL versus TYPE-X/TYPE-Y framing at matched payoffs. Negative-type approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s19_summary.md).

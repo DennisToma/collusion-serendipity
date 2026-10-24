@@ -420,3 +420,29 @@ exogenous system/payoff/status/access clause; endogenous note vocabulary is not
 forbidden. `uv run python scripts/s19_action_text.py` lists every negative-type
 approval in the registered window with its accepted raw explanation. These are
 descriptive audits, with no new causal, agreement or intention labels.
+
+
+S21 (iteration12, axis E) reuses one selected S19 response/game to test factual
+reading of structured actions when explanations disagree. Ten cases, five source
+seed blocks, three independent views, pinned gpt-6.1-sol/codex. This is an enriched
+post-outcome challenge, not a held-out or prevalence estimate. See
+[DESIGN_S21.md](DESIGN_S21.md). Run commands from the repo root with full git
+history back to registration; no sibling checkout is required.
+
+```bash
+uv run python scripts/s21_audit.py            # one-shot live OR completed read-only validation
+uv run python scripts/s21_analyze.py          # complete offline request/source/hash validation
+uv run python scripts/s21_independent.py      # independent raw counts and 15 summaries
+uv run python scripts/s21_present.py          # summary, figure and current REPORT row
+uv run python -m unittest scripts.test_s21 -v
+```
+
+All thirty request/response pairs and selected case source hashes are retained.
+Internal cheap-model fallback is disabled only within this runner's invocation;
+shared llm.py remains unchanged. A failure aborts the full pilot without retries
+or subset estimates. The exclusive external launch receipt also blocks relaunch
+after accidental dataset-directory deletion. Raw responses remain immutable;
+accepted parsing is a separate source-bound file. Dry run in a fresh scratch
+folder: `uv run python scripts/s21_audit.py --dry --data /var/tmp/s21_smoke`, then
+analyze with `--data /var/tmp/s21_smoke --out /var/tmp/s21_smoke/result.json
+--allow-dry`. Dry data cannot replace canonical results or the live dataset.

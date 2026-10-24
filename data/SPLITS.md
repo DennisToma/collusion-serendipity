@@ -43,3 +43,7 @@ before live calls in DESIGN_S18.md. S16 strict failure remains unchanged.
 S19: five fresh paired blocks24320..24324; ten shared-note workplace games,
 normative versus neutral semantic labels; T10, primary r3..10. Exploratory, zero
 tuning, no held-out claim or pooling. DESIGN_S19.md frozen before all live calls.
+
+S21: ten post-outcome-selected S19 challenge cases (one/game), five source seed
+blocks24320..24324. Three frozen auditor views; zero tuning and no held-out or
+population-prevalence claim. All four adverse actions intentionally retained.
