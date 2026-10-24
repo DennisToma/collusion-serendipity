@@ -585,3 +585,15 @@ A fresh origin-remote full-history clone passes18 protocol/companion checks,
 all offline release/replay checks and seven byte-identical artifact regenerations.
 The clone reuses the installed frozen environment,not a separate installation.
 [Remote reproduction receipt](logs/s28_remote_clean_clone.json).
+
+
+### S31 prospective transport correction (iteration19)
+
+A mocked methodology review found that inherited `sim/common.py` calls
+`llm.chat` with its default backend retry loop. Earlier frozen pilots may include
+unlogged transport retries; cached successful responses alone cannot establish
+whether retries occurred. Their sources, estimates and classifications remain
+unchanged. Fresh S31 copies the cache to `sim/labor_cache.py` and sets `retries=1`
+with one pinned codex/luna route, so a logical backend failure aborts the pilot.
+The Codex CLI itself and provider execution remain unobserved. This correction
+was made before any S31 live calls. See [review disposition](logs/s31_review_disposition.md).

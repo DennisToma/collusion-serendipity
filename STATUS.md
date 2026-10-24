@@ -1,18 +1,15 @@
 # STATUS
 
-## Current state (2026-10-24T23:22:00.188606+00:00; Phase2, iteration18 COMPLETE)
-- S28 own:ten fresh two-person shared-note games/five blocks;200valid decisions.
-- Partner Y approvals prose7/40,table3/40;prose-minus-table+.100[-.050,.275].
-- Paired t[-.155033,.355033],upperp.25;frozen ODD,no HIT.
-- Two positive blocks/one negative/two ties;magnitude/sign screen unmet.
-- Zero retries/failures;200-key replay/18 sources/registration/timing/exports PASS.
-- Independent50cells/15bootstrap+t summaries/sign sets/allhistories/notes PASS.
-- Metadata/100prompt companion/mutation checks PASS;no frozen-source edits.
-- Full245tests PASS;remote18checks/seven artifacts byte-identical,clone clean.
-- Both final critics confirm;Codex raw arithmetic then read Opus supplied-text review.
-- Source58fc296/results442b669 pushed;scientific SHAc89482ea unchanged.
-- No tuning,pooling,secondary/reverse promotion,HIT,sibling writes or active run/review.
-- Next:fresh A world;S30 input-order proposal unrun. Risks:n5,bundled detail/format,tool non-use unverified.
+## Current state (2026-10-24T23:26:16.171325+00:00; Phase2, iteration19 IN PROGRESS)
+- S31 fresh A2 labor duopsony selected after own/S28;five new paired blocks.
+- Ten games/T10/200 planned decisions;self-only versus shared employer notes.
+- Primary self-minus-shared worker earnings;r3..10;frozen directional screen.
+- Enumerated441 stage profiles;pure Nash(18,18),(19,19),(20,20).
+- Twelve scoped checks/full dry200-key replay/independent50cells+15summaries PASS.
+- Codex/Opus design reviews disposed;independent patch critic PASS;no live calls.
+- Earlier S28 ODD and S29 ODD unchanged;no promoted HIT.
+- Full257 tests PASS;next freeze/push,one-shot generation,verify and report.
+- Risks:n5,synthetic passive workers,prompt/delivery bundle,uncontrolled draws.
 
 ## Log
 
@@ -247,3 +244,9 @@
 - 2026-10-24T23:20:52.336217+00:00: S28 post-companion full245-test repository suite PASS with14 scoped historical S21 synthetic cutoff overrides;actual S21 original archive separately verified. Canonical scientific SHAc89482ea and all18 frozen source hashes unchanged. Both final critics fully disposed;figure and companion scope manager-only. Final byte regeneration,results commit/push and remote-origin clean clone follow;no scientific calls,new outcome,source mutation,tuning,pooling,HIT or sibling writes.
 
 - 2026-10-24T23:22:00.188606+00:00: iteration18 COMPLETE. S28 registration58fc296d326c944c631902a94aa489281e6dc904 and results442b6692340e11068618699b16f2a5387d02dc72 committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes complete cache-only release,18 protocol/companion checks,independent raw reconstruction,100 actual paired prompt contracts/all200 route metadata/bonus-field bindings and real S21 original-cutoff release. Seven artifacts regenerate byte-for-byte(scientific result,summary,figure,REPORT,independent/companion/release receipts);clone git status clean. logs/s28_remote_clean_clone.json records exact commit/commands/hashes and explicit installed frozen-environment reuse. Full245-test repository suite PASS with14 scoped historical S21 synthetic clock overrides;actual S21 archive unchanged/PASS. Both final critic dispositions complete;Codex independently raw-reconstructed before later reading Opus final text,so final narratives not fully blinded;Opus supplied-text-only scope explicit. All18 frozen sources and scientific SHAc89482ea unchanged;200responses,zero retries/failures. Ledger result reference points to results commit. REPORT/all-pilot table,HITS,README/DETAILS current;no HIT or arithmetic-mechanism claim. No extra scientific call,second pilot,new metric,semantic classifier,exclusion,tuning,subgroup/reverse/secondary promotion,pooling,sibling write,direction deviation or active generation/review process. Next fresh A world after own;S30 input-key ordering proposal remains unrun and S29 independent confirmation only suggested.
+
+- 2026-10-24T23:26:16.171325+00:00: iteration19 read all rules/state/direction/ledger and sibling report/status summaries read-only. Selected fresh A/S31 labor-market duopsony after own/S28 rather than deepening notepad workplace results. Copied S29 cached lifecycle,registered five fresh blocks/ten games and fixed directional wage screen before live calls. Exhaustive441-profile stage check found three weak integer Nash profiles18/19/20;primary is actual worker earnings,not offered-wage average. Complete dry200-key replay and independent50metric cells/15bootstrap+t summaries/five sign-tail sets/all200notes/reasons PASS. Codex/Opus methodology critics and full repository tests running. No live calls,tuning,pooling,HIT,sibling writes or direction deviation.
+
+- 2026-10-24T23:28:43.103392+00:00: S31 methodology Codex/Opus critics completed. Codex mocked probe found inherited llm.chat default retries could hide backend failures; implemented S31-only copied cache with retries=1 and pinned route,leaving historical sources untouched. Independent response acceptance now checks every attempt;Opus cutoff/prefix/interruption wording fixes applied. Twelve scoped checks/final dry200-key replay/independent50cells+15summaries+five sign sets/all200notes+reasons PASS. Historical required raw paths unignored;full257-test suite running;patch-specific Codex critic requested before freeze. Archived transport-retry uncertainty disclosed in REPORT_DETAILS;no earlier scientific source/data/estimate change,no live calls or tuning.
+
+- 2026-10-24T23:29:39.196124+00:00: S31 patch-specific independent Codex critic confirms one logical transport invocation,terminal abort/no later admission,first-valid acceptance with full synthetic200-key discarded-valid mutation,and admitted-after-cutoff completion/cached-replay boundary. No remaining blockers. Final dry200-key replay,independent50cells/15bootstrap+t summaries/five sign-tail sets/all200notes+reasons PASS;18 source hashes recorded in readiness. Full257 repository tests PASS,real S21 original-cutoff release separately PASS. Source freeze/push and one-shot generation next;no live outcomes yet.

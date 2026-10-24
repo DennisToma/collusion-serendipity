@@ -81,3 +81,8 @@ games,prose versus prose plus role-attached payoff table. T10,primary r3..10,
 200 planned decisions. All exploratory,zero tuning,no held-out claim or pooling.
 Registered after C/S29,selected from earlier disclosed examples;no mechanism
 identification or independent replication claim. DESIGN_S28.md frozen before calls.
+
+S31: five fresh paired blocks24560..24564;ten two-employer labor games,
+self-only versus shared notepads,T10,primary r3..10;200planned decisions.
+All exploratory,zero tuning,no held-out claim,pooling or secondary promotion.
+DESIGN_S31.md and source manifest committed/pushed before live calls.

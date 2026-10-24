@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 18 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 · Iteration 19 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -23,6 +23,7 @@
 | S27 · B, team concentration | 10 games /5 blocks. Partner Y approval rate r3–10: three **0.075**, two **0.250**; difference **0.175 [0.075, 0.300]**. | **ODD** for directional screen |
 | S29 · C, partner notepad | 10 games /5 blocks. Partner Y approval rate r3–10: self **0.050**, shared **0.375**; difference **0.325 [0.100, 0.575]**. | **ODD** for directional screen |
 | S28 · own, role payoff table | 10 games /5 blocks. Partner Y approval rate r3–10: prose **0.175**, table **0.075**; prose−table **0.100 [-0.050, 0.275]**. | **ODD** for reduction screen |
+| S31 · A2, labor duopsony | Registered: ten two-employer games / five fresh blocks; self-only versus shared notes; primary worker earnings r3–10. | Pending |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -48,4 +49,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh other-world question after own; S30 remains unrun. No secondary-driven promotion.
+**In progress:** S31 fresh labor market; source freeze and live generation follow methodology review. S30 remains unrun.
