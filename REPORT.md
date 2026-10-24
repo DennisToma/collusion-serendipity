@@ -1,50 +1,50 @@
 # Serendipity log — Beyond Words
 
-Exploratory pilots that challenge the sibling projects' price-market findings.
-Iteration 1; 2026-10-24. No confirmed hits yet. Designs and pre-outcome review
-amendments: [DESIGN.md](DESIGN.md). Zero detector tuning attempts.
+2026-10-24 15:00 UTC · Iteration 1 · **No hits promoted.** Discovery pilots; zero tuning attempts.
 
-| Pilot | Idea → result | Verdict |
+| Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
-| S01 · C, price digits | Reused 104 games / 2,080 rounds. Adding source last-digit indicators to a public-history ridge predictor gives assigned-pair-minus-other-pairs mean squared error improvements of **+0.00175 [−0.00184, +0.00631]** for gpt-6-luna and **+0.00899 [−0.04249, +0.05535]** for deepseek. | **DUD** for this digit screen; no robust signal. |
-| S02 · A, Cournot quantities | Gateway attempt incomplete (4 started games, 1 decision, 0 complete). Registered fallback running: 3 seeds × private/no-channel, 12 rounds, gpt-6-luna/codex; no completed-game outcome inspected. | Pending |
+| S01 · C, price digits | 104 games scanned; primary on 32 luna / 15 deepseek channel games. Pair-minus-other-pairs prediction gain **+0.00175 [-0.00184, +0.00631]** / **+0.00899 [-0.04249, +0.05535]** squared price units. | **DUD** for this screen |
+| S02 · A, Cournot quantities | 6 complete games, 3 seed blocks, gpt-6-luna. Pair output r4–12: none **5.870**, private **5.389**; difference **-0.481 [-1.222, +0.000]** units/firm. | **ODD**, inconclusive |
 
-**S01 interpretation.** No sub-cent observations: every recorded price is an
-integer. Absolute assigned-pair prediction gains are also unresolved:
-+0.00076 [−0.00228, +0.00421] and +0.00903 [−0.04060, +0.05424], respectively.
-Last-digit features have exactly zero residual after projection onto indicators
-for the full permitted price grid. Therefore any linear-model gain could reflect
-price-level nonlinearity; this pilot cannot identify intentional coding and does
-not rule out signaling. No HITS.md promotion.
+**S01:** last digits are determined by integer prices; this cannot identify
+intentional coding or rule out signaling. Deepseek no-channel gain is
++0.00569 [+0.00088, +0.01019], consistent with price nonlinearity. Fixed
+five-fold game-held-out ridge; bootstrap treats overlapping fitted models as
+fixed and omits refit uncertainty. No game excluded.
 
-**Methods and limitations.** S01 snapshots contain actions/public state and
-assignment metadata only, with original-file hashes. All completed source games
-were included (none excluded). Five folds hold out whole games; preprocessing and
-ridge coefficients fit inside each fold (alpha 10, fixed before outcomes).
-Intervals are 10,000 game-score bootstrap draws, conditional on the cross-fitted
-models; they omit overlapping-fit uncertainty and are descriptive. The primary
-contrast uses 32 channel games for luna and 15 for deepseek. These are opportunity
-assignments, not verified realized-collusion labels. No independent test-set claim.
+**S02:** three firms choose quantities 0..12; P=max(0,30−total output), cost 6.
+Nash q=6; all-firm optimum q=4. Pair messages arrive next round; no coordination
+instruction. Seed differences -0.222, -1.222, +0.000;
+exact lower-output p=0.25; t interval
+[-2.099, +1.136]. With three
+blocks, bootstrap bounds equal the observed range; minimum exact p=1/8 prevents
+HIT. The largest reduction also includes an outsider output cut.
 
-S02 changes the economics to simultaneous output: P = max(0, 30 − total quantity),
-cost 6, three firms choosing integer quantities 0..12. Symmetric static Nash is
-q=6 each (P=12); symmetric joint optimum is q=4 each (P=18), verified by enumeration.
-Only a randomized pair may message in the private arm; messages arrive next round.
-The primary measure is pair quantity, rounds 4–12, private minus no-channel.
-Three randomized within-seed execution blocks support only a discovery pilot.
-The original gateway attempt is not pooled with the fallback; both fit within
-ten started game slots. With three seeds the exact one-sided p cannot be below
-1/8, so this iteration cannot declare a HIT. Model identity is a client routing
-label, not independent server attestation; Codex does not expose temperature or
-an API random seed.
-No agent is instructed to coordinate. Prompt framing and delivery are bundled.
+| Secondary r4–12 outcome | Private minus none (descriptive bounds) |
+|---|---|
+| Outsider quantity | +0.074 [-0.778, +1.000] |
+| Total quantity | -0.889 [-3.222, +0.556] |
+| Market price | +0.889 [-0.556, +3.222] |
+| Pair per-firm profit | +0.056 [-4.556, +4.722] |
 
-**Reproduce:** `uv run python scripts/s01_digits.py`;
-`uv run python -m sim.cournot --out data/s02_cournot_luna --backend codex --model gpt-6-luna --n 3` (resumes cached/completed games);
-`uv run python scripts/s02_analyze.py --data data/s02_cournot_luna` once generation completes;
-`uv run python -m unittest scripts.test_research -v`.
-Frozen outputs: [S01](results/s01_digits.json). Independent methodology reviews:
-[Codex](logs/design_codex.md), [Opus](logs/design_opus.md).
+Pair profit is essentially unchanged. Round-12 pair output: none
+6, 5, 6; private
+6, 4.5, 6. Lower output alone does not
+establish profitable coordination; pair-only coalition benchmarks differ from
+the all-firm optimum ([enumeration and full results](REPORT_DETAILS.md)).
 
-**Next:** finish S02 and choose a new axis; cover B, D, E, F and an `own` idea
-before deepening any one axis. A larger follow-up requires fresh registered seeds.
+**Runtime deviation:** planned Qwen gateway stalled (4
+starts, 1 decision, no complete games). Preserved as
+incomplete; the amended six-game fallback uses the remaining ten-game budget,
+never pooling models. Randomized execution slots; 216 cached decisions,
+0 invalid-output retries. Model labels reflect client
+routing; Codex temperature/seed are not controlled. Prompt and delivery are bundled;
+agreement/execution labels remain unverified. No confirmatory claim.
+
+![Cournot trajectories](figures/s02_cournot.png)
+*Means; shading is the range across games, not a CI.*
+
+[Design](DESIGN.md) · [Full results/methods](REPORT_DETAILS.md) ·
+[Reproduce](README.md) · [Reviews and fixes](logs/review_disposition.md).
+**Next:** cover B/D/E/F/own before deepening; S03 calculator idea queued, not run.

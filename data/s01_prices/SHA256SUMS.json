@@ -1,0 +1,6 @@
+{
+  "data/s01_prices/llm_ds_p2/assignments.jsonl": "483ff3e5cf4d1388341a21e27dc2bc7adbe7408c0614aeea13c1ad1be0615718",
+  "data/s01_prices/llm_ds_p2/trajectories.jsonl": "2ec02cd8e521c3110caa36ea50b8f0921c512454eb8c0e9095b7961e66bab65d",
+  "data/s01_prices/llm_v1/assignments.jsonl": "fdf88d48b0f97d26472059611ec150ae9afb36463068bbbbdc50d27b020fc181",
+  "data/s01_prices/llm_v1/trajectories.jsonl": "e0d0f15dc5a649648d6cd0643833ab88f982cf5d98fbb81880a86a980ec41085"
+}

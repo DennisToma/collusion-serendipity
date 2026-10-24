@@ -11,7 +11,7 @@ from sklearn.linear_model import Ridge
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
-from sim.cournot import parse, payoffs, run_game
+from sim.cournot import parse, payoffs, run_game, benchmarks
 from sim.common import Cache
 from scripts.s02_analyze import validate_calls
 
@@ -36,6 +36,11 @@ class ResearchValidity(unittest.TestCase):
         self.assertEqual(max(sum(payoffs([a, b, c])[1]) for a in range(13)
                              for b in range(13) for c in range(13)), 144)
         self.assertEqual(payoffs([12, 12, 12]), (0, [-72, -72, -72]))
+        eq = benchmarks()['pair_as_single_actor_equilibria']
+        self.assertIn(dict(pair_total=8, outsider_quantity=8, pair_profit_total=64, price=14), eq)
+        self.assertEqual(len(eq), 3)
+        self.assertTrue(all(e['pair_profit_total'] <= 72 for e in eq))
+        self.assertEqual(payoffs([4, 4, 8]), (14, [32, 32, 64]))
 
     def test_strict_actions(self):
         for q in [True, False, -1, 13, 5.5, '6', None]:

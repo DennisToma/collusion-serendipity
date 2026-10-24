@@ -3,9 +3,13 @@ import argparse
 import itertools
 import json
 from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import numpy as np
 from scipy.stats import t as student_t
+from sim.cournot import benchmarks
 
 
 def summarize(values, rng):
@@ -98,6 +102,9 @@ def analyze(directory, allow_dry=False):
     else:
         verdict = 'ODD'
     return dict(config=config, n_games=2*n, n_seeds=n, metrics=results, verdict=verdict,
+                benchmarks=benchmarks(),
+                temperature_control=('requested_only_not_enforced' if config['backend'] == 'codex'
+                                     else 'requested_via_api'),
                 calls=len(provenance), invalid_attempts=sum(r['invalid_attempts'] for r in records),
                 records=records, caveat=f'Exploratory opportunity contrast, not verified collusion; {n} seeds only')
 
@@ -117,7 +124,7 @@ def figure(directory, out):
             ax.plot(range(1, 13), series.mean(axis=0), label=cond, color=color)
             ax.fill_between(range(1, 13), series.min(axis=0), series.max(axis=0), alpha=.1, color=color)
     axes[0].axhline(6, ls='--', color='gray', label='static Nash')
-    axes[0].axhline(4, ls=':', color='gray', label='symmetric joint optimum')
+    axes[0].axhline(4, ls=':', color='gray', label='all-firm joint optimum')
     axes[0].set_ylabel('Assigned pair mean quantity')
     axes[1].axhline(12, ls='--', color='gray')
     axes[1].axhline(18, ls=':', color='gray')

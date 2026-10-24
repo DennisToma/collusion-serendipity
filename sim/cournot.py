@@ -21,6 +21,24 @@ def payoffs(quantities):
     return price, [(price - 6) * q for q in quantities]
 
 
+def benchmarks():
+    # Treat the communicating pair as ONE actor choosing its total output.
+    # Equal splitting is a separate convention; joint pair profit depends only on total.
+    coalition_equilibria = []
+    for pair_total in range(25):
+        for outsider in range(13):
+            pair_gain = lambda total: (max(0, 30 - total - outsider) - 6) * total
+            out_gain = lambda q: (max(0, 30 - pair_total - q) - 6) * q
+            if pair_gain(pair_total) == max(map(pair_gain, range(25))) and (
+                    out_gain(outsider) == max(map(out_gain, range(13)))):
+                coalition_equilibria.append(dict(pair_total=pair_total, outsider_quantity=outsider,
+                                                 pair_profit_total=pair_gain(pair_total),
+                                                 price=max(0, 30-pair_total-outsider)))
+    return dict(nash=dict(quantity_each=6, price=12, profit_each=36),
+                all_firm_joint=dict(quantity_each=4, price=18, profit_each=48),
+                pair_as_single_actor_equilibria=coalition_equilibria)
+
+
 def parse(text):
     for match in re.finditer(r'\{', text):
         try:

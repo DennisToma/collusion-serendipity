@@ -1,0 +1,10 @@
+{
+  "time_utc": "2026-10-24T14:57:29.259008+00:00",
+  "cached_replay": "byte-identical raw + both exports; zero new calls",
+  "analysis_recompute": "byte-identical S02 JSON",
+  "export_rows": 72,
+  "games": 6,
+  "calls": 216,
+  "independent_primary_check": "PASS",
+  "report_numbers_source": "scripts/render_report.py"
+}
