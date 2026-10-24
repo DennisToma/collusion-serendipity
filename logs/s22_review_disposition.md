@@ -38,4 +38,42 @@ confirm equal expected payoffs, fixed denominators and the directional screen.
   labels remain explicit limitations. No live outcome or tuning informed fixes.
 
 ## Final claims
-Pending complete live outcomes and independent final reviews.
+Complete live outcomes and final reviews available; both accepted critics exit0.
+Codex independently reconstructed raw games, potential audits/realized charges,
+all100 metric cells, all30 bootstrap/t summaries and sign tails,300 saved histories,
+200 note snapshots and full cache-only replay/exports; source/registration/timing
+checks also passed. It did not rerun failure-injection tests or clean-clone checks.
+Opus initial final attempt exit0 returned unexecuted XML-like tool requests and
+NO final review. Retained as logs/s22_final_opus.md; NOT counted as an accepted
+review. Explicit supplied-context-only retry logs/s22_final_opus_retry.md exit0
+hand-recomputed primary counts, mean,t interval,sign flips,bootstrap coefficient
+multiplicities and DUD; no raw-file/replay access and its scope says so explicitly.
+
+- Codex lock-file caveat: accepted/documented in README. Scientific files remain
+  byte-identical; opening/truncating the empty .writer.lock is an explicit exception
+  to literal filesystem no-write language. Frozen code is not altered.
+- Codex final dispositions pending: resolved by this record before final release.
+- Opus per-arm paired_t_ci95 label: accepted schema clarification in README. The
+  paired_difference summary has a paired t interval; each arm's same-named field
+  has a one-sample t interval over five game means. No number or frozen field changed.
+- Opus realized outsider-bonus interpretation: accepted with correction. Realized
+  +.475 equals expected-charge -.050 plus realization residual+.525, not entirely
+  a draw effect. This algebra for realized paths is not an identified luck/behavior
+  decomposition because actions can respond to prior draws. Both registered score
+  outcomes remain in the table; no secondary promotion or new statistical test.
+- Opus request to compare scope with S19: accept broad uncertainty/equivalence
+  caution directly in REPORT, without comparing unlike causal contrasts. DUD is a
+  queue result; the observed interval permits effects in either direction.
+- Opus 'HIT fails on every criterion' phrase is too broad: expected-score gate is
+  positive3/20. Primary magnitude/lower-bound/p criteria fail; the unchanged DUD
+  follows both registered DUD conditions. No incorrect reviewer phrase is adopted.
+- Both agree no material scientific/numerical blocker. Smalln, bundled risk/wording/
+  history, expected-versus-realized sanctions, uncontrolled sampling/service,
+  unverified signflip assumptions, mechanically related gate and lack of verified
+  agreement/intent remain explicit. No extra games,tuning,subgroup or reverse
+  promotion,pooling,sibling write or frozen scientific-source change.
+
+Full166-test repository suite PASS; figure visually inspected. Complete offline
+release and six-artifact regeneration PASS. Results commit/push and clean-clone
+reproduction are the final publication steps; their receipts/status log record
+actual completion separately.

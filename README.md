@@ -475,3 +475,17 @@ uv run python -m unittest scripts.test_s22 scripts.test_s22_publication
 
 Dry synthetic generation uses `uv run python -m sim.enforcement --dry --out
 /var/tmp/s22_synthetic`; analysis requires `--allow-dry` and a noncanonical output.
+
+S22 validation preserves scientific data, requests and responses; opening the
+empty `.writer.lock` is an explicit filesystem-write exception. The frozen JSON
+field `paired_t_ci95` means a paired t interval for `paired_difference`; within
+an individual arm it is a one-sample t interval over the five game means.
+The published contrast column correctly uses paired differences. Frozen schema
+names are retained for source-bound reproduction.
+
+Realized rewards include lottery realizations. In S22 the outsider contrast is
++0.475 realized versus -0.050 when the same actions are repriced at mean
+charges; the realization residual is +0.525 points/round. This is an arithmetic
+identity for the observed paths, not a causal luck/behavior decomposition: those
+paths may themselves respond to past draws. The two bonus measures are already
+prespecified outcomes; no additional contrast or subgroup is promoted.

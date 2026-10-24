@@ -1,0 +1,3 @@
+{"observed_utc": "2026-10-24T21:29:06.208460+00:00", "completed_game_files": 0, "cached_responses": 40, "route_counts": {"codex/gpt-6-luna": 40}, "failures": 0}
+{"observed_utc": "2026-10-24T21:32:06.593084+00:00", "completed_game_files": 4, "cached_responses": 142, "route_counts": {"codex/gpt-6-luna": 142}, "failures": 0, "frozen_sources_match": true}
+{"observed_utc": "2026-10-24T21:35:12.340840+00:00", "completed_game_files": 8, "cached_responses": 248, "all_routes_pinned": true, "failures": 0}

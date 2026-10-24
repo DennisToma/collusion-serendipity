@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "commands": [
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s22_analyze.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s22_checked_independent.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s22_present.py"
+    ],
+    [
+      "uv",
+      "run",
+      "python",
+      "scripts/s22_release.py"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s22_enforcement.json": "b00e5199e9249ecea7e0235dd5ecc25e8456bc6ade95261e68a8fe0864c32383",
+    "results/s22_summary.md": "482fbcdf149ef52c13eda01a1394c9fbd369d7308b3791fd6ddb59ea49823c64",
+    "figures/s22_enforcement.png": "26f81a27a2b76966c39fb2e07be473ab7cc9835ff5752dea3c93a0998b4da7d1",
+    "REPORT.md": "2b741f6b027e29249142f77ec11eaf3462cb31a489f5e5d3b17c64e557ba1eab",
+    "logs/s22_independent.json": "896f849b039d114aacd23ef0ff956a134750e528a0c0d8ec8ba5f3ed6771af38",
+    "logs/s22_release.json": "9cc2419972e2aea72dea91fab1a1aae8887921666286bce74274f984260c281d"
+  }
+}

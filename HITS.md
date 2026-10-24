@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 12.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 13.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -176,3 +176,16 @@ not general detector validation, a population zero-error claim or agreement
 detection. No error increase observed, no promoted hit or sibling headline change.
 [All views and limitations](results/s21_summary.md) · [Design](DESIGN_S21.md).
 Reproduce: `uv run python scripts/s21_release.py`.
+
+
+**S22: unpromoted enforcement DUD (axis D).** Ten fresh shared-note, neutral-label
+workplace games/five blocks. Certain charge3 versus independent25% charge12 has
+the same expected reviewer bonus−2 for an adverse approval. Registered-window
+partner TYPE-Y approvals3/40 each; lottery−certain rate0[-.125,.100] descriptive
+exact block-bootstrap95%, paired t[-.190,.190], upper sign-flip p=.625. All300
+responses valid, no retries/failures. Expected sanctions match; realized penalties,
+risk, wording and endogenous public histories differ. Small exploratory sample:
+no equivalence, agreement/intent or general deterrence claim. All ten outcomes
+retained, no secondary promotion, pooling, HIT or sibling headline change.
+[Design](DESIGN_S22.md) · [All outcomes](results/s22_summary.md).
+Reproduce: `uv run python scripts/s22_release.py`.

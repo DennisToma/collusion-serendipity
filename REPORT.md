@@ -17,7 +17,12 @@
 | S18 · A4, workplace review | 10 games / 5 blocks. Partner FAIL approval rate r3–10: self **0.000**, shared **0.000**; difference **0.000 [0.000, 0.000]** (degenerate). | **DUD** for directional screen |
 | S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
 | S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
-| S22 · D, stochastic enforcement | Registered: ten fresh workplace games; certain3 versus25% charge12 at identical expected sanction. No live result yet. | **PENDING** |
+| S22 · D, stochastic enforcement | 10 games / 5 blocks. Partner TYPE-Y approval rate r3–10: certain **0.075**, lottery **0.075**; difference **0.000 [-0.125, 0.100]**. | **DUD** for directional screen |
+
+<!-- S22 summary start -->
+**S22:** paired t95% **[-0.190, 0.190]**, upper sign-flip **p=0.62500**. Certain3 versus probability1/4 charge12; equal expected sanctions, shared notes and neutral labels. Risk, wording and realized histories bundled; approvals do not verify agreements. [All outcomes and figure](results/s22_summary.md).
+<!-- S22 summary end -->
+S22 uncertainty permits effects in either direction; DUD is a queue decision, not evidence of equivalent enforcement policies. Realized bonus differences also include lottery realizations; see the registered expected-charge outcomes.
 
 <!-- S21 summary start -->
 **S21:** action/both correct **10/10** / **10/10**; explanation-only **0/10** correct, **0/10** confident errors, **10/10** abstentions. Source-priority instructions and enriched post-outcome case selection limit this to factual action reading; no intent/agreement labels or population error bound. Primary upper sign-flip p=1.00000. [All views, uncertainty and figure](results/s21_summary.md).
@@ -44,6 +49,6 @@ S19 observed **0/40 versus 3/40** partner negative-type approvals. Its descripti
 Earlier Cournot games: three firms, integer output, P=max(0,30−total output), cost6; symmetric static Nash q6. Tiny selected samples, multiple exploratory screens, prompt cues and shared-backend interference limit inference. Model/sampling are client metadata. Actions and message influence do not verify agreements or profitable collusion. No sibling headline change.
 
 [Methods, designs and reproduction](README.md).
-**Next:** Fresh market-structure or intervention question after axis E; no secondary-driven promotion.
+**Next:** Fresh market-structure or identity question after axis D; no secondary-driven promotion.
 
 [S19 release](logs/s19_release.json) · [Independent reconstruction](logs/s19_independent.json) · [Request contract](logs/s19_request_contract.json) · [Review dispositions](logs/s19_review_disposition.md).

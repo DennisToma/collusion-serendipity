@@ -1,15 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T21:24:45.317339+00:00; Phase2, iteration13 IN PROGRESS)
-- S22 D registered: certain3 vs25% charge12 for adverse workplace approvals.
-- Equal expected reviewer payoff−2;neutral labels/shared notes both arms.
-- Fresh10 games/5blocks24360..24364,T10,primaryr3–10;zero tuning.
-- Fifteen protocol/economics/renderer tests and complete300-key dry replay PASS.
-- Independent100 cells/30 bootstrap,t/sign checks/300 histories PASS.
-- Both methodology critics exit0;dispatch/source/abort fixes applied before calls.
-- Deadline22:15UTC;freeze/push then one-shot two-worker launch next.
-- S23 own disclosure hypothesis queued;S20 remains unrun.
-- Risk:smalln,expected≠realized sanctions,risk/wording/history bundled.
+## Current state (2026-10-24T21:37:53.080292+00:00; Phase2, iteration13 VERIFYING)
+- S22 D complete:10games/5blocks;300valid gpt-6-luna responses.
+- Partner Y approvals3/40 both arms;lottery−certain0[-.125,.100].
+- Paired t[-.190090,.190090],upper p.625;frozen DUD;no HIT.
+- Certain3 vs25% charge12;equal expected−2 own payoff,shared notes both.
+- Zero retries/failures;all300 exact cached requests/20source hashes PASS.
+- Independent100 cells/30 bootstrap,t/sign summaries/300 histories PASS.
+- Full offline release/read-only resume PASS;result SHA b00e5199 unchanged.
+- Full166-test suite PASS;both accepted final critics exit0/disposed.
+- Source8a689e5 pushed;results commit and clean-clone reproduction next.
+- REPORT/HITS/ledgers current;zero tuning,pooling or sibling writes.
+- Next:fresh B/F question;S20/S23 own hypotheses remain unrun.
+- Risks:smalln,expected≠realized costs,risk/wording/history bundled.
 
 ## Log
 
@@ -166,3 +169,9 @@
 - 2026-10-24T21:24:45.317339+00:00: iteration13 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/status summaries read-only. Selected fresh D S22 expected-sanction invariance after E S21. Registered fresh10-game5-block certain3 versus probability1/4 charge12 pilot;neutral labels/shared notepads both arms. Eleven exhaustive economics/audit/visibility/parser/failure/archive tests and complete dry300-key replay PASS;independent100 metric cells/30 bootstrap,t/sign summaries/300 histories/200 snapshots PASS. Codex+Opus design critics requested before live calls. S23 own disclosure hypothesis queued without running a second pilot. No direction deviation,sibling write,tuning or scientific outcome inspection.
 
 - 2026-10-24T21:27:43.810861+00:00: S22 prelaunch readiness PASS. Both methodology critics exit0;accepted first-admission headroom receipt/recomputed publication gate,per-admission and completion source checks,abort-before-journal ordering and serialized request admission. Added deterministic failure/admission,source-drift/exhausted-headroom,unused-audit-history and synthetic renderer idempotence checks;all15 S22 tests PASS. Full frozen dry300-key replay/independent100 cells/30 intervals+t+sign/300 histories/200 snapshots PASS. All20 source files finalized,readiness hashes recorded;no scientific live call or tuning. Freeze/push then one-shot launch follows.
+
+- 2026-10-24T21:28:42.900027+00:00: S22 source freeze8a689e5bfff6e3ff271d0f1ab3cbf85c46e64b0b committed/pushed. Launcher observed matching remote main21:27:54.472UTC;first uncached admission rechecked source registration and runtime21:27:54.607UTC. All20 sources/readiness evidence bind to registration bytes;47.09min remaining versus19.59min historical requirement. Ten fresh games launched with two workers/seed barrier,22:15UTC cutoff;no partial actions,notes or treatment contrasts inspected. No source mutation,sibling write or extra pilot.
+
+- 2026-10-24T21:37:53.080292+00:00: S22 all10games/300valid responses complete before21:37UTC;zero retries/transport/parse/route failures. Frozen DUD:partner Y approvals3/40 both arms,lottery−certain0[-.125,.100],paired t[-.190090,.190090],upper p.625;no equivalence or agreement claim. Mandatory300-key exact replay,20-source/registration/dispatch/headroom/export/payoff/chronology checks PASS;independent100 metric cells/30 bootstrap,t/sign summaries/300 histories/200 snapshots PASS. Realized and expected-score outcomes reconstructed separately;all10 outcomes retained,no secondary promotion. Canonical/replay/resume bytes unchanged,result SHA b00e5199;figure inspected. Final critics/full suite requested;no further scientific calls,tuning,source edits,pooling or sibling write.
+
+- 2026-10-24T21:41:56.286842+00:00: S22 final Codex critic exit0 independently verifies all raw outcomes/audits/charges/100 cells/30 bootstrap+t summaries/all sign tails/300 histories/200 notes/full replay and registration/timing. Initial Opus final exit0 emitted only unexecuted tool-call text;retained and NOT accepted. Supplied-context-only retry exit0 hand-verifies primary arithmetic/bootstrap multiplicities/t/sign/DUD,explicitly without raw access. Applied documentation-only lock-file write exception,per-arm t-field semantics,realized-versus-expected score and broad-uncertainty clarifications;rejected entirely-luck/HIT-every-criterion overstatements. All166 tests PASS;figure inspected;20 frozen sources and result SHA b00e5199 unchanged. No scientific source edit,additional estimate/tuning,promotion,pooling or sibling write. Final regeneration/results commit and clean-clone next.
