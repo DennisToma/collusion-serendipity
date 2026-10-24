@@ -8,6 +8,7 @@ import subprocess
 def main():
     p=argparse.ArgumentParser()
     p.add_argument('stage',choices=['design','final'])
+    p.add_argument('--critic',choices=['both','codex','opus'],default='both')
     args=p.parse_args()
     instruction=('Adversarial independent research review. Do not edit files. Check design, code, '
                  'economics, cache/provenance, leakage, inference, exact decision rules and scope of claims. '
@@ -15,7 +16,7 @@ def main():
                  'Do not run live models. Review S07 only. ')
     files=['DESIGN_S07.md','sim/legality.py','scripts/s07_analyze.py','scripts/test_s07.py']
     if args.stage=='final':
-        files+=['REPORT.md','results/s07_legality.json','logs/s07_verification.json',
+        files+=['scripts/s07_publish.py','scripts/s07_safe_run.py','scripts/test_s07_release.py','logs/s07_release_tests.log','logs/s07_release_audit.json','logs/s07_diagnostics.json','logs/s07_independent_correction.json','logs/s07_independent.json','logs/s07_retry_audit.json','logs/s07_protocol_audit.json','scripts/s07_independent.py','results/s07_summary.md','logs/s07_review_disposition.md','REPORT.md','results/s07_legality.json','logs/s07_verification.json',
                 'logs/s07_design_codex.md','logs/s07_design_opus.md',
                 'scripts/s07_verify.py','sim/advisor.py','sim/cournot.py','sim/common.py',
                 'scripts/s02_analyze.py','data/s07_legality/config.json','logs/s07_tests.log']
@@ -35,12 +36,13 @@ def main():
         context='\n\n'.join(f'FILE {f}\n{Path(f).read_text()}' for f in files)
         if args.stage=='final':
             context+='\nS07 report detail\n'+Path('results/s07_summary.md').read_text()
-        proc=subprocess.run(['claude','-p',instruction+context,'--model','claude-opus-5-5',
-                             '--output-format','text','--tools',''],capture_output=True,text=True,timeout=480)
+        proc=subprocess.run(['claude','-p','--model','claude-opus-5-5',
+                             '--output-format','text','--tools',''],input=instruction+context,capture_output=True,text=True,timeout=480)
         path.write_text(f'Exit code: {proc.returncode}\n'+proc.stdout+proc.stderr)
         return f'Opus {args.stage}: exit {proc.returncode}'
-    with ThreadPoolExecutor(max_workers=2) as pool:
-        for result in pool.map(lambda f:f(),[codex,opus]):
+    critics={'both':[codex,opus],'codex':[codex],'opus':[opus]}[args.critic]
+    with ThreadPoolExecutor(max_workers=len(critics)) as pool:
+        for result in pool.map(lambda f:f(),critics):
             print(result,flush=True)
 
 

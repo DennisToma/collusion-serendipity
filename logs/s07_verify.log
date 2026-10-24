@@ -1,0 +1,19 @@
+{
+  "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+  "full_cache_only_replay": true,
+  "all_keys_consumed_once": true,
+  "exports_match": true,
+  "canonical_result_identical": true,
+  "independent_primary_and_payoffs": true,
+  "calls": 378,
+  "retries": 18,
+  "primary_numerators": [
+    6,
+    -14,
+    6,
+    0,
+    -84
+  ],
+  "primary_mean": -0.9555555555555556,
+  "exact_upper_p": 0.8125
+}

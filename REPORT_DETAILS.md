@@ -346,3 +346,17 @@ of model draws. No sibling headline change follows from this screen alone.
 Reproduce: `uv run python scripts/s03_analyze.py`;
 `uv run python scripts/s03_verify.py`; `uv run python scripts/render_report.py`;
 `uv run python scripts/s03_report.py` (figure only).
+
+
+## S02 inbox interpretation caveat (iteration4 code review)
+
+The original S02 engine replayed the whole pair transcript to both partners,
+including each sender's own sent messages, despite its recipient-only wording.
+No same-round or outsider leakage was observed. The channel contrast therefore
+also supplied self-message persistence; it did not isolate receiving partner
+messages. Original S02 data, estimates and frozen ODD verdict are unchanged.
+S07 corrects the inbox to recipient-only before any live calls. A synthetic
+protocol-only check reproduces the distinction without LLM calls:
+`uv run python scripts/s07_protocol_audit.py`
+([output](logs/s07_protocol_audit.json)). This is a harness interpretation
+correction, not an estimated memory mechanism or a promoted HIT.

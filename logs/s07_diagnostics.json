@@ -1,0 +1,25 @@
+{
+  "post_outcome_descriptive": true,
+  "primary_verdict_unchanged": "DUD",
+  "all_round_message_counts": {
+    "neutral": {
+      "total": 120,
+      "nonempty": 120
+    },
+    "legality": {
+      "total": 120,
+      "nonempty": 0
+    }
+  },
+  "largest_absolute_block_selected_post_hoc": 24084,
+  "outlier_block_difference": -4.666666666666667,
+  "other_four_block_mean_difference": -0.027777777777777776,
+  "outlier_pair_zero_actions_r4_12": 16,
+  "outlier_pair_actions_r4_12": 18,
+  "outlier_pair_profit_r4_12": 8.0,
+  "arithmetic_note_check": {
+    "description": "Unverified B round2 note claims q12 yields144 if A12/C0 repeat",
+    "conditional_true_profit": 0
+  },
+  "frozen_result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6"
+}

@@ -1,0 +1,19 @@
+{
+  "publication_guard": {
+    "registration_commit": "fdbd7426eb27a50c5a23a0ca4a8f31432bc888db",
+    "recorded_execution_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    },
+    "recomputation_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    },
+    "temperature_requested": 1.0,
+    "no_terminal_failure_markers": true,
+    "caveat": "Version records match recomputation; historical backend execution is not independently attested"
+  },
+  "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6"
+}

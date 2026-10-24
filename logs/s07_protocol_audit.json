@@ -1,0 +1,49 @@
+{
+  "S02": [
+    {
+      "agent": "A",
+      "in_pair": true,
+      "sees_own_sent_message": true,
+      "sees_partner_message": true,
+      "sees_any_private_message": true
+    },
+    {
+      "agent": "B",
+      "in_pair": false,
+      "sees_own_sent_message": false,
+      "sees_partner_message": false,
+      "sees_any_private_message": false
+    },
+    {
+      "agent": "C",
+      "in_pair": true,
+      "sees_own_sent_message": true,
+      "sees_partner_message": true,
+      "sees_any_private_message": true
+    }
+  ],
+  "S07": [
+    {
+      "agent": "A",
+      "in_pair": true,
+      "sees_own_sent_message": false,
+      "sees_partner_message": true,
+      "sees_any_private_message": true
+    },
+    {
+      "agent": "B",
+      "in_pair": false,
+      "sees_own_sent_message": false,
+      "sees_partner_message": false,
+      "sees_any_private_message": false
+    },
+    {
+      "agent": "C",
+      "in_pair": true,
+      "sees_own_sent_message": false,
+      "sees_partner_message": true,
+      "sees_any_private_message": true
+    }
+  ],
+  "scientific_inference": "Protocol check only: S02 channel also supplies own-sent-message memory; S07 recipient-only. No behavioral effect estimated."
+}

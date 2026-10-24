@@ -1,0 +1,26 @@
+{
+  "pilot": "S07",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 378,
+  "retries_by_arm": {
+    "neutral": 6,
+    "legality": 12
+  },
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Rule cue, negative valence and wording not separated; no implemented sanctions",
+    "No no-channel arm; cannot isolate channel-mediated effect",
+    "No independently verified agreement or execution labels",
+    "API seeds/temperature uncontrolled; model labels not independent attestation",
+    "Logical-call cutoff does not bound internal transport retries"
+  ]
+}
+Primary: {'mean': -0.9555555555555557, 'ci95': [-2.8888888888888893, 0.26666666666666644], 'paired_t_ci95': [-3.5924115694156358, 1.6813004583045243], 'exact_signflip_p_upper': 0.8125, 'exact_signflip_p_lower': 0.25}

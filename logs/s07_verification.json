@@ -1,0 +1,53 @@
+{
+  "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+  "full_cache_only_replay": true,
+  "all_keys_consumed_once": true,
+  "exports_match": true,
+  "canonical_result_identical": true,
+  "independent_primary_and_payoffs": true,
+  "calls": 378,
+  "retries": 18,
+  "primary_numerators": [
+    6,
+    -14,
+    6,
+    0,
+    -84
+  ],
+  "primary_mean": -0.9555555555555556,
+  "exact_upper_p": 0.8125,
+  "sha256": {
+    "data/s07_legality/game_24084_neutral.json": "e38c4291143c351c1e52f8ce91a47dd427f5cdfaea5bd3652575dadb9c8bc795",
+    "data/s07_legality/game_24083_neutral.json": "8abae88f4cae33751f9707561d28bfed182d931fa5d31f0bf6fd64c04f48061a",
+    "data/s07_legality/game_24084_legality.json": "ef7d7c54c8e5c1dae35f44c59c3ce47a841345049177f282102facb692e1718c",
+    "data/s07_legality/game_24082_neutral.json": "64039dade55cfc87649a5e06d5423b3ff3e3552a5eb5aa73b2865280c0e419e8",
+    "data/s07_legality/game_24080_legality.json": "a89bfad3383101071210856f92fe4e2e132c5eb592a3a640a5b5d6a70c480046",
+    "data/s07_legality/game_24080_neutral.json": "847e1e02ab6636ce6f363d7c14568003b39a8f779291a9c3fe8d63c853b421b8",
+    "data/s07_legality/game_24081_neutral.json": "56fad226dece87653bf7dc0ffc1754795bf7b0e33f3d8514e306dc26504606c9",
+    "data/s07_legality/game_24081_legality.json": "58431d5f79c4c91ae8491c76765ecb02660627046b2bfa32043939ff29e9fad5",
+    "data/s07_legality/game_24082_legality.json": "8bcfd153320b26538b8f4bc432a49bf3f9f8ce4e4ee123e3014cf8067c2fa7cf",
+    "data/s07_legality/game_24083_legality.json": "dcd3a0224443350aadb5db22a07064b25ba6cb47b25ead7d337205b337f51d2c",
+    "data/s07_legality/raw/responses.jsonl": "b6592aab2b6b8b5be6e402d9a14606dcb13cd53e1227263b1ce6b9469f5c9382",
+    "data/s07_legality/raw/requests.jsonl": "26d3c79e523c993eebb6e7c112b8979e66aa4bf467988ed397976892a9b6f52f",
+    "data/s07_legality/config.json": "27d17f9b77519c07fe61f42d53ab5c2ca436e0a354950783535b08386126220f",
+    "data/s07_legality/schedule.json": "fea5bc401fa5fa3e805ed53db3a5e5b5a90a709abd94157bddf6854a77c926b1",
+    "data/s07_legality/trajectories.jsonl": "e0aa3eec0617d60a087df1a01f2d14d1b6b8e466093694f1becdef6dfd596bd0",
+    "data/s07_legality/ground_truth.jsonl": "8b3f6a352bc5292b9474e5c54ef8bb6271773f646ede84c1a2ea4db670973ccd"
+  },
+  "publication_guard": {
+    "registration_commit": "fdbd7426eb27a50c5a23a0ca4a8f31432bc888db",
+    "recorded_execution_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    },
+    "recomputation_environment": {
+      "python": "3.12.15",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1"
+    },
+    "temperature_requested": 1.0,
+    "no_terminal_failure_markers": true,
+    "caveat": "Version records match recomputation; historical backend execution is not independently attested"
+  }
+}

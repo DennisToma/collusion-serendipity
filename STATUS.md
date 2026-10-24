@@ -1,15 +1,20 @@
 # STATUS
 
-## Current state (2026-10-24 16:30 UTC; Phase2, iteration4 in progress)
-- Prior: S01 DUD; S02 ODD; S04 ODD/UNINFORMATIVE; S03 DUD for predicted increase. No HIT.
-- S07 (F): registered ten-game explicit anti-coordination cue pilot; both arms retain private boxes.
-- Five fresh blocks24080..24084; T12; one primary pair output r4–12, legality-neutral.
-- Seven S07 tests/full dry run PASS in 30-test suite; sources frozen; both design reviews complete.
-- No live S07 calls/outcomes; no tuning; no no-channel or verified collusion claim.
-- Mandatory replay checks every raw/request key consumed once and refuses incomplete raw files.
-- Queued own S08 reasoning-persistence idea; no second pilot this iteration.
-- Next: registration push → run → replay/independent arithmetic → final review/report/push.
-- Remaining portfolio axes after F: D/E. Risks: n5, cue bundling, API sampling/model labels.
+## Current state (2026-10-24 17:01 UTC; Phase2, iteration4 final review)
+- S01 DUD; S02 ODD; S04 ODD/UNINFORMATIVE; S03 DUD; S07 F DUD for predicted increase. No HIT.
+- S07: ten T12 games/5 fresh blocks; 378 cached calls, 18 retries (neutral6/legality12), no failed game.
+- Pair output legality-neutral -0.956 [-2.889,+0.267] descriptive bootstrap; t[-3.592,+1.681]; upper p=.8125.
+- Neutral mean5.800, legality4.844. Lower mean dominated by one block; no profitable-restraint claim.
+- Nonempty message slots0/120 legality vs120/120 neutral: prespecified secondary, no secondary HIT.
+- Posthoc largest block: 16/18 primary pair actions zero; no block excluded or rule/window changed.
+- Mandatory full cache replay, every key once, exports/independent primary/payoffs and canonical audit PASS.
+- Separate verifier: all210 metric/window values, all7 metrics' intervals and exact verdict match.
+- Supplementary checker NumPy-int mean bug fixed/logged; original retained; frozen sources/results unchanged.
+- Both design critics + final Codex confirm results; final Opus retry running. Figure inspected.
+- S02 source audit: own sent messages echoed; historical interpretation caveat added, no old estimate change.
+- New publication/resume guards +3 regressions PASS; pre-run30 tests PASS; release audit byte-identical.
+- Next: final Opus disposition and final ledger/status push; then D/E. Own S05/S06/S08 queued.
+- Risks: n5/outlier, cue+retry bundling, API identity/sampling, no OS isolation or agreement/execution labels.
 
 ## Log
 
@@ -48,3 +53,13 @@
 - 2026-10-24T16:24:22.521244+00:00: iteration4 read rules/state/direction/ledger and both sibling summaries. Selected new axis F rather than deepen S03; registered S07 neutral-versus-prohibition cue (private boxes both arms), fresh ten-game design. Dry run, strict parser/timing/routing/deadline/exact-boundary/tamper checks PASS. Independent Codex+Opus design reviews requested before live calls. Queued own S08 idea; no direction deviation.
 
 - 2026-10-24T16:30:44.046726+00:00: S07 independent Codex/Opus design reviews complete. Fixed recipient-only inbox, failure-partner preservation, strict duplicate/nonstandard JSON rejection, explicit cache-miss/key-use rejection and verified-publication gating. Added retry-by-arm/sent-message conventions; retained fixed scientific rule and two-game concurrency based on prior measured throughput. All30 tests PASS; full source manifest frozen before live calls. No tuning, extra games or direction deviation.
+
+- 2026-10-24T16:31:12.005594+00:00: S07 registration/source freeze pushed as fdbd742 before live calls. Ten-game generator started with two workers and per-seed barrier, pinned codex/gpt-6-luna. Ledger registration reference finalized; no partial outcome inspection.
+
+- 2026-10-24T16:33:30.355007+00:00: metadata checkpoint only; independent synthetic protocol audit confirms S02 also echoed own sent messages (no same-round/outsider leakage). Added historical interpretation caveat; no S02 code/data/estimates changed. S07 remains recipient-only. Prepared a separate independently implemented full-metric/statistics verifier and hashed it before live outcomes; no partial treatment effects inspected.
+
+- 2026-10-24T16:49:27.919020+00:00: S07 completed all10 games/378 calls with18 overlong-reasoning retries (6 neutral/12 legality), no failures. Frozen verdict DUD: primary-0.955556[-2.888889,+0.266667], t[-3.592412,+1.681300], upper p=.8125. Prespecified message secondary0/120 vs120/120 nonempty slots; no secondary promotion. Posthoc largest-block diagnostic16/18 zero actions explains aggregate sensitivity without excluding data; unverified notes are not mechanism labels. Mandatory publication verification PASS, all210 independent metric/window cells and all intervals/p/verdict reproduced. Supplementary checker initially truncated NumPy int means; corrected only the checker, retained original and hash/correction record. Frozen sources and result bytes unchanged. Figure inspected. Both final independent critics requested; no direction deviation, extra LLM games or tuning.
+
+- 2026-10-24T16:57:44.646039+00:00: final Codex critic independently reproduces every numerical claim and unchanged DUD. Accepted three prospective guard fixes via new safe-run/publication wrappers (original frozen sources preserved): failure-marker monotonicity, live verification independent of allow-dry, registration/config resolution. Three post-run regressions PASS; guarded publication leaves canonical bytes unchanged. Corrected timing claims (checker freeze after60 responses but before inspection; production registration before all calls; launch34m9s, not>35m). Opus final launch hit OS argument limit before model execution; retrying via stdin. No new scientific calls, tuning or outcome exclusions.
+
+- 2026-10-24T17:00:58.389876+00:00: complete S07 artifacts ready for milestone push: guarded publication and release audits PASS, all frozen sources match registration commit, every dataset/result byte unchanged after cached resume, last call16:45:39.639 before cutoff. Local document/figure links resolve; repo7.5MB excluding env/git. Final Codex review accepted; final Opus stdin retry remains running. No active generation and no further scientific calls.

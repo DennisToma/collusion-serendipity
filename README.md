@@ -134,24 +134,55 @@ internal transport retries are not separately bounded/logged. This run finished
 before 16:08 UTC; a future experiment near a strict cutoff needs per-transport
 attempt enforcement. See final critic dispositions for the precise limitation.
 
-S07 (iteration4, axis F) compares a neutral market-rule cue with an explicit
-anti-coordination prohibition; both arms have the same pair-only private box.
-No fines or enforcement are implemented, so this tests the exact normative cue
-package. See [DESIGN_S07.md](DESIGN_S07.md); ten fresh exploratory games, zero
-tuning, no agreement/execution truth labels and no no-channel control.
+S07 (iteration 4, axis F) compares a neutral rule cue with an explicit
+anti-coordination prohibition. Both arms retain the same pair-only private box;
+no fines or enforcement are implemented. Ten fresh exploratory games, zero
+tuning. No agreement/execution truth labels or no-channel control.
+See [DESIGN_S07.md](DESIGN_S07.md) and [all S07 outcomes](results/s07_summary.md).
 
 ```bash
-uv run python -m sim.legality             # pinned live/resume, source drift rejected
-uv run python scripts/s07_analyze.py      # complete arms + mandatory offline replay
-uv run python scripts/s07_verify.py       # independent arithmetic, exports, all keys
-uv run python scripts/s07_report.py       # current report + detailed tables + figure
-uv run python -m unittest scripts.test_s07 -v
+uv run python scripts/s07_safe_run.py       # live/resume; terminal-failure guard
+uv run python scripts/s07_publish.py        # complete guarded publication, offline
+uv run python scripts/s07_independent.py    # all 210 metric/window cells and intervals
+uv run python scripts/s07_retry_audit.py    # rejected-output reasons by arm
+uv run python scripts/s07_diagnostics.py    # explicitly post-hoc outlier interpretation
+uv run python scripts/s07_present.py        # current report, tables and figure
+uv run python scripts/s07_release.py        # source/input/result hashes + cached resume
+uv run python -m unittest scripts.test_s07_release -v
 ```
+
+The publication wrapper always verifies live data, rejects terminal-failure
+records, resolves every frozen source against the full registration commit,
+and checks configuration/version consistency before atomically writing the
+unchanged canonical result. Recorded versions matching recomputation do not
+independently attest historical backend execution. The archived original
+`sim.legality` and `s07_analyze.py` CLIs retain known prospective guard gaps;
+use the safe-run/publication wrappers above. Those wrappers preserve every
+frozen scientific source, estimate and decision rule.
 
 Dry run: `uv run python -m sim.legality --dry --out /var/tmp/s07_offline`, then
 `uv run python scripts/s07_analyze.py --data /var/tmp/s07_offline --out
 /var/tmp/s07_offline/result.json --allow-dry`. Use a fresh directory after source
-changes. `s07_report.py` updates S07 in the existing report; after regenerating
-older pilots with `s03_present.py`, run `s07_report.py` again. The analysis and
-verifier refuse incomplete raw files before the inherited cache can recover
-them; preserve damaged evidence and inspect it before any generator resume.
+changes. Synthetic permission does not authorize publishing a live dataset
+through the archived CLI. Pre-run S07 validity checks are included in
+`uv run python -m unittest scripts.test_s07 -v`; the three later release tests
+cover terminal failure, registration/config mutations and verification bypass.
+
+`uv run python scripts/s07_protocol_audit.py` is a synthetic protocol check:
+S02 echoed own sent messages, while S07 filters by recipient. S02 therefore
+bundles partner messages with own-message persistence; no memory effect has
+been estimated. Its old data, estimates and frozen ODD verdict are unchanged.
+
+The independent checker initially used Python statistics on NumPy integer
+values, which truncated an aggregate mean. Its corrected implementation
+reproduces all metric/window values, bootstrap and paired-t bounds and the
+exact DUD rule. Original source/hash and correction history are retained.
+Its supplementary freeze followed 60 responses, before completed games or
+outcome inspection; only the production registration predates every live call.
+
+`s07_present.py` wraps the frozen renderer, then adds the prespecified message
+counts, explicitly post-hoc sensitivity, retry/isolation limits and checker
+correction record. It changes no estimate or verdict. It updates S07 in the
+existing one-page report; after regenerating older results with
+`s03_present.py`, run `s07_present.py` again. Incomplete raw files are refused
+before cache recovery; preserve damaged evidence before any generator resume.

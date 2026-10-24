@@ -1,0 +1,11 @@
+{
+  "rejected_outputs_by_arm": {
+    "neutral": {
+      "reasoning_over40_words": 6
+    },
+    "legality": {
+      "reasoning_over40_words": 12
+    }
+  },
+  "total_raw_responses": 378
+}

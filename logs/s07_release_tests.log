@@ -1,0 +1,8 @@
+test_live_publication_verification_cannot_be_bypassed (scripts.test_s07_release.PublicationGuard.test_live_publication_verification_cannot_be_bypassed) ... ok
+test_registration_environment_and_dry_mutations_rejected (scripts.test_s07_release.PublicationGuard.test_registration_environment_and_dry_mutations_rejected) ... ok
+test_terminal_failure_prevents_resume_and_publish (scripts.test_s07_release.PublicationGuard.test_terminal_failure_prevents_resume_and_publish) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.045s
+
+OK

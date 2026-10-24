@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-10-24T16:48:36.840065+00:00",
+  "stage": "after complete outcomes, supplementary verification only",
+  "original_script": "logs/s07_independent_initial.py",
+  "original_sha256": "5aad0de8227ef675605d3bb3116de1273c094553300cd497ce04c89f8091480e",
+  "corrected_sha256": "f80ba46b4d91fefd4865272f6fd354e956ca346b4bc85b496dd994ff23a7824e",
+  "reason": "statistics.mean on NumPy int64 values coerced fractional mean back to int64; explicitly convert elements to Python float",
+  "production_sources_changed": false,
+  "production_result_changed": false,
+  "all210_cells_and_all_intervals_now_match": true,
+  "freeze_timing_clarification": "Original supplementary freeze followed60 responses; before first complete game and before treatment-outcome inspection. Production registration predates every live call."
+}

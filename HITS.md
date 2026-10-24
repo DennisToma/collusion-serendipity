@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 3.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 4.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -32,4 +32,30 @@ false positive. This is a follow-up suggestion, not a confirmed hit.
 [S03 frozen results](results/s03_calculator.json) ·
 [S03 figure](figures/s03_calculator.png) · [Verification](logs/s03_verification.json).
 Reproduce: `uv run python scripts/s03_audit.py`; `uv run python scripts/s03_analyze.py`; `uv run python scripts/s03_verify.py`;
-`uv run python scripts/s03_present.py`. Cover remaining D/E/F before deepening.
+`uv run python scripts/s03_present.py`. Cover remaining D/E before deepening.
+
+
+**S07: unpromoted diagnostic, DUD for predicted output increase (axis F).**
+Ten games/five fresh blocks: prohibition-minus-neutral pair output r4–12
+-0.956 [-2.889,+0.267] descriptive bootstrap; t[-3.592,+1.681], higher-output
+p=.8125. Nonempty private-message slots are0/120 under the prohibition versus
+120/120 neutral (prespecified descriptive secondary only). One posthoc-selected
+block drives most of the lower output mean and has16/18 zero primary pair
+outputs; lower output/high prices do not establish profitable coordination.
+All original estimates/verdicts retained; no secondary HIT or sibling headline change.
+This exact cue suppresses words in this sample; it does not verify compliance,
+reduced collusion, an enforcement effect or a channel-mediated mechanism.
+No fines are implemented and there is no no-channel arm. Both siblings should
+keep normative wording and degenerate/low-profit actions in mind when interpreting
+text or level screens. Cover D/E before deeper confirmation on fresh seeds.
+
+Reproduce: `uv run python scripts/s07_publish.py`; `uv run python
+scripts/s07_independent.py`; `uv run python scripts/s07_retry_audit.py`;
+`uv run python scripts/s07_diagnostics.py`; `uv run python scripts/s07_present.py`.
+[Design](DESIGN_S07.md), [all outcomes](results/s07_summary.md),
+[verification](logs/s07_verification.json), [figure](figures/s07_legality.png).
+
+**Historical protocol caveat:** S02 echoed own sent messages as well as partner
+messages. Its channel contrast bundles self-message memory; no memory effect
+has been estimated. S07 corrected recipient-only delivery before calls.
+`uv run python scripts/s07_protocol_audit.py` reproduces this synthetic check.

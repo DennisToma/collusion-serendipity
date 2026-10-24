@@ -1,0 +1,16 @@
+{
+  "independent_metric_window_cells": 210,
+  "all_seven_arms_bootstrap_t_intervals_match": true,
+  "exact_numerators": [
+    6,
+    -14,
+    6,
+    0,
+    -84
+  ],
+  "exact_mean": "-43/45",
+  "exact_upper_p": "13/16",
+  "verdict": "DUD",
+  "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+  "script_sha256": "f80ba46b4d91fefd4865272f6fd354e956ca346b4bc85b496dd994ff23a7824e"
+}
