@@ -97,6 +97,7 @@ def audit(data='data/s16_tender'):
             if previous_end is not None:assert previous_end<=response['call_started_utc']
             previous_end=response['call_completed_utc']
             if response['call_completed_utc']>first_failure:
+                assert response['call_started_utc']<=first_failure,'After-failure completion began after first recorded failure'
                 inflight.append(dict(run_id=rid,round_zero_based=rt,agent=agent,started=response['call_started_utc'],completed=response['call_completed_utc']))
             prefix=f'Round {t+1}. Completed public rounds: '
             assert user.startswith(prefix)
@@ -135,6 +136,10 @@ def audit(data='data/s16_tender'):
                 t+=1;ai=0;current={}
         if rid in complete:
             gt=complete[rid]['ground_truth']
+            assert journal[0]['utc']<=gt['started_utc']<=items[0][1]['call_started_utc']<=items[-1][1]['call_completed_utc']<=gt['ended_utc'],'Complete-game timestamp bounds'
+            later=[rid2 for rid2 in groups if planned[rid2][0]>seed]
+            if later:
+                assert gt['ended_utc']<=min(groups[rid2][0][1]['call_started_utc'] for rid2 in later),'Complete-game end violates seed barrier'
             assert t==12 and not terminal and complete[rid]['rows']==rows and gt['notes_file']==entries
             assert gt['assigned_pair']==pair and gt['notes_access']==cond
             status='complete'

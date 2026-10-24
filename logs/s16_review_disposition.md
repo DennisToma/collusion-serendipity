@@ -56,4 +56,20 @@ without rates or attribution;
 (4) registration evidence described as client-observed remote HEAD;
 (5) clean-clone check explicitly pending until results commit, never claimed done.
 These are supplementary audit/report fixes; all16 scientific sources and the
-failed original protocol remain unchanged. Codex final review still running.
+failed original protocol remain unchanged. Codex final review completed; disposition below.
+
+Final Codex critic exit0 independently reproduces173/163/10, every cached prefix,
+all saved history/snapshot counts, fatal reasoning47/44/46 and valid bid/note
+fields,16 source hashes and static economics. Its replay blocked all writes and
+live calls and patched the metric function to forbid effect estimation. It found
+two supplementary-validator gaps via in-memory mutations: complete-game outer
+timestamp bounds and the start time of the in-flight post-failure completion.
+Actual recorded timestamps satisfy both. Added explicit complete-game bounds/
+next-block end-barrier checks, and require recorded late completions to have
+started before the first failure record. Two new mutation regressions PASS;
+15 S16 tests PASS. Original16 scientific sources, all retained data and entire
+failure result JSON remain byte-identical (SHA check PASS). This historical
+archive check does not claim the live abort guard is atomic; an already-passed
+guard can race with timestamp creation in a future run. No effect, new model
+call, changed scientific rule or excluded observation. Both final critics fully
+disposed; clean-clone reproduction remains the final pending release step.

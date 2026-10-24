@@ -40,5 +40,27 @@ class Tests(unittest.TestCase):
             journal.write_text(journal.read_text()+json.dumps(dict(event='complete',utc='2026-10-24T20:00:00+00:00'))+'\n')
             with self.assertRaisesRegex(AssertionError,'interrupted journal'):audit(d)
 
+    def test_complete_game_timestamp_bounds_rejected(self):
+        with tempfile.TemporaryDirectory(dir='/var/tmp') as td:
+            d=Path(td)/'data';shutil.copytree('data/s16_tender',d)
+            path=d/'game_24240_self.json';g=json.loads(path.read_text())
+            g['ground_truth']['started_utc']='2099-01-01T00:00:00+00:00'
+            g['ground_truth']['ended_utc']='1900-01-01T00:00:00+00:00'
+            path.write_text(json.dumps(g)+'\n')
+            with self.assertRaisesRegex(AssertionError,'timestamp bounds'):audit(d)
+
+    def test_rehashed_postfailure_call_start_rejected(self):
+        with tempfile.TemporaryDirectory(dir='/var/tmp') as td:
+            d=Path(td)/'data';shutil.copytree('data/s16_tender',d)
+            reqpath=d/'raw/requests.jsonl';rawpath=d/'raw/responses.jsonl'
+            requests=[json.loads(l) for l in reqpath.read_text().splitlines()]
+            raw=[json.loads(l) for l in rawpath.read_text().splitlines()]
+            target=next(r for r in requests if r['payload'][5:9]==['s16_24242_self',3,'B',0])
+            response=next(r['response'] for r in raw if r['key']==target['key'])
+            response['call_started_utc']='2026-10-24T19:48:05+00:00'
+            target['response_sha256']=hashlib.sha256(json.dumps(response,sort_keys=True).encode()).hexdigest()
+            for path,rows in [(rawpath,raw),(reqpath,requests)]:path.write_text(''.join(json.dumps(r)+'\n' for r in rows))
+            with self.assertRaisesRegex(AssertionError,'After-failure'):audit(d)
+
 
 if __name__=='__main__':unittest.main()

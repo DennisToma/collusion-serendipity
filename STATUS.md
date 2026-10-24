@@ -9,9 +9,9 @@
 - Exact173-key prefix replay and independent173 histories/116 file snapshots PASS.
 - Four full games/metadata match; failed3 attempts and partner prefix reproduce exactly.
 - All16 scientific sources match pushed freeze73fe09d; no estimator/rule/source change.
--13 S16 protocol/failure tests and102 full-repository tests PASS; final critics running.
+-15 S16 protocol/failure tests and104 full-repository tests PASS; both final critics exit0.
 - REPORT/HITS/ledgers updated for checkpoint; no HIT or sibling headline change.
-- Next:dispose final reviews, full verification, commit/push and clean-clone reproduction.
+- Next:commit/push final audit guards, then clean-clone reproduction and final handoff.
 - Risks:operational censoring,small pilot,access wording/content/context bundled,no truth labels.
 
 ## Log
@@ -127,3 +127,5 @@
 - 2026-10-24T19:55:44.694905+00:00: S16 generator exited1 at19:48UTC after fatal shared24242/round3/C reasoning47/44/46-word outputs. Four complete games retained, two failed/partner-aborted cached prefixes, four unstarted;173 responses/163 accepted/10 overlong-reasoning rejections. The frozen whole-dataset gate blocks all scientific analysis; no replacement, parser change, excluded block, treatment contrast, pooling or secondary promotion. Wrote supplementary postfailure auditor: independent strict parsing/rational histories/116 snapshots and exact173-key original-source replay PASS; all16 frozen sources unchanged. One already-started self call completed after the first failure record, as allowed.13 protocol/failure tests PASS. Failure summary/figure/release checks prepared; final independent Codex/Opus reviews requested. No direction deviation or sibling writes.
 
 - 2026-10-24T19:59:29.920128+00:00: final Opus critic exit0 verifies supplied failure arithmetic (no raw/shell access). Applied explicit scientific-unclassified/administrative-queue distinction, pairB/C role and rejection role splits, independent bid/note-validity checks for all10 rejected replies, client-observation provenance wording. All16 scientific sources unchanged, no effect computed. Codex final critic and post-commit clean-clone check pending. Checkpoint failure evidence ready for milestone commit/push.
+
+- 2026-10-24T20:01:41.200312+00:00: checkpoint evidence committed/pushed asede7e70. Both final critics exit0, fully disposed: Codex independently reproduces every failure count/prefix/raw-history check with writes/model/metrics blocked; Opus verifies supplied counts/code without raw/shell access. Codex in-memory mutations found two timestamp-validator gaps; supplementary guards plus two regressions fix them. Actual timestamps already valid; full scientific result SHA e2fcadfc and all16 original sources/data unchanged.15 S16 tests and104 repository tests PASS;59 local links resolve. No remaining generation/review process. Clean-clone release still pending until guard commit.
