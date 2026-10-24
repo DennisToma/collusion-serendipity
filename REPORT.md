@@ -25,4 +25,4 @@ Earlier Cournot markets have three firms, integer output, P=max(0,30-total outpu
 [Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [S11](DESIGN_S11.md) · [S06](DESIGN_S06.md) · [Reproduce](README.md).
 **Next:** Choose a different axis after S14; keep checkpoint artifacts current. No secondary-driven promotion.
 
-[S06 replay/release verification](logs/s06_release.json) · [Independent checks](logs/s06_independent.json) · [Review dispositions](logs/s06_review_disposition.md).
+[S14 release](logs/s14_release.json) · [Independent reconstruction](logs/s14_independent.json) · [Review dispositions](logs/s14_review_disposition.md) · [S06 verification](logs/s06_release.json).

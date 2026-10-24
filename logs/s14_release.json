@@ -88,7 +88,7 @@
     }
   },
   "last_call_completed_utc": "2026-10-24T19:23:04.778352+00:00",
-  "links_checked": 52,
+  "links_checked": 53,
   "registration_commit": "6a4d83e04faf09c771573b5c873ff2a4b098f895",
   "sha256": {
     "data/s14_tender/README.md": "323a50c51723f682630df3364cd7ac6facda8dfe415f3b77fadb34fb6ee2995b",

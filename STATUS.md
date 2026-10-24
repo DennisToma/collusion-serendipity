@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T19:25:03.494612+00:00; Phase2, iteration8 VERIFYING)
-- S14 A1 procurement ODD:10 fresh games/5 time-matched none/private pairs;T12.
-- Buyer-payment private−none r4..12 +2.333333[-5.600000,+9.733333]; t[-10.573736,+15.240403].
-- Upper sign-flip p=.375; block payment-sum numerators[99,0,117,-117,6]/9; no HIT.
-- Pair-total-profit secondary+0.800000[-4.544444,+5.233333]; opposite large primary contrasts.
-- Both arms exhibit high-payment paths; no agreement labels or channel-induced regime claim.
-- All376 responses/360 actions complete;16 overlong-reasoning retries(8/8), no failure.
-- Mandatory exact-request/all-key/source/registration/export/payoff replay and cached resume PASS.
-- Independent270 cells/27 bootstrap/9 t/32 signs and376 actual saved histories PASS.
-- Finite3125-resample upper10 differs from frozen10k-draw9.733; neither resolves a sign.
-- Fourteen frozen scientific sources unchanged; original result SHA ecba9a8f retained.
-- Both final critics exit0 confirm ODD; timing/profit framing fixed, scientific sources/result unchanged.
-- Final release and89 tests PASS; next:commit/push and required clean-clone reproduction.
-- Risks:n5,huge block heterogeneity,box/role cues,divisible ties,shared backend; no sibling headline change.
+## Current state (2026-10-24T19:31:30.372695+00:00; Phase2, iteration8 COMPLETE)
+- S14 A1 procurement ODD:10 fresh games/5 time-matched pairs; no HIT or sibling headline change.
+- Buyer payment private−none +2.333333[-5.600000,+9.733333];t[-10.573736,+15.240403];upper p=.375.
+- Block sums[99,0,117,-117,6]/9; pair-profit+.800, outsider-profit+1.533 (unresolved secondaries).
+- High paths begin before incoming messages in both arms; no message/initial-cue mechanism claim.
+- All376 responses/360 decisions;16 overlong-reasoning retries(8/8), zero failures; last call19:23:04.
+- Mandatory exact all-key/request/source/registration/export/payoff replay and cached resume PASS.
+- Independent270 cells/27 bootstrap/9 t/32 signs,376 histories/inboxes and overlap/barrier checks PASS.
+- Full3125 empirical upper10 differs from frozen10k upper9.733; disclosed, unchanged ODD.
+- Both final critics exit0; findings disposed;14 scientific sources/result SHA ecba9a8f unchanged.
+- Pushed full results3bcdbd5; clean clone passes9 protocol checks and5 byte-identical outputs.
+- All89 repo tests PASS; REPORT/HITS/ledgers current; no generation/review process remains.
+- Next:different axis after A; favor C2 shared notes or B entry over immediate selected confirmation.
+- Risks:n5,large block heterogeneity,bundled role/box cues,divisible ties,shared backend/client provenance.
 
 ## Log
 
@@ -116,3 +116,5 @@
 - 2026-10-24T19:25:03.494669+00:00: S14 all10 games complete at19:23:04.778352UTC,376 responses/360 valid bids,16 overlong-reasoning retries(8 none/8 private), zero failure. Frozen ODD: payment+2.333333[-5.6,+9.733333], t[-10.573736,+15.240403], upper p=.375, exact block numerators[99,0,117,-117,6]/9, exact pair-profit gate4/5. Full source/registration/all-key exact replay, export/payoff/timestamp/overlap/barrier checks and byte-identical cache-only resume PASS. Independent270 cells/27 bootstrap/9 t/all32 signs agree; full3125-resample interval[-5.6,10] differs from frozen10k Monte Carlo upper9.733333 as explicitly disclosed. Supplementary376 saved-history/inbox audits PASS. Figure inspected; final Codex/Opus critics requested. Added existing per-game metric table as descriptive heterogeneity presentation, no new estimator or promotion. No changed scientific source, excluded game, tuning, pooling or sibling write.
 
 - 2026-10-24T19:30:02.462969+00:00: both final critics exit0 confirm all reported S14 primary numbers and unchanged ODD. Codex independently verifies270 raw cells/27 bootstrap/9 t/all32 signs/44 equilibria/376 requests; Opus hand-checks supplied means/t/sign/conservation/counts without raw/shell/bootstrap-stream access. Accepted explicit pre-inbox high starts (all10 first-round values shown as posthoc timing illustration), related profit-gate/outsider-profit interpretation and uninformed-outsider caveats. Declined unverified tacit-coordination/initial-cue mechanism attribution. No scientific source/estimator/rule change; result SHA ecba9a8f unchanged. Full local release PASS and89 repo tests PASS; clean-clone requirement remains explicitly pending until artifacts committed/pushed. No active generation/review processes or further scientific calls.
+
+- 2026-10-24T19:31:30.372695+00:00: iteration8 COMPLETE. Source freeze6a4d83e/results3bcdbd5 committed/pushed. Clean clone of full results commit passes9 protocol checks/full offline release and regenerates5 artifacts byte-for-byte (scientific result,summary,figure,independent audit,REPORT);52 local document links at that audit. All89 discovered repo tests PASS. Both final critics fully disposed,14 scientific source hashes and result SHA ecba9a8f unchanged. Final handoff documents/ledger result reference updated; no new game, estimator tuning, excluded outcome, pooling, secondary promotion or sibling write. No active scientific/review process. Next pilot must select a different axis; keep checkpoint artifacts presentable and avoid selecting a confirmation from the large positive mean alone.

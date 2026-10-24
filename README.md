@@ -311,6 +311,7 @@ uv run python scripts/s14_request_audit.py
 uv run python scripts/s14_economics.py
 uv run python scripts/s14_present.py
 uv run python scripts/s14_release.py
+uv run python scripts/s14_release.py --clean-clone # after committing all artifacts
 uv run python -m unittest scripts.test_s14 -v
 ```
 

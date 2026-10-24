@@ -113,3 +113,14 @@ Codex's raw reconstruction.
   reread is inefficient but does not alter results. Rejection census reports the
   first parser reason, not a comprehensive multi-fault classification; raw outputs
   retained and no malformed-extra-message rejection observed in this run.
+
+
+## Release completion
+
+Complete source/data/result/audit/figure artifacts committed and pushed as
+3bcdbd5c8c27c28d60e86e095c19bd08b0859859. Clean clone of that full result commit passes9 S14
+protocol tests and full offline release audit; regenerates5 artifacts byte-for-byte
+(scientific JSON,summary,PNG,independent audit,REPORT). Evidence retained in
+`s14_clean_clone.log`. This resolves both final critics' outstanding release gap.
+All89 discovered repository tests pass. Final metadata/document handoff does not
+change any frozen scientific source, game, estimate or verdict.
