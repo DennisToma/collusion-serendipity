@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "commit": "8f38ec684c0537cc1f7100502caa804d3047b9b6",
+  "dependency_environment": "Existing venv with frozen dependencies",
+  "byte_identical_artifacts": {
+    "results/s19_labels.json": "f2ba647f4a5b17ff69c5de8e249b277f64627a6a1c7769c8ae06383bcd015042",
+    "results/s19_summary.md": "7c7390b367d4b07719671e5dfbd56eff2523ce8af7042a17ac95bdb7399b39bd",
+    "logs/s19_independent.json": "7e2663a4b797d7d8c09be0cb867e8f6ad0553834a209aa4cb006488b40a344ab",
+    "figures/s19_labels.png": "a2ca748c864ce71b1cdd892fe10d1f13b9d1e64f9bf52cd5c7207a12309a6965",
+    "REPORT.md": "381fe9d2d45e228ffd5872706b043992e1fd01038b65e56f47c0d5381e437761",
+    "logs/s19_release.json": "e961b6a0f2e3569a7a03e58e543fcee6d6e8681084bc3e64abeb0715a33cf1c8"
+  },
+  "commands": [
+    [
+      "scripts/s19_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s19",
+      "scripts.test_s19_publication"
+    ],
+    [
+      "scripts/s19_checked_independent.py"
+    ],
+    [
+      "scripts/s19_present.py"
+    ]
+  ]
+}

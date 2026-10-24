@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "requests": 300,
+  "by_condition": {
+    "normative": 150,
+    "neutral": 150
+  },
+  "system_semantics_and_exact_payoffs": true,
+  "exogenous_history_and_current_labels": true,
+  "shared_access_for_both_arms": true,
+  "endogenous_note_vocabulary_unrestricted": true,
+  "raw_requests_sha256": "06ab5d37e487f9949c08ae61cfa6641a46342afd6fe32439324763c4dbbfe546"
+}
+{
+  "event_count": 4,
+  "counts": {
+    "normative": {
+      "partner": 0,
+      "other": 1
+    },
+    "neutral": {
+      "partner": 3,
+      "other": 0
+    }
+  },
+  "scientific_result_sha256": "f2ba647f4a5b17ff69c5de8e249b277f64627a6a1c7769c8ae06383bcd015042"
+}
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.027s
+
+OK

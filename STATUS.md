@@ -1,16 +1,17 @@
 # STATUS
 
-## Current state (2026-10-24T20:58:40.448890+00:00; Phase2, iteration11 RESULTS READY FOR CLEAN CLONE)
-- S19 own-label pilot:10 games/5 fresh blocks,T10;300 responses,zero retries/failures.
+## Current state (2026-10-24T21:05:23.278764+00:00; Phase2, iteration11 COMPLETE)
+- S19 own-label pilot:10 games/5 blocks,T10;300 valid decisions,zero retries/failures.
 - Partner negative approvals normative0/40,neutral3/40;difference+.075[.025,.125].
-- Paired t[-.010,.160],upper p.125;frozen DUD because upper bound<.25 screen.
+- Paired t[-.010,.160],upper p.125;DUD because bootstrap upper<.25 queue threshold.
 - Selectivity+.100[.025,.175],t[-.030,.230],p.125;descriptive,no promotion.
-- Exact300-key replay/19 frozen sources and independent80 cells/24 stats PASS.
-- All300 request histories/200 snapshots,offline release,cached read-only resume PASS.
-- Source freeze f64d98d pushed;scientific result SHA f2ba647f unchanged after release.
-- No HIT,agreement claim,tuning,pooling or sibling write;S18/S16 unchanged.
-- Both final critics+focused supplement critic exit0/disposed;132 repo tests PASS.
-- Next:results commit/push and required clean-clone reproduction.
+- Exact300-key replay/19 frozen sources,80 raw cells/24 bootstrap,t/sign checks PASS.
+- Independent300-request framing/payoff/access audit;132 repo tests PASS.
+- Both final critics+focused supplement critic exit0/disposed;all events preserved.
+- Source f64d98d/results8f38ec6 pushed;clean clones reproduce9 artifacts exactly.
+- Four-event descriptive audit:some action/explanation conflicts;intent unverified.
+- REPORT/HITS/ledgers current;S18 DUD/S16 failed unchanged;no HIT or sibling change.
+- Next:different axis B/D;S20 correlated task-schedule hypothesis queued,not run.
 - Risks:n5,semantic/label-order bundle,bootstrap-vs-t/sign disagreement,shared backend.
 
 ## Log
@@ -152,3 +153,5 @@
 - 2026-10-24T20:58:40.448890+00:00: S19 all10 games/300 valid decisions complete,zero retries/failures. Frozen DUD:partner negative approvals normative0/40,neutral3/40;difference+.075[.025,.125],t[-.010011,.160011],upper p.125. Upper bootstrap bound<.25 queue threshold;positive bootstrap is not a confirmed framing effect. All eight outcomes retained;selectivity+.100[.025,.175],t[-.030,.230],p.125 descriptive only. Mandatory300-key exact replay,19-source/registration/export/payoff/chronology checks and independent80 raw cells/24 bootstrap,t/sign checks/300 histories/200 snapshots PASS. Offline release and read-only cached resume byte-identical,result SHA f2ba647f unchanged. No new LLM call,tuning,secondary promotion,pooling or sibling write. Both final critics requested next.
 
 - 2026-10-24T21:04:19.083897+00:00: S19 both final critics exit0,full dispositions retained. Codex independently reproduces raw primary,all80 metric cells/24 bootstrap,t/sign summaries,300 histories/200 snapshots and full replay;Opus supplied-file review hand-checks primary bootstrap multiplicities,t/sign/DUD and selected secondaries. Accepted separate independent300-request exogenous system/payoff/status/access check;three new regressions PASS,132 repository tests PASS. Post-outcome descriptive audit lists all four registered-window adverse approvals with accepted raw JSON/explanations;no labels or new window. Focused Codex critic exit0 independently verifies all events,hashes,300 request contracts and200 snapshots;accepted explicit zero-retry/hash checks in supplementary extractor. Five diagnostic/presentation artifacts byte-identical after rerender;original19 scientific sources/result SHA f2ba647f unchanged. Six prelaunch evidence hashes resolve against f64d98d. Figure inspected;all reviews/generation exited. No new scientific call,tuning,exclusion,pooling,HIT or sibling write. Results commit/push then clean-clone follow.
+
+- 2026-10-24T21:05:23.278764+00:00: iteration11 COMPLETE. S19 source f64d98d and full results 8f38ec684c0537cc1f7100502caa804d3047b9b6 committed/pushed. Clean local clones of results commit pass core release,13 S19 protocol/publication tests,three supplemental contract regressions and both event/request audits;regenerate nine artifacts byte-for-byte (scientific result,summary,figure,independent audit,REPORT,release receipt,request-contract receipt,event JSON/Markdown). Structured receipts logs/s19_clean_clone.json and logs/s19_supplement_clean_clone.json record exact commit/commands/artifact SHA values;frozen dependency environment reused explicitly.132 repository tests PASS. Both final critics and focused supplement critic fully disposed;19 original scientific sources/result SHA f2ba647f unchanged. All300 responses retained,zero retries/failures;four adverse events listed descriptively without intent/agreement labels or exclusions. Final ledger points to results8f38ec6. No HIT,secondary promotion,tuning,pooling,sibling write,direction deviation or active generation/review process. Next choose B/D after own;S20 is a fresh unrun hypothesis,not a mechanism conclusion.

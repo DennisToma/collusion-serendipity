@@ -40,8 +40,10 @@ Cosmetic dead branches/duplicated abort retained, unchanged scientific sources.
 Codex final exit0 independently reconstructs raw primary and every80 metric cells,
 24 bootstrap/t/sign summaries,300 histories,200 snapshots and full exact replay;
 no scientific defect. Source hashes match registration; unchanged result/replay.
-Both critics' remaining release gap (commit then clean clone) is addressed below
-once the actual committed archive is available; no completion claim in advance.
+Both critics' release gap is now resolved: results commit 8f38ec684c0537cc1f7100502caa804d3047b9b6
+was pushed, then clean-clone reproduction regenerated six core and three
+supplemental artifacts byte-for-byte. Receipts logs/s19_clean_clone.json and
+logs/s19_supplement_clean_clone.json record commands, exact commit and hashes.
 
 Focused Codex supplement critic exit0: independently confirms all four adverse
 review events and raw keys/hashes,300 exogenous request contracts,200 note snapshots,
