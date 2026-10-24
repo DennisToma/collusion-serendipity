@@ -732,3 +732,8 @@ frozen. `uv run python scripts/s31_runtime_observation.py` records current
 post-run version/file hashes and counts actual notes;it does not attest the
 execution-time binary/configuration and is outside the scientific source freeze.
 [Final dispositions](logs/s31_review_disposition.md).
+
+Fresh full-history origin-remote clone of resultsc62f9ce passed12 S31 protocol
+checks,all offline release/replay checks and six byte-identical artifact
+regenerations;clone clean. Receipt:logs/s31_remote_clean_clone.json. It reused
+the installed frozen dependency environment,not a fresh dependency installation.

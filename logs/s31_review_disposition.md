@@ -64,4 +64,4 @@ confirm DUD and primary0[0,0],t[0,0],upperp1.
 
 No frozen scientific source,result,screen,tuning,exclusion or model call changed.
 Figure inspection,post-run observation,release and remote-clone checks are
-manager validation outside the critics' fixed input sets. Remote clone pending.
+manager validation outside the critics' fixed input sets. Remote-origin clone of resultsc62f9ce PASS:12 checks,six artifacts byte-identical,clean git status;existing frozen environment reused.

@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T23:39:47.631659+00:00; Phase2, iteration19 PUBLICATION)
+## Current state (2026-10-24T23:40:39.832064+00:00; Phase2, iteration19 COMPLETE)
 - S31 fresh A2 labor duopsony:10games/5blocks,200valid decisions.
 - Worker earnings self10/shared10;primary0[0,0] degenerate bootstrap.
 - Paired t[0,0],upperp1;five ties;frozen DUD,no HIT/equivalence claim.
 - Zero retries/failures;200-key replay/18sources/registration/UTC/exports PASS.
 - Independent50cells/15bootstrap+t summaries/five sign sets/200notes+reasons PASS.
-- Full257 post-live tests/real S21 archive/cache-only release PASS.
-- Both final critics confirm;Codex raw reconstruction,Opus supplied-text scope.
-- Scientific SHA0673f925 and source freeze09e7f7a unchanged.
+- Full257 tests/cache-only release/real S21 original archive PASS.
+- Both critics confirm;Codex raw reconstruction,Opus supplied-text scope.
+- Remote clone:12checks/six artifacts byte-identical,clone clean.
+- Registration09e7f7a/resultsc62f9ce pushed;scientific SHA0673f925 unchanged.
 - CLI binary/effective config unfrozen;post-run observation not attestation.
-- Next:results push,remote clean-clone reproduction;S30/S32 remain unrun.
+- No active run/review,tuning,pooling,HIT or sibling writes.
+- Next:fresh own/structure question;S30/S32 proposals remain unrun.
 
 ## Log
 
@@ -261,3 +263,5 @@
 - 2026-10-24T23:39:15.138434+00:00: S31 final Codex/Opus critics exit0,confirm DUD/primary0[0,0]/t[0,0]/upperp1. Codex raw-reconstructsall5metrics/bootstrap/signs/all200prompts/18sources;Opus supplied-text-only arithmetic/analytic equilibria,both without reading other final critique. Accepted ambiguous agreement wording fix and unresolved medium CLI binary/effective-config provenance gap;separate post-run observation records currentversion/launcher/binary/config hashes and actual100notes perarm,explicitly not retrospective attestation. No frozen source/result changes. Full257 post-live tests/cache-only release PASS;figure inspected;new ownS32 resource-framing idea queued,not run. Final regeneration/results commit/push/remote clone next.
 
 - 2026-10-24T23:39:47.631659+00:00: S31 final all18 source hashes match registration09e7f7a;canonical scientific SHA0673f925 unchanged. Complete analysis/independent/render regeneration under forbidden model calls leaves four artifacts byte-identical;cache-only release PASS with final documentation. Both final review dispositions complete;no new scientific calls,tuning,pooling,HIT,secondary/reverse promotion,sibling writes or frozen-source edits. Results commit/push and remote clean clone next.
+
+- 2026-10-24T23:40:39.832064+00:00: iteration19 COMPLETE. S31 registration09e7f7a145058437b4510c3f7cc352823d7af285 and resultsc62f9ceb2f4f2f2dd5f66b75c5949f58c02ee54e committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes full cache-only release,12 protocol checks,independent raw reconstruction and six byte-identical regenerations(scientific result,summary,figure,independent/release receipts,REPORT);clone git status clean. Receipt logs/s31_remote_clean_clone.json explicitly records frozen installed-environment reuse,not fresh dependency installation. Full257 repository tests PASS with14 scoped historical S21 synthetic clock overrides;real original-cutoff S21 archive separately PASS. Both final critics disposed without reading each other;Codex raw reconstruction versus Opus supplied-text-only scope clear. All18 scientific sources and canonical SHA0673f925 unchanged;200responses,zero retries/failures,DUD retained,no equivalence/verified-agreement claim. CLI binary/effective inherited configuration was not frozen;current post-run hash/version observation is not retrospective attestation. Ledger result reference finalized. Reports/HITS/README/DETAILS current;no extra scientific call,second pilot,tuning,pooling,exclusion,reverse/secondary promotion,HIT,sibling write,direction deviation or active generation/review. S30/S32 remain unrun,next fresh own/structure axis after A.
