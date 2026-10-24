@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "post_outcome_verification": true,
+  "original_games": 10,
+  "original_raw_responses": 300,
+  "independently_rebuilt_truths": 10,
+  "all_source_adverse_events": 4,
+  "all_adverse_events_retained": true,
+  "strict_auditor_texts": 30,
+  "independent_view_contracts": 30,
+  "routing_checks": 30,
+  "counts": {
+    "A": {
+      "correct": 10,
+      "error": 0,
+      "abstain": 0
+    },
+    "T": {
+      "correct": 0,
+      "error": 0,
+      "abstain": 10
+    },
+    "AT": {
+      "correct": 10,
+      "error": 0,
+      "abstain": 0
+    }
+  },
+  "result_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850"
+}

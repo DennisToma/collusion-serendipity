@@ -1,0 +1,659 @@
+{
+  "pilot": "S21",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "model": "gpt-6.1-sol",
+  "backend": "codex",
+  "tuning_attempts": 0,
+  "selection": "post-outcome enriched challenge;one case per S19 game",
+  "verdict": "DUD",
+  "primary": "AT_minus_A_error",
+  "metrics": {
+    "A": {
+      "error": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "abstain": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "error_or_abstain": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "counts": {
+        "error": 0,
+        "abstain": 0,
+        "correct": 10
+      }
+    },
+    "T": {
+      "error": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "abstain": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "correct": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "error_or_abstain": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "counts": {
+        "error": 0,
+        "abstain": 10,
+        "correct": 0
+      }
+    },
+    "AT": {
+      "error": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "abstain": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "correct": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "t95": [
+          1.0,
+          1.0
+        ],
+        "upper_signflip_p": 0.03125,
+        "block_values": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "error_or_abstain": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "t95": [
+          0.0,
+          0.0
+        ],
+        "upper_signflip_p": 1.0,
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "counts": {
+        "error": 0,
+        "abstain": 0,
+        "correct": 10
+      }
+    }
+  },
+  "contrasts": {
+    "AT_minus_A_error": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "T_minus_A_error": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "AT_minus_A_error_or_abstain": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "cases": [
+    {
+      "case_id": "case00",
+      "seed": 24320,
+      "truth": false,
+      "source_run": "s19_24320_neutral",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case01",
+      "seed": 24320,
+      "truth": false,
+      "source_run": "s19_24320_normative",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case02",
+      "seed": 24321,
+      "truth": false,
+      "source_run": "s19_24321_neutral",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case03",
+      "seed": 24321,
+      "truth": false,
+      "source_run": "s19_24321_normative",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case04",
+      "seed": 24322,
+      "truth": true,
+      "source_run": "s19_24322_neutral",
+      "views": {
+        "A": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case05",
+      "seed": 24322,
+      "truth": false,
+      "source_run": "s19_24322_normative",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case06",
+      "seed": 24323,
+      "truth": true,
+      "source_run": "s19_24323_neutral",
+      "views": {
+        "A": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case07",
+      "seed": 24323,
+      "truth": false,
+      "source_run": "s19_24323_normative",
+      "views": {
+        "A": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": false,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case08",
+      "seed": 24324,
+      "truth": true,
+      "source_run": "s19_24324_neutral",
+      "views": {
+        "A": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    },
+    {
+      "case_id": "case09",
+      "seed": 24324,
+      "truth": true,
+      "source_run": "s19_24324_normative",
+      "views": {
+        "A": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        },
+        "T": {
+          "approved": null,
+          "error": false,
+          "abstain": true,
+          "correct": false
+        },
+        "AT": {
+          "approved": true,
+          "error": false,
+          "abstain": false,
+          "correct": true
+        }
+      }
+    }
+  ]
+}

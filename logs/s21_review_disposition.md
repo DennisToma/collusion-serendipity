@@ -38,4 +38,31 @@ No live S21 output existed while applying these changes.
   fails; all remain archived and no partial estimate allowed. Full git history
   through registration and repo-root CLI execution documented.
 
-Final reviews: pending after generation and complete analysis.
+Final reviews: Codex and Opus both exit0. Original reviews retained verbatim.
+
+- Codex independently reconstructed all30 raw predictions,all15 summaries,the
+  frozen DUD and selected source actions/explanations,all four adverse events,
+  manifests and registration content. No result-changing bug found.
+- Opus had no shell/file access (tools disabled); its supplied-file review
+  recomputed all case-level counts and summaries but did NOT inspect raw files.
+  This limitation is explicit and is not counted as a second independent raw
+  replay. Codex's raw reconstruction and local independent source audit cover it.
+- Accepted Opus truth/completeness concern via a separate post-outcome source
+  audit without editing the nine frozen scientific sources: independently rebuild
+  truths from original S19 game reviews and accepted raw actions; enumerate every
+  registered-window source adverse action and assert exact retained-event equality;
+  independently check all30 view contracts/routes and strict JSON outputs, then
+  bind case predictions/result counts. Three truth/duplicate/completeness
+  regressions pass. This supplements the frozen arithmetic checker, which uses
+  source-bound cases and is not standalone protocol/provenance validation.
+- Codex payout wording accepted in review notes: no separate payout/history fields
+  are supplied; full explanations retain their original payoff amounts and
+  reciprocity claims. The scientific design/source bytes remain unchanged.
+- Opus descriptive conflict suggestion accepted only as prose: the both-view
+  predictions include the previously listed contradictions. No selected subgroup
+  estimate/test,label,threshold change or secondary promotion added.
+- Confident error is the registered operational term for a wrong non-null answer;
+  no confidence probability was elicited. Abstentions stay in the denominator
+  and are displayed separately, not dropped from analysis.
+- Result commit/push and full-history clean clone are final release steps, not
+  claims already completed at the time critics read the draft.

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "byte_identical_artifacts": {
+    "results/s21_audit.json": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850",
+    "results/s21_summary.md": "143ed560bccc55d3c3c25b0278caf9426dba50c52ee54ef60e7be59fa7497e0b",
+    "figures/s21_audit.png": "4215f4d317456c37ca86ce585ee0cf6f255e04912253ec2ebb386eaf70206dae",
+    "REPORT.md": "5e68a5d27977785527d43c36b1e04dcf710173d619dc9c920793aeb5c3c14eab",
+    "logs/s21_independent.json": "6254d4c1605237bc4052e9a8afef86913da3cc6a97fff2cd40f7d74b3b671eb0",
+    "logs/s21_release.json": "3987380ae0fd84bc8b67afa4d9b0c9aae48b85fa8806a3bfe1e0a3fd7889d7c1",
+    "logs/s21_source_audit.json": "ffc4f245250f21b7ca794683493914f5c4f155b3b93c0eb2cd63170b78850130"
+  }
+}

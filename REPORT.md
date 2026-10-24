@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 12 (S21 registered) · **No hits promoted.** All pilots exploratory; zero tuning attempts.
+2026-10-24 · Iteration 12 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -16,7 +16,12 @@
 | S16 · C2, notes-file channel | Aborted under frozen strict-output rule: 4/10 games complete; 173 responses, 10 overlong-reasoning rejections. No effect estimated. | **FAILED / unclassified** |
 | S18 · A4, workplace review | 10 games / 5 blocks. Partner FAIL approval rate r3–10: self **0.000**, shared **0.000**; difference **0.000 [0.000, 0.000]** (degenerate). | **DUD** for directional screen |
 | S19 · own, neutral labels | 10 games / 5 blocks. Partner negative-type approval rate r3–10: normative **0.000**, neutral **0.075**; difference **0.075 [0.025, 0.125]**. | **DUD** for directional screen |
-| S21 · E, action/explanation audit | Registered:10 selected S19 cases/5 source blocks, three auditor views; no live outputs yet. | Pending |
+| S21 · E, action/explanation audit | 10 selected S19 cases / 5 source blocks; 30 gpt-6.1-sol calls. Confident errors actions **0/10**, both **0/10**; difference **+0.000 [+0.000, +0.000]**. | **DUD** for factual-audit screen |
+
+<!-- S21 summary start -->
+**S21:** action/both correct **10/10** / **10/10**; explanation-only **0/10** correct, **0/10** confident errors, **10/10** abstentions. Source-priority instructions and enriched post-outcome case selection limit this to factual action reading; no intent/agreement labels or population error bound. Primary upper sign-flip p=1.00000. [All views, uncertainty and figure](results/s21_summary.md).
+<!-- S21 summary end -->
+S21 includes the previously listed action/explanation contradictions. Full explanations retain embedded payoff language; separate payout/history fields are omitted. [Independent original-game truth and all-event audit](logs/s21_source_audit.json).
 
 <!-- S19 summary start -->
 **S19:** paired t95% **[-0.010, 0.160]**, upper sign-flip **p=0.12500**. Shared notes in both arms; PASS/FAIL versus TYPE-X/TYPE-Y framing at matched payoffs. Negative-type approvals do not verify agreements. Identical-block bootstrap bounds can degenerate; no population zero-risk or equivalence claim. [All outcomes and figure](results/s19_summary.md).
@@ -38,6 +43,6 @@ S19 observed **0/40 versus 3/40** partner negative-type approvals. Its descripti
 Earlier Cournot games: three firms, integer output, P=max(0,30−total output), cost6; symmetric static Nash q6. Tiny selected samples, multiple exploratory screens, prompt cues and shared-backend interference limit inference. Model/sampling are client metadata. Actions and message influence do not verify agreements or profitable collusion. No sibling headline change.
 
 [Methods, designs and reproduction](README.md).
-**Next:** Different axis after own-label framing; favor a fresh market-structure or intervention question. No secondary-driven promotion.
+**Next:** Fresh market-structure or intervention question after axis E; no secondary-driven promotion.
 
 [S19 release](logs/s19_release.json) · [Independent reconstruction](logs/s19_independent.json) · [Request contract](logs/s19_request_contract.json) · [Review dispositions](logs/s19_review_disposition.md).

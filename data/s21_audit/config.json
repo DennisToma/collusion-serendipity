@@ -1,0 +1,30 @@
+{
+  "pilot": "S21",
+  "dry": false,
+  "deadline": "2026-10-24T22:00:00+00:00",
+  "model": "gpt-6.1-sol",
+  "backend": "codex",
+  "sources": {
+    "DESIGN_S21.md": "5b8531a2edfd520f00a92ec35d6a0008f8ff3c32ee308945557caac32875a18d",
+    "scripts/s21_audit.py": "1f33207c93eb142e742a26f78bb06fcddac465b3bd01b3b9fea32a9227fe33a7",
+    "scripts/s21_analyze.py": "107fec2127d546646f8a19b453129214f6fc94a319d61dfd46cf1e0fa7a9c904",
+    "scripts/s21_present.py": "b22158aa01447630f84581109486865e311c19d700cd9f372b5e358d23208ace",
+    "scripts/s21_independent.py": "564a8affd1020d5f308f6348635a940c3b66c500b6f383dbfef2a0dbff1b5cda",
+    "scripts/test_s21.py": "b7ec931e4a03f264a365be4f8d14d79cf4349a3c1f0cbe9c57abf6d0bf684ceb",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "cases_sha256": "626ada26e8c08304f9b0fa168997b5107436202b0a02e322247db43b58afc2b6",
+  "registration": {
+    "commit": "201699013b0f340ca2ee1890e4f3558b622bb25e",
+    "remote": "201699013b0f340ca2ee1890e4f3558b622bb25e",
+    "observed_utc": "2026-10-24T21:13:54.458065+00:00",
+    "server_time_attested": false
+  }
+}

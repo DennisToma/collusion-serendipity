@@ -446,3 +446,13 @@ accepted parsing is a separate source-bound file. Dry run in a fresh scratch
 folder: `uv run python scripts/s21_audit.py --dry --data /var/tmp/s21_smoke`, then
 analyze with `--data /var/tmp/s21_smoke --out /var/tmp/s21_smoke/result.json
 --allow-dry`. Dry data cannot replace canonical results or the live dataset.
+
+
+S21 publication adds `uv run python scripts/s21_release.py` (deterministic result
+comparison and immutable cached replay) and `uv run python
+scripts/s21_source_audit.py` (separate post-outcome independent original-game
+truth reconstruction, all-four-event completeness, strict texts and view/route
+checks). The frozen `s21_independent.py` is the arithmetic checker and must be
+used with protocol validation. Explanations retain embedded payoff amounts and
+reciprocity claims; only separate payout/history fields are omitted. The term
+confident error means a wrong non-null answer, without elicited probability.

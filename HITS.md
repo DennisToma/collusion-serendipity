@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 11.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 12.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -164,3 +164,15 @@ shared backend and stage incentives limit interpretation. No further games.
 [Design](DESIGN_S19.md) · [All outcomes](results/s19_summary.md) ·
 [Independent reconstruction](logs/s19_independent.json).
 Reproduce: `uv run python scripts/s19_release.py`.
+
+
+**S21: unpromoted factual-audit DUD (axis E).** Ten selected S19 cases/five
+source blocks, all four adverse approvals plus six rejections. Thirty stateless
+gpt-6.1-sol auditor calls: actions and both views10/10 correct each; explanation
+only abstained10/10. Both-minus-actions error0[0,0] descriptive degenerate
+bootstrap, t[0,0], upper sign-flip p1. Explicit source-priority instructions and
+post-outcome enrichment mean this is a factual action-reading feasibility check,
+not general detector validation, a population zero-error claim or agreement
+detection. No error increase observed, no promoted hit or sibling headline change.
+[All views and limitations](results/s21_summary.md) · [Design](DESIGN_S21.md).
+Reproduce: `uv run python scripts/s21_release.py`.

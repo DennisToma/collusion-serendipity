@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "pilot": "S21",
+  "registration_commit": "201699013b0f340ca2ee1890e4f3558b622bb25e",
+  "scientific_source_count": 9,
+  "cached_requests": 30,
+  "invalid_output_retries": 0,
+  "transport_failures": 0,
+  "archive_unchanged": true,
+  "zero_live_calls": true,
+  "canonical_result_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850",
+  "archive_sha256": {
+    "data/s21_audit/accepted.jsonl": "be370c6485bfa2a3eb96d0153eb7bc97f77e0e2de97f7c0133e7ee08ab35b23f",
+    "data/s21_audit/cases.json": "626ada26e8c08304f9b0fa168997b5107436202b0a02e322247db43b58afc2b6",
+    "data/s21_audit/config.json": "fc91969fa1a4033c6cc24cb8f100c1ad343d249b5f6ad850550c48d6851d4c43",
+    "data/s21_audit/execution.jsonl": "84e7e5c506506644f4c1843768b99e9384cf7abc093964571264129d1fe2d35c",
+    "data/s21_audit/requests.jsonl": "00d212b99e9ac18eb852919437cd38eb27c40803c27db09baf0bef16e85576f8",
+    "data/s21_audit/responses.jsonl": "bec3b48d9b6f580225128da47d18397629d898797c69a7cd99055aaefc234c37",
+    "data/s21_audit/schedule.json": "b6766da345058e63c9e0397ead16ab3d3a48b3c312841f88a21f026bc3dea2cf"
+  },
+  "independent": {
+    "passed": true,
+    "raw_answers": 30,
+    "case_view_cells": 30,
+    "summary_checks": 15,
+    "verdict": "DUD",
+    "result_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850"
+  }
+}

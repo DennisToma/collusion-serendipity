@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T21:10:34.429760+00:00; Phase2, iteration12 IN PROGRESS)
-- Selected S21, axis E: factual auditor robustness to action/explanation conflicts.
-- Zero new games;10 selected S19 cases/5 source blocks;three auditor views.
-- All4 adverse actions+6 rejections;selection ignores explanations;not prevalence.
-- Frozen task defines structured reviews as actions;no agreement/intent labels.
-- Primary:both-minus-action-only confident error;abstentions reported separately.
-- Dry30-request replay and independent15-summary reconstruction PASS.
-- Seven protocol/visibility/parser/statistical/partial-publication checks PASS.
-- Codex+Opus design reviews complete;13 protocol/regression checks PASS;no live calls.
-- S19 unchanged:DUD,+.075[.025,.125],p.125;no HIT or sibling write.
-- Next:dispose reviews,freeze/push,run30 pinned strong-model calls,verify/publish.
-- Risks:enriched post-outcome cases,n5,same-family source-aware auditor.
+## Current state (2026-10-24T21:16:03.830125+00:00; Phase2, iteration12 RESULTS VERIFIED)
+- S21 E auditor pilot complete:10 selected S19 cases/5 blocks,30 strong-model calls.
+- Actions and both views10/10 correct;explanation-only10/10 abstain;no errors.
+- Primary both-minus-actions error0[0,0] empirical bootstrap;t[0,0],p1;DUD.
+- Zero retries/failures;all30 exact requests/routes/raw hashes/9 sources verify.
+- Independent30 predictions/15 bootstrap,t/sign summaries and verdict PASS.
+- Offline release:canonical SHA aa47b52d,byte-identical replay,zero live calls.
+- Full149-test repository suite PASS;all original9 scientific sources unchanged.
+- Both final critics exit0/disposed;Codex raw reconstruction,Opus supplied-case review.
+- REPORT/HITS/ledgers current;S19/S18 DUDs and S16 failure unchanged.
+- No promoted HIT,tuning,held-out/prevalence claim or sibling write.
+- Next:results commit/push,full-history clean-clone reproduction;then fresh B/D axis.
+- Risks:n5,enriched observed cases,source-priority instruction,same-family audit.
 
 ## Log
 
@@ -158,3 +159,7 @@
 - 2026-10-24T21:10:34.429760+00:00: iteration12 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling summaries. Selected different axis E, S21 factual action-reading challenge inspired by source-bound S19 contradictions;S20 remains own/not-run. Registered10 selected source cases/5 blocks and three frozen views;zero new games/tuning/held-out claim. Seven prelaunch checks,dry30-key replay and independent15-summary reconstruction PASS. Codex+Opus design reviews requested before live outcomes. No direction deviation or sibling write.
 
 - 2026-10-24T21:13:43.267466+00:00: S21 both design critics exit0;fixed hidden cheap fallback via scoped same-model deduplication,pre-dispatch request/transport-failure journaling,external exclusive launch receipt and independent-checker mean/case completeness. Added mocked-live malformed/wrong-route,failed-subprocess,source/duplicate/partial guards and direct explanation-independent selection tests;13 S21 checks PASS. Full suite at earlier10-test stage142 PASS;final dry30-call replay and independent15-summary reconstruction PASS. Retained conservative screen and disclosed contradiction concentration in2 source blocks;no prompt/threshold tuning or selected-subgroup promotion. Source freeze/push then one-shot30-call launch next.
+
+- 2026-10-24T21:16:03.830125+00:00: S21 registration2016990 pushed before all calls;external launch receipt observed matching remote main. All30 strong-model responses complete21:15:02UTC,zero retries/transport/parse/route failures. Frozen DUD:action and both views10/10 correct,explanation-only10/10 abstain;primary error difference0[0,0],paired t[0,0],upper p1. All9 scientific sources/30 exact requests and raw responses/source game+cache bindings/schedule/chronology verify;independent30 predictions and15 bootstrap/t/sign summaries PASS. Canonical SHA aa47b52d preserved by complete offline release/read-only cached replay. 145 frozen-stage repository tests plus mocked-live publication mutation/replay regression PASS;figure inspected. Both final critics requested. No further scientific calls,tuning,subgroup promotion,source mutation or sibling write.
+
+- 2026-10-24T21:19:25.391604+00:00: S21 both final critics exit0;Codex independently reconstructs all30 raw predictions/15 summaries/source selection including every adverse event/registration hashes;Opus supplied-file review explicitly lacked raw file access and is not represented as a second raw replay. Accepted independent original-game/raw-action truth reconstruction,all-four-event exact completeness,strict output/view/route checks via separate post-outcome scripts/s21_source_audit.py;three source mutation/duplicate regressions PASS. Accepted payout-field versus embedded-language and operational non-null-error terminology clarifications in docs without editing frozen sources. Full149-test suite PASS. Six main artifacts reanalysis/rerender byte-identical before final presentation note;no new scientific calls or estimates,subgroup test,promotion,tuning,sibling write or active review. Scientific result SHA aa47b52d and all9 frozen sources unchanged. Results commit/push then clean-clone reproduction remain.
