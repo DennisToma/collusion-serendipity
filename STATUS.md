@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T19:55:44.694905+00:00; Phase2, iteration9 VERIFYING)
-- S16 C2 notes sharing FAILED its registered output contract; scientific screen unclassified, no effect estimate.
+## Current state (2026-10-24T20:03:02.729699+00:00; Phase2, iteration9 COMPLETE)
+- S16 C2 FAILED its registered output contract; scientific screen unclassified, no effect estimate.
 - Four/10 games complete; two partial/aborted, four unstarted; no replacement or subset estimate.
 - All173 responses retained:163 accepted decisions,10 >40-word reasoning rejections.
-- Fatal shared seed24242/r3/C reasoning47/44/46 words; partner aborted, last call19:48:07UTC.
-- Original complete-dataset analysis and live restart refuse this failed invocation.
-- Exact173-key prefix replay and independent173 histories/116 file snapshots PASS.
-- Four full games/metadata match; failed3 attempts and partner prefix reproduce exactly.
-- All16 scientific sources match pushed freeze73fe09d; no estimator/rule/source change.
--15 S16 protocol/failure tests and104 full-repository tests PASS; both final critics exit0.
-- REPORT/HITS/ledgers updated for checkpoint; no HIT or sibling headline change.
-- Next:commit/push final audit guards, then clean-clone reproduction and final handoff.
-- Risks:operational censoring,small pilot,access wording/content/context bundled,no truth labels.
+- Fatal pair memberC(seed24242,r3) reasoning47/44/46 words; last call19:48:07UTC.
+- Exact173-key prefix replay; independent173 histories/116 file snapshots PASS.
+- Analysis/live restart blocked; all16 scientific sources/failure-result SHA e2fcadfc unchanged.
+- Both final critics exit0/disposed; two supplementary timestamp guards/regressions PASS.
+-104 repo tests/15 S16 checks PASS; clean clone0863f3e regenerates4 artifacts byte-identically.
+- Source freeze73fe09d, checkpoint evidenceede7e70, final audit guards0863f3e pushed.
+- REPORT/HITS/ledgers current; no HIT or sibling headline change; no active generation/reviews.
+- Next:different axis after C; favor workplace/labour and preregister less brittle reasoning validity.
+- Risks:operational censoring,small selected pilots,bundled access cues,shared backend,no truth labels.
 
 ## Log
 
@@ -129,3 +129,5 @@
 - 2026-10-24T19:59:29.920128+00:00: final Opus critic exit0 verifies supplied failure arithmetic (no raw/shell access). Applied explicit scientific-unclassified/administrative-queue distinction, pairB/C role and rejection role splits, independent bid/note-validity checks for all10 rejected replies, client-observation provenance wording. All16 scientific sources unchanged, no effect computed. Codex final critic and post-commit clean-clone check pending. Checkpoint failure evidence ready for milestone commit/push.
 
 - 2026-10-24T20:01:41.200312+00:00: checkpoint evidence committed/pushed asede7e70. Both final critics exit0, fully disposed: Codex independently reproduces every failure count/prefix/raw-history check with writes/model/metrics blocked; Opus verifies supplied counts/code without raw/shell access. Codex in-memory mutations found two timestamp-validator gaps; supplementary guards plus two regressions fix them. Actual timestamps already valid; full scientific result SHA e2fcadfc and all16 original sources/data unchanged.15 S16 tests and104 repository tests PASS;59 local links resolve. No remaining generation/review process. Clean-clone release still pending until guard commit.
+
+- 2026-10-24T20:03:02.729699+00:00: iteration9 COMPLETE. Guard commit0863f3e178d7b6c6d9d457e588932d2446a26ba4 pushed; clean local clone passes full failed-archive release,15 protocol/failure tests and four byte-identical regenerated artifacts (failure JSON,summary,protocol figure,REPORT). Structured receipt logs/s16_clean_clone.json records exact commit/output SHA values.104 repo tests PASS. Both critics fully disposed,16 scientific sources and failure result SHA e2fcadfc unchanged; all173 responses preserved, no selected-subset estimate or new scientific call. Current handoff: strict S16 archive stays failed; choose another axis and register any future output-contract revision on fresh seeds. No sibling writes or direction deviation.

@@ -1,0 +1,15 @@
+{
+  "verified_commit": "0863f3e178d7b6c6d9d457e588932d2446a26ba4",
+  "checked_utc": "2026-10-24T20:03:02.729699+00:00",
+  "clean_clone": true,
+  "protocol_failure_tests": 15,
+  "all_key_cached_prefix_replay": true,
+  "byte_identical_outputs": {
+    "results/s16_failure.json": "e2fcadfc05086d9f0e442602d7b5f8dfffa3efad98da556d603114c3ee9ccef8",
+    "results/s16_summary.md": "3e0b65b153adbb8cd99bba7b75442efae6424b3eec759ea3fada83a0dc30c3c8",
+    "figures/s16_failure.png": "c0c059fff86a27b45d6598ce14b66d76428ca1a2773022bf3e60314d199c8b6b",
+    "REPORT.md": "1de8fb319afacfcf1fb40792117832893f8de7afaa56dfff6d7d980cf2ee3e67"
+  },
+  "no_scientific_effect_estimate": true,
+  "no_live_calls": true
+}

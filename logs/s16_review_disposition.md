@@ -72,4 +72,6 @@ failure result JSON remain byte-identical (SHA check PASS). This historical
 archive check does not claim the live abort guard is atomic; an already-passed
 guard can race with timestamp creation in a future run. No effect, new model
 call, changed scientific rule or excluded observation. Both final critics fully
-disposed; clean-clone reproduction remains the final pending release step.
+disposed; the subsequent clean-clone result is recorded below.
+
+Clean-clone release PASS at0863f3e178d7b6c6d9d457e588932d2446a26ba4: full failed-archive audit,15 protocol/failure tests,4 byte-identical artifacts (failure JSON/summary/figure/REPORT). Receipt logs/s16_clean_clone.json.104 repository tests PASS. No remaining review or scientific generation process; no effect estimate or promotion.
