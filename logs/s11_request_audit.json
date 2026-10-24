@@ -1,0 +1,14 @@
+{
+  "kind": "post-review independent raw-request protocol audit; no new estimator or outcome",
+  "requests_checked": 366,
+  "by_arm": {
+    "immediate": 182,
+    "delayed": 184
+  },
+  "conditional_tables_checked": 317,
+  "all_history_rounds_exact": true,
+  "no_recent_row_in_structured_history": true,
+  "actual_request_tables_and_rival_summaries_match_visible_history": true,
+  "system_lag_cue_correct": true,
+  "sha256": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58"
+}

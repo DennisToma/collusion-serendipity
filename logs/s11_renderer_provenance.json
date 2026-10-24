@@ -1,0 +1,10 @@
+{
+  "registration_commit": "703a0a898b5a54ddee093458d6fa1881dbb7c460",
+  "initial_renderer_committed_before_client_calls": true,
+  "initial_renderer_sha256": "bed7557ad8d24659db9b2c16bd65c8ce7e34abb116737926e9bf293c76b42623",
+  "current_renderer_sha256": "c8ef2146f01014119dba7425c26c4f4122f94e6b3ba6d711834f6ef335a9ed5b",
+  "renderer_in_frozen_scientific_manifest": false,
+  "post_outcome_presentation_revisions": true,
+  "scientific_result_sha256": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2",
+  "scope": "Renderer formats frozen estimates and adds interpretation; it is not a frozen scientific estimator. Chronology is client-side, not independent server attestation."
+}

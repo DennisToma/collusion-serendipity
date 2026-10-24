@@ -16,17 +16,20 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 def check(out='logs/s11_release.json'):
     from scripts.s11_analyze import analyze
     from sim import delay
+    from scripts.s11_safe_run import guarded_call
+    from scripts.s11_request_audit import main as audit_requests
     from scripts.s11_independent import check as independent
     d=Path('data/s11_delay');result=Path('results/s11_delay.json')
     paths=sorted(p for p in d.rglob('*') if p.is_file() and p.name!='.writer.lock')+[result]
     before={str(p):p.read_bytes() for p in paths}
-    with patch('sim.common.llm.chat',side_effect=AssertionError('Release forbids live calls')):
+    with patch('sim.common.llm.chat',side_effect=AssertionError('Release forbids live calls')),patch.object(delay,'checked_call',guarded_call):
         with patch.object(sys,'argv',['sim.delay']):delay.main()
         actual=analyze(d)
     assert (json.dumps(actual,indent=2)+'\n').encode()==before[str(result)]
     assert all(p.read_bytes()==before[str(p)] for p in paths)
     with tempfile.TemporaryDirectory(dir='/var/tmp') as td:
         independent(d,result,Path(td)/'independent.json')
+    audit_requests()
     cfg=json.loads((d/'config.json').read_text())
     assert not cfg['dry']
     for file,sha in cfg['sources'].items():
@@ -41,7 +44,7 @@ def check(out='logs/s11_release.json'):
             target=Path(doc).parent/href
             assert target.exists() or target.resolve()==Path(out).resolve(),(doc,href)
             checked_links+=1
-    audit=dict(local_document_links_checked=checked_links,cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,
+    audit=dict(worker_level_abort_wrapper=True,independent_raw_request_timing=True,local_document_links_checked=checked_links,cache_only_resume=True,byte_identical_data_and_result=True,independent_raw_metrics_and_statistics=True,
                source_and_registration_hashes=True,registration_commit=cfg['registration_commit'],
                sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths})
     Path(out).write_text(json.dumps(audit,indent=2)+'\n')
@@ -56,7 +59,7 @@ def clean_clone():
         env=dict(os.environ,VIRTUAL_ENV=str(root/'.venv'),TMPDIR='/var/tmp',PYTHONDONTWRITEBYTECODE='1')
         interpreter=str(root/'.venv/bin/python')
         subprocess.run([interpreter,'scripts/s11_release.py'],cwd=clone,env=env,check=True)
-        subprocess.run([interpreter,'-m','unittest','scripts.test_s11'],cwd=clone,env=env,check=True)
+        subprocess.run([interpreter,'-m','unittest','scripts.test_s11','scripts.test_s11_safe_run'],cwd=clone,env=env,check=True)
         scientific=['results/s11_delay.json','results/s11_summary.md','figures/s11_delay.png','logs/s11_independent.json']
         subprocess.run([interpreter,'scripts/s11_independent.py'],cwd=clone,env=env,check=True)
         subprocess.run([interpreter,'scripts/s11_present.py'],cwd=clone,env=env,check=True)

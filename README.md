@@ -227,7 +227,7 @@ Ten fresh no-message calculator games compare lag1 with lag2 market feedback.
 The primary is consecutive output-change reduction; it is not a collusion label.
 
 ```bash
-TMPDIR=/var/tmp uv run python -m sim.delay
+TMPDIR=/var/tmp uv run python scripts/s11_safe_run.py
 uv run python scripts/s11_analyze.py
 uv run python scripts/s11_independent.py
 uv run python scripts/s11_present.py
@@ -245,3 +245,13 @@ all metric/window cells and intervals. Dry runs require a separate destination:
 `uv run python -m sim.delay --dry --out /var/tmp/s11_offline`; then analyze with
 `--data /var/tmp/s11_offline --out /var/tmp/s11_offline/result.json --allow-dry`.
 Use a fresh dry directory after source changes. See [DESIGN_S11.md](DESIGN_S11.md).
+
+S11 archive note: the original frozen `sim.delay` generator has a brief gap
+between worker terminal failure and collector-side abort propagation; no terminal
+failure occurred in the observed run. Use `scripts/s11_safe_run.py` for archive
+resume: it propagates abort at the worker and forbids live model calls. It leaves
+all original scientific files and cached results unchanged. The release check
+uses this wrapper and independently parses every saved request history/table.
+Run `uv run python -m unittest scripts.test_s11_safe_run -v` for both regressions.
+The renderer is presentation code revised after outcomes, separate from the frozen
+scientific manifest; its initial version was committed in703a0a8 before calls.

@@ -1,5 +1,7 @@
 {
-  "local_document_links_checked": 45,
+  "worker_level_abort_wrapper": true,
+  "independent_raw_request_timing": true,
+  "local_document_links_checked": 47,
   "cache_only_resume": true,
   "byte_identical_data_and_result": true,
   "independent_raw_metrics_and_statistics": true,
