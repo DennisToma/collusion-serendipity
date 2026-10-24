@@ -1,0 +1,23 @@
+{
+  "registration_commit": "6a4d83e04faf09c771573b5c873ff2a4b098f895",
+  "commit_time_client": "2026-10-24T19:09:29Z",
+  "observed_remote_head": "6a4d83e04faf09c771573b5c873ff2a4b098f895",
+  "observed_utc": "2026-10-24T19:09:36.309398+00:00",
+  "server_time_attested": false,
+  "sources": {
+    "sim/tender.py": "79a0a48f49a8bd3dd9ee9c4b03b1670465edce3d734ad5818dab5b0cebde4a4a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S14.md": "1d876bf066498afafaa43183c899ff37b9cbadbe1906f2a63c0a950421c93a3d",
+    "scripts/s14_analyze.py": "c69da6323fd02ee2bd08639835b3b2aefa5d1d424f2f7204bc92df831cceadc4",
+    "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+    "scripts/s14_independent.py": "c1cbf801689c04e21913e7638b2f41fef103d8e71f1be8cb5f2c39e0deb7e860",
+    "scripts/test_s14.py": "b1288fda6e78ae3ebfca38987970e4651b34298fedb5d271f13058b7210686cc",
+    "scripts/s14_economics.py": "24c89dfe1edeb19f263f89d81e183dcdd89bd7339d9171b5b66e18eac93461c7",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  }
+}

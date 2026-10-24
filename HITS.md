@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 7.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 8.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -88,3 +88,31 @@ Ten fresh no-message calculator games/five time-matched pairs. Immediate−delay
 This tests bundled feedback timing/own recall/warmup. In the symmetric toy initialization away from Nash, delayed best response predicts slower consecutive changes, so that finding alone is not surprising evidence of collusion, learning or stabilization. Both siblings may use it as motivation for action-cycle negative controls; no detector was run and neither sibling headline should change. Confirm on fresh registered seeds with longer phase-balanced windows and explicit period/amplitude diagnostics before mechanism claims. No pooling with S03.
 
 Reproduce: `uv run python scripts/s11_analyze.py`; `uv run python scripts/s11_independent.py`; `uv run python scripts/s11_release.py`; `uv run python scripts/s11_present.py`. [Design](DESIGN_S11.md) · [All outcomes](results/s11_summary.md) · [Figure](figures/s11_delay.png).
+
+
+**S14: unpromoted ODD in a different market, procurement (axis A1).**
+Ten fresh games/five time-matched pairs, repeated first-price tenders with one
+outsider. Buyer payment private−none r4–12 **+2.333 [-5.600,+9.733]** descriptive
+bootstrap; t[-10.574,+15.240], upper sign-flip p=.375. Block contrasts are
++11,0,+13,-13,+2/3, with high-payment paths in either arm. Pair-total-profit
+secondary +.800[-4.544,+5.233]. This is unresolved heterogeneity, not a HIT or
+proof of channel-induced regime switching. High-payment paths already begin in
+round1 before incoming messages; initial cues and API draws are not isolated.
+Outsider-profit secondary +1.533 and pair-share contrast -.070 provide no
+verified pair-advantage label; the profit gate is related to buyer payment by
+payoff conservation. No verified agreement/execution labels,
+no outcome exclusions, and no secondary promotion or sibling headline change.
+
+The environment bounds bids6..20, identical cost6, compulsory purchase of one
+divisible unit, equal ties, full completed-bid disclosure. Static pure-Nash payment
+set is{6,7}; a payment above7 does not alone label repeated-game collusion.
+Both siblings: separate losing submitted bids from actual buyer payment when
+extending a price-level screen to tenders. No sibling detector was applied.
+Any confirmation needs fresh registered seeds and enough independent games to
+resolve the large between-game variation; preserve model/prompt-matched controls.
+
+Reproduce: `uv run python scripts/s14_analyze.py`; `uv run python
+scripts/s14_independent.py`; `uv run python scripts/s14_request_audit.py`;
+`uv run python scripts/s14_release.py`; `uv run python scripts/s14_present.py`.
+[Design](DESIGN_S14.md) · [All outcomes](results/s14_summary.md) ·
+[Figure](figures/s14_tender.png). This is a handoff caution, not a promoted hit.

@@ -37,7 +37,9 @@ def main():
     if args.stage=='final':
         files+=['results/s14_summary.md','REPORT.md','results/s14_tender.json',
                 'logs/s14_independent.json','data/s14_tender/config.json',
-                'logs/s14_review_disposition.md','logs/s14_launch_preflight.json']
+                'logs/s14_review_disposition.md','logs/s14_launch_preflight.json',
+                'logs/s14_request_audit.json','scripts/s14_request_audit.py','scripts/s14_release.py',
+                'logs/s14_release.json','logs/s14_economics.json']
         instruction+='Independently recalculate S14 numerical claims, using raw games if useful. '
     def codex():
         path=Path(f'logs/s14_{args.stage}_codex{args.suffix}.md')

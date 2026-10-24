@@ -74,3 +74,42 @@ findings are resolved before live calls: journal bounds now bracket game bounds
 independent checker/economics reject Python -O, with an optimized-import regression.
 The journal bound correction had already been added while that review was reading
 an earlier copy; no pre-data/statistical choice or threshold changed.
+
+
+## Final claims reviews
+
+Both original final critics exit0 and confirm unchanged ODD/numerical claims.
+Codex independently reconstructed all270 raw metric/window cells,27 bootstrap and
+9 t intervals, exact32 signs,44 static pure equilibria and all376 saved requests;
+it also reproduced scientific result bytes with writes/model calls prohibited.
+Opus had no shell/raw-file access: it hand-checked supplied game/window means,
+18 arm means, primary t/sign/profit arithmetic, conservation and count/timing
+summaries; it did not reproduce the bootstrap stream. Do not equate its scope to
+Codex's raw reconstruction.
+
+- **Accepted release completion:** critics correctly note raw/results/new audit
+  sources were not yet committed and no clean clone existed at review time.
+  The full local release PASS is distinct from the forthcoming clean-clone PASS.
+  Commit/push the complete artifacts, then run the clone check and record it.
+- **Accepted timing/scope presentation:** add all10 first-round buyer payments as
+  explicitly posthoc timing illustrations alongside the existing per-game means.
+  High paths are already high before first incoming messages; r4..12 cannot
+  isolate message content from initial box/role/prompt cues or API draws. No
+  initial-cue or regime-switch causal claim. No additional experiment/estimator.
+- **Accepted profit interpretation:** summary states payoff conservation makes
+  the profit gate related to payment, not independent evidence or pair advantage;
+  headline also shows outsider profit+1.533 alongside pair profit+.800. Full
+  prespecified pair-share/outsider intervals remain visible. Outsider not informed
+  of box availability is explicit. No label for unverified agreement/execution.
+- **Declined Opus assertion "entirely through tacit coordination":** high bids in
+  a no-box game establish a path, not a verified coordination mechanism. Static
+  deviation incentives/repeated-play objectives/possible model mistakes remain
+  distinct. We do not classify games as collusive or use a posthoc high/low count
+  to change the scientific verdict. The full table avoids selective examples.
+- **Preserved sources and estimator:** all14 scientific manifest entries and result
+  SHA ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828
+  unchanged. Exhaustive3125 upper10 vs frozen10k upper9.733333 remains disclosed.
+- Minor duplicated abort guard is harmless and stays frozen. Release preflight
+  reread is inefficient but does not alter results. Rejection census reports the
+  first parser reason, not a comprehensive multi-fault classification; raw outputs
+  retained and no malformed-extra-message rejection observed in this run.

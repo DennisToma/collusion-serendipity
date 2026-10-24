@@ -1,0 +1,114 @@
+{
+  "cache_only_resume": true,
+  "byte_identical_data_result": true,
+  "all_key_exact_request_replay": true,
+  "source_registration_hashes": true,
+  "local_prelaunch_remote_observation": true,
+  "server_time_attested": false,
+  "independent": {
+    "independent_metric_cells": 270,
+    "bootstrap_intervals": 27,
+    "paired_t_intervals": 9,
+    "primary_numerators": [
+      99,
+      0,
+      117,
+      -117,
+      6
+    ],
+    "primary_mean": 2.3333333333333335,
+    "upper_p": 0.375,
+    "pair_profit_difference": 0.8,
+    "verdict": "ODD",
+    "exact_3125_bootstrap_ci95": [
+      -5.6,
+      10.0
+    ],
+    "result_sha256": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828"
+  },
+  "independent_saved_request_audit": {
+    "saved_requests_checked": 376,
+    "completed_public_histories_exact": true,
+    "recipient_only_delayed_inboxes_exact": true,
+    "no_current_round_leak": true,
+    "no_own_sent_messages_replayed": true,
+    "box_prompt_attempts": 126,
+    "incoming_history_appearances_including_retries": 699,
+    "pair_timing": [
+      {
+        "seed": 24200,
+        "first_call_gap_seconds": 0.003586,
+        "raw_call_overlap_seconds": 152.751616
+      },
+      {
+        "seed": 24201,
+        "first_call_gap_seconds": 0.002106,
+        "raw_call_overlap_seconds": 150.750411
+      },
+      {
+        "seed": 24202,
+        "first_call_gap_seconds": 0.000332,
+        "raw_call_overlap_seconds": 161.808564
+      },
+      {
+        "seed": 24203,
+        "first_call_gap_seconds": 0.000423,
+        "raw_call_overlap_seconds": 141.581425
+      },
+      {
+        "seed": 24204,
+        "first_call_gap_seconds": 0.000482,
+        "raw_call_overlap_seconds": 142.688139
+      }
+    ],
+    "raw_request_sha256": "8920e77949aff7365a07700261d10a5ca0ab78f371d0e968d6211558b00fa616"
+  },
+  "valid_actions": 360,
+  "responses": 376,
+  "retries_by_arm": {
+    "none": 8,
+    "private": 8
+  },
+  "retries_by_arm_role": {
+    "none": {
+      "pair": 3,
+      "outsider": 5
+    },
+    "private": {
+      "pair": 6,
+      "outsider": 2
+    }
+  },
+  "rejections_by_arm": {
+    "none": {
+      "overlong reasoning": 8
+    },
+    "private": {
+      "overlong reasoning": 8
+    }
+  },
+  "last_call_completed_utc": "2026-10-24T19:23:04.778352+00:00",
+  "links_checked": 52,
+  "registration_commit": "6a4d83e04faf09c771573b5c873ff2a4b098f895",
+  "sha256": {
+    "data/s14_tender/README.md": "323a50c51723f682630df3364cd7ac6facda8dfe415f3b77fadb34fb6ee2995b",
+    "data/s14_tender/config.json": "def1fbca8e24744a337c6b5fc2dde02ef43b0e1cd917c22946413d1b6ba3d6a0",
+    "data/s14_tender/game_24200_none.json": "48bebca60e916e65b8daddda302168b145cf126fe82ee1ff3fafac1021573e8d",
+    "data/s14_tender/game_24200_private.json": "fd97b1824f322151c06d5e260d80562abf8ce7a8791cd1bb17d536fb0dfe135a",
+    "data/s14_tender/game_24201_none.json": "b0629ad46fbeb3914cc0deca8448022aebb0b3fccf5343d92c876410b410f39e",
+    "data/s14_tender/game_24201_private.json": "2f7286b1eadfa4317fa104d975c24c2f2b5a93fb255cb7390d4de08beb2ebc99",
+    "data/s14_tender/game_24202_none.json": "2a6760179a40df12c1e13882b4456bdfcc03986cb44501c7a0fc01137d46ac0f",
+    "data/s14_tender/game_24202_private.json": "7e93b265cfd25d4bd976c1e4e04a0427e3b9f29deb72122341612d316ddc25d0",
+    "data/s14_tender/game_24203_none.json": "b9f88498656355db157a6e8679a03c1a2693dc69a37dbea7c63401ca2ec29630",
+    "data/s14_tender/game_24203_private.json": "402478823e54f23e59ae5513f0e69919abda69c9ca981f195015362c2b73b9d6",
+    "data/s14_tender/game_24204_none.json": "51a9b740174853e02b58db932d5ab3a9dbc5fb73e416afd1955c22afe1796a89",
+    "data/s14_tender/game_24204_private.json": "0b01d659a9c0196a119448a1beea2e54ab83d6e5d017302224e39f62e58055f7",
+    "data/s14_tender/ground_truth.jsonl": "e10e1615db5f6fb5527a8decd90915ba9b0dfa649af694a387396cd0ee7a3617",
+    "data/s14_tender/raw/execution.jsonl": "59c5e8970dd12b0405043cddf1c9b0c9648b6eccc6e1520c90ee7bdb1f2ab65b",
+    "data/s14_tender/raw/requests.jsonl": "8920e77949aff7365a07700261d10a5ca0ab78f371d0e968d6211558b00fa616",
+    "data/s14_tender/raw/responses.jsonl": "73e8fa373d26d7f7015262ae01e47d8cb525b6ff7a80d8828e85ac0bbaf4fc51",
+    "data/s14_tender/schedule.json": "ba188a900a1001fccd943e9871485e62984f043f580ef4b29fd2599bdbc71d65",
+    "data/s14_tender/trajectories.jsonl": "47c9b4a91e2e0d12a4815f066adb36dd542e7ae8f5239bffcafbe90b0f344096",
+    "results/s14_tender.json": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "saved_requests_checked": 376,
+  "completed_public_histories_exact": true,
+  "recipient_only_delayed_inboxes_exact": true,
+  "no_current_round_leak": true,
+  "no_own_sent_messages_replayed": true,
+  "box_prompt_attempts": 126,
+  "incoming_history_appearances_including_retries": 699,
+  "pair_timing": [
+    {
+      "seed": 24200,
+      "first_call_gap_seconds": 0.003586,
+      "raw_call_overlap_seconds": 152.751616
+    },
+    {
+      "seed": 24201,
+      "first_call_gap_seconds": 0.002106,
+      "raw_call_overlap_seconds": 150.750411
+    },
+    {
+      "seed": 24202,
+      "first_call_gap_seconds": 0.000332,
+      "raw_call_overlap_seconds": 161.808564
+    },
+    {
+      "seed": 24203,
+      "first_call_gap_seconds": 0.000423,
+      "raw_call_overlap_seconds": 141.581425
+    },
+    {
+      "seed": 24204,
+      "first_call_gap_seconds": 0.000482,
+      "raw_call_overlap_seconds": 142.688139
+    }
+  ],
+  "raw_request_sha256": "8920e77949aff7365a07700261d10a5ca0ab78f371d0e968d6211558b00fa616"
+}

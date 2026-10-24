@@ -1,0 +1,11 @@
+{
+  "saved_requests_checked": 360,
+  "completed_public_histories_exact": true,
+  "recipient_only_delayed_inboxes_exact": true,
+  "no_current_round_leak": true,
+  "no_own_sent_messages_replayed": true,
+  "box_prompt_attempts": 120,
+  "incoming_history_appearances_including_retries": 660,
+  "pair_timing": [],
+  "raw_request_sha256": "cad93ae082a00a095305fc4e1d2b37b09718619e3fdffe3da0813297b5c635a4"
+}

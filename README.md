@@ -307,6 +307,7 @@ TMPDIR=/var/tmp uv run python scripts/s14_launch.py # first live launch, after f
 TMPDIR=/var/tmp uv run python -m sim.tender       # completed archive, cache-only
 uv run python scripts/s14_analyze.py
 uv run python scripts/s14_independent.py
+uv run python scripts/s14_request_audit.py
 uv run python scripts/s14_economics.py
 uv run python scripts/s14_present.py
 uv run python scripts/s14_release.py

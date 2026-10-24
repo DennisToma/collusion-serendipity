@@ -20,3 +20,8 @@ No held-out test claim, no pooling with S03; confirm on fresh registered seeds.
 
 S06: five fresh time-matched blocks24160..24164; ten exploratory games, zero tuning.
 No held-out test claim, no pooling with other pilots; confirmation needs fresh seeds.
+
+S14: five fresh time-matched blocks24200..24204; ten exploratory procurement games.
+Seed/arm/window were registered in6a4d83e before calls; zero tuning, no locked-test
+claim and no pooling with Cournot pilots. Any confirmation needs fresh registered
+seeds. Pair identity is seeded; API sampling draws are not experimentally seeded.

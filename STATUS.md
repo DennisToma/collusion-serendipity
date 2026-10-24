@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-24T19:00:37.467645+00:00; Phase2, iteration8 IN PROGRESS)
-- S14 A1 procurement selected:10 fresh games/five time-matched none/private pairs;T12.
-- Different world:sealed bids6..20,cost6,lowest bid paid,divisible equal ties,outsider present.
-- Primary buyer-payment increase r4..12; HIT also requires positive pair-profit contrast.
-- Full offline replay/independent9-metric stats, strict parsing,visibility/cache/deadline checks PASS.
-- Exhaustive3375 profiles:44 pure Nash profiles,payment set{6,7};not a unique benchmark.
-- Both original critics exit0; exact-threshold and interrupted-invocation fixes pass8 tests.
-- Both corrected-source critics exit0;89 repo tests/9 S14 checks and final dry pipeline PASS.
-- Exact rational primary bounds/profit gate and journal-bound/-O guards verified; no live outcomes.
-- S06 remains ODD quantity -.267; no prior HIT or sibling headline change.
-- Next:review dispositions,freeze/push,ten games,independent audit/final critics,checkpoint docs.
-- Open risks:n5,role/box cues bundled,one backend,divisible ties,shared service interference.
+## Current state (2026-10-24T19:25:03.494612+00:00; Phase2, iteration8 VERIFYING)
+- S14 A1 procurement ODD:10 fresh games/5 time-matched none/private pairs;T12.
+- Buyer-payment private−none r4..12 +2.333333[-5.600000,+9.733333]; t[-10.573736,+15.240403].
+- Upper sign-flip p=.375; block payment-sum numerators[99,0,117,-117,6]/9; no HIT.
+- Pair-total-profit secondary+0.800000[-4.544444,+5.233333]; opposite large primary contrasts.
+- Both arms exhibit high-payment paths; no agreement labels or channel-induced regime claim.
+- All376 responses/360 actions complete;16 overlong-reasoning retries(8/8), no failure.
+- Mandatory exact-request/all-key/source/registration/export/payoff replay and cached resume PASS.
+- Independent270 cells/27 bootstrap/9 t/32 signs and376 actual saved histories PASS.
+- Finite3125-resample upper10 differs from frozen10k-draw9.733; neither resolves a sign.
+- Fourteen frozen scientific sources unchanged; original result SHA ecba9a8f retained.
+- Both final critics exit0 confirm ODD; timing/profit framing fixed, scientific sources/result unchanged.
+- Final release and89 tests PASS; next:commit/push and required clean-clone reproduction.
+- Risks:n5,huge block heterogeneity,box/role cues,divisible ties,shared backend; no sibling headline change.
 
 ## Log
 
@@ -106,3 +108,11 @@
 - 2026-10-24T19:00:37.467679+00:00: iteration8 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling report/state summaries. Selected S14 A1 procurement after own-axis S06, extending exploration beyond repeated Cournot interfaces. Registered10 fresh games/5 pairs and frozen-direction screen before calls; zero tuning. Full offline pipeline and independent270-cell/27-bootstrap/9-t/sign check PASS; exhaustive3375 profiles identify44 pure equilibria with payment6 or7. Both methodology critics requested. No direction deviation or sibling writes.
 
 - 2026-10-24T19:09:29.069774+00:00: S14 original and guarded Codex/Opus methodology reviews exit0 before live calls; accepted exact-boundary, profit-gate, persistent invocation, journal/timestamp and optimization fixes. Final dry replay and independent270-cell/27-bootstrap/9-t/exact-sign reconstruction PASS;89 discovered tests/9 S14 checks PASS. Fourteen scientific source/dependency/design files ready to freeze. Renderer/launch/release and dataset schema prepared. Queued own S15 tie-realization idea; no second pilot. No scientific outcomes, tuning or direction deviation.
+
+- 2026-10-24T19:10:57.540591+00:00: S14 scientific source freeze6a4d83e pushed; launcher observed identical remote SHA at19:09:36.309398UTC before calls,14 source hashes independently resolve against that commit. Started two-game/per-block-barrier generation with19:45 logical cutoff and one-invocation journal. No partial outcomes inspected; preparing supplementary independent saved-history audit (no estimator/rule changes). Local remote observation only, no server-time attestation.
+
+- 2026-10-24T19:19:09.121980+00:00: S14 metadata-only runtime check:6 games complete/242 cached responses, zero failures, all client routes codex/gpt-6-luna. No bids/messages/contrasts inspected. Supplementary saved-request protocol audit passed360 synthetic requests, source hash retained after39 live responses and before complete-game/outcome inspection; it changes no estimator or screen. Added split-index pointer to seeds already registered in6a4d83e, without a test claim. Scientific source manifest remains unchanged.
+
+- 2026-10-24T19:25:03.494669+00:00: S14 all10 games complete at19:23:04.778352UTC,376 responses/360 valid bids,16 overlong-reasoning retries(8 none/8 private), zero failure. Frozen ODD: payment+2.333333[-5.6,+9.733333], t[-10.573736,+15.240403], upper p=.375, exact block numerators[99,0,117,-117,6]/9, exact pair-profit gate4/5. Full source/registration/all-key exact replay, export/payoff/timestamp/overlap/barrier checks and byte-identical cache-only resume PASS. Independent270 cells/27 bootstrap/9 t/all32 signs agree; full3125-resample interval[-5.6,10] differs from frozen10k Monte Carlo upper9.733333 as explicitly disclosed. Supplementary376 saved-history/inbox audits PASS. Figure inspected; final Codex/Opus critics requested. Added existing per-game metric table as descriptive heterogeneity presentation, no new estimator or promotion. No changed scientific source, excluded game, tuning, pooling or sibling write.
+
+- 2026-10-24T19:30:02.462969+00:00: both final critics exit0 confirm all reported S14 primary numbers and unchanged ODD. Codex independently verifies270 raw cells/27 bootstrap/9 t/all32 signs/44 equilibria/376 requests; Opus hand-checks supplied means/t/sign/conservation/counts without raw/shell/bootstrap-stream access. Accepted explicit pre-inbox high starts (all10 first-round values shown as posthoc timing illustration), related profit-gate/outsider-profit interpretation and uninformed-outsider caveats. Declined unverified tacit-coordination/initial-cue mechanism attribution. No scientific source/estimator/rule change; result SHA ecba9a8f unchanged. Full local release PASS and89 repo tests PASS; clean-clone requirement remains explicitly pending until artifacts committed/pushed. No active generation/review processes or further scientific calls.

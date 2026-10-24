@@ -1,0 +1,27 @@
+{
+  "primary_metric": "payment",
+  "primary_contrast": "private minus none",
+  "secondary_contrast": "private minus none",
+  "pilot": "S14",
+  "pair_profit_gate_exact": "4/5",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 376,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Channel availability, role and prompt cues bundled",
+    "Homogeneous costs; deterministic divisible tie allocation; bounded integer bids",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No verified agreement/execution labels; senders do not replay own messages",
+    "Multiple exploratory screens; full public bid disclosure",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}
+Primary: {'mean': 2.3333333333333335, 'ci95': [-5.6, 9.733333333333333], 'ci95_exact': ['-28/5', '146/15'], 'exact_signflip_p_upper': 0.375, 'exact_signflip_p_lower': 0.75, 'exact_signflip_p_two_sided': 0.75, 'paired_t_ci95': [-10.57373589081832, 15.240402557484988]}

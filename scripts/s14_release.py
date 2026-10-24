@@ -16,6 +16,7 @@ def check(out='logs/s14_release.json'):
     from sim import tender
     from scripts.s14_analyze import analyze
     from scripts.s14_independent import check as independent
+    from scripts.s14_request_audit import check as request_audit
     d=Path('data/s14_tender');result=Path('results/s14_tender.json')
     files=sorted(p for p in d.rglob('*') if p.is_file() and p.name!='.writer.lock')+[result]
     before={str(p):p.read_bytes() for p in files}
@@ -26,6 +27,9 @@ def check(out='logs/s14_release.json'):
     assert all(p.read_bytes()==before[str(p)] for p in files)
     with tempfile.TemporaryDirectory(dir='/var/tmp') as td:
         ind=independent(d,result,Path(td)/'ind.json')
+        req_audit=request_audit(d,Path(td)/'requests.json')
+    freeze=json.loads(Path('logs/s14_supplement_freeze.json').read_text())
+    assert hashlib.sha256(Path(freeze['file']).read_bytes()).hexdigest()==freeze['sha256']
     cfg=json.loads((d/'config.json').read_text());assert not cfg['dry']
     subprocess.run(['git','merge-base','--is-ancestor',cfg['registration_commit'],'HEAD'],check=True)
     for name,sha in cfg['sources'].items():
@@ -68,7 +72,7 @@ def check(out='logs/s14_release.json'):
             links+=1
     output=dict(cache_only_resume=True,byte_identical_data_result=True,all_key_exact_request_replay=True,
                 source_registration_hashes=True,local_prelaunch_remote_observation=True,server_time_attested=False,
-                independent=ind,valid_actions=360,responses=len(responses),retries_by_arm=retries,retries_by_arm_role=retry_roles,rejections_by_arm=rejected,
+                independent=ind,independent_saved_request_audit=req_audit,valid_actions=360,responses=len(responses),retries_by_arm=retries,retries_by_arm_role=retry_roles,rejections_by_arm=rejected,
                 last_call_completed_utc=max(r['response']['call_completed_utc'] for r in responses),
                 links_checked=links,registration_commit=cfg['registration_commit'],
                 sha256={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files})

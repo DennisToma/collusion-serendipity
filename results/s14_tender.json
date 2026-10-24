@@ -1,0 +1,721 @@
+{
+  "primary_metric": "payment",
+  "primary_contrast": "private minus none",
+  "secondary_contrast": "private minus none",
+  "pilot": "S14",
+  "pair_profit_gate_exact": "4/5",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "4..12",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "payment": {
+      "none": {
+        "mean": 8.777777777777777,
+        "ci95": [
+          6.0,
+          14.333333333333334
+        ]
+      },
+      "private": {
+        "mean": 11.11111111111111,
+        "ci95": [
+          6.4444444444444455,
+          16.133333333333333
+        ]
+      },
+      "paired_difference": {
+        "mean": 2.3333333333333335,
+        "ci95": [
+          -5.6,
+          9.733333333333333
+        ],
+        "ci95_exact": [
+          "-28/5",
+          "146/15"
+        ],
+        "exact_signflip_p_upper": 0.375,
+        "exact_signflip_p_lower": 0.75,
+        "exact_signflip_p_two_sided": 0.75,
+        "paired_t_ci95": [
+          -10.57373589081832,
+          15.240402557484988
+        ]
+      },
+      "seed_differences": [
+        11.0,
+        0.0,
+        13.0,
+        -13.0,
+        0.6666666666666666
+      ],
+      "exact_seed_difference_numerators": [
+        99,
+        0,
+        117,
+        -117,
+        6
+      ],
+      "exact_denominator": 9
+    },
+    "pair_profit": {
+      "none": {
+        "mean": 1.9481481481481482,
+        "ci95": [
+          0.0,
+          5.844444444444444
+        ]
+      },
+      "private": {
+        "mean": 2.7481481481481476,
+        "ci95": [
+          0.2962962962962963,
+          5.937037037037037
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.7999999999999996,
+        "ci95": [
+          -4.544444444444445,
+          5.2333333333333325
+        ],
+        "paired_t_ci95": [
+          -7.294224557964996,
+          8.894224557964995
+        ]
+      },
+      "seed_differences": [
+        4.277777777777778,
+        0.0,
+        8.425925925925926,
+        -9.148148148148149,
+        0.4444444444444444
+      ]
+    },
+    "outsider_profit": {
+      "none": {
+        "mean": 0.8296296296296297,
+        "ci95": [
+          0.0,
+          2.4888888888888894
+        ]
+      },
+      "private": {
+        "mean": 2.3629629629629627,
+        "ci95": [
+          0.14814814814814814,
+          4.992592592592592
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.533333333333333,
+        "ci95": [
+          -1.4962962962962965,
+          4.6159259259258025
+        ],
+        "paired_t_ci95": [
+          -3.632683374324425,
+          6.699350040991091
+        ]
+      },
+      "seed_differences": [
+        6.722222222222222,
+        0.0,
+        4.5740740740740735,
+        -3.8518518518518525,
+        0.2222222222222222
+      ]
+    },
+    "pair_bid": {
+      "none": {
+        "mean": 8.933333333333334,
+        "ci95": [
+          6.111111111111112,
+          14.455555555555554
+        ]
+      },
+      "private": {
+        "mean": 11.344444444444445,
+        "ci95": [
+          6.555555555555555,
+          16.366666666666667
+        ]
+      },
+      "paired_difference": {
+        "mean": 2.4111111111111114,
+        "ci95": [
+          -5.466666666666666,
+          9.966666666666667
+        ],
+        "paired_t_ci95": [
+          -10.627510508228355,
+          15.449732730450577
+        ]
+      },
+      "seed_differences": [
+        11.777777777777779,
+        -0.2777777777777777,
+        12.777777777777779,
+        -12.944444444444443,
+        0.7222222222222223
+      ]
+    },
+    "outsider_bid": {
+      "none": {
+        "mean": 8.933333333333334,
+        "ci95": [
+          6.088888888888889,
+          14.488888888888889
+        ]
+      },
+      "private": {
+        "mean": 11.244444444444444,
+        "ci95": [
+          6.666666666666667,
+          16.177777777777777
+        ]
+      },
+      "paired_difference": {
+        "mean": 2.311111111111111,
+        "ci95": [
+          -5.6,
+          9.666666666666668
+        ],
+        "paired_t_ci95": [
+          -10.596842886089576,
+          15.2190651083118
+        ]
+      },
+      "seed_differences": [
+        11.11111111111111,
+        0.22222222222222232,
+        12.777777777777779,
+        -13.11111111111111,
+        0.5555555555555554
+      ]
+    },
+    "pair_share": {
+      "none": {
+        "mean": 0.6666666666666666,
+        "ci95": [
+          0.6370370370370371,
+          0.6925925925925925
+        ]
+      },
+      "private": {
+        "mean": 0.5962962962962962,
+        "ci95": [
+          0.46296296296296297,
+          0.725925925925926
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.07037037037037039,
+        "ci95": [
+          -0.1962962962962963,
+          0.051851851851851816
+        ],
+        "paired_t_ci95": [
+          -0.2813625579508076,
+          0.14062181721006684
+        ]
+      },
+      "seed_differences": [
+        -0.2962962962962963,
+        0.14814814814814814,
+        0.03703703703703698,
+        -0.11111111111111116,
+        -0.12962962962962965
+      ]
+    },
+    "tie": {
+      "none": {
+        "mean": 0.9333333333333332,
+        "ci95": [
+          0.888888888888889,
+          0.9777777777777779
+        ]
+      },
+      "private": {
+        "mean": 0.8222222222222223,
+        "ci95": [
+          0.6222222222222223,
+          0.9777777777777779
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.11111111111111109,
+        "ci95": [
+          -0.35555555555555557,
+          0.08888888888888893
+        ],
+        "paired_t_ci95": [
+          -0.46284827534259054,
+          0.24062605312036833
+        ]
+      },
+      "seed_differences": [
+        -0.5555555555555556,
+        0.11111111111111116,
+        0.11111111111111116,
+        0.0,
+        -0.2222222222222222
+      ]
+    },
+    "winner_change": {
+      "none": {
+        "mean": 0.4666666666666666,
+        "ci95": [
+          0.17777777777777776,
+          0.7555555555555555
+        ]
+      },
+      "private": {
+        "mean": 0.3333333333333333,
+        "ci95": [
+          0.1777777777777778,
+          0.5111111111111111
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.13333333333333336,
+        "ci95": [
+          -0.5555555555555556,
+          0.31111111111111106
+        ],
+        "paired_t_ci95": [
+          -0.8395081489945495,
+          0.5728414823278827
+        ]
+      },
+      "seed_differences": [
+        0.6666666666666666,
+        -0.7777777777777777,
+        -0.5555555555555556,
+        0.1111111111111111,
+        -0.1111111111111111
+      ]
+    },
+    "stage_regret": {
+      "none": {
+        "mean": 1.6641975308641979,
+        "ci95": [
+          0.0024691358024691358,
+          4.980246913580247
+        ]
+      },
+      "private": {
+        "mean": 2.8518518518518516,
+        "ci95": [
+          0.009876543209876543,
+          5.913580246913581
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.187654320987654,
+        "ci95": [
+          -3.654320987654323,
+          5.901234567901235
+        ],
+        "paired_t_ci95": [
+          -6.74190217072144,
+          9.117210812696747
+        ]
+      },
+      "seed_differences": [
+        6.555555555555555,
+        -0.012345679012345678,
+        7.654320987654321,
+        -8.283950617283953,
+        0.024691358024691357
+      ]
+    }
+  },
+  "games": [
+    {
+      "seed": 24200,
+      "condition": "none",
+      "primary": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 6.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      },
+      "all_rounds": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.041666666666667,
+        "outsider_bid": 7.166666666666667,
+        "pair_share": 0.6805555555555557,
+        "tie": 1.0,
+        "winner_change": 0.18181818181818182,
+        "stage_regret": 0.0
+      },
+      "final": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 6.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24200,
+      "condition": "private",
+      "primary": {
+        "payment": 17.0,
+        "pair_profit": 4.277777777777778,
+        "outsider_profit": 6.722222222222222,
+        "pair_bid": 17.77777777777778,
+        "outsider_bid": 17.11111111111111,
+        "pair_share": 0.37037037037037035,
+        "tie": 0.4444444444444444,
+        "winner_change": 0.6666666666666666,
+        "stage_regret": 6.555555555555555
+      },
+      "all_rounds": {
+        "payment": 17.583333333333332,
+        "pair_profit": 4.527777777777778,
+        "outsider_profit": 7.0555555555555545,
+        "pair_bid": 18.291666666666668,
+        "outsider_bid": 17.666666666666668,
+        "pair_share": 0.375,
+        "tie": 0.5,
+        "winner_change": 0.7272727272727273,
+        "stage_regret": 6.916666666666665
+      },
+      "final": {
+        "payment": 14.0,
+        "pair_profit": 4.0,
+        "outsider_profit": 4.0,
+        "pair_bid": 15.0,
+        "outsider_bid": 14.0,
+        "pair_share": 0.5,
+        "tie": 1.0,
+        "winner_change": 1.0,
+        "stage_regret": 4.333333333333333
+      }
+    },
+    {
+      "seed": 24201,
+      "condition": "none",
+      "primary": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.277777777777778,
+        "outsider_bid": 6.222222222222222,
+        "pair_share": 0.6666666666666666,
+        "tie": 0.8888888888888888,
+        "winner_change": 0.8888888888888888,
+        "stage_regret": 0.012345679012345678
+      },
+      "all_rounds": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 7.416666666666667,
+        "outsider_bid": 6.166666666666667,
+        "pair_share": 0.5972222222222222,
+        "tie": 0.8333333333333334,
+        "winner_change": 0.9090909090909091,
+        "stage_regret": 0.3703703703703703
+      },
+      "final": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 7.0,
+        "pair_share": 1.0,
+        "tie": 1.0,
+        "winner_change": 1.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24201,
+      "condition": "private",
+      "primary": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 6.444444444444445,
+        "pair_share": 0.8148148148148148,
+        "tie": 1.0,
+        "winner_change": 0.1111111111111111,
+        "stage_regret": 0.0
+      },
+      "all_rounds": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.583333333333333,
+        "outsider_bid": 6.333333333333333,
+        "pair_share": 0.7638888888888888,
+        "tie": 1.0,
+        "winner_change": 0.18181818181818182,
+        "stage_regret": 0.0
+      },
+      "final": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 7.0,
+        "pair_share": 1.0,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24202,
+      "condition": "none",
+      "primary": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.277777777777778,
+        "outsider_bid": 6.222222222222222,
+        "pair_share": 0.6111111111111112,
+        "tie": 0.8888888888888888,
+        "winner_change": 0.7777777777777778,
+        "stage_regret": 0.012345679012345678
+      },
+      "all_rounds": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 7.958333333333333,
+        "outsider_bid": 6.166666666666667,
+        "pair_share": 0.5555555555555556,
+        "tie": 0.8333333333333334,
+        "winner_change": 0.8181818181818182,
+        "stage_regret": 0.3703703703703703
+      },
+      "final": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 6.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 1.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24202,
+      "condition": "private",
+      "primary": {
+        "payment": 19.0,
+        "pair_profit": 8.425925925925926,
+        "outsider_profit": 4.5740740740740735,
+        "pair_bid": 19.055555555555557,
+        "outsider_bid": 19.0,
+        "pair_share": 0.6481481481481481,
+        "tie": 1.0,
+        "winner_change": 0.2222222222222222,
+        "stage_regret": 7.666666666666667
+      },
+      "all_rounds": {
+        "payment": 19.083333333333332,
+        "pair_profit": 7.097222222222222,
+        "outsider_profit": 5.986111111111111,
+        "pair_bid": 19.291666666666668,
+        "outsider_bid": 19.083333333333332,
+        "pair_share": 0.5416666666666667,
+        "tie": 0.8333333333333334,
+        "winner_change": 0.2727272727272727,
+        "stage_regret": 7.7777777777777795
+      },
+      "final": {
+        "payment": 19.0,
+        "pair_profit": 8.666666666666666,
+        "outsider_profit": 4.333333333333333,
+        "pair_bid": 19.0,
+        "outsider_bid": 19.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 7.666666666666667
+      }
+    },
+    {
+      "seed": 24203,
+      "condition": "none",
+      "primary": {
+        "payment": 19.88888888888889,
+        "pair_profit": 9.74074074074074,
+        "outsider_profit": 4.148148148148149,
+        "pair_bid": 19.944444444444443,
+        "outsider_bid": 20.0,
+        "pair_share": 0.7037037037037037,
+        "tie": 0.8888888888888888,
+        "winner_change": 0.2222222222222222,
+        "stage_regret": 8.296296296296298
+      },
+      "all_rounds": {
+        "payment": 19.833333333333332,
+        "pair_profit": 8.861111111111109,
+        "outsider_profit": 4.972222222222221,
+        "pair_bid": 19.958333333333332,
+        "outsider_bid": 19.916666666666668,
+        "pair_share": 0.638888888888889,
+        "tie": 0.8333333333333334,
+        "winner_change": 0.36363636363636365,
+        "stage_regret": 8.277777777777777
+      },
+      "final": {
+        "payment": 20.0,
+        "pair_profit": 9.333333333333334,
+        "outsider_profit": 4.666666666666667,
+        "pair_bid": 20.0,
+        "outsider_bid": 20.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 8.333333333333334
+      }
+    },
+    {
+      "seed": 24203,
+      "condition": "private",
+      "primary": {
+        "payment": 6.888888888888889,
+        "pair_profit": 0.5925925925925926,
+        "outsider_profit": 0.2962962962962963,
+        "pair_bid": 7.0,
+        "outsider_bid": 6.888888888888889,
+        "pair_share": 0.5925925925925926,
+        "tie": 0.8888888888888888,
+        "winner_change": 0.3333333333333333,
+        "stage_regret": 0.012345679012345678
+      },
+      "all_rounds": {
+        "payment": 6.833333333333333,
+        "pair_profit": 0.5000000000000001,
+        "outsider_profit": 0.3333333333333333,
+        "pair_bid": 8.083333333333334,
+        "outsider_bid": 6.833333333333333,
+        "pair_share": 0.5000000000000001,
+        "tie": 0.75,
+        "winner_change": 0.45454545454545453,
+        "stage_regret": 0.37962962962962954
+      },
+      "final": {
+        "payment": 7.0,
+        "pair_profit": 0.6666666666666666,
+        "outsider_profit": 0.3333333333333333,
+        "pair_bid": 7.0,
+        "outsider_bid": 7.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24204,
+      "condition": "none",
+      "primary": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.166666666666667,
+        "outsider_bid": 6.222222222222222,
+        "pair_share": 0.6851851851851852,
+        "tie": 1.0,
+        "winner_change": 0.4444444444444444,
+        "stage_regret": 0.0
+      },
+      "all_rounds": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.791666666666667,
+        "outsider_bid": 6.166666666666667,
+        "pair_share": 0.6111111111111112,
+        "tie": 0.9166666666666666,
+        "winner_change": 0.5454545454545454,
+        "stage_regret": 0.013888888888888888
+      },
+      "final": {
+        "payment": 6.0,
+        "pair_profit": 0.0,
+        "outsider_profit": 0.0,
+        "pair_bid": 6.0,
+        "outsider_bid": 6.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      }
+    },
+    {
+      "seed": 24204,
+      "condition": "private",
+      "primary": {
+        "payment": 6.666666666666667,
+        "pair_profit": 0.4444444444444444,
+        "outsider_profit": 0.2222222222222222,
+        "pair_bid": 6.888888888888889,
+        "outsider_bid": 6.777777777777778,
+        "pair_share": 0.5555555555555556,
+        "tie": 0.7777777777777778,
+        "winner_change": 0.3333333333333333,
+        "stage_regret": 0.024691358024691357
+      },
+      "all_rounds": {
+        "payment": 6.583333333333333,
+        "pair_profit": 0.375,
+        "outsider_profit": 0.20833333333333334,
+        "pair_bid": 7.458333333333333,
+        "outsider_bid": 6.666666666666667,
+        "pair_share": 0.4583333333333333,
+        "tie": 0.6666666666666666,
+        "winner_change": 0.36363636363636365,
+        "stage_regret": 0.0462962962962963
+      },
+      "final": {
+        "payment": 7.0,
+        "pair_profit": 0.6666666666666666,
+        "outsider_profit": 0.3333333333333333,
+        "pair_bid": 7.0,
+        "outsider_bid": 7.0,
+        "pair_share": 0.6666666666666666,
+        "tie": 1.0,
+        "winner_change": 0.0,
+        "stage_regret": 0.0
+      }
+    }
+  ],
+  "cached_responses": 376,
+  "limitations": [
+    "n5 exploratory; descriptive bootstrap and fragile t intervals",
+    "Sign-flip conditional on slot exchangeability/symmetric differences",
+    "Channel availability, role and prompt cues bundled",
+    "Homogeneous costs; deterministic divisible tie allocation; bounded integer bids",
+    "Seed blocks do not control API draws; timing/interference possible",
+    "No verified agreement/execution labels; senders do not replay own messages",
+    "Multiple exploratory screens; full public bid disclosure",
+    "Client model labels, uncontrolled temperature/sampling seeds"
+  ]
+}

@@ -1,0 +1,60 @@
+S14 all ten games and exports complete
+{
+  "independent_metric_cells": 270,
+  "bootstrap_intervals": 27,
+  "paired_t_intervals": 9,
+  "primary_numerators": [
+    99,
+    0,
+    117,
+    -117,
+    6
+  ],
+  "primary_mean": 2.3333333333333335,
+  "upper_p": 0.375,
+  "pair_profit_difference": 0.8,
+  "verdict": "ODD",
+  "exact_3125_bootstrap_ci95": [
+    -5.6,
+    10.0
+  ],
+  "result_sha256": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828"
+}
+{
+  "saved_requests_checked": 376,
+  "completed_public_histories_exact": true,
+  "recipient_only_delayed_inboxes_exact": true,
+  "no_current_round_leak": true,
+  "no_own_sent_messages_replayed": true,
+  "box_prompt_attempts": 126,
+  "incoming_history_appearances_including_retries": 699,
+  "pair_timing": [
+    {
+      "seed": 24200,
+      "first_call_gap_seconds": 0.003586,
+      "raw_call_overlap_seconds": 152.751616
+    },
+    {
+      "seed": 24201,
+      "first_call_gap_seconds": 0.002106,
+      "raw_call_overlap_seconds": 150.750411
+    },
+    {
+      "seed": 24202,
+      "first_call_gap_seconds": 0.000332,
+      "raw_call_overlap_seconds": 161.808564
+    },
+    {
+      "seed": 24203,
+      "first_call_gap_seconds": 0.000423,
+      "raw_call_overlap_seconds": 141.581425
+    },
+    {
+      "seed": 24204,
+      "first_call_gap_seconds": 0.000482,
+      "raw_call_overlap_seconds": 142.688139
+    }
+  ],
+  "raw_request_sha256": "8920e77949aff7365a07700261d10a5ca0ab78f371d0e968d6211558b00fa616"
+}
+PASS full S14 offline release audit
