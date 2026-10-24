@@ -73,3 +73,30 @@ uv run python scripts/s04_analyze.py --data /var/tmp/s04_offline \
 No model credentials or sibling checkout are needed for cached analysis and
 verification. `scripts/render_report.py` builds the one-page log plus details
 for all completed pilots; it does not estimate incomplete S04 outcomes.
+
+S03 (iteration 3, axis own) tests an exact conditional own-profit table without
+messages. All firms in a game see the same interface; the table uses only the
+last completed rival quantities and explicitly is not a forecast. The hypothesis
+concerns mean output, and the effect bundles arithmetic, salience and framing.
+See [DESIGN_S03.md](DESIGN_S03.md); every seed is exploratory (zero tuning).
+
+```bash
+uv run python -m sim.calculator                # live/resume; cached completed calls
+uv run python scripts/s03_analyze.py           # offline, all 10 games required
+uv run python scripts/s03_verify.py            # complete replay, live calls forbidden
+uv run python scripts/s03_report.py            # figure from frozen results
+uv run python scripts/render_report.py         # current one-page log + all details
+uv run python -m unittest scripts.test_research scripts.test_s04 scripts.test_s03 -v
+```
+
+For a dry run, use `uv run python -m sim.calculator --dry --out
+/var/tmp/s03_offline` and `uv run python scripts/s03_analyze.py --data
+/var/tmp/s03_offline --out /var/tmp/s03_offline/results.json --allow-dry`.
+Choose a fresh scratch directory after any source/design change. The generation
+config freezes all simulation/design/analysis helpers and the dependency lock.
+`logs/s03_analysis_freeze.json` also records reporting/verification source hashes
+before live outcomes. Reproduce from this iteration's commit if future shared
+source files change. Exported trajectories have `quantity` actions, no text;
+metadata has `assigned_pair=null`, unverified labels, tables and reasoning notes.
+A small sample DUD is a queue screen and cannot establish equivalence, lack of
+cycles or lack of a policy effect. Raw caches are retained for paid-call reuse.

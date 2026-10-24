@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/factory/collusion/collusion-serendipity/sim/calculator.py", line 16, in <module>
+    raise RuntimeError('Research integrity checks require Python without -O')
+RuntimeError: Research integrity checks require Python without -O

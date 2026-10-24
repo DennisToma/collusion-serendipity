@@ -77,3 +77,47 @@ complete replay with live calls forbidden, byte-identical reanalysis, independen
 stdlib primary/payoff calculation, exports compared with authoritative games.
 Request independent Codex and Opus methodology AND final-claim reviews; record
 unavailable critics honestly and retain dispositions in logs.
+
+## Pre-outcome Opus review disposition
+
+Review `logs/s03_design_opus.md`, before live calls (original registration
+424c351). Added analysis helper and dependency-lock hashes; exhaustive calculator
+comparison with actual payoff engine (using the profit, not price tuple element);
+objective reminder now identical in both arms. Added exact-sign tests for zeros
+and ties. All earlier conditions, outcomes and thresholds unchanged. The shared
+system prompt already states the undisclosed many-round total-profit objective.
+The table can induce quantity cycles around q=6 while leaving mean output fixed:
+report paths, absolute changes, distance from Nash and lag-regret next to the
+mean-output verdict. A DUD does not mean absence of a behavioral effect. HIT's
+n5 sign rule requires all five positive contrasts; late API interference and
+uncontrolled draws limit inference despite randomized submission slots. Full
+cache-only replay validates recorded actions/provenance and atomic exports.
+
+## Pre-outcome Codex review disposition
+
+Review `logs/s03_design_codex.md`: require the complete source manifest and
+version, record Python/NumPy/SciPy versions and workers=2, reject unsupported
+model/backend before calls. Enforce no *new uncached request* at/after 16:35 UTC;
+already in-flight calls may return and are cached, then further uncached work
+fails. Cached replay remains allowed after cutoff. The manager will also monitor
+the clock. Full exact request payloads and response hashes are stored separately
+in `raw/requests.jsonl`, alongside the inherited `raw/responses.jsonl`. Analysis
+checks their hashes/key sets; the required full cache-only replay establishes
+which response produced each action and validates earlier invalid attempts.
+Replay must pass before results are presented. Required checks fail immediately
+under Python -O rather than silently losing assertions.
+
+S03 now has a dedicated JSON-only action parser: quantity must be an int (not
+bool/integral float), reasoning a string <=40 words, private_message exactly
+empty; extra JSON fields are ignored. No prose extraction or message truncation.
+This replaces the inherited permissive parser before live outcomes. Invalid
+outputs still get at most three cached attempts. All scientific thresholds and
+outcomes are unchanged. Distance |q-6| refers to the *symmetric* Nash point;
+permutations of (5,6,7) are also grid Nash equilibria with total output 18.
+
+Before live calls, additionally integrated required cache-only reconstruction
+into the analyzer itself (not just the separate verifier). Tampered reasoning/
+provenance/actions fail before estimates; a regression test changes a saved
+reasoning note and proves rejection. The dry-only adapter empties the inherited
+harness's dummy message, retaining original raw response hashes; live responses
+are never transformed. Frozen live action/schema/threshold rules unchanged.

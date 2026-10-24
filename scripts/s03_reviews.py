@@ -16,7 +16,9 @@ def main():
     files=['DESIGN_S03.md','sim/calculator.py','scripts/s03_analyze.py','scripts/test_s03.py']
     if args.stage=='final':
         files+=['REPORT.md','results/s03_calculator.json','logs/s03_verification.json',
-                'logs/s03_review_disposition.md','logs/s03_design_codex.md','logs/s03_design_opus.md']
+                'logs/s03_review_disposition.md','logs/s03_design_codex.md','logs/s03_design_opus.md',
+                'scripts/s03_verify.py','sim/advisor.py','sim/cournot.py','sim/common.py',
+                'scripts/s02_analyze.py','data/s03_calculator/config.json','logs/s03_tests.log']
         instruction+='Independently recalculate claims and check every S03 numerical statement and verdict. '
     def codex():
         path=Path(f'logs/s03_{args.stage}_codex.md')

@@ -10,8 +10,9 @@ import sys
 from unittest.mock import patch
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
-from sim.calculator import run_game
-from sim.common import Cache
+from sim.calculator import run_game, CalculatorCache
+if not __debug__:
+    raise RuntimeError('Research integrity checks require Python without -O')
 
 
 def main():
@@ -24,8 +25,10 @@ def main():
     games=[json.loads(p.read_text()) for p in files]
     raw=directory/'raw/responses.jsonl'
     before=raw.read_bytes()
+    request_path=raw.with_name('requests.jsonl')
+    before_requests=request_path.read_bytes()
     with patch('sim.common.llm.chat',side_effect=AssertionError('Uncached live call forbidden')):
-        cache=Cache(raw)
+        cache=CalculatorCache(raw)
         for original in games:
             gt=original['ground_truth']
             with contextlib.redirect_stdout(io.StringIO()):
@@ -36,6 +39,7 @@ def main():
                 del data['started_utc'];del data['ended_utc']
             assert actual==expected
     assert raw.read_bytes()==before
+    assert request_path.read_bytes()==before_requests
     trajectory=[json.loads(line) for line in (directory/'trajectories.jsonl').read_text().splitlines()]
     metadata=[json.loads(line) for line in (directory/'ground_truth.jsonl').read_text().splitlines()]
     assert len(metadata)==10 and len(trajectory)==120
@@ -88,7 +92,7 @@ def main():
     freeze=json.loads(Path('logs/s03_analysis_freeze.json').read_text())
     for filename,digest in freeze['sources'].items():
         assert hashlib.sha256(Path(filename).read_bytes()).hexdigest()==digest
-    hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files+[raw,directory/'trajectories.jsonl',directory/'ground_truth.jsonl']}
+    hashes={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in files+[raw,request_path,directory/'trajectories.jsonl',directory/'ground_truth.jsonl']}
     check=dict(cache_only_replay_all_games=True,raw_cache_unchanged=True,independent_primary_matches=True,
                independent_regret_metrics_match=True,exports_match_authoritative_games=True,source_hashes_match=True,
                games=10,rounds=120,cached_responses=len(cache.entries),

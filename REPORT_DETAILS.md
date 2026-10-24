@@ -1,7 +1,7 @@
 # Detailed pilot results
 
 Exploratory attacks on the sibling projects' price-market findings. Iteration 1,
-updated 2026-10-24 15:47 UTC. **No hits promoted.** Frozen designs and review amendments:
+updated 2026-10-24 15:53 UTC. **No hits promoted.** Frozen designs and review amendments:
 [DESIGN.md](DESIGN.md). Zero detector tuning attempts; these are discovery results.
 
 | Pilot | Idea → result (descriptive 95% bootstrap interval) | Verdict |

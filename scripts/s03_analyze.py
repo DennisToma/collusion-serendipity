@@ -8,9 +8,12 @@ from pathlib import Path
 import sys
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+if not __debug__:
+    raise RuntimeError('Research integrity checks require Python without -O')
+
 import numpy as np
 from scipy.stats import t as student_t
-from sim.calculator import CONDITIONS, SEEDS, VERSION, conditional_table, prompt, schedule
+from sim.calculator import CONDITIONS, SEEDS, VERSION, SOURCES, DEADLINE, conditional_table, prompt, schedule, assert_cached_replay
 from sim.cournot import AGENTS, payoffs
 from scripts.s02_analyze import summarize
 
@@ -78,6 +81,14 @@ def metrics(game, start=3):
             for k in records[0]}
 
 
+def exact_signflip(numerators):
+    observed = sum(numerators)
+    null = [sum(d*sign for d,sign in zip(numerators,signs))
+            for signs in itertools.product([-1,1],repeat=len(numerators))]
+    return dict(exact_signflip_p_upper=sum(v >= observed for v in null)/len(null),
+                exact_signflip_p_lower=sum(v <= observed for v in null)/len(null))
+
+
 def classify(numerators, summary):
     mean = Fraction(sum(numerators), 27*len(numerators))
     if mean >= 1 and summary['ci95'][0] > 0 and summary['exact_signflip_p_upper'] <= .05:
@@ -95,6 +106,21 @@ def analyze(directory, allow_dry=False):
     assert cfg['rounds'] == 12 and cfg['n'] == 5 and cfg['seed0'] == SEEDS[0]
     assert cfg['model'] == 'gpt-6-luna' and cfg['backend'] == 'codex'
     assert allow_dry or not cfg['dry'], 'Cannot publish dry data'
+    assert set(cfg['sources']) == set(SOURCES), 'Missing/extra frozen source manifest entries'
+    assert cfg['version'] == VERSION
+    assert cfg['workers'] == 2 and cfg['deadline_utc'] == DEADLINE
+    cache_rows = [json.loads(line) for line in (directory/'raw/responses.jsonl').read_text().splitlines()]
+    assert len({r['key'] for r in cache_rows}) == len(cache_rows), 'Duplicate cache keys'
+    assert all(isinstance(r['response']['text'],str) for r in cache_rows)
+    requests = [json.loads(line) for line in (directory/'raw/requests.jsonl').read_text().splitlines()]
+    request_by_key = {r['key']:r for r in requests}
+    assert len(request_by_key) == len(requests) == len(cache_rows), 'Missing/duplicate request audit'
+    assert set(request_by_key) == {r['key'] for r in cache_rows}
+    for cached in cache_rows:
+        request = request_by_key[cached['key']]
+        assert request['dry'] == cfg['dry']
+        assert cached['key'] == hashlib.sha256(json.dumps([request['dry'],request['payload']]).encode()).hexdigest()
+        assert request['response_sha256'] == hashlib.sha256(json.dumps(cached['response'],sort_keys=True).encode()).hexdigest()
     for filename, digest in cfg['sources'].items():
         assert hashlib.sha256(Path(filename).read_bytes()).hexdigest() == digest, f'Source drift: {filename}'
     assert json.loads((directory/'schedule.json').read_text()) == [list(t) for t in schedule()]
@@ -110,6 +136,7 @@ def analyze(directory, allow_dry=False):
         records.append(dict(seed=key[0], condition=key[1], primary=metrics(game),
                             all_rounds=metrics(game, 0), final=metrics(game, 11)))
     assert set(by) == set(itertools.product(SEEDS, CONDITIONS))
+    assert_cached_replay(directory, games, cfg)
     metrics_by = {(r['seed'],r['condition']):r['primary'] for r in records}
     rng = np.random.default_rng(2406)
     result = {}
@@ -124,11 +151,7 @@ def analyze(directory, allow_dry=False):
             def total(s,c):
                 return sum(a['quantity'] for r in by[s,c]['rows'][3:] for a in r['agents'])
             numerators = [total(s,'calculator')-total(s,'none') for s in SEEDS]
-            observed = sum(numerators)
-            null = [sum(d*sign for d,sign in zip(numerators,signs))
-                    for signs in itertools.product([-1,1],repeat=5)]
-            summary['exact_signflip_p_upper'] = sum(v >= observed for v in null)/32
-            summary['exact_signflip_p_lower'] = sum(v <= observed for v in null)/32
+            summary.update(exact_signflip(numerators))
             extra = dict(exact_seed_difference_numerators=numerators, exact_denominator=27)
         result[key] = dict(none=summarize(none,rng), calculator=summarize(calc,rng),
                            paired_difference=summary, seed_differences=diff.tolist(), **extra)
@@ -136,7 +159,7 @@ def analyze(directory, allow_dry=False):
     return dict(pilot='S03', verdict=classify(primary['exact_seed_difference_numerators'],primary['paired_difference']),
                 n_games=10, n_seed_blocks=5, primary_rounds='4..12', tuning_attempts=0,
                 model=cfg['model'], backend=cfg['backend'], dry=cfg['dry'], metrics=result, games=records,
-                cached_responses=len((directory/'raw/responses.jsonl').read_text().splitlines()),
+                cached_responses=len(cache_rows),
                 limitations=['n5 exploratory; descriptive bootstrap and fragile t intervals',
                              'Sign-flip conditional on slot exchangeability/symmetric differences',
                              'Table arithmetic, salience, myopia and framing not separated',

@@ -26,7 +26,7 @@ def render():
     for key,label in [('quantity','Quantity per firm'),('price','Market price'),('profit','Profit per firm'),
                       ('actual_stage_regret','Stage regret against actual rivals'),
                       ('lag_conditional_regret','Conditional regret against lagged rivals'),
-                      ('distance_nash','Absolute distance from q=6'),('absolute_change','Absolute quantity change'),
+                      ('distance_nash','Absolute distance from symmetric Nash q=6'),('absolute_change','Absolute quantity change'),
                       ('all_equal','All-three quantity equality rate')]:
         x=m[key];t=x['paired_difference']['paired_t_ci95']
         rows.append(f'| {label} | {x["none"]["mean"]:.3f} | {x["calculator"]["mean"]:.3f} | {fmt(x["paired_difference"])} | [{t[0]:+.3f}, {t[1]:+.3f}] |')
@@ -61,6 +61,7 @@ seed blocks (10,000 draws, RNG 2406); they are descriptive and may under-cover.
 The t interval is fragile at n5. Sign enumeration assumes exchangeable execution
 slots/symmetric block differences and can fail under backend/time interference.
 The HIT rule requires >=1 unit increase, positive bootstrap lower and p<=.05.
+The n5 HIT sign rule requires all five contrasts strictly positive.
 DUD is the frozen prioritization label, not proof of no effect or equivalence;
 negative effects require the separately registered ODD-reverse rule.
 
@@ -93,6 +94,10 @@ and a possible myopic-policy cue. Changes cannot be attributed to arithmetic
 error correction alone. Histories diverge endogenously. No message channel does
 not establish tacit collusion; agreement/execution labels remain null. This is a
 tiny exploratory test of one table and one model, with no equivalence claim.
+Best responses to lagged rivals can cycle (symmetric q4 to q8 and back),
+changing behavior while leaving mean output at q6. Read the change and regret
+diagnostics beside the primary. Distance |q-6| refers only to symmetric Nash;
+the six permutations of (5,6,7) are also grid Nash equilibria.
 All seeds provide server-sampled replicates with randomized arm execution slots;
 no API seed/temperature control or independent model attestation. Cache-key
 separation prevents accidental response reuse; it cannot guarantee independence

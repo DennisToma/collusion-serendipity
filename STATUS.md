@@ -6,8 +6,8 @@
 - Registered 10 games / 5 fresh seeds 24060..24064 / T12 / codex gpt-6-luna; zero tuning.
 - Primary all-firm quantity r4-12; prespecified higher-output HIT screen, exact sign enumeration.
 - Table effects bundle arithmetic/salience/myopia; cannot identify arithmetic errors or collusion.
-- 18 validity tests PASS; ten-game dry run and frozen analysis PASS in /var/tmp (no live outcomes).
-- Independent Codex + Opus methodology reviews requested before live generation.
+- 21 validity tests PASS; complete dry analysis/replay PASS in /var/tmp (no live outcomes).
+- Independent Codex + Opus methodology reviews completed; pre-outcome fixes applied.
 - S04 remains -0.511 [-1.222,+0.122]; routable exposure 17.8% fails 25% gate.
 - Next after this pilot: cover D/E/F before deepening. New own S06 denomination idea queued.
 - Risks: n5, client model labels, uncontrolled server sampling and temporal interference.
@@ -35,3 +35,5 @@
 - 2026-10-24 15:41 UTC: complete S04 artifacts and independent reviews committed/pushed as 09d4a28; experiment ledger result reference finalized. Cached generator resume rebuilt identical exports without model calls; final replay and source/analysis hash checks pass. Remaining portfolio axes D/E/F/own are the next queue; no active explorer generation/review process remains.
 
 - 2026-10-24T15:46:51.502259+00:00: iteration 3 read all rule/state/direction/ledger files and sibling report/state summaries. Activated queued own S03 calculator pilot on fresh no-message games. Registered design and frozen analysis, exhaustive arithmetic/timing/provenance checks, 18 tests and complete dry run PASS. Requested Codex and Opus methodology reviews before live outcomes; no direction deviation. Queued new own S06 currency-denomination idea; no second pilot.
+
+- 2026-10-24T15:53:44.015832+00:00: S03 independent Codex/Opus design reviews completed. Applied full-request audit and mandatory replay, strict parsing, complete source/environment/concurrency freeze, deadline enforcement, optimization guard and matched objective reminder. 21 tests and complete dry analysis/replay PASS; initial dummy-message issue fixed without live calls. Simulation/design/analysis/report/verification hashes frozen before live outcomes.
