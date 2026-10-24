@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-24 15:41 UTC; Phase 2, iteration 2 complete and pushed)
-- S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE. No promoted HIT or sibling headline change.
-- S04: all 10 games / 5 fresh seeds / T12 complete, codex gpt-6-luna, 600 cached responses, 0 invalid-output retries.
-- Primary pair quantity shared-independent -0.511 [-1.222,+0.122] descriptive bootstrap; t [-1.578,+0.556]; sign-flip p=.15625.
-- Frozen exposure gate failed: routable advice disagreement 17.8% <25% in r4-12; no null/exoneration claim.
-- Pair profits +3.367 [+0.322,+5.444] descriptive bootstrap, but t [-0.838,+7.571]; equality difference +0.400.
-- Gate uses late endogenous states: earlier advice may affect later paths, so UNINFORMATIVE is a queue label, not invalid causal randomization.
-- Cache-only replay all 600 responses matches every game/advice/provenance; exports and independent primary arithmetic match.
-- Frozen analysis rerun byte-identical; source hashes match; 13 tests PASS; figure inspected; repo artifacts <3 MB.
-- Independent Codex + Opus methodology/final-claim reviews complete; final framing corrections applied.
-- Reviewer-found threshold-rounding bug fixed via exact integer/Fraction decisions before full-arm outcomes; no rule or tuning change.
-- Next: cover D/E/F/own before deepening; own S03 calculator and S05 authority-label ideas queued.
-- Risks: n5, weak late exposure/path dependence, conditional sign-flip assumptions, unverified collusion labels and Codex sampling/model identity.
+## Current state (2026-10-24 15:46 UTC; Phase 2, iteration 3 in progress)
+- S01 (C) DUD; S02 (A) ODD; S04 (B) ODD/UNINFORMATIVE; no promoted HIT.
+- Selected S03 (own): exact conditional own-profit table vs none, no messages, all firms treated.
+- Registered 10 games / 5 fresh seeds 24060..24064 / T12 / codex gpt-6-luna; zero tuning.
+- Primary all-firm quantity r4-12; prespecified higher-output HIT screen, exact sign enumeration.
+- Table effects bundle arithmetic/salience/myopia; cannot identify arithmetic errors or collusion.
+- 18 validity tests PASS; ten-game dry run and frozen analysis PASS in /var/tmp (no live outcomes).
+- Independent Codex + Opus methodology reviews requested before live generation.
+- S04 remains -0.511 [-1.222,+0.122]; routable exposure 17.8% fails 25% gate.
+- Next after this pilot: cover D/E/F before deepening. New own S06 denomination idea queued.
+- Risks: n5, client model labels, uncontrolled server sampling and temporal interference.
 
 ## Log
 
@@ -35,3 +33,5 @@
 - 2026-10-24 15:41 UTC: independent Codex and Opus final critics both confirm every numerical claim and frozen verdict. Applied framing fixes: exposure convention is not calibrated power, all-round exposure 28.3%, all secondary t intervals, outsider contrast and path-dependence caveat. Declined unsupported attribution to either persuasion/common policy or drift-versus-routing; mechanisms remain unidentified. REPORT is a 30-line log; detailed figures/methods/limits linked. No new experiment, tuning or outcome-based rule change.
 
 - 2026-10-24 15:41 UTC: complete S04 artifacts and independent reviews committed/pushed as 09d4a28; experiment ledger result reference finalized. Cached generator resume rebuilt identical exports without model calls; final replay and source/analysis hash checks pass. Remaining portfolio axes D/E/F/own are the next queue; no active explorer generation/review process remains.
+
+- 2026-10-24T15:46:51.502259+00:00: iteration 3 read all rule/state/direction/ledger files and sibling report/state summaries. Activated queued own S03 calculator pilot on fresh no-message games. Registered design and frozen analysis, exhaustive arithmetic/timing/provenance checks, 18 tests and complete dry run PASS. Requested Codex and Opus methodology reviews before live outcomes; no direction deviation. Queued new own S06 currency-denomination idea; no second pilot.

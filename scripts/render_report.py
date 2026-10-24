@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.s04_report import render as render_s04
+from scripts.s03_report import render as render_s03
 
 
 def fmt(r, signed=False, dp=3):
@@ -124,17 +125,21 @@ Independent reviews: [Codex design](logs/design_codex.md),
 S03 arithmetic-tool idea is queued, not run. Any promotion needs fresh seeds.
 '''
     row04, text04, detail04, candidate_hit = render_s04()
-    Path('REPORT_DETAILS.md').write_text(report.replace('# Serendipity log — Beyond Words', '# Detailed pilot results', 1) + detail04)
+    row03, text03, detail03 = render_s03()
+    Path('REPORT_DETAILS.md').write_text(report.replace('# Serendipity log — Beyond Words', '# Detailed pilot results', 1) + detail04 + detail03)
     hit_status = '**Candidate S04 HIT pending claim review; not promoted.**' if candidate_hit else '**No hits promoted.**'
     summary = f'''# Serendipity log — Beyond Words
 
-{now} · Iteration 2 · {hit_status} Exploratory pilots; zero tuning attempts.
+{now} · Iteration 3 · {hit_status} Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
 |---|---|---|
 | S01 · C, price digits | {a['runs'] + b['runs']} games scanned; primary on {a['primary_within_channel']['n']} luna / {b['primary_within_channel']['n']} deepseek channel games. Pair-minus-other-pairs prediction gain **{fmt(a['primary_within_channel'], True, 5)}** / **{fmt(b['primary_within_channel'], True, 5)}** squared price units. | **DUD** for this screen |
 | S02 · A, Cournot quantities | {s02['n_games']} games, {s02['n_seeds']} seed blocks. Pair output r4–12: none **{q['none']['mean']:.3f}**, private **{q['private']['mean']:.3f}**; difference **{fmt(diff, True)}** units/firm. | **{s02['verdict']}**, inconclusive |
 {row04}
+{row03}
+
+{text03}
 
 {text04}
 
@@ -153,9 +158,9 @@ Client model labels are not independent attestation; Codex temperature and
 sampling seeds are uncontrolled. Tiny exploratory samples and unverified
 agreement/execution labels limit all claims. No sibling headline change.
 
-[Design S01/S02](DESIGN.md) · [Design S04](DESIGN_S04.md) ·
+[Design S01/S02](DESIGN.md) · [Design S03](DESIGN_S03.md) · [Design S04](DESIGN_S04.md) ·
 [Full results, figures and limitations](REPORT_DETAILS.md) · [Reproduce](README.md).
-**Next:** cover D/E/F/own before deepening; own S03 calculator proposal queued.
+**Next:** cover D/E/F before deepening; own S05 authority-label and S06 denomination ideas queued.
 '''
     Path('REPORT.md').write_text(summary)
 

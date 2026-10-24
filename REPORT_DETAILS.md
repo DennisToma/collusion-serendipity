@@ -1,7 +1,7 @@
 # Detailed pilot results
 
 Exploratory attacks on the sibling projects' price-market findings. Iteration 1,
-updated 2026-10-24 15:40 UTC. **No hits promoted.** Frozen designs and review amendments:
+updated 2026-10-24 15:47 UTC. **No hits promoted.** Frozen designs and review amendments:
 [DESIGN.md](DESIGN.md). Zero detector tuning attempts; these are discovery results.
 
 | Pilot | Idea → result (descriptive 95% bootstrap interval) | Verdict |
@@ -221,3 +221,7 @@ in [S04 review disposition](logs/s04_review_disposition.md).
 
 ![S04 quantity, price, adoption](figures/s04_advisor.png)
 *Means; bands show the observed range across five games, not a confidence interval.*
+
+# S03 — exact conditional own-profit calculator
+
+Registered; live outcome not yet analyzed. See [design](DESIGN_S03.md).
