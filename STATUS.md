@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T19:37:35.847362+00:00; Phase2, iteration9 IN PROGRESS)
-- Selected S16 C2 after A1: shared partner notes versus author-only notes in procurement.
-- Ten fresh games/five blocks24240..24244 planned; T12, zero tuning, no pooling.
-- Both arms name pair, permit writing and replay own notes; shared adds partner access.
-- Logical append/snapshot harness, not external filesystem-tool evaluation.
-- Registered primary payment shared−self r4–12; unchanged directional HIT/DUD screen.
-- Ten S16 protocol tests/full dry replay/independent270-cell statistics checks PASS.
-- Independent saved-snapshot dry audit and3375-profile/44-equilibrium enumeration PASS.
-- Both methodology critics exit0; all findings disposed;99 repository tests PASS.
-- Checkpoint REPORT remains presentable with S16 explicitly pending; S14 ODD unchanged.
-- Next:freeze/push16 scientific sources, run at most10 games, verify and publish.
-- Risks:n5,access wording/content/context bundled,shared backend,divisible ties,no truth labels.
+## Current state (2026-10-24T19:55:44.694905+00:00; Phase2, iteration9 VERIFYING)
+- S16 C2 notes sharing FAILED its registered output contract; scientific screen unclassified, no effect estimate.
+- Four/10 games complete; two partial/aborted, four unstarted; no replacement or subset estimate.
+- All173 responses retained:163 accepted decisions,10 >40-word reasoning rejections.
+- Fatal shared seed24242/r3/C reasoning47/44/46 words; partner aborted, last call19:48:07UTC.
+- Original complete-dataset analysis and live restart refuse this failed invocation.
+- Exact173-key prefix replay and independent173 histories/116 file snapshots PASS.
+- Four full games/metadata match; failed3 attempts and partner prefix reproduce exactly.
+- All16 scientific sources match pushed freeze73fe09d; no estimator/rule/source change.
+-13 S16 protocol/failure tests and102 full-repository tests PASS; final critics running.
+- REPORT/HITS/ledgers updated for checkpoint; no HIT or sibling headline change.
+- Next:dispose final reviews, full verification, commit/push and clean-clone reproduction.
+- Risks:operational censoring,small pilot,access wording/content/context bundled,no truth labels.
 
 ## Log
 
@@ -120,3 +121,9 @@
 - 2026-10-24T19:37:35.847362+00:00: iteration9 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/state summaries read-only. Selected different axis C2 after S14 A: fresh S16 author-only versus shared notes, holding designated pair and own-note persistence in both arms. Registered design/ledger before calls. Reused archived tender harness without modifying S14 files. Nine S16 tests/full dry replay/independent270 cells,27 bootstrap,9 t,32 signs and saved-snapshot audit PASS; exhaustive economics unchanged. Both methodology critics requested; no scientific call or live outcome inspection. No direction deviation.
 
 - 2026-10-24T19:40:10.520865+00:00: S16 Codex/Opus methodology reviews exit0 before calls. Fixed ambiguous partner-reader sentence; froze note/retry descriptives with independent reconstruction; added launch source/chronology/ancestry and exact environment guards. Retained explicit near-cutoff timestamp race fail-closed limitation; no shared historical source edits.10 S16 tests and99 repository tests PASS; independent saved-snapshot audit PASS.16 scientific sources prepared for freeze/push; no live calls or outcome inspection.
+
+- 2026-10-24T19:40:46.588997+00:00: S16 source freeze73fe09d6f9917143d0d4190ced25d84d4adcba92 pushed; launcher observed matching remote HEAD at19:40:17.223924UTC before any scientific call.16 source hashes frozen, two games per time-matched block,20:15 logical cutoff. Registered seed pointer and ledger updated; no partial bids, messages or effects inspected.
+
+- 2026-10-24T19:55:44.694905+00:00: S16 generator exited1 at19:48UTC after fatal shared24242/round3/C reasoning47/44/46-word outputs. Four complete games retained, two failed/partner-aborted cached prefixes, four unstarted;173 responses/163 accepted/10 overlong-reasoning rejections. The frozen whole-dataset gate blocks all scientific analysis; no replacement, parser change, excluded block, treatment contrast, pooling or secondary promotion. Wrote supplementary postfailure auditor: independent strict parsing/rational histories/116 snapshots and exact173-key original-source replay PASS; all16 frozen sources unchanged. One already-started self call completed after the first failure record, as allowed.13 protocol/failure tests PASS. Failure summary/figure/release checks prepared; final independent Codex/Opus reviews requested. No direction deviation or sibling writes.
+
+- 2026-10-24T19:59:29.920128+00:00: final Opus critic exit0 verifies supplied failure arithmetic (no raw/shell access). Applied explicit scientific-unclassified/administrative-queue distinction, pairB/C role and rejection role splits, independent bid/note-validity checks for all10 rejected replies, client-observation provenance wording. All16 scientific sources unchanged, no effect computed. Codex final critic and post-commit clean-clone check pending. Checkpoint failure evidence ready for milestone commit/push.

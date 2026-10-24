@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 8.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 9.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -116,3 +116,19 @@ scripts/s14_independent.py`; `uv run python scripts/s14_request_audit.py`;
 `uv run python scripts/s14_release.py`; `uv run python scripts/s14_present.py`.
 [Design](DESIGN_S14.md) · [All outcomes](results/s14_summary.md) ·
 [Figure](figures/s14_tender.png). This is a handoff caution, not a promoted hit.
+
+
+**S16: failed notes-file pilot, no scientific estimate (axis C2).**
+Both arms name the pair and retain own notes; shared adds next-round partner
+access. The registered output policy stopped at three >40-word reasoning replies
+(47/44/46 words) on one decision. Four/10 games complete, two started/aborted,
+four unstarted;173 cached responses,163 accepted decisions,10 reasoning rejections.
+No payment/profit contrast or CI is computed from this incomplete, selected subset.
+Queue ODD is an administrative label assigned after failure for PLAN logging;
+the registered scientific screen is unclassified. No HIT, causal null, failure-rate arm
+comparison or sibling headline change. Exact173-key replay and independent saved
+histories/snapshots pass; all16 frozen scientific sources unchanged. No model
+fallback, replacement games or relaxed parser. The failure is a caution about
+output-validity censoring, not about channel efficacy. [Failure evidence](results/s16_summary.md).
+Reproduce: `uv run python scripts/s16_failure_audit.py`; `uv run python
+scripts/s16_release.py`; `uv run python scripts/s16_present.py`.

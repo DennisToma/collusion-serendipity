@@ -40,6 +40,10 @@ def main():
                 'logs/s16_review_disposition.md','logs/s16_launch_preflight.json',
                 'logs/s16_request_audit.json','scripts/s16_request_audit.py','scripts/s16_release.py',
                 'logs/s16_release.json','logs/s16_economics.json']
+        if Path('results/s16_failure.json').exists():
+            files=[f for f in files if f not in ['results/s16_tender.json','logs/s16_independent.json','logs/s16_request_audit.json']]
+            files+=['results/s16_failure.json','scripts/s16_failure_audit.py','scripts/s16_failure_release.py','scripts/test_s16_failure.py']
+            instruction+='This pilot FAILED its registered output contract. No scientific effect estimate is allowed. Check failure counts, exact cached-prefix replay, output-validity cause, unchanged scientific sources and the scope of claims. Do not request effect statistics from the selected complete games. '
         instruction+='Independently recalculate S16 numerical claims, using raw games if useful. '
     def codex():
         path=Path(f'logs/s16_{args.stage}_codex{args.suffix}.md')

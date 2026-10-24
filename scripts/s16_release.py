@@ -13,6 +13,9 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 
 
 def check(out='logs/s16_release.json'):
+    if Path('results/s16_failure.json').exists():
+        from scripts.s16_failure_release import check as failure_check
+        return failure_check(out)
     from sim import notes as tender
     from scripts.s16_analyze import analyze
     from scripts.s16_independent import check as independent
@@ -79,6 +82,9 @@ def check(out='logs/s16_release.json'):
 
 
 def clean_clone():
+    if Path('results/s16_failure.json').exists():
+        from scripts.s16_failure_release import clean_clone as failure_clean
+        return failure_clean()
     root=Path.cwd();head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     with tempfile.TemporaryDirectory(prefix='s16_clean_',dir='/var/tmp') as td:
         clone=Path(td)/'repo';subprocess.run(['git','clone','--quiet','--no-local',str(root),str(clone)],check=True)

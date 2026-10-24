@@ -1,0 +1,36 @@
+{
+  "version": "notes-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 12,
+  "n": 5,
+  "seed0": 24240,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/notes.py": "f0d598f88e3b10cf9cc55d19ba3a5d5b99da2a79d273fb9316d1e5e753954eb1",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S16.md": "3914f93af153e8fb9bf923cadfb65f08b2f6732817b0f60e7aadc0c632e0b796",
+    "scripts/s16_analyze.py": "b23a0377025c34801ff5c8dca7cdf7a2797c3d79778cd3a9f3c06eaff14a9dd1",
+    "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+    "scripts/s16_independent.py": "c4cb31b05220c4f75ac93058a660e65ef627a4e1d281d041d761d8325c28fca6",
+    "scripts/test_s16.py": "74e48ae9c0e58af0dc398a06022700b323f7d4de2cec457c51ae5f11cf2f1007",
+    "scripts/s16_economics.py": "d25b811419db5f611edd2e1b7f02e194e3f23fbff67c818098c5af03f7ecb8a1",
+    "scripts/s16_request_audit.py": "afd44736fdc2b0e5cab390d88b0bf1bf5a09d2e1147bf7bee1f41ba949b336a9",
+    "scripts/s16_launch.py": "dc1e2b2d659037eb044ab6806ea703715a1788daf1e14de5f0261f6feff26218",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-24T20:15:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "73fe09d6f9917143d0d4190ced25d84d4adcba92"
+}

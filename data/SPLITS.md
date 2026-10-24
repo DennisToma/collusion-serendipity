@@ -27,5 +27,10 @@ claim and no pooling with Cournot pilots. Any confirmation needs fresh registere
 seeds. Pair identity is seeded; API sampling draws are not experimentally seeded.
 
 S16: five fresh time-matched blocks24240..24244; ten exploratory procurement games,
-self versus shared notes. All seed/arm/window/rule choices frozen before calls;
+self versus shared notes. All seed/arm/window/rule choices frozen in73fe09d before calls;
 zero tuning, no held-out claim, no pooling with S14. Confirmation needs fresh seeds.
+
+S16 archival outcome: strict-output failure after4 complete games and2 partial
+prefixes,4 unstarted. No primary/test metric computed, no selected-completer
+analysis, and no replacement or pooling. This is an operationally failed pilot;
+its originally registered ten-game target/split is preserved.

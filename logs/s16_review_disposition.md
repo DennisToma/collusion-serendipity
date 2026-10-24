@@ -30,4 +30,30 @@ resume/independent270 cells,27 bootstrap,9 t,32 signs and saved-snapshot audit P
 Full repository suite run before final freeze; see STATUS. No live game or partial
 outcome inspected during these changes.
 
-Final claim reviews: not yet requested; outcome generation pending.
+Live generation failed prospectively at19:48UTC: the shared-arm firmC in
+seed24242/round3 rejected three times for reasoning47/44/46 words. No scientific
+contrast was inspected, no replacement/relaxation or selected-subset analysis.
+Four completed games and two partial cached histories retained; four unstarted.
+Postfailure audit independently reconstructs all173 response-validity decisions,
+public histories and116 note snapshots; exact source replay uses all173 keys,
+reproduces the fatal three attempts and partner-abort prefix, and matches all four
+complete games/metadata.163 accepted responses,10 reasoning-length rejections.
+Registered complete-dataset analysis and live resume stay blocked.16 scientific
+source hashes remain unchanged; postfailure audit/presentation/release sources
+are supplementary and written after the operational failure, without a market
+contrast estimate.13 S16 success/failure integrity tests PASS.
+
+Final claim reviews: now requested on the failure report, not scientific effects.
+
+Final Opus critic exit0; read supplied code/counts only, without raw-file/shell
+access. Its arithmetic matches173/163/10 and all per-run counts. Accepted:
+(1) extended rejection details to check bid and note validity independently of
+reasoning-length first-error precedence; all10 pass those fields;
+(2) scientific verdict remains null/unclassified; ODD is explicitly postfailure
+administrative PLAN queue bookkeeping only;
+(3) fatalC is a member of pairB/C and all rejection counts now split by arm/role,
+without rates or attribution;
+(4) registration evidence described as client-observed remote HEAD;
+(5) clean-clone check explicitly pending until results commit, never claimed done.
+These are supplementary audit/report fixes; all16 scientific sources and the
+failed original protocol remain unchanged. Codex final review still running.

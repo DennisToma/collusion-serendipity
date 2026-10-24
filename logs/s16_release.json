@@ -1,0 +1,17 @@
+{
+  "status": "failed pilot; no scientific effect estimate",
+  "all_key_cached_prefix_replay": true,
+  "independent_saved_history_snapshot_audit": true,
+  "scientific_sources_unchanged": true,
+  "source_count": 16,
+  "responses": 173,
+  "accepted_decisions": 163,
+  "rejected_responses": 10,
+  "complete_games": 4,
+  "failed_analysis_and_live_resume_blocked": true,
+  "retained_evidence_byte_identical": true,
+  "links_checked": 59,
+  "registration_commit": "73fe09d6f9917143d0d4190ced25d84d4adcba92",
+  "failure_result_sha256": "e2fcadfc05086d9f0e442602d7b5f8dfffa3efad98da556d603114c3ee9ccef8",
+  "postfailure_audit_source_sha256": "28bd8cd1571f3d6fb21b00d4b9920f6a5c56feabc1f6884d03e84ac6dae9d85a"
+}

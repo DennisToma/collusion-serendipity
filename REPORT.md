@@ -2,7 +2,7 @@
 
 2026-10-24 · Iteration 9 · **No hits promoted.** All pilots exploratory; zero tuning attempts.
 
-| Pilot | Result (descriptive 95% bootstrap bounds) | Verdict |
+| Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
 | S01 · C, price digits | 104 games scanned; primary on 32 luna / 15 deepseek channel games. Pair-minus-other-pairs prediction gain **+0.00175 [-0.00184, +0.00631]** / **+0.00899 [-0.04249, +0.05535]** squared price units. | **DUD** for this screen |
 | S02 · A, Cournot quantities | 6 games, 3 seed blocks. Pair output r4–12: none **5.870**, private **5.389**; difference **-0.481 [-1.222, +0.000]** units/firm. | **ODD**, inconclusive |
@@ -13,7 +13,9 @@
 | S11 · D, delayed feedback | 10 no-message calculator games / 5 time-matched pairs. Mean consecutive output change r4–12: immediate **2.430**, delayed **1.526**; reduction **+0.904 [-0.089, +1.815]**. | **ODD** for timing screen |
 | S06 · own, denomination | 10 games / 5 time-matched pairs. Mean quantity r4–12: UNIT **5.963**, CENT **5.696**; difference **-0.267 [-0.519, -0.022]**. | **ODD** for invariance screen |
 | S14 · A1, procurement auction | 10 games / 5 time-matched pairs. Buyer payment r4–12: none **8.778**, private **11.111**; difference **+2.333 [-5.600, +9.733]**. | **ODD** for payment screen |
-| S16 · C2, notes-file channel | Registered: 10 fresh games / 5 paired blocks; shared partner notes versus self-only notes. [Design](DESIGN_S16.md); no live outcomes yet. | **PENDING** |
+| S16 · C2, notes-file channel | Aborted under frozen strict-output rule: 4/10 games complete; 173 responses, 10 overlong-reasoning rejections. No effect estimated. | **FAILED / unclassified** |
+
+**S16:** Same pair/writing cues and own-note persistence in both arms; shared adds partner access. Three consecutive >40-word reasoning outputs triggered the registered abort. All173 cached requests replay exactly; incomplete-data analysis and live restart are blocked. No replacement or selected-subset estimate. [Failure evidence and protocol figure](results/s16_summary.md).
 
 **S14:** payment t95% **[-10.574, +15.240]**, upper sign-flip **p=0.37500**. Pair-profit **+0.800**, outsider-profit **+1.533** (secondary, unresolved). Opposite large block contrasts; high paths begin before incoming messages in either arm. Third bidder is uninformed about the box. Static pure-Nash payments {6,7}; divisible ties, bundled role/prompt cues, unverified agreements. [All outcomes and figure](results/s14_summary.md).
 
@@ -24,6 +26,6 @@
 Earlier Cournot markets have three firms, integer output, P=max(0,30-total output), cost6; symmetric static Nash q6, P12, profit36. S09 has only six new rounds per continuation; source prefix is context. No verified agreement/execution labels; quantity, message influence and profitable coordination are distinct. Tiny samples, exploratory selection, multiple pilots and shared-backend interference limit inference. Model labels are client metadata; sampling/temperature and OS isolation are not independently attested. No sibling headline change.
 
 [Design S01/S02](DESIGN.md) · [S03](DESIGN_S03.md) · [S04](DESIGN_S04.md) · [S07](DESIGN_S07.md) · [S09](DESIGN_S09.md) · [S11](DESIGN_S11.md) · [S06](DESIGN_S06.md) · [Reproduce](README.md).
-**Next:** Choose a different axis after S14; keep checkpoint artifacts current. No secondary-driven promotion.
+**Next:** Different axis after C2; preregister a less brittle reasoning-output contract on fresh seeds. Favor workplace/labour settings. No secondary-driven promotion.
 
 [S14 release](logs/s14_release.json) · [Independent reconstruction](logs/s14_independent.json) · [Review dispositions](logs/s14_review_disposition.md) · [S06 verification](logs/s06_release.json).

@@ -323,30 +323,32 @@ stays available. For offline smoke checks, use a separate directory with
 `uv run python -m sim.tender --dry --out /var/tmp/s14_offline`, then
 `uv run python scripts/s14_analyze.py --data /var/tmp/s14_offline --allow-dry --out /var/tmp/s14_offline/result.json`.
 
-### S16 delayed notes-file access (C2)
+### S16 delayed notes-file access (C2), failed protocol
 
-Ten fresh procurement games compare author-only notes with shared partner notes.
-Both arms name the pair and preserve own notes. The harness implements logical
-JSON appends/next-round snapshots; no external filesystem tool is exposed.
-[Design](DESIGN_S16.md); exploratory, zero tuning, no pooling with S14.
+Ten planned procurement games compare author-only with shared notes, naming the
+same pair and retaining own notes in both arms. The harness uses logical JSON
+appends/snapshots; no external filesystem tool. The registered strict parser
+aborted at three consecutive overlong-reasoning responses. Four games complete,
+two started/aborted, four unstarted; no market effect is estimated and no games
+are replaced. [Design](DESIGN_S16.md) · [Failure evidence](results/s16_summary.md).
 
 ```bash
-TMPDIR=/var/tmp uv run python scripts/s16_launch.py # first launch after source freeze/push
-TMPDIR=/var/tmp uv run python -m sim.notes          # completed archive: cache-only
-uv run python scripts/s16_analyze.py
-uv run python scripts/s16_independent.py
-uv run python scripts/s16_request_audit.py
-uv run python scripts/s16_economics.py
-uv run python scripts/s16_present.py
-uv run python scripts/s16_release.py
-uv run python -m unittest scripts.test_s16 -v
-uv run python scripts/s16_release.py --clean-clone # after results commit
+uv run python scripts/s16_failure_audit.py  # exact cache-only full/prefix replay
+uv run python scripts/s16_present.py        # failure summary + protocol figure
+uv run python scripts/s16_release.py        # verifies failed archive, no effects
+uv run python -m unittest scripts.test_s16 scripts.test_s16_failure -v
+uv run python scripts/s16_release.py --clean-clone # after committing all artifacts
 ```
 
-New logical calls forbidden at/after20:15UTC Oct24; transport retries may finish
-later. Interrupted invocation/terminal failure cannot restart with live redraws.
-Full exact-request replay, source/registration/payoff/export/chronology checks
-and independent arithmetic/snapshot checks precede publication. Dry pipeline:
+The archived generator and complete-dataset analyzer intentionally refuse this
+failed invocation. All173 requests/responses and four completed games are retained;
+there is no complete scientific result/export. Frozen source hashes and registration
+are unchanged. The postfailure auditor independently reconstructs response validity,
+completed public histories and accessible notes from cached prefixes, without
+estimating any treatment contrast or making new model calls.
+
+Synthetic successful-protocol reproduction still works with a fresh scratch path:
 `uv run python -m sim.notes --dry --out /var/tmp/s16_offline`, then
 `uv run python scripts/s16_analyze.py --data /var/tmp/s16_offline --allow-dry
---out /var/tmp/s16_offline/result.json`. Use a fresh directory after code changes.
+--out /var/tmp/s16_offline/result.json`. It cannot overwrite the failed live archive.
+Any new live pilot needs a new registered output contract and fresh seeds.

@@ -15,6 +15,9 @@ def ti(s):return f"[{s['paired_t_ci95'][0]:+.3f}, {s['paired_t_ci95'][1]:+.3f}]"
 
 
 def main():
+    if Path('results/s16_failure.json').exists():
+        from scripts.s16_failure_present import main as failure_main
+        return failure_main()
     r=json.loads(Path('results/s16_tender.json').read_text());assert not r['dry']
     m=r['metrics'];p=m['payment'];s=p['paired_difference'];arms=['self','shared']
     games=[json.loads(f.read_text()) for f in sorted(Path('data/s16_tender').glob('game_*.json'))];assert len(games)==10
