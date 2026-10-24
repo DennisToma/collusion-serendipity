@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "utc": "2026-10-24T23:21:20.265629+00:00",
+  "commit": "442b6692340e11068618699b16f2a5387d02dc72",
+  "observed_remote_main": "442b6692340e11068618699b16f2a5387d02dc72",
+  "clone_source": "origin remote URL",
+  "full_history": true,
+  "dependency_environment": "Reused installed frozen venv,not a separate installation",
+  "commands": [
+    [
+      "scripts/s28_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s28",
+      "scripts.test_s28_companion"
+    ],
+    [
+      "scripts/s28_independent.py"
+    ],
+    [
+      "scripts/s28_present.py"
+    ],
+    [
+      "scripts/s28_companion.py"
+    ],
+    [
+      "scripts/s21_release.py"
+    ]
+  ],
+  "protocol_and_companion_checks": 18,
+  "scientific_result_and_source_unchanged": true,
+  "byte_identical_artifacts": {
+    "results/s28_payoff.json": "c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3",
+    "results/s28_summary.md": "e543f176414e17ca77aedd467b14a00fc8321017a33955123df42ca9b3cfaa01",
+    "figures/s28_payoff.png": "4f333286b93344af7408bc904dd29b90013cbf9e41cf6de2bfc03ff29b351be4",
+    "REPORT.md": "43746e90a92253e032eca578e80549771ee1d3cb5e5e03a606ab26757883ca7d",
+    "logs/s28_independent.json": "17d9bdf09343653592ecb702541ac1a00e0dba176e747321a624fd93c62e39b0",
+    "logs/s28_companion.json": "36414fd357e3d77b00787dd22c800f52d090645b08298fbfb613099554e9d936",
+    "logs/s28_release.json": "58108cab0e670c2fffa1b96859086b672f93f46eb8f4ba66ab899daeac7a75e6"
+  },
+  "clone_git_status_clean": true
+}

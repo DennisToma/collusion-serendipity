@@ -1,19 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T23:16:04.146437+00:00; Phase2, iteration18 RELEASE READY)
+## Current state (2026-10-24T23:22:00.188606+00:00; Phase2, iteration18 COMPLETE)
 - S28 own:ten fresh two-person shared-note games/five blocks;200valid decisions.
 - Partner Y approvals prose7/40,table3/40;prose-minus-table+.100[-.050,.275].
 - Paired t[-.155033,.355033],upperp.25;frozen ODD,no HIT.
 - Two positive blocks/one negative/two ties;magnitude/sign screen unmet.
-- X approvals40/40each;bonus+.4 and organization loss+1.0 mechanical.
 - Zero retries/failures;200-key replay/18 sources/registration/timing/exports PASS.
 - Independent50cells/15bootstrap+t summaries/sign sets/allhistories/notes PASS.
-- Metadata/100prompt companion PASS;full245tests PASS.
-- Both final critics confirm;Codex raw arithmetic preceded later Opus-text read.
-- All18 scientific sources FROZEN;result SHAc89482ea unchanged.
-- No tuning,pooling,secondary/reverse promotion,HIT or sibling writes.
-- Next:fresh A world after own;S30 input-order proposal unrun.
-- Risks:n5,bundled repetition/format/detail,uncontrolled draws,tool non-use unverified.
+- Metadata/100prompt companion/mutation checks PASS;no frozen-source edits.
+- Full245tests PASS;remote18checks/seven artifacts byte-identical,clone clean.
+- Both final critics confirm;Codex raw arithmetic then read Opus supplied-text review.
+- Source58fc296/results442b669 pushed;scientific SHAc89482ea unchanged.
+- No tuning,pooling,secondary/reverse promotion,HIT,sibling writes or active run/review.
+- Next:fresh A world;S30 input-order proposal unrun. Risks:n5,bundled detail/format,tool non-use unverified.
 
 ## Log
 
@@ -246,3 +245,5 @@
 - 2026-10-24T23:20:11.112636+00:00: S28 final Codex/Opus critics exit0 and confirm all primary numbers/ODD. Codex raw-reconstructs50cells/all15bootstrap+t summaries/five complete sign sets (three tails),200histories/notes and full source/replay/registration gates;nine selected tests PASS. Opus hand-reconstructs supplied per-game counts/statistics without shell/raw cache. Codex raw arithmetic precedes its later reading of Opus final output;final narratives not fully blinded. Added separate post-outcome companion for correct-but-unbound top-level route/bonus metadata and100 actual prompt contracts;200raw records/10initial user pairs/bonus2/5 PASS,two mutation regressions PASS. No frozen scientific source or canonical SHAc89482ea change. Full suite rerun with companion tests pending;publication/remote clone next.
 
 - 2026-10-24T23:20:52.336217+00:00: S28 post-companion full245-test repository suite PASS with14 scoped historical S21 synthetic cutoff overrides;actual S21 original archive separately verified. Canonical scientific SHAc89482ea and all18 frozen source hashes unchanged. Both final critics fully disposed;figure and companion scope manager-only. Final byte regeneration,results commit/push and remote-origin clean clone follow;no scientific calls,new outcome,source mutation,tuning,pooling,HIT or sibling writes.
+
+- 2026-10-24T23:22:00.188606+00:00: iteration18 COMPLETE. S28 registration58fc296d326c944c631902a94aa489281e6dc904 and results442b6692340e11068618699b16f2a5387d02dc72 committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes complete cache-only release,18 protocol/companion checks,independent raw reconstruction,100 actual paired prompt contracts/all200 route metadata/bonus-field bindings and real S21 original-cutoff release. Seven artifacts regenerate byte-for-byte(scientific result,summary,figure,REPORT,independent/companion/release receipts);clone git status clean. logs/s28_remote_clean_clone.json records exact commit/commands/hashes and explicit installed frozen-environment reuse. Full245-test repository suite PASS with14 scoped historical S21 synthetic clock overrides;actual S21 archive unchanged/PASS. Both final critic dispositions complete;Codex independently raw-reconstructed before later reading Opus final text,so final narratives not fully blinded;Opus supplied-text-only scope explicit. All18 frozen sources and scientific SHAc89482ea unchanged;200responses,zero retries/failures. Ledger result reference points to results commit. REPORT/all-pilot table,HITS,README/DETAILS current;no HIT or arithmetic-mechanism claim. No extra scientific call,second pilot,new metric,semantic classifier,exclusion,tuning,subgroup/reverse/secondary promotion,pooling,sibling write,direction deviation or active generation/review process. Next fresh A world after own;S30 input-key ordering proposal remains unrun and S29 independent confirmation only suggested.

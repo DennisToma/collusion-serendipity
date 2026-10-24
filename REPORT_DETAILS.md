@@ -570,7 +570,7 @@ checks PASS;independent50 raw metric cells,15 bootstrap/t summaries,15 sign
 sets,200 request histories/snapshots and200 accepted notes/reasons including20
 final outputs PASS. Figure inspected. Canonical scientific SHA256
 `c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3`. Final critic dispositions and clean remote-clone
-reproduction will be recorded in the release logs once completed. No new calls,
+reproduction are recorded in the release logs. No new calls,
 exclusions,pooling,tuning,agreement labels or sibling writes.
 
 Final reviews both returned exit0 and confirmed ODD;Codex raw arithmetic preceded
@@ -580,4 +580,8 @@ post-outcome metadata/prompt [companion](scripts/s28_companion.py) binds200 raw
 route records,100 actual paired prompt contracts and the redundant bonus field;
 two mutation regressions PASS. Full repository245 tests PASS after this addition;
 all18 frozen sources and scientific result remain unchanged. Companion checks,
-figure inspection and full suite are manager validation. Publication/clone follows.
+figure inspection and full suite are manager validation. Results442b669 are pushed.
+A fresh origin-remote full-history clone passes18 protocol/companion checks,
+all offline release/replay checks and seven byte-identical artifact regenerations.
+The clone reuses the installed frozen environment,not a separate installation.
+[Remote reproduction receipt](logs/s28_remote_clean_clone.json).

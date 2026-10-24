@@ -684,3 +684,9 @@ scientific sources/result are unchanged;this companion is manager-validated
 and was outside the final critics' fixed input set. Codex reconstructed raw
 arithmetic before later reading Opus's supplied-text review;their final texts
 are not fully blinded. [Dispositions](logs/s28_review_disposition.md).
+
+A fresh full-history origin-remote clone of results442b669 passed the cache-only
+release,18 protocol/companion checks and real S21 original-cutoff release. Seven
+core/companion artifacts regenerate byte-for-byte;clone status is clean. Receipt:
+logs/s28_remote_clean_clone.json. The clone reused the installed frozen environment,
+not a separate dependency installation.
