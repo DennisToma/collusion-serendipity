@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T04:39:12.307314+00:00; Phase2, iteration31 VERIFIED)
+## Current state (2026-10-25T04:42:13.348653+00:00; Phase2, iteration31 COMPLETE)
 - A5/S45:10fresh games/5paired blocks,T10,200valid decisions,zero retries/failures.
 - Unsupported recommendations:self1/40,shared0/40;difference−.025[−.075,0].
 - Pairedt[−.094411,.044411],upperp1;frozen DUD,no HIT or coordination claim.
-- Primary differences0,0,0,0,−.125;near-floor baseline explicit.
+- Primary differences0,0,0,0,−.125;near-floor/single-block support explicit.
 - Full archive replay/separate50cells/15bootstrap+t/15sign sets/200bindings PASS.
 - Post-live509canonical tests and both final critics/parent exit0;scope explicit.
-- Supplemental metadata checker rejects12mutations;post-outcome exact-text census1case.
-- Call-forbidden regeneration:12artifacts byte-identical,20sources/20archivefiles unchanged.
-- ScientificSHA1e17c9b976a0;reports/HITS/README current;results milestone push next.
+- Codex raw/source scope;Opus supplied-cell/text-only scope,not raw audit.
+- Registrationbdaca24/resultsfbea8a5 pushed;fresh full-history origin clone PASS.
+- Twelve artifacts byte-identical,clone clean;21protocol tests/12metadata mutations PASS.
+- Existing frozen venv reused;20sources/20archivefiles unchanged,scientificSHA1e17c9b976a0.
+- Post-outcome exact-text census1case;no intent,error,agreement or mechanism label.
 - Risks:n5,bundled delivery,dependent outcomes,flush-only failure diagnostics,provider unverified.
-- Next:results push,fresh full-history origin clone,final receipt/handoff commit.
+- Next:fresh different axis;S46/S44/S39queued,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -450,3 +452,5 @@
 - 2026-10-25T04:36:54.827653+00:00: both final critics and parent exit0;DUD and all primary numbers confirmed. Codex independently reconstructs raw200bindings/all15summaries/source/registration;Opus supplied-game-cell/text-only scope explicit. Durable post-live509canonical tests childexit0;actual figure inspected. Added post-outcome exact-text census and supplemental metadata audit for verifier coverage;no frozen source or result edits. Failure-log flush-only durability and near-floor/single-primary-block context explicit;no effect-absence,mechanism or coordination inference. All20sources/20archivefiles/canonicalSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec unchanged. Final call-forbidden regeneration,results push and origin-clone check next.
 
 - 2026-10-25T04:39:12.307314+00:00: final call-forbidden regeneration PASS:12scientific/presentation artifacts byte-identical;all20registered sources/20archivefiles unchanged,scientificSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec. Repeated one-shot publisher rejects before any write. Supplemental post-outcome metadata audit rejects all12synthetic corruptions and leaves result unchanged. Local model-call-forbidden release checks all local links;post-live509tests and both finalcritics/parent exit0. Final scope/durability/metadata coverage dispositions recorded. No active generation/review,new scientific calls,frozen-source/threshold edits,tuning,pooling,exclusions,secondary/reverse promotion,HIT or sibling writes. Results milestone commit/push then fresh origin clone next.
+
+- 2026-10-25T04:42:13.348653+00:00: iteration31 COMPLETE. S45 registrationbdaca249 (fullSHA in config/ledger)/resultsfbea8a5f371cebdbf0fefada91f1492b5b00b23e pushed. Fresh full-history ORIGIN clone at results commit passes full frozen archive/source/registration/environment/UTC/per-call-wrapper-overlap/prompt/export replay,separate50rawcells/15exactbootstrap+t/15sign sets/200bindings,summary/figure regeneration,post-outcome action/text census,supplemental metadata12mutation checks,model-call-forbidden release and all21protocol tests. Twelve artifacts byte-identical;clone git status clean,remote childexit0. Existing installed frozen venv reused,not fresh dependency installation;logs/s45_remote_clean_clone.json records exact commands/bootstrap/hashes. Local509post-live tests and both final critics/parent exit0;Codex raw/full-archive versus Opus supplied-cell/text-only scope explicit. FrozenDUD:self1/40,shared0/40,delta−.025[−.075,0],pairedt[−.09441112763,.04441112763],upperp1/lowerp.5/two-sidedp1;four ties/one−.125primary block. Near-floor baseline,no effect-absence,equivalence,mechanism,agreement or coordination claim. All20scientific sources/20archivefiles/resultSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec unchanged. Supplemental post-outcome publication/census/metadata/clone-orchestration scripts do not alter frozen science. Failure diagnostics flush-only durability disclosed;no transport failure here. Ledger result/context references finalized;REPORT/HITS/DETAILS/README current. Next fresh different axis;S46/S44/S39proposals only,S32unconfirmed,S30unrun. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,secondary/reverse promotion,HIT,sibling writes,direction deviation or active generation/review. Final receipt/handoff commit and push next.

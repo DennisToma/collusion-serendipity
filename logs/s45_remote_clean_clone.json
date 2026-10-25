@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-25T04:41:29.389037+00:00",
+  "tested_results_commit": "fbea8a5f371cebdbf0fefada91f1492b5b00b23e",
+  "observed_origin_head": "fbea8a5f371cebdbf0fefada91f1492b5b00b23e",
+  "full_history_origin_clone": true,
+  "scientific_calls_forbidden": true,
+  "dependency_environment": "Existing installed frozen venv reused;not a fresh dependency installation",
+  "commands": [
+    [
+      "scripts/s45_analyze.py"
+    ],
+    [
+      "scripts/s45_independent.py"
+    ],
+    [
+      "scripts/s45_present.py"
+    ],
+    [
+      "scripts/s45_action_text.py"
+    ],
+    [
+      "scripts/s45_metadata_check.py",
+      "--self-test"
+    ],
+    [
+      "scripts/s45_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s45"
+    ]
+  ],
+  "bootstrap_code": "import runpy,sys\nfrom unittest.mock import patch\nargs=sys.argv[1:]\nwith patch('llm.chat',side_effect=AssertionError('Origin check forbids scientific calls')):\n if args[0]=='-m':\n  sys.argv=[args[1],*args[2:]];runpy.run_module(args[1],run_name='__main__')\n else:\n  sys.argv=args;runpy.run_path(args[0],run_name='__main__')\n",
+  "byte_identical_artifacts": {
+    "results/s45_reviewring.json": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec",
+    "results/s45_summary.md": "48d445c3b90c4d12b3d0dcfea31b4502b0b91cf0ceeb656ea0eabfdd6251f25c",
+    "results/s45_action_text.json": "86202f2be1e7bce3c7274a87e5fabd815326479d00d23142c66936196e0b7596",
+    "results/s45_action_text.md": "10a28c2bdf26fd78db4ee0db119ce18f7cab96b4b3e7b0741066cc5e7217910f",
+    "logs/s45_independent.json": "850016c4ea6f758a763be4d65c68ca69fa11892bc0c16c3e3303cfc68228305e",
+    "logs/s45_metadata_check.json": "bb8b591b9425626ca9fd50f566e465fb937e57c185639e3f08e6e487f05f957f",
+    "logs/s45_release.json": "7a07211e83de4c595cc6dc17f9a208b7061461c0784f9861d5ea220a38985252",
+    "figures/s45_reviewring.png": "444160807df40210256d57229999a5094fc41475fbb1bc56dfee5498d574109d",
+    "REPORT.md": "25c88ff86cf7d1b2ddcd3420bd8fe10a8ec0cc9934dacfeda066929cd4dc97ee",
+    "HITS.md": "851de14bf0d0a9fb93dcef01667dde4bf5273fbbf8250e02949949f0b47f3419",
+    "README.md": "c4e3857d33d410b020455ec85a7bde7cbe599aa1556ea63f29b921987a553a0d",
+    "REPORT_DETAILS.md": "57544c4c86a2adc3b5605042a2f4ba5aa388da867a98cf3ab6c27c480188ef59"
+  },
+  "registered_sources_unchanged": 20,
+  "archive_files_unchanged": 20,
+  "scoped_tests": 21,
+  "supplemental_metadata_negative_checks": 12,
+  "clone_git_status_clean": true,
+  "scientific_result_sha256": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec"
+}

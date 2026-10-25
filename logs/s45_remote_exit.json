@@ -1,0 +1,6 @@
+{
+  "observed_utc": "2026-10-25T04:42:13.348653+00:00",
+  "child_exit_code": 0,
+  "tested_results_commit": "fbea8a5f371cebdbf0fefada91f1492b5b00b23e",
+  "scope": "Local full-history origin-clone process exit;not remote/provider-time attestation"
+}
