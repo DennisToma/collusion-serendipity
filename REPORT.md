@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 33 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 34 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -75,3 +75,5 @@ Only the paired contrast sign-flip is a registered hypothesis; arm-level sign-fl
 **S48:** immediate TYPE-Y review after partner-note deletion. Retain 4/10, erase 4/10; paired t95% [-0.439, +0.439], inclusive upper sign-flip p=0.75000. Five source-block differences [0.5, 0.0, -0.5, 0.0, 0.0]. Retain is the exact archived prompt; erase removes only partner records. Own notes and public history preserve indirect communication, so this is no mediation or long-run channel estimate. Observed histories, uncontrolled fresh draws and n5 limit transfer. DUD is triggered by the mean≤.05 rule; the bounds include the .25 directional target, so they do not exclude that effect. Source S29 CLI inputs were not fingerprinted. [All cases, methods and figure](results/s48_summary.md).
 Only the paired contrast is the registered hypothesis; generic arm-level sign-flip fields test against zero and carry no deletion-effect claim.
 <!-- S48 summary end -->
+
+**In progress:** S47 tests JSON syntax-example rate0 versus20 with otherwise identical prompts and payoff tables. Registered two-unit directional focal-offer screen;scientific outcomes pending.

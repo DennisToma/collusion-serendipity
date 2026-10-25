@@ -150,3 +150,5 @@ review opportunity;five sourceblocks24480..24484. Twenty fresh retain/partner-on
 erase decisions;zero newgames,tuning,heldout,pooling or mediation claim. Exogenous
 status selection never uses actions or text;archived actions are context only.
 Full source/case manifest pushed before live calls.
+
+S47:ten observed S42round10contexts/five sourceblocks24920..24924,first incumbent,both source arms;same selection as S43/S44. Twenty fresh syntax-example rate0/rate20 decisions;exploratory,zero tuning,no heldout/pooling. Archived actions context only;full source/case/config committed before calls.

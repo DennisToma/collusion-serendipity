@@ -1189,3 +1189,24 @@ forbids model calls and checks raw replay plus byte-identical scientific/present
 artifacts. The full-history origin clone reuses the installed frozen dependency
 venv; it does not test a fresh installation. S29 CLI inputs were not fingerprinted,
 so equality of source and replay runtime cannot be established.
+
+### S47 — JSON syntax-example values
+
+Twenty fresh focal offers at ten observed S42 histories,example rate0 versus20;
+identical ascending payoff table and explicit non-recommendation warning.
+No new games,tuning,pooling or realized-worker-pay claim.
+[Design](DESIGN_S47.md). Registered before scientific calls.
+
+```bash
+uv run --frozen python scripts/s47_replay.py --analyze
+uv run --frozen python scripts/s47_independent.py
+uv run --frozen python scripts/s47_present.py
+uv run --frozen python scripts/s47_release.py
+uv run --frozen python -m unittest scripts.test_s47
+uv run --frozen python scripts/s47_release.py --clean-clone
+```
+
+Reproduction needs the frozen results checkout including committed launch receipt
+and the existing dependency environment. A remote clone reuses installed frozen
+dependencies;it is not a fresh package-install test. Later edits to frozen
+scientific sources correctly reject reanalysis outside the frozen checkout.

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "raw_quotes": 20,
+  "case_prompt_bindings": 20,
+  "block_cells": 15,
+  "bootstrap_draws_per_summary": 3125,
+  "summaries": 3,
+  "sign_flips_per_summary": 32,
+  "result_sha256": "d563a9e441d5e81ed98d4a9cf0b27b274ad57a9b2cb1c68deb19543837bfd24c"
+}
