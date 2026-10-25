@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "commit": "eaaafac9cb3df12abbd1bc30e3c378e420792c88",
+  "clone_source": "origin",
+  "full_history": true,
+  "clone_clean": true,
+  "commands": [
+    [
+      "scripts/s64_release_final.py"
+    ],
+    [
+      "scripts/s64_tests.py"
+    ],
+    [
+      "scripts/s64_independent.py"
+    ]
+  ],
+  "focused_tests": 17,
+  "dependency_environment": "Existing frozen installed venv; not a fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s64_memory_retention.json": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+    "results/s64_summary.md": "198879dd89f838cce41eda828169e8217ea21ae8b6e1e7ae75f273cb6a59abc2",
+    "figures/s64_memory.png": "5c289a28a4dbb40fa4c44c538286b9e96f28a9a3a2ae6c464cbdb85ced502693",
+    "results/s64_action_text.json": "b09d5d610cb999f79868ef1f5b86f41e24c213ff0ee558e179ddd62906bd520c",
+    "results/s64_action_text.md": "f742ffab18e755e517ddc1ff2b495b1e047763a14db364d276c92180098e1222",
+    "logs/s64_independent.json": "a145ee4de55d8336e956e62cf335492e3096ab040d82d2cfe94b9a1694eb70d1",
+    "REPORT.md": "89924634b73e82b1bc6554370f0a9d418d5732254cf0d8971426602cdf27c861",
+    "REPORT_DETAILS.md": "1a7984013eb0f9f2245ed33f2dd60beeb7b0b85cbb8fe8e343371d6056b5192d",
+    "HITS.md": "d3ec8917ee5e834077139ea88111d62ca33fc083f467210965810bc55d56ae69",
+    "README.md": "539b45d28e48d2ad924333d317e9c5fb333cf06c6f2e5165309a74e8e9d1e0db",
+    "logs/s64_release_final.json": "5f7efac922255ee33536593e6a7942a635a0e1f0e01da2a618f29a6a2665a27b"
+  }
+}

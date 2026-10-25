@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T09:47:21.203329+00:00; Phase2, iteration46 RESULTS VERIFIED)
+## Current state (2026-10-25T09:49:03.122325+00:00; Phase2, iteration46 COMPLETE)
 - S64/F:10fresh games/5paired blocks;200accepted responses,zero retries/failures.
 - TYPE-Y approvals persistent5/40,reset0/40;gap+.125[+.050,+.200].
 - Pairedt[+.015251,+.234749];upperp.0625;blocks[0,.125,.125,.125,.25].
-- Frozen DUD via bootstrapupper.200<.25;no HIT or pure memory mechanism claim.
-- Full raw replay +separate50cells/15bootstrap+t/all32sign/200bindings PASS.
-- All21registered sources/result bytes/1334older science artifacts unchanged.
-- Corrected806canonical/17focused checks PASS;both final scientific critics PASS.
-- Codex raw/source replay;Opus supplied-text arithmetic scope;editorial critic PASS.
-- Corrected release:4rendered artifacts/4docs exact,10anchors/46rows/452links PASS.
-- Frozen publisher/test assumptions retained;3additive editorial helpers documented.
-- Registrationfa2e5c2pushed;REPORT47pilots;results push/originproof next.
-- Next different axis A/B/E;S63,S57,S52,S49queued only;no sibling headline change.
+- Frozen DUD via bootstrapupper.200<.25;no HIT,no pure reputation/reciprocity claim.
+- Full replay+separate200bindings/50cells/15bootstrap+t/all32signpatterns PASS.
+- Corrected806canonical/17focused PASS;both final scientific critics PASS.
+- Codex raw/source audit;Opus supplied-text arithmetic;editorial critic PASS.
+- Fresh origin eaaafac:11artifacts byte-identical,17focused tests,clone clean.
+- Corrected4docs/4renderedassets/10historicalanchors/46olderrows/452links PASS.
+- All21registered sources/raw/result bytes/1334older science artifacts unchanged.
+- Registrationfa2e5c2/results eaaafac pushed;REPORT47pilots;proof receipt saved.
+- Next fresh different-axis A/B/E;S63,S57,S52,S49queued only;no promoted HIT.
 - Risks:n5,multiplicity,bundled memory/length/emptiness cues,provider variability.
 
 ## Log
@@ -650,3 +650,5 @@
 - 2026-10-25T09:44:35.823972+00:00: Both final scientific critics exit0,PASS for DUD/all primary numbers. Codex raw200/50cells/15exactbootstrap+t/all32patterns/source21 versus Opus supplied-text arithmetic-only. Initial806postlive had5presentation/fixture failures:4lost historical anchors and1synthetic baseline assumption,zero scientific effect/replay errors. Added3post-outcome editorial/reproduction helpers outside frozen21sources;restored10anchors,all46rows,NextA/B/E;corrected entry points and explicit footer. Scoped17checks and corrected complete release PASS;all scientific bytes/result unchanged. Corrective publication critic and806canonical running;actual origin proof still pending. No extra experimental calls,games,tuning or sibling writes.
 
 - 2026-10-25T09:47:21.203329+00:00: Corrective publication critic exit0,PASS for corrected4docs/4renderedartifacts,452links,10anchors/46olderrows,fixture-scope probes and21source/result hashes. Final806canonical checks PASS(0failures/errors),scoped17checks PASS;original5failure receipt retained. All1334older scientific artifacts unchanged. No more source/presentation changes needed;scientific resultSHA0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9 unchanged. Results milestone commit/push then fresh11artifact/17check originclone with current corrected entry points. No further scientific calls or experiments.
+
+- 2026-10-25T09:49:03.122325+00:00: iteration46 COMPLETE. Registrationfa2e5c2b535966b16d23f5bfd4695d1625aaf9f5/scientific+document resultseaaafac9cb3df12abbd1bc30e3c378e420792c88 committed and pushed. Fresh full-history ORIGIN clone at exact resultscommit PASS:11scientific/presentation/document artifacts byte-identical,17scoped focused checks,full frozen main provenance/raw/export replay plus separate200accepted action-note-reason bindings,50metriccells,15exact bootstrap/t summaries and all32signpatterns;clone gitstatus clean. Receipt logs/s64_remote_clean_clone.json,output logs/s64_origin_clone_run.log;existing frozen installed venv reused,not fresh dependency install. Final806canonical suite PASS with existing legacy fixtures plus only one new S64 synthetic registration-document fixture;17scoped checks PASS. Both design/final scientific critics exit0(Codex raw/source/stat reconstruction versus compact Opus supplied-text arithmetic);initial full-context Opus timeout preserved. Corrective publication critic exit0,PASS. Frozen publisher removed historical anchors and synthetic test assumed pre-publication documents;initial5/806failures retained,corrected through3additive editorial/reproduction helpers outside21registered sources,no science retuning. New corrected entry scripts/s64_release_final.py and scripts/s64_tests.py documented in README/summary footer;10anchors/46priorrows/4complete docs/4rendered assets/452links PASS. First self-receipt-link/bootstrap and additive-helper import-path failures retained;resolved without scientific-source changes. Scientific200returned/accepted decisions,zero retries/failures/fences;no active generation/review. Persistent5/40 versus reset0/40 Yapprovals,contrast+.125[+.05,+.2],pairedt[.01525137086436465,.23474862913563535],upperp.0625/lowerp1/two-sidedp.125;blocks[0,.125,.125,.125,.25]. Frozen DUD via bootstrapupper.2<.25;positive descriptive intervals do not promote the frozen magnitude/sign screen. All21registered sources/complete raw archive/resultSHA0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9/1334older science artifacts unchanged;REPORT47pilots. No extra scientificcalls,newgames,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,sibling writes or DIRECTION deviation. No agreement,intent,collusion,equivalence or pure reputation/reciprocity mechanism claim. Next different-axisA/B/E;ownS63/S57/S52/S49remain queued. Closing proof/ledger handoff commit+push follows.

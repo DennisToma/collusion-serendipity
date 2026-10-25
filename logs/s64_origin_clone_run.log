@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "scientific_calls_forbidden": true,
+  "registered_sources_unchanged": 21,
+  "raw_archive_unchanged": true,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "identical_system_groups": 10,
+    "identical_initial_prompt_pairs": 10,
+    "rejections": {
+      "reset": 0,
+      "persistent": 0
+    },
+    "verdict": "DUD"
+  },
+  "publication": {
+    "passed": true,
+    "complete_documents_exact": 4,
+    "older_pilot_rows": 46,
+    "historical_anchors": 10,
+    "new_pilot_rows": 1
+  },
+  "rendered_sha256": {
+    "results/s64_summary.md": "198879dd89f838cce41eda828169e8217ea21ae8b6e1e7ae75f273cb6a59abc2",
+    "figures/s64_memory.png": "5c289a28a4dbb40fa4c44c538286b9e96f28a9a3a2ae6c464cbdb85ced502693",
+    "results/s64_action_text.json": "b09d5d610cb999f79868ef1f5b86f41e24c213ff0ee558e179ddd62906bd520c",
+    "results/s64_action_text.md": "f742ffab18e755e517ddc1ff2b495b1e047763a14db364d276c92180098e1222"
+  },
+  "local_links_checked": 452,
+  "result_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+  "correction_scope": "Post-outcome editorial/reproduction only; no model calls, source-manifest edits or endpoint/statistic/verdict changes"
+}
+.................
+----------------------------------------------------------------------
+Ran 17 tests in 2.391s
+
+OK
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "raw_auxiliary_bindings": 200,
+  "identical_system_groups": 10,
+  "identical_initial_prompt_pairs": 10,
+  "rejections": {
+    "reset": 0,
+    "persistent": 0
+  },
+  "verdict": "DUD"
+}
+PASS origin clone eaaafac9cb3df12abbd1bc30e3c378e420792c88
