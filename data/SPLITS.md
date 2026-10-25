@@ -142,3 +142,5 @@ self/shared notepads,T10,primaryr3..10,200planned decisions. Unsupported
 recommendation primary,.25directional screen;exploratory,zero tuning,no heldout,
 pooling or cross-world confirmatory contrast. Design and full source freeze
 committed/pushed before scientific calls. S46is a queued idea only.
+
+S44:ten observed S42round10contexts/5sourceblocks24920..24924,same selection as S43;20fresh ascending/descending-table decisions. Exploratory,zero tuning,no heldout or pooled claim. Original actions context only;no newgames. Full design/source/case manifest registered before calls.

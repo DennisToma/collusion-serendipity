@@ -1,0 +1,30 @@
+"""Two independent bounded critics, preserving unavailability honestly."""
+import argparse
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+import sys
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from scripts.s16_reviews import run_bounded
+
+
+def main():
+    p=argparse.ArgumentParser();p.add_argument('stage',choices=['design','final']);p.add_argument('--suffix',default='');a=p.parse_args()
+    files=['DESIGN_S44.md','scripts/s44_replay.py','scripts/s44_independent.py','scripts/s44_present.py','scripts/s44_release.py','scripts/test_s44.py','scripts/s37_runtime.py','llm.py']
+    if a.stage=='final':files+=['results/s44_payoff.json','results/s44_summary.md','REPORT.md','logs/s44_independent.json','data/s44_payoff/config.json']
+    instruction=('Independent adversarial research review S44 ONLY, no edits or paid calls. Check causal scope, source-case selection, intervention isolation, correct unit(focal offer not worker payment), ascending versus descending rows only, identical header and exact rival-round9 counterfactual payoff table without a recommendation, failure/cache/source/registration integrity, schedule and arithmetic. Earlier pilots out of scope. State concrete remaining bugs and acknowledged limits separately. Within500words, finish promptly. ')
+    if a.stage=='final':instruction+='Independently reconstruct primary from20raw responses,15blockcells,3125bootstrap and32signflip enumerations. Do not read other critic reviews. '
+    def codex():
+        path=Path(f'logs/s44_{a.stage}_codex{a.suffix}.md')
+        rc=run_bounded(['codex','exec','--skip-git-repo-check','-s','read-only','-C',str(Path.cwd()),'-m','gpt-6.1-sol','-c','model_reasoning_effort=high','-o',str(path.resolve()),instruction+'Read '+', '.join(files)],f'/var/tmp/s44_{a.stage}_codex{a.suffix}_cli.log')
+        if rc or not path.exists():path.write_text(f'UNAVAILABLE Codex exit{rc};CLI log retained in /var/tmp.\n')
+        print(f'codex {a.stage} exit{rc}',flush=True)
+    def opus():
+        path=Path(f'logs/s44_{a.stage}_opus{a.suffix}.md')
+        context='\n\n'.join(f'FILE {f}\n{Path(f).read_text()}' for f in files)
+        rc=run_bounded(['claude','-p','--model','claude-opus-5-5','--output-format','text','--tools',''],path,instruction+'Supplied-text-only review;raw archive unavailable. '+context)
+        if rc:
+            with path.open('a') as out:out.write(f'\nUNAVAILABLE Opus exit{rc}.\n')
+        print(f'opus {a.stage} exit{rc}',flush=True)
+    with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(lambda f:f(),[codex,opus]))
+
+if __name__=='__main__':main()

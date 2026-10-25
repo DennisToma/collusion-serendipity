@@ -1,19 +1,14 @@
 # STATUS
 
-## Current state (2026-10-25T04:42:13.348653+00:00; Phase2, iteration31 COMPLETE)
-- A5/S45:10fresh games/5paired blocks,T10,200valid decisions,zero retries/failures.
-- Unsupported recommendations:self1/40,shared0/40;difference−.025[−.075,0].
-- Pairedt[−.094411,.044411],upperp1;frozen DUD,no HIT or coordination claim.
-- Primary differences0,0,0,0,−.125;near-floor/single-block support explicit.
-- Full archive replay/separate50cells/15bootstrap+t/15sign sets/200bindings PASS.
-- Post-live509canonical tests and both final critics/parent exit0;scope explicit.
-- Codex raw/source scope;Opus supplied-cell/text-only scope,not raw audit.
-- Registrationbdaca24/resultsfbea8a5 pushed;fresh full-history origin clone PASS.
-- Twelve artifacts byte-identical,clone clean;21protocol tests/12metadata mutations PASS.
-- Existing frozen venv reused;20sources/20archivefiles unchanged,scientificSHA1e17c9b976a0.
-- Post-outcome exact-text census1case;no intent,error,agreement or mechanism label.
-- Risks:n5,bundled delivery,dependent outcomes,flush-only failure diagnostics,provider unverified.
-- Next:fresh different axis;S46/S44/S39queued,S32unconfirmed,S30unrun.
+## Current state (2026-10-25T04:45:35.719528+00:00; Phase2, iteration32 IN PROGRESS)
+- S44 own pilot: identical payoff-table rows ascending versus descending at fixed S42 histories.
+- Twenty planned fresh decisions/ten contexts/five source blocks; no new games or pooling.
+- Primary descending-minus-ascending offer; frozen one-unit directional screen, zero tuning.
+- Source replay, exhaustive economics, 20 protocol tests and synthetic full/statistical replay PASS.
+- Both independent amended methodology reviews exit0; no live outcomes yet.
+- S45 remains DUD: self1/40, shared0/40 unsupported recommendations; no promoted hits.
+- Risks: n5, observed histories, uncontrolled provider draws; focal offers are not worker pay.
+- Next: finish design review, register/push, run once, verify/report/review/push.
 
 ## Log
 
@@ -456,3 +451,9 @@
 - 2026-10-25T04:42:13.348653+00:00: iteration31 COMPLETE. S45 registrationbdaca249 (fullSHA in config/ledger)/resultsfbea8a5f371cebdbf0fefada91f1492b5b00b23e pushed. Fresh full-history ORIGIN clone at results commit passes full frozen archive/source/registration/environment/UTC/per-call-wrapper-overlap/prompt/export replay,separate50rawcells/15exactbootstrap+t/15sign sets/200bindings,summary/figure regeneration,post-outcome action/text census,supplemental metadata12mutation checks,model-call-forbidden release and all21protocol tests. Twelve artifacts byte-identical;clone git status clean,remote childexit0. Existing installed frozen venv reused,not fresh dependency installation;logs/s45_remote_clean_clone.json records exact commands/bootstrap/hashes. Local509post-live tests and both final critics/parent exit0;Codex raw/full-archive versus Opus supplied-cell/text-only scope explicit. FrozenDUD:self1/40,shared0/40,delta−.025[−.075,0],pairedt[−.09441112763,.04441112763],upperp1/lowerp.5/two-sidedp1;four ties/one−.125primary block. Near-floor baseline,no effect-absence,equivalence,mechanism,agreement or coordination claim. All20scientific sources/20archivefiles/resultSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec unchanged. Supplemental post-outcome publication/census/metadata/clone-orchestration scripts do not alter frozen science. Failure diagnostics flush-only durability disclosed;no transport failure here. Ledger result/context references finalized;REPORT/HITS/DETAILS/README current. Next fresh different axis;S46/S44/S39proposals only,S32unconfirmed,S30unrun. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,secondary/reverse promotion,HIT,sibling writes,direction deviation or active generation/review. Final receipt/handoff commit and push next.
 
 - 2026-10-25T04:42:46.138292+00:00: handoff-log identifier correction only:the preceding COMPLETE entry mistyped registration prefixbdaca249;the correct registration isbdaca2402439a9b06b6fa7eb044f08813f7a5227 (bdaca24). Config,launch receipt,ledger,source hashes,results and remote-clone proof already contain the correct identifier and are unchanged.
+
+- 2026-10-25T04:45:35.719572+00:00: iteration32 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/state summaries. Activated queued own/S44 after A5/S45: reverse only21exact hypothetical wage-payoff rows at ten fixed S42 histories;20freshdecisions,zero newgames/tuning/pooling. Source archive release,exhaustive462rival-profile checks,17protocol tests and full dry/separate20bindings/15cells/3statistics summaries PASS. Codex+Opus methodology reviews requested before live calls. No direction deviation or sibling writes.
+
+- 2026-10-25T04:49:44.863521+00:00: S44 amended Codex/Opus methodology reviews exit0;Codex seven read-only tests and separate arithmetic checks,Opus supplied-text-only scope. Accepted duplicate source census and balanced schedule;added nonzero timing mutations. Current full synthetic/archive/stat/figure preflight hashes match all13scientific sources. Historical synthetic clock failures use established canonical runner;restored REPORT Next marker for archived renderer compatibility. No live calls or outcome inspection.
+
+- 2026-10-25T04:50:27.470559+00:00: final pre-live canonical suite PASS:529tests,zero failures/errors;20S44scoped tests and archived presentation regression PASS. Full dry20request/stat/figure replay and all13current scientific-source hashes match. Both amended critics exit0;scope/dispositions explicit. Source selection/key census and balanced schedule frozen before all calls. Registration commit/push and sole live launch next.

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 31 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 32 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -62,4 +62,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis question after A5/S45; S46/S44/S39 proposals only, S32 unconfirmed and S30 unrun.
+**Next:** Active S44 preregistered design under review: fresh ascending-versus-descending payoff-row comparison at ten observed S42 contexts. No live outcomes yet. S46/S39/S47 remain proposals; S32 unconfirmed and S30 unrun.

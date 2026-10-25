@@ -1,0 +1,15 @@
+S44’s scientific contrast is correctly scoped. I found one concrete source-validation gap; no offer-unit, payoff-table, or statistical arithmetic bug.
+
+The ten cases are selected by fixed source block, source arm, round10, and alphabetically first initial incumbent—not by archived action. Both fresh arms preserve the source system, history, and owner notes. Their headers are identical; only the 21 table rows reverse. Rivals are fixed at round9 offers, explicitly hypothetical, with no recommendation. Labor share is zero below the highest rival offer and otherwise \(1/(1+\text{tied rivals})\); own profit is \((20-wage)\times share\). The outcome is the focal offer, not realized worker payment.
+
+**Concrete remaining bug:** [s44_replay.py:71](/home/factory/collusion/collusion-serendipity/scripts/s44_replay.py:71) builds a response dictionary before checking archive size. Duplicate source-response records silently collapse, so the “225 responses” assertion does not establish 225 raw records or unique keys. A read-only, in-memory mutation confirmed that an appended duplicate is accepted. Check raw-record count and key uniqueness before constructing the dictionary. Registered hashes protect subsequent byte integrity, but do not establish archive validity at registration. This finding does not indicate corruption in the current archive.
+
+The remaining implementation checks look consistent:
+
+- Schedule RNG4444 gives sequential views within each case, two workers maximum, and complete barriers between five blocks. Seven cases run descending first, three ascending first; this is the frozen randomized schedule.
+- Two contexts receive equal weight within each block; five blocks receive equal weight overall. The 3,125 ordered bootstrap samples, exact linear percentile interpolation, paired t interval with four degrees of freedom, 32 inclusive sign-flip tails, and HIT-first classification match the design.
+- Returned raw responses are fsynced before parsing. Failure archives reject analysis/restart; completed archives validate without calls. Source/runtime drift checks, exclusive locking, the external one-shot receipt, registration checks, and cutoff/headroom checks are present.
+
+**Acknowledged limits:** Selection is post hoc and not held out; five blocks support only an exploratory screen. Symmetry/exchangeability is assumed, bootstrap bounds are descriptive, and DUD does not exclude an opposite effect. Row order cannot distinguish position from recency or identify anchoring, coordination, worker-pay effects, or population prevalence. Provider identity/settings, tool non-use, service independence, server time, and upstream-lost outputs remain unattested.
+
+I read all eight requested files and passed four read-only tests, including exhaustive 462 rival profiles ×21 wages. No edits or paid calls. No completed S44 archive was available to verify actual registration, execution timing, release reproduction, or results.

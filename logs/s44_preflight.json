@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "utc": "2026-10-25T04:45:35.718691+00:00",
+  "source_release": null,
+  "dry_independent": {
+    "passed": true,
+    "raw_quotes": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "afbae2d7891b902a56fa45405ddb0da187ef33e77d17c70e2d2cf2fe926c7471"
+  },
+  "sources": {
+    "DESIGN_S44.md": "e77e549e9847dbb5b90461ac32cdc6a5726fb9bc97555510b0014699ccb82ba1",
+    "scripts/s44_replay.py": "e77e32c63a075524ee8005a398c4731f3e4b0a1355d7f08d5910dd70902c3526",
+    "scripts/s44_independent.py": "dc05618db1341f1b1cb9d86d80d54afc39d424cb9c4cc28705d73fd68388603e",
+    "scripts/s44_present.py": "8161153803c2e1cda10aac285576cfa6f30a718e79f23377359d52404803f544",
+    "scripts/s44_release.py": "091b9a46bb54e6c36ce6803a7dcca64abcc8482f8badfa6107496576b45952a2",
+    "scripts/test_s44.py": "c19e38b43661d0fe7f009b86a832ded90e639e0df1f28a011acf4bced4436810",
+    "scripts/s44_reviews.py": "a05ee7a7507883b58a00f52402d5fe7cb0a7826ac3d498cd96564f9fe53d26de",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  }
+}
