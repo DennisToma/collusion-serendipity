@@ -1152,3 +1152,18 @@ S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary co
 
 Supplemental post-outcome metadata validation: `uv run python scripts/s45_metadata_check.py --self-test`;it closes independent-checker metadata coverage without changing frozen science.
 <!-- S45 reproduction end -->
+
+### S44 — exact payoff rows reversed
+
+Twenty fresh focal offers at ten observed S42 histories;no newgames,tuning or pooling. [Design](DESIGN_S44.md),[results](results/s44_summary.md),[figure](figures/s44_payoff.png). Reproduce from the S44 results commit with its committed launch receipt and frozen installed dependencies;later scientific-source drift correctly rejects.
+
+```sh
+uv run --frozen python scripts/s44_replay.py --analyze
+uv run --frozen python scripts/s44_independent.py
+uv run --frozen python scripts/s44_present.py
+uv run --frozen python scripts/s44_release.py
+uv run --frozen python -m unittest scripts.test_s44
+uv run --frozen python scripts/s44_release.py --clean-clone
+```
+
+The clean clone uses full history from origin and the existing installed frozen venv,not a fresh dependency installation. Scientific calls are forbidden during release.

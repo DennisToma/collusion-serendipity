@@ -1,0 +1,206 @@
+{
+  "pilot": "S44",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 20,
+  "tuning_attempts": 0,
+  "source_cli_version": "codex-cli 0.163.0",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": false,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "DUD",
+  "primary": "descending_minus_ascending_offer",
+  "metrics": {
+    "ascending": {
+      "mean": 10.3,
+      "mean_exact": "103/10",
+      "ci95": [
+        10.1,
+        10.5
+      ],
+      "ci95_exact": [
+        "101/10",
+        "21/2"
+      ],
+      "t95": [
+        9.959956309670872,
+        10.64004369032913
+      ],
+      "upper_signflip_p": 0.03125,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.0625,
+      "block_values": [
+        10.0,
+        10.5,
+        10.0,
+        10.5,
+        10.5
+      ]
+    },
+    "descending": {
+      "mean": 10.2,
+      "mean_exact": "51/5",
+      "ci95": [
+        10.0,
+        10.4
+      ],
+      "ci95_exact": [
+        "10",
+        "52/5"
+      ],
+      "t95": [
+        9.85995630967087,
+        10.540043690329128
+      ],
+      "upper_signflip_p": 0.03125,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.0625,
+      "block_values": [
+        10.0,
+        10.0,
+        10.0,
+        10.5,
+        10.5
+      ]
+    }
+  },
+  "contrast": {
+    "mean": -0.1,
+    "mean_exact": "-1/10",
+    "ci95": [
+      -0.3,
+      0.0
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "0"
+    ],
+    "t95": [
+      -0.37764451051977943,
+      0.1776445105197794
+    ],
+    "upper_signflip_p": 1.0,
+    "lower_signflip_p": 0.5,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      0.0,
+      -0.5,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s42_24920_control_A",
+      "seed": 24920,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24920_entry_A",
+      "seed": 24920,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24921_control_A",
+      "seed": 24921,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24921_entry_A",
+      "seed": 24921,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 11,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24922_control_A",
+      "seed": 24922,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24922_entry_A",
+      "seed": 24922,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24923_control_B",
+      "seed": 24923,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 11,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24923_entry_B",
+      "seed": 24923,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 11
+      }
+    },
+    {
+      "case_id": "s42_24924_control_B",
+      "seed": 24924,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 11,
+        "descending": 10
+      }
+    },
+    {
+      "case_id": "s42_24924_entry_B",
+      "seed": 24924,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "ascending": 10,
+        "descending": 11
+      }
+    }
+  ],
+  "floor_counts": {
+    "ascending": 0,
+    "descending": 0
+  },
+  "archived_match_counts": {
+    "ascending": 7,
+    "descending": 8
+  }
+}

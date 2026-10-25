@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "Supplemental publication audit added after registration;no frozen source/estimator changes",
+  "model_calls_forbidden": true,
+  "strictly_positive_local_invocation_intervals": 20,
+  "invocation_seconds_range": [
+    2.93645,
+    3.611533
+  ],
+  "last_local_response_utc": "2026-10-25T04:51:30.463525+00:00",
+  "scientific_sha256": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa",
+  "registered_sources": {
+    "DESIGN_S44.md": "32e0cc7525319adc32878140567474c48616f445be5864ac3e746ff7d6d8e14f",
+    "scripts/s44_replay.py": "a65000556ececb0d26c1eb8f556c9dc3bb37c0e3a0e167dd43214f181ba30593",
+    "scripts/s44_independent.py": "dc05618db1341f1b1cb9d86d80d54afc39d424cb9c4cc28705d73fd68388603e",
+    "scripts/s44_present.py": "af9da2f5d6dd4ddfb4ccf329fb33df0512443ec1f5b714b098ca671bc97c8aea",
+    "scripts/s44_release.py": "091b9a46bb54e6c36ce6803a7dcca64abcc8482f8badfa6107496576b45952a2",
+    "scripts/test_s44.py": "3e798ecf54a74394dba9a6509b9be07f9835eaf9d6eb8bcf604f19c18f5d8faf",
+    "scripts/s44_reviews.py": "a05ee7a7507883b58a00f52402d5fe7cb0a7826ac3d498cd96564f9fe53d26de",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "raw_archive_sha256": {
+    "data/s44_payoff/responses.jsonl": "c935493658ecac70911c3bf6c058e2d4454d9b47ce41e681dc79606e249124ec",
+    "data/s44_payoff/config.json": "dd52bebf237ddbc60d0ef6db16b4271252c00142dc686bb863977c5dfb2af590",
+    "data/s44_payoff/schedule.json": "b75cbd530f2b475a9ac73b5f3ddc4bef40b0cfceaabb589cc97d2c7adcf8de1a",
+    "data/s44_payoff/execution.jsonl": "ee686b97732577647f7be9e08a9bd1a935a698bb56f2b931f80ccaa1b92801d9",
+    "data/s44_payoff/cases.json": "6e0c58129aa2dba7b1bf36fe7a3139529fbc583e4d2fe8d8235f37fff3827b4b",
+    "data/s44_payoff/accepted.jsonl": "d76df31ba54859d1f5b4df1bb204a40c79ab099159304337e98e403db980ef66",
+    "data/s44_payoff/requests.jsonl": "77d7afc9b4ebf6eca8b34df6e0ee448f97d71bb875c96dcf8c4cc49217803478"
+  },
+  "independent": {
+    "passed": true,
+    "raw_quotes": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa"
+  }
+}

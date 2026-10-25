@@ -1033,3 +1033,11 @@ S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary co
 
 Supplemental post-outcome metadata validation: `uv run python scripts/s45_metadata_check.py --self-test`;it closes independent-checker metadata coverage without changing frozen science.
 <!-- S45 details end -->
+
+## Iteration32 — S44 payoff-table row order
+
+| S44 · own, payoff-row order | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer ascending **10.300**, descending **10.200**; descending−ascending **-0.100 [-0.300, +0.000]**. | **DUD** for one-unit increase screen |
+
+[Full registered design](DESIGN_S44.md) and [all case/block results and figure](results/s44_summary.md). Both fresh arms use the same ten observed S42 histories as S43; no source outcomes or earlier fresh outputs are an outcome arm and no pooling or tuning. Only21exactpayoffrows reverse,with identical header. Twenty new stateless outputs;five source blocks as units. Outcome is focal offer,not realized worker pay;sign calibration/small-n/provider/interference limits apply. No agreement,mechanism or equivalence claim.
+
+S44 final-review interpretation:only the paired descending-minus-ascending sign test is a registered hypothesis. Arm-level signflip fields in the generic JSON summary compare an arm againstzero and are not row-order tests. Two block ties cancel opposing case differences;the full case table shows them. No extra order subgroup test,posthoc promotion or mechanical floor/ceiling interpretation. Final Codex critic independently reconstructs raw archive;Opus supplied-text/cell-only scope. Source/replay local fingerprints differ;complete serving behavior remains unattested.

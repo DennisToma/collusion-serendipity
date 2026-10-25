@@ -504,3 +504,7 @@ S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary co
 
 Supplemental post-outcome metadata validation: `uv run python scripts/s45_metadata_check.py --self-test`;it closes independent-checker metadata coverage without changing frozen science.
 <!-- S45 handoff end -->
+
+### S44 — unpromoted payoff-row-order screen
+
+Ascending10.300/descending10.200;descending-minus-ascending-0.100[-0.3, 0.0];pairedt[-0.37764451051977943, 0.1776445105197794];upperp1.0;DUD. Twenty fresh decisions/ten observed S42contexts/five source blocks;zero newgames/tuning/pooling. Focal offers,not realized wages. No HIT promoted;see [all outcomes](results/s44_summary.md) and [design](DESIGN_S44.md). Reproduce:`uv run python scripts/s44_replay.py --analyze` and `uv run python scripts/s44_independent.py`. Relevant to both siblings as a redundant-information/formatting sensitivity check only;no sibling headline change or isolated mechanism. Any positive screen needs fresh registered histories.

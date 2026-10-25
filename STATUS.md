@@ -1,14 +1,14 @@
 # STATUS
 
-## Current state (2026-10-25T04:45:35.719528+00:00; Phase2, iteration32 IN PROGRESS)
-- S44 own pilot: identical payoff-table rows ascending versus descending at fixed S42 histories.
-- Twenty planned fresh decisions/ten contexts/five source blocks; no new games or pooling.
-- Primary descending-minus-ascending offer; frozen one-unit directional screen, zero tuning.
-- Source replay, exhaustive economics, 20 protocol tests and synthetic full/statistical replay PASS.
-- Both independent amended methodology reviews exit0; no live outcomes yet.
-- S45 remains DUD: self1/40, shared0/40 unsupported recommendations; no promoted hits.
-- Risks: n5, observed histories, uncontrolled provider draws; focal offers are not worker pay.
-- Next: finish design review, register/push, run once, verify/report/review/push.
+## Current state (2026-10-25T04:51:42.498146+00:00; Phase2, iteration32 verification)
+- S44 own payoff-row-order pilot:20freshdecisions/10observed S42contexts/5source blocks;zero newgames/tuning.
+- Ascending10.300/descending10.200;descending-minus-ascending-0.100[-0.3, 0.0];pairedt[-0.37764451051977943, 0.1776445105197794];upperp1.0;DUD.
+- Full20request/source/runtime/chronology replay and separate20bindings/15cells/3statistics summaries PASS.
+- Only21exact payoff rows reverse;identical header/history/system/notes;no current archived response supplied.
+- No pooling,reverse/secondary promotion,mechanism,agreement,coordination or equivalence claim.
+- Risks:n5,observed histories,uncontrolled provider draws/service interference;focal offers are not worker pay.
+- Next:final critics,canonical tests,call-forbidden regeneration,push and origin-clone reproduction.
+- S46/S39/S47 proposals only;S32unconfirmed,S30unrun;next fresh different axis.
 
 ## Log
 
@@ -457,3 +457,13 @@
 - 2026-10-25T04:49:44.863521+00:00: S44 amended Codex/Opus methodology reviews exit0;Codex seven read-only tests and separate arithmetic checks,Opus supplied-text-only scope. Accepted duplicate source census and balanced schedule;added nonzero timing mutations. Current full synthetic/archive/stat/figure preflight hashes match all13scientific sources. Historical synthetic clock failures use established canonical runner;restored REPORT Next marker for archived renderer compatibility. No live calls or outcome inspection.
 
 - 2026-10-25T04:50:27.470559+00:00: final pre-live canonical suite PASS:529tests,zero failures/errors;20S44scoped tests and archived presentation regression PASS. Full dry20request/stat/figure replay and all13current scientific-source hashes match. Both amended critics exit0;scope/dispositions explicit. Source selection/key census and balanced schedule frozen before all calls. Registration commit/push and sole live launch next.
+
+- 2026-10-25T04:50:55.880566+00:00: S44 registration84bbfc60915c4ca7004308aea95ff0a4ba5855ea committed,pushed and observed remotely at2026-10-25T04:50:40.271505+00:00before sole live launch. Immutable source/case guards,one-shot receipt,two caseworkers,balanced first-order and per-source-block barriers active. Absolute uncached cutoff06:00UTC;no partial quotes,notes or effect inspection. Ledger registration reference finalized.
+
+- 2026-10-25T04:51:42.498146+00:00: S44 sole run complete20cached responses,zero parser retries or failures. Ascending10.300/descending10.200;descending-minus-ascending-0.100[-0.3, 0.0];pairedt[-0.37764451051977943, 0.1776445105197794];upperp1.0;DUD. Full source/request/runtime/UTC/schedule replay and separate20raw bindings/15blockcells/3bootstrap+t/all sign tails PASS. No source/threshold edits,tuning,pooling,exclusions,reverse/secondary promotion or sibling writes. Reports and figure updated;final critics/tests/release next.
+
+- 2026-10-25T04:52:31.105455+00:00: actual S44 figure inspected;post-registration publication audit PASS:20strictlypositive local invocation intervals,all13registered source hashes/finalpreflight/7archivefiles/canonical scientificSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aaunchanged. Supplemental audit script only,not frozen science;all sign tails retained. Four block ties conceal opposing case differences in two blocks;all ten case outputs displayed without subgroup inference. Final reviews and post-live canonical tests running.
+
+- 2026-10-25T04:54:15.844870+00:00: final Codex+Opus critics and parent exit0;DUD/allprimarynumbers confirmed. Codex20rawresponses/15cells/all3bootstrap+t/all sign tails/source+registration replay;Opus supplied-cell/text-only hand checks,not raw audit. Post-live529canonicaltests exit0. Added presentation-only warning:arm-level generic signflip fields test zero,not roworder;only paired contrast is primary. No extra subgroup analysis/promotion;allcaseoutputs expose within-block cancellation,10is interior on0..20. Frozen scientific sources/result unchanged. Final call-forbidden regeneration,results push and origin-clone reproduction next.
+
+- 2026-10-25T04:54:48.748845+00:00: final call-forbidden release and supplemental publication audit PASS;all7archivefiles/13registered scientificsources/canonical resultSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa unchanged. Scientific result/summary/figure/REPORT regenerate byte-identically. Actual figure inspected;both finalcritics/parent and529postlivetests exit0. No active generation/review,scientificsource/threshold edits,newcalls,tuning,pooling,exclusions,secondary/reverse promotion,HIT,sibling writes or direction deviation. Results milestone commit/push,then full-history origin-clone reproduction next.
