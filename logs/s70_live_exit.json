@@ -1,0 +1,6 @@
+{
+  "started_utc": "2026-10-25T12:18:35.679250+00:00",
+  "exit_observed_utc": "2026-10-25T12:25:02.602019+00:00",
+  "exit_code": 0,
+  "scope": "Local child process exit observation;not provider execution attestation"
+}

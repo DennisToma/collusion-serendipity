@@ -1,16 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T12:14:55.526683+00:00; Phase2, iteration53 IN PROGRESS)
-- S70(own):fresh fixed-endowment pilot after E/S72;registration/design only,zero scientificcalls.
-- Endowment0versus10;charge13/equal-pooling both;Xincrement+3.5,Yincrement-3 unchanged.
-- Ten games/five fresh blocks25460..25464,T10,r3..10;primary endowed-minus-baseline Yapproval.
-- Frozen .25 directional screen;no bonus gate,HIT only endowment sensitivity,not collusion.
-- All16stage profiles/unilateral deviations and14focused checks PASS;initial synthetic setup failures retained.
-- Main+separate full synthetic replay/50cells/15intervals/200bindings PASS;no historical science edits.
-- Both methodology critics exit 0; 926 canonical checks pass; pushing freeze before calls.
-- S68 remains interrupted,no effect/restart;S72 unchanged,no promoted HIT or sibling headline change.
-- Deadline:admit until14:20UTC with60min launch headroom,pilots stop14:30;then polish.
-- Queued ownS73timing proposal;no secondpilot or direction deviation.
+## Current state (2026-10-25T12:26:25.821690+00:00; Phase2, iteration53 RESULTS READY)
+- S70 (own): ten fresh games / five blocks; fixed endowment 0 versus 10, identical marginal incentives.
+- TYPE-Y approvals: baseline 2/40, endowed 2/40; difference 0.000, bootstrap95% [-.075,+.075].
+- Paired t95% [-.110,+.110]; upper/lower/two-sided sign p .75/.75/1; DUD for .25 increase screen.
+- 200 accepted responses, no retries or failures; supervised live child exit 0.
+- Full raw/history/export replay and separate 50 cells / 15 intervals / 200 response bindings PASS.
+- All 19 frozen sources / 1543 older scientific artifacts preserved; release byte-identical.
+- Ten result corruptions and three prewrite-document corruptions reject; prior 53 report rows retained.
+- Both design and final critics exit 0; 926 final canonical checks PASS, terminal exit 0.
+- No tuning, heldout, pooling, mechanism or collusion inference; S68 remains interrupted, no restart.
+- S72 unchanged; no HIT or sibling headline change. Fresh own S73 proposal queued, not run.
+- Next: final verification, commit/push, clean-origin reproduction; then a different axis if valuable.
 
 ## Log
 
@@ -735,3 +736,11 @@
 - 2026-10-25T12:18:06.948948+00:00: S70 both methodology critics exit0. Codex independently checks16profiles/32unilateral flips,prompt substitution,schedules and statistical boundaries;no high/medium issue. Supplied-text Opus arithmetic correct;accepted exact-summary unit guard,explicit+10history-score treatment and reverse/two-sided descriptive tails. Fourteen refined focused checks PASS;source manifest and1543older artifact hashes match. Canonical preflight active;zero scientificcalls. No scientific screen change or direction deviation.
 
 - 2026-10-25T12:18:23.132165+00:00: S70 registration ready:926canonical tests PASS,terminalexit0;14refined focused checks PASS,both methodology critics exit0,19frozen sources and1543older scientific artifact hashes verified. No scientificcalls or outcomes;registration commit+push then sole live launch.
+
+- 2026-10-25T12:19:34.454402+00:00: S70 sole live pilot launched from pushed registrationc0d9ce04489a987d10dd3941d66ebef5ce01e712;local remote observation12:18:36.909776UTC precedes admission. All19registered source hashes match committed manifest;1543prior scientific artifacts intact. Max2simulator calls with seed-block barriers;monitoring metadata only,no partial effect estimation. Local child-exit receipt wrapper active.
+
+- 2026-10-25T12:26:25.821690+00:00: S70 sole live pilot COMPLETE,terminal childexit0. Baseline2/40,endowed2/40;endowed-minus-baseline+0.000[-0.075, 0.075];pairedt[-0.10974862913563535, 0.10974862913563535];upperp0.75;blocks[-0.125, 0.0, 0.0, 0.0, 0.125];DUD;200responses,zero retries/failures. Main full raw/request/history/export replay plus separate50metriccells/15exactbootstrap+t summaries/32signpatterns percontrast/200accepted action-note-reason bindings PASS. All19source hashes/1543older scientific artifacts and prospective split append intact. Byte-identical call-forbidden release PASS;ten result/three prewrite document corruptions reject;53older rows preserved/54contiguous. DUD directional only,no equivalence or absence inference,no HIT. Final independent critics/canonical suite next. No extra scientificcalls,games,tuning,pooling,exclusions,siblingwrite or direction deviation.
+
+- 2026-10-25T12:29:32.384292+00:00: Both final S70 critics exit0,no high/medium issue. Codex independently reconstructs raw50metriccells/15bootstrap+t intervals/15tail comparisons/200bindings and source/timing;Opus supplied-text-only hand arithmetic/finite-bootstrap distribution,not raw audit. Disposition clarifies interval versus tail counting and mechanical+20 pair-total row. Figure visually inspected. Registered sources,estimates and screen unchanged after outcomes;final canonical checks active.
+
+- 2026-10-25T12:30:34.955007+00:00: S70 final926canonical checks PASS,zero failures/errors,terminalexit0 using established narrow historical synthetic fixtures;actual archive analysis remains unpatched. Final call-forbidden release/postcheck PASS with unchanged scientific result SHA1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2,19frozen sources,1543older artifacts,53older report rows/54contiguous and493links. No post-outcome scientific-source edit or new simulated-agent call. Results commit+push then clean-origin reproduction next.

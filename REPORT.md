@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 52 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 53 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 
@@ -24,9 +24,12 @@
 
 <!-- S68 summary start --><!-- S68 summary end -->
 
-<!-- S72 summary start -->
-**Latest — S72 (post hoc):** Both employees beat the same-status one-shot Nash comparator over the fixed primary window in **0/5** self-note games and **2/5** shared-note games; single-round counts remain **0/40** and **0/40**. Fixed two-round counts: **0/20** and **2/20**. Payoff aggregation can change the classification; this does not establish agreement, reciprocal intent or a causal profit effect. [All measures, individual excesses and limits](results/s72_summary.md).
-<!-- S72 summary end -->
+<!-- S72 summary start --><!-- S72 summary end -->
+
+<!-- S70 summary start -->
+**Latest — S70:** TYPE-Y approvals without endowment **2/40**, with endowment **2/40**; endowed−baseline **+0.000 [-0.075, +0.075]**, paired t95% [-0.110, +0.110], sign-flip p (upper/lower/two-sided)=0.75000/0.75000/1.00000. **DUD** for the registered .25 increase screen.
+All marginal incentives stay identical;only fixed income and its accounting change. [All outcomes and limits](results/s70_summary.md).
+<!-- S70 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -83,6 +86,7 @@
 | S69 · D, pooled enforcement | 10 fresh games/5blocks. Y approvals charge3 **31/40**,charge13 **4/40**;low−high **+0.675 [+0.450, +0.875]**. | **DUD / EXPECTED**, incentive calibration |
 | S68 · own, boolean output polarity | Interrupted: 29/30 responses accepted,30 requests admitted;exit143,no completion event. No effect estimated. | **FAILED / unclassified** |
 | S72 · E, temporal payoff audit | All10 original S29 games/5blocks;zero new calls. Both gain across r3–10: self **0/5**,shared **2/5**; difference **+0.400 [+0.000, +0.800]**. Single-round both-gain **0/40** versus **0/40**. [All7 measures](results/s72_summary.md). | **ODD / context-only**, post hoc |
+| S70 · own, fixed bonus endowment | 10 fresh games/5blocks. Y approvals baseline **2/40**,endowed **2/40**;endowed−baseline **+0.000 [-0.075, +0.075]**. | **DUD**, .25 increase screen |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -90,7 +94,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** different-axis fresh pilot only if valuable before14:30UTC; S68 remains interrupted with no estimate or restart. No promoted HIT or sibling headline change.
+**Next:** different-axis pilot only if valuable before14:30UTC;then polish. S68 remains interrupted with no restart. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

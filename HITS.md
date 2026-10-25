@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 50.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 53.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -688,3 +688,10 @@ S68 interrupted: **29/30** responses returned and accepted from **30** admitted 
 **Latest — S72 (post hoc):** Both employees beat the same-status one-shot Nash comparator over the fixed primary window in **0/5** self-note games and **2/5** shared-note games; single-round counts remain **0/40** and **0/40**. Fixed two-round counts: **0/20** and **2/20**. Payoff aggregation can change the classification; this does not establish agreement, reciprocal intent or a causal profit effect. [All measures, individual excesses and limits](results/s72_summary.md).
 
 **ODD/context-only;no promotion rule or confirmation request.** For both siblings: absence of simultaneous two-sided gains does not by itself exclude gains exchanged across rounds. This posthoc comparator at fixed statuses is not a repeated-policy intervention,agreement label or reciprocal-intent test. Reproduce `uv run --frozen python scripts/s72_temporal.py release`.
+
+
+## S70 — Fixed bonus endowment
+
+TYPE-Y approvals without endowment **2/40**, with endowment **2/40**; endowed−baseline **+0.000 [-0.075, +0.075]**, paired t95% [-0.110, +0.110], sign-flip p (upper/lower/two-sided)=0.75000/0.75000/1.00000. **DUD** for the registered .25 increase screen.
+
+Unchanged marginal incentives;fixed income and its description vary. No collusion inference or sibling headline change. [Full results and reproduction](results/s70_summary.md).

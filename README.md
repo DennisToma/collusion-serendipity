@@ -1513,3 +1513,10 @@ uv run --frozen python -m unittest scripts.test_s72
 ```
 
 `scripts/s72_clone.py` reproduces a pushed revision in a fresh full-history origin clone. Registration freeze/register-remote steps are one-time and must not be repeated.
+
+
+## S70 — Fixed bonus endowment
+
+TYPE-Y approvals without endowment **2/40**, with endowment **2/40**; endowed−baseline **+0.000 [-0.075, +0.075]**, paired t95% [-0.110, +0.110], sign-flip p (upper/lower/two-sided)=0.75000/0.75000/1.00000. **DUD** for the registered .25 increase screen.
+
+Unchanged marginal incentives;fixed income and its description vary. No collusion inference or sibling headline change. [Full results and reproduction](results/s70_summary.md).

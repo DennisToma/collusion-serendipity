@@ -1334,3 +1334,10 @@ S68 interrupted: **29/30** responses returned and accepted from **30** admitted 
 | S72 · E, temporal payoff audit | All10 original S29 games/5blocks;zero new calls. Both gain across r3–10: self **0/5**,shared **2/5**; difference **+0.400 [+0.000, +0.800]**. Single-round both-gain **0/40** versus **0/40**. [All7 measures](results/s72_summary.md). | **ODD / context-only**, post hoc |
 
 All80 single-round,40 fixed two-round and10 full-window records are exported. Seven dependent descriptive measures,21bootstrap/t summaries;five reused paired blocks. Posthoc question after original outcomes known;no new HIT,replication,agreement or causal reciprocity claim. Source S29 and S53 unchanged. [Design](DESIGN_S72.md) · [Full audit](results/s72_summary.md) · [Figure](figures/s72_temporal.png).
+
+
+## S70 — Fixed bonus endowment
+
+TYPE-Y approvals without endowment **2/40**, with endowment **2/40**; endowed−baseline **+0.000 [-0.075, +0.075]**, paired t95% [-0.110, +0.110], sign-flip p (upper/lower/two-sided)=0.75000/0.75000/1.00000. **DUD** for the registered .25 increase screen.
+
+Unchanged marginal incentives;fixed income and its description vary. No collusion inference or sibling headline change. [Full results and reproduction](results/s70_summary.md).

@@ -1,0 +1,39 @@
+{
+  "version": "bonus-endowment-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 10,
+  "n": 5,
+  "seed0": 25460,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/bonus_endowment.py": "8a1665293de044ed3e188909a9418975fd64b2c8451e0b0ccf602f9a555f54f5",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S70.md": "8cdfdca23506db8e268cef3a79bfd7267a618993ac4cd86ac1e4b5f6f7c044e4",
+    "scripts/s70_analyze.py": "d8b53d22148ea4d7f19bc5f9edc1f4eb26ae72c30c407597319a28cd9f13dc4c",
+    "scripts/test_s70.py": "dbc8cbb56ad7e4932f3a16e553bd6594f064bb68dcdac3cf94cfb19fccf67022",
+    "scripts/s70_launch.py": "58eddc5f22b0e7248f7d61512e04597df7b192c572a45811a8da566905361734",
+    "scripts/s70_independent.py": "2094b2e5b87a1de263cfe8fb834f7f260214f15368366a653c7b404d35ee7654",
+    "scripts/s70_present.py": "189a47234711873ad77585404d5e857c6d942b4c69e4e185252256e40db2eaa5",
+    "scripts/s70_release.py": "417bc21b1785d802a302b4c73d31981bc0c378127d92b97d0fe9b868d2524aeb",
+    "scripts/s70_reviews.py": "2f526f28309c48bb41be9d2faa365f3eddfb0c4bc1d31fadbcd1450250efbed5",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-25T14:20:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "c0d9ce04489a987d10dd3941d66ebef5ce01e712"
+}

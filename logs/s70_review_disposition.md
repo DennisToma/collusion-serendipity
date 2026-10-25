@@ -6,4 +6,8 @@ Design Opus: exit0,supplied text only;no filesystem/cache/exhaustive-bootstrap a
 
 Zero-width descriptive intervals,zero-endowment control wording,small-n screen and income/accounting mechanism ambiguity remain disclosed. Release additionally binds preservation specifications to the pushed registration. Older science unchanged.
 
-Final reviews: pending.
+Final Codex: exit0;independently reconstructed all50raw metric cells,15bootstrap intervals,15t intervals,15sign tails,16stage profiles/unilateral deviations,200raw action/note/reason bindings,prompt substitutions,registration/timing and final claims. No high/medium issue;DUD confirmed.
+
+Final Opus: exit0;supplied design,summary and verification JSON only,no raw/filesystem/cache audit. Hand-reconstructed the five-block bootstrap distribution and inclusive sign probabilities,all mean/bonus arithmetic;no high/medium issue,DUD confirmed. Its low wording notes are already covered:final-pair bonus has a purely mechanical+20offset;REPORT globally states no equivalence/absence and descriptive small-n uncertainty. We do not adopt an uncalibrated power or strong-null claim. The table preserves every registered metric rather than selectively removing the offset row.
+
+Count clarification:15bootstrap and15t intervals =5metrics×(baseline,endowed,difference);15sign tails =5contrasts×(upper,lower,two-sided),not per-arm significance tests. Scientific sources,estimates and screens unchanged after outcomes.
