@@ -81,3 +81,8 @@ all front numbers,round/distinct-profile wording,nested stable set,Nash example,
 above7byconstruction caveat,all39prior rows,all40registered source/input bytes
 and three canonical artifact hashes. Its read-only equivalent document generation
 matched all three generated documents;actual manager checker also passes.
+
+Fresh full-history ORIGIN clone at13e698cb15f56b1778752917a3f454ff84b01fe9 PASS:all11artifacts
+byte-identical,30scoped tests,40frozen source/input hashes unchanged,clone
+gitstatus clean. Existing frozen venv reused,not fresh installation. Full
+commands and hashes:logs/s56_remote_clean_clone.json. No scientific changes.

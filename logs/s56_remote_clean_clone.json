@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "origin": "gh-csr:DennisToma/collusion-serendipity.git",
+  "results_commit": "13e698cb15f56b1778752917a3f454ff84b01fe9",
+  "full_history_origin_clone": true,
+  "installed_frozen_venv_reused": true,
+  "fresh_dependency_install": false,
+  "commands": [
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s56_coalitions.py",
+        "--release"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"independent_metric_cells\": 270,\n  \"bootstrap_intervals\": 27,\n  \"paired_t_intervals\": 9,\n  \"primary_numerators\": [\n    99,\n    0,\n    117,\n    -117,\n    6\n  ],\n  \"primary_mean\": 2.3333333333333335,\n  \"upper_p\": 0.375,\n  \"pair_profit_difference\": 0.8,\n  \"verdict\": \"ODD\",\n  \"exact_3125_bootstrap_ci95\": [\n    -5.6,\n    10.0\n  ],\n  \"result_sha256\": \"ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828\"\n}\n{\n  \"passed\": true,\n  \"artifacts\": {\n    \"results/s56_coalitions.json\": \"469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9\",\n    \"results/s56_summary.md\": \"5b26ef5f90c432f9067a1a8f6307a7c864a5d95dab97c403c77cdf5baeea172f\",\n    \"figures/s56_coalitions.png\": \"0149d7fa7f05020c65944e07b1d32004c029ce45aaea596db7c71ec689228f2e\"\n  },\n  \"independent\": {\n    \"passed\": true,\n    \"scope\": \"Independent raw bid/provenance/payoff/statistic reconstruction; full prompt/history/retry eligibility and registration binding require production S14 replay and S56 manifest checks\",\n    \"rounds\": 90,\n    \"game_cells\": 80,\n    \"bootstrap_and_t_summaries\": 24,\n    \"enumerated_profiles\": 3375,\n    \"raw_bindings\": 360,\n    \"raw_requests\": 376\n  }\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s56_independent.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"scope\": \"Independent raw bid/provenance/payoff/statistic reconstruction; full prompt/history/retry eligibility and registration binding require production S14 replay and S56 manifest checks\",\n  \"rounds\": 90,\n  \"game_cells\": 80,\n  \"bootstrap_and_t_summaries\": 24,\n  \"enumerated_profiles\": 3375,\n  \"raw_bindings\": 360,\n  \"raw_requests\": 376\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s56_check_documents.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"local_links\": 363,\n  \"prior_pilot_rows_unchanged\": 39,\n  \"total_pilot_rows\": 40,\n  \"generated_document_files\": [\n    \"REPORT.md\",\n    \"REPORT_DETAILS.md\",\n    \"results/s56_interpretation.md\"\n  ],\n  \"document_helper_idempotent\": true,\n  \"generated_documents_match_frozen_json\": true,\n  \"frozen_source_inputs_unchanged\": 40\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "-m",
+        "unittest",
+        "scripts.test_s56",
+        "scripts.test_s25_presentation"
+      ],
+      "returncode": 0,
+      "output": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 4.640s\n\nOK\n"
+    }
+  ],
+  "verified_source_input_files": 40,
+  "source_archive_unchanged": true,
+  "byte_identical_artifacts": {
+    "results/s56_coalitions.json": "469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9",
+    "results/s56_summary.md": "5b26ef5f90c432f9067a1a8f6307a7c864a5d95dab97c403c77cdf5baeea172f",
+    "figures/s56_coalitions.png": "0149d7fa7f05020c65944e07b1d32004c029ce45aaea596db7c71ec689228f2e",
+    "logs/s56_independent.json": "c1cd6d964f5769c83ae77f2ea1551882db37142c6e9e289eb307872d0a5fb8ae",
+    "logs/s56_release.json": "890bb3b7bd44726ce6a17fa340872b5df644b5be2f4e0cd8ee1e426848b5c1ff",
+    "data/s56_registration.json": "1303b57ebe4b05e7447fc4850584b109c080cbbbc1ee66fc86a9f65adc49c443",
+    "data/s56_registration_receipt.json": "9ab37f332cc1614a6d2362f2f2e00be14d8d1ada1062527d965edd59be910a2a",
+    "REPORT.md": "2dd4ee9593b3be525639bb2699dbadd8008a57563d59b55f81168cdb97ef7274",
+    "REPORT_DETAILS.md": "72d0b167ba88a6b594a6d350842360ffdd60d90a92839f2daaaee13aad1ce6df",
+    "results/s56_interpretation.md": "260c3e49e1187a01790aeb0e9eeb075ebdda77772f11e55baa3bfd2da07c8d68",
+    "logs/s56_document_checks.json": "378edb13bb13cb8a5a206aeea7322ceeacd2f7f25963615e5f2f7bfa4b00a1f1"
+  },
+  "clone_git_status": ""
+}
