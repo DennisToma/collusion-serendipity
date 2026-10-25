@@ -1,0 +1,16 @@
+One confirmed release blocker; no payoff or statistic-arithmetic bug found. Read all 14 requested files. Eight checks requiring no file writes passed; no edits or live model calls.
+
+- **Bug — completed replay fails outside the live bootstrap.** [s54_release.py:29](/home/factory/collusion/collusion-serendipity/scripts/s54_release.py:29) invokes `main()` for cached resume, but [opportunities.py:393](/home/factory/collusion/collusion-serendipity/sim/opportunities.py:393) requires bootstrap context before checking whether the archive is complete. Consequently, an otherwise valid archive fails the advertised standalone release command and the clean-clone release check. The mocked-live test misses this because its bootstrap-context patch remains active during resume. **Remedy:** provide a dedicated offline completed-replay entry, or require bootstrap context only for fresh live execution. Add a fresh-process regression test with model calls forbidden and no bootstrap context.
+
+The checked scientific implementation is consistent:
+
+- All **16 status/action profiles** implement author +6, reviewer +1, and reviewer −3 for Y approval. Approve X/reject Y is the unique stage equilibrium. Mutual Y approval gives each employee +4; unilateral rejection against approval gives +6 versus −2.
+- Each employee receives one X/one Y warmup and four X/four Y primary assignments. Synchronization produces four primary Y/Y rounds; complementary schedules produce none. The first employee’s schedule matches across arms.
+- Shared S29 prompt equality checks pass. Both complete prior notepads are supplied; current actions/notes and private reasoning are absent. Within-game calls are sequential, but their supplied information preserves simultaneous decisions.
+- Both approval denominators are eight/game. Bonus and loss arithmetic, 3,125 bootstrap samples, rational percentile interpolation, paired-t intervals, 32 inclusive sign flips, and HIT-first classification agree with registration. Five strictly positive differences are necessary for the upper sign gate; their tail probability is 1/32.
+
+**Limitations, separate from bugs:** synchronization changes joint opportunities, public status composition, the second employee’s assignments, and subsequent histories together. It cannot isolate coordination or establish reciprocal intent. Five blocks support an exploratory screen; DUD does not establish equivalence, and the bonus gate is mechanically dependent on approvals.
+
+Raw response/request/admission binding, registered-byte loading, abort handling, interrupted-resume rejection, and publication checks look coherent on inspection. No completed live S54 archive exists here, so actual provenance, freeze chronology, timing overlap, and release reproduction remain unverified.
+
+Finally, `llm._codex` embeds `[SYSTEM]` text in a CLI prompt; actual system-role delivery is not established. Wrapper overlap likewise does not establish simultaneous provider execution. Describe these guarantees at the supplied-input and local-wrapper level.

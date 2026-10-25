@@ -1,0 +1,20 @@
+{
+  "path": "/var/tmp/s54_iteration38_final_dry_kjsrymmd",
+  "source_entries": 21,
+  "protocol": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "accepted_action_note_reason_bindings": 200,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "rejections": {
+      "alternating": 0,
+      "synchronized": 0
+    }
+  },
+  "cache_resume_byte_identical": true,
+  "reanalysis_byte_identical": true
+}

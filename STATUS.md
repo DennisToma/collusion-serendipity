@@ -1,19 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T06:03:13.666244+00:00; Phase2, iteration37 COMPLETE)
-- S53(E):posthoc audit of10original S29games/5blocks;zero newgames/scientificcalls/tuning.
-- Y approvals self2/40,shared15/40;mutual-Y0/9both-Y opportunities/arm (0/40rounds).
-- No missed-X or same-round strict Pareto gains;regret4→30,pairNash-excess8→60points.
-- Regret/pair excess are2x/4xoriginalS29contrast,not independent extra evidence.
-- Pair-excess difference+1.3/round,bootstrap[+.4,+2.3],t[-.195,+2.795];static/posthoc only.
-- Full200-key replay;separate80rounds/60cells/18bootstrap+t/16profiles/32deviations PASS.
-- Both finalcritics exit0:Codex original raw/source reconstruction;Opus supplied-text scope.
-- All611pre/post canonical and11scoped tests PASS;figure viewed;release byte-identical.
-- Registrationa94bb0e/results5ed960c pushed;fresh originclone PASS,7artifacts byte-identical,clean.
-- Clone reused installed frozen venv,not fresh install;all55registered files unchanged.
-- Fixed ODD/context-only;S29ODD unchanged,no HIT or siblingheadline change;no active science/review.
-- Next:fresh different axis;own/S54opportunity-correlation andS52framing proposed,S46/S39/S49queued.
-- Risks:posthoc,n5,degenerate bounds;delayed/cross-round mutual gains and coordination not excluded.
+## Current state (2026-10-25T06:20:26.472462+00:00; Phase2, iteration38 READY)
+- Own/S54:10fresh workplacegames/5blocks planned;shared notes both arms.
+- Synchronized/complementary types;fixed marginalcounts/payoffs,changed jointstates.
+- No scientificcalls,outcomes,tuning,pooling,siblingwrites or directiondeviation.
+- All634canonical/23scoped tests PASS;22source dry hash/replay checks PASS.
+- Both initial+patch methodology critics exit0;focused Codex releasefix exit0.
+- Byte-bound registered-source loader and completed-only offline replay verified.
+- All200synthetic S29promptbindings and separate50cells/15bootstrap+t PASS.
+- Remaining known risks:n5,bundled jointstatus/history,provider/toolnonuse unattested.
+- Next:commit/push registration,observe remote,sole live bootstrap launch.
+- Original S29ODD/S53context-only unchanged;no HIT or siblingheadline change.
 
 ## Log
 
@@ -532,3 +529,9 @@
 - 2026-10-25T06:01:38.042041+00:00: Both finalcritics exit0;Codex independently reconstructs200rawbindings/80rounds/60cells/18bootstrap+t summaries/16profiles/32deviations and verifies55source/input hashes/fullreplay. Opus supplied80record/code-only scope reproducescounts/intervals.611postanalysis canonical tests PASS;actualsixpanel figure inspected;secondrelease byte-identical. Accepted postoutcome presentation supplement:allsixREPORTcounts,conditional0/9/unconditional0/40,degenerate-bound caveat,rescaledS29-not-independent disclosure,andboth pair-excess bootstrap/t bounds. No scientific-source/result edits or newcalls. Receipt included at results commit;fresh origin-clone next.
 
 - 2026-10-25T06:03:13.666244+00:00: iteration37 COMPLETE. S53 registrationa94bb0e353db8bdf2f5fa8a12d389280831b1de0/results5ed960cc0df160a31fe5f3d8394dce630495c536 committed/pushed. Fresh full-history ORIGIN clone at results commit passes all55source/input byte/registration/ancestry checks,original200-key cached replay,separate200bindings/80rounds/60cells/18bootstrap+t summaries/16profiles/32deviations,and11protocol tests. Seven release artifacts byte-identical;clone gitstatus clean;commands/hashes in logs/s53_remote_clean_clone.json. Installed frozen venv reused,not fresh dependency install. Both initial+patch methodology/finalcritic parent processes exit0;Codex original raw/source reconstruction versus Opus supplied-text-only scope.611pre/post canonical tests PASS with scoped legacy synthetic clocks;real archive source/deadline bytes unchanged. Scientific resultSHA32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8. Same-round mutual-Y0/9both-Y opportunities and0/40primary rounds in each arm;adverse approvals self2/40/shared15/40. Regret and pair-excess rescale the S29contrast,not independent evidence;Pareto=mutual-Y identity disclosed. No HIT,newgames,scientificcalls,tuning,pooling,subgroupscreen,sourceS29edits,siblingwrites,DIRECTIONdeviation or claim excluding delayed/cross-round mutual gain,agreement or coordination. REPORT/DETAILS/HITS/README/ledgers current;newown/S54proposal queued,not run. Closing proof/handoff commit+push next.
+
+- 2026-10-25T06:05:08.475841+00:00: iteration38 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/status summaries. Selected own/S54 fresh opportunity-correlation pilot after E/S53;ten fresh games,matched marginal task counts,shared notes both arms. Design/implementation and synthetic validation in progress;no scientific calls or outcomes. DIRECTION unchanged/no deviation;all sibling repos read-only.
+
+- 2026-10-25T06:10:30.755222+00:00: S54 initial methodology critics both exit0;Codex synthetic/source review and Opus supplied-text-only review. Accepted registered-byte import binding,normalized-output/checker-scope disclosure,and all200context S29prompt-identity coverage.631initial canonical and20scoped tests PASS;new bootstrap tests and patchreview pending. No scientific calls;all changes pre-outcome.
+
+- 2026-10-25T06:20:26.472462+00:00: S54 final preflight PASS:634canonical tests,23scoped tests,current22source dry full replay and independent raw/stat reconstruction. Both initial+patch methodology critics exit0;focused Codex releasefix critic exit0,no remaining executable blocker (12readonly tests passed/11fixture tests unavailable there;all23passed manager suite). All200production S29promptidentity and fresh-process real import-chain checks included. Newlive only requires registered-byte bootstrap;completed-only offline replay verified without bootstrap/current credentials. No scientific calls,outcomes,source S29edits,tuning or siblingwrites. Full freeze registration/push then remote observation required before sole scientific launch.

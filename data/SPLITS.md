@@ -164,3 +164,10 @@ opportunity;five sourceblocks24480..24484. Twenty fresh charge3/charge9 decision
 zero newgames,tuning,heldout,pooling or long-run enforcement claim. Same contexts
 as S48/S50 but no earlier replay outcome selection or comparison arms;all source
 histories and task statuses fixed. Full source/case freeze pushed before live.
+
+S54:five fresh paired blocks25040..25044;ten workplace games,shared notepads
+both arms,synchronized versus complementary task schedules,T10,primaryr3..10.
+Each employee fourX/fourY primary;first employee assignments matched,second
+complemented between arms.200planned decisions,.25directional screen. Exploratory,
+zero tuning,no heldout,pooling or S29replication. Full design/source manifest
+committed,pushed and observed remotely before scientific calls.
