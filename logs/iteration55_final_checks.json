@@ -1,0 +1,22 @@
+{
+  "observed_utc": "2026-10-25T13:04:27.112977+00:00",
+  "passed": true,
+  "table_audit_check": true,
+  "local_document_links_resolve": true,
+  "canonical_tests": 926,
+  "canonical_failures": 0,
+  "canonical_errors": 0,
+  "canonical_terminal_exit": 0,
+  "origin_result_revision": "5dcad9c9c34fe40ad7b534c1ca22fa96efdf8148",
+  "origin_clean": true,
+  "origin_byte_identical_artifacts": 4,
+  "hashes": {
+    "REPORT.md": "71ef292459907d70b1b301715b33e8a144fe32eb9b93f22d3187a52547f750e2",
+    "README.md": "7cf90a768fbcacefd0ee22e17600cfa2edee28c1834273fb41e9db5362f84664",
+    "STATUS.md": "9c6694e73b38dd82fdd5b8179976aac7988cac82dcb730295ad059605563688a",
+    "scripts/iteration55_claims.py": "906fc70bf9ae4b0b071b2556c7144eb06464eeb74292a223c486de1378d48aa7",
+    "results/iteration55_claim_audit.json": "d50394184463d705496b8f2cbf7120d3f1633fa01f763d8262d60c541ab167ce",
+    "logs/iteration55_selected_replay.json": "c212ac81fd416d2a08ba39fed47722690c42662aeb7236994044cafdf71f9d92",
+    "logs/iteration55_remote_clean_clone.json": "4d3203c65907110dbc77ff6b9b3e31147bb8e6a46e5ab077028e43ddf32051a8"
+  }
+}
