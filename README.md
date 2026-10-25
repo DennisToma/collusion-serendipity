@@ -930,3 +930,32 @@ All354repository tests passed locally with explicit childexit0;all8local artifac
 including the post-outcome quote census,regenerate under forbidden model calls.
 The remote script checks seven primary artifacts;its environment reuses the
 installed frozen venv rather than installing dependencies afresh.
+
+## S38 — Revealing the final round (iteration 25)
+
+[Prospective design](DESIGN_S38.md): two-employer wage competition, same stage
+payoffs, public completed histories and owner-only notes. One sentence reveals
+that round10 is final or leaves the endpoint undisclosed. Five fresh paired
+blocks, no pooling or tuning. The registered primary is known-minus-hidden
+paid wage over rounds3–10; final-round wage is descriptive only. Multiple
+stage equilibria prevent a unique unraveling prediction.
+
+```bash
+uv run python scripts/s38_analyze.py
+uv run python scripts/s38_independent.py
+uv run python scripts/s38_exact_check.py
+uv run python scripts/s38_present.py
+uv run python scripts/s38_release.py
+uv run python -m unittest scripts.test_s38
+uv run python scripts/run_tests.py
+```
+
+Use the canonical repository test runner for historical synthetic-fixture clocks;
+raw unittest discovery also exercises expired historical admission cutoffs.
+Real dataset deadlines remain unchanged. S38 prospectively persists/fsyncs
+admissions before dispatch and rejects incomplete journals without repair.
+Independent verification binds result dry/live metadata to configuration;
+live presentation verifies the raw archive. Selected referenced config/certificate
+contents and repo/temp-root instruction ancestors are fingerprinted. Nonempty
+NODE_OPTIONS is refused. This coverage does not attest full effective settings,
+provider identity/scheduling,tool non-use or provider temperature/token enforcement.

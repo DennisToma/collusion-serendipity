@@ -1,0 +1,14 @@
+{
+  "source": "S36 completed archive",
+  "games": 10,
+  "accepted_decisions": 200,
+  "recorded_attempts": 200,
+  "retry_attempts": 0,
+  "failed_games": 0,
+  "model_backend": [
+    [
+      "gpt-6-luna",
+      "codex"
+    ]
+  ]
+}

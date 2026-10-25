@@ -1,0 +1,15 @@
+.......s38_24840_hidden complete 20 calls
+..............E......
+======================================================================
+ERROR: test_raw_quote_and_normalization_tamper_rejected (scripts.test_s38.Resource.test_raw_quote_and_normalization_tamper_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s38.py", line 228, in test_raw_quote_and_normalization_tamper_rejected
+    game_path=next(data.glob('game_*_gross.json'));original=game_path.read_bytes()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+----------------------------------------------------------------------
+Ran 28 tests in 4.595s
+
+FAILED (errors=1)

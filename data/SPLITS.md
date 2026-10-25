@@ -107,3 +107,10 @@ NET quotes0..20 versus GROSS10..30 with fixed worker tax10/employer subsidy10.
 T10,r3..10,200planned decisions. All outcomes normalized to take-home units.
 Exploratory,zero tuning,no held-out or pooling claim;full source freeze before
 paid outcomes. Directional net-minus-gross2-unit screen;no reverse promotion.
+
+S38:five fresh paired blocks24840..24844;ten self-only-note human-labor games,
+known final round10 versus undisclosed endpoint. Identical0..20 wage grid,
+productivity20 and completed public histories.T10,primary r3..10,200planned
+valid decisions. Six frozen outcomes include descriptive final-round wage.
+Exploratory,zero tuning,no locked-test,pooled or confirmatory claim.
+Full source manifest/2-unit directional screen frozen before paid outcomes.

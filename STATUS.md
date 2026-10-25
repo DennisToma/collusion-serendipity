@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T01:42:36.644227+00:00; Phase2, iteration24 COMPLETE)
-- S36:10games/5blocks,200valid decisions,zero retries/failures.
-- Take-home NET8.000/GROSS1.800;NET−GROSS+6.200[2.200,10.000].
-- Paired t[-.275727,12.675727],upperp.0625;ODD,four positives/one tie.
-- Both means below Nash18–20;no HIT or identified anchoring/coordination.
-- Full200-key replay/21frozen sources/runtime/UTC/exports/overlap PASS.
-- Separate50cells/15bootstrap+t/15sign tails/200bindings/exact15 PASS.
-- Durable354tests PASS;eight local artifacts regenerate with calls forbidden.
-- Origin clone27tests/seven primary artifacts exact,clean;existing venv reused.
-- Registrationce0389e/results4c9a157 pushed;SHAabfbb898 unchanged.
-- Both final critics,parent exit0;Opus supplied-text scope explicit.
-- Post-outcome quote census/160-response recount separately labeled.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- Next:different axis;fix referenced-file guard prospectively,S37 queued only.
+## Current state (2026-10-25T01:54:14.576995+00:00; Phase2, iteration25 pre-live)
+- F/S38 registered:known final round10 versus undisclosed endpoint.
+- Ten fresh games/five blocks24840..24844,T10;primary known−hidden r3–10.
+- Frozen2-unit screen;terminal wage descriptive;zero tuning/no pooling.
+- Final-source full384tests PASS;30 S38 tests cover mocked LIVE path.
+- Dry200key replay/60rawcells/18bootstrap+t/18sign tails/18exact PASS.
+- Both original+patched Codex/Opus design critics exit0;targeted Codex exit0.
+- Persist/fsync admissions;full-archive eligibility gates live presentation.
+- Known referenced-file/ancestor guard;complete provider/config unattested.
+- Guard20-check benchmark and historical runtime headroom pass.
+- No live calls yet;source freeze/push then sole live launch next.
+- S37 queued only,S32 unconfirmed,S30 unrun;no promoted hits.
 
 ## Log
 
@@ -346,3 +344,7 @@
 - 2026-10-25T01:41:34.043149+00:00: S36 final model-call-forbidden regeneration leaves all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,post-outcome quote census). All21source hashes/scientificSHAabfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0 unchanged. Both final critics,parent exit0;durable standalone354-test suite childexit0. Cache-only release/110local links PASS. Separate raw160-quote recount/context SHA matches;context explicitly not reviewed by primary critics. Queued own/S37 policy-wording control as unrun future idea;no second experiment,new scientific calls,tuning,pooling,exclusion,reverse/secondary promotion,HIT or sibling write. Results milestone commit/push then origin clone next.
 
 - 2026-10-25T01:42:36.644227+00:00: iteration24 COMPLETE. S36 registrationce0389e5d5cf39847f8d9ff27fc7221db7540bbf/results4c9a15785d9a697f7ccef55b9f62e0fd88d3f447 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,separate raw reconstruction,exact companion,summary/figure regeneration,cache-only release and all27protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone clean. logs/s36_remote_clean_clone.json records exact commands/hashes and installed frozen-venv reuse,not fresh dependency installation. Durable local354post-live tests childexit0;all8local artifacts including post-outcome census byte-identical under forbidden-call regeneration. Initial post-live outer143 retained separately despite complete PASS summary;standalone receipt resolves childexit. Both final critics,parent exit0;Opus supplied-text scope explicit,post-outcome census manager-validated by160raw responses and not reviewed by primary critics. All21source hashes/scientificSHAabfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0 unchanged. Frozen ODD:+6.2[2.2,10],t[-.275727,12.675727],upperp.0625,four positives/one tie;no HIT/isolated anchoring/coordination claim. Both wage means below Nash;raw quote10 counts52/80NET versus65/80GROSS clarify coordinates without mechanism inference. Selected known-input coverage does not hash referenced file contents;five named path-input env values recorded unset,not complete config/provider attestation. Ledger result/context references finalized. Reports/HITS/README/DETAILS current;S37 proposal only,S30 unrun,S32 unconfirmed. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Publication receipt/handoff commit and push next.
+
+- 2026-10-25T01:45:09.934671+00:00: iteration25 read CLAUDE/PLAN/STATUS/DIRECTION/experiment ledger and both sibling report/state summaries. Both siblings holding under their directives;explorer direction unchanged. Selected F/S38 after own/S36:single-sentence finite-horizon disclosure at identical labor stage economics and private notepads. Fresh five blocks,known-minus-hidden primary2-unit screen,terminal wage descriptive,no pooling/secondary promotion. Prospective named-reference content/ancestor instruction fingerprint and empty NODE_OPTIONS guard address known prior gap without editing earlier sources. No live scientific outcomes;pre-live validation/reviews next.
+
+- 2026-10-25T01:54:14.576995+00:00: S38 final-source pre-live validation complete. Initial30protocol tests pass;full384canonical repository tests pass with existing scoped historical fixture clocks. Initial raw discovery382tests had8failures/1error from expired historical fixtures and is retained separately;first S38 run had stale copied filename,corrected before outcomes. Both initial and patched Codex/Opus design critics exit0;targeted final Codex publication review exit0. Fixed admission durability,dry/live metadata binding,and direct-render full archive eligibility before registration. Opus supplied-text scope explicit;added numeral10/final salience and invocation-not-provider timing limitations. Final200key dry replay,60raw cells,18bootstrap+t/18sign tails,200note/reason bindings and18exact summaries PASS. All22source hashes match final manifest. Real20-fingerprint benchmark~.506s median,.523s max,400-check extrapolation209s;historical headroom gate passes with>1hour left to03:00 cutoff. S36 parser census200valid/zero retries/failures. Auth-refresh/strict-parser abort risk accepted prospectively. No live outcomes,tuning,pooling,second pilot or sibling writes. Freeze/push and sole live launch next.
