@@ -1,0 +1,13 @@
+S41 review complete. No edits or live model calls. All 15 selected in-memory tests passed, including exhaustive economics for both grids. I found no high-severity defect.
+
+Two remaining bugs:
+
+- **Medium — Eligibility failure does not promptly abort execution.** The [runner](/home/factory/collusion/collusion-serendipity/sim/ticksize.py:431) advances through all five blocks without checking paired invocation timing. The ≤60-second start separation and positive lifetime overlap requirements are enforced only during [analysis](/home/factory/collusion/collusion-serendipity/scripts/s41_analyze.py:226). Consequently, an ineligible first block can consume the remaining calls and receive a `complete` execution event. Publication correctly rejects it, but execution violates the promised abort behavior. **Remedy:** validate each completed block before starting another; record a terminal eligibility failure. Enforce the start-separation limit at admission where practical.
+
+- **Low — Saved limitations misstate the economic contrast.** The [analyzer](/home/factory/collusion/collusion-serendipity/scripts/s41_analyze.py:267) reports “Identical stage incentives,” although finer ticks change profitable deviations and equilibria. Presentation reproduces this contradictory statement. **Remedy:** say “identical productivity, payoff formula, allocation rule and memory access; different feasible wages and stage-game incentives.”
+
+Other requested checks were consistent: wages, allocation, profits, regret and listed pure equilibria agree; pending notes and wages remain hidden across current-round decisions. Cache/request/admission bindings and full replay enforce reconstructed prompts, accepted actions and retry history. Frozen source checks bind inputs to the registration commit. Exact bootstrap interpolation, paired-t arithmetic, inclusive sign-flip tails and HIT-first classification match the design. At five blocks, HIT indeed requires mean ≥2 and every difference strictly positive.
+
+**Acknowledged limitations, separate from bugs:** five exploratory blocks; action-set, equilibrium and salience changes bundled together; sign-flip calibration requires symmetry/exchangeability; degenerate intervals do not establish equivalence; low wages do not establish collusion. Served-model identity, effective sampling settings, actual tool non-use and complete configuration remain unattested. Crash accounting is explicitly incomplete.
+
+The file-writing integration suite and live archive validation were outside this read-only review.

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "paths_not_ignored": [
+    "data/s19_labels/raw/responses.jsonl",
+    "logs/s41_launch_preflight.json",
+    "data/s41_ticksize/raw/responses.jsonl",
+    "data/s41_ticksize/raw/admissions.jsonl",
+    "data/s41_ticksize/raw/requests.jsonl",
+    "data/s41_ticksize/raw/execution.jsonl",
+    "data/s41_ticksize/raw/completion_preflight.json",
+    "data/s41_ticksize/raw/dispatch_preflight.json"
+  ],
+  "required_S19_response_tracked": true
+}

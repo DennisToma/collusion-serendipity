@@ -131,3 +131,8 @@ S42:five fresh paired blocks24920..24924;ten self-only-note labor games.
 Entry of remaining identity fromr6 versus persistent duopoly;T10,primaryr7..10,
 225planned valid decisions. Exploratory,zero tuning,no lockedtest,pooling or
 confirmatory claim;four-unit screen/full source manifest frozen before calls.
+
+S41:five fresh paired blocks24880..24884;ten owner-only-note labor games,
+unit versus half-unit wages0..20;T10,primaryr3..10,200planned decisions.
+Exploratory,zero tuning,no heldout,pooling or confirmatory claim. Full design/
+source freeze pushed before live calls;fine-minus-coarse2unit screen.

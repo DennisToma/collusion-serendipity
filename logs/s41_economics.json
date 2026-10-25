@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "grids": {
+    "coarse": {
+      "grid_size": 21,
+      "profiles": 441,
+      "unilateral_choices": 18522,
+      "pure_nash": [
+        [
+          18.0,
+          18.0
+        ],
+        [
+          19.0,
+          19.0
+        ],
+        [
+          20.0,
+          20.0
+        ]
+      ]
+    },
+    "fine": {
+      "grid_size": 41,
+      "profiles": 1681,
+      "unilateral_choices": 137842,
+      "pure_nash": [
+        [
+          19.0,
+          19.0
+        ],
+        [
+          19.5,
+          19.5
+        ],
+        [
+          20.0,
+          20.0
+        ]
+      ]
+    }
+  }
+}

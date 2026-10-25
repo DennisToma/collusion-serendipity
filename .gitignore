@@ -5,3 +5,5 @@ __pycache__/
 .writer.lock
 /logs/*_cli.log
 /logs/*_error.log
+
+/logs/.s41-launch.lock

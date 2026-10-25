@@ -1,0 +1,9 @@
+No concrete implementation blockers found within the requested patch scope.
+
+- **Notes splitting fixed:** [s41_independent.py:126](/home/factory/collusion/collusion-serendipity/scripts/s41_independent.py:126) uses `split(marker, 1)`, preserving delimiter-containing note text.
+- **Quote normalization enforced through the terminal round:** [ticksize.py:252](/home/factory/collusion/collusion-serendipity/sim/ticksize.py:252) stores floats and positive zero; replay compares serialized rows at line 302. [s41_analyze.py:39](/home/factory/collusion/collusion-serendipity/scripts/s41_analyze.py:39) and [s41_independent.py:121](/home/factory/collusion/collusion-serendipity/scripts/s41_independent.py:121) explicitly reject integer quotes and negative zero on every round.
+- **Fixture expanded meaningfully:** [test_s41.py:62](/home/factory/collusion/collusion-serendipity/scripts/test_s41.py:62) includes `0.5`, `19.5`, `20`, `-0.0`, ties, and delimiter-containing notes, followed by analysis and independent verification. The terminal integer-tamper regression is at line 287.
+
+Validation: the scoped suite had **16 passes and 16 environment errors** because the read-only filesystem blocked temporary/cache writes; the mocked end-to-end test could not complete. Additional in-memory checks passed for both arms: negative-zero normalization, delimiter preservation, and terminal integer/negative-zero rejection by the analyzer. The repository lacks an explicit terminal negative-zero mutation test, but its enforcement is present.
+
+Scope: read `DESIGN_S41.md`, both amended reviews, and the named sources; reviewed only the requested remedies. No edits, model launches, or live simulation calls. Acknowledged provider/accounting limitations were excluded.

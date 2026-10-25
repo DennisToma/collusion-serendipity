@@ -1105,3 +1105,25 @@ uv run python scripts/run_tests.py
 S43 source/replay CLI versions are both codex-cli0.163.0;the archived known-input fingerprints differ only in PATH hash. The prospective replay baseline remains invariant across its own calls. This comparison does not attest served-model identity or complete effective configuration. See logs/s43_runtime_comparison.json.
 
 S43 registration00112c2/results137a292 pushed. Fresh full-history origin clone passes full offline release,17S43protocol tests and six byte-identical primary artifacts;clone clean. Receipts:logs/s43_remote_clean_clone.json and logs/s43_remote_clone.exit. Installed frozen venv reused,not a fresh install. Local456post-live tests and both final critics/parent exit0;Codex read raw archives,Opus used supplied quotes/text only. ScientificSHA5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1 unchanged.
+
+
+S41 wage-tick pilot is being registered in iteration30:unit versus half-unit
+wages0..20,five fresh paired blocks24880..24884,T10. The feasible action set and
+pure-Nash wages differ,so this does not isolate numeric representation.
+[Design](DESIGN_S41.md). No live outcomes yet.
+
+After completion,reproduce from the registered/result checkout:
+
+```sh
+uv run python scripts/s41_analyze.py
+uv run python scripts/s41_independent.py
+uv run python scripts/s41_exact_check.py
+uv run python scripts/s41_present.py
+uv run python scripts/s41_release.py
+uv run python -m unittest scripts.test_s41
+```
+
+The release uses cache only and checks the REPORT row against the scientific
+result. `--clean-clone` verifies origin using the existing frozen venv,rather
+than installing dependencies afresh. Shared-source changes require the original
+frozen checkout. No interrupted resume,new scientific calls or sibling writes.
