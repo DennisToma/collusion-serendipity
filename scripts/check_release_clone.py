@@ -37,7 +37,7 @@ def main():
         ['uv', 'python', 'install', '3.12.15'],
         ['uv', 'sync', '--frozen', '--python', '3.12.15'],
         ['uv', 'run', '--frozen', 'python', 'scripts/export_report.py', '--check', '--replay-selected'],
-        [str(Path(args.export_python).resolve()), 'scripts/export_report.py', '--build', '--check-pdf'],
+        [str(Path(args.export_python).absolute()), 'scripts/export_report.py', '--build', '--check-pdf'],
         ['git', 'diff', '--exit-code', 'HEAD', '--', *names],
     ]
     records = []

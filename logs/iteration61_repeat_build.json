@@ -12,12 +12,12 @@
   "byte_identical_files": {
     "BRIEF.html": "dd288afd09d994c61444c92e73519a56cba57c468239811867d0d88770f4470e",
     "BRIEF.pdf": "13f56686c53e8b4939301c2b7d1eea455bdd79f7da8b337c83851ed164e5e0cc",
-    "REPORT.html": "e1d2a2bff93fe454c84da0a61e0c150271ef4f30f24d737e5e0cc1c10e7e90a4",
+    "REPORT.html": "172f951ca8d48cd30fa8a44572db9d63f40cb393ac48d86c9db5812ba6b0adeb",
     "REPORT.pdf": "9835d454bf6602dab095d7e3ce7f7a54d54b5b5f43c44a0aa094b9fecca91add",
     "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
-    "logs/iteration61_exports.json": "e328c0492218ba1458a4a8bab9fa81c6bcfb47a746ddcec901f7307d26a4f56d",
-    "README.md": "d33366483406b77ad312a2717c9b6514238492cff5c43cfeb2ee22565daac0e7",
-    "REPORT.md": "f80300cd21da5913cb2ae896d7ebee778c8d95e4ff0caf1aba22223271bdb052"
+    "logs/iteration61_exports.json": "f9040aae46d860d2e871b27fe78484f51c4fb9bfa7c94b73ec72ffe928d4d079",
+    "README.md": "133edab66555c81b573c36adbbd1ff5a9310e672f72ca44b7d56471751d59404",
+    "REPORT.md": "6a3288f84c9f99401c26d0d3e643b6d00dca31e4e11215cba53d37b22427b595"
   },
-  "scope": "Repeat current reader build on recording host; existing host libraries and warmed caches."
+  "scope": "Final compatibility release; repeat reader build on recording host using installed export environment and warmed caches."
 }

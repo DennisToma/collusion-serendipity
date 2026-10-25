@@ -33,6 +33,8 @@ uv run --frozen python scripts/portfolio_replay.py check --out /var/tmp/explorer
 
 The first command reruns 52 completed analyses, two failure audits and 50 existing checkers in disposable pinned checkouts; checker depth varies. The second checks the resulting receipt. This reproduces archived primary result objects, not every supplementary artifact or a new independent dataset. [Coverage, revisions and limits](results/iteration58_reproduction.md). S68 remains interrupted, with no effect estimate or restart.
 
+**Canonical checks.** `uv run --frozen python scripts/release_tests.py --out /var/tmp/explorer-tests.json` runs the existing suite with its historical synthetic fixtures. Three named legacy S60 document tests additionally read the archived README; the actual current presentation is checked separately. Frozen tests and scientific validators are unchanged.
+
 **Rebuild and inspect the reader exports.** Run in a clean released clone: the build regenerates tracked reader documents, exports, figure and receipt. The export environment is separate from the project environment and uses a hash-locked dependency file:
 
 ```bash

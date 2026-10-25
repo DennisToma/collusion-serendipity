@@ -1,0 +1,157 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.............................Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....................................F..F.Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.........................................................................................Complete:30 cached decision responses
+.............Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....................................................
+======================================================================
+FAIL: test_front_report_drift_is_rejected_without_rewriting (test_s60_presentation.Tests.test_front_report_drift_is_rejected_without_rewriting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/s65_tests.py", line 30, in scoped
+    with patch.object(Path,'read_bytes',new=read):return original(self)
+                                                         ^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 15, in test_front_report_drift_is_rejected_without_rewriting
+    self.assertEqual(set(compare_documents(generated)),set(DOCUMENTS))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 99, in compare_documents
+    expected,actual=document_sections(generated,{name:read_bytes(name) for name in DOCUMENTS})
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 81, in document_sections
+    assert len(a)==len(b)==1,'Missing or duplicate S60 document section: '+name
+           ^^^^^^^^^^^^^^^^^
+AssertionError: Missing or duplicate S60 document section: REPORT.md
+
+======================================================================
+FAIL: test_readme_false_claim_is_rejected (test_s60_presentation.Tests.test_readme_false_claim_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/s65_tests.py", line 30, in scoped
+    with patch.object(Path,'read_bytes',new=read):return original(self)
+                                                         ^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 26, in test_readme_false_claim_is_rejected
+    self.assertNotEqual(current['README.md'],Path('README.md').read_bytes())
+AssertionError: b'# Collusion Serendipity Explorer\n\n**Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: shared notes coincided with more organization-harming approvals in one small pilot, while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.\n\n**The lead and its uncertainty:** Employees review each other; in S29/S62, approving TYPE-Y benefits the author, costs the reviewer and harms the organization. In S29 (gpt-6-luna), TYPE-Y approvals were **2/40 with self notes versus 15/40 with shared notes**: shared-minus-self approval-rate difference **+0.325**, descriptive block bootstrap 95% CI **[+0.100, +0.575]**, paired t 95% CI **[-0.049, +0.699]**. Each arm has five games and forty TYPE-Y opportunities over rounds 3\xe2\x80\x9310; uncertainty uses five paired blocks. One block ties; the registered upper-tail sign-flip p=0.0625 misses the 0.05 screen. S62 (qwen-3.6-35b), ten fresh games in five blocks, gives **3/40 versus 7/40**, contrast **+0.100 [-0.025, +0.250]** (bootstrap 95% CI). Both pilots remain ODD. [Current evidence brief, payoff accounting and all intervals](BRIEF.pdf).\n\nThe frozen portfolio contains 54 entries: 29 DUD, 23 ODD/context-only and two failed. Entries reuse data and are not independent replications. These exploratory screens have no multiplicity correction or held-out validation. Adverse approvals do not establish agreement, intent or profitable collusion.\n\n| Read | Contents |\n|---|---|\n| [Brief PDF](BRIEF.pdf) / [HTML](BRIEF.html) | Selected evidence, payoffs and uncertainty |\n| [Report](REPORT.md) / [PDF](REPORT.pdf) / [HTML](REPORT.html) | All 54 pilot rows and current interpretation |\n| [Methods and limitations](REPORT_DETAILS.md) | Per-pilot setup, caveats and figures |\n| [Experiment ledger](EXPERIMENTS.tsv) / [ideas](IDEAS.tsv) / [splits](data/SPLITS.md) | Registration/result chronology and exploratory status |\n| [Current state](STATUS.md) / [handoffs](HITS.md) | Append-only research history; no promoted hit |\n\n**Check the current release.** Start from a clean full-history clone (no `--depth`), [uv](https://docs.astral.sh/uv/getting-started/installation/) and Python 3.12.15, the recorded Python version. Run from the repository root. The first two commands may download Python or dependencies; the check reads saved evidence and guards the selected replays.\n\n```bash\nuv python install 3.12.15\nuv sync --frozen --python 3.12.15\nuv run --frozen python scripts/export_report.py --check --replay-selected\n```\n\nThis checks all 54 table rows, 307 numerical bindings, 144 sample/window fields and saved reproduction receipts, then reruns five selected analyses and separate checkers (S29, S62, S69, S70 and S72). S72 uses its genuine historical revision. It verifies export hashes and reports saved PDF coverage; it does not re-extract PDF text or rerun all 54 analyses. No API credentials are needed for these replays. The selected replays guard `llm.chat`; this is not network isolation or independent scientific validation.\n\n**Recompute every primary result.** With the project environment installed:\n\n```bash\nuv run --frozen python scripts/portfolio_replay.py run --out /var/tmp/explorer-portfolio.json\nuv run --frozen python scripts/portfolio_replay.py check --out /var/tmp/explorer-portfolio.json\n```\n\nThe first command reruns 52 completed analyses, two failure audits and 50 existing checkers in disposable pinned checkouts; checker depth varies. The second checks the resulting receipt. This reproduces archived primary result objects, not every supplementary artifact or a new independent dataset. [Coverage, revisions and limits](results/iteration58_reproduction.md). S68 remains interrupted, with no effect estimate or restart.\n\n**Rebuild and inspect the reader exports.** Run in a clean released clone: the build regenerates tracked reader documents, exports, figure and receipt. The export environment is separate from the project environment and uses a hash-locked dependency file:\n\n```bash\nuv venv --python 3.12.15 /var/tmp/explorer-export61\nuv pip install --python /var/tmp/explorer-export61/bin/python --require-hashes -r requirements-export.lock\n/var/tmp/explorer-export61/bin/python -m playwright install chromium\n/var/tmp/explorer-export61/bin/python scripts/export_report.py --build --check-pdf\ngit diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration61_exports.json\n```\n\nDependency/browser installation needs network access; Linux may also need Chromium system libraries. Rendering blocks browser network requests. `--check-pdf` re-extracts text, checks complete table rows in order and validates link targets. The final command tests byte identity on the recording host. Other hosts may change PDF, PNG, embedded HTML and receipt bytes; report those differences alongside the content checks. Keep the brief/report exports together for local links. Pinned GitHub evidence links require repository access.\n\n**Historical reproduction.** [Fresh-install evidence](results/iteration57_reproduction.md) targets the archived handoff `e6b0c02`, reusing host Python, uv, OS libraries and fonts. Its receipt-only check does not reproduce the current checkout. [The complete iteration-60 runbook](https://github.com/DennisToma/collusion-serendipity/blob/73492a929c2245a033f1b1598a03703c3f6f6ee6/README.md) retains all per-pilot commands, including historical generation and publication commands; use their recorded revisions. Archived files linking to per-pilot README instructions refer to that runbook. Read it offline with `git show 73492a929c2245a033f1b1598a03703c3f6f6ee6:README.md`. The current replay commands above reproduce saved evidence without starting simulated agents. Future work is an unfinished, unregistered proposal in the [report](REPORT.md).\n' == b'# Collusion Serendipity Explorer\n\n**Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: shared notes coincided with more organization-harming approvals in one small pilot, while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.\n\n**The lead and its uncertainty:** Employees review each other; in S29/S62, approving TYPE-Y benefits the author, costs the reviewer and harms the organization. In S29 (gpt-6-luna), TYPE-Y approvals were **2/40 with self notes versus 15/40 with shared notes**: shared-minus-self approval-rate difference **+0.325**, descriptive block bootstrap 95% CI **[+0.100, +0.575]**, paired t 95% CI **[-0.049, +0.699]**. Each arm has five games and forty TYPE-Y opportunities over rounds 3\xe2\x80\x9310; uncertainty uses five paired blocks. One block ties; the registered upper-tail sign-flip p=0.0625 misses the 0.05 screen. S62 (qwen-3.6-35b), ten fresh games in five blocks, gives **3/40 versus 7/40**, contrast **+0.100 [-0.025, +0.250]** (bootstrap 95% CI). Both pilots remain ODD. [Current evidence brief, payoff accounting and all intervals](BRIEF.pdf).\n\nThe frozen portfolio contains 54 entries: 29 DUD, 23 ODD/context-only and two failed. Entries reuse data and are not independent replications. These exploratory screens have no multiplicity correction or held-out validation. Adverse approvals do not establish agreement, intent or profitable collusion.\n\n| Read | Contents |\n|---|---|\n| [Brief PDF](BRIEF.pdf) / [HTML](BRIEF.html) | Selected evidence, payoffs and uncertainty |\n| [Report](REPORT.md) / [PDF](REPORT.pdf) / [HTML](REPORT.html) | All 54 pilot rows and current interpretation |\n| [Methods and limitations](REPORT_DETAILS.md) | Per-pilot setup, caveats and figures |\n| [Experiment ledger](EXPERIMENTS.tsv) / [ideas](IDEAS.tsv) / [splits](data/SPLITS.md) | Registration/result chronology and exploratory status |\n| [Current state](STATUS.md) / [handoffs](HITS.md) | Append-only research history; no promoted hit |\n\n**Check the current release.** Start from a clean full-history clone (no `--depth`), [uv](https://docs.astral.sh/uv/getting-started/installation/) and Python 3.12.15, the recorded Python version. Run from the repository root. The first two commands may download Python or dependencies; the check reads saved evidence and guards the selected replays.\n\n```bash\nuv python install 3.12.15\nuv sync --frozen --python 3.12.15\nuv run --frozen python scripts/export_report.py --check --replay-selected\n```\n\nThis checks all 54 table rows, 307 numerical bindings, 144 sample/window fields and saved reproduction receipts, then reruns five selected analyses and separate checkers (S29, S62, S69, S70 and S72). S72 uses its genuine historical revision. It verifies export hashes and reports saved PDF coverage; it does not re-extract PDF text or rerun all 54 analyses. No API credentials are needed for these replays. The selected replays guard `llm.chat`; this is not network isolation or independent scientific validation.\n\n**Recompute every primary result.** With the project environment installed:\n\n```bash\nuv run --frozen python scripts/portfolio_replay.py run --out /var/tmp/explorer-portfolio.json\nuv run --frozen python scripts/portfolio_replay.py check --out /var/tmp/explorer-portfolio.json\n```\n\nThe first command reruns 52 completed analyses, two failure audits and 50 existing checkers in disposable pinned checkouts; checker depth varies. The second checks the resulting receipt. This reproduces archived primary result objects, not every supplementary artifact or a new independent dataset. [Coverage, revisions and limits](results/iteration58_reproduction.md). S68 remains interrupted, with no effect estimate or restart.\n\n**Rebuild and inspect the reader exports.** Run in a clean released clone: the build regenerates tracked reader documents, exports, figure and receipt. The export environment is separate from the project environment and uses a hash-locked dependency file:\n\n```bash\nuv venv --python 3.12.15 /var/tmp/explorer-export61\nuv pip install --python /var/tmp/explorer-export61/bin/python --require-hashes -r requirements-export.lock\n/var/tmp/explorer-export61/bin/python -m playwright install chromium\n/var/tmp/explorer-export61/bin/python scripts/export_report.py --build --check-pdf\ngit diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration61_exports.json\n```\n\nDependency/browser installation needs network access; Linux may also need Chromium system libraries. Rendering blocks browser network requests. `--check-pdf` re-extracts text, checks complete table rows in order and validates link targets. The final command tests byte identity on the recording host. Other hosts may change PDF, PNG, embedded HTML and receipt bytes; report those differences alongside the content checks. Keep the brief/report exports together for local links. Pinned GitHub evidence links require repository access.\n\n**Historical reproduction.** [Fresh-install evidence](results/iteration57_reproduction.md) targets the archived handoff `e6b0c02`, reusing host Python, uv, OS libraries and fonts. Its receipt-only check does not reproduce the current checkout. [The complete iteration-60 runbook](https://github.com/DennisToma/collusion-serendipity/blob/73492a929c2245a033f1b1598a03703c3f6f6ee6/README.md) retains all per-pilot commands, including historical generation and publication commands; use their recorded revisions. Archived files linking to per-pilot README instructions refer to that runbook. Read it offline with `git show 73492a929c2245a033f1b1598a03703c3f6f6ee6:README.md`. The current replay commands above reproduce saved evidence without starting simulated agents. Future work is an unfinished, unregistered proposal in the [report](REPORT.md).\n'
+
+----------------------------------------------------------------------
+Ran 886 tests in 167.497s
+
+FAILED (failures=2)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.697s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.103s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.296s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": false,
+  "tests": 926,
+  "failures": 2,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 886,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

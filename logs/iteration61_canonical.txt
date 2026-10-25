@@ -1,0 +1,184 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.............................Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.........................................Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.........................................................................................Complete:30 cached decision responses
+.............Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....................................................
+----------------------------------------------------------------------
+Ran 886 tests in 168.200s
+
+OK
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.590s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.096s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.334s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": true,
+  "tests": 926,
+  "failures": 0,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 886,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}
+{
+  "passed": true,
+  "tests": 926,
+  "failures": 0,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 886,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched",
+  "legacy_readme_fixture": {
+    "readme_revision": "73492a929c2245a033f1b1598a03703c3f6f6ee6",
+    "archived_readme_sha256": "20dd2677635ef9aec0b5c4cf21ef7b8067880d6f93fe15ee64189ea62886a792",
+    "named_tests": [
+      "test_front_report_drift_is_rejected_without_rewriting",
+      "test_readme_false_claim_is_rejected",
+      "test_later_pilots_can_append_and_archive_the_front_summary"
+    ],
+    "scope": "Only these historical S60 tests read archived README bytes; all other reads and actual scientific validation remain unchanged."
+  },
+  "actual_current_presentation_check": {
+    "protected_files": 3181,
+    "pilot_rows": 54,
+    "numeric_bindings": 307,
+    "metadata_checks": 144,
+    "saved_primary_replay_objects": 54,
+    "saved_existing_checkers": 50,
+    "pdf_coverage_reextracted": false,
+    "saved_pdf_coverage": {
+      "BRIEF": {
+        "pages": 2,
+        "source_fragments_checked": 59,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 13,
+        "portable_relative_links": 1
+      },
+      "REPORT": {
+        "pages": 3,
+        "source_fragments_checked": 180,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 55,
+        "portable_relative_links": 6
+      }
+    },
+    "passed": true
+  }
+}

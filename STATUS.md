@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25 15:28 UTC; Phase 2, iteration 61 verified, push pending)
-- Portfolio frozen: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT or headline change.
-- README reduced from 106249 to 5958 bytes; findings, current setup and selected/full replay routes are explicit.
-- Complete historical runbook retained at pinned 73492a9, with online and offline access; frozen referrals checked.
+## Current state (2026-10-25 15:41 UTC; Phase 2, iteration 61 result ready, origin proof pending)
+- Frozen portfolio: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT or headline change.
+- README 6316 bytes versus 106249; current setup, selected/full replay and canonical-check commands separated.
+- Complete prior runbook pinned at 73492a9, with online/offline access; seven historical referrals checked.
 - S29 +.325[+.100,+.575], t[-.049,+.699], p=.0625; S62 +.100[-.025,+.250]; both ODD, unchanged.
-- Current build/PDF extraction and five selected replays pass; 54 rows, 307 numeric/144 metadata checks intact.
-- Fresh full-primary replay passes: 52 analyses, two failure audits, 50 existing checkers; depths vary.
-- All 3181 prior protected paths unchanged; scientific sources, HITS, ledgers, splits and old receipts preserved.
-- Brief 2/report 3 pages retain 59/180 fragments and 13/55 complete rows; changed first pages visually inspected.
-- Codex repository review: no high/medium; supplied-text Opus items addressed by wording, link checks and execution.
-- Initial guard failures and concurrent-doc full-replay rejection retained; no validator relaxed or science changed.
-- No canonical suite rerun for this documentation chunk; current build/replays provide relevant verification.
-- Next: commit/push, verify clean-origin documented setup and byte identity; then preserve release. S68 never resume.
+- Current build/PDF extraction and selected5 pass; 54 rows, 307 numerical/144 metadata checks intact.
+- Full primary replay passes: 52 analyses, two failure audits, 50 existing checkers; depths vary.
+- All926 canonical tests pass using legacy synthetic fixtures and archived README in three named S60 tests.
+- Actual current presentation checked separately; restored empty S60 report anchor; frozen tests/validators unchanged.
+- All3181 prior protected paths unchanged; brief2/report3 pages retain59/180 fragments and13/55 complete rows.
+- Codex/Opus editorial scopes retained; final narrow Codex compatibility review exit0, no high/medium.
+- Failed source-changing full replay, legacy two-failure suite and initial helper symlink failure retained.
+- Next: push compatibility fixes, clean-origin setup/rebuild proof, close release. No new experiments; S68 never resume.
 
 ## Log
 
@@ -799,3 +799,5 @@
 - 2026-10-25 15:23 UTC: iteration61 read CLAUDE/PLAN/STATUS/DIRECTION, the experiment ledger and both sibling report/state summaries. Experiments are closed; selected one publication-usability chunk: replace the 106249-byte README, which mixed current checks with historical live-generation commands, with a concise current reader/reproduction guide. Full prior runbook remains exactly available at pinned revision 73492a9; no scientific source, ledger, split, HITS, estimate, verdict or sibling changes. Strengthened presentation preservation baseline to that complete prior release (3181 protected paths). Current export build/PDF extraction and five selected replays pass; 54 original rows, 307 numerical and 144 metadata bindings intact. Independent editorial Codex/Opus critics running. No experiment-ledger row: this is presentation only. Earlier bare-python invocation failed (no system python); initial README draft incorrectly named S53 among selected replays, corrected to S70 before review. Subsequent unchanged publication guards rejected an intervening draft; preserved both failures and rebuilt from exact committed documents, without relaxing a guard or changing science.
 
 - 2026-10-25 15:28 UTC: iteration61 final documentation verification complete. README 5958 bytes versus 106249 (historical runbook pinned at 73492a9, accessible via GitHub and git show). Seven frozen-file README referrals found, no section anchors, and explicit archive guidance added; all15 local README link occurrences resolve. Codex read-only repository review exits0 with no high/medium; supplied-text Opus exits0 and raises six medium documentation items, addressed by full replay execution, cross-host PNG/HTML/receipt wording, clean-clone build instructions, selected-only call-guard wording and offline/archive referral access. Final minor wording is manager-verified, not independently re-reviewed. The first full replay reproduced all54 objects but correctly rejected its overall receipt because documentation changed during execution; retained full failure receipt, reran with tracked bytes stable, and obtained terminalexit0 for all54 objects/50checkers and receipt check. Scientific sources, results and validators unchanged; no new experiment or ledger row. Current PDF text/link/row checks and selected5 replays pass; complete brief/report first pages visually inspected. Repeat-build and clean-origin setup proof recorded separately as they complete. No full canonical suite rerun, fresh empty-cache install, cross-host or independent scientific-validity claim. Commit and push follow.
+
+- 2026-10-25 15:41 UTC: iteration61 compatibility work verified before closing. Initial origin clone at pushed result5cb8f8b successfully installed a new project environment and ran selected checks, then the new helper failed export import because Path.resolve followed its venv Python symlink to the base interpreter. Preserve failure log; fix helper to Path.absolute (venv path retained). Inspection of legacy document tests prompted actual926-check run: two failures, zero errors; one was the removed README section and the other a preexisting empty S60 REPORT anchor omitted by the earlier reader overlay. Both failure receipts retained. Restore the empty presentation-only anchor; add scripts/release_tests.py, which leaves every frozen test/validator unchanged, checks real current presentation in a separate unpatched process, and supplies archived README bytes only inside three named historical S60 tests, preserving existing split-index fixtures. Six focused tests and the complete926-check suite now terminalexit0, zero failures/errors; no tests filtered by the wrapper. Narrow independent Codex code review exit0, stable source hashes, no high/medium; it inspects nesting/no-filtering/actual-presentation separation and helper interpreter path, not execution or scientific validity. README now6316bytes and documents the canonical entry and exact fixture scope. New scientific estimates, experiments, calls, ledger changes, verdicts and sibling writes remain forbidden and absent. Final repeat build/selected check and clean-origin proof follow; old initial-review and interrupted/failed records remain.

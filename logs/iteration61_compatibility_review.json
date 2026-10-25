@@ -1,0 +1,12 @@
+{
+  "exit": 0,
+  "source_hashes_at_launch": {
+    "scripts/release_tests.py": "7f90524e6ed051aed054f3499bca70f5ccdf5a5b91b1097d154cb7487f812902",
+    "scripts/check_release_clone.py": "c0113b80a67bb5ad179c19797f403d8c5f6e5cc0af0e0d719a454dfd262a172d",
+    "scripts/export_report.py": "53bf6f8e4d2be602d4fd1e18652fa8dd22b2c5b412886ad604465cc63053353e",
+    "README.md": "133edab66555c81b573c36adbbd1ff5a9310e672f72ca44b7d56471751d59404",
+    "REPORT.md": "6a3288f84c9f99401c26d0d3e643b6d00dca31e4e11215cba53d37b22427b595"
+  },
+  "sources_unchanged_during_review": true,
+  "scope": "Narrow repository read-only compatibility review; actual scope in critique."
+}

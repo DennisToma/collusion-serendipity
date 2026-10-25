@@ -1,7 +1,7 @@
 {
   "passed": true,
   "readme_bytes_before": 106249,
-  "readme_bytes_after": 5958,
+  "readme_bytes_after": 6316,
   "selected_ids_match_saved_receipt": true,
   "local_links_checked": [
     "BRIEF.pdf",
@@ -31,5 +31,7 @@
     "data/s37_policyword/README.md:18:[reproduction instructions](../../README.md). No pooling with S36;the wording"
   ],
   "offline_archive_command_resolves": true,
-  "scope": "Current guide, existing local link targets, exact offline Git archive and frozen-file README referrals; external accessibility not tested."
+  "scope": "Current guide, existing local link targets, exact offline Git archive and frozen-file README referrals; external accessibility not tested.",
+  "canonical_test_command_documented": true,
+  "historical_S60_anchor_preserved": true
 }

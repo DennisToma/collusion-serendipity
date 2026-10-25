@@ -41,3 +41,28 @@ build reproduces all eight reader/document/receipt products byte for byte.
 The full canonical suite was not rerun for this documentation change. Actual
 clean-origin setup/reproduction is a separate subsequent receipt and is not
 claimed merely from these reviews or the repeat-build check.
+
+
+## Subsequent compatibility checks (15:41 UTC)
+
+The first origin-clone helper reached the export step with a base Python after
+`Path.resolve()` followed the virtualenv symlink. Its failure log is retained;
+`Path.absolute()` now preserves the venv interpreter. This changes the new
+verification helper, not the documented export command or scientific code.
+
+A subsequent actual canonical run found two presentation failures: the missing
+README section and a preexisting dropped empty S60 REPORT anchor. The exporter
+now preserves that invisible compatibility marker. A new canonical entry
+checks actual current presentation in a separate unpatched process, then gives
+only three named legacy S60 document tests the archived README. Frozen tests,
+scientific validation and existing fixture behavior remain unchanged. All 926
+tests pass with zero failures/errors, and the six focused S60 tests pass. The
+initial two-failure canonical receipt is retained.
+
+A second, narrow read-only Codex review of the final fixture/helper and relevant
+frozen dependencies exits zero, with stable source hashes and no high/medium
+issue. It confirms the wrapper does not filter tests or mask science outside
+the named document tests. It performs no execution or scientific validation.
+The original supplied-text Opus review predates this compatibility work.
+README documents the actual canonical entry and fixture limits. Current guide
+size is 6316 bytes; the original runbook stays 106249 bytes in the pinned archive.

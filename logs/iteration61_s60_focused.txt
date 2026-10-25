@@ -1,0 +1,11 @@
+test_each_appendix_and_figure_is_required_and_bound (test_s60_presentation.Tests.test_each_appendix_and_figure_is_required_and_bound) ... ok
+test_false_verdict_and_effect_are_rejected_with_valid_links (test_s60_presentation.Tests.test_false_verdict_and_effect_are_rejected_with_valid_links) ... ok
+test_front_report_drift_is_rejected_without_rewriting (test_s60_presentation.Tests.test_front_report_drift_is_rejected_without_rewriting) ... ok
+test_full_frozen_renderer_matches_without_changing_originals (test_s60_presentation.Tests.test_full_frozen_renderer_matches_without_changing_originals) ... ok
+test_later_pilots_can_append_and_archive_the_front_summary (test_s60_presentation.Tests.test_later_pilots_can_append_and_archive_the_front_summary) ... ok
+test_readme_false_claim_is_rejected (test_s60_presentation.Tests.test_readme_false_claim_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.726s
+
+OK
