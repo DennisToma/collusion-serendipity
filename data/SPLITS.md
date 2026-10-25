@@ -126,3 +126,8 @@ Twenty fresh stateless retain/erase decisions;zero new games,zero tuning and
 no held-out/prevalence/independent-replication claim. Original actions are
 context only,never an outcome arm;no pooling with S37 scientific outcomes.
 DESIGN_S40.md/case manifest/code registered and pushed before paid calls.
+
+S42:five fresh paired blocks24920..24924;ten self-only-note labor games.
+Entry of remaining identity fromr6 versus persistent duopoly;T10,primaryr7..10,
+225planned valid decisions. Exploratory,zero tuning,no lockedtest,pooling or
+confirmatory claim;four-unit screen/full source manifest frozen before calls.

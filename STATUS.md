@@ -1,18 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T02:54:22.298124+00:00; Phase2, iteration27 COMPLETE)
-- E/S40:20fresh decisions/10observed histories/5sourceblocks;zero new games.
-- Retain/erase normalized offers0each;difference0[0,0],upperp1;frozenDUD,noHIT.
-- All20quotes10 minimum;five paired ties;SD0/bounds degenerate,no equivalence.
-- Offer,not worker pay;public history retained;no memory-irrelevance/coordination claim.
-- Full20prompt/registration/runtime/UTC/schedule replay and separate15cells/3summaries PASS.
-- Post-live426tests childexit0;Codex raw-archive/Opus supplied-text critics exit0.
-- Call-forbidden regeneration:six artifacts/seven archivefiles/13sources/14inputs unchanged.
-- Fresh origin clone at40764a2:full release/12protocol tests/six exact artifacts,clean.
-- Registrationcc0652a/results40764a2 pushed;ledger references finalized.
-- ScientificSHA903bdfcab56f;no active generation/review,tuning,pooling or sibling writes.
-- Risk:known fingerprints only;source/replay PATH hash differs;provider/tool use unattested.
-- Next:fresh different axis,new world/market structure;S39/S41 queued,S32unconfirmed,S30unrun.
+## Current state (2026-10-25T02:59:10.427162+00:00; Phase2, iteration28 IN PROGRESS)
+- Selected B2/S42 surprise third-employer entry after E/S40;fresh10games/5blocks.
+- Entry fromr6 versus persistent duopoly;primary paid wage r7–10,entry−control.
+- Registered four-unit directional screen;225planned decisions,zero tuning.
+- Thirteen scoped tests/full225-key synthetic replay PASS;no live calls yet.
+- Exact arithmetic supports three-way ties;all80metriccells/24summaries checked.
+- Codex/Opus design critics exit0;fixes applied before calls,final source freeze ready.
+- S40 remains frozenDUD:20freshquotes10;no offer response to private-note erasure.
+- Existing scientific sources preserved;no pooling,held-out or coordination claim.
+- S42 risks:smalln,stochastic histories,identity/prompt-size/competition bundle.
+- Known CLI fingerprints only;provider/settings/tool use remain unattested.
+- Next:registrationpush,one live launch,fullreplay,report,commit/push.
 
 ## Log
 
@@ -395,3 +394,9 @@
 - 2026-10-25T02:52:55.873643+00:00: S40 final call-forbidden regeneration PASS:all six primary artifacts byte-identical,seven archive files/13frozen scientific sources/14selected S37source files unchanged. ScientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace;123local links/cache-only release PASS. Post-live426tests childexit0;both final critics/parent exit0. No active generation/review or further scientific calls. git diff --check PASS. Results milestone commit/push then fresh origin clone next.
 
 - 2026-10-25T02:54:22.298124+00:00: iteration27 COMPLETE. S40 registrationcc0652a1a43614fe3b1b7dd464972e589c6e37e8/results40764a2629f138ce43780c7ed9aebf0308516d76 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen full analysis,separate20rawquote/15cell/3sets3125bootstrap+t/32signflip reconstruction,summary/figure regeneration,model-call-forbidden release and all12protocol tests. Six primary artifacts byte-identical;clone git status clean. logs/s40_remote_clean_clone.json records exact commands/hashes and existing frozen-venv reuse,not fresh dependency installation;durable remote childexit0. Durable local426post-live tests childexit0. Both final critics/parent exit0:Codex raw archive/full chronology,Opus explicitly supplied result lists/text only. FrozenDUD:retain0/erase0,all20freshquotes10,all five differences0,bootstrap/tformula[0,0] degenerate atSD0,upperp1;no population equivalence or memory-irrelevance,trajectory,mechanism,agreement,coordination or realized-worker-pay claim. All13scientific sources/seven archivefiles/14selected source inputs unchanged;scientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace. Source/replay known fingerprint differs only PATH hash;provider/effective settings/tool use remain unattested. Ledger result reference finalized;reports/HITS/README current. S39/S41 proposals only,S32unconfirmed,S30unrun. No additional scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Final publication receipt commit/push next.
+
+- 2026-10-25T02:59:10.427162+00:00: iteration28 read all rules/state/direction/ledgers and both sibling summaries. Selected fresh B2/S42 surprise third-employer entry after E/S40,not another wage-framing comparison. Registered five fresh paired blocks24920..24924,T10,entryr6,paid-wage primaryr7–10 and four-unit fixed screen;225planned decisions. Reused S38 archived harness with dynamic roster,entrant own-empty-note visibility and exact rational three-way-share metrics. All9scoped tests,complete225-key synthetic replay and independent60cells/18exactbootstrap+t summaries PASS;no live calls. Codex/Opus adversarial methodology reviews running. No direction deviation,sibling writes,tuning,pooling or second pilot.
+
+- 2026-10-25T03:02:55.318418+00:00: S42 initial Codex/Opus methodology critics exit0. Fixed synthetic test expiry,added full mocked-live225-call eligibility/publication and atomic failure tests (13scoped PASS),highest-offer wording and parsed-UTC earliest start. Accepted prospective pre-entryr1–5 wage and post-minus-pre descriptive diagnostics;primaryr7–10/four-unit screen unchanged. Exact denominator720,independent80raw metriccells/24exactbootstrap+t summaries/24sign tails. Retained fail-closed auth-refresh/parser/one-shot policies with explicit operational/privacy/accounting limitations. Initial raw discovery435tests had8failures/1error solely from known expired historical fixtures;documented canonical runner439tests PASS,final amended fullsuite/dryarchive in progress. No scientific calls,source mutations to historical pilots,tuning,pooling or direction deviation.
+
+- 2026-10-25T03:03:43.323523+00:00: final S42 prechecks PASS with childexit0:439canonical repository tests,13scoped entry tests,complete225-key synthetic archive,all80independent raw metriccells/24exactbootstrap+t summaries/24sign tails,byte-identical repeated analysis,figure preview. All22registered source hashes match final precheck manifest. Runtimegate requires1175.459895seconds using conservative historical30calls/game;current headroom passes. Both design critics exit0,review disposition recorded;no live calls/outcomes. Registration commit/push and sole live launch next.

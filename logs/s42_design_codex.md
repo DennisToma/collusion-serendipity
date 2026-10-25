@@ -1,0 +1,11 @@
+Found **one concrete remaining bug**, severity **medium**. No high-severity scientific bug identified.
+
+- **The transport-failure test expires at the admission deadline.** [test_s42.py:59](/home/factory/collusion/collusion-serendipity/scripts/test_s42.py:59) uses the real clock while expecting a mocked transport error. From **2026-10-25 04:15 UTC**, the admission guard raises “deadline” before reaching that mock. Consequently, required post-cutoff repository tests and fresh-clone verification fail even for a valid archive. I reproduced this entirely in memory: deadline exception, zero transport calls. **Remedy:** freeze `sim.entry.now` to a pre-cutoff timestamp within this test; retain the separate explicit deadline test.
+
+The economics and screening checks passed: exhaustive enumeration recovered three duopoly and 62 three-firm pure Nash profiles. Payoffs conserve worker payment plus total firm profit at 20. The primary window is correctly rounds 7–10; bootstrap interpolation, inclusive sign tails and HIT/DUD precedence match the design. At five blocks, HIT correctly requires mean difference ≥4 and all five differences strictly positive.
+
+The simulator withholds current-round wages and notes until all choices complete. Entry begins in round six, with an empty entrant notepad and completed public history. Reviewed cache paths reject duplicate/torn provenance, reconstruct requests and consume every archived key exactly once. Interrupted or failed invocations are excluded from estimation.
+
+**Acknowledged limitations, rather than additional bugs:** five exploratory blocks; unfixed model draws and unmatched pre-entry histories; entry bundles competition, identities, prompt length and subsequent histories; sign-flip calibration requires assumptions beyond enumeration; low wages do not establish collusion; local fingerprints provide incomplete configuration coverage and no provider/tool-use attestation.
+
+Read all 13 requested files. No edits or live model calls. Validation comprised static review and read-only, in-memory checks; I did not run the filesystem-writing test suite or validate a completed S42 live archive.

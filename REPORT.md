@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 27 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 28 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -32,6 +32,7 @@
 | S38 · F, final-round disclosure | 10 games /5 blocks. Paid wage r3–10: hidden **8.000**, known **8.000**; known−hidden **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
 | S37 · own, payroll wording | 10 games /5 blocks. Take-home wage r3–10: coded **0.000**, payroll **0.000**; coded−payroll **+0.000 [+0.000, +0.000]** (degenerate); both at allowed minimum. | **DUD** for two-unit increase screen |
 | S40 · E, private-note erasure | Ten observed S37 histories /5 blocks;20 fresh decisions. Normalized offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
+| S42 · B2, surprise employer entry | Registered: third employer from r6 versus persistent duopoly; primary paid wage r7–10. No live outcomes yet. | **PENDING** |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -50,4 +51,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis question after E/S40; prefer a new world or market structure. S39/S41 queued only, S32 unconfirmed and S30 unrun.
+**Next:** Complete registered S42 entry pilot and its frozen checks; S39/S41 remain proposals, S32 unconfirmed and S30 unrun.

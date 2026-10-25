@@ -1,0 +1,188 @@
+{
+  "started_utc": "2026-10-25T03:02:21.657658+00:00",
+  "completed_utc": "2026-10-25T03:03:26.367393+00:00",
+  "child_exit_code": 0,
+  "canonical_repository_suite": {
+    "passed": true,
+    "tests": 439,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "legacy_s31_synthetic_clock": {
+      "modules": [
+        "test_s31"
+      ],
+      "tests": 12,
+      "now": "2026-10-24T23:29:00+00:00",
+      "source_files_modified": false
+    },
+    "s33_synthetic_clock": {
+      "modules": [
+        "test_s33"
+      ],
+      "tests": 13,
+      "now": "2026-10-25T00:20:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "scoped_tests": 13,
+  "dry_raw_independent": {
+    "passed": true,
+    "metric_cells": 80,
+    "bootstrap_and_t_summaries": 24,
+    "sign_sets": 8,
+    "sign_tails": 24,
+    "raw_keys": 225,
+    "notes_and_reasons": 225,
+    "prompt_contracts": 225,
+    "verdict": "DUD",
+    "primary_mean": 1.4,
+    "primary_ci": [
+      -1.05,
+      3.8
+    ],
+    "upper_p": 0.1875,
+    "result_sha256": "105d43de74d617a9a5bf3b3bc104b929adfb34bbe35a795622e39ef666c67e83"
+  },
+  "raw_discovery_attempt": {
+    "tests": 435,
+    "failures": 8,
+    "errors": 1,
+    "reason": "Expired historical mocked fixture cutoffs; documented canonical runner passes without source/deadline edits",
+    "log_sha256": "36b6756977ad2205f7dd9ad101b89cb3a7b94a879e1bc00f5797ada632da6f28"
+  },
+  "runtime_precheck": {
+    "checked_utc": "2026-10-25T03:03:26.370035+00:00",
+    "previous_block_seconds": [
+      148.482404,
+      156.727986,
+      152.011978,
+      102.188508,
+      107.288195
+    ],
+    "previous_game_calls": {
+      "s19_24320_neutral": 30,
+      "s19_24320_normative": 30,
+      "s19_24321_neutral": 30,
+      "s19_24321_normative": 30,
+      "s19_24322_neutral": 30,
+      "s19_24322_normative": 30,
+      "s19_24323_neutral": 30,
+      "s19_24323_normative": 30,
+      "s19_24324_neutral": 30,
+      "s19_24324_normative": 30
+    },
+    "previous_response_count": 300,
+    "previous_responses_sha256": "94c259b70c02eef8854b0375696a8cad2c2be32b7ac16b2416e34ed4593970dc",
+    "previous_game_sha256": {
+      "data/s19_labels/game_24320_neutral.json": "611c5c72d2b05cc1665d6cae02f215395e078a658b818b9fc9f1fa93c1f33865",
+      "data/s19_labels/game_24320_normative.json": "f49ffb566dc86fa86d33564c4eade52f3243d592802a2232946ec76a0e01b07b",
+      "data/s19_labels/game_24321_neutral.json": "f767a677c90cccb055a17eee82ad70743c259ff6a1745690317341bfc261b921",
+      "data/s19_labels/game_24321_normative.json": "c5a91db7c61b8fb1bcb6f69905766f921a3ba805ec8d23c4b5b0bf0d9e4b207b",
+      "data/s19_labels/game_24322_neutral.json": "ab1628b284ea989784ea0c2e834ab32222cd213395df6f0dccc35533bb39940a",
+      "data/s19_labels/game_24322_normative.json": "84d1d91df03d2b5487e66a5b88a7898e08e61c985581e24184e6a32f56927a03",
+      "data/s19_labels/game_24323_neutral.json": "3b47d9e32512880c9af96274917ec15f811f0a8347bae3235e96f3b193ad1f99",
+      "data/s19_labels/game_24323_normative.json": "8fc1ca68a10b42b92b48fb1c7ef7292441b296b9db529c7281ad2d038f502636",
+      "data/s19_labels/game_24324_neutral.json": "8a42eba6605174a5ca856cfe6a0afae3d27ea403ab0e07ac92f9229822857ee3",
+      "data/s19_labels/game_24324_normative.json": "f5155c738b12c36158f0460e747cba2048184c049054897ff1e903c4e0ea06eb"
+    },
+    "required_seconds": 1175.459895,
+    "remaining_seconds": 4293.629965,
+    "model": "gpt-6-luna",
+    "backend": "codex",
+    "passed": true
+  },
+  "cli_observation": {
+    "fingerprint": {
+      "referenced_inputs": {
+        "named_references": {
+          "CODEX_MANAGED_CONFIG": null,
+          "CODEX_MANAGED_CONFIG_FILE": null,
+          "NODE_EXTRA_CA_CERTS": null,
+          "SSL_CERT_FILE": null,
+          "SSL_CERT_DIR": null
+        },
+        "ancestor_instructions": {
+          "/home/factory/collusion/collusion-serendipity/AGENTS.md": null,
+          "/home/factory/collusion/collusion-serendipity/CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883",
+          "/home/factory/collusion/AGENTS.md": null,
+          "/home/factory/collusion/CLAUDE.md": null,
+          "/home/factory/AGENTS.md": null,
+          "/home/factory/CLAUDE.md": null,
+          "/home/AGENTS.md": null,
+          "/home/CLAUDE.md": null,
+          "/AGENTS.md": null,
+          "/CLAUDE.md": null,
+          "/tmp/AGENTS.md": null,
+          "/tmp/CLAUDE.md": null
+        }
+      },
+      "files": {
+        "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70",
+        "/home/factory/.nvm/versions/node/v24.22.0/bin/node": "67ca5783febb8bf85736c79fcdd92c8d6d465a0eb2a082672bcdfa76a506751c",
+        "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+        "/home/factory/.codex/config.toml": "cf0ea790b1028a5a11e08ea5250e2567e0d647e45d39ef21c6c4d72ad6531e5b",
+        "/home/factory/.codex/AGENTS.md": null,
+        "/etc/codex/config.toml": null,
+        "/etc/codex/managed_config.toml": null,
+        "/home/factory/.codex/auth.json": "21609fee43259055fda53be60b3fff3abdbb78c96748bd2133fa5a7cbe0d5c0b"
+      },
+      "environment_sha256": {
+        "PATH": "3cf8914d193677e4d5187e3765078fc42ab9e6ae0b34b5d0185c1b8f0da9963e",
+        "CODEX_HOME": null,
+        "OPENAI_BASE_URL": null,
+        "OPENAI_API_KEY": null,
+        "OPENAI_ORG_ID": null,
+        "OPENAI_PROJECT_ID": null,
+        "CODEX_API_KEY": null,
+        "CODEX_MANAGED_CONFIG": null,
+        "CODEX_MANAGED_CONFIG_FILE": null,
+        "TMPDIR": null,
+        "HOME": "4f9c067d619da894a96e9cb073407bd91a28d2b9f63e9af68828cdeb7db58c2d",
+        "NODE_OPTIONS": null,
+        "HTTP_PROXY": null,
+        "HTTPS_PROXY": null,
+        "ALL_PROXY": null,
+        "NO_PROXY": null,
+        "NODE_EXTRA_CA_CERTS": null,
+        "SSL_CERT_FILE": null,
+        "SSL_CERT_DIR": null
+      },
+      "scope": "Known local launcher/node/native/config/routing inputs only; no provider attestation or complete effective-configuration reconstruction"
+    },
+    "version": "codex-cli 0.163.0"
+  },
+  "final_sources_sha256": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/entry.py": "f444880d920d5e585175f05897403c8fa1c4bdee26971a057ec8ec48cfeadc61",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s42_runtime.py": "16b0fd7b08f200af51bd76374d478235fcbf006d0b529fcb5f5cb58c480e0cee",
+    "DESIGN_S42.md": "97d08297a28858ee9cbcbb8906bb4542f47b08d048220352adf6fb35ebf5eaec",
+    "scripts/s42_analyze.py": "aa5190faf82d6badf026a7f96f3a3f72a7d57a519807daea4a0e19728ea548bb",
+    "scripts/test_s42.py": "692f15b01759def841c863ab69d5c4a5b12b053559e8411073cfec6444647a9c",
+    "scripts/s42_launch.py": "2831539b857a691226ca78fc2424936d2c9a4b53d64a4a74aa9729c5cb7569e6",
+    "scripts/s42_independent.py": "ef615006ee2cad388937dbcfe9fab6d5636f95651f763b793d970be91a03af3e",
+    "scripts/s42_present.py": "9ccff3846db2661ee893c3aac9b291dd540bb482abf7d03b1e22d6ab94e89018",
+    "scripts/s42_reviews.py": "d278fe9984b5fd8fd53868543f25b119f551c83255afcf7cc0f167f927e48fe0",
+    "scripts/s42_release.py": "a961bc730b9e47a70ecbf86671a18451916f5c95550da9d3bac267aff3035ee0",
+    "scripts/s42_economics.py": "272cbe2009c90e57d411ff3b01653d0e93d34c255c98e9f337ca4bd6e4523ab1",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  }
+}
