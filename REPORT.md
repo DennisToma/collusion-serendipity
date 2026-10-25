@@ -1,8 +1,10 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 54 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 55 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
-**Reading guide — iteration 54:** 54 recorded pilot entries; **no promoted hits**. Start with the [concise evidence handoff](results/iteration54_brief.md) for the workplace lead, its Qwen follow-up, incentive calibration, payoff-accounting limits and a single offline verification command. Examples are selected post hoc; the complete original pilot table below is retained.
+**Reading guide — iteration 55:** 54 recorded pilot entries; **no promoted hits**. Start with the [concise evidence handoff](results/iteration54_brief.md) for the workplace lead, its Qwen follow-up, incentive calibration, payoff-accounting limits and a single offline verification command. Examples are selected post hoc; the complete original pilot table below is retained.
+
+**Complete table audit:** All 54 rows retain their original text and labels; 307 highlighted numerical values and failure counts match saved JSON fields or documented fixed scalings, with 144 sample/window metadata checks. [Field-by-field receipt](results/iteration55_claim_audit.json). This verifies reporting fidelity, not all raw trajectories or scientific validity. Current offline command: `uv run --frozen python scripts/iteration55_claims.py --check --replay-selected`. The selected replays cover five pilots; use a full-history clone and existing pinned dependencies. Their scientific call entry is guarded; no network isolation is claimed. The archived iteration-54 full-document command requires its pinned revision.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 

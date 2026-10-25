@@ -1,0 +1,104 @@
+{
+  "baseline_commit": "88550b12fb796fe4292dd49bc8a05f7dc5adc245",
+  "implementation_sha256": "906fc70bf9ae4b0b071b2556c7144eb06464eeb74292a223c486de1378d48aa7",
+  "prior_replay_source_sha256": "2c1d488be1698588a51e0d60831fdd4b4e0a5bb83efe7343be8bd76434397965",
+  "scope": "Selected scientific reanalyses and separate checkers only. Historical full-document renderer not invoked. llm.chat guard, not network isolation. S72 uses its pinned historical clone.",
+  "replays": [
+    {
+      "pilot": "S29",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "self": 0,
+          "shared": 0
+        },
+        "verdict": "ODD"
+      }
+    },
+    {
+      "pilot": "S62",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 204,
+        "note_snapshots": 204,
+        "raw_auxiliary_bindings": 200,
+        "rejections": {
+          "self": 2,
+          "shared": 2
+        },
+        "verdict": "ODD"
+      }
+    },
+    {
+      "pilot": "S69",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "low_charge": 0,
+          "high_charge": 0
+        },
+        "verdict": "DUD"
+      }
+    },
+    {
+      "pilot": "S70",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "baseline": 0,
+          "endowed": 0
+        },
+        "verdict": "DUD"
+      }
+    },
+    {
+      "pilot": "S72",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_action_note_reason_bindings": 200,
+        "primary_rounds": 80,
+        "fixed_two_round_windows": 40,
+        "full_windows": 10,
+        "game_metric_cells": 70,
+        "exact_bootstrap_and_t_summaries": 21,
+        "authorship": "Separate implementation by same manager; independent critics recorded separately"
+      },
+      "local_historical_clone_commit": "793a6411f6d7b646b1897d964b531cbaa7116cc0",
+      "clone_clean": true,
+      "scientific_validation_unpatched": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "instruction": "Independent adversarial review of iteration55 reporting-fidelity audit. No edits, no simulated-agent calls. Review code and REPORT/README claims, all54 explicit numeric field mappings versus saved scientific JSON, sample/window checks, Git baseline preservation, corruption probes and optional selected replay. This is not a raw full-portfolio scientific validation. Find concrete high/medium defects or unsupported claims; state reviewed scope and acknowledged limits. May run the new script with --check (no replay needed), using the installed .venv python if uv cannot write. Do not run historical full-document renderers or any live scientific simulation. Be concise and finish within four minutes. ",
+  "files": {
+    "scripts/iteration55_claims.py": "71bafe9353a3d4692cb70737ea2b33393f94aba14e77ff350dfacbcf672904b5",
+    "REPORT.md": "0d80b785779dd9cc1414b778a9d194d4fd0ec3efc7e5464211b64204c976a9b1",
+    "README.md": "d5668802c14cee7d016f666c1855404054bf09088d4155dec2f46b69a0dc0e53"
+  },
+  "codex_scope": "Read-only repository access; requested all table mappings and code/claims audit",
+  "opus_scope": "Supplied code, REPORT excerpt and numerical digest only; no raw filesystem audit"
+}

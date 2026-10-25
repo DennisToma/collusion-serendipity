@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T12:45:06.298782+00:00; Phase 2, iteration 54 COMPLETE)
-- Added a concise, source-checked evidence handoff and complete machine-readable pilot inventory.
-- Portfolio: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT.
-- Selected S29/S62/S69/S70 reanalyses and separate checkers pass; raw opportunity counts verified.
-- S72 replay/checker pass at its pinned historical revision; no scientific validator patched.
-- All 3018 protected baseline files and 54 original report rows preserved; 262 selected local links resolve.
-- Final 926 canonical checks pass, zero failures/errors, actual terminal exit 0; 21 focused S45 tests pass.
-- Codex selected-file static/numerical review passes; Opus supplied-text review issues resolved.
-- Final four corruption probes reject; source hash binds the selected-replay receipt to released code.
-- No new experiment, scientific call, estimate, pooling, tuning, verdict, HIT or sibling headline change.
-- Next: bounded presentation upkeep; a future pilot needs a fresh registration and a clear value case.
-- S68 remains interrupted, no effect estimate or restart; S70 and S72 scientific results unchanged.
-- Origin 2a21fee reproduces all 6 checked artifacts byte for byte; clean clone, installed venv reused.
-- Risks: five-block exploratory results, post hoc example selection and data reuse; no collusion/equivalence claim.
+## Current state (2026-10-25T13:02:20.132987+00:00; Phase 2, iteration 55 verification complete)
+- Complete table audit: 54 original rows, 307 numeric tokens and 144 sample/window checks pass.
+- All 54 scientific JSON artifacts pinned; reporting fidelity only, not full raw scientific validation.
+- Portfolio unchanged: 29 DUD, 23 ODD/context-only, two failed; no promoted HIT.
+- Five selected cached reanalyses and separate checkers pass; S72 uses its genuine historical revision.
+- All 3041 protected baseline files unchanged; IDEAS has one exact queued-only S74 proposal append.
+- Complete REPORT/README text matches a bounded baseline overlay; historical STATUS log preserved.
+- Thirteen preservation/binding/semantic/editorial corruption probes reject without archive writes.
+- All 926 canonical checks pass with terminal exit 0; 21 focused report-compatibility tests pass.
+- Codex independently traversed all 307 bindings; supplied-text Opus findings tightened guards/scope.
+- No new experiment, scientific call, estimate, tuning, pooling, verdict or sibling headline change.
+- S68 stays interrupted with no estimate/restart; S74 decoy-note idea queued, never launched.
+- Next: commit/push and actual fresh-origin reproduction; no clean-clone claim yet.
+- Risks: five-block exploration, reused histories, post hoc selection; no agreement/equivalence claim.
 
 ## Log
 
@@ -756,3 +756,5 @@
 - 2026-10-25T12:44:10.096456+00:00: iteration 54 verification complete. All 926 canonical checks pass with zero failures/errors and actual terminal exit 0, using the existing narrow historical synthetic fixtures; no frozen source or fixture changed. All 21 focused S45 tests also pass. Final selected replay receipt binds the released verifier source and 3018 preserved baseline files, all 54 original table rows and 262 selected document links. Four final corruption probes reject without archive mutation. Compact Codex review passes (selected-file static/numerical digest); final narrow supplied-text Opus confirms the import-guard fix resolves its remaining medium issue. Remaining guard limits are explicitly disclosed; no network sandbox claim. Both critiques and all earlier failed/unavailable records retained. No new scientific calls, estimates, ledger entry or sibling write. Result commit/push and actual fresh-origin reproduction follow; not claimed in advance.
 
 - 2026-10-25T12:45:06.298782+00:00: iteration 54 COMPLETE. Result revision 2a21fee1d34b061026b56984cb92bd02865c5feb committed and pushed. A fresh full-history origin clone reproduced all 6 checked handoff artifacts byte for byte, including the verification receipt, and finished with a clean working tree. Its verifier reran the four displayed workplace analyses and S72 at the genuine historical result revision, with separate checkers and the llm.chat guard; no archive validation patches. Existing installed pinned venv reused; no fresh-install claim. Receipt: logs/iteration54_remote_clean_clone.json. Final 926 canonical checks pass with terminal exit 0, both review scopes and dispositions retained, all 3018 protected baseline files and 54 original report rows preserved. No new experiment, scientific call, tuning, pooling, estimate, verdict, HIT, sibling write or headline change. EXPERIMENTS.tsv, IDEAS.tsv, DIRECTION.md, data/SPLITS.md and all frozen scientific artifacts remain byte-identical. S68 stays interrupted without an estimate or restart. No active iteration-54 simulation, test, review or clone process remains. Closing proof/status commit and push follow.
+
+- 2026-10-25T13:02:20.132987+00:00: iteration55 read CLAUDE/PLAN/STATUS/DIRECTION, ledger and both sibling report/state summaries. Selected one full-table reporting-fidelity chunk after iteration54's selected evidence handoff: both siblings have frozen science and another small pilot has lower marginal value. No DIRECTION deviation; initial zero-cost/new-world queue already complete. Added explicit field bindings for every highlighted result-cell token plus failure counts across all54 original rows:307 numerical bindings and144 sample/window checks match54 pinned JSON artifacts. Complete REPORT/README reconstruct from the exact baseline plus an explicit overlay; original rows also bind directly to baseline REPORT and inventory. Codex independently traversed all307 values and54 source hashes and ran --check; no high/medium issue. Supplied-text-only Opus initial findings prompted documented rate-to-count scaling, separate semantic probes, exact editorial checks, direct baseline-row equality and explicit54source map. Final scoped critics both exit0; Opus's remaining historical-commit/offline wording concerns clarified, deterministic replay confirmed by repeated byte checks, and actual origin reproduction remains pending. Scientific call entry guarded in each selected replay including S72's historical subprocess; no network isolation claim. Four current workplace reanalyses and separate checkers plus S72 at its own genuine historical result revision pass with scientific validators unchanged. All3041 protected baseline paths byte-identical; exact append-only S74-proposal satisfies the own-idea cadence without launching another pilot. S74 proposes past-only status-matched cross-game decoy notes to separate partner contingency from realistic notepad content; fresh registration required. All926 canonical checks pass with actual terminalexit0 using existing historical synthetic fixtures;21 focused S45 checks pass. Thirteen corruption probes reject across four preservation, four binding, three direct semantic and two editorial layers. Initial audit implementation failures (mistyped baseline prefix and S07/S09 metric names) were corrected before any report write; no scientific source, artifact, estimate, label or original row changed. No new experiment, simulated-agent call, tuning, pooling, result-ledger row, HIT, sibling write or headline change. S68 stays interrupted with no estimate or restart. Final commit/push and actual fresh-origin reproduction next.

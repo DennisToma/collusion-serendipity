@@ -1,6 +1,6 @@
 # Collusion Serendipity Explorer
 
-**Judge / handoff entry:** [concise evidence brief](results/iteration54_brief.md) · [complete pilot log](REPORT.md). Verify the selected handoff offline with `uv run --frozen python scripts/iteration54_handoff.py verify`. This checks preserved science and selected replays; it makes no full-portfolio reproduction claim.
+**Judge / handoff entry:** [concise evidence brief](results/iteration54_brief.md) · [complete pilot log](REPORT.md) · [complete table field audit](results/iteration55_claim_audit.json). Verify the current handoff offline with `uv run --frozen python scripts/iteration55_claims.py --check --replay-selected`. This checks all highlighted table values against saved fields or documented fixed scalings, preserves every original row and prior scientific file, and runs five selected scientific reanalyses with their separate checkers. It makes no full-portfolio raw-reproduction claim. The command in the archived iteration-54 brief rebuilds its exact full documents at revision `88550b12fb796fe4292dd49bc8a05f7dc5adc245`; use the current command for this checkout. Use a full-history clone: both the audit baseline and selected S72 replay need historical commits. Existing installed pinned dependencies are reused. The selected scientific call entry is guarded; this is not network isolation.
 
 Discovery pilots for the Apart AI Collusion Sprint. Read [REPORT.md](REPORT.md)
 for results, [DESIGN.md](DESIGN.md) for frozen choices and amendments, and

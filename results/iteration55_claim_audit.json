@@ -1,0 +1,3397 @@
+{
+  "audit": "iteration55_table_fidelity",
+  "baseline_commit": "88550b12fb796fe4292dd49bc8a05f7dc5adc245",
+  "scope": "All highlighted result-cell numeric tokens, failure counts, frozen categories, displayed sample/block counts and available round-window metadata. Entire original rows preserved. Saved-artifact check; no raw-cache replay, re-estimation or independent scientific validation.",
+  "pilot_entries": 54,
+  "numeric_tokens_checked": 307,
+  "metadata_checks": 144,
+  "unchanged_baseline_files": 3041,
+  "idea_ledger_exact_proposal_append": true,
+  "categories": {
+    "DUD": 29,
+    "ODD": 23,
+    "FAILED": 2
+  },
+  "index_sha256": "edfe0fcb197d930fbe9ee73f61b67ffc8f889cff0e2d2fdc2e9f25835867dc04",
+  "source_sha256": "906fc70bf9ae4b0b071b2556c7144eb06464eeb74292a223c486de1378d48aa7",
+  "scientific_artifact_hashes": {
+    "results/s01_digits.json": "513f43ff2f1010b88fd78d197d5fbdab5176ae3b2d739baec4cd70870fab9dc4",
+    "results/s02_cournot.json": "662063a5a4ec802c2f48e1862f24c541b3a77eb8f3e3551b1cda8731c94ddbb4",
+    "results/s04_advisor.json": "2e2df12a02fc2a3cbdd19d8c0e8aaab930dcd37659390367c38ae2996b0e6bdc",
+    "results/s03_calculator.json": "bda05e1e727bdaec30ada9dd7be082026f85571e74040fb8ee1f1f5cd1e8435b",
+    "results/s07_legality.json": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+    "results/s09_replay.json": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
+    "results/s11_delay.json": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2",
+    "results/s06_denomination.json": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3",
+    "results/s14_tender.json": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828",
+    "results/s16_failure.json": "e2fcadfc05086d9f0e442602d7b5f8dfffa3efad98da556d603114c3ee9ccef8",
+    "results/s18_workplace.json": "fc759e79b10924eaa634f1451049697ccbd20e7f09d2a5214f2a627c3492eb60",
+    "results/s19_labels.json": "f2ba647f4a5b17ff69c5de8e249b277f64627a6a1c7769c8ae06383bcd015042",
+    "results/s21_audit.json": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850",
+    "results/s22_enforcement.json": "b00e5199e9249ecea7e0235dd5ecc25e8456bc6ade95261e68a8fe0864c32383",
+    "results/s24_identity.json": "236d34b8723f629b976675506040382b208e0c197a488797a6724957eaa4d2d4",
+    "results/s25_order.json": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c",
+    "results/s27_concentration.json": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+    "results/s29_notepad.json": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+    "results/s28_payoff.json": "c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3",
+    "results/s31_labor.json": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0",
+    "results/s32_resource.json": "0950187eea087d0d9e6440efe58482f9d689fe732cae66155a63d1418c7faecd",
+    "results/s33_leniency.json": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+    "results/s34_salience.json": "31d37a098d381e9384ba670b571a291a735804f16518eb381464a18d50630ae9",
+    "results/s35_asymmetry.json": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d",
+    "results/s36_grossnet.json": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+    "results/s38_horizon.json": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7",
+    "results/s37_policyword.json": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20",
+    "results/s40_memory.json": "903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace",
+    "results/s42_entry.json": "56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4",
+    "results/s43_payoff.json": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1",
+    "results/s41_ticksize.json": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+    "results/s45_reviewring.json": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec",
+    "results/s44_payoff.json": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa",
+    "results/s48_notes.json": "0bc8ae20224ac9678fb979184d64a47f1db6e10cf16b7a45e737ec42cca60c29",
+    "results/s47_example.json": "14b1383f47a98561e19cf4545abdb6023fd03a2eca85caca4e1c38b7b98af6b8",
+    "results/s50_terminal.json": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33",
+    "results/s51_penalty.json": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77",
+    "results/s53_payoffs.json": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+    "results/s54_opportunities.json": "7f1d9114cc541fc1070b008a49a5c4d84ba35030aa07b0b6c92f993cd5f3ceb6",
+    "results/s56_coalitions.json": "469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9",
+    "results/s55_visibility.json": "d46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710",
+    "results/s58_history.json": "70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540",
+    "results/s59_history.json": "8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385",
+    "results/s60_author_bonus.json": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb",
+    "results/s62_notepad_qwen.json": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+    "results/s61_identity.json": "09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636",
+    "results/s64_memory_retention.json": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+    "results/s65_bonus_pooling.json": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
+    "results/s67_incentives.json": "fa0bb529b46b05b3cc0c241b984d865919cd5f545b906f9d288738b65e211f36",
+    "results/s66_payoff_order.json": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+    "results/s69_pooled_enforcement.json": "5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143",
+    "results/s68_failure.json": "bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290",
+    "results/s72_temporal.json": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049",
+    "results/s70_bonus_endowment.json": "1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2"
+  },
+  "pilots": [
+    {
+      "id": "S01",
+      "source": "results/s01_digits.json",
+      "source_sha256": "513f43ff2f1010b88fd78d197d5fbdab5176ae3b2d739baec4cd70870fab9dc4",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "+0.00175",
+          "exact_value": "3493964465887539/2000000000000000000",
+          "pointer": "llm_v1/primary_within_channel/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.00184",
+          "exact_value": "-18370336501439047/10000000000000000000",
+          "pointer": "llm_v1/primary_within_channel/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.00631",
+          "exact_value": "1577628588402581/250000000000000000",
+          "pointer": "llm_v1/primary_within_channel/ci95/1",
+          "scale": 1
+        },
+        {
+          "display": "+0.00899",
+          "exact_value": "8989676593755273/1000000000000000000",
+          "pointer": "llm_ds_p2/primary_within_channel/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.04249",
+          "exact_value": "-4249357483844667/100000000000000000",
+          "pointer": "llm_ds_p2/primary_within_channel/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.05535",
+          "exact_value": "55348760797897203/1000000000000000000",
+          "pointer": "llm_ds_p2/primary_within_channel/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "scanned and channel samples",
+          "displayed": [
+            104,
+            32,
+            15
+          ],
+          "expected": [
+            104,
+            32,
+            15
+          ],
+          "binding": "runs/primary_within_channel.n by dataset"
+        }
+      ],
+      "highlighted_spans": 2
+    },
+    {
+      "id": "S02",
+      "source": "results/s02_cournot.json",
+      "source_sha256": "662063a5a4ec802c2f48e1862f24c541b3a77eb8f3e3551b1cda8731c94ddbb4",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "5.870",
+          "exact_value": "587037037037037/100000000000000",
+          "pointer": "metrics/pair_quantity/none/mean",
+          "scale": 1
+        },
+        {
+          "display": "5.389",
+          "exact_value": "5388888888888889/1000000000000000",
+          "pointer": "metrics/pair_quantity/private/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.481",
+          "exact_value": "-48148148148148157/100000000000000000",
+          "pointer": "metrics/pair_quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-1.222",
+          "exact_value": "-12222222222222223/10000000000000000",
+          "pointer": "metrics/pair_quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 3,
+          "expected": 3,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 6,
+          "expected": 6,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S04",
+      "source": "results/s04_advisor.json",
+      "source_sha256": "2e2df12a02fc2a3cbdd19d8c0e8aaab930dcd37659390367c38ae2996b0e6bdc",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "5.422",
+          "exact_value": "2168888888888889/400000000000000",
+          "pointer": "metrics/pair_quantity/independent/mean",
+          "scale": 1
+        },
+        {
+          "display": "4.911",
+          "exact_value": "9822222222222221/2000000000000000",
+          "pointer": "metrics/pair_quantity/shared/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.511",
+          "exact_value": "-5111111111111111/10000000000000000",
+          "pointer": "metrics/pair_quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-1.222",
+          "exact_value": "-12222222222222223/10000000000000000",
+          "pointer": "metrics/pair_quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.122",
+          "exact_value": "1527777777777779/12500000000000000",
+          "pointer": "metrics/pair_quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S03",
+      "source": "results/s03_calculator.json",
+      "source_sha256": "bda05e1e727bdaec30ada9dd7be082026f85571e74040fb8ee1f1f5cd1e8435b",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "6.719",
+          "exact_value": "6718518518518519/1000000000000000",
+          "pointer": "metrics/quantity/none/mean",
+          "scale": 1
+        },
+        {
+          "display": "5.837",
+          "exact_value": "5837037037037037/1000000000000000",
+          "pointer": "metrics/quantity/calculator/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.881",
+          "exact_value": "-8814814814814813/10000000000000000",
+          "pointer": "metrics/quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-1.170",
+          "exact_value": "-11703703703703703/10000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "-0.489",
+          "exact_value": "-2444444444444443/5000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "4..12",
+          "expected": "4..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S07",
+      "source": "results/s07_legality.json",
+      "source_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "5.800",
+          "exact_value": "29/5",
+          "pointer": "metrics/quantity/neutral/mean",
+          "scale": 1
+        },
+        {
+          "display": "4.844",
+          "exact_value": "1211111111111111/250000000000000",
+          "pointer": "metrics/quantity/legality/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.956",
+          "exact_value": "-9555555555555557/10000000000000000",
+          "pointer": "metrics/quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-2.889",
+          "exact_value": "-28888888888888893/10000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.267",
+          "exact_value": "6666666666666661/25000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "4..12",
+          "expected": "4..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S09",
+      "source": "results/s09_replay.json",
+      "source_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "5.900",
+          "exact_value": "59/10",
+          "pointer": "metrics/quantity/retain/mean",
+          "scale": 1
+        },
+        {
+          "display": "6.000",
+          "exact_value": "6",
+          "pointer": "metrics/quantity/erase/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "metrics/quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "7..12",
+          "expected": "7..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S11",
+      "source": "results/s11_delay.json",
+      "source_sha256": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "2.430",
+          "exact_value": "3037037037037037/1250000000000000",
+          "pointer": "metrics/absolute_change/immediate/mean",
+          "scale": 1
+        },
+        {
+          "display": "1.526",
+          "exact_value": "762962962962963/500000000000000",
+          "pointer": "metrics/absolute_change/delayed/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.904",
+          "exact_value": "9037037037037037/10000000000000000",
+          "pointer": "metrics/absolute_change/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.089",
+          "exact_value": "-111111111111111/1250000000000000",
+          "pointer": "metrics/absolute_change/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+1.815",
+          "exact_value": "1134259259259259/625000000000000",
+          "pointer": "metrics/absolute_change/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "4..12",
+          "expected": "4..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S06",
+      "source": "results/s06_denomination.json",
+      "source_sha256": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "5.963",
+          "exact_value": "5962962962962963/1000000000000000",
+          "pointer": "metrics/quantity/unit/mean",
+          "scale": 1
+        },
+        {
+          "display": "5.696",
+          "exact_value": "5696296296296297/1000000000000000",
+          "pointer": "metrics/quantity/cent/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.267",
+          "exact_value": "-6666666666666661/25000000000000000",
+          "pointer": "metrics/quantity/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.519",
+          "exact_value": "-5185185185185187/10000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "-0.022",
+          "exact_value": "-2222222222222179/100000000000000000",
+          "pointer": "metrics/quantity/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "4..12",
+          "expected": "4..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S14",
+      "source": "results/s14_tender.json",
+      "source_sha256": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "8.778",
+          "exact_value": "8777777777777777/1000000000000000",
+          "pointer": "metrics/payment/none/mean",
+          "scale": 1
+        },
+        {
+          "display": "11.111",
+          "exact_value": "1111111111111111/100000000000000",
+          "pointer": "metrics/payment/private/mean",
+          "scale": 1
+        },
+        {
+          "display": "+2.333",
+          "exact_value": "4666666666666667/2000000000000000",
+          "pointer": "metrics/payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-5.600",
+          "exact_value": "-28/5",
+          "pointer": "metrics/payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+9.733",
+          "exact_value": "9733333333333333/1000000000000000",
+          "pointer": "metrics/payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "4..12",
+          "expected": "4..12",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S16",
+      "source": "results/s16_failure.json",
+      "source_sha256": "e2fcadfc05086d9f0e442602d7b5f8dfffa3efad98da556d603114c3ee9ccef8",
+      "category": "FAILED",
+      "numeric_checks": [
+        {
+          "display": "4",
+          "exact_value": "4",
+          "pointer": "complete_games",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "planned_games",
+          "scale": 1
+        },
+        {
+          "display": "173",
+          "exact_value": "173",
+          "pointer": "responses",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "rejected_responses",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [],
+      "highlighted_spans": 0
+    },
+    {
+      "id": "S18",
+      "source": "results/s18_workplace.json",
+      "source_sha256": "fc759e79b10924eaa634f1451049697ccbd20e7f09d2a5214f2a627c3492eb60",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/self/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/shared/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S19",
+      "source": "results/s19_labels.json",
+      "source_sha256": "f2ba647f4a5b17ff69c5de8e249b277f64627a6a1c7769c8ae06383bcd015042",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/normative/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/neutral/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.025",
+          "exact_value": "1/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.125",
+          "exact_value": "1/8",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S21",
+      "source": "results/s21_audit.json",
+      "source_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/A/counts/error",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/AT/counts/error",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/AT_minus_A_error/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/AT_minus_A_error/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/AT_minus_A_error/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "saved auditor decisions",
+          "displayed": 30,
+          "expected": 30,
+          "binding": "sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S22",
+      "source": "results/s22_enforcement.json",
+      "source_sha256": "b00e5199e9249ecea7e0235dd5ecc25e8456bc6ade95261e68a8fe0864c32383",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/certain/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/lottery/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.125",
+          "exact_value": "-1/8",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S24",
+      "source": "results/s24_identity.json",
+      "source_sha256": "236d34b8723f629b976675506040382b208e0c197a488797a6724957eaa4d2d4",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.025",
+          "exact_value": "1/40",
+          "pointer": "metrics/pair_bad/human/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.025",
+          "exact_value": "1/40",
+          "pointer": "metrics/pair_bad/ai/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.075",
+          "exact_value": "-3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S25",
+      "source": "results/s25_order.json",
+      "source_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/action_first/approved",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/reason_first/approved",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/approved/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/approved/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrasts/approved/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S27",
+      "source": "results/s27_concentration.json",
+      "source_sha256": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/three/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.250",
+          "exact_value": "1/4",
+          "pointer": "metrics/pair_bad/two/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.175",
+          "exact_value": "7/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.300",
+          "exact_value": "3/10",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S29",
+      "source": "results/s29_notepad.json",
+      "source_sha256": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.050",
+          "exact_value": "1/20",
+          "pointer": "metrics/pair_bad/self/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.375",
+          "exact_value": "3/8",
+          "pointer": "metrics/pair_bad/shared/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.325",
+          "exact_value": "13/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.575",
+          "exact_value": "23/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S28",
+      "source": "results/s28_payoff.json",
+      "source_sha256": "c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.175",
+          "exact_value": "7/40",
+          "pointer": "metrics/pair_bad/prose/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/table/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.050",
+          "exact_value": "-1/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.275",
+          "exact_value": "11/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S31",
+      "source": "results/s31_labor.json",
+      "source_sha256": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "10.000",
+          "exact_value": "10",
+          "pointer": "metrics/worker_earnings/self/mean",
+          "scale": 1
+        },
+        {
+          "display": "10.000",
+          "exact_value": "10",
+          "pointer": "metrics/worker_earnings/shared/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/worker_earnings/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/worker_earnings/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/worker_earnings/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S32",
+      "source": "results/s32_resource.json",
+      "source_sha256": "0950187eea087d0d9e6440efe58482f9d689fe732cae66155a63d1418c7faecd",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "17.525",
+          "exact_value": "701/40",
+          "pointer": "metrics/resource_payment/human/mean",
+          "scale": 1
+        },
+        {
+          "display": "13.725",
+          "exact_value": "549/40",
+          "pointer": "metrics/resource_payment/compute/mean",
+          "scale": 1
+        },
+        {
+          "display": "+3.800",
+          "exact_value": "19/5",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.250",
+          "exact_value": "-1/4",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "7.875",
+          "exact_value": "63/8",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S33",
+      "source": "results/s33_leniency.json",
+      "source_sha256": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.250",
+          "exact_value": "1/4",
+          "pointer": "metrics/pair_bad/baseline/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.300",
+          "exact_value": "3/10",
+          "pointer": "metrics/pair_bad/amnesty/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.050",
+          "exact_value": "-1/20",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.175",
+          "exact_value": "-7/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.050",
+          "exact_value": "1/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S34",
+      "source": "results/s34_salience.json",
+      "source_sha256": "31d37a098d381e9384ba670b571a291a735804f16518eb381464a18d50630ae9",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.200",
+          "exact_value": "1/5",
+          "pointer": "metrics/pair_bad/plain/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.175",
+          "exact_value": "7/40",
+          "pointer": "metrics/pair_bad/flag/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.025",
+          "exact_value": "1/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.100",
+          "exact_value": "-1/10",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.150",
+          "exact_value": "3/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S35",
+      "source": "results/s35_asymmetry.json",
+      "source_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "11.800",
+          "exact_value": "59/5",
+          "pointer": "metrics/resource_payment/symmetric/mean",
+          "scale": 1
+        },
+        {
+          "display": "19.450",
+          "exact_value": "389/20",
+          "pointer": "metrics/resource_payment/asymmetric/mean",
+          "scale": 1
+        },
+        {
+          "display": "7.650",
+          "exact_value": "153/20",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "3.825",
+          "exact_value": "153/40",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "9.825",
+          "exact_value": "393/40",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S36",
+      "source": "results/s36_grossnet.json",
+      "source_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "8.000",
+          "exact_value": "8",
+          "pointer": "metrics/resource_payment/net/mean",
+          "scale": 1
+        },
+        {
+          "display": "1.800",
+          "exact_value": "9/5",
+          "pointer": "metrics/resource_payment/gross/mean",
+          "scale": 1
+        },
+        {
+          "display": "+6.200",
+          "exact_value": "31/5",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+2.200",
+          "exact_value": "11/5",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+10.000",
+          "exact_value": "10",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S38",
+      "source": "results/s38_horizon.json",
+      "source_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "8.000",
+          "exact_value": "8",
+          "pointer": "metrics/resource_payment/hidden/mean",
+          "scale": 1
+        },
+        {
+          "display": "8.000",
+          "exact_value": "8",
+          "pointer": "metrics/resource_payment/known/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S37",
+      "source": "results/s37_policyword.json",
+      "source_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/coded/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/payroll/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S40",
+      "source": "results/s40_memory.json",
+      "source_sha256": "903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/retain/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/erase/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S42",
+      "source": "results/s42_entry.json",
+      "source_sha256": "56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "10.000",
+          "exact_value": "10",
+          "pointer": "metrics/resource_payment/entry/mean",
+          "scale": 1
+        },
+        {
+          "display": "10.000",
+          "exact_value": "10",
+          "pointer": "metrics/resource_payment/control/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "7..10",
+          "expected": "7..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S43",
+      "source": "results/s43_payoff.json",
+      "source_sha256": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "9.900",
+          "exact_value": "99/10",
+          "pointer": "metrics/control/mean",
+          "scale": 1
+        },
+        {
+          "display": "10.200",
+          "exact_value": "51/5",
+          "pointer": "metrics/table/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.100",
+          "exact_value": "1/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.500",
+          "exact_value": "1/2",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S41",
+      "source": "results/s41_ticksize.json",
+      "source_sha256": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "10.188",
+          "exact_value": "163/16",
+          "pointer": "metrics/resource_payment/fine/mean",
+          "scale": 1
+        },
+        {
+          "display": "9.225",
+          "exact_value": "369/40",
+          "pointer": "metrics/resource_payment/coarse/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.963",
+          "exact_value": "77/80",
+          "pointer": "metrics/resource_payment/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+2.688",
+          "exact_value": "43/16",
+          "pointer": "metrics/resource_payment/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S45",
+      "source": "results/s45_reviewring.json",
+      "source_sha256": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.025",
+          "exact_value": "1/40",
+          "pointer": "metrics/pair_bad/self/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/shared/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.025",
+          "exact_value": "-1/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.075",
+          "exact_value": "-3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S44",
+      "source": "results/s44_payoff.json",
+      "source_sha256": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "10.300",
+          "exact_value": "103/10",
+          "pointer": "metrics/ascending/mean",
+          "scale": 1
+        },
+        {
+          "display": "10.200",
+          "exact_value": "51/5",
+          "pointer": "metrics/descending/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.100",
+          "exact_value": "-1/10",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S48",
+      "source": "results/s48_notes.json",
+      "source_sha256": "0bc8ae20224ac9678fb979184d64a47f1db6e10cf16b7a45e737ec42cca60c29",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/retain/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/erase/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S47",
+      "source": "results/s47_example.json",
+      "source_sha256": "14b1383f47a98561e19cf4545abdb6023fd03a2eca85caca4e1c38b7b98af6b8",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "10.100",
+          "exact_value": "101/10",
+          "pointer": "metrics/low_example/mean",
+          "scale": 1
+        },
+        {
+          "display": "10.000",
+          "exact_value": "10",
+          "pointer": "metrics/high_example/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.100",
+          "exact_value": "-1/10",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S50",
+      "source": "results/s50_terminal.json",
+      "source_sha256": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/hidden/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.300",
+          "exact_value": "3/10",
+          "pointer": "metrics/final/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.100",
+          "exact_value": "1/10",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.600",
+          "exact_value": "3/5",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S51",
+      "source": "results/s51_penalty.json",
+      "source_sha256": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.500",
+          "exact_value": "1/2",
+          "pointer": "metrics/baseline/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.500",
+          "exact_value": "1/2",
+          "pointer": "metrics/strong/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S53",
+      "source": "results/s53_payoffs.json",
+      "source_sha256": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "2",
+          "exact_value": "2",
+          "pointer": "counts/self/y_approvals",
+          "scale": 1
+        },
+        {
+          "display": "15",
+          "exact_value": "15",
+          "pointer": "counts/shared/y_approvals",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/self/missed_x",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/shared/missed_x",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/self/mutual_y_rounds",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/shared/mutual_y_rounds",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/self/strict_pareto_rounds",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/shared/strict_pareto_rounds",
+          "scale": 1
+        },
+        {
+          "display": "4",
+          "exact_value": "4",
+          "pointer": "counts/self/stage_regret",
+          "scale": 1
+        },
+        {
+          "display": "30",
+          "exact_value": "30",
+          "pointer": "counts/shared/stage_regret",
+          "scale": 1
+        },
+        {
+          "display": "8",
+          "exact_value": "8",
+          "pointer": "counts/self/pair_excess",
+          "scale": 1
+        },
+        {
+          "display": "60",
+          "exact_value": "60",
+          "pointer": "counts/shared/pair_excess",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "rounds per arm",
+          "displayed": 40,
+          "expected": 40,
+          "binding": "rounds grouped by condition"
+        }
+      ],
+      "highlighted_spans": 6
+    },
+    {
+      "id": "S54",
+      "source": "results/s54_opportunities.json",
+      "source_sha256": "7f1d9114cc541fc1070b008a49a5c4d84ba35030aa07b0b6c92f993cd5f3ceb6",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "0.250",
+          "exact_value": "1/4",
+          "pointer": "metrics/pair_bad/alternating/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/synchronized/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.250",
+          "exact_value": "-1/4",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.375",
+          "exact_value": "-3/8",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "-0.150",
+          "exact_value": "-3/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S56",
+      "source": "results/s56_coalitions.json",
+      "source_sha256": "469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "9",
+          "exact_value": "9",
+          "pointer": "totals/none/above_nash",
+          "scale": 1
+        },
+        {
+          "display": "18",
+          "exact_value": "18",
+          "pointer": "totals/private/above_nash",
+          "scale": 1
+        },
+        {
+          "display": "29",
+          "exact_value": "29",
+          "pointer": "totals/none/coalition_stable",
+          "scale": 1
+        },
+        {
+          "display": "19",
+          "exact_value": "19",
+          "pointer": "totals/private/coalition_stable",
+          "scale": 1
+        },
+        {
+          "display": "14",
+          "exact_value": "14",
+          "pointer": "totals/none/strict_pair_improvement",
+          "scale": 1
+        },
+        {
+          "display": "19",
+          "exact_value": "19",
+          "pointer": "totals/private/strict_pair_improvement",
+          "scale": 1
+        },
+        {
+          "display": "-0.222",
+          "exact_value": "-1111111111111111/5000000000000000",
+          "pointer": "metrics/coalition_stable/difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.733",
+          "exact_value": "-7333333333333333/10000000000000000",
+          "pointer": "metrics/coalition_stable/difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.378",
+          "exact_value": "37777777777777777/100000000000000000",
+          "pointer": "metrics/coalition_stable/difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "rounds per arm",
+          "displayed": 45,
+          "expected": 45,
+          "binding": "rounds grouped by condition"
+        }
+      ],
+      "highlighted_spans": 4
+    },
+    {
+      "id": "S55",
+      "source": "results/s55_visibility.json",
+      "source_sha256": "d46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.600",
+          "exact_value": "3/5",
+          "pointer": "metrics/visible/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/masked/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.500",
+          "exact_value": "1/2",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.200",
+          "exact_value": "1/5",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.800",
+          "exact_value": "4/5",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S58",
+      "source": "results/s58_history.json",
+      "source_sha256": "70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.600",
+          "exact_value": "3/5",
+          "pointer": "metrics/retain/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.200",
+          "exact_value": "1/5",
+          "pointer": "metrics/erase/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.400",
+          "exact_value": "2/5",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.200",
+          "exact_value": "1/5",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.500",
+          "exact_value": "1/2",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S59",
+      "source": "results/s59_history.json",
+      "source_sha256": "8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/original/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/compact/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.700",
+          "exact_value": "7/10",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 20,
+          "expected": 20,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S60",
+      "source": "results/s60_author_bonus.json",
+      "source_sha256": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "11",
+          "exact_value": "11",
+          "pointer": "metrics/pair_bad/high/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "5",
+          "exact_value": "5",
+          "pointer": "metrics/pair_bad/low/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.150",
+          "exact_value": "3/20",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.025",
+          "exact_value": "-1/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S62",
+      "source": "results/s62_notepad_qwen.json",
+      "source_sha256": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "3",
+          "exact_value": "3",
+          "pointer": "metrics/pair_bad/self/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "7",
+          "exact_value": "7",
+          "pointer": "metrics/pair_bad/shared/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.025",
+          "exact_value": "-1/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.250",
+          "exact_value": "1/4",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S61",
+      "source": "results/s61_identity.json",
+      "source_sha256": "09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "1",
+          "exact_value": "1",
+          "pointer": "mismatch_counts/swap_mismatch",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "1",
+          "exact_value": "1",
+          "pointer": "mismatch_counts/repeat_mismatch",
+          "scale": 1
+        },
+        {
+          "display": "10",
+          "exact_value": "10",
+          "pointer": "n_cases",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "contrast/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "contrast/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.300",
+          "exact_value": "3/10",
+          "pointer": "contrast/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "fresh decisions",
+          "displayed": 30,
+          "expected": 30,
+          "binding": "n_fresh_decisions or sum(len(case.views))"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S64",
+      "source": "results/s64_memory_retention.json",
+      "source_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "5",
+          "exact_value": "5",
+          "pointer": "metrics/pair_bad/persistent/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/reset/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.125",
+          "exact_value": "1/8",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.050",
+          "exact_value": "1/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.200",
+          "exact_value": "1/5",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S65",
+      "source": "results/s65_bonus_pooling.json",
+      "source_sha256": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "9",
+          "exact_value": "9",
+          "pointer": "metrics/pair_bad/individual/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "20",
+          "exact_value": "20",
+          "pointer": "metrics/pair_bad/pooled/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.275",
+          "exact_value": "11/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.475",
+          "exact_value": "19/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S67",
+      "source": "results/s67_incentives.json",
+      "source_sha256": "fa0bb529b46b05b3cc0c241b984d865919cd5f545b906f9d288738b65e211f36",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "9",
+          "exact_value": "9",
+          "pointer": "counts/individual/costly_y_approvals",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "counts/pooled/costly_y_approvals",
+          "scale": 1
+        },
+        {
+          "display": "20",
+          "exact_value": "20",
+          "pointer": "counts/pooled/profitable_y_rejections",
+          "scale": 1
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "counts/pooled/y_opportunities",
+          "scale": 1
+        },
+        {
+          "display": "+0.550",
+          "exact_value": "11/20",
+          "pointer": "metrics/stage_regret/difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.300",
+          "exact_value": "-3/10",
+          "pointer": "metrics/stage_regret/difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+1.200",
+          "exact_value": "6/5",
+          "pointer": "metrics/stage_regret/difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 4
+    },
+    {
+      "id": "S66",
+      "source": "results/s66_payoff_order.json",
+      "source_sha256": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "23",
+          "exact_value": "23",
+          "pointer": "metrics/pair_bad/allocated_first/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "13",
+          "exact_value": "13",
+          "pointer": "metrics/pair_bad/final_first/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "-0.250",
+          "exact_value": "-1/4",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.500",
+          "exact_value": "-1/2",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "0.100",
+          "exact_value": "1/10",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S69",
+      "source": "results/s69_pooled_enforcement.json",
+      "source_sha256": "5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "31",
+          "exact_value": "31",
+          "pointer": "metrics/pair_bad/low_charge/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "4",
+          "exact_value": "4",
+          "pointer": "metrics/pair_bad/high_charge/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.675",
+          "exact_value": "27/40",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.450",
+          "exact_value": "9/20",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.875",
+          "exact_value": "7/8",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    },
+    {
+      "id": "S68",
+      "source": "results/s68_failure.json",
+      "source_sha256": "bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290",
+      "category": "FAILED",
+      "numeric_checks": [
+        {
+          "display": "29",
+          "exact_value": "29",
+          "pointer": "accepted_responses",
+          "scale": 1
+        },
+        {
+          "display": "30",
+          "exact_value": "30",
+          "pointer": "planned_decisions",
+          "scale": 1
+        },
+        {
+          "display": "30",
+          "exact_value": "30",
+          "pointer": "admitted_requests",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [],
+      "highlighted_spans": 0
+    },
+    {
+      "id": "S72",
+      "source": "results/s72_temporal.json",
+      "source_sha256": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049",
+      "category": "ODD",
+      "numeric_checks": [
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/full_window_both_gain/self/mean",
+          "scale": 5
+        },
+        {
+          "display": "5",
+          "exact_value": "5",
+          "pointer": "n_blocks",
+          "scale": 1
+        },
+        {
+          "display": "2",
+          "exact_value": "2",
+          "pointer": "metrics/full_window_both_gain/shared/mean",
+          "scale": 5
+        },
+        {
+          "display": "5",
+          "exact_value": "5",
+          "pointer": "n_blocks",
+          "scale": 1
+        },
+        {
+          "display": "+0.400",
+          "exact_value": "2/5",
+          "pointer": "metrics/full_window_both_gain/difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/full_window_both_gain/difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.800",
+          "exact_value": "4/5",
+          "pointer": "metrics/full_window_both_gain/difference/ci95/1",
+          "scale": 1
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/stage_both_gain/self/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_blocks",
+          "scale": 8
+        },
+        {
+          "display": "0",
+          "exact_value": "0",
+          "pointer": "metrics/stage_both_gain/shared/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_blocks",
+          "scale": 8
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        },
+        {
+          "label": "primary rounds",
+          "displayed": "3..10",
+          "expected": "3..10",
+          "binding": "primary_rounds"
+        }
+      ],
+      "highlighted_spans": 5
+    },
+    {
+      "id": "S70",
+      "source": "results/s70_bonus_endowment.json",
+      "source_sha256": "1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2",
+      "category": "DUD",
+      "numeric_checks": [
+        {
+          "display": "2",
+          "exact_value": "2",
+          "pointer": "metrics/pair_bad/baseline/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "2",
+          "exact_value": "2",
+          "pointer": "metrics/pair_bad/endowed/mean",
+          "scale": 40
+        },
+        {
+          "display": "40",
+          "exact_value": "40",
+          "pointer": "n_games",
+          "scale": 4
+        },
+        {
+          "display": "+0.000",
+          "exact_value": "0",
+          "pointer": "metrics/pair_bad/paired_difference/mean",
+          "scale": 1
+        },
+        {
+          "display": "-0.075",
+          "exact_value": "-3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/0",
+          "scale": 1
+        },
+        {
+          "display": "+0.075",
+          "exact_value": "3/40",
+          "pointer": "metrics/pair_bad/paired_difference/ci95/1",
+          "scale": 1
+        }
+      ],
+      "metadata_checks": [
+        {
+          "label": "blocks",
+          "displayed": 5,
+          "expected": 5,
+          "binding": "n_seed_blocks/n_seeds/n_source_blocks/n_blocks"
+        },
+        {
+          "label": "games or selected cases",
+          "displayed": 10,
+          "expected": 10,
+          "binding": "n_games/n_cases/len(games)"
+        }
+      ],
+      "highlighted_spans": 3
+    }
+  ],
+  "limits": "Counts for S60/S62/S64/S65/S66/S69/S70 use stored rates times40, with 5games/arm and 8opportunities/game assumed by the registered design and integer game-count checks; opportunity eligibility is not re-read from raw trajectories here. S72 rates use times5 or times40, checked against saved game/round records. UNINFORMATIVE/UNRESOLVED map to ODD. Contextual wording, model names and design thresholds remain protected baseline text, not independently rederived claims. S02/S04 lack primary_rounds metadata; their window labels are preserved only. S01 category is inherited from its frozen design/report; its result envelope has no verdict. No portfolio pooling, hypothesis tests or discovery-rate inference.",
+  "rejected_corruption_probes": [
+    "preservation/displayed_value",
+    "preservation/wrong_direction",
+    "preservation/missing_row",
+    "preservation/failure_gains_estimate",
+    "binding/S70/metrics/pair_bad/endowed/mean",
+    "binding/S29/verdict",
+    "binding/S68/behavioral_estimates_computed",
+    "binding/S62/n_games",
+    "semantic_without_preservation/S01",
+    "semantic_without_preservation/S02",
+    "semantic_without_preservation/S16",
+    "editorial/headline",
+    "editorial/outside_table"
+  ]
+}

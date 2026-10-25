@@ -1,0 +1,45 @@
+{
+  "codex_scope": "Read-only code review, all54 explicit mappings, independent traversal of all307 numeric bindings, --check execution; selected replay source hashes checked, not rerun by critic",
+  "opus_scope": "Supplied code/report excerpt/digest only; no filesystem execution or raw-cache audit",
+  "changes": [
+    {
+      "issue": "Row mutations originally hit preservation checks first",
+      "action": "Kept four preservation probes; added three direct semantic probes without the equality guard and separated probe names"
+    },
+    {
+      "issue": "Counts use fixed rate scalings rather than direct count fields",
+      "action": "Documented all factors and design assumptions in receipt and report; added S72 game/round consistency checks"
+    },
+    {
+      "issue": "Non-table prose and new audit counts were not bound",
+      "action": "Exact baseline-plus-overlay reconstruction now binds complete REPORT and README; two editorial mutations reject"
+    },
+    {
+      "issue": "Inventory rows were not directly checked against baseline REPORT",
+      "action": "Added direct Git baseline REPORT-row equality"
+    },
+    {
+      "issue": "Artifact selection and probe discovery used different filename filters",
+      "action": "Replaced all discovery with one explicit54-path source map"
+    },
+    {
+      "issue": "Replay preserves mutable documents only by assumption",
+      "action": "Added exact before/after editorial byte checks"
+    },
+    {
+      "issue": "Historical S72 commit availability in clone",
+      "action": "README explicitly requires full-history clone; actual fresh-origin reproduction will be recorded separately"
+    },
+    {
+      "issue": "Other transports are not blocked by llm.chat patch",
+      "action": "Retained explicit scientific-entry guard scope; no network/process sandbox claim"
+    },
+    {
+      "issue": "S01 lacks a scientific verdict field; contextual wording not independently rederived",
+      "action": "Retained explicit receipt limitation; original baseline text protected, no fresh category inference"
+    }
+  ],
+  "final_codex": "Exit0: all307bindings and54source hashes independently traversed; --check passes; replay preservation inspected only.",
+  "final_opus": "Exit0 supplied-text review confirms listed fixes; final clone/offline wording clarified. S72 child program visibly applies its own llm.chat guard in unchanged iteration54 source. Fresh origin reproduction pending; no advance claim.",
+  "post_review_minor_changes": "Exact S74 queued-proposal append guard and its3041 unchanged-file count; clearer full-history and call-guard wording. Numerical bindings and scientific sources unchanged."
+}

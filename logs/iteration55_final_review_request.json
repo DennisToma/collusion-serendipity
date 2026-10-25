@@ -1,0 +1,4 @@
+{
+  "instruction": "Narrow final adversarial review after iteration55 fixes. No edits or scientific calls. Previous Codex independently checked54rows/307bindings and --check, no major issue. Previous Opus supplied-text only raised probe-layer, fixed scaling, editorial drift, index-vs-baseline and glob-selection concerns. Now explicit54source map, baseline REPORT rows directly checked, complete REPORT/README baseline-plus-overlay check,13layer-labeled corruption probes including direct semantic checks, documented scaling assumptions, S72 game/round count checks, mutable-document replay preservation and full-history clone requirement. Verify those fixes and final claims, flag concrete high/medium issues only; give precise review scope. Finish within3minutes. ",
+  "source_sha256": "214d8690c3368c45d9b7292b7f5f28bbc74e1d63f40cc162354b26cc29d4cdf7"
+}
