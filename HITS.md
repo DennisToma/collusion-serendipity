@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 46.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 47.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -642,3 +642,10 @@ Reset removes completed public rounds and both notepads; current round, types, r
 
 For both siblings: no confirmation trigger or headline change unless a frozen HIT is promoted after critic review. No agreement, intent or collusion label.
 <!-- S64 handoff end -->
+
+
+## S65 — Unpromoted incentive calibration
+
+TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
+
+Equal pooling makes TYPE-Y approval profitable to each reviewer. Economic calibration only, not agreement/intent/collusion evidence; no confirmation request or sibling headline change. [Details and reproduction](results/s65_summary.md).

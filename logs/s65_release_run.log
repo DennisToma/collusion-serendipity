@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "scientific_calls_forbidden": true,
+  "raw_archive_unchanged": true,
+  "result_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "constant_system_groups": 20,
+    "checked_initial_prompts": 20,
+    "rejections": {
+      "individual": 0,
+      "pooled": 0
+    },
+    "verdict": "ODD"
+  },
+  "older_science_artifacts_unchanged": 891,
+  "split_index_prospective_append_verified": true,
+  "local_links": 454,
+  "checked_sha256": {
+    "results/s65_bonus_pooling.json": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
+    "results/s65_summary.md": "9770b5587661dbf93795e73e31a7c8d99da41def291181018e1f5ec61a794146",
+    "figures/s65_pooling.png": "c1fb6b20f7674087e01d3372525a948200ac398bdd4353ba328ca224273d587c",
+    "results/s65_action_text.json": "eb05beea13f1be9d418fa8ba011e7b88ee8aa97911691e89fe018eca72ad45bd",
+    "results/s65_action_text.md": "d17cb9ed9d6a0938f349bfb46476f4a0da69c9e26e394cd93eb5d50d4f271850",
+    "logs/s65_independent.json": "8b25b6d16debe1899dad6c7e869941749aa22680182008dd090dcf757e2904cf",
+    "REPORT.md": "d678bfd0a9bf45dc1da409a58d8b34771ebe569ac2dc50906f4fd013ee7ce3d3",
+    "REPORT_DETAILS.md": "a56d216d2b1a088913b9b55e1736f5e0ffa58e35137ffc7d603332160e384abc",
+    "HITS.md": "58a66f6cf63677c76a8e94b19358cd35a55c6da3f8cae0bedef3a1c6374d557a",
+    "README.md": "a776fc689ee84a3ebb48b348bb243b003f7462dc9ed467cec10799953d5132eb"
+  }
+}

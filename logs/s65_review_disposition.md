@@ -8,3 +8,9 @@ Before scientific calls: Codex and Opus both completed design reviews. Neither f
 - Own S66 representation proposal queued before any live outcomes; no second experiment.
 
 Final reviews: pending after complete data and reconstruction.
+
+Pre-outcome editorial correction after registration: inspection found the frozen renderer inserts a blank line before the S65 table row, rendering it outside the historical pilot table. All20 registered files remain byte-identical. Separate publication/release wrappers remove only that blank and update the official reproduction command. A synthetic regression verifies all48 rows form one contiguous table and rendering is idempotent. No prompts, endpoints, data, statistics or classification changed; no outcomes inspected.
+
+Publication critic: fixed complete before/after archive inventory comparison, replaced writable temporary archive symlink with a copy, and added explicit optimization rejection before imports. (The imported registered analyzer already rejected optimization; the local entry now states it too.) Updated official instructions to run both focused test modules. Separate release verifies data/SPLITS.md is exactly its prospective registration append to original Git bytes; older scientific artifact preservation excludes only this explicitly appended metadata document. Corrected canonical wrapper scopes historical S60 split-index and expired S62 mock-clock fixtures; all actual archive/source/deadline checks remain unpatched. Initial822-test failure retained with reasons. No scientific outcomes inspected for these changes.
+
+Final Codex review PASS, no bugs: independently reconstructs all50 cells,15 exact bootstrap/t summaries/all32 sign patterns,200 bindings,source manifests and byte-identical call-forbidden replay. Confirms UNRESOLVED/ODD and report scope. Opus final remains pending at first results push.

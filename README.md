@@ -1438,3 +1438,15 @@ Completed archives replay with scientific calls forbidden. Failed/interrupted pi
 <!-- S64 reproduction start -->
 S64 fresh memory retention: `uv run python scripts/s64_release_final.py` validates the complete raw archive, independent statistics, rendered figure/summary, all adverse text and published S64 blocks without model calls. Full document validation targets the S64 results revision; from later publication revisions, checkout that results commit first. `uv run python scripts/s64_tests.py` runs all17focused checks with one registration-baseline-only synthetic fixture. Registered scientific sources/raw results stay unchanged; the original direct unittest command is superseded for post-publication use. [Design](DESIGN_S64.md) · [Results](results/s64_summary.md).
 <!-- S64 reproduction end -->
+
+
+### S65 — Equal bonus pooling
+
+Ten fresh workplace games/five blocks; individual versus pooled settlement. Both arms retain full history/shared notes. Expected calibration is serendipity DUD; unresolved is ODD. [Design](DESIGN_S65.md) · [Results](results/s65_summary.md).
+
+```bash
+uv run python scripts/s65_release_final.py
+uv run python -m unittest scripts.test_s65 scripts.test_s65_publication -q
+```
+
+The release forbids model calls, reconstructs every request/action and all outcomes, verifies byte-identical results and rendered claims. Use the results commit for exact document reproduction; existing pinned venv required.

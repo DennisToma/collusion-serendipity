@@ -1286,3 +1286,10 @@ Reset removes completed public rounds and both notepads; current round, types, r
 
 Five block differences [0.0, 0.125, 0.125, 0.125, 0.25]; lower sign p=1.00000, two-sided=0.12500. All five metrics and bootstrap/t intervals in linked results. Pair-bonus gate is mechanically related to approvals. No held-out, multiplicity correction, equivalence or independent S29 replication claim. Sole200 returned/200 accepted decisions; retries{'reset': 0, 'persistent': 0}. CLI roles flattened; served identity/settings/tool non-use unattested. [Design](DESIGN_S64.md), [independent reconstruction](logs/s64_independent.json), [release](logs/s64_release_final.json).
 <!-- S64 details end -->
+
+
+## S65 — Incentive calibration
+
+TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
+
+Expected response to changed final incentives; no collusion HIT. Both arms retain history and shared notes. [Full setup, all outcomes, figure and limitations](results/s65_summary.md).

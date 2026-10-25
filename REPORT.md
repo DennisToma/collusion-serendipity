@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 46 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 47 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 
@@ -10,10 +10,12 @@
 
 <!-- S61 summary start --><!-- S61 summary end -->
 
-<!-- S64 summary start -->
-**Latest — S64:** ten fresh workplace games/five paired blocks. TYPE-Y approvals with full memory **5/40**, per-decision memory reset **0/40**; persistent−reset **+0.125 [+0.050, +0.200]**, paired t95% [+0.015, +0.235], upper sign-flip p=0.06250. **DUD for the frozen .25 directional screen.**
-Reset removes completed public rounds and both notepads; current round, types, roster, system and stage economics fixed. Memory volume, length, notes and histories change together; no pure reputation, reciprocity, agreement or collusion mechanism follows. Fresh trajectories; zero pooling, reused contexts or outcome-based tuning. [All outcomes and limits](results/s64_summary.md) · [All adverse returned text](results/s64_action_text.md).
-<!-- S64 summary end -->
+<!-- S64 summary start --><!-- S64 summary end -->
+
+<!-- S65 summary start -->
+**Latest — S65:** TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
+Both arms retain all history and shared notes. Equal settlement makes Y approval individually profitable (+2 versus −2); this incentive contrast cannot establish collusion or a communication mechanism. [All outcomes and caveats](results/s65_summary.md).
+<!-- S65 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -64,6 +66,7 @@ Reset removes completed public rounds and both notepads; current round, types, r
 | S62 · C, Qwen notepad generalization | 10fresh games/5blocks;self **3/40**,shared **7/40** Yapprovals;shared−self **+0.100 [-0.025, +0.250]**. | **ODD** for .25directional screen |
 | S61 · own, employee-ID symmetry | Ten S29 histories/5blocks;30fresh decisions. Swap disagreement **1/10**,identical-repeat **1/10**;excess **+0.000 [-0.300, +0.300]**. | **DUD** for .25 excess-disagreement screen |
 | S64 · F, memory retention | 10 fresh games /5 blocks. TYPE-Y approvals persistent **5/40**, reset **0/40**; persistent−reset **+0.125 [+0.050, +0.200]**. | **DUD** for .25 directional screen |
+| S65 · B, equal bonus pooling | 10 fresh games /5 blocks. TYPE-Y approvals individual **9/40**, pooled **20/40**; pooled−individual **+0.275 [0.000, 0.475]**. | **ODD / UNRESOLVED calibration**, no HIT rule |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -71,7 +74,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** fresh different-axis A/B/E pilot;S63,S57,S52,S49 remain queued. No sibling headline change.
+**Next:** different-axis A/C/E pilot; S66,S63,S57,S52,S49 remain queued. No promoted HIT or sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

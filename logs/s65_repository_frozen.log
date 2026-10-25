@@ -1,0 +1,185 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.............................Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....................................F.FF.Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+...............E.......................................
+======================================================================
+ERROR: test_fenced_responses_cached_verbatim_and_replayed (test_s62.Tests.test_fenced_responses_cached_verbatim_and_replayed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s62.py", line 132, in test_fenced_responses_cached_verbatim_and_replayed
+    first=run_game(SEEDS[0],'shared',cache,'qwen-3.6-35b','aqueduct')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 252, in run_game
+    try:return _run_game(seed,condition,cache,model,backend,rounds)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 232, in _run_game
+    result=checked_call(cache,system,user,run_id,t,agent,model,backend,parser,calls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/advisor.py", line 71, in checked_call
+    response = cache.call(system, user, 'cheap', backend, run_id, t, agent, attempt, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 109, in call
+    raise RuntimeError('S62 absolute deadline reached; no new uncached requests')
+RuntimeError: S62 absolute deadline reached; no new uncached requests
+
+======================================================================
+FAIL: test_front_report_drift_is_rejected_without_rewriting (test_s60_presentation.Tests.test_front_report_drift_is_rejected_without_rewriting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 14, in test_front_report_drift_is_rejected_without_rewriting
+    generated=render_documents_expected()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_later_pilots_can_append_and_archive_the_front_summary (test_s60_presentation.Tests.test_later_pilots_can_append_and_archive_the_front_summary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 32, in test_later_pilots_can_append_and_archive_the_front_summary
+    generated=render_documents_expected();current=dict(generated)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_readme_false_claim_is_rejected (test_s60_presentation.Tests.test_readme_false_claim_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 23, in test_readme_false_claim_is_rejected
+    generated=render_documents_expected()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 782 tests in 147.658s
+
+FAILED (failures=3, errors=1)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.763s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.105s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.436s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": false,
+  "tests": 822,
+  "failures": 3,
+  "errors": 1,
+  "group_counts": {
+    "ordinary": 782,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

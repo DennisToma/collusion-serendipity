@@ -1,16 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T09:57:14.750661+00:00; Phase2, iteration47 RUNNING)
-- S65/B registered: fresh individual versus equal pooled workplace bonuses.
-- Ten games/5blocks25340..25344,T10,r3-10;both arms retain full memory/notes.
-- Y reviewer stage increment−2 versus+2;expected response is calibration,not collusion.
-- Expected calibration=DUD;unresolved=ODD;no HIT promotion rule.
-- Codex+Opus design critics complete;all findings addressed before calls.
-- Independent prompt/gate mutations reject;16focused and earlier820canonical PASS.
-- Sources/payoffs/assignment/screen frozen before live calls;no outcomes yet.
-- Next:push registration,run once,replay/reconstruct,final critics,release+push.
-- Prior S64DUD(+.125);no promoted HIT or sibling headline change.
-- Risks:n5,repeated-game incentives,bundled settlement/wording,provider variability.
+## Current state (2026-10-25T10:06:05.884085+00:00; Phase2, iteration47 FINAL CHECKS)
+- S65/B complete:10fresh games/5blocks,200accepted responses,zero retries/failures.
+- Y approvals individual9/40,pooled20/40;gap+.275[.000,.475].
+- Pairedt[-.111465,.661465];upperp.09375;blocks[.5,.5,.25,-.25,.375].
+- Frozen UNRESOLVED calibration/ODD;no HIT promotion rule or collusion claim.
+- Stage Y reviewer increment−2 versus+2;both arms retain history/shared notes.
+- Full raw replay+separate200bindings/50metriccells/15bootstrap+t summaries PASS.
+- Corrected823canonical PASS;17focused PASS;adversarial release mutations PASS.
+- All20registered sources unchanged;split index prospective append verified.
+- Codex final critic independently confirms all numbers/ODD;Opus pending;origin clone next.
+- New own S66 queued;next fresh different-axis A/C/E;no sibling headline change.
+- Risks:n5,multiplicity,settlement/wording bundle,repeated-game continuation,provider.
 
 ## Log
 
@@ -651,3 +652,7 @@
 - 2026-10-25T09:49:03.122325+00:00: iteration46 COMPLETE. Registrationfa2e5c2b535966b16d23f5bfd4695d1625aaf9f5/scientific+document resultseaaafac9cb3df12abbd1bc30e3c378e420792c88 committed and pushed. Fresh full-history ORIGIN clone at exact resultscommit PASS:11scientific/presentation/document artifacts byte-identical,17scoped focused checks,full frozen main provenance/raw/export replay plus separate200accepted action-note-reason bindings,50metriccells,15exact bootstrap/t summaries and all32signpatterns;clone gitstatus clean. Receipt logs/s64_remote_clean_clone.json,output logs/s64_origin_clone_run.log;existing frozen installed venv reused,not fresh dependency install. Final806canonical suite PASS with existing legacy fixtures plus only one new S64 synthetic registration-document fixture;17scoped checks PASS. Both design/final scientific critics exit0(Codex raw/source/stat reconstruction versus compact Opus supplied-text arithmetic);initial full-context Opus timeout preserved. Corrective publication critic exit0,PASS. Frozen publisher removed historical anchors and synthetic test assumed pre-publication documents;initial5/806failures retained,corrected through3additive editorial/reproduction helpers outside21registered sources,no science retuning. New corrected entry scripts/s64_release_final.py and scripts/s64_tests.py documented in README/summary footer;10anchors/46priorrows/4complete docs/4rendered assets/452links PASS. First self-receipt-link/bootstrap and additive-helper import-path failures retained;resolved without scientific-source changes. Scientific200returned/accepted decisions,zero retries/failures/fences;no active generation/review. Persistent5/40 versus reset0/40 Yapprovals,contrast+.125[+.05,+.2],pairedt[.01525137086436465,.23474862913563535],upperp.0625/lowerp1/two-sidedp.125;blocks[0,.125,.125,.125,.25]. Frozen DUD via bootstrapupper.2<.25;positive descriptive intervals do not promote the frozen magnitude/sign screen. All21registered sources/complete raw archive/resultSHA0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9/1334older science artifacts unchanged;REPORT47pilots. No extra scientificcalls,newgames,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,sibling writes or DIRECTION deviation. No agreement,intent,collusion,equivalence or pure reputation/reciprocity mechanism claim. Next different-axisA/B/E;ownS63/S57/S52/S49remain queued. Closing proof/ledger handoff commit+push follows.
 
 - 2026-10-25T09:57:14.750661+00:00: iteration47 read rules,PLAN/STATUS/DIRECTION/ledger and both siblings read-only. Selected different-axis B/S65 fresh bonus-pooling incentive calibration after F/S64. All16 focused tests and earlier820 canonical tests pass; Codex and Opus design reviews complete,checker/interpretation findings fixed before calls. No scientific outcomes inspected;S66 own representation idea queued. No direction deviation;no HIT-promoting screen or sibling change.
+
+- 2026-10-25T10:06:05.884085+00:00: S65 completed all10 games/200responses with zero retries/failures. Frozen primary Individual9/40,pooled20/40;pooled-minus-individual+0.275[0.0, 0.475];pairedt[-0.11146480280185311, 0.6614648028018532];upperp0.09375;blocks[0.5, 0.5, 0.25, -0.25, 0.375];UNRESOLVED/ODD;200responses,zero retries/failures. UNRESOLVED/ODD retained despite directional point estimate;no secondary/HIT promotion. Complete registered-source/raw replay,separate50cells/15bootstrap+t summaries/all32sign patterns/200action-note-reason bindings pass. Corrected canonical823 and current focused17 pass;three release mutations reject,all restored. Posthoc all80Y decisions enumerated without semantic labels/new metrics,including pooled rejections;no mechanism attribution. Both final critics pending. No scientific source/data/statistic changes or second pilot.
+
+- 2026-10-25T10:07:11.582747+00:00: final Codex critic independently enumerates all3125 bootstrap samples for15summaries,all32sign patterns per metric,and50rawmetric cells,confirming9/40versus20/40,+11/40,[0,19/40],p3/32 and unchanged UNRESOLVED/ODD. No correctness findings. Final release verifies20registered source hashes,891older scientific artifacts unchanged and exact prospective split-index append;all80Y choices source-bound. Milestone scientific-results push prepared while independent Opus final review runs;no further simulator calls.

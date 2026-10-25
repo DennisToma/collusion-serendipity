@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "contradictory_extra_headline_rejected_without_rewrite": true,
+  "file_added_after_snapshot_rejected": true,
+  "optimized_python_rejected": true,
+  "all_mutations_restored": true,
+  "clean_release_passed": true,
+  "report_sha256": "7d373ee4ddad816a122d72ed767a4fc5d646b14b204384a469614c50d7a32602"
+}
