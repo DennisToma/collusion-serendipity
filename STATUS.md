@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25 14:55 UTC; Phase 2, iteration 59 VERIFIED; publication pending)
-- Frozen science:54 entries;29 DUD,23 ODD/context-only,two failed;no promoted HIT.
-- REPORT/README lead with findings,uncertainty and future controls;all54 original rows preserved.
-- S29:+0.325 bootstrap[+.100,+.575],t[-.049,+.699],p=.0625;S62:+.100[-.025,+.250];both ODD.
-- New lead reads saved fields directly;all3139 prior paths outside eight editorial/export paths unchanged.
-- Final build,PDF extraction and five selected replays/checkers exit0;repeat eight-file build byte-identical.
-- Original307 numeric/144metadata checks and archived54-primary-object receipt checks pass.
-- Brief2/report3pages;59/178fragments and13/55complete table rows present;allfive pages inspected.
-- Final Codex/Opus reviews exit0,no high/medium in stated scopes;review hashes match finished release.
-- Earlier stale-receipt review and draft-guard rejection retained with dispositions;no consensus raw-audit claim.
-- Dependencies reused;canonical scientific suite not rerun for this editorial chunk;prior receipts unchanged.
-- No scientific generation,new estimate,tuning,pooling,verdict,ledger or sibling change;S68 must not resume.
-- Next:commit/push and fresh-origin build/check;then preserve frozen evidence,POLISH only.
+## Current state (2026-10-25 14:57 UTC; Phase 2, iteration 59 COMPLETE)
+- REPORT/README now lead with findings,uncertainty and future controls;all54 original pilot rows preserved.
+- Frozen portfolio:29 DUD,23 ODD/context-only,two failed;no promoted HIT or headline change.
+- S29:+.325 bootstrap[+.100,+.575],t[-.049,+.699],p=.0625;S62:+.100[-.025,+.250];both ODD.
+- New summary reads protected saved fields directly;all3139 prior paths outside eight editorial/export paths unchanged.
+- Final build,fresh PDF extraction and five selected replays/checkers exit0;307numeric/144metadata checks pass.
+- Brief2/report3pages retain59/178fragments and13/55complete table rows;allfive pages visually inspected.
+- Repeat eight-file build is byte-identical;fresh ORIGIN9777a99 reproduces all8 with three commands exit0,clone clean.
+- Final Codex/Opus reviews exit0,no high/medium within stated scopes;source hashes match finished release.
+- Earlier stale-receipt review and draft-guard rejection retained;no unanimous raw-audit claim.
+- Existing dependencies reused;archived54-primary/50checker evidence retained;canonical suite not rerun this editorial chunk.
+- No new experiment,scientific generation,estimate,tuning,pooling,verdict,ledger or sibling change;S68 must not resume.
+- Next:POLISH only;preserve frozen evidence and avoid repeat work unless relevant publication sources change.
 
 ## Log
 
@@ -787,3 +787,5 @@
 - 2026-10-25 14:47 UTC: own-idea cadence,S76-proposal (axis own;queued only): truthful partner-read receipts versus matched self-file read confirmations at identical actual shared-note delivery,payoffs and note content. A delivery acknowledgment could change beliefs about whether a partner saw the note without adding new economic information. A future design needs matched message length/timing,a receipt-interpretation precheck,fresh blocked registration,and complete-window individual gains;it would still not label intent. Recorded here under the frozen-ledger convention;transfer to IDEAS before any future pilot registration. No call,estimate or additional experiment.
 
 - 2026-10-25 14:55 UTC: iteration59 final release verification PASS. Final build,fresh PDF extraction and five selected scientific replays/checkers each exit0;all eight reader/receipt/document files rebuild byte-identically. All54 original rows,307 field bindings,144metadata checks,archived54-primary-object/50checker receipt checks and3139 protected preexisting paths pass. Brief2/report3pages preserve59/178sourcefragments and13/55complete table rows;allfive pages visually inspected,final report first/last pages rechecked after last prose changes. Both stable-source release critics exit0 with no high/medium finding within their scopes;source hashes exactly match final files. Codex independently checked actual fields,raw opportunity counts,links,hashes and PDF content/layout;its combined check could not create a temporary clone in its read-only environment and it ran no scientific replay. Opus remains supplied-text-only,with no hash/PDF/raw execution claim. Manager ran the complete combined checks separately with actualexit0. Retained earlier closure snapshot really mixed the fourteen-source code with an eleven-source receipt because the critic was launched before build completion;final review was launched only after complete build and current14source-hash equality. No stale review was converted into success. Corrected disposition wording about S62's exact boundary,required exact byte equality for every pinned source link,and guarded displayed audit/replay counts and the S29 sign-screen interpretation. Optional S62 boundary explanation and existing rendering write-order limits remain disclosed;no further source change after final reviews. Scientific canonical tests were not rerun for presentation-only changes;their prior receipts remain untouched. Result/source/receipt/docs commit and push,next actual fresh-origin check. No new experiment,scientific call,estimate,tuning,pooling,verdict,HIT,ledger row or sibling write. S68 interrupted.
+
+- 2026-10-25 14:57 UTC: iteration59 COMPLETE. Scientific-reader/source/receipt result9777a99aa03e00e9921ae4e1aadd953b146b54c6 committed and pushed. A fresh full-history ORIGIN clone at that exact revision ran three stages with actualexit0:reader build,fresh PDF extraction,and current field/receipt checks plus five selected scientific replays/checkers. All8 reader/receipt/document files reproduced byte for byte;clone clean. Actual proof logs/iteration59_remote_clean_clone.json. Existing installed project/export dependencies and Chromium reused;no new fresh-install,cross-platform,independent-scientific-validity or full54fresh-rerun claim. All54 original rows,3139 protected prior paths,307numeric bindings,144metadata checks,old receipts and scientific validators remain unchanged. Final source matches stable-review hashes;both release critics report no high/medium within their disclosed scopes,with earlier critiques,stale-snapshot failure and dispositions retained. Brief2/report3pages keep59/178fragments and13/55complete rows;allfive pages visually inspected and final repeat build identical. STATUS's full prior log remains an exact prefix. No experiment,scientific generation,estimate,tuning,pooling,verdict,HIT,ledger row or sibling write. S68 interrupted,no estimate/restart;S76 queued only. Closing origin-proof/status commit and push follow. Next iterations should preserve the frozen release and avoid redundant verification unless relevant sources change.
