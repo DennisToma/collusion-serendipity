@@ -39,7 +39,12 @@ def check():
     registered_split=subprocess.check_output(['git','show',f'{reg}:{split}'])
     assert hashlib.sha256(old_split).hexdigest()==prior[split]
     assert registered_split.startswith(old_split) and Path(split).read_bytes()==registered_split,'Prospective split index drift'
-    assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in prior.items() if p!=split),'Older scientific artifact changed'
+    locks={p for p in prior if Path(p).name=='.writer.lock'}
+    assert all(prior[p]==hashlib.sha256(b'').hexdigest() for p in locks),'Unexpected nonempty process lock'
+    published=set(subprocess.check_output(['git','ls-tree','-r','--name-only',reg],text=True).splitlines())
+    protected={p:h for p,h in prior.items() if p!=split and p not in locks}
+    assert set(protected)<=published,'Unpublished scientific evidence in preservation inventory'
+    assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in protected.items()),'Older scientific artifact changed'
     links=0
     for n in [*DOCUMENTS,'results/s65_summary.md','results/s65_action_text.md','results/s65_all_y_decisions.md']:
         for href in re.findall(r'\]\(([^)]+)\)',Path(n).read_text()):
@@ -48,7 +53,7 @@ def check():
             assert (Path(n).parent/href).exists(),(n,href)
             links+=1
     receipt=dict(passed=True,scientific_calls_forbidden=True,raw_archive_unchanged=True,result_byte_identical=True,
-                 independent=independent,older_science_artifacts_unchanged=len(prior)-1,split_index_prospective_append_verified=True,local_links=links,
+                 independent=independent,older_science_artifacts_unchanged=len(protected),unpublished_empty_writer_locks_excluded=len(locks),split_index_prospective_append_verified=True,local_links=links,
                  checked_sha256={n:hashlib.sha256(b).hexdigest() for n,b in original.items()})
     Path('logs/s65_release_final.json').write_text(json.dumps(receipt,indent=2)+'\n');print(json.dumps(receipt,indent=2));return receipt
 

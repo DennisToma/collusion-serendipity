@@ -20,7 +20,8 @@
     },
     "verdict": "ODD"
   },
-  "older_science_artifacts_unchanged": 891,
+  "older_science_artifacts_unchanged": 846,
+  "unpublished_empty_writer_locks_excluded": 45,
   "split_index_prospective_append_verified": true,
   "local_links": 457,
   "checked_sha256": {

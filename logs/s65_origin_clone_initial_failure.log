@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/var/tmp/s65_origin_zh_pagb0/repo/scripts/s65_release_final.py", line 55, in <module>
+    if __name__=='__main__':check()
+                            ^^^^^^^
+  File "/var/tmp/s65_origin_zh_pagb0/repo/scripts/s65_release_final.py", line 42, in check
+    assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in prior.items() if p!=split),'Older scientific artifact changed'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/tmp/s65_origin_zh_pagb0/repo/scripts/s65_release_final.py", line 42, in <genexpr>
+    assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in prior.items() if p!=split),'Older scientific artifact changed'
+                              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/s18_workplace/.writer.lock'
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/s65_clone.py", line 26, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s65_clone.py", line 16, in main
+    for command in commands:subprocess.run([str(root/'.venv/bin/python'),*command],cwd=clone,env=env,check=True)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/home/factory/collusion/collusion-serendipity/.venv/bin/python', 'scripts/s65_release_final.py']' returned non-zero exit status 1.
