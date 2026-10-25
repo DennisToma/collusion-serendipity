@@ -6,6 +6,7 @@ Existing scientific files and the dependency lock are never rewritten.
 """
 import argparse
 import base64
+from fractions import Fraction
 import hashlib
 import html
 import json
@@ -23,15 +24,18 @@ from scripts import iteration55_claims as audit
 BASELINE = '573f97310771f76fefb67e8d57f666539ad919cb'
 REPO_URL = 'https://github.com/DennisToma/collusion-serendipity'
 COMMAND = 'uv run --frozen python scripts/export_report.py --check --replay-selected'
-EXPORT_RECEIPT = 'logs/iteration58_exports.json'
+EXPORT_RECEIPT = 'logs/iteration59_exports.json'
+PREVIOUS_READER_REVISION = 'f5fd3dfea8c62bba16f59bc8a0e5d946a60a4c1c'
+PRESERVATION_BASELINE = '3f264b3cae7acd81d802ffe4fc5dd6d89b9dfec6'
 REPLAY_SOURCE_REVISION = 'cd3505ce141d190d92ecda420430ff74caccf70d'
 EXPORT_FILES = ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']
 EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
     'scripts/iteration57_fresh_install.py', 'logs/iteration57_fresh_install.json', 'requirements-export.lock',
     'results/iteration57_reproduction.md', 'scripts/portfolio_replay.py',
-    'logs/iteration58_portfolio_replay.json', 'results/iteration58_reproduction.md']
+    'logs/iteration58_portfolio_replay.json', 'results/iteration58_reproduction.md',
+    'results/s29_notepad.json', 'results/s62_notepad_qwen.json', 'results/iteration54_portfolio.json']
 EXPORT_ENV = {'markdown-it-py': '4.2.0', 'playwright': '1.64.1', 'pypdf': '6.21.2', 'matplotlib': '3.11.2'}
-NOTICE = ('**Reader exports — iteration 58:** [Concise brief (PDF)](BRIEF.pdf) · '
+NOTICE = ('**Reader exports — iteration 59:** [Concise brief (PDF)](BRIEF.pdf) · '
           '[Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). '
           'Exports preserve the saved evidence and original pilot rows. Current verification: '
           f'`{COMMAND}`. The iteration-54/55 full-document commands require their archived revisions.\n\n')
@@ -43,11 +47,84 @@ FRESH_NOTICE = ('**Fresh dependency reproduction — iteration 57:** Archived ha
     'Iteration-57 exports were built separately; the current exports use the current export check. '
     'Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. '
     'Instructions and scope: `results/iteration57_reproduction.md`.\n\n')
-PORTFOLIO_NOTICE = ('**Primary-result replay — iteration 58:** All **54 primary result objects** '
-    'reproduce at pinned revisions: 52 completed analyses and two failure audits; '
-    '**50 existing checkers** also run. Fifty-one entries use the frozen baseline and three use '
+PORTFOLIO_NOTICE = ('**Archived primary-result replay — iteration 58:** All **54 primary result objects** '
+    'reproduced at pinned revisions: 52 completed analyses and two failure audits; '
+    '**50 existing checkers** also ran. The current command checks that saved receipt and '
+    'reruns only five selected analyses/checkers. Fifty-one entries use the frozen baseline and three use '
     'their historical result revisions. Validation depth varies by pilot. '
     '[Coverage, limits and run commands](results/iteration58_reproduction.md).\n\n')
+SCIENCE_LEAD = (
+    '**Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling '
+    'price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: '
+    'shared notes coincided with more organization-harming approvals in one small pilot, '
+    'while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.\n\n'
+    '**The lead and its uncertainty:** Employees review each other; in S29/S62, approving TYPE-Y '
+    'benefits the author, costs the reviewer and harms the organization. In S29 (gpt-6-luna), '
+    'TYPE-Y approvals were **{s29_self}/40 with self notes '
+    'versus {s29_shared}/40 with shared notes**: shared-minus-self approval-rate difference **{s29_mean:+.3f}**, '
+    'descriptive block bootstrap 95% CI **[{s29_lo:+.3f}, {s29_hi:+.3f}]**, paired t 95% CI '
+    '**[{s29_tlo:+.3f}, {s29_thi:+.3f}]**. Each arm has five games and '
+    'forty TYPE-Y opportunities over rounds 3–10; uncertainty uses five paired blocks. '
+    'One block ties; the registered upper-tail sign-flip p={s29_p:.4f} '
+    'misses the 0.05 screen. S62 ({s62_model}), ten fresh games in five blocks, gives '
+    '**{s62_self}/40 versus {s62_shared}/40**, contrast **{s62_mean:+.3f} '
+    '[{s62_lo:+.3f}, {s62_hi:+.3f}]** (bootstrap 95% CI). '
+    'Both pilots remain ODD. [Source-checked brief, payoff accounting and all intervals]'
+    '(results/iteration54_brief.md).\n\n'
+    '**Interpretation and next step:** An adverse approval does not verify agreement '
+    'or reciprocal intent. Incentive calibration and the choice of payoff window change its '
+    'interpretation. Future confirmation should use a larger sample of fresh registered blocks, self/shared/unread '
+    'notepad controls, counterbalanced identities and both employees’ complete-window gains. '
+    'This experiment has not been launched.\n\n'
+    '**Portfolio:** **{entries} entries: {duds} DUD, {odds} ODD/context-only, two failed/unclassified.** '
+    'Entries include fresh games, reused-history decisions and reanalyses; they are not independent '
+    'replications. Examples above were selected post hoc. DUD/ODD are prioritization labels; '
+    'no held-out validation or multiplicity correction is claimed. S68 remains interrupted '
+    'without an estimate or restart.\n\n')
+
+
+def scientific_lead():
+    """Format the selected summary directly from protected saved result fields."""
+    values = {}
+    for pilot, path in [('s29', 'results/s29_notepad.json'), ('s62', 'results/s62_notepad_qwen.json')]:
+        obj = json.loads((ROOT / path).read_text())
+        require(obj['n_games'] == 10 and obj['n_seed_blocks'] == 5 and obj['primary_rounds'] == '3..10',
+                'Lead sample/window differs: ' + pilot)
+        require(obj['verdict'] == 'ODD' and obj['primary_contrast'] == 'shared minus self',
+                'Lead label/direction differs: ' + pilot)
+        metric = obj['metrics']['pair_bad']
+        for arm in ['self', 'shared']:
+            count = Fraction(metric[arm]['mean_exact']) * 40
+            require(count.denominator == 1, 'Lead count scaling is not integral')
+            values[pilot + '_' + arm] = count.numerator
+        d = metric['paired_difference']
+        for key, value in zip(['mean', 'lo', 'hi', 'tlo', 'thi', 'p'],
+                             [d['mean'], *d['ci95'], *d['paired_t_ci95'], d['exact_signflip_p_upper']]):
+            values[pilot + '_' + key] = value
+        values[pilot + '_model'] = obj['model']
+        if pilot == 's29':
+            require(metric['seed_differences'].count(0) == 1, 'Lead tied-block count differs')
+            require(obj['model'] == 'gpt-6-luna', 'Lead S29 model differs')
+            require(d['exact_signflip_p_upper'] > .05, 'Lead sign-screen interpretation differs')
+    inventory = json.loads((ROOT / 'results/iteration54_portfolio.json').read_text())
+    values.update(entries=len(inventory['pilots']), duds=inventory['categories']['DUD'],
+                  odds=inventory['categories']['ODD'])
+    require(inventory['categories']['FAILED'] == 2, 'Lead failure count differs')
+    return SCIENCE_LEAD.format(**values)
+
+
+def verification_note():
+    return ('**Evidence and reproduction:** All 54 original pilot rows are preserved. '
+        '[The field audit](results/iteration55_claim_audit.json) binds 307 highlighted values and '
+        'failure counts plus 144 sample/window checks to saved artifacts. '
+        '[The archived iteration-58 primary-result replay](results/iteration58_reproduction.md) reproduced '
+        '52 completed analyses and two failure audits at pinned revisions, running 50 existing checkers whose '
+        'validation depth varies. These are consistency checks, not independent scientific validation. '
+        'Current verification: `' + COMMAND + '`. This command checks saved replay receipts and '
+        'reruns five selected analyses/checkers; it does not rerun all 54. Use full Git history and '
+        'installed pinned dependencies. The scientific call entry is guarded; no network isolation '
+        'is claimed. [Fresh-dependency reproduction and its same-host scope]'
+        '(results/iteration57_reproduction.md).\n\n')
 CSS = """
 :root { font-family: Arial, sans-serif; color: #192b3e; background: #fff }
 body { margin: 0 } main { max-width: 1080px; margin: 32px auto; padding: 0 28px }
@@ -93,17 +170,27 @@ def replace_once(text, before, after):
 
 
 def documents():
-    report = replace_once(old('REPORT.md').decode(), '2026-10-25 · Iteration 55 ·', '2026-10-25 · Iteration 58 ·')
-    report = replace_once(report, '**Reading guide — iteration 55:**', NOTICE + PORTFOLIO_NOTICE + FRESH_NOTICE + '**Reading guide — iteration 58:**')
-    report = replace_once(report, 'Current offline command: `uv run --frozen python scripts/iteration55_claims.py --check --replay-selected`.',
-                            f'Current offline command: `{COMMAND}`.')
+    original = old('REPORT.md').decode()
+    table_marker = '| Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |'
+    require(original.count(table_marker) == 1, 'Original table marker changed')
+    report = ('# Serendipity log — Beyond Words\n\n'
+        '2026-10-25 · Iteration 59 · **No hits promoted.** Exploratory pilots; zero game-outcome tuning attempts.\n\n'
+        + scientific_lead() + NOTICE + original[original.index(table_marker):])
     report = replace_once(report, '**Next:** different-axis pilot only if valuable before14:30UTC;then polish.',
                           '**Next:** preserve the frozen evidence and polish the final handoff.')
+    context = re.search(r'\*\*S67 opportunity context:\*\*[^\n]+\n\n', original)
+    require(context is not None, 'Original S67 opportunity caveat moved')
+    report = replace_once(report, '[All methods,per-pilot caveats,uncertainty and figures]',
+                          context.group(0) + verification_note()
+                          + '[All methods,per-pilot caveats,uncertainty and figures]')
+    report = replace_once(report, '[Reproduction](README.md)',
+                          '[Primary-result reproduction](results/iteration58_reproduction.md)')
     readme = old('README.md').decode()
     entry = readme.split('\n\n')[1]
     require(entry.startswith('**Judge / handoff entry:**'), 'README entry moved')
-    replacement = NOTICE + PORTFOLIO_NOTICE + FRESH_NOTICE + replace_once(entry,
+    replacement = scientific_lead() + NOTICE + replace_once(entry,
         'uv run --frozen python scripts/iteration55_claims.py --check --replay-selected', COMMAND)
+    replacement += '\n\n' + verification_note() + FRESH_NOTICE
     replacement += ('\n\nRender with a separate pinned environment (project dependencies and `uv.lock` stay unchanged):\n\n'
         'The Git diff command below checks byte identity on the recording host. On another host, '
         'use the PDF content checks and report any byte differences.\n\n'
@@ -112,9 +199,10 @@ def documents():
         '/var/tmp/explorer-export57/bin/python -m playwright install chromium\n'
         '/var/tmp/explorer-export57/bin/python scripts/export_report.py --build\n'
         '/var/tmp/explorer-export57/bin/python scripts/export_report.py --check-pdf\n'
-        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration58_exports.json\n```\n\n'
+        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration59_exports.json\n```\n\n'
         'The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. '
-        'Source links in the exports point to the frozen evidence revision on GitHub; following them requires repository access. '
+        'Source links in the exports pin historical evidence and reproduction revisions on GitHub; '
+        'following them requires repository access. Brief/report links point to the portable local exports. '
         'The archive checks and selected replay use the installed project dependencies and full Git history. '
         'For independent PDF-content checking use the pinned export command with `--check-pdf`. '
         'Plain `--check` verifies consistency with the source/export hashes in the committed receipt; '
@@ -130,9 +218,10 @@ def documents():
 
 
 def preservation():
-    mutable = {'REPORT.md', 'README.md', 'STATUS.md'}
+    mutable = {'REPORT.md', 'README.md', 'STATUS.md', 'scripts/export_report.py',
+               'BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf'}
     count = 0
-    for line in audit.git('ls-tree', '-r', BASELINE).decode().splitlines():
+    for line in audit.git('ls-tree', '-r', PRESERVATION_BASELINE).decode().splitlines():
         metadata, name = line.split('\t', 1)
         if name in mutable:
             continue
@@ -141,7 +230,8 @@ def preservation():
                 'Preexisting file changed: ' + name)
         count += 1
     require((ROOT / 'STATUS.md').read_text().split('## Log\n', 1)[1].startswith(
-        old('STATUS.md').decode().split('## Log\n', 1)[1]), 'Historical STATUS log changed')
+        audit.git('show', PRESERVATION_BASELINE + ':STATUS.md').decode().split('## Log\n', 1)[1]),
+        'Historical STATUS log changed')
     return count
 
 
@@ -163,6 +253,10 @@ def verify_sources():
     check()
     from scripts.portfolio_replay import check as check_portfolio
     portfolio = check_portfolio(json.loads((ROOT / 'logs/iteration58_portfolio_replay.json').read_text()))
+    require((result['pilot_entries'], result['numeric_tokens_checked'], result['metadata_checks']) == (54, 307, 144),
+            'Reproduction-note field-audit counts differ')
+    require((portfolio['archived_result_objects'], portfolio['completed_analyses'], portfolio['failure_audits'],
+             portfolio['existing_independent_checkers']) == (54, 52, 2, 50), 'Reproduction-note replay counts differ')
     return {'protected_files': protected, 'pilot_rows': result['pilot_entries'],
             'numeric_bindings': result['numeric_tokens_checked'], 'metadata_checks': result['metadata_checks'],
             'saved_primary_replay_objects': portfolio['archived_result_objects'],
@@ -171,7 +265,7 @@ def verify_sources():
 
 def sources():
     brief = (ROOT / 'results/iteration54_brief.md').read_text()
-    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 58 ·')
+    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 59 ·')
     require(brief.count('**Offline verification of this handoff:**') == 1, 'Brief verification block moved')
     brief = brief.split('**Offline verification of this handoff:**', 1)[0]
     brief += ('**Current offline verification:**\n\n```bash\n' + COMMAND + '\n```\n\n'
@@ -238,12 +332,13 @@ def page(name, source):
         if path in ['BRIEF.pdf', 'REPORT.pdf', 'BRIEF.html', 'REPORT.html']:
             return match[0]
         require((ROOT / path).is_file(), 'Missing source link: ' + path)
-        if path == 'REPORT.md':
-            return 'href="REPORT.pdf"'
-        revision = REPLAY_SOURCE_REVISION if path == 'results/iteration58_reproduction.md' else BASELINE
+        if path in ['REPORT.md', 'results/iteration54_brief.md']:
+            return 'href="' + ('REPORT.pdf' if path == 'REPORT.md' else 'BRIEF.pdf') + '"'
+        revision = (REPLAY_SOURCE_REVISION if path == 'results/iteration58_reproduction.md'
+                    else PREVIOUS_READER_REVISION if path == 'results/iteration57_reproduction.md' else BASELINE)
         audit.git('cat-file', '-e', revision + ':' + path)
-        if path == 'results/iteration58_reproduction.md':
-            require(audit.git('show', revision + ':' + path) == (ROOT/path).read_bytes(), 'Pinned source link changed: ' + path)
+        require(audit.git('show', revision + ':' + path) == (ROOT/path).read_bytes(),
+                'Pinned source link changed: ' + path)
         return 'href="' + html.escape(REPO_URL + '/blob/' + revision + '/' + path) + '"'
     markup = re.sub(r'href="([^"]+)"', link, markup)
     if name == 'BRIEF':
@@ -367,9 +462,10 @@ def render():
         browser.close()
     require(not blocked, 'Unexpected browser network request')
     record = {'scope': 'Presentation only; source-fragment coverage is not raw scientific validation.',
-        'reader_iteration': 58, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
+        'reader_iteration': 59, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
         'fresh_install_target_revision': 'e6b0c02bb189923b3fd039fe67db153826ee3aff',
-        'source_revision': BASELINE, 'export_environment': EXPORT_ENV, 'chromium_version': browser_version,
+        'source_revision': BASELINE, 'preservation_baseline': PRESERVATION_BASELINE,
+        'export_environment': EXPORT_ENV, 'chromium_version': browser_version,
         'network_requests_blocked': blocked, 'chart_rows': rows, 'pdf_text_coverage': checks,
         'files': {n: sha((ROOT / n).read_bytes()) for n in EXPORT_FILES},
         'source_hashes': {n: sha((ROOT / n).read_bytes()) for n in EXPORT_SOURCES}}
@@ -388,7 +484,7 @@ def main():
     if args.build:
         preservation()
         for name, value in documents().items():
-            require((ROOT / name).read_bytes() in [old(name), audit.git('show', 'e6b0c02:' + name), audit.git('show', REPLAY_SOURCE_REVISION + ':' + name), value.encode()], 'Intervening editorial change: ' + name)
+            require((ROOT / name).read_bytes() in [old(name), audit.git('show', 'e6b0c02:' + name), audit.git('show', REPLAY_SOURCE_REVISION + ':' + name), audit.git('show', PREVIOUS_READER_REVISION + ':' + name), value.encode()], 'Intervening editorial change: ' + name)
         for name, value in documents().items():
             (ROOT / name).write_text(value)
         checked = verify_sources()

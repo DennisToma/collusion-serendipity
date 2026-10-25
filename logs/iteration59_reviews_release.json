@@ -1,0 +1,26 @@
+{
+  "source_sha256": {
+    "REPORT.md": "2e86789a32e2b18ed415232ce94b3424fc3b0bc26770f6206cce6d38fccffea1",
+    "scripts/export_report.py": "da8d484540c5eeca216c1aa4775b5784e608f1792d0b1714c4e39486cc601d6e",
+    "results/iteration54_brief.md": "fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6",
+    "results/s29_summary.md": "b8a24f0e1c609b9a8bbb60ef7a8b36fa70023877e809a694b2c30d5ab459aaf9",
+    "results/s62_summary.md": "1734e9a140e7bb1decca87b5777811c796c04a95a7be61c794985860809171da",
+    "DESIGN_S29.md": "00ed60e1eeb723096a6415e2a52e627b85cd747c6f316c01fcf1a4679e243549",
+    "logs/iteration59_exports.json": "fd633ee518d87a556687600aafa7c6cb56727c89450243f13eefa55012fdef25",
+    "logs/iteration59_review_disposition.md": "d4514c7fdf369537115a299a368cf877bf78d260eef608b299e094fb81e435b1",
+    "results/s29_notepad.json": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+    "results/s62_notepad_qwen.json": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226"
+  },
+  "reviews": [
+    {
+      "critic": "codex",
+      "exit": 0,
+      "scope": "Read-only repository; executed checks only as stated."
+    },
+    {
+      "critic": "opus",
+      "exit": 0,
+      "scope": "Supplied text only; no raw-data/PDF/visual inspection."
+    }
+  ]
+}

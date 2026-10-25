@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "scope": "Editorial release consistency; existing dependencies reused. No new scientific generation or independent scientific validation.",
+  "commands": [
+    {
+      "argv": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--build"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3139, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--check-pdf"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3139, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3139, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "protected_existing_paths": 3139,
+  "preservation_baseline": "3f264b3cae7acd81d802ffe4fc5dd6d89b9dfec6",
+  "original_pilot_rows": 54,
+  "original_rows_sha256": "576a51cbe5199dcf6500060ca9c25c73a09ff9af508c91d45b4d29a0c481c124",
+  "repeated_build_byte_identical_files": {
+    "BRIEF.html": "caf6326da135f292ec0b9c6660e59b5f7375e1b53c7889253f79492d4a5b4c44",
+    "BRIEF.pdf": "2bc0671496d693083cec683a6aaec10111d42229268cee828dd0ef5125d41b5b",
+    "REPORT.html": "57f0fe2fe5bea7a3dcd5343fcb997ea7c4ee91931a7b44fd19e573c9aaa767af",
+    "REPORT.pdf": "b410c88dd0cb5972e423969816a94928110fcbd7d6a2f36a64420b6600a85418",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration59_exports.json": "fd633ee518d87a556687600aafa7c6cb56727c89450243f13eefa55012fdef25",
+    "REPORT.md": "2e86789a32e2b18ed415232ce94b3424fc3b0bc26770f6206cce6d38fccffea1",
+    "README.md": "08dd4555f1eb3e9812a68d46848973940a10d10ee7070a5bc386d40b07026f29"
+  },
+  "final_review_source_hashes_match": true,
+  "visual_review": "Manager inspected all five pages; final report first/last pages rechecked after final prose changes. No clipping or lost content observed.",
+  "canonical_test_scope": "No canonical scientific-suite rerun for this editorial chunk; prior frozen receipts retained unchanged."
+}

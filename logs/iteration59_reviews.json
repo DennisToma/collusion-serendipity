@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "REPORT.md": "9d69ef81403402166a2c86bca0e17b1d27d29d7785fb15dcc4c40e8b7b248f18",
+    "scripts/export_report.py": "96e387f28fbf11ce8fa73aacf85236317295bb8dc81d21592a04188a79a21460",
+    "results/iteration54_brief.md": "fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6",
+    "results/s29_summary.md": "b8a24f0e1c609b9a8bbb60ef7a8b36fa70023877e809a694b2c30d5ab459aaf9",
+    "results/s62_summary.md": "1734e9a140e7bb1decca87b5777811c796c04a95a7be61c794985860809171da",
+    "DESIGN_S29.md": "00ed60e1eeb723096a6415e2a52e627b85cd747c6f316c01fcf1a4679e243549",
+    "logs/iteration59_exports.json": "5552052b429c935d9741f65912d67903ab8de46dd7bca38a4cecd1725ff9f229"
+  },
+  "reviews": [
+    {
+      "critic": "codex",
+      "exit": 0,
+      "scope": "Read-only repository; executed checks only as stated."
+    },
+    {
+      "critic": "opus",
+      "exit": 0,
+      "scope": "Supplied text only; no raw-data/PDF/visual inspection."
+    }
+  ]
+}

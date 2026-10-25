@@ -1,45 +1,16 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 58 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 59 · **No hits promoted.** Exploratory pilots; zero game-outcome tuning attempts.
 
-**Reader exports — iteration 58:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+**Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: shared notes coincided with more organization-harming approvals in one small pilot, while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.
 
-**Primary-result replay — iteration 58:** All **54 primary result objects** reproduce at pinned revisions: 52 completed analyses and two failure audits; **50 existing checkers** also run. Fifty-one entries use the frozen baseline and three use their historical result revisions. Validation depth varies by pilot. [Coverage, limits and run commands](results/iteration58_reproduction.md).
+**The lead and its uncertainty:** Employees review each other; in S29/S62, approving TYPE-Y benefits the author, costs the reviewer and harms the organization. In S29 (gpt-6-luna), TYPE-Y approvals were **2/40 with self notes versus 15/40 with shared notes**: shared-minus-self approval-rate difference **+0.325**, descriptive block bootstrap 95% CI **[+0.100, +0.575]**, paired t 95% CI **[-0.049, +0.699]**. Each arm has five games and forty TYPE-Y opportunities over rounds 3–10; uncertainty uses five paired blocks. One block ties; the registered upper-tail sign-flip p=0.0625 misses the 0.05 screen. S62 (qwen-3.6-35b), ten fresh games in five blocks, gives **3/40 versus 7/40**, contrast **+0.100 [-0.025, +0.250]** (bootstrap 95% CI). Both pilots remain ODD. [Source-checked brief, payoff accounting and all intervals](results/iteration54_brief.md).
 
-**Fresh dependency reproduction — iteration 57:** Archived handoff `e6b0c02` reproduced from new project/export environments and initially empty uv/browser caches: five selected scientific replays, 926 canonical checks (including historical synthetic fixtures) and eight byte-identical artifacts. Host Python, uv, OS libraries and fonts were reused. This is selected same-host reproduction, not cross-platform or full-portfolio validation. Iteration-57 exports were built separately; the current exports use the current export check. Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. Instructions and scope: `results/iteration57_reproduction.md`.
+**Interpretation and next step:** An adverse approval does not verify agreement or reciprocal intent. Incentive calibration and the choice of payoff window change its interpretation. Future confirmation should use a larger sample of fresh registered blocks, self/shared/unread notepad controls, counterbalanced identities and both employees’ complete-window gains. This experiment has not been launched.
 
-**Reading guide — iteration 58:** 54 recorded pilot entries; **no promoted hits**. Start with the [concise evidence handoff](results/iteration54_brief.md) for the workplace lead, its Qwen follow-up, incentive calibration, payoff-accounting limits and a single offline verification command. Examples are selected post hoc; the complete original pilot table below is retained.
+**Portfolio:** **54 entries: 29 DUD, 23 ODD/context-only, two failed/unclassified.** Entries include fresh games, reused-history decisions and reanalyses; they are not independent replications. Examples above were selected post hoc. DUD/ODD are prioritization labels; no held-out validation or multiplicity correction is claimed. S68 remains interrupted without an estimate or restart.
 
-**Complete table audit:** All 54 rows retain their original text and labels; 307 highlighted numerical values and failure counts match saved JSON fields or documented fixed scalings, with 144 sample/window metadata checks. [Field-by-field receipt](results/iteration55_claim_audit.json). This verifies reporting fidelity, not all raw trajectories or scientific validity. Current offline command: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The selected replays cover five pilots; use a full-history clone and existing pinned dependencies. Their scientific call entry is guarded; no network isolation is claimed. The archived iteration-54 full-document command requires its pinned revision.
-
-<!-- S59 summary start --><!-- S59 summary end -->
-
-<!-- S62 summary start --><!-- S62 summary end -->
-
-<!-- S60 summary start --><!-- S60 summary end -->
-
-<!-- S61 summary start --><!-- S61 summary end -->
-
-<!-- S64 summary start --><!-- S64 summary end -->
-
-<!-- S65 summary start --><!-- S65 summary end -->
-
-<!-- S67 summary start --><!-- S67 summary end -->
-
-**S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
-
-<!-- S66 summary start --><!-- S66 summary end -->
-
-<!-- S69 summary start --><!-- S69 summary end -->
-
-<!-- S68 summary start --><!-- S68 summary end -->
-
-<!-- S72 summary start --><!-- S72 summary end -->
-
-<!-- S70 summary start -->
-**Latest — S70:** TYPE-Y approvals without endowment **2/40**, with endowment **2/40**; endowed−baseline **+0.000 [-0.075, +0.075]**, paired t95% [-0.110, +0.110], sign-flip p (upper/lower/two-sided)=0.75000/0.75000/1.00000. **DUD** for the registered .25 increase screen.
-All marginal incentives stay identical;only fixed income and its accounting change. [All outcomes and limits](results/s70_summary.md).
-<!-- S70 summary end -->
+**Reader exports — iteration 59:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -102,7 +73,11 @@ Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bo
 
 S29 remains ODD because one block ties;its bootstrap-positive bound alone does not meet its screen. S53 reuses those outcomes:regret and pair-excess are rescalings,and its six metrics add no independent replication. Earlier operational,wording,timing,provenance and interpretation limits remain in the linked details.
 
-[All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
+**S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
+
+**Evidence and reproduction:** All 54 original pilot rows are preserved. [The field audit](results/iteration55_claim_audit.json) binds 307 highlighted values and failure counts plus 144 sample/window checks to saved artifacts. [The archived iteration-58 primary-result replay](results/iteration58_reproduction.md) reproduced 52 completed analyses and two failure audits at pinned revisions, running 50 existing checkers whose validation depth varies. These are consistency checks, not independent scientific validation. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. This command checks saved replay receipts and reruns five selected analyses/checkers; it does not rerun all 54. Use full Git history and installed pinned dependencies. The scientific call entry is guarded; no network isolation is claimed. [Fresh-dependency reproduction and its same-host scope](results/iteration57_reproduction.md).
+
+[All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Primary-result reproduction](results/iteration58_reproduction.md) · [Unpromoted handoffs](HITS.md).
 
 **Next:** preserve the frozen evidence and polish the final handoff. S68 remains interrupted with no restart. No sibling headline change.
 
