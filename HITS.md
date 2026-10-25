@@ -659,3 +659,12 @@ Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pair
 For both siblings: organization-harming approvals need incentive-aware interpretation. Pooled Y approvals are individually profitable; individual Y approvals cost the reviewer at that stage. Neither verifies agreement. These are related posthoc bookkeeping measures on S65, not independent confirmation. S65 UNRESOLVED/ODD unchanged; no confirmation request or headline change. Reproduce `uv run --frozen python scripts/s67_audit.py release`.
 
 **S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
+
+
+## S66 — Equivalent payoff paragraph order
+
+TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−allocated **-0.250 [-0.500, 0.100]**, paired t95% [-0.728, 0.228], upper sign-flip p=0.93750. **DUD** for the registered .25 directional screen.
+
+Same pooled economics and information; no collusion inference. [Full results and reproduction](results/s66_summary.md).
+
+Unpromoted; no confirmatory request or sibling headline change.

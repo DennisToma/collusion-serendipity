@@ -1,15 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T10:40:59.049475+00:00; Phase2, iteration49 RUNNING)
-- Selected own/S66 after E/S67: equivalent pooled-payoff paragraph order.
-- Ten fresh games/five blocks25380..25384;T10,r3-10;200planned decisions.
-- Both arms Yapproval gives+2 each;only accounting/table paragraphs swap.
-- Directional .25representation screen;zero scientific calls/tuning so far.
-- Sixteen focused checks and853 earlier canonical checks PASS;design critics complete.
-- S65 UNRESOLVED/ODD and S67 context-only remain unchanged.
-- Next freeze/push sources,run once,replay/independently verify,publish.
-- New own S68 action-polarity idea queued before outcomes;no second pilot.
-- Risks:n5,many pilots,endogenous histories,provider attestation,no mechanism claim.
+## Current state (2026-10-25T10:53:43.198649+00:00; Phase2, iteration49 ORIGIN PROOF PENDING)
+- S66/own:10fresh pooled-payoff-order games/5blocks;200responses,zero retries/failures.
+- Yapprovals allocated23/40,final13/40;gap-.250[-.500,+.100].
+- Pairedt[-.728,+.228];upperp.9375;blocks[-.5,.375,-.5,-.125,-.5].
+- Frozen DUD for .25increase screen;no reverse promotion/equivalence/collusion claim.
+- All5metrics reported;Xapprovals40/40 each;bonuses/loss mechanically related.
+- Complete raw replay;50cells/15bootstrap+t/32signpatterns/200rawbindings PASS.
+- Nine verifier mutations reject;49prior report rows preserved,50total contiguous.
+- All19registered sources/1385older scientific paths and prospective split append PASS.
+- Sixteen focused/855canonical checks PASS;both final scientific critics PASS.
+- Figure inspected;corrected offline release/468links+3editorial guards PASS;origin proof next.
+- No HIT/sibling headline change;ownS68queued before outcomes.
+- Next different-axis A/C/D/F;risks:n5,manypilots,position package,provider.
 
 ## Log
 
@@ -675,3 +678,15 @@
 
 
 - 2026-10-25T10:45:48.682655+00:00: S66 pre-call review complete:initial and refined Codex+compact Opus all exit0;Codex refined16economicprofiles/100prompt comparisons/243sign-boundary checks PASS. Resolved shared-tail semantic ambiguity and document-overwrite risk before calls;16focused checks PASS,earlier853canonical PASS. Conditional compact-critic units concern contradicted by full implementation and independent reconstruction,no statistical change. Added order-package(org-loss recency/charge references),ceiling and DUD-scope caveats;declined unsupported repeated-game dominance extension. Scientific source freeze and registration push next;zero scientific calls.
+
+
+- 2026-10-25T10:46:35.376983+00:00: S66 registration 53c104deda5f20f7ca290e39f09d37da04ed09ae committed/pushed and locally observed on origin/main at2026-10-25T10:46:11.914165+00:00 before first scientific admission. Single ten-game run active with two simultaneous games/seed and seed barrier;all19source hashes frozen. Initial staged whitespace check caught inherited trailing whitespace in new independent checker;removed without executable change and manifest refreshed before commit/calls. No partial treatment-effect estimation or source edits.
+
+
+- 2026-10-25T10:53:43.198649+00:00: S66 sole10game run complete,first journal2026-10-25T10:46:11.935130+00:00,last2026-10-25T10:52:25.041171+00:00;200returned/accepted,zero retries/failures/fences. Allocated23/40,final13/40;final-minus-allocated-0.250[-0.5, 0.1];pairedt[-0.728383183594358, 0.22838318359435805];upperp0.9375;blocks[-0.5, 0.375, -0.5, -0.125, -0.5];DUD;200responses/zero retries/failures. Complete registered-source/request/raw/export replay and separate all50metriccells/15bootstrap+t/all32signpatterns per contrast/200action-note-reason bindings PASS. Nine independent-verifier mutations reject;19sources/1385older scientific paths and prospective split append unchanged. Deterministic result/figure/four full docs reproduce byte-identically;49older rows preserved/50contiguous,468links. Figure inspected. Frozen DUD via negative mean and upper.100<.25;no reverse/secondary promotion or equivalence/comprehension/collusion inference. REPORT50pilots,HITS unpromoted. Final Codex/raw and compact Opus/supplied-text critics plus canonical suite running;no further scientific calls or source edits. No DIRECTION deviation/sibling writes.
+
+
+- 2026-10-25T10:58:34.052863+00:00: Both final scientific critics exit0,PASS. Codex independently reconstructs all50rawcells/15exactbootstrap+15t intervals/15sign-flip probabilities/200prompt-history/action-note-reason bindings and source/cache/registration/timing/barrier/export hashes. Opus supplied-text count/t/analytic-bootstrap/sign arithmetic only. Canonical855checks PASS;no new fixture or scientific edits. Accepted final Opus terminology correction through additive publication/release helpers outside frozen19sources: current S66 labels now sign-flip(mean),explicitly distinct from binomial sign test;ceiling caveat qualified to someblocks;README/summary reproduction points to scripts/s66_release_final.py. All numerical/scientific bytes unchanged,resultSHA70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802. Corrected release/idempotence and three isolated intervening-artifact mutations reject before writes;allnine verifier corruptions reject,49priorrows/50contiguous and1385older sciencepaths remain verified. Focused publication critic and origin proof pending. No further scientific calls,tuning,HIT or sibling writes.
+
+
+- 2026-10-25T11:00:07.745549+00:00: Focused final publication Codex exit0 confirms corrected labels,independently enumeratedp.93750,all19source/result/release hashes,pre-existing-edit rejection and new reproduction/clone entry points. Accepted P2 by narrowing guarantee: pre-validation unexpected-byte guards require exclusive writer access;no atomic concurrent-writer protection is claimed. Only additive-helper comment changed,no executable or scientific change. Final scientific result/figure/allmetric estimates unchanged;corrected release PASS,855canonical/16focused PASS. Scientific milestone commit+push then actual fresh-origin proof next;not claimed in advance.

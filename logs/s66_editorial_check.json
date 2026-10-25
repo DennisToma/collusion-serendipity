@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "release_passed": true,
+  "canonical_artifacts_unchanged": true,
+  "editorial_render_idempotent": true,
+  "isolated_intervening_edit_mutations_rejected": [
+    "README.md",
+    "results/s66_summary.md",
+    "figures/s66_payoff_order.png"
+  ],
+  "all_guard_failures_before_writes": true,
+  "science_unchanged": true
+}

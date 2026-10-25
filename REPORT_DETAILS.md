@@ -1305,3 +1305,10 @@ Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pair
 All32 settlement/status/action profiles and64 unilateral deviations are enumerated; all80 primary rounds and200 raw action/note/reason bindings are retained. Eight related measures are all reported. The regret contrast uses different settlement-specific incentive schedules and cannot rank optimization quality. Five-block descriptive bootstrap/t intervals; no new test, promotion, replication or mechanism claim. [Design](DESIGN_S67.md) · [Full audit](results/s67_summary.md) · [Figure](figures/s67_incentives.png).
 
 **S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
+
+
+## S66 — Equivalent payoff paragraph order
+
+TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−allocated **-0.250 [-0.500, 0.100]**, paired t95% [-0.728, 0.228], upper sign-flip p=0.93750. **DUD** for the registered .25 directional screen.
+
+Same pooled economics and information; no collusion inference. [Full results and reproduction](results/s66_summary.md).

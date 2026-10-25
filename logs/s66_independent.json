@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "raw_auxiliary_bindings": 200,
+  "constant_system_groups": 20,
+  "checked_initial_prompts": 20,
+  "rejections": {
+    "allocated_first": 0,
+    "final_first": 0
+  },
+  "verdict": "DUD"
+}

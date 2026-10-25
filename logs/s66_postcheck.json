@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "verifier_mutations_rejected": [
+    "primary_mean",
+    "bootstrap_numeric_endpoint",
+    "bootstrap_exact_endpoint",
+    "sign_probability",
+    "t_endpoint",
+    "verdict",
+    "bonus_gate",
+    "missing_metric",
+    "note_bindings"
+  ],
+  "prior_rows_preserved": 49,
+  "current_rows": 50,
+  "contiguous_pilot_table": true,
+  "registered_source_hashes_checked": 19,
+  "new_scientific_calls": 0,
+  "scope": "Post-outcome validation only; no statistic,scientific source or verdict changes"
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "calls_forbidden": true,
+  "raw_unchanged": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "constant_system_groups": 20,
+    "checked_initial_prompts": 20,
+    "rejections": {
+      "allocated_first": 0,
+      "final_first": 0
+    },
+    "verdict": "DUD"
+  },
+  "older_science_paths_unchanged": 1385,
+  "prospective_split_append_verified": true,
+  "local_links": 468,
+  "checked_sha256": {
+    "results/s66_payoff_order.json": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+    "results/s66_summary.md": "1cefacc84979c36a3a111272e038e162fd20e346827c145e6899324c8c0ea108",
+    "figures/s66_payoff_order.png": "9bbb16e6948c621d7673472ed90bc682832d63e4cfb7a616442503e98fd8d4b9",
+    "logs/s66_independent.json": "2382b0877045e01d3a2dd9a5563bcc566db6c67f5eed1a7f15d755c4da3c36a3",
+    "REPORT.md": "e55b2fe677fc468fd37486559d7b64dbb459dcdcad66675c719b0f00daa6db06",
+    "REPORT_DETAILS.md": "5cfaead127b2dd41cfec32e8f19cbad48f9f9e0f91e3aed428985b388d527c88",
+    "HITS.md": "6a7b3d389673022146b9aec6943fc93597bdf146ce249ae3ecc55eb2a4587787",
+    "README.md": "242685781f186ab52ced593c5e476ff95db9f645caf39c5d9e06218e68b01e40"
+  }
+}

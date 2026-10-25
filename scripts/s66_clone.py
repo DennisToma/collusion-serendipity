@@ -8,7 +8,7 @@ def main():
     remote=subprocess.check_output(['git','remote','get-url','origin'],text=True).strip()
     release=json.loads(Path('logs/s66_release.json').read_text())
     artifacts=[*release['checked_sha256'],'logs/s66_release.json']
-    commands=[['scripts/s66_release.py'],['-m','unittest','scripts.test_s66','-q'],['scripts/s66_independent.py']]
+    commands=[['scripts/s66_release_final.py'],['-m','unittest','scripts.test_s66','-q'],['scripts/s66_independent.py']]
     with tempfile.TemporaryDirectory(prefix='s66_origin_',dir='/var/tmp') as td:
         clone=Path(td)/'repo';subprocess.run(['git','clone','--quiet',remote,str(clone)],check=True)
         subprocess.run(['git','checkout','--quiet',head],cwd=clone,check=True)

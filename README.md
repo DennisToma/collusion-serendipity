@@ -1472,3 +1472,12 @@ uv run --frozen python scripts/s67_documents.py --check
 S67 post-review opportunity display: [counts and limits](results/s67_opportunity_context.md). Check with `uv run --frozen python scripts/s67_context.py --check`. Core registered analysis and result bytes remain unchanged.
 
 S67 actual verifier mutation and exact older-row checks: `uv run --frozen python scripts/s67_postreview_check.py`. Its eight scientific-record mutations stay in memory.
+
+
+## S66 — Equivalent payoff paragraph order
+
+TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−allocated **-0.250 [-0.500, 0.100]**, paired t95% [-0.728, 0.228], upper sign-flip p=0.93750. **DUD** for the registered .25 directional screen.
+
+Same pooled economics and information; no collusion inference. [Full results and reproduction](results/s66_summary.md).
+
+S66 reproduction: `uv run python scripts/s66_release_final.py`; focused checks: `uv run python -m unittest scripts.test_s66 -q`. The additive publication helper clarifies sign-flip terminology while preserving all frozen scientific sources, data and estimates.
