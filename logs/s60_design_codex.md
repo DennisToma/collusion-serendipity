@@ -1,0 +1,15 @@
+S60 only: read all 14 requested files. No edits or live model calls; verification used read-only inspection and in-memory checks.
+
+**Confirmed bug and remedy.** The deadline rules disagree. [author_bonus.py:131](/home/factory/collusion/collusion-serendipity/sim/author_bonus.py:131) checks admission time before journaling and fsync; [resource_cache.py:58](/home/factory/collusion/collusion-serendipity/sim/resource_cache.py:58) timestamps wrapper start afterward. An admission just before 09:00 can therefore start afterward. The design permits admitted calls to finish later, but [s60_analyze.py:50](/home/factory/collusion/collusion-serendipity/scripts/s60_analyze.py:50) rejects that completed archive. Remedy: enforce the registered admission cutoff using `admitted_utc`, require wrapper start ≥ admission, and remove the separate wrapper-start cutoff. Add a mocked boundary-crossing test.
+
+**Checks passed.**
+
+- Independently checked all 16 status/action profiles per arm. With author reward \(b\), employee A receives \(b\,a_B+(1\text{ if B=X else }-2)a_A\). Reviewer incentives remain +1/−2 in both arms; approve-X/reject-Y is the unique stage equilibrium. Both-Y mutual approval yields −1 each at \(b=1\), +4 at \(b=6\); unilateral rejection improves own payoff by 2.
+- Rosters and complete task schedules match across arms. Each employee has four X/four Y primary assignments. Initial system prompts differ only in the author-benefit numeral.
+- Calls within a game are sequential, but decisions are simultaneous in information: current actions/notes are withheld until both submit. Both complete prior notepads and public outcomes are supplied; private reasoning is excluded.
+- Primary arithmetic is correct: eight Y opportunities/game, high−low differences, 3,125 ordered bootstrap samples, percentile positions 78.1/3045.9, and 32 inclusive sign flips. HIT requires all five differences positive plus the registered magnitude/bootstrap conditions. DUD implements the stated screen.
+- Requests, response hashes, admissions, retries, action bindings, and canonical exports are reconstructed. S60 uses the single-attempt resource transport rather than `sim/common.py`’s retry path. Exhausted parsing, route/transport failures, interrupted runs, and source drift block publication; completed resume is cache-only.
+
+**Limitations and readiness.** Five exploratory blocks provide weak precision; sign-flip inference needs exchangeability/symmetry. Changing author benefit also changes incoming rewards, joint surplus, numeral salience, and subsequent histories. Neither adverse approvals nor notes establish reciprocal intent or collusion. One overlapping wrapper interval per block offers limited time matching. Provider identity, effective settings, tool non-use, upstream output preservation, and power-loss durability remain explicitly unattested.
+
+The captured-Git loader and admission/completion guards support the planned freeze, but S60 sources were still untracked and no live archive existed during review. Freeze/publication readiness is therefore unverified. I inspected the test suite; I did not run its file-writing fixtures.

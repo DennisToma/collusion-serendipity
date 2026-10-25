@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T07:54:00.175781+00:00; Phase2, iteration42 COMPLETE)
-- S59:20 fresh decisions/10 S29 histories/5 source blocks;lossless public-history table.
-- Approvals original4/10,compact1/10;contrast+.300[.000,.700] bootstrap95%.
-- Paired t95%[-.255289,+.855289];upper p=.25;blocks[0,1,.5,0,0].
-- Frozen ODD;no HIT or sibling headline change;zero new games/tuning.
-- Full source/request/response/runtime/registration/time/schedule replay PASS.
-- Separate20 raw bindings/15 cells/3 exact bootstrap+t/all32 sign summaries PASS.
-- Both design/final critics exit0;raw Codex versus supplied-text Opus scopes recorded.
-- 721pre/post canonical tests and20scoped checks PASS;initial failure retained.
-- Fresh origin7fc62c1 PASS:7artifacts byte-identical,20checks,clone clean;existing venv reused.
-- All14 scientific/27 input hashes unchanged;42 older rows preserved;REPORT43pilots.
-- Registratione670b43/results7fc62c1 pushed;next different-axis B/F/A;S57/S52/S49 queued.
-- Risks:reusedn5,multiplicity;length/repetition/shape/reading burden bundled;no mechanism.
+
+## Current state (2026-10-25T08:02:16.402046+00:00; Phase2, iteration43 REGISTERING)
+- S60/D: fresh author-benefit intervention;10games/5paired blocks;T10.
+- Author1 versus6;reviewer TYPE-Y marginal payoff fixed at−2.
+- Primary high−low Yapproval rate;frozen .25screen;no bonus gate.
+- Identical paired task schedules;shared partner notes in both arms.
+- 26focused checks and200decision synthetic independent replay PASS.
+- 747canonical preflight tests PASS;all1191original scientific artifacts unchanged.
+- Initial Opus design review exit0;concrete test/cleanup fixes applied.
+- Codex design+patch critics exit0;zero scientific calls so far.
+- S59 remains ODD;no promoted HITS or sibling headline change.
+- Risks:n5,multiplicity,one model;incoming reward/surplus/salience bundled.
+- Next:freeze+push,sole200decision run,verify/review/push;own S61 queued only.
 
 ## Log
 
@@ -599,3 +599,7 @@
 - 2026-10-25T07:52:16.357250+00:00: Both final critics exit0,confirm frozen S59ODD and all displayed numbers. Codex independently reconstructs20raw approvals,15cells,3complete3125bootstrap+t/all32sign summaries,and729typed history cells;full read-only provenance/reanalysis PASS. Opus supplied-code/parsed-case arithmetic only,not rawarchive.721postlive canonical tests PASS. No executable result-invalidating defect. Declined subgroup attribution/cross-pilot noise calibration. All14scientific/27input hashes and resultSHA8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385 unchanged. Scientific results/docs commit+push then fresh originclone proof.
 
 - 2026-10-25T07:54:00.175781+00:00: iteration42 COMPLETE. Registratione670b4322240137df93ea078edd3a186fe50303f/scientific+document results7fc62c12111908343db174d44bd5cb19e75ad73a committed/pushed. Fresh full-history ORIGIN clone at resultscommit PASS:all7release artifacts byte-identical,20scoped checks,full main provenance replay plus separate20rawapproval/requestbindings/15blockcells/3exactbootstrap+t/all32sign summaries;clone gitstatus clean. Receipt logs/s59_remote_clean_clone.json,commands in logs/s59_origin_clone_run.log. Existing installed frozen venv reused,no fresh dependency installation. All14registered scientificsources/27sourceinputs and7archivefiles unchanged,resultSHA8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385. Both design/final critics exit0;Codex raw/source reconstruction versus Opus supplied-code/parsed-case arithmetic-only scopes recorded.721pre/post canonical tests and20S59checks PASS;initial inherited variable-shadowing failure retained,corrected before live. S59original4/10,compact1/10;difference+.300[.000,.700],pairedt[-0.2552890210395586,0.8552890210395585],upperp.25,lowerp1,two-sidedp.5;blocks[0,1,.5,0,0]. Frozen ODD,no HIT or sibling headline change. Exact roundtrip preserves729typed historical primitives;construction history bytes1072..1610→383..507,not an independent endpoint. All42priorpilotrows preserved;43pilotfrontlog current. Length,repetition,JSON shape and reading burden bundled;lossless external decode does not prove equal model comprehension. Reused late histories and retained notes limit inference. No mechanism,agreement,intent,collusion,equivalence,subgroup attribution,cross-pilot noise calibration or independent S29replication claim. No extra scientificcalls,newgames,tuning,case replacement,pooling,exclusions,reverse/secondary promotion,siblingwrites,DIRECTION deviation or active generation/review. Next fresh different-axis B/F/A;own S57/S52/S49 remain queued. Closing proof/ledger/handoff commit+push follows.
+
+- 2026-10-25T07:58:11.242173+00:00: iteration43 read CLAUDE/PLAN/STATUS/DIRECTION,experiment ledger and both sibling summaries. Selected fresh D/S60 author-benefit intervention after own/S59 to reduce repeated-history dependence. Ten fresh paired-identical-task workplace games,author1 versus6,reviewer immediate marginal payoff unchanged. No scientific calls yet;preflight and independent critics next. No DIRECTION deviation or sibling writes.
+
+- 2026-10-25T08:06:17.145901+00:00: S60 preflight26focused checks and200decision main+independent synthetic replay PASS. Initial Codex+Opus design critics exit0;fixed inherited admission/wrapper cutoff mismatch,dead gate parameter,assertion messages and prompt/equilibrium tests before any scientific calls. Narrow Codex patch critic exit0,PASS. All1191original scientific artifacts/43prior rows unchanged. Initial744canonical pass;updated full suite running. New own/S61 global employee-ID permutation idea queued only. Scratch receipt-driver import path failure corrected,no research-module test failure or experimental call.

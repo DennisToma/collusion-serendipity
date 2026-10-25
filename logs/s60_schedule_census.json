@@ -1,0 +1,231 @@
+{
+  "pre_outcome": true,
+  "no_scientific_calls": true,
+  "blocks": {
+    "25100": {
+      "statuses": [
+        {
+          "B": false,
+          "C": true
+        },
+        {
+          "B": true,
+          "C": false
+        },
+        {
+          "B": false,
+          "C": true
+        },
+        {
+          "B": true,
+          "C": false
+        },
+        {
+          "B": false,
+          "C": true
+        },
+        {
+          "B": true,
+          "C": false
+        },
+        {
+          "B": true,
+          "C": true
+        },
+        {
+          "B": false,
+          "C": true
+        },
+        {
+          "B": false,
+          "C": false
+        },
+        {
+          "B": true,
+          "C": false
+        }
+      ],
+      "primary_both_y_rounds": 1
+    },
+    "25101": {
+      "statuses": [
+        {
+          "A": true,
+          "B": false
+        },
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": true,
+          "B": false
+        },
+        {
+          "A": true,
+          "B": false
+        },
+        {
+          "A": true,
+          "B": true
+        },
+        {
+          "A": false,
+          "B": false
+        },
+        {
+          "A": true,
+          "B": false
+        }
+      ],
+      "primary_both_y_rounds": 1
+    },
+    "25102": {
+      "statuses": [
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": true,
+          "C": true
+        },
+        {
+          "A": true,
+          "C": false
+        },
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": false,
+          "C": true
+        },
+        {
+          "A": true,
+          "C": false
+        },
+        {
+          "A": true,
+          "C": true
+        },
+        {
+          "A": false,
+          "C": true
+        },
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": true,
+          "C": true
+        }
+      ],
+      "primary_both_y_rounds": 2
+    },
+    "25103": {
+      "statuses": [
+        {
+          "A": true,
+          "C": true
+        },
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": true,
+          "C": true
+        },
+        {
+          "A": true,
+          "C": true
+        },
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": false,
+          "C": true
+        },
+        {
+          "A": true,
+          "C": false
+        },
+        {
+          "A": false,
+          "C": false
+        },
+        {
+          "A": false,
+          "C": true
+        },
+        {
+          "A": true,
+          "C": false
+        }
+      ],
+      "primary_both_y_rounds": 2
+    },
+    "25104": {
+      "statuses": [
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": true,
+          "B": false
+        },
+        {
+          "A": false,
+          "B": false
+        },
+        {
+          "A": true,
+          "B": false
+        },
+        {
+          "A": true,
+          "B": true
+        },
+        {
+          "A": false,
+          "B": false
+        },
+        {
+          "A": false,
+          "B": false
+        },
+        {
+          "A": false,
+          "B": true
+        },
+        {
+          "A": true,
+          "B": true
+        },
+        {
+          "A": true,
+          "B": true
+        }
+      ],
+      "primary_both_y_rounds": 3
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "hit": {
+    "counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "summary": {
+      "mean": 0.25,
+      "mean_exact": "1/4",
+      "ci95": [
+        0.25,
+        0.25
+      ],
+      "ci95_exact": [
+        "1/4",
+        "1/4"
+      ],
+      "paired_t_ci95": [
+        0.25,
+        0.25
+      ],
+      "exact_signflip_p_upper": 0.03125,
+      "exact_signflip_p_lower": 1.0,
+      "exact_signflip_p_two_sided": 0.0625
+    },
+    "verdict": "HIT"
+  },
+  "odd": {
+    "counts": [
+      2,
+      2,
+      2,
+      2,
+      0
+    ],
+    "summary": {
+      "mean": 0.2,
+      "mean_exact": "1/5",
+      "ci95": [
+        0.1,
+        0.25
+      ],
+      "ci95_exact": [
+        "1/10",
+        "1/4"
+      ],
+      "paired_t_ci95": [
+        0.06117774474011037,
+        0.3388222552598896
+      ],
+      "exact_signflip_p_upper": 0.0625,
+      "exact_signflip_p_lower": 1.0,
+      "exact_signflip_p_two_sided": 0.125
+    },
+    "verdict": "ODD"
+  },
+  "dud": {
+    "counts": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "summary": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "paired_t_ci95": [
+        0.0,
+        0.0
+      ],
+      "exact_signflip_p_upper": 1.0,
+      "exact_signflip_p_lower": 1.0,
+      "exact_signflip_p_two_sided": 1.0
+    },
+    "verdict": "DUD"
+  }
+}

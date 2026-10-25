@@ -1,0 +1,7 @@
+**PASS — no blockers found in the specified patches.** Static review only; no edits, test execution, scientific calls, or outcome inspection.
+
+- [s60_analyze.py](/home/factory/collusion/collusion-serendipity/scripts/s60_analyze.py:19): `validate_game` permits wrapper starts at or after cutoff while retaining chronology and sequential-call checks. `analyze` requires every live request’s `admitted_utc < DEADLINE` and `admitted_utc <= call_started_utc`; cached replay binds those requests to the durable admission journal.
+- [test_s60.py](/home/factory/collusion/collusion-serendipity/scripts/test_s60.py:193): the new regression mocks admission before cutoff and wrapper start afterward, then separately verifies publication validation accepts starts exactly at cutoff. Existing tests retain rejection at the admission deadline and when preflight crosses it, with transport uncalled.
+- `classify` now takes only numerators and summary; its production and test callers match. The registered decision rule remains unchanged.
+- The single-character contrast test requires identical user prompts, equal system-prompt lengths, and exactly one `1`→`6` difference. The equilibrium test enumerates both arms, all task-status combinations, and unilateral deviations, checking the stated unique equilibria and reviewer incentives.
+- [DESIGN_S60.md](/home/factory/collusion/collusion-serendipity/DESIGN_S60.md) consistently describes admission-owned cutoff semantics, no bonus gate, the one-numeral contrast, and both-arm equilibria.
