@@ -1,0 +1,19 @@
+{
+  "request": {
+    "prompt": "Return exactly the JSON object {\"ready\":true}.",
+    "system": "You are a JSON formatter.",
+    "backend": "aqueduct",
+    "model": "qwen-3.6-35b",
+    "temperature": 1,
+    "max_tokens": 64,
+    "retries": 1
+  },
+  "scientific_decisions": 0,
+  "started_utc": "2026-10-25T08:38:39.463363+00:00",
+  "response": {
+    "text": "```json\n{\"ready\":true}\n```",
+    "backend": "aqueduct",
+    "model": "qwen-3.6-35b"
+  },
+  "completed_utc": "2026-10-25T08:38:39.903222+00:00"
+}

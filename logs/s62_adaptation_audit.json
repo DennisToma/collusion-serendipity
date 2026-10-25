@@ -1,0 +1,20 @@
+{
+  "outcome_source_identical_to_s29": true,
+  "display_status_source_identical_to_s29": true,
+  "prompts_source_identical_to_s29": true,
+  "metrics_source_identical_to_s29": true,
+  "exact_summary_source_identical_to_s29": true,
+  "exact_signflip_source_identical_to_s29": true,
+  "classify_source_identical_to_s29": true,
+  "original_artifacts": 1272,
+  "original_artifacts_unchanged": true,
+  "game_outcomes_generated": 0,
+  "intentional_differences": [
+    "new requested model/backend/API controls",
+    "fresh seed/task namespace and submission-order seed",
+    "one exact JSON fence allowed",
+    "one logical transport attempt",
+    "fixed60minheadroom and10:00admission cutoff",
+    "enhanced auxiliary/rendered artifact audit"
+  ]
+}

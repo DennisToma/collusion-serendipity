@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 43 · **No hits promoted.** Exploratory pilots;zero tuning attempts.
+2026-10-25 · Iteration 44 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 
@@ -62,7 +62,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** fresh different-axis B/F/A pilot;own S61,S57,S52,S49 remain queued. No sibling headline change.
+**In progress — S62:** fresh Qwen/Aqueduct generalization of S29;ten planned games/five blocks. One neutral readiness response informed an exact JSON-fence allowance before registration;no game outputs inspected. No controlled model-family claim. [Design](DESIGN_S62.md).
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

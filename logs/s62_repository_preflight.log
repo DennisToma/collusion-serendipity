@@ -1,0 +1,143 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.............................Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................................................F.....E
+======================================================================
+ERROR: test_renderer_idempotent_synthetic (test_s62.Tests.test_renderer_idempotent_synthetic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s62.py", line 217, in test_renderer_idempotent_synthetic
+    with patch.object(sys,'argv',['sim.notepad_qwen','--dry','--out',str(data)]),contextlib.redirect_stdout(io.StringIO()):main()
+        ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s62_present.py", line 23, in main
+    lines+=['',f"Cached responses: {r['cached_responses']};exact JSON fences {r['exact_json_fenced_responses']};200 accepted decisions; invalid-attempt retries {r['invalid_attempt_retries']}. Nonempty notes: "+', '.join(f"{c} {r['notes'][c]['nonempty']}/100" for c in ['self','shared'])+'.','',
+                                                                              ~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'exact_json_fenced_responses'
+
+======================================================================
+FAIL: test_full_dry_independent_and_mutation_guards (test_s62.Tests.test_full_dry_independent_and_mutation_guards)
+----------------------------------------------------------------------
+AssertionError: Source drift: sim/notepad_qwen.py
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s62.py", line 198, in test_full_dry_independent_and_mutation_guards
+    p=next(root.glob('game_*.json'));original=p.read_bytes();g=json.loads(original);g['rows'][0]['agents'][0]['profit']+=1;p.write_text(json.dumps(g))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "Noncanonical export bytes" does not match "Source drift: sim/notepad_qwen.py"
+
+----------------------------------------------------------------------
+Ran 728 tests in 138.514s
+
+FAILED (failures=1, errors=1)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.640s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.096s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.326s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": false,
+  "tests": 768,
+  "failures": 1,
+  "errors": 1,
+  "group_counts": {
+    "ordinary": 728,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

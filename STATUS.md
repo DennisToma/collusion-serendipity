@@ -1,19 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T08:34:37.280764+00:00; Phase2, iteration43 COMPLETE)
-- S60/D:10fresh games/5paired blocks,T10;200accepted,zero retries/failures.
-- Author6 Yapprovals11/40,author1 5/40;high−low+.150[-.025,.400] bootstrap95%.
-- Pairedt[-.203929,.503929];upperp.25;blocks[.125,.625,-.125,.125,0].
-- Frozen ODD;no HIT or sibling headline change;zero tuning/pooling/exclusions.
-- Full source/registration/runtime/time/request/cache/export replay PASS.
-- Separate200bindings/50cells/15bootstrap+t/all32sign enumerations PASS.
-- 753final canonical tests and32fresh-origin scoped checks PASS.
-- Both design/final scientific critics and corrected publication critics PASS.
-- Fresh origin4b16dba:14artifacts byte-identical,clone clean;existing venv reused.
-- All1191older scientific files/22registered sources unchanged;REPORT44pilots.
-- Registered eecaf5f/results4b16dba pushed;closing clone-proof commit next.
-- Next fresh different-axis B/F/A;own S61,S57,S52,S49 queued only.
-- Risks:n5,multiplicity,one model;incoming reward/surplus/salience/history bundled.
+## Current state (2026-10-25T08:40:34.963419+00:00; Phase2, iteration44 IN PROGRESS)
+- S62/C selected: fresh Qwen/Aqueduct generalization of S29 partner-notepad contrast.
+- Planned10games/5paired blocks25200..25204,T10;S29 screen retained;one exact-fence allowance before registration.
+- One neutral readiness response correct but fenced;original probe rejection retained.
+- Readiness-informed parser allowance applies both arms;no second probe or game tuning.
+- Zero game calls;both initial/fixed design critics complete;769canonical/16focused checks PASS;freeze/push next.
+- S60 remains ODD:author6=11/40,author1=5/40;gap+.150[-.025,.400],upperp.25.
+- No HIT,no pooling,tuning,heldout or controlled model-family claim.
+- Original science unchanged;different axis after D/S60;no direction deviation.
+- Risks:n5,multiplicity,API/CLI and sampling differences;strict-output portability.
+- Next:finish preflight,freeze/push,sole run,full replay/independent verification.
 
 ## Log
 
@@ -614,3 +611,9 @@
 - 2026-10-25T08:32:33.233746+00:00: Final753canonical checks PASS(0failures/errors),including26frozen S60checks and6post-outcome publication/mutation/compatibility checks. Corrected focused publication critic exit0,PASS static-only. Strong publication check binds4frozen displayed artifacts plus independently generated S60-managed sections from registration Git baselines,full raw/archive replay and unchanged original bytes. All22registered sources,complete archive and resultSHAb7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb unchanged. Actualfigure inspected;all43older pilot rows preserved. Results commit/push then fresh14artifact/32check originclone next;no further scientific calls or experiments.
 
 - 2026-10-25T08:34:37.280764+00:00: iteration43 COMPLETE. Registrationeecaf5f988819a1800237b943154c0085ff4fdbb/scientific+document results4b16dba6a7bb191c799249721bd593c7c3101063 committed/pushed;registration full hash is authoritatively recorded in data/s60_author_bonus/config.json and launch receipt. Fresh full-history ORIGIN clone at results commit PASS:14scientific/document artifacts byte-identical,32scoped checks,full registered provenance/raw replay,separate200accepted action/note/reason bindings,50metric cells,15exact bootstrap/t summaries and all32sign enumerations. Clone gitstatus clean;receipt logs/s60_remote_clean_clone.json,commands/output logs/s60_origin_clone_run.log. Existing installed frozen venv reused,not a fresh dependency installation. Final753canonical tests PASS;initial747pre/post suites and all correction receipts retained. Both initial design/final scientific critics exit0;Codex raw/source reconstruction versus Opus supplied-text/per-game arithmetic scope recorded. Design boundary patch and corrected publication/editorial critics exit0,PASS(static-only for latter). Sole200returned/accepted scientific responses,zero retries/failures;no active generation/review. Author6 TYPE-Y approvals11/40,author1 5/40;contrast+.150[-.025,.400],pairedt[-.203928694245568,.503928694245568],upperp.25,lowerp.9375,two-sidedp.5;blocks[.125,.625,-.125,.125,0]. Frozen ODD,no promotion or sibling headline change. All22registered source bytes,complete archive and resultSHAb7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb unchanged;all1191original science artifacts/43older pilot rows preserved,REPORT44pilots. Post-outcome algebraic clarification proves low pair-total gap versus approve-X/reject-Y is−2*rejectedX−approvedY<=0 for any fixed task sequence;no observed endpoint or mechanism added. Simulator message fields flattened into one CLI prompt. New publication guard fixes false-prose/README-self-copy gaps outside all registered sources,uses independent Git-baseline S60 sections and rendered-asset comparisons,allows later-pilot additions safely;6regressions PASS. Initial focused publication BLOCKER retained with corrected PASS. No extra games/scientific calls,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,sibling writes or DIRECTION deviation. New own/S61consistent-ID-permutation proposal queued only. Closing proof/ledger commit+push follows.
+
+- 2026-10-25T08:40:34.963419+00:00: iteration44 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling report/state summaries. Selected C/S62 fresh Qwen generalization of S29 after D/S60 rather than more fixed-history interventions. Copied S29 harness without changing older sources;fresh seeds25200..25204,strict output and screen unchanged. Sole neutral readiness response correct JSON in a fence;original rejection retained,readiness-only pre-registration normalization documented,no retry or scientific calls.15focused checks including synthetic full replay/independent statistics PASS;design critics running. No DIRECTION deviation or sibling writes.
+
+- 2026-10-25T08:46:21.288205+00:00: S62 initial/fixed Codex and Opus design reviews exit0. Accepted symmetric exact-JSON-fence parsing before registration after neutral probe indicated portability risk;no game outcomes,prompt/payoff/screen tuning or second probe. Fixed readiness duplicate/bool/full-request validation,result link,requested backend/tool prose,auxiliary raw bindings,-O guard,60minheadroom and consistent admission cutoff.16focused checks including fenced raw caching/replay PASS;core prompts/economics/metrics/statistics/classifier source-identical to S29.1272older artifacts unchanged. Initial canonical suite overlapped source edits and failed only new S62 source-drift/stale-import tests;failure receipt retained,corrected suite pending.
+
+- 2026-10-25T08:46:49.101290+00:00: S62 final preflight PASS:769canonical tests,16focused tests,full200decision synthetic main and separate50metriccells/15bootstrap+t/all32sign patterns/200auxiliarybindings. Both design critic rounds exit0;all remaining implementation fixes precede scientific calls. All1272older scientific artifacts unchanged;44prior report rows preserved. Probe complete-request/strict-bool/duplicate/timestamp checks and60minheadroom PASS. Exact-fence mapping prospectively disclosed;zero scientific decisions yet. Register/push then sole10game run.

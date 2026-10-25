@@ -1389,3 +1389,28 @@ uv run --frozen python scripts/s60_publish_check.py --clean-clone
 Release forbids scientific calls,requires byte-identical result and full archived replay. Origin-clone proof reuses the installed frozen venv;it is not a fresh dependency installation. Original historical sources/data stay unchanged. Canonical offline suite:`uv run --frozen python scripts/repository_tests.py --out /var/tmp/serendipity_tests.json`.
 
 The canonical publication entry compares the frozen rendered summary,figure,appendix and independently generated S60 document sections;it rejects false prose even when links are valid. Original document text comes from the registration commit,not the displayed copies. The registered `s60_release.py` remains the underlying archive-only check. Simulator system/user fields are flattened into one CLI prompt. The post-outcome [static-bound check](logs/s60_static_bound.json) clarifies that low-reward Y approvals cannot raise pair total above approve-X/reject-Y.
+
+
+## S62 — Qwen workplace notepad generalization
+
+Fresh requested Aqueduct/qwen-3.6-35b version of S29,ten games/five blocks25200..25204;
+[design](DESIGN_S62.md). Original stage prompts/payoffs/statistics/screen preserved,
+fresh seeds and API serving. One neutral readiness response informed a prospective,
+symmetric exact-JSON-fence allowance;raw outputs retained. No game-outcome tuning,
+pooling,held-out claim or controlled model-family attribution.
+
+After successful completion,reproduce without model calls:
+
+```bash
+uv run --frozen python scripts/s62_release.py
+uv run --frozen python scripts/s62_independent.py
+uv run --frozen python -m unittest scripts.test_s62
+uv run --frozen python scripts/s62_present.py
+```
+
+The release checks full archived request/action/reason/note replay,source/Git
+registration,independent statistics and byte-identical result/summary/figure.
+If failed or interrupted,use `uv run --frozen python scripts/s62_failure.py` for
+prefix-only auditing;it produces no scientific effect estimate. Never relaunch
+an incomplete pilot. Origin-clone proof reuses the installed frozen venv;no fresh
+dependency installation or provider/immutable-memory attestation is claimed.
