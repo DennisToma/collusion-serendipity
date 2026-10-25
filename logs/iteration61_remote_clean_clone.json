@@ -1,0 +1,90 @@
+{
+  "passed": true,
+  "time_utc": "2026-10-25T15:42:49.721878+00:00",
+  "result_revision": "7a1e2116290442deb3f6772423c7b68c57799fb7",
+  "full_history_origin_clone": true,
+  "new_project_environment": true,
+  "clone_clean": true,
+  "commands": [
+    {
+      "argv": [
+        "uv",
+        "python",
+        "install",
+        "3.12.15"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Python 3.12.15 is already installed\n"
+    },
+    {
+      "argv": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--python",
+        "3.12.15"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "Using CPython 3.12.15\nCreating virtual environment at: .venv\nInstalled 19 packages in 56ms\n + cloudpickle==3.1.2\n + contourpy==1.4.0\n + cycler==0.12.1\n + fonttools==4.67.0\n + joblib==1.6.0\n + kiwisolver==1.5.1\n + matplotlib==3.11.2\n + narwhals==2.27.1\n + numpy==2.5.4\n + packaging==26.3\n + pandas==3.1.0\n + pillow==13.0.0\n + pyparsing==3.3.3\n + python-dateutil==3.0.0\n + scikit-learn==1.9.1\n + scipy==1.18.1\n + six==1.17.0\n + threadpoolctl==3.7.0\n + tzdata==2026.5\n"
+    },
+    {
+      "argv": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3181, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 180, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/var/tmp/explorer-export61/bin/python",
+        "scripts/export_report.py",
+        "--build",
+        "--check-pdf"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3181, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 180, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--exit-code",
+        "HEAD",
+        "--",
+        "BRIEF.html",
+        "BRIEF.pdf",
+        "REPORT.html",
+        "REPORT.pdf",
+        "figures/explorer_handoff.png",
+        "logs/iteration61_exports.json",
+        "REPORT.md",
+        "README.md"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "byte_identical_files": {
+    "BRIEF.html": "dd288afd09d994c61444c92e73519a56cba57c468239811867d0d88770f4470e",
+    "BRIEF.pdf": "13f56686c53e8b4939301c2b7d1eea455bdd79f7da8b337c83851ed164e5e0cc",
+    "REPORT.html": "172f951ca8d48cd30fa8a44572db9d63f40cb393ac48d86c9db5812ba6b0adeb",
+    "REPORT.pdf": "9835d454bf6602dab095d7e3ce7f7a54d54b5b5f43c44a0aa094b9fecca91add",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration61_exports.json": "f9040aae46d860d2e871b27fe78484f51c4fb9bfa7c94b73ec72ffe928d4d079",
+    "REPORT.md": "6a3288f84c9f99401c26d0d3e643b6d00dca31e4e11215cba53d37b22427b595",
+    "README.md": "133edab66555c81b573c36adbbd1ff5a9310e672f72ca44b7d56471751d59404"
+  },
+  "exporter_sha256": "53bf6f8e4d2be602d4fd1e18652fa8dd22b2c5b412886ad604465cc63053353e",
+  "scope": "Documented setup, five selected replays, reader build/PDF extraction and exact eight-file comparison. Reused caches, export environment, Chromium and host libraries; no empty-cache, cross-host or independent scientific-validity claim."
+}
