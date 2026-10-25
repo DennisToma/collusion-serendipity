@@ -893,3 +893,24 @@ This POST-OUTCOME census binds every raw action with the frozen independent
 verifier,then counts all primary action profiles and notes. It changes no
 scientific estimate,verdict or frozen summary-renderer output. REPORT/DETAILS
 explain the low symmetric baseline and enumerate known-input fingerprint gaps.
+
+S36 (iteration24, own) is registered in [DESIGN_S36.md](DESIGN_S36.md).
+NET wages0..20 versus GROSS10..30 map exactly with a10-unit worker tax and
+employer subsidy. The wage outcome and mean offers are normalized to take-home;
+raw quoted rates are retained in trajectories. Self-only notes,productivity20
+and allocation stay fixed. The tax/grid/arithmetic wording is bundled.
+After completion, reproduce offline using:
+
+```bash
+uv run python scripts/s36_analyze.py
+uv run python scripts/s36_independent.py
+uv run python scripts/s36_exact_check.py
+uv run python scripts/s36_present.py
+uv run python scripts/s36_release.py
+uv run python -m unittest scripts.test_s36
+```
+
+`uv run python scripts/s36_release.py --clean-clone` checks an origin clone,
+reusing the installed frozen dependency environment. The manager-adapted separate
+reconstruction is independent arithmetic,not independent authorship/replication.
+All new synthetic tests fix their clocks;real scientific deadlines stay fixed.

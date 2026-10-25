@@ -1,19 +1,13 @@
 # STATUS
 
-## Current state (2026-10-25T01:20:26.087604+00:00; Phase2, iteration23 COMPLETE)
-- S35 productivity asymmetry:10games/5blocks,200valid decisions,zero retries/failures.
-- Paid wage20/30 firms19.450 vs20/20 firms11.800;difference+7.650[3.825,9.825].
-- Paired t[2.312334,12.987666],upperp.0625;frozen ODD:four positives,one tie.
-- No HIT/coordination mechanism;legitimate incentives and low symmetric baseline.
-- Post-outcome census:32/40 symmetric rounds(10,10);asymmetric rates19–20.
-- Full200-key replay/21-source registration/runtime/UTC/export/actual overlap PASS.
-- Separate50cells/15bootstrap+t summaries/15sign tails/200auxiliary bindings PASS.
-- Exact15summaries/8-artifact regeneration PASS;scientificSHA76aa3531 unchanged.
-- Both final critics/context critic exit0;Opus supplied-text scope;327tests PASS.
-- Registration5a68969/resultsfc0df35 pushed;origin clone23tests/7primary artifacts exact.
-- Clone clean;installed frozen venv reused;provider/config attestation gaps explicit.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- Next:fresh different axis after B;S30/S36 unrun,S32 unconfirmed;risks n5/cap.
+## Current state (2026-10-25T01:22:49.167805+00:00; Phase2, iteration24 IN PROGRESS)
+- S36 own/framing selected after B/S35;fresh10games/5blocks planned.
+- NET0..20 versus GROSS10..30,worker tax10/employer subsidy10.
+- All441 profiles/deviations bijective;primary net-minus-gross take-home.
+- Fixed2-unit directional screen,zero tuning;no live calls yet.
+- Implementing full replay,independent normalization and design reviews.
+- S35 retained ODD:+7.650[3.825,9.825],upperp.0625;no HIT.
+- S32 unconfirmed;S30 unrun;no sibling writes or direction deviation.
 
 ## Log
 
@@ -332,3 +326,7 @@
 - 2026-10-25T01:18:58.951896+00:00: final context Codex audit exits0;independently confirms all40profiles/arm,stage equilibria,100notes/arm,known fingerprint gaps and honest post-outcome scope. No contradiction of+7.650 or ODD. Final forbidden-call regeneration:all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,context census). All21registered sources/scientificSHA76aa3531 unchanged. Both final critics and contextcritic complete,no active generation/review.327post-live tests/local release106selectedlinks PASS. Results milestone then origin clone next.
 
 - 2026-10-25T01:20:26.087604+00:00: iteration23 COMPLETE. S35 registration5a68969094a398a0bb75b0ac7d1a1f2f2cdf709f/resultsfc0df351b793964e88310ac28af1267b03a17eaa pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,independent raw reconstruction,exact rational companion,summary/figure regeneration,cache-only release and all23protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone git status clean. logs/s35_remote_clean_clone.json records exact commands/hashes and installed frozen-venv reuse,not fresh dependency installation. Local327post-live canonical tests and8-artifact forbidden-call regeneration(including separately labeled post-outcome context census) PASS. All21registered source hashes/canonical scientificSHA76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d unchanged. Both final critics and targeted context critic exit0;Opus supplied-text-only scope explicit. Frozen ODD retained:four positive/one tied block,upperp.0625;large signed+7.650 contrast interpreted with low symmetric baseline and legitimate changed incentives,no agreement/isolated mechanism or S31 replication claim. Known NODE_OPTIONS/proxy/certificate/auth/ancestor instruction gaps explicit,no retrospective attestation. Ledger result/context references finalized. Reports/HITS/README/DETAILS current;no new paid calls,second pilot,estimator/threshold/source edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Next fresh different axis after B;S36 proposed only,S30 unrun,S32 unconfirmed. Publication/handoff receipt commit and push next.
+
+- 2026-10-25T01:22:49.167805+00:00: iteration24 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/state summaries. Activated queued own/S36 after B/S35;fresh gross/net wage quotation comparison with exact payoff translation,condition-specific quote schema and normalized outcomes. Registered before paid calls;no pooling,reverse promotion or direction deviation. Full pre-live validation and independent critics next.
+
+- 2026-10-25T01:28:09.357219+00:00: S36 original Codex/Opus design critics both exit0,parent0;patch Codex exit0. Fixed atomic terminal admission after preflight failures and stale fingerprint wording;added seeded-seat assertions and receipt chronology mutations. All27 scoped tests/full354 repository tests PASS;final-source dry200-key replay,50raw metric cells,15bootstrap+t summaries,15sign tails,200auxiliary bindings and15 exact rational summaries PASS. Complete synthetic LIVE path passes;all21source hashes match final dry manifest. Auth/config refresh abort risk explicitly accepted before outcomes. Initial full-suite S25 Next-anchor presentation failure retained and corrected without scientific edits. HistoricalS31–S35 census1000valid decisions,zero retries/failures supports unchanged strict parsing. No paid outcomes,tuning,pooling or sibling writes. Source-freeze/push then sole live launch next.

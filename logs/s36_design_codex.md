@@ -1,0 +1,13 @@
+Reviewed all 12 requested files, read-only, without live model calls. No blocking economics or statistic-arithmetic bug found. Two remaining issues:
+
+- **Medium — admission failures leave an abort race.** In [grossnet.py:102](/home/factory/collusion/collusion-serendipity/sim/grossnet.py:102), deadline/preflight/headroom exceptions release `admission_lock` before `run_game` sets the terminal event. A waiting partner can acquire the lock and admit another request during that interval, particularly after a transient preflight failure. The dataset still fails closed, but unnecessary paid requests can escape. **Remedy:** mark terminal failure while holding the admission lock, using a setter that avoids reacquiring it; add a deterministic two-thread regression test.
+
+- **Low — published configuration limitations are inaccurate.** [s36_analyze.py:266](/home/factory/collusion/collusion-serendipity/scripts/s36_analyze.py:266) says fingerprints omit `NODE_OPTIONS`, proxies, certificates and authentication. The runtime fingerprints those environment inputs and `auth.json`, so every generated report repeats a false scope statement. **Remedy:** describe the actual residual omissions—complete effective configuration, ancestor instructions and provider attestation—and retain qualifications about referenced files or directories whose contents are not fingerprinted.
+
+Verification: independently exercised all **441 profiles and 18,522 unilateral deviations**. Gross/net outcomes match exactly; worker earnings plus firm profits equal 20; pure Nash profiles are precisely `(18,18)`, `(19,19)`, `(20,20)` after normalization. Current wages and notes stay hidden until both submissions, and reasoning is not replayed.
+
+Code inspection found the five metric denominators, exact bootstrap interpolation, inclusive sign tails and HIT-first classification consistent with registration. At five blocks, HIT indeed requires five strictly positive differences and mean ≥2. Cache/request binding, all-key replay, interrupted-resume rejection and publication rejection of failed datasets appear sound.
+
+Acknowledged limitations remain: five exploratory blocks; bundled wording/grid/arithmetic treatment; conditional sign-flip calibration; no identified anchoring mechanism or collusion; unenforced provider temperature/token settings; and unattested tool non-use/provider execution. These are appropriately separate from correctness bugs.
+
+I did not run the full test suite because it writes temporary artifacts; the executable check above used in-memory extraction only.

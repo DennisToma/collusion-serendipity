@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 23 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 24 (S36 registered; outcomes pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -47,4 +47,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh question on a different axis after B/S35. S35 remains unpromoted; S32 is unconfirmed; S30/S36 remain unrun. Keep productivity-matched references when comparing wage levels.
+**Next:** Complete S36, which tests NET versus GROSS wage quotation under a bijective payoff translation, on five fresh paired blocks. The registered primary is normalized take-home pay; no paid outcomes yet. S35 remains unpromoted, S32 unconfirmed and S30 unrun. [S36 design](DESIGN_S36.md).

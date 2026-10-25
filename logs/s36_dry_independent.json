@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "metric_cells": 50,
+  "bootstrap_and_t_summaries": 15,
+  "sign_sets": 5,
+  "sign_tails": 15,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "prompt_contracts": 200,
+  "verdict": "DUD",
+  "primary_mean": -0.675,
+  "primary_ci": [
+    -1.85,
+    0.775
+  ],
+  "upper_p": 0.8125,
+  "result_sha256": "b698aa0b6be56cdbebe89af9141b1866b5a91842d225c86734d26d9f8c2deaee"
+}

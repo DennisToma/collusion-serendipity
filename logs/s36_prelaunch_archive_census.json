@@ -1,0 +1,47 @@
+{
+  "scope": "Pre-live operational metadata only;no historical outcome estimation or parser relaxation",
+  "passed": true,
+  "pilots": {
+    "S31": {
+      "games": 10,
+      "valid_recorded_decisions": 200,
+      "cached_responses": 200,
+      "invalid_attempt_retries": 0,
+      "failure_markers": 0,
+      "raw_sha256": "2610e8e0d43cfcea44c67ffe9affd3f09f4b54d003361d671d7db019fd5f8d87"
+    },
+    "S32": {
+      "games": 10,
+      "valid_recorded_decisions": 200,
+      "cached_responses": 200,
+      "invalid_attempt_retries": 0,
+      "failure_markers": 0,
+      "raw_sha256": "f58b2f573ad37c4fcde062e96c48fa1c02e284b2019cc58c5382d6d46af9d955"
+    },
+    "S33": {
+      "games": 10,
+      "valid_recorded_decisions": 200,
+      "cached_responses": 200,
+      "invalid_attempt_retries": 0,
+      "failure_markers": 0,
+      "raw_sha256": "92e73aa31a61195cac1b7b4d79c90c44294bfc73a87253cf5f07643098915302"
+    },
+    "S34": {
+      "games": 10,
+      "valid_recorded_decisions": 200,
+      "cached_responses": 200,
+      "invalid_attempt_retries": 0,
+      "failure_markers": 0,
+      "raw_sha256": "d095c25c52557f833104b006fdcbf540211a6f1183f7570845dc46494e223fec"
+    },
+    "S35": {
+      "games": 10,
+      "valid_recorded_decisions": 200,
+      "cached_responses": 200,
+      "invalid_attempt_retries": 0,
+      "failure_markers": 0,
+      "raw_sha256": "7634e810913c592382148135763eb461953b98893d749ee810a8b19d54bfa161"
+    }
+  },
+  "total_valid_decisions": 1000
+}

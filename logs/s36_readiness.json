@@ -1,0 +1,123 @@
+{
+  "ready_utc": "2026-10-25T01:28:09.357219+00:00",
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/grossnet.py": "fbc49e0db4e18425ade2ce6a59d8c93c36f57f746851027bacde27004cc7f66e",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s36_runtime.py": "8612d831fcf6848b1f0cba3c8aa0b4d5d5af8c9a8a0657b4359dfc8054f7ef66",
+    "DESIGN_S36.md": "83cbb0a0227af3d0d2c9232e6abcf7ff456ee7376c5d3af7e998c800602840a2",
+    "scripts/s36_analyze.py": "450ba70def0aabb654d8968435e16a8af5bb6e24cf72f0ac927f67fe6f186c55",
+    "scripts/test_s36.py": "2cb77888cea176e99d1c2b10c8a7db1e79666bd4c26e90d71ac0c628d9e3bdf2",
+    "scripts/s36_launch.py": "ac86ec71b0a94e6e084321100582ab577a8a165dbcbd2459521426b2158f746a",
+    "scripts/s36_independent.py": "a44a9687b31407a17edc978c75eb77101bc808259105f5562d0c9b9953c65465",
+    "scripts/s36_present.py": "70493d90c5d2e0a150f91a63c56f2007ba5470479fc0f644a6c3356b78ebad46",
+    "scripts/s36_reviews.py": "2096ce169b21d97dc427a410afbd5a84df693932752e5fd04e5370ed7fc4af4a",
+    "scripts/s36_exact_check.py": "78d2110afa9d5680c689ddb5e252d17dd216400662cc67f8f23b64c4cd75f240",
+    "scripts/s36_release.py": "f4c1ab0d29721ef7af5ba556527ca198c281821554f9188cde40913f9a905e15",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "paid_scientific_calls": 0,
+  "protocol_tests": 27,
+  "full_suite": {
+    "passed": true,
+    "tests": 354,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "legacy_s31_synthetic_clock": {
+      "modules": [
+        "test_s31"
+      ],
+      "tests": 12,
+      "now": "2026-10-24T23:29:00+00:00",
+      "source_files_modified": false
+    },
+    "s33_synthetic_clock": {
+      "modules": [
+        "test_s33"
+      ],
+      "tests": 13,
+      "now": "2026-10-25T00:20:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "dry_replay": {
+    "passed": true,
+    "archive_artifacts_byte_identical": true,
+    "raw_keys": 200,
+    "scientific_calls": 0,
+    "source_entries": 21
+  },
+  "methodology_critics": {
+    "codex_exit": 0,
+    "opus_exit": 0,
+    "parent_exit": 0,
+    "opus_scope": "Supplied text only;no filesystem/clock execution"
+  },
+  "patch_critic": {
+    "exit_code": 0
+  },
+  "historical_validity": {
+    "scope": "Pre-live operational metadata only;no historical outcome estimation or parser relaxation",
+    "passed": true,
+    "pilots": {
+      "S31": {
+        "games": 10,
+        "valid_recorded_decisions": 200,
+        "cached_responses": 200,
+        "invalid_attempt_retries": 0,
+        "failure_markers": 0,
+        "raw_sha256": "2610e8e0d43cfcea44c67ffe9affd3f09f4b54d003361d671d7db019fd5f8d87"
+      },
+      "S32": {
+        "games": 10,
+        "valid_recorded_decisions": 200,
+        "cached_responses": 200,
+        "invalid_attempt_retries": 0,
+        "failure_markers": 0,
+        "raw_sha256": "f58b2f573ad37c4fcde062e96c48fa1c02e284b2019cc58c5382d6d46af9d955"
+      },
+      "S33": {
+        "games": 10,
+        "valid_recorded_decisions": 200,
+        "cached_responses": 200,
+        "invalid_attempt_retries": 0,
+        "failure_markers": 0,
+        "raw_sha256": "92e73aa31a61195cac1b7b4d79c90c44294bfc73a87253cf5f07643098915302"
+      },
+      "S34": {
+        "games": 10,
+        "valid_recorded_decisions": 200,
+        "cached_responses": 200,
+        "invalid_attempt_retries": 0,
+        "failure_markers": 0,
+        "raw_sha256": "d095c25c52557f833104b006fdcbf540211a6f1183f7570845dc46494e223fec"
+      },
+      "S35": {
+        "games": 10,
+        "valid_recorded_decisions": 200,
+        "cached_responses": 200,
+        "invalid_attempt_retries": 0,
+        "failure_markers": 0,
+        "raw_sha256": "7634e810913c592382148135763eb461953b98893d749ee810a8b19d54bfa161"
+      }
+    },
+    "total_valid_decisions": 1000
+  }
+}

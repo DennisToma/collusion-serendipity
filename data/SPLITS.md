@@ -101,3 +101,9 @@ S34:five fresh paired blocks24680..24684;ten two-person shared-note workplace
 games,plain schema versus added payoff-inert report wording/boolean field.
 T10,r3..10,200planned decisions;exploratory,zero tuning,no held-out or pooling
 claim. Full design/source manifest frozen before live outcomes.
+
+S36:five fresh paired blocks24760..24764;ten self-only-note human-labor games,
+NET quotes0..20 versus GROSS10..30 with fixed worker tax10/employer subsidy10.
+T10,r3..10,200planned decisions. All outcomes normalized to take-home units.
+Exploratory,zero tuning,no held-out or pooling claim;full source freeze before
+paid outcomes. Directional net-minus-gross2-unit screen;no reverse promotion.
