@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "observed_utc": "2026-10-25T02:08:23.234534+00:00",
+  "registration_commit": "6d354c3f38dcce5137a19444e3494f38e768ed6a",
+  "results_commit": "b7768e53b19d2a73801fdc81165bf5f78e9faf4e",
+  "remote_clone": true,
+  "frozen_sources": 22,
+  "tracked_payload_bytes": 38824411,
+  "scientific_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7",
+  "scientific_verdict": "DUD",
+  "repository_post_live_tests": 384,
+  "remote_protocol_tests": 30
+}

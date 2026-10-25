@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-25T02:07:11.717580+00:00",
+  "ended_utc": "2026-10-25T02:07:29.457892+00:00",
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "scripts/s38_release.py",
+    "--clean-clone"
+  ],
+  "exit_code": 0
+}

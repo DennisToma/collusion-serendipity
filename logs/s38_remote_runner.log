@@ -1,0 +1,104 @@
+{
+  "pilot": "S38",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "known minus hidden",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "hidden": 0,
+    "known": 0
+  },
+  "notes": {
+    "hidden": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "known": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "The known sentence adds numeral10 and final-round salience; hidden-horizon beliefs are unobserved,so no isolated knowledge or unraveling mechanism",
+    "Identical stage incentives, supplied memory, and self-only notepads; no strategic workers",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Static pure Nash profiles (18,18),(19,19),(20,20) in both arms; multiple equilibria preclude a unique finite-game path",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Selected local CLI/environment and referenced-file fingerprints; complete effective configuration and provider execution remain unattested",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}
+Primary: {'mean': 0.0, 'mean_exact': '0', 'ci95': [0.0, 0.0], 'ci95_exact': ['0', '0'], 'paired_t_ci95': [0.0, 0.0], 'exact_signflip_p_upper': 1.0, 'exact_signflip_p_lower': 1.0, 'exact_signflip_p_two_sided': 1.0}
+{
+  "passed": true,
+  "metric_cells": 60,
+  "bootstrap_and_t_summaries": 18,
+  "sign_sets": 6,
+  "sign_tails": 18,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "prompt_contracts": 200,
+  "verdict": "DUD",
+  "primary_mean": 0.0,
+  "primary_ci": [
+    0.0,
+    0.0
+  ],
+  "upper_p": 1.0,
+  "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+}
+{
+  "passed": true,
+  "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+  "exact_summaries": 18,
+  "raw_bound_metric_cells": 60,
+  "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+}
+{
+  "passed": true,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "source_entries": 22,
+  "local_links_checked": 114,
+  "independent": {
+    "passed": true,
+    "metric_cells": 60,
+    "bootstrap_and_t_summaries": 18,
+    "sign_sets": 6,
+    "sign_tails": 18,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "DUD",
+    "primary_mean": 0.0,
+    "primary_ci": [
+      0.0,
+      0.0
+    ],
+    "upper_p": 1.0,
+    "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+  },
+  "exact_companion": {
+    "passed": true,
+    "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+    "exact_summaries": 18,
+    "raw_bound_metric_cells": 60,
+    "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+  }
+}
+........s38_24840_hidden complete 20 calls
+......................
+----------------------------------------------------------------------
+Ran 30 tests in 6.833s
+
+OK
+PASS remote clean clone b7768e53b19d2a73801fdc81165bf5f78e9faf4e
