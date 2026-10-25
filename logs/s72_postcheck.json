@@ -1,0 +1,41 @@
+{
+  "artifact_sha256": {
+    "figures/s72_temporal.png": "2a375cb044cff6ea0ff0c50c4b15dc78fc13e0224a4b80f64561145450ccf278",
+    "logs/s72_independent.json": "7342b8cd88076ab5b5a999a1ce24d8417b9a4aea0e7c972f90d42b36ee4591f1",
+    "results/s72_summary.md": "08e77efd3553ce44e1dbe6c9a27fe4e9847d0f265730942a58d55d3f8c5d5013",
+    "results/s72_temporal.json": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049"
+  },
+  "documents": {
+    "current_pilot_rows": 53,
+    "documents": [
+      "REPORT.md",
+      "REPORT_DETAILS.md",
+      "HITS.md",
+      "README.md"
+    ],
+    "guard": "Exclusive-writer prevalidation; no atomic concurrent-writer guarantee",
+    "passed": true,
+    "prior_pilot_rows": 52
+  },
+  "local_links": 489,
+  "mutations": "in memory/read interception only; archive bytes untouched",
+  "older_scientific_paths": 1531,
+  "passed": true,
+  "prewrite_document_corruptions_rejected": [
+    "REPORT.md",
+    "REPORT_DETAILS.md",
+    "HITS.md",
+    "README.md"
+  ],
+  "result_or_source_corruptions_rejected": [
+    "individual window gain",
+    "window boundary",
+    "raw decoded action",
+    "missing metric",
+    "exact rational endpoint",
+    "embedded provenance",
+    "opportunity denominator",
+    "source raw bytes"
+  ],
+  "source_and_input_paths": 64
+}

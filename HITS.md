@@ -682,3 +682,9 @@ Expected-incentive calibration only;no HIT promotion or sibling headline change.
 S68 interrupted: **29/30** responses returned and accepted from **30** admitted requests;process exit143,one unanswered request,no completion event. **No behavioral effect estimate or scientific verdict.** Registered whole-pilot interruption rule retained;no restart or replacement call.
 
 [Design](DESIGN_S68.md) · [Failure counts and prefix verification](results/s68_failure.json) · [Full limits](results/s68_summary.md). No HIT or sibling headline change.
+
+## S72 — Unpromoted temporal payoff accounting
+
+**Latest — S72 (post hoc):** Both employees beat the same-status one-shot Nash comparator over the fixed primary window in **0/5** self-note games and **2/5** shared-note games; single-round counts remain **0/40** and **0/40**. Fixed two-round counts: **0/20** and **2/20**. Payoff aggregation can change the classification; this does not establish agreement, reciprocal intent or a causal profit effect. [All measures, individual excesses and limits](results/s72_summary.md).
+
+**ODD/context-only;no promotion rule or confirmation request.** For both siblings: absence of simultaneous two-sided gains does not by itself exclude gains exchanged across rounds. This posthoc comparator at fixed statuses is not a repeated-policy intervention,agreement label or reciprocal-intent test. Reproduce `uv run --frozen python scripts/s72_temporal.py release`.

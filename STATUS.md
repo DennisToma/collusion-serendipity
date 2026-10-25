@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T12:00:40.015300+00:00; Phase2, iteration52 REGISTERING)
-- S72(E):posthoc temporal payoff audit;all10originalS29games/5blocks;zero newgames/calls/tuning.
-- Sevenfixed metrics across1/2/8round scales;both-person strict gain versus same-status stageNash.
-- Actual/benchmark payoffs sum before classification;fixedwindows,no favorablecase search.
-- OriginalS29/S53 unchanged;ODD/context-only,no HIT/replication/agreement/causalprofit claim.
-- S68remainsFAILED_INTERRUPTED:29/30responses,no estimate or restart.
-- All16stage/256two-stage synthetic profiles and17focused checks PASS.
-- Both initial/refined independent critics exit0;provenance/inventory/denominator fixes applied preanalysis.
-- Earlier906canonical checks PASS;final canonical rerun follows results.
-- Full source/input/older-science+design freeze and registration push next;no new aggregates inspected.
-- Next:call-forbidden originalrawreplay,separate algebra/statistics,allmetrics/figure/finalcritics.
-- Pilots stop14:30UTC;no siblingwrite,DIRECTION deviation or active simulation.
+## Current state (2026-10-25T12:08:11.192862+00:00; Phase2, iteration52 PUSHING RESULTS)
+- S72(E):posthoc temporal audit;all10originalS29games/5blocks;zero newgames/scientificcalls/tuning.
+- Both gain over r3..10:self0/5,shared2/5;difference+.400[.000,.800];t[-.280,1.080].
+- Single-round bothgain0/40each;fixedtwo-round0/20versus2/20;three sharedgames harm oneemployee.
+- Seven dependent measures/all21bootstrap+t summaries;ODD/context-only,no HIT/replication/causalprofit claim.
+- Raw200action-note-reason/80rounds/40fixedpairs/10fullwindows/70cells separately reproduced.
+- All1531older sciencepaths/64source-input paths/split append unchanged;52priorrows/53contiguous.
+- Eight result/source and four prewrite-document corruptions reject;489links;figure inspected.
+- All912supervised canonical checks PASS,terminalexit0;17focused tests PASS.
+- Earlier offline test session exit143/incomplete,unknowncause;no scientificdata change.
+- Both final critics exit0:Codex raw/statistics versus Opus supplied-text arithmetic scopes.
+- Byte-identical call-forbidden release PASS;results commit/push then clean-origin proof next.
+- S29/S53 unchanged;S68interrupted/no estimate/restart;no HIT,siblingwrite or DIRECTION deviation.
 
 ## Log
 
@@ -724,3 +725,7 @@
 - 2026-10-25T11:51:52.046051+00:00: iteration52 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling report/status summaries. Selected E/S72 after own/S68. New reason for reusing S29:the earlier S53 simultaneous strict-Pareto count explicitly leaves cross-round benefit unidentified;this audit sums individual payoffs before classifying at fixed1/2/8round scales. Allten originalgames;seven equally reported measures,posthoc context only,no HIT rule or fresh replication. All16stage/256two-stage synthetic examples and11focused tests PASS;initial independent methodology critics running. S68raw/source/failure artifacts untouched,no restart or scientificcalls. No DIRECTION deviation or siblingwrite.
 
 - 2026-10-25T12:00:40.015300+00:00: S72 preanalysis checks complete:17focused tests,16stage/256two-stage examples PASS;earlier906canonical PASS. Initial/refined Codex+compact supplied-text Opus all exit0. Fixed committed-baseline preservation,pre-archive independent registration/provenance binding,complete older science+top-level design inventory and exact split append. Added exact-input,asymmetric-identity and denominator/eligibility metadata guards. Compact Opus excerpt omissions resolved with actual callers/optimization guard;8X/8Y denominators retained. Review scopes/dispositions in logs/s72_review_disposition.md. No archived new decomposition,scientificcalls,secondpilot or historicalscientificedit. Freeze/commit/push before new aggregates next.
+
+- 2026-10-25T12:02:28.609835+00:00: S72 complete:Full-window bothgain self0/5,shared2/5;shared-minus-self+0.400[0.0, 0.8];pairedt[-0.28008738065825567, 1.0800873806582558];stage0/0of40;fixedpairs0/2of20;minimumexcesscontrast+0.350[-0.3, 1.05]. Allseven fixed related measures and21descriptive bootstrap+t summaries reported;sourceS29/S53 unchanged. Full original200response/raw/request/history/export replay plus original independent check PASS;new separate200raw action/note/reason bindings/80single-rounds/40fixedtwo-rounds/10fullwindows/70metriccells/21exact-bootstrap+t summaries PASS. All1531older scientific paths including designs/protocol and64source-input paths/exact split append checked against pushed registrationb2e3aee2adcb6eeaccb44d18b8cdbcd274dc3d93;all52earlierreportrows preserved/53contiguous,489links. Eight in-memory/read-interception result/source corruption probes andfour prewrite-document probes reject;no archive bytes mutated. Call-forbidden staged repeatrelease byte-identical;figure inspected. Final critics and finalcanonical active. Fixed ODD/context-only,no hypothesis test,HIT,agreement,reciprocalintent,causalprofit,independentreplication or siblingheadline change. No newgames/scientificcalls,tuning,pooling,exclusions,secondpilot,siblingwrite or DIRECTION deviation.
+
+- 2026-10-25T12:08:11.192862+00:00: Both final critics exit0:no numerical/comparator bug. Codex independently reconstructs200raw action/note/reason bindings,all80/40/10records,all21exact-bootstrap+t summaries and1531older science/64source-input hashes;Opus supplied-text arithmetic only. Three sharedgames harm oneemployee;unconditional policies could produce mutual gains,so agreement/reciprocalintent/causalprofit remain unidentified. Final912canonical checks PASS with actual supervised terminalexit0;initial offline session29242 exit143/incomplete receipt preserved,no terminationcause inference. Seventeen focused tests/eight result-source/fourprewrite-document probes/489links and byte-identical call-forbidden release PASS. Earlier ledger prefixes,append-only historical STATUS log and DIRECTION unchanged;repo93MB excludinggit/venv. Frozen scientific/presentation bytes unchanged after outcomes. Ready for resultcommit/push and actual fresh-origin reproduction;not claimed in advance. No newscientificcalls,games,tuning,pooling,exclusions,HIT,siblingwrite or directiondeviation.

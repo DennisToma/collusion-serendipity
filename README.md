@@ -1497,3 +1497,19 @@ S68 interrupted: **29/30** responses returned and accepted from **30** admitted 
 [Design](DESIGN_S68.md) · [Failure counts and prefix verification](results/s68_failure.json) · [Full limits](results/s68_summary.md). No HIT or sibling headline change.
 
 Offline reproduction: `uv run python scripts/s68_failure_release.py`; clean origin reproduction: `uv run python scripts/s68_failure_release.py --clean-clone`; focused registered protocol checks: `uv run python -m unittest scripts.test_s68`. The archive stays incomplete;these commands verify failure evidence without adding model calls. Existing frozen venv reused.
+
+## S72: temporal payoff accounting of all S29 games
+
+[Design](DESIGN_S72.md) · [All seven measures and caveats](results/s72_summary.md) · [Figure](figures/s72_temporal.png).
+
+Posthoc,zero new scientific calls/games;all original ten S29 games/five blocks. Uses fixed single-round,two-round and full-primary-window accounting with the original stage Nash comparator. No agreement,causal reciprocal response or independent confirmation claim. Full source/raw replay,source/input hashes,older science bytes and separate exact reconstruction are checked. llm.chat is patched to raise;this is not OS network/process isolation. Existing pinned venv reused.
+
+```bash
+uv run --frozen python scripts/s72_temporal.py release
+uv run --frozen python scripts/s72_independent.py
+uv run --frozen python scripts/s72_present.py --check-documents
+uv run --frozen python scripts/s72_postcheck.py
+uv run --frozen python -m unittest scripts.test_s72
+```
+
+`scripts/s72_clone.py` reproduces a pushed revision in a fresh full-history origin clone. Registration freeze/register-remote steps are one-time and must not be repeated.

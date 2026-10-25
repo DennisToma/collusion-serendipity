@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-25T12:03:31.066636+00:00",
+  "tool_session": 29242,
+  "exit_code": 143,
+  "complete_suite_receipt_present": false,
+  "log": "/var/tmp/s72_repository_final.log",
+  "cause": "unknown",
+  "scope": "offline repository tests only; no scientific run or outcome changes"
+}

@@ -1,0 +1,21 @@
+{
+  "artifacts": {
+    "figures/s72_temporal.png": "2a375cb044cff6ea0ff0c50c4b15dc78fc13e0224a4b80f64561145450ccf278",
+    "logs/s72_independent.json": "7342b8cd88076ab5b5a999a1ce24d8417b9a4aea0e7c972f90d42b36ee4591f1",
+    "results/s72_summary.md": "08e77efd3553ce44e1dbe6c9a27fe4e9847d0f265730942a58d55d3f8c5d5013",
+    "results/s72_temporal.json": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049"
+  },
+  "guard": "llm.chat raises; no OS network/process isolation",
+  "independent": {
+    "authorship": "Separate implementation by same manager; independent critics recorded separately",
+    "exact_bootstrap_and_t_summaries": 21,
+    "fixed_two_round_windows": 40,
+    "full_windows": 10,
+    "game_metric_cells": 70,
+    "passed": true,
+    "primary_rounds": 80,
+    "raw_action_note_reason_bindings": 200
+  },
+  "passed": true,
+  "scientific_model_calls": 0
+}

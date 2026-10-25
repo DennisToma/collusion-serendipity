@@ -1326,3 +1326,11 @@ Expected-incentive calibration only;no HIT promotion or sibling headline change.
 S68 interrupted: **29/30** responses returned and accepted from **30** admitted requests;process exit143,one unanswered request,no completion event. **No behavioral effect estimate or scientific verdict.** Registered whole-pilot interruption rule retained;no restart or replacement call.
 
 [Design](DESIGN_S68.md) · [Failure counts and prefix verification](results/s68_failure.json) · [Full limits](results/s68_summary.md). No HIT or sibling headline change.
+
+## Iteration52 — S72 temporal payoff aggregation
+
+**Latest — S72 (post hoc):** Both employees beat the same-status one-shot Nash comparator over the fixed primary window in **0/5** self-note games and **2/5** shared-note games; single-round counts remain **0/40** and **0/40**. Fixed two-round counts: **0/20** and **2/20**. Payoff aggregation can change the classification; this does not establish agreement, reciprocal intent or a causal profit effect. [All measures, individual excesses and limits](results/s72_summary.md).
+
+| S72 · E, temporal payoff audit | All10 original S29 games/5blocks;zero new calls. Both gain across r3–10: self **0/5**,shared **2/5**; difference **+0.400 [+0.000, +0.800]**. Single-round both-gain **0/40** versus **0/40**. [All7 measures](results/s72_summary.md). | **ODD / context-only**, post hoc |
+
+All80 single-round,40 fixed two-round and10 full-window records are exported. Seven dependent descriptive measures,21bootstrap/t summaries;five reused paired blocks. Posthoc question after original outcomes known;no new HIT,replication,agreement or causal reciprocity claim. Source S29 and S53 unchanged. [Design](DESIGN_S72.md) · [Full audit](results/s72_summary.md) · [Figure](figures/s72_temporal.png).
