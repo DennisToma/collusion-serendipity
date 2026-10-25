@@ -29,8 +29,8 @@ def publish():
     narrow=(f"**Latest — S55:** twenty fresh decisions on ten S29 histories/five source blocks. "
             f"TYPE-Y partner approvals with own status visible **{visible}/10**,masked **{masked}/10**; "
             f"visible−masked **{d['mean']:+.3f} [{d['ci95'][0]:+.3f}, {d['ci95'][1]:+.3f}]**, "
-            f"paired t95% [{d['t95'][0]:+.3f}, {d['t95'][1]:+.3f}]. **{v} for the .25 reduction screen;no promoted hit.**\n"
-            "Only own current authoritative status entry is deleted. Historical cues can still reveal own type;missing-entry cues also change. "
+            f"paired t95% [{d['t95'][0]:+.3f}, {d['t95'][1]:+.3f}],upper sign-flip p={d['upper_signflip_p']:.5f}. **{v} for the .25 reduction screen;no promoted hit.**\n"
+            "Only own current authoritative status entry is deleted. Block24483 ties,consistent with the baseline-floor risk noted before calls;the frozen HIT gate requires all five positive. Historical cues can still reveal own type;missing-entry cues also change. "
             "Own type may affect beliefs about the partner's incoming review,so no role-confusion mechanism is identified. "
             "[Full results and limits](results/s55_summary.md) · [All returned text](results/s55_action_text.md).")
     p=Path('REPORT.md');text=p.read_text();old_rows=[l for l in text.splitlines() if l.startswith('| S') and not l.startswith('| S55 ')]
@@ -47,7 +47,8 @@ def publish():
     details=(narrow+'\n\nFive paired differences: '+str(d['block_values'])+f";upper sign-flip p={d['upper_signflip_p']:.5f},lower={d['lower_signflip_p']:.5f},two-sided={d['two_sided_signflip_p']:.5f}.\n\n"
              'Same outcome-independent source selection as S51,not an independent S29 replication. Twenty fresh boolean reviews;zero new games or tuning. Visible is the exact source prompt;archived actions are context only. '+
              'Five blocks,descriptive small-n uncertainty,no held-out/multiplicity/equivalence claim. Source runtime equality,served identity,effective settings and tool non-use unattested. '+
-             '[Design](DESIGN_S55.md) · [Separate raw/statistical verification](logs/s55_independent.json) · [Figure](figures/s55_visibility.png).')
+             '[Design](DESIGN_S55.md) · [Separate raw/statistical verification](logs/s55_independent.json) · [Figure](figures/s55_visibility.png). '+
+             'Reservation and receipt files were fsynced;parent directories were not fsynced. This supplies process-level persistence,not verified power-loss durability.')
     replace_block('REPORT_DETAILS.md','<!-- S55 details start -->','<!-- S55 details end -->',details)
     replace_block('HITS.md','<!-- S55 handoff start -->','<!-- S55 handoff end -->',
                   '## S55 — Unpromoted own-status visibility pilot\n\n'+details+'\n\nFor both siblings:no confirmation trigger or headline change. Any model/role-confusion explanation needs a fresh design with partner responses and own-type inference controlled.')

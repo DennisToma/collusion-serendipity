@@ -1317,4 +1317,22 @@ frozen venv,not a fresh dependency installation. A post-outcome documentation he
 [Post-review interpretation](results/s56_interpretation.md) clarifies why even
 ordinary Nash profiles can fail this fixed-pair criterion. Observed counts are
 rounds,not distinct profiles. `uv run --frozen python scripts/s56_check_documents.py`
-checks generated report prose against frozen JSON and preserves all prior rows.
+checked the iteration39 generated prose against frozen JSON. Run that historical presentation checker at commit `0db3286`;later iterations extend the front log. Scientific S56 reproduction above remains current.
+
+<!-- S55 reproduction start -->
+S55(iteration40):own current task-status visible versus deleted at ten observed S29 histories/five blocks;20fresh decisions,zero games/tuning.
+
+[Design](DESIGN_S55.md) · [Full results](results/s55_summary.md) · [All returned text](results/s55_action_text.md).
+
+```bash
+uv run --frozen python scripts/s55_replay.py --analyze
+uv run --frozen python scripts/s55_independent.py
+uv run --frozen python scripts/s55_present.py
+uv run --frozen python scripts/s55_action_text.py
+uv run --frozen python scripts/s55_release.py
+uv run --frozen python -m unittest scripts.test_s55
+uv run --frozen python scripts/s55_release.py --clean-clone
+```
+
+Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses the installed frozen venv,not a fresh dependency installation. The primary replay binds all requests,raw replies,source/runtime/registration/time/schedule records;the separate checker rebuilds raw approvals,prompt deletion,15blockcells,all3125bootstrap draws/32signflips. This documentation integrator is outside the frozen scientific manifest;all earlier pilot rows are preserved.
+<!-- S55 reproduction end -->

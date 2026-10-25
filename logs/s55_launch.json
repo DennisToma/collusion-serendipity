@@ -1,0 +1,23 @@
+{
+  "commit": "9d392f30030095a6279e9241d157ed950b4b4ecc",
+  "remote": "9d392f30030095a6279e9241d157ed950b4b4ecc",
+  "observed_utc": "2026-10-25T07:19:00.021831+00:00",
+  "server_time_attested": false,
+  "source_sha256": {
+    "DESIGN_S55.md": "8e5cc8d88e258a45b50afc20cba23a53e516e20ca214250317580d4fac62cc49",
+    "scripts/s55_replay.py": "f2c711675ad143bdb1513a7d82767a5ed242de4c14079f863adbe09adacdc59e",
+    "scripts/s55_independent.py": "9a71750ce0dbaa90c2583ec7b864d3cb412e7c7ec1b9b59c2949ca1309c43829",
+    "scripts/s55_present.py": "d977883b89077aeb1c9d5a6903e84d11a431274be527f1bd218bfadadd01a490",
+    "scripts/s55_release.py": "f661203f28e6114741eba1bf98e0ada0552e5e39713257f8fc4bbafa499ef669",
+    "scripts/test_s55.py": "84cbbfcc6286dab84d5e3a59878af97f6c26f3b04db4fb8f82bbd0fae50493c6",
+    "scripts/s55_action_text.py": "1daf9cf16f01e9cdcf123778808cb75d908f2b305ea0e4b55e6df1fa821e4af8",
+    "scripts/s55_reviews.py": "882d7ddb59460c3ee8b0f295bc701f49feac62f92bcafe6bc54568d70b543ad7",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa"
+}

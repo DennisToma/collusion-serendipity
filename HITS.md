@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 38.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 40.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -569,3 +569,16 @@ stability or an agreement. The fixed-pair total-profit benchmark may sacrifice a
 member;strict-both gain requires no transfers. Neither notion classifies repeated
 game stability,reciprocal intent or profitable collusion. S14 remains ODD.
 <!-- S56 handoff end -->
+
+<!-- S55 handoff start -->
+## S55 — Unpromoted own-status visibility pilot
+
+**Latest — S55:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with own status visible **6/10**,masked **1/10**; visible−masked **+0.500 [+0.200, +0.800]**, paired t95% [+0.061, +0.939],upper sign-flip p=0.06250. **ODD for the .25 reduction screen;no promoted hit.**
+Only own current authoritative status entry is deleted. Block24483 ties,consistent with the baseline-floor risk noted before calls;the frozen HIT gate requires all five positive. Historical cues can still reveal own type;missing-entry cues also change. Own type may affect beliefs about the partner's incoming review,so no role-confusion mechanism is identified. [Full results and limits](results/s55_summary.md) · [All returned text](results/s55_action_text.md).
+
+Five paired differences: [0.5, 1.0, 0.5, 0.0, 0.5];upper sign-flip p=0.06250,lower=1.00000,two-sided=0.12500.
+
+Same outcome-independent source selection as S51,not an independent S29 replication. Twenty fresh boolean reviews;zero new games or tuning. Visible is the exact source prompt;archived actions are context only. Five blocks,descriptive small-n uncertainty,no held-out/multiplicity/equivalence claim. Source runtime equality,served identity,effective settings and tool non-use unattested. [Design](DESIGN_S55.md) · [Separate raw/statistical verification](logs/s55_independent.json) · [Figure](figures/s55_visibility.png). Reservation and receipt files were fsynced;parent directories were not fsynced. This supplies process-level persistence,not verified power-loss durability.
+
+For both siblings:no confirmation trigger or headline change. Any model/role-confusion explanation needs a fresh design with partner responses and own-type inference controlled.
+<!-- S55 handoff end -->

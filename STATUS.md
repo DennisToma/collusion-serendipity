@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25 07:11 UTC; Phase2, iteration40 IN PROGRESS)
-- Selected own/S55 after A/S56;20fresh stateless decisions on10fixed S29 histories/5blocks.
-- Visible exact source prompt;masked deletes only own current authoritative status entry.
-- Fixed .25 visible-minus-masked TYPE-Y-approval screen;zero tuning/newgames.
--19scoped protocol tests,682canonical tests and full synthetic/separate raw-stat replay PASS.
-- Initial inherited obsolete penalty-audit test failed;removed before science and receipt retained.
-- Both initial+caveat Codex/Opus methodology critics exit0;no scientific calls yet.
-- Prior40pilots unchanged;no HIT promoted. S29ODD,S54DUD,S56context-only remain unchanged.
-- S56origin13e698c proof PASS;registration92f14c1/science13e698c already pushed.
-- Next:resolve reviews,freeze/register+push,sole20decision run,verify/report/review/push.
-- Risks:reused5blocks,late contexts,missing-entry cue;own type may alter strategic beliefs.
-- Serving identity/settings/tool non-use unattested;no role-confusion/coordination inference.
+## Current state (2026-10-25T07:21:08.307908+00:00; Phase2, iteration40 VERIFYING)
+- S55:20fresh decisions/10S29contexts/5blocks;own current status visible versus deleted.
+- TYPE-Y approvals visible6/10,masked1/10;visible-minus-masked+.500[+.200,+.800].
+- Paired t95%[+.061005,+.938995];upper sign-flip p=.0625;differences[.5,1,.5,0,.5].
+- Frozen ODD:one block ties;no HIT or sibling headline change;zero tuning/newgames.
+- Complete source/request/response/runtime/registration/time/schedule replay PASS.
+- Separate20rawbindings/15cells/3exactbootstrap+t/all32sign summaries PASS.
+- Call-forbidden release byte-identical;all14sources/27source-input hashes unchanged.
+- 682pre/post-live canonical and19scoped tests PASS;both final critics exit0.
+- Figure inspected;all40older pilot rows preserved;REPORT now41pilots.
+- Registration9d392f3pushed before calls;results/final proof push pending.
+- Risks:reusedn5,late histories,type/block imbalance,missing-map cues and retained inference.
+- Own type can affect strategic beliefs;no isolated role-confusion or coordination claim.
 
 ## Log
 
@@ -568,3 +569,7 @@
 - 2026-10-25T07:09:52.012471+00:00: iteration40 read rules,state,direction,ledgers and both sibling summaries. Activated queued own/S55 after A/S56:ten fixed S29 histories,twenty fresh own-status-visible/masked decisions. Only own current authoritative map entry deleted;source selection independent of actions. Preflight and independent critics next. No DIRECTION deviation or sibling writes.
 
 - 2026-10-25T07:18:51.212111+00:00: S55 final preflight PASS:682canonical tests,19scoped tests,full synthetic20decision replay and separate15cell/3summary/bootstrap/sign reconstruction. Both initial+caveat Codex/Opus critics exit0. Accepted CLI destination guard,figure counts,opposite-type cancellation and conditional archived-floor/block-imbalance caveats;cases/screen unchanged. Initial obsolete inherited-test failure retained. Exact S51manifest equality and S29zero-retry200decision census checked. Freeze/register/push then sole20decision run;no scientific calls yet,no tuning,source S29edits or sibling writes.
+
+- 2026-10-25T07:21:08.307908+00:00: S55 sole scientific run completed20responses/20accepted/no retry or failure. Registration9d392f30030095a6279e9241d157ed950b4b4ecc observed remotely at2026-10-25T07:19:00.021831+00:00 before calls. Visible6/10 versusmasked1/10;contrast+.500[.200,.800],pairedt[0.0610054834574586, 0.9389945165425414],upperp.0625,lowerp1,two-sidedp.125;blocks[.5,1,.5,0,.5]. Frozen ODD unchanged:one tied block prevents HIT. Full provenance/runtime/time/schedule replay and separate20rawbindings/15cells/3bootstrap+t/sign summaries PASS. Actual figure inspected;call-forbidden artifact regeneration byte-identical. All14frozen scientific sources and27source-input hashes unchanged;all40prior pilot rows preserved. Post-outcome presentation helper adds explicit tie/upperp explanation only;scientific bytes unchanged. Final critics and682post-live suite running. No extra scientificcalls,newgames,tuning,subgroup/reverse promotion,sibling writes or DIRECTION deviation.
+
+- 2026-10-25T07:24:40.165245+00:00: Both final critics exit0 and confirm frozen ODD/allprimary numbers. Codex raw/source scope reconstructs20actions/20requests/15cells/3fullbootstrap+t/sign summaries,validates complete execution provenance and4readonly checks;Opus supplied-code/cases-only arithmetic scope,not raw archive. Accepted presentation-only preidentified tied-block clarification and process-level versus power-loss fsync scope. Declined subgroup/reciprocity attribution. 682post-live canonical tests PASS;all14scientific/27input hashes and resultSHA unchanged. Call-forbidden release remains byte-identical;writer lock gitignored. Scientific results/documents commit+push then fresh originclone proof next.

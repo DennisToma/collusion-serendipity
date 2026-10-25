@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "all_prior_pilot_rows_unchanged": 40,
+  "current_pilot_rows": 41,
+  "scientific_source_hashes_unchanged": 14,
+  "original_source_inputs_unchanged": 27,
+  "total_unique_registered_source_paths": 37,
+  "figure_visually_inspected": true,
+  "result_sha256": "d46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710"
+}
