@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "local_links_checked": 137,
+  "source_entries": 20,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "accepted_action_note_reason_bindings": 200,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "rejections": {
+      "self": 0,
+      "shared": 0
+    },
+    "verdict": "DUD"
+  },
+  "result_sha256": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec"
+}

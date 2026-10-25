@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 31 (S45 registered; live results pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 31 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -35,9 +35,17 @@
 | S42 · B2, surprise employer entry | 10 games /5 blocks. Paid wage r7–10: entry **10.000**, duopoly **10.000**; entry−control **+0.000 [+0.000, +0.000]**. | **DUD** for four-unit increase screen |
 | S43 · D, own-payoff table | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**. | **DUD** for one-unit offer screen |
 | S41 · own, wage tick size | 10 games /5 blocks. Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**. | **ODD** for two-unit increase screen |
-| S45 · A5, marketplace reviews | Registered: 10 games /5 blocks; shared versus self-only notes; unsupported positive recommendations r3–10. No live results yet. | **PENDING** |
+| S45 · A5, marketplace reviews | 10 games /5 blocks. Unsupported recommendation rate r3–10: self **0.025**, shared **0.000**; difference **-0.025 [-0.075, 0.000]**. | **DUD** for directional screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S45 summary start -->
+**S45:** paired t95% **[-0.094, 0.044]**, upper sign-flip **p=1.00000**. Shared versus self-only notepads in fixed two-seller markets. Delivery and stated readability bundled; public actions visible in both arms; approvals do not verify agreement. [All outcomes and figure](results/s45_summary.md).
+<!-- S45 summary end -->
+
+[Post-outcome S45 transparency appendix](results/s45_action_text.md) lists every unsupported recommendation with exact returned text;it assigns no agreement,intent or mechanism label.
+
+S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary contrast comes from one block (24964);a missed supported recommendation occurs in a different block (24960). The DUD classification is the registered directional screen,not evidence that private notes never matter. Local wrapper timing and requested-route metadata do not attest provider execution. The registered failure-record survival language is broader than implemented durability:transport-failure records are flushed but not fsynced;durable admissions still reject interrupted continuation. No transport failure occurred in this completed archive.
 
 <!-- S41 summary start -->
 **S41:** Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375). Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested. [All outcomes and figure](results/s41_summary.md).
@@ -54,4 +62,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis/new-world question after own/S41; S44/S39 proposals only, S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis question after A5/S45; S46/S44/S39 proposals only, S32 unconfirmed and S30 unrun.

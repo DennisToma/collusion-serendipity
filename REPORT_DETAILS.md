@@ -1019,3 +1019,17 @@ Both siblings: action-grid specification and its equilibrium benchmark belong in
 
 Scientific sources stay frozen; `scripts/s41_publish.py` is a later presentation-only generator. Prompt copies bind raw assembly rather than independently proving wording validity. Local-input metadata does not attest served identity or actual tool non-use.
 <!-- S41 detail end -->
+
+<!-- S45 details start -->
+## S45 — Marketplace recommendation ring
+
+Unsupported recommendation rate r3–10: self **0.025** (1/40),shared **0.000** (0/40);shared−self **-0.025 [-0.075, 0.000]**;paired t95% [-0.094, 0.044],inclusive upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen.
+
+Ten fresh games/five paired blocks,T10,200 decisions,codex/gpt-6-luna;zero tuning or pooling. This is a synthetic marketplace adaptation of the workplace reciprocal-review structure,with changed payoffs and factual labels;cross-world differences are uncontrolled. Delivery,readability expectations,memory volume and downstream histories are bundled. Unsupported recommendations do not establish agreement or reciprocal intent. Small-n bounds are descriptive;degenerate bounds do not establish population zero risk or equivalence. Consumer loss and seller profit are mechanical functions of the two recommendation rates. Local wrapper overlap does not attest provider execution;served model/settings and tool non-use remain unverified.
+
+Supported recommendations: self 40/40,shared 39/40. Each primary recommendation rate has8opportunities/game;the five block differences are the resampling unit. Complete outcomes and all secondary bounds are in [the S45 summary](results/s45_summary.md);[preregistered methods](DESIGN_S45.md),[independent reconstruction](logs/s45_independent.json),[method-review dispositions](logs/s45_review_disposition.md). Scientific sources remain frozen.
+The [post-outcome full action/text census](results/s45_action_text.md) reproduces exact JSON for every unsupported recommendation,including warm-up;no semantic or mechanism labels.
+S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary contrast comes from one block (24964);a missed supported recommendation occurs in a different block (24960). The DUD classification is the registered directional screen,not evidence that private notes never matter. Local wrapper timing and requested-route metadata do not attest provider execution. The registered failure-record survival language is broader than implemented durability:transport-failure records are flushed but not fsynced;durable admissions still reject interrupted continuation. No transport failure occurred in this completed archive.
+
+Supplemental post-outcome metadata validation: `uv run python scripts/s45_metadata_check.py --self-test`;it closes independent-checker metadata coverage without changing frozen science.
+<!-- S45 details end -->

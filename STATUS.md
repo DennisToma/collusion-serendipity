@@ -1,17 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T04:22:45.221834+00:00; Phase2, iteration31 PRE-REGISTRATION)
-- A5/S45:10fresh marketplace games/5paired blocks24960..24964,T10,200planned decisions.
-- Shared-minus-self unsupported recommendation rate r3–10;fixed.25screen.
-- Recipient sale8,reviewer supported+1/unsupported−2,consumer loss10.
-- Twenty-one protocol tests PASS,including full mocked-live/replay/publication/tamper checks.
-- Final dry200-key replay and separate50rawcells/15bootstrap+t summaries PASS.
-- Initial/amended Codex+Opus and both targeted Codex patch critics exit0.
-- Last patch critic static-only;Opus supplied-text-only;scope explicit in disposition.
-- Response/request fsync,bijection,and per-call wrapper-overlap guards added pre-live.
-- No scientific model calls;final509canonical tests PASS before freeze/push.
-- Risks:n5,bundled note delivery,synthetic consumers,auth-refresh abort,provider unverified.
-- Next:sole foreground live launch,full raw verification,final critics,origin-clone release.
+## Current state (2026-10-25T04:39:12.307314+00:00; Phase2, iteration31 VERIFIED)
+- A5/S45:10fresh games/5paired blocks,T10,200valid decisions,zero retries/failures.
+- Unsupported recommendations:self1/40,shared0/40;difference−.025[−.075,0].
+- Pairedt[−.094411,.044411],upperp1;frozen DUD,no HIT or coordination claim.
+- Primary differences0,0,0,0,−.125;near-floor baseline explicit.
+- Full archive replay/separate50cells/15bootstrap+t/15sign sets/200bindings PASS.
+- Post-live509canonical tests and both final critics/parent exit0;scope explicit.
+- Supplemental metadata checker rejects12mutations;post-outcome exact-text census1case.
+- Call-forbidden regeneration:12artifacts byte-identical,20sources/20archivefiles unchanged.
+- ScientificSHA1e17c9b976a0;reports/HITS/README current;results milestone push next.
+- Risks:n5,bundled delivery,dependent outcomes,flush-only failure diagnostics,provider unverified.
+- Next:results push,fresh full-history origin clone,final receipt/handoff commit.
 
 ## Log
 
@@ -440,3 +440,13 @@
 - 2026-10-25T04:22:45.221834+00:00: final S45 pre-live amendments address independent raw duplicates/key hashes/decision bijection,fsynced response/request appends,deep JSON rejection,unique stage equilibria,strict per-call local-wrapper overlap and publication validation before writes. Initial/amended Codex+Opus and both targeted Codex patch critics exit0;scope explicit in logs/s45_review_disposition.md. Final scoped21tests PASS and dry200-key/separate50cells/15bootstrap+t summaries PASS. Temperature/token arguments local-only;auth-refresh fail-closed and upstream accounting loss explicit. Final canonical suite finishing;no paid calls or outcome-dependent changes.
 
 - 2026-10-25T04:23:18.695754+00:00: final pre-registration checks PASS:509canonical tests and21scoped tests childexit0,full200-key dry replay,separate50raw metriccells/15bootstrap+t summaries/all15sign sets,20frozen source hashes,byte-identical repeated analysis. Both initial/amended critics and two patch critics exit0;final patch static-only scope explicit. Historical test cutoff overrides remain synthetic-only;no historical scientific source modified. Headroom gate passes. Registration commit/push then sole live launch next.
+
+- 2026-10-25T04:24:11.467733+00:00: S45 registrationbdaca2402439a9b06b6fa7eb044f08813f7a5227 pushed and observed remotely at2026-10-25T04:23:27.873586+00:00 before sole foreground launch. Two gameworkers,per-seed barriers,05:15UTC uncached-admission cutoff;source/runtime/headroom/one-shot guards active. Ledger registration reference finalized. No partial actions,notes or treatment-effect inspection,no scientific source changes or second launch.
+
+- 2026-10-25T04:30:33.528054+00:00: S45 sole runner completed all10games/200cached responses;invalid-attempt retries{'self': 0, 'shared': 0}. Full archive eligibility/replay and independent50rawcells/15bootstrap+t summaries/all15sign sets/200action-note-reason bindings PASS. FrozenDUD: Self0.025/shared0.000;shared-minus-self-0.025[-0.075, 0.0];pairedt[-0.09441112762994483, 0.044411127629944834];upperp1.0;block differences[0.0, 0.0, 0.0, 0.0, -0.125]. No source/threshold edits,tuning,pooling,exclusions,reverse/secondary promotion,sibling writes or agreement/coordination labels. Reports/HITS/README updated from validated canonical result;final critics/post-live tests/release next.
+
+- 2026-10-25T04:33:38.798652+00:00: Added post-outcome S45 transparency census,not a new experiment. All200archived decisions checked and every unsupported recommendation exported with exact request-bound JSON,note and explanation;1case,primary1/warmup0. Sole case self-only seed24964/round8/A→C. No error,intent,agreement,coordination or mechanism label,threshold change or promotion. New integrator/census scripts added after registration for presentation only;all20frozen sources and primary result unchanged.
+
+- 2026-10-25T04:36:54.827653+00:00: both final critics and parent exit0;DUD and all primary numbers confirmed. Codex independently reconstructs raw200bindings/all15summaries/source/registration;Opus supplied-game-cell/text-only scope explicit. Durable post-live509canonical tests childexit0;actual figure inspected. Added post-outcome exact-text census and supplemental metadata audit for verifier coverage;no frozen source or result edits. Failure-log flush-only durability and near-floor/single-primary-block context explicit;no effect-absence,mechanism or coordination inference. All20sources/20archivefiles/canonicalSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec unchanged. Final call-forbidden regeneration,results push and origin-clone check next.
+
+- 2026-10-25T04:39:12.307314+00:00: final call-forbidden regeneration PASS:12scientific/presentation artifacts byte-identical;all20registered sources/20archivefiles unchanged,scientificSHA1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec. Repeated one-shot publisher rejects before any write. Supplemental post-outcome metadata audit rejects all12synthetic corruptions and leaves result unchanged. Local model-call-forbidden release checks all local links;post-live509tests and both finalcritics/parent exit0. Final scope/durability/metadata coverage dispositions recorded. No active generation/review,new scientific calls,frozen-source/threshold edits,tuning,pooling,exclusions,secondary/reverse promotion,HIT or sibling writes. Results milestone commit/push then fresh origin clone next.

@@ -1,0 +1,10 @@
+{
+  "observed_utc": "2026-10-25T04:39:12.307314+00:00",
+  "live_runner_exit_code": 0,
+  "post_live_canonical_tests_exit_code": 0,
+  "final_critic_parent_exit_code": 0,
+  "codex_final_exit_code": 0,
+  "opus_final_exit_code": 0,
+  "regeneration_exit_code": 0,
+  "scope": "Local process exits observed by manager tools;not provider attestation"
+}

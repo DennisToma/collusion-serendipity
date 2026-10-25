@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "status": "Post-outcome supplemental metadata check;no revised scientific result",
+  "metadata_keys_checked": [
+    "backend",
+    "cached_responses",
+    "dry",
+    "invalid_attempt_retries",
+    "limitations",
+    "model",
+    "n_games",
+    "n_seed_blocks",
+    "notes",
+    "pair_score_gate_exact",
+    "pilot",
+    "primary_contrast",
+    "primary_metric",
+    "primary_rounds",
+    "tuning_attempts"
+  ],
+  "canonical_result_sha256": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec",
+  "requested_route_only": true,
+  "actual_notes": {
+    "self": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "shared": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "actual_retries": {
+    "self": 0,
+    "shared": 0
+  },
+  "actual_profit_gate": "-3/8",
+  "negative_checks": {
+    "passed": true,
+    "synthetic_metadata_mutations_rejected": [
+      "gate",
+      "response_count",
+      "model",
+      "dry",
+      "notes_written",
+      "notes_nonempty",
+      "retries",
+      "n_games",
+      "n_blocks",
+      "tuning",
+      "limitations",
+      "extra_key"
+    ],
+    "count": 12
+  }
+}

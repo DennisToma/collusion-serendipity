@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 30.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 31.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -487,3 +487,20 @@ Both siblings: action-grid specification and its equilibrium benchmark belong in
 
 [Design](DESIGN_S41.md), [All outcomes and figure](results/s41_summary.md). Reproduce: `uv run python scripts/s41_release.py`.
 <!-- S41 handoff end -->
+
+<!-- S45 handoff start -->
+**S45: unpromoted DUD, marketplace recommendations (A5).**
+
+Unsupported recommendation rate r3–10: self **0.025** (1/40),shared **0.000** (0/40);shared−self **-0.025 [-0.075, 0.000]**;paired t95% [-0.094, 0.044],inclusive upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen.
+
+Ten fresh games/five paired blocks,T10,200 decisions,codex/gpt-6-luna;zero tuning or pooling. This is a synthetic marketplace adaptation of the workplace reciprocal-review structure,with changed payoffs and factual labels;cross-world differences are uncontrolled. Delivery,readability expectations,memory volume and downstream histories are bundled. Unsupported recommendations do not establish agreement or reciprocal intent. Small-n bounds are descriptive;degenerate bounds do not establish population zero risk or equivalence. Consumer loss and seller profit are mechanical functions of the two recommendation rates. Local wrapper overlap does not attest provider execution;served model/settings and tool non-use remain unverified.
+
+Five paired differences: [0.0, 0.0, 0.0, 0.0, -0.125].
+
+For both siblings: communication effects need to be checked against matched economic and semantic baselines;this pilot supplies no verified collusion label. Suggested confirmation,if prioritized: repeat the frozen comparison with more independent blocks and another seller family;not run here.
+
+[Design](DESIGN_S45.md),[all outcomes/figure](results/s45_summary.md). Reproduce: `uv run python scripts/s45_release.py`.
+S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary contrast comes from one block (24964);a missed supported recommendation occurs in a different block (24960). The DUD classification is the registered directional screen,not evidence that private notes never matter. Local wrapper timing and requested-route metadata do not attest provider execution. The registered failure-record survival language is broader than implemented durability:transport-failure records are flushed but not fsynced;durable admissions still reject interrupted continuation. No transport failure occurred in this completed archive.
+
+Supplemental post-outcome metadata validation: `uv run python scripts/s45_metadata_check.py --self-test`;it closes independent-checker metadata coverage without changing frozen science.
+<!-- S45 handoff end -->
