@@ -807,3 +807,15 @@ implementation,not independent authorship or replication. Codex and Opus
 critics provide independent reviews with their checked/unchecked scope recorded.
 Remote reproduction including the post-outcome companion uses
 `uv run python scripts/s33_validate.py --clean-clone` after results are pushed.
+
+S33 clock-stable synthetic protocol tests: `uv run python scripts/s33_protocol_tests.py`.
+They freeze only temporary/mocked fixture clocks;the real archive release runs
+separately with its original scientific timestamps and cutoff. A future-clock
+probe reproduced one old mock expiry and verifies13/13 tests after runner scoping.
+The canonical289-test runner includes that same scoped group. All20 registered
+scientific/test files and the frozen result remain unchanged.
+
+Complete S33 remote workflow also runs the full289-test canonical repository
+suite. The S25 root-report scope paragraph is retained because its archived
+safe renderer requires that anchor;the post-polish compatibility regression
+and full suite pass after restoration.

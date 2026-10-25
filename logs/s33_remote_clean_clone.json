@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "commit": "3c2e342c215f50513ef73b92d8d6e2a158112dc4",
+  "clone_source": "origin remote",
+  "commands": [
+    [
+      "scripts/s33_analyze.py"
+    ],
+    [
+      "scripts/s33_independent.py"
+    ],
+    [
+      "scripts/s33_present.py"
+    ],
+    [
+      "scripts/s33_reporting_diagnostic.py"
+    ],
+    [
+      "scripts/s33_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s33"
+    ]
+  ],
+  "dependency_environment": "Existing frozen venv reused; no fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s33_leniency.json": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+    "results/s33_summary.md": "9e6b0e562f97f4d08a235fd34558abf411775ffd4f4007c0b723ebbb150b74c3",
+    "results/s33_reporting_diagnostic.json": "569c79225a6b9ad18ba50354e5d63764e66b35e9d183960626ebdf5919c1adf4",
+    "logs/s33_independent.json": "ed0800422e920db0845b4570b56e626d413d0536ee9d7d327625afdd74f54751",
+    "logs/s33_release.json": "2570d6a9b5693bb64e7a2d460249856d8cccf52bc05207b2c40d8e59b17e8619",
+    "figures/s33_leniency.png": "26576f291d426862077501a14363ceea2b5d0446def15387d89d9493958f345d",
+    "REPORT.md": "94edd9e808f2671e4936dbef81af7512b0ae4131cbaf029c7d9134fcf3804a22"
+  }
+}

@@ -14,7 +14,7 @@ import tempfile
 def clean_clone():
     root=Path.cwd();head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     remote=subprocess.check_output(['git','remote','get-url','origin'],text=True).strip()
-    commands=[['scripts/s33_analyze.py'],['scripts/s33_independent.py'],['scripts/s33_present.py'],['scripts/s33_reporting_diagnostic.py'],['scripts/s33_release.py'],['-m','unittest','scripts.test_s33']]
+    commands=[['scripts/s33_analyze.py'],['scripts/s33_independent.py'],['scripts/s33_present.py'],['scripts/s33_reporting_diagnostic.py'],['scripts/s33_release.py'],['scripts/run_tests.py']]
     artifacts=['results/s33_leniency.json','results/s33_summary.md','results/s33_reporting_diagnostic.json','logs/s33_independent.json','logs/s33_release.json','figures/s33_leniency.png','REPORT.md']
     with tempfile.TemporaryDirectory(prefix='s33_remote_',dir='/var/tmp') as td:
         clone=Path(td)/'repo';subprocess.run(['git','clone','--quiet',remote,str(clone)],check=True)

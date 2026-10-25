@@ -78,3 +78,20 @@ trajectory report exclusions,and the complete post-outcome diagnostic JSON.
 Both final critics independently agree on the unchanged DUD and scope. Final
 review runner and each individual critic exit0 verified. Remote-clone check is
 still pending publication;no claim that reviewers attest provider execution.
+
+Post-review reproducibility fix (runner only):a future-clock probe reproduces
+one mocked S33 transport-test expiry after the scientific cutoff. New scoped
+S33 protocol runner fixes all13 synthetic fixtures at a pre-cutoff instant;
+a future-clock outer probe then passes13/13. Canonical repository runner now
+scopes this group explicitly,and remote coordinator uses it. No registered
+scientific/test source or deadline changed;real S33 release runs separately
+with original archived timestamps and passes. This operational edit was made
+after the scientific critics;its future-clock probes and clone are checked
+separately. The frozen legacy clone helper is retained;the documented complete
+workflow is scripts/s33_validate.py --clean-clone.
+
+Full post-polish suite caught one presentation regression:the S25 safe renderer
+requires its root-report scope paragraph as an anchor. Restored that existing
+paragraph after moving older caveats to REPORT_DETAILS;no frozen renderer or
+scientific data changed. The initial post-polish289-test run had one error;the
+corrected complete suite is rerun and both outcomes are retained honestly.
