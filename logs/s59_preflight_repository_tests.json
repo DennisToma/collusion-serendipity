@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "tests": 721,
+  "failures": 0,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 681,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

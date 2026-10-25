@@ -1,0 +1,19 @@
+.Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....E..
+======================================================================
+ERROR: test_selection_and_lossless_public_history_table (scripts.test_s59.Protocol.test_selection_and_lossless_public_history_table)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s59.py", line 30, in test_selection_and_lossless_public_history_table
+    self.assertEqual({k:v for k,v in original.items() if k!='prompt'},
+                                     ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'items'
+
+----------------------------------------------------------------------
+Ran 20 tests in 4.458s
+
+FAILED (errors=1)

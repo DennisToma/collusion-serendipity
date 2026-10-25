@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "source_requests": 200,
+  "source_responses": 200,
+  "all_source_attempts_zero": true,
+  "case_manifest_equal_s58": true
+}

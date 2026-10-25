@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "source_manifest_equal_s58": true,
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "history_rounds": 9,
+      "original_bytes": 1610,
+      "compact_bytes": 507
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "history_rounds": 8,
+      "original_bytes": 1430,
+      "compact_bytes": 465
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "history_rounds": 8,
+      "original_bytes": 1429,
+      "compact_bytes": 464
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "history_rounds": 9,
+      "original_bytes": 1607,
+      "compact_bytes": 504
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "history_rounds": 6,
+      "original_bytes": 1072,
+      "compact_bytes": 383
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "history_rounds": 8,
+      "original_bytes": 1428,
+      "compact_bytes": 463
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "history_rounds": 9,
+      "original_bytes": 1607,
+      "compact_bytes": 504
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "history_rounds": 9,
+      "original_bytes": 1607,
+      "compact_bytes": 504
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "history_rounds": 7,
+      "original_bytes": 1253,
+      "compact_bytes": 426
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "history_rounds": 8,
+      "original_bytes": 1432,
+      "compact_bytes": 467
+    }
+  ]
+}
