@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T12:26:25.821690+00:00; Phase2, iteration53 RESULTS READY)
-- S70 (own): ten fresh games / five blocks; fixed endowment 0 versus 10, identical marginal incentives.
+## Current state (2026-10-25T12:32:02.462924+00:00; Phase2, iteration53 COMPLETE)
+- S70 (own): ten fresh games / five blocks; endowment 0 versus 10 at identical marginal incentives.
 - TYPE-Y approvals: baseline 2/40, endowed 2/40; difference 0.000, bootstrap95% [-.075,+.075].
 - Paired t95% [-.110,+.110]; upper/lower/two-sided sign p .75/.75/1; DUD for .25 increase screen.
-- 200 accepted responses, no retries or failures; supervised live child exit 0.
-- Full raw/history/export replay and separate 50 cells / 15 intervals / 200 response bindings PASS.
-- All 19 frozen sources / 1543 older scientific artifacts preserved; release byte-identical.
-- Ten result corruptions and three prewrite-document corruptions reject; prior 53 report rows retained.
-- Both design and final critics exit 0; 926 final canonical checks PASS, terminal exit 0.
-- No tuning, heldout, pooling, mechanism or collusion inference; S68 remains interrupted, no restart.
-- S72 unchanged; no HIT or sibling headline change. Fresh own S73 proposal queued, not run.
-- Next: final verification, commit/push, clean-origin reproduction; then a different axis if valuable.
+- All 200 responses accepted, no retries/failures; live child exit 0; zero tuning or pooling.
+- Main replay and independent 50 metric cells / 15 intervals / 200 response bindings PASS.
+- All 19 frozen sources / 1543 older scientific artifacts and exact split append preserved.
+- Ten result / three prewrite-document corruptions reject; 53 prior rows retained, 54 contiguous, 493 links.
+- Both methodology and final critics exit 0; final 926 canonical checks PASS, terminal exit 0.
+- Origin 49dfd7f: 10 artifacts byte-identical, 14 focused tests, clean clone; pinned venv reused.
+- Results pushed; no HIT, mechanism, equivalence, collusion or sibling headline claim; S72 unchanged.
+- S68 remains interrupted: no estimate or restart. Own S73 timing idea queued, not run.
+- Next: a different-axis fresh pilot only if valuable before 14:30 UTC; otherwise polish/handoff.
 
 ## Log
 
@@ -744,3 +745,5 @@
 - 2026-10-25T12:29:32.384292+00:00: Both final S70 critics exit0,no high/medium issue. Codex independently reconstructs raw50metriccells/15bootstrap+t intervals/15tail comparisons/200bindings and source/timing;Opus supplied-text-only hand arithmetic/finite-bootstrap distribution,not raw audit. Disposition clarifies interval versus tail counting and mechanical+20 pair-total row. Figure visually inspected. Registered sources,estimates and screen unchanged after outcomes;final canonical checks active.
 
 - 2026-10-25T12:30:34.955007+00:00: S70 final926canonical checks PASS,zero failures/errors,terminalexit0 using established narrow historical synthetic fixtures;actual archive analysis remains unpatched. Final call-forbidden release/postcheck PASS with unchanged scientific result SHA1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2,19frozen sources,1543older artifacts,53older report rows/54contiguous and493links. No post-outcome scientific-source edit or new simulated-agent call. Results commit+push then clean-origin reproduction next.
+
+- 2026-10-25T12:32:02.462924+00:00: Iteration 53 complete. Registration c0d9ce0frozen before all scientific calls; results 49dfd7f9e46f2939a8978dc330f4b2d2e41c75e7 committed and pushed. A fresh full-history origin clone at that result revision reproduces all 10 checked result/report/figure/verification artifacts byte for byte and passes 14 focused tests with a clean working tree (logs/s70_remote_clean_clone.json; full commands/output in logs/s70_origin_clone_run.log). Existing pinned venv reused; no fresh-install claim. Ledger result reference pins this reproduced revision. Final 926 canonical checks and both final critics pass; Codex scope includes raw/source/statistical reconstruction, Opus scope is supplied-text hand arithmetic. All 19 registered sources, 1543 older scientific artifacts and exact split append remain unchanged; 53 older report rows preserved, 54 contiguous rows and 493 local links verified. Result stays DUD: 2/40 versus 2/40 adverse approvals, difference 0.000, descriptive bootstrap95% [-0.075,+0.075], pairedt95% [-0.10974862913563535,+0.10974862913563535], upper/lower/two-sided p .75/.75/1. Five blocks [-.125,0,0,0,.125]; no equivalence or population-absence claim. Fixed income/accounting intervention only; mechanical +20 pair bonus is not behavioral evidence. No post-outcome scientific-source edits, extra scientific calls, exclusions, tuning, pooling, reverse/secondary promotion, HIT, sibling writes or direction deviation. S68 remains interrupted without restart; S72 unchanged; S73 proposal is queued only. Removed 3 ignored regenerable Python bytecode directories to keep the workspace under 100 MB (81306014 file bytes excluding git/venv); scratch and scientific evidence retained. No active simulation or review remains. Closing proof/status/ledger commit and push follows.

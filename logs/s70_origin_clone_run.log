@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "constant_system_groups": 20,
+    "checked_initial_prompts": 20,
+    "rejections": {
+      "baseline": 0,
+      "endowed": 0
+    },
+    "verdict": "DUD"
+  },
+  "prior_scientific_artifacts": 1543,
+  "prospective_split_append": true,
+  "prior_report_rows": 53,
+  "current_report_rows": 54,
+  "contiguous_table": true,
+  "local_links": 493,
+  "source_hashes": 19,
+  "raw_archive_unchanged": true,
+  "model_calls_forbidden": true,
+  "checked_sha256": {
+    "results/s70_bonus_endowment.json": "1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2",
+    "logs/s70_independent.json": "074a89e2a0cd8794da3097c2bce72ac779f5fefe8c0e29224339bc96c7a61b89",
+    "results/s70_summary.md": "d2666b50780804b0191e4c31fe7624ffe476161398f93bb863d54ea222cf11a2",
+    "figures/s70_bonus_endowment.png": "003a34a89f09e9033042ecd3a4aea09560facc564c6bc76a79f29679e94d0ab4",
+    "REPORT.md": "e05499fe1fc3cc8ff0547079c67d4eb7941bd03cd7f942ed051168b3eb509098",
+    "REPORT_DETAILS.md": "2d9fed17d66bc0f0bbd77f6536cf508a48cb0c11e2ff93bf2a024417ab7c1c0d",
+    "HITS.md": "586a99cc2b523c1a8be4c4b5ff06e39344811875cbb5d128e5cd96b9f55d04cc",
+    "README.md": "1b2e3c7acfd4193133ca12fa6cf57e3c0132340f372cbc8d7002cf723d0406bc"
+  },
+  "scope": "Exclusive-writer validation;document guard is not an atomic concurrent-write transaction;existing pinned venv reused"
+}
+----------------------------------------------------------------------
+Ran 14 tests in 8.088s
+
+OK
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "raw_auxiliary_bindings": 200,
+  "constant_system_groups": 20,
+  "checked_initial_prompts": 20,
+  "rejections": {
+    "baseline": 0,
+    "endowed": 0
+  },
+  "verdict": "DUD"
+}
+{
+  "passed": true,
+  "verifier_mutations_rejected": [
+    "mean",
+    "bootstrap_endpoint",
+    "exact_bootstrap_endpoint",
+    "sign_probability",
+    "t_endpoint",
+    "calibration",
+    "verdict",
+    "forbidden_bonus_gate",
+    "missing_metric",
+    "notes"
+  ],
+  "prewrite_document_mutations_rejected": [
+    "REPORT.md",
+    "HITS.md",
+    "README.md"
+  ],
+  "scope": "Isolated nonconcurrent corruption tests only;no atomic transaction or concurrent-writer safety claim"
+}
+PASS clean origin clone 49dfd7f9e46f2939a8978dc330f4b2d2e41c75e7

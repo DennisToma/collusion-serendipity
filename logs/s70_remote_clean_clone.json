@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "commit": "49dfd7f9e46f2939a8978dc330f4b2d2e41c75e7",
+  "clone_source": "origin",
+  "full_history": true,
+  "clone_clean": true,
+  "commands": [
+    [
+      "scripts/s70_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s70",
+      "-q"
+    ],
+    [
+      "scripts/s70_independent.py"
+    ],
+    [
+      "scripts/s70_postcheck.py"
+    ]
+  ],
+  "focused_tests": 14,
+  "dependency_environment": "Existing pinned installed venv;no fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s70_bonus_endowment.json": "1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2",
+    "logs/s70_independent.json": "074a89e2a0cd8794da3097c2bce72ac779f5fefe8c0e29224339bc96c7a61b89",
+    "results/s70_summary.md": "d2666b50780804b0191e4c31fe7624ffe476161398f93bb863d54ea222cf11a2",
+    "figures/s70_bonus_endowment.png": "003a34a89f09e9033042ecd3a4aea09560facc564c6bc76a79f29679e94d0ab4",
+    "REPORT.md": "e05499fe1fc3cc8ff0547079c67d4eb7941bd03cd7f942ed051168b3eb509098",
+    "REPORT_DETAILS.md": "2d9fed17d66bc0f0bbd77f6536cf508a48cb0c11e2ff93bf2a024417ab7c1c0d",
+    "HITS.md": "586a99cc2b523c1a8be4c4b5ff06e39344811875cbb5d128e5cd96b9f55d04cc",
+    "README.md": "1b2e3c7acfd4193133ca12fa6cf57e3c0132340f372cbc8d7002cf723d0406bc",
+    "logs/s70_release.json": "f4a9d6769c8b429f739a8f748080d74a7f30278c3fe78bd96a642b45594f1570",
+    "logs/s70_postcheck.json": "8c8cbf2ddbd79ccbce5a9494cdc247bd0ff3a16f610d76b1898c356e2e1af373"
+  }
+}
