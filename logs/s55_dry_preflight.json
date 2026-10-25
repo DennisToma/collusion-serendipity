@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "scoped_tests": 18,
+  "separate_raw_statistics": {
+    "passed": true,
+    "raw_approvals": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "8fc24b091acd035074bade714287c238bf98e4b0cf4961ade42dec0ae0c7c275"
+  },
+  "dry_rendered": true
+}

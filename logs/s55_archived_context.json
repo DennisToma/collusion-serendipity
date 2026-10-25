@@ -1,0 +1,71 @@
+{
+  "source_requests": 200,
+  "source_decisions": 200,
+  "source_decisions_with_retry": 0,
+  "source_attempt_indices": {
+    "0": 200
+  },
+  "selected_archived_actions": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "seed": 24480,
+      "own_status": "TYPE-X",
+      "archived_approval": true
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "seed": 24480,
+      "own_status": "TYPE-Y",
+      "archived_approval": false
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "seed": 24481,
+      "own_status": "TYPE-X",
+      "archived_approval": true
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "seed": 24481,
+      "own_status": "TYPE-X",
+      "archived_approval": true
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "seed": 24482,
+      "own_status": "TYPE-X",
+      "archived_approval": true
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "seed": 24482,
+      "own_status": "TYPE-X",
+      "archived_approval": true
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "seed": 24483,
+      "own_status": "TYPE-Y",
+      "archived_approval": false
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "seed": 24483,
+      "own_status": "TYPE-Y",
+      "archived_approval": false
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "seed": 24484,
+      "own_status": "TYPE-X",
+      "archived_approval": false
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "seed": 24484,
+      "own_status": "TYPE-X",
+      "archived_approval": false
+    }
+  ],
+  "interpretation": "Archived context only;not comparison outcomes,not a prospective failure-rate estimate;no cases or screen replaced."
+}

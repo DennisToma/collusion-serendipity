@@ -1,0 +1,10 @@
+.Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......
+----------------------------------------------------------------------
+Ran 18 tests in 3.560s
+
+OK

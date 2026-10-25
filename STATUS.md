@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T07:07:10.609447+00:00; Phase2, iteration39 COMPLETE)
-- S56: post-hoc audit of all 10 S14 games / 5 blocks / 90 rounds; no new games or scientific calls.
-- No-box→private counts /45 rounds: above-Nash 9→18; fixed-pair stable 29→19; strict-both gain 14→19.
-- Stable-fraction contrast −.222222 [−.733333,+.377778]; t95% [−1.110985,+.666540].
-- All eight contrast intervals span zero; ODD/context-only; S14 ODD unchanged; no HIT screen.
-- Stability excludes some ordinary Nash profiles; above7 fails by construction; no coordination label.
-- Original S14 replay plus separate360actions/376requests/90records/80cells/24summaries/3375profiles PASS.
-- Both design/final critics and final editorial critic exit0; raw Codex vs supplied-text Opus scopes logged.
-- 663 pre/post canonical and29S56+1S25 scoped checks PASS; original renderer failure retained.
-- S25 presentation-only compact-report compatibility repaired; prior scientific bytes unchanged.
-- Fresh origin 13e698c PASS:11artifacts byte-identical,30checks,40sources/inputs unchanged,clone clean.
-- Existing frozen venv reused; no fresh install. Registration92f14c1/results13e698c pushed.
-- REPORT has40pilots; all39prior rows preserved. Next: different axis B/C/F/own; S55/S57 queued.
-- Risks: reused n5,static criterion and correlated metrics; provider/settings/tool non-use unattested.
+## Current state (2026-10-25 07:11 UTC; Phase2, iteration40 IN PROGRESS)
+- Selected own/S55 after A/S56;20fresh stateless decisions on10fixed S29 histories/5blocks.
+- Visible exact source prompt;masked deletes only own current authoritative status entry.
+- Fixed .25 visible-minus-masked TYPE-Y-approval screen;zero tuning/newgames.
+-19scoped protocol tests,682canonical tests and full synthetic/separate raw-stat replay PASS.
+- Initial inherited obsolete penalty-audit test failed;removed before science and receipt retained.
+- Both initial+caveat Codex/Opus methodology critics exit0;no scientific calls yet.
+- Prior40pilots unchanged;no HIT promoted. S29ODD,S54DUD,S56context-only remain unchanged.
+- S56origin13e698c proof PASS;registration92f14c1/science13e698c already pushed.
+- Next:resolve reviews,freeze/register+push,sole20decision run,verify/report/review/push.
+- Risks:reused5blocks,late contexts,missing-entry cue;own type may alter strategic beliefs.
+- Serving identity/settings/tool non-use unattested;no role-confusion/coordination inference.
 
 ## Log
 
@@ -566,3 +564,7 @@
 - 2026-10-25T07:05:41.126917+00:00: Focused final editorial Codex critic exit0,no blockers:all S56front numbers/round-versus-profile wording/staticexample/nested stable-set/above7byconstruction caveat match frozen JSON;all39prior rows unchanged,three scientific-artifact hashes and40source/input hashes match registration;read-only equivalent doc regeneration/link check PASS. All363local links pass manager checker. Both scientific finalcritics and663postanalysis canonical tests alreadyPASS. No frozen scientific changes,newcalls/games,endpoints,tuning,subgroupanalyses or siblingwrites. Results commit/push then fresh originclone proof next.
 
 - 2026-10-25T07:07:10.609447+00:00: iteration39 COMPLETE. Registration92f14c14129e1f448857b0ab0af0c66bbe60d139/scientific+document results13e698cb15f56b1778752917a3f454ff84b01fe9 committed/pushed. Fresh full-history ORIGIN clone at results commit passes complete original S14source/registration/request/history/retry/cache/result replay and original independent statistics;separate S56raw360actions/all376requests/90records/80cells/24exactbootstrap+t summaries/all3375profiles;generated-docs checker and29S56+1S25scoped tests. All11artifacts byte-identical,all40frozen source/input hashes unchanged,clone gitstatus clean;exact commands/hashes in logs/s56_remote_clean_clone.json. Installed frozen venv reused,not a fresh dependency install. Both initial+patch methodology/final scientific critics and focused final editorial Codex critic exit0;Codex original raw/source reconstruction versus Opus supplied-code/cells-only scope recorded.663pre/post canonical tests PASS;initial652test/1error receipt retained for S25presentation compatibility regression from prior compact report,now fixed without scientific edits. All39prior pilot rows unchanged;40pilot front log current. S56primary counts/45rounds none→private:above-Nash9→18,fixed-pair/singleton stable29→19,strict-both-gain14→19;stablefraction contrast−.222222[-.733333,+.377778],pairedt[-1.110985,+.666540];all8contrast bootstrap/t intervals span0. Frozen ODD/context-only,no HIT screen or sibling headline change. ResultSHA469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9. Post-outcome interpretation supplement clarifies stable set strict subset of ordinary Nash,(6,6,7) example,above7 failure byconstruction,round counts versus distinct profiles;no new observed subgroup endpoint. Source S14ODD unchanged,no scientific-source/result/threshold edits,newgames/scientificcalls,tuning,pooling,exclusions,secondary/reverse promotion,siblingwrites,DIRECTION deviation or active review/generation. New own/S57tie-share representation idea queued only;next fresh different axis. Final proof/handoff commit+push follows.
+
+- 2026-10-25T07:09:52.012471+00:00: iteration40 read rules,state,direction,ledgers and both sibling summaries. Activated queued own/S55 after A/S56:ten fixed S29 histories,twenty fresh own-status-visible/masked decisions. Only own current authoritative map entry deleted;source selection independent of actions. Preflight and independent critics next. No DIRECTION deviation or sibling writes.
+
+- 2026-10-25T07:18:51.212111+00:00: S55 final preflight PASS:682canonical tests,19scoped tests,full synthetic20decision replay and separate15cell/3summary/bootstrap/sign reconstruction. Both initial+caveat Codex/Opus critics exit0. Accepted CLI destination guard,figure counts,opposite-type cancellation and conditional archived-floor/block-imbalance caveats;cases/screen unchanged. Initial obsolete inherited-test failure retained. Exact S51manifest equality and S29zero-retry200decision census checked. Freeze/register/push then sole20decision run;no scientific calls yet,no tuning,source S29edits or sibling writes.

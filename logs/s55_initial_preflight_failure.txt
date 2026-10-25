@@ -1,0 +1,18 @@
+.Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.E......
+======================================================================
+ERROR: test_old_policy_text_is_confined_to_dated_notes (scripts.test_s55.Protocol.test_old_policy_text_is_confined_to_dated_notes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s55.py", line 54, in test_old_policy_text_is_confined_to_dated_notes
+    from scripts.s55_context_audit import audit
+ModuleNotFoundError: No module named 'scripts.s55_context_audit'
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.853s
+
+FAILED (errors=1)
