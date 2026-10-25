@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "registration_commit": "8535124fc80941bfe752c716348cd8ed79f5ad3c",
+  "first_admission_utc": "2026-10-25T09:08:31.649475+00:00",
+  "last_return_utc": "2026-10-25T09:09:51.017456+00:00",
+  "observed_duration_seconds": 79.367981,
+  "accepted_decisions": 30,
+  "logical_retries": 0,
+  "failure": false,
+  "prior_scientific_artifacts_unchanged": 1267,
+  "prior_report_rows_unchanged": 45,
+  "prior_ledger_rows_unchanged_except_activated_S61_proposal": true,
+  "result_sha256": "09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636",
+  "figure_visually_inspected": true,
+  "science_frozen": true
+}

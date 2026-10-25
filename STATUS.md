@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T09:07:45.010647+00:00; Phase2, iteration45 IN PROGRESS)
-- Selected own/S61 employee-ID symmetry after C/S62;one pilot,zero new games.
-- Ten fixed S29 histories/five blocks;30planned fresh choices:anchor/repeat/swap.
-- Primary:swap disagreement minus identical-recorded-request repeat disagreement.
-- Source-bound one-shot harness;strict view-target decode;no retries/failed resume.
-- Both methodology critics:no blocking mismatch;scope/runtime caveats accepted.
-- 20focused tests/full30call dry replay/separate6summary reconstruction PASS.
-- Context audit:81public rounds/162notes;full ID involution/payoff arithmetic PASS.
-- Canonical offline suite788checks PASS;scientific calls not started.
-- Registration/commit/push/prelaunch checks precede all scientific calls.
-- No promoted HIT;S29 and S62 stay ODD;old scientific artifacts unchanged.
-- Risks:n5,multiplicity,anchor blindspot,order/ID cues,CLI/provider variability.
-- Next:finish registered S61,verify/report/release,push;S63 queued only.
+## Current state (2026-10-25T09:12:34.230379+00:00; Phase2, iteration45 RESULTS VERIFIED)
+- S61/own:30fresh decisions,ten fixed S29 histories/five source blocks;zero games.
+- Swap-vs-anchor mismatch1/10;identical-repeat-vs-anchor1/10;excess0.000[-.300,.300].
+- Pairedt[-.438995,.438995];upperp.75;blocks[0,.5,0,0,-.5].
+- Frozen DUD via mean rule;+.25 remains within bounds;no invariance/equivalence.
+- Approvals anchor4/10,repeat5/10,swapped5/10;zero retries/failures/tuning.
+- Full replay/separate30bindings/30cells/6bootstrap+t/32sign summaries PASS.
+- Context81rounds/162notes/payoff audit;789canonical/20focused tests PASS.
+- Both final critics confirm DUD/numbers;Codex raw replay,Opus supplied-text scope.
+- Call-forbidden deterministic release PASS;figure inspected;origin clone next.
+- All1267older scientific artifacts/45earlier report rows/older ledger unchanged.
+- Registration8535124 pushed;results/closing proof commits next;REPORT46pilots.
+- Next different-axis A/B/F;S63,S57,S52,S49 queued only;no sibling headline change.
+- Risks:n5,multiplicity,anchor blindspot,ID/order cues,CLI/provider variability.
 
 ## Log
 
@@ -629,3 +630,7 @@
 - 2026-10-25T09:00:24.551086+00:00: iteration44 COMPLETE. Registration9088f76f016469b4d8bab1b4aa7d5f7abb0841ff/scientific+document results87b77c791716d34f1a12bd8bccc29162dfba5fed committed and pushed. Fresh full-history ORIGIN clone at results commit PASS:13scientific/presentation/document artifacts byte-identical,16focused tests,full registered main provenance/raw replay,separate50metriccells/15bootstrap+t/all32signpatterns/204request-history checks/200accepted action-note-reasonbindings. Includes complete10event adverse-output appendix,main REPORT/DETAILS/HITS/README/editorial regeneration and supplemental probe request/chronology/source check;scientific llm.chat calls forbidden throughout. Clone clean;receipt logs/s62_remote_clean_clone.json,commands/output logs/s62_origin_clone_run.log. Existing frozen installed venv reused,not fresh dependency installation.769pre/post canonical tests PASS;initial source-edit-overlap canonical failures preserved. Both initial/fixed design and final critics exit0;Codex raw-source/stat reconstruction versus Opus supplied-text/per-game arithmetic scope. Sole200accepted/204returned scientific responses,4invalid-output retries,zero transport/route/exhaustion/source failures;no active generation/review. Self3/40/shared7/40 Yapprovals;difference+.100[-.025,.250],pairedt[-.130210666624,.330210666624],upperp.25/lowerp.9375/two-sidedp.5;blocks[.375,-.125,.125,.125,0]. Frozen ODD,not promoted:mean below HIT threshold and upperp gate fails;bootstrapupper exactly.25does not satisfy strict DUDupper<.25. Xapproval rise is prespecified secondary,not selective-Y mechanism evidence. Readiness-informed exact-fence allowance unused inall204responses. All21registered source bytes/1272older selected code-data-results-figures-design artifacts/44priorpilotrows unchanged;resultSHA97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226. One cached neutral probe plus sole scientific run,no game-outcome tuning,pooling,exclusions,case replacement,reverse/secondary/subgroup promotion,newexperiment,sibling writes or DIRECTION deviation. No controlled family effect,agreement,intent,collusion,mechanism,equivalence or null-population inference. Closing proof/ledger/handoff commit+push follows.
 
 - 2026-10-25T09:07:45.010647+00:00: iteration45 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling state/report summaries. Activated own/S61 after C/S62;added a fixed identical-request repeat control to the queued symmetry idea before registration. Thirty decisions on ten outcome-independent reused S29 contexts,zero new games. Full dry replay,separate tokenization/statistics,20focused tests and81round/162note context audit PASS. Both Codex/Opus design critics found no blocker;accepted request-level equality,anchor/blindspot,position and dependence clarifications. Canonical suite running;no scientific calls or outcome tuning. Queued new own/S63 temporal-distance idea;no second pilot or direction deviation.
+
+- 2026-10-25T09:12:34.230379+00:00: S61 completed30fresh responses/30acceptances,zero retries/failures,firstadmission09:08:31.649,lastreturn09:09:51.017UTC. Frozen excess-disagreement mean0.000,exact bootstrap[-.3,.3],pairedt[-.4389945165,.4389945165],upperp.75,DUD via mean rule;blocks[0,.5,0,0,-.5]. Swap mismatch1/10,repeat mismatch1/10;approvalcounts4/5/5. Full archive validation,separate30bindings/30blockcells/6exactsummary reconstruction and canonical789tests PASS. Call-forbidden result/summary/figure/appendix regeneration byte-identical;223local links resolve. Figure visually inspected. Baseline1267scientific artifacts/45older report rows/older ledger rows unchanged(except S61 proposal activated). Opus final independently reconstructs supplied case/statistic values;raw provenance access unavailable to that critic. Accepted explicit +.25-unresolved wording in REPORT;kept frozen presenter formatting and no posthoc alternative-anchor analysis. Codex final still running;no new experiment,calls,tuning,pooling,HIT or sibling headline change.
+
+- 2026-10-25T09:13:16.747907+00:00: both final critics exit0,no blocking bug. Codex independently reconstructs30raw approvals/30cells/6exact summaries and verifies complete registered provenance;five read-only checks PASS. Opus supplied-text arithmetic only. REPORT explicitly states +.25 remains unresolved. All registered source/result bytes unchanged. Results milestone commit/push then frozen cache-only remote-clone proof.

@@ -1270,3 +1270,10 @@ The bootstrap upper equals.25;DUD requires strictly below.25. TYPE-X approvals a
 
 [Design](DESIGN_S62.md) · [All metrics and caveats](results/s62_summary.md).
 <!-- S62 details end -->
+
+<!-- S61 details start -->
+**Latest — S61:** thirty fresh decisions on ten fixed S29 workplace histories/five source blocks. Disagreement with an original-request anchor: renamed employees **1/10**,identical-recorded-request repeat **1/10**; excess **+0.000 [-0.300, +0.300]**,paired t95% [-0.439, +0.439],upper sign-flip p=0.75000. **DUD for the frozen .25 excess-disagreement screen.**
+The swap covers system,user,all structured history,notes and output target;applying it twice restores every byte. One repeat per context is a noisy variability control;DUD is a prioritization label and does not establish invariance or equivalence. ID/alphabetical-order cues,call order and serving variability limit attribution;this neither establishes deterministic invariance nor identifies a mechanism for S29. [All results and limits](results/s61_summary.md) · [All returned text](results/s61_action_text.md). The bootstrap bounds include +.25;the screen does not rule out that excess effect.
+
+Five primary block values: [0.0, 0.5, 0.0, 0.0, -0.5]. All six summary intervals and30actions are in the linked results;no secondary promotion. Zero new games,tuning,pooling or held-out claim. Reused late contexts and exploratory multiplicity limit generalization. [Design](DESIGN_S61.md) · [Separate reconstruction](logs/s61_independent.json) · [Figure](figures/s61_identity.png).
+<!-- S61 details end -->

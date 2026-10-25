@@ -1,0 +1,360 @@
+{
+  "pilot": "S61",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 30,
+  "tuning_attempts": 0,
+  "source_cli_version": "not recorded",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": null,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "DUD",
+  "primary": "swap_minus_repeat_disagreement",
+  "metrics": {
+    "anchor": {
+      "mean": 0.4,
+      "mean_exact": "2/5",
+      "ci95": [
+        0.1,
+        0.7
+      ],
+      "ci95_exact": [
+        "1/10",
+        "7/10"
+      ],
+      "t95": [
+        -0.11942531684178381,
+        0.9194253168417839
+      ],
+      "upper_signflip_p": 0.125,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.25,
+      "block_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "repeat": {
+      "mean": 0.5,
+      "mean_exact": "1/2",
+      "ci95": [
+        0.2,
+        0.8
+      ],
+      "ci95_exact": [
+        "1/5",
+        "4/5"
+      ],
+      "t95": [
+        0.0610054834574586,
+        0.9389945165425414
+      ],
+      "upper_signflip_p": 0.0625,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.125,
+      "block_values": [
+        0.5,
+        0.5,
+        1.0,
+        0.0,
+        0.5
+      ]
+    },
+    "swapped": {
+      "mean": 0.5,
+      "mean_exact": "1/2",
+      "ci95": [
+        0.1,
+        0.9
+      ],
+      "ci95_exact": [
+        "1/10",
+        "9/10"
+      ],
+      "t95": [
+        -0.12083199910188203,
+        1.120831999101882
+      ],
+      "upper_signflip_p": 0.125,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.25,
+      "block_values": [
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "swap_mismatch": {
+      "mean": 0.1,
+      "mean_exact": "1/10",
+      "ci95": [
+        0.0,
+        0.3
+      ],
+      "ci95_exact": [
+        "0",
+        "3/10"
+      ],
+      "t95": [
+        -0.1776445105197794,
+        0.37764451051977943
+      ],
+      "upper_signflip_p": 0.5,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.5,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "repeat_mismatch": {
+      "mean": 0.1,
+      "mean_exact": "1/10",
+      "ci95": [
+        0.0,
+        0.3
+      ],
+      "ci95_exact": [
+        "0",
+        "3/10"
+      ],
+      "t95": [
+        -0.17764451051977934,
+        0.3776445105197793
+      ],
+      "upper_signflip_p": 0.5,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.5
+      ]
+    }
+  },
+  "contrast": {
+    "mean": 0.0,
+    "mean_exact": "0",
+    "ci95": [
+      -0.3,
+      0.3
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "3/10"
+    ],
+    "t95": [
+      -0.4389945165425414,
+      0.4389945165425414
+    ],
+    "upper_signflip_p": 0.75,
+    "lower_signflip_p": 0.75,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      0.0,
+      0.5,
+      0.0,
+      0.0,
+      -0.5
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 9,
+      "agent": "B",
+      "partner": "C",
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": true,
+        "repeat": true,
+        "swapped": true
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 8,
+      "agent": "C",
+      "partner": "B",
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "anchor": false,
+        "repeat": false,
+        "swapped": false
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 8,
+      "agent": "A",
+      "partner": "C",
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": false,
+        "repeat": false,
+        "swapped": true
+      },
+      "swap_mismatch": true,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 9,
+      "agent": "C",
+      "partner": "A",
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": true,
+        "repeat": true,
+        "swapped": true
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 6,
+      "agent": "A",
+      "partner": "B",
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": true,
+        "repeat": true,
+        "swapped": true
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 8,
+      "agent": "B",
+      "partner": "A",
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": true,
+        "repeat": true,
+        "swapped": true
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "agent": "B",
+      "partner": "C",
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "anchor": false,
+        "repeat": false,
+        "swapped": false
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "agent": "C",
+      "partner": "B",
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "anchor": false,
+        "repeat": false,
+        "swapped": false
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 7,
+      "agent": "A",
+      "partner": "B",
+      "archived_approval": false,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": false,
+        "repeat": true,
+        "swapped": false
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": true
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 8,
+      "agent": "B",
+      "partner": "A",
+      "archived_approval": false,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "anchor": false,
+        "repeat": false,
+        "swapped": false
+      },
+      "swap_mismatch": false,
+      "repeat_mismatch": false
+    }
+  ],
+  "approval_counts": {
+    "anchor": 4,
+    "repeat": 5,
+    "swapped": 5
+  },
+  "mismatch_counts": {
+    "swap_mismatch": 1,
+    "repeat_mismatch": 1
+  },
+  "archived_match_counts": {
+    "anchor": 9,
+    "repeat": 8,
+    "swapped": 10
+  }
+}

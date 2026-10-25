@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 44.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 45.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -622,3 +622,14 @@ Post-outcome interpretation clarification:with author1,pair bonus=2*approvedX−
 
 For both siblings:adverse approvals are an action-level outcome,not evidence verifying agreements or collusion. No confirmation trigger or headline change.
 <!-- S60 handoff end -->
+
+<!-- S61 handoff start -->
+## S61 — Unpromoted employee-ID symmetry pilot
+
+**Latest — S61:** thirty fresh decisions on ten fixed S29 workplace histories/five source blocks. Disagreement with an original-request anchor: renamed employees **1/10**,identical-recorded-request repeat **1/10**; excess **+0.000 [-0.300, +0.300]**,paired t95% [-0.439, +0.439],upper sign-flip p=0.75000. **DUD for the frozen .25 excess-disagreement screen.**
+The swap covers system,user,all structured history,notes and output target;applying it twice restores every byte. One repeat per context is a noisy variability control;DUD is a prioritization label and does not establish invariance or equivalence. ID/alphabetical-order cues,call order and serving variability limit attribution;this neither establishes deterministic invariance nor identifies a mechanism for S29. [All results and limits](results/s61_summary.md) · [All returned text](results/s61_action_text.md). The bootstrap bounds include +.25;the screen does not rule out that excess effect.
+
+Five primary block values: [0.0, 0.5, 0.0, 0.0, -0.5]. All six summary intervals and30actions are in the linked results;no secondary promotion. Zero new games,tuning,pooling or held-out claim. Reused late contexts and exploratory multiplicity limit generalization. [Design](DESIGN_S61.md) · [Separate reconstruction](logs/s61_independent.json) · [Figure](figures/s61_identity.png).
+
+For both siblings:no agreement,intent or collusion label. No confirmation trigger or sibling headline change.
+<!-- S61 handoff end -->

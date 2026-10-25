@@ -1418,3 +1418,19 @@ an incomplete pilot. Origin-clone proof reuses the installed frozen venv;no fres
 dependency installation or provider/immutable-memory attestation is claimed.
 
 Post-outcome S62 probe supplement validates the complete cached neutral request and its chronology before registration/execution;the frozen probe CLI alone does not perform those checks on its cache-return path. Use the supplement above.
+
+<!-- S61 reproduction start -->
+S61(iteration45):consistent active-employee ID swap with identical-recorded-request repeat control. Ten fixed S29 histories/five source blocks;30fresh decisions,zero games/tuning. Primary is excess disagreement,not signed approval. [Design](DESIGN_S61.md) · [Results](results/s61_summary.md).
+
+```bash
+uv run --frozen python scripts/s61_replay.py --analyze
+uv run --frozen python scripts/s61_independent.py
+uv run --frozen python scripts/s61_present.py
+uv run --frozen python scripts/s61_action_text.py
+uv run --frozen python scripts/s61_release.py
+uv run --frozen python -m unittest scripts.test_s61
+uv run --frozen python scripts/s61_release.py --clean-clone
+```
+
+Completed archives replay with scientific calls forbidden. Failed/interrupted pilots cannot resume. Origin-clone proof uses existing frozen venv,not fresh dependency install. Separate checker uses token splitting rather than the main substitution and reconstructs30decisions,30blockcells and6bootstrap/t/sign summaries.
+<!-- S61 reproduction end -->

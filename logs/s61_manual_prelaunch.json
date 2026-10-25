@@ -1,0 +1,24 @@
+{
+  "commit": "8535124fc80941bfe752c716348cd8ed79f5ad3c",
+  "remote": "8535124fc80941bfe752c716348cd8ed79f5ad3c",
+  "observed_utc": "2026-10-25T09:08:28.512697+00:00",
+  "server_time_attested": false,
+  "source_sha256": {
+    "DESIGN_S61.md": "77ade7361f3e5b1ec8296df72c34930ff7de2cf68123c923e60b450c6764c541",
+    "scripts/s61_replay.py": "eb03ecd697efaa98acdca34721d5f3fd8f0bd799f8816fb57ef0c1e04466c354",
+    "scripts/s61_independent.py": "c63e48fc80afcf8d20945c6094c0ecfbe15f5bb498ebd1cc2f36d711bf31cf9c",
+    "scripts/s61_present.py": "e39ce0b6af0741897df851b8a6ac0accacfb396f6736c48b0b1b30c14157fa67",
+    "scripts/s61_release.py": "71e969d1ddd151a2de0216cb84dd7151a709fb6c446485afc9f1385e5e725a76",
+    "scripts/test_s61.py": "1d2b5828f78ec0a9fc4d4c9857ae51dc01e17f4ad85ffd250d01e7864e9d7ccc",
+    "scripts/s61_action_text.py": "d6e96c8826babbdd4c74b053dfa4f48cf3c702731c221a3f71abdf32478bec5b",
+    "scripts/s61_context_audit.py": "82077257763356cfa6dbc764317832f32640a9fef214aea5382a43425e01d00d",
+    "scripts/s61_reviews.py": "1ae62b8fb931de196289482a0faa5e8b56c06ec4a23eb48a47d282160ab74c5e",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa"
+}
