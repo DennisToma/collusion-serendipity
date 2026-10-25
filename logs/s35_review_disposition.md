@@ -67,3 +67,14 @@ profile counts/equilibria/actual notes and honest provenance,and confirms no
 change to the matched comparison or ODD. Eight artifacts,including separate
 context census,regenerate byte-identically with model calls forbidden. All21
 registered source files and canonical scientific result remain unchanged.
+
+## Publication gaps closed
+
+Resultsfc0df351b793964e88310ac28af1267b03a17eaa pushed. Fresh ORIGIN REMOTE clone passes all23
+S35 protocol tests and full frozen offline analysis/raw reconstruction/exact
+companion/render/release. All seven primary artifacts byte-identical;clone
+clean. Existing frozen installed venv reused,not fresh dependency installation.
+Separate post-outcome census was locally regenerated identically and independently
+context-reviewed;the remote clone comparison covers the seven named primary
+artifacts. All21 scientific source hashes/scientificSHA76aa3531 unchanged.
+No remaining required S35 action beyond committing/pushing this receipt/handoff.

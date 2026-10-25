@@ -1,0 +1,106 @@
+{
+  "pilot": "S35",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "asymmetric minus symmetric",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "asymmetric": 0,
+    "symmetric": 0
+  },
+  "notes": {
+    "asymmetric": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "symmetric": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Changing one public productivity entry changes both incentives and wording; no arithmetic or coordination mechanism isolated",
+    "Human labor identity, rate cap20, public histories and self-only notepads fixed across arms",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not just enumeration",
+    "Symmetric pure Nash profiles (18,18),(19,19),(20,20); asymmetric low/high profiles (19,20),(20,20)",
+    "A positive wage effect may reflect ordinary incentive responses; low wages do not verify agreement",
+    "Passive divisible resource accepts zero; no reservation wage or strategic workers",
+    "Asymmetric realized total productivity depends on allocation; firm-profit contrast is not the wage complement",
+    "Known CLI input fingerprints and client timestamps do not attest complete effective configuration or provider execution",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}
+Primary: {'mean': 7.65, 'mean_exact': '153/20', 'ci95': [3.825, 9.825], 'ci95_exact': ['153/40', '393/40'], 'paired_t_ci95': [2.3123339293375134, 12.987666070662488], 'exact_signflip_p_upper': 0.0625, 'exact_signflip_p_lower': 1.0, 'exact_signflip_p_two_sided': 0.125}
+{
+  "passed": true,
+  "metric_cells": 50,
+  "bootstrap_and_t_summaries": 15,
+  "sign_sets": 5,
+  "sign_tails": 15,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "prompt_contracts": 200,
+  "verdict": "ODD",
+  "primary_mean": 7.65,
+  "primary_ci": [
+    3.825,
+    9.825
+  ],
+  "upper_p": 0.0625,
+  "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d"
+}
+{
+  "passed": true,
+  "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+  "exact_summaries": 15,
+  "raw_bound_metric_cells": 50,
+  "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d"
+}
+{
+  "passed": true,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "source_entries": 21,
+  "local_links_checked": 106,
+  "independent": {
+    "passed": true,
+    "metric_cells": 50,
+    "bootstrap_and_t_summaries": 15,
+    "sign_sets": 5,
+    "sign_tails": 15,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "ODD",
+    "primary_mean": 7.65,
+    "primary_ci": [
+      3.825,
+      9.825
+    ],
+    "upper_p": 0.0625,
+    "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d"
+  },
+  "exact_companion": {
+    "passed": true,
+    "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+    "exact_summaries": 15,
+    "raw_bound_metric_cells": 50,
+    "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d"
+  }
+}
+......s35_24720_symmetric complete 20 calls
+.................
+----------------------------------------------------------------------
+Ran 23 tests in 3.647s
+
+OK
+PASS remote clean clone fc0df351b793964e88310ac28af1267b03a17eaa

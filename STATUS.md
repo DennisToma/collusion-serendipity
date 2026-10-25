@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T01:12:53.715425+00:00; Phase2, iteration23 RESULTS VERIFIED)
+## Current state (2026-10-25T01:20:26.087604+00:00; Phase2, iteration23 COMPLETE)
 - S35 productivity asymmetry:10games/5blocks,200valid decisions,zero retries/failures.
-- Paid wage20/30 firms 19.450 vs20/20 firms 11.800;difference+7.650[3.825,9.825].
-- Paired t[2.312334,12.987666],upperp0.0625;frozen ODD:four positive blocks,one tie.
-- No HIT,agreement or isolated mechanism claim;legitimate incentives differ.
-- Same human labor/cap20/public histories/self-only notes;no pooling with S31/S32.
+- Paid wage20/30 firms19.450 vs20/20 firms11.800;difference+7.650[3.825,9.825].
+- Paired t[2.312334,12.987666],upperp.0625;frozen ODD:four positives,one tie.
+- No HIT/coordination mechanism;legitimate incentives and low symmetric baseline.
+- Post-outcome census:32/40 symmetric rounds(10,10);asymmetric rates19–20.
 - Full200-key replay/21-source registration/runtime/UTC/export/actual overlap PASS.
 - Separate50cells/15bootstrap+t summaries/15sign tails/200auxiliary bindings PASS.
-- Exact15 summaries PASS;both final critics/context critic exit0;figure inspected.
-- Registration5a68969 pushed;scientificSHA76aa3531 stable.
-- Post-live327tests/local release/8-artifact exact regeneration PASS;push/clone next.
-- Risks:n5,cap binds high firm,wording/incentives,uncontrolled draws/provider scope.
-- Next:different axis;S30/S36 unrun,S32 unconfirmed;no sibling writes.
+- Exact15summaries/8-artifact regeneration PASS;scientificSHA76aa3531 unchanged.
+- Both final critics/context critic exit0;Opus supplied-text scope;327tests PASS.
+- Registration5a68969/resultsfc0df35 pushed;origin clone23tests/7primary artifacts exact.
+- Clone clean;installed frozen venv reused;provider/config attestation gaps explicit.
+- No active generation/review,tuning,pooling,HIT or sibling writes.
+- Next:fresh different axis after B;S30/S36 unrun,S32 unconfirmed;risks n5/cap.
 
 ## Log
 
@@ -329,3 +330,5 @@
 - 2026-10-25T01:17:43.184818+00:00: both S35 final critics exit0,parent0. Codex independently reconstructs raw metrics/timing/protocol;Opus supplied-text-only scope explicit. Accepted post-outcome baseline context and explicit unrecorded NODE_OPTIONS/proxy/certificate/auth/ancestor-instruction fingerprint gaps. Separate all-profile census:32/40 symmetric primary rounds(10,10),four whole blocks;asymmetric rates19–20 but exact equilibrium profiles17/40;all100notes/arm confirm asserted counts. No inference,exclusion,promotion or change to frozen21sources/result/renderer. Signed+7.650 matched comparison retained with ordinary-incentive/low-baseline interpretation. Census is post-outcome manager validation;primary final review unchanged. Local release/regeneration after prose update then results push/clone next.
 
 - 2026-10-25T01:18:58.951896+00:00: final context Codex audit exits0;independently confirms all40profiles/arm,stage equilibria,100notes/arm,known fingerprint gaps and honest post-outcome scope. No contradiction of+7.650 or ODD. Final forbidden-call regeneration:all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,context census). All21registered sources/scientificSHA76aa3531 unchanged. Both final critics and contextcritic complete,no active generation/review.327post-live tests/local release106selectedlinks PASS. Results milestone then origin clone next.
+
+- 2026-10-25T01:20:26.087604+00:00: iteration23 COMPLETE. S35 registration5a68969094a398a0bb75b0ac7d1a1f2f2cdf709f/resultsfc0df351b793964e88310ac28af1267b03a17eaa pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,independent raw reconstruction,exact rational companion,summary/figure regeneration,cache-only release and all23protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone git status clean. logs/s35_remote_clean_clone.json records exact commands/hashes and installed frozen-venv reuse,not fresh dependency installation. Local327post-live canonical tests and8-artifact forbidden-call regeneration(including separately labeled post-outcome context census) PASS. All21registered source hashes/canonical scientificSHA76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d unchanged. Both final critics and targeted context critic exit0;Opus supplied-text-only scope explicit. Frozen ODD retained:four positive/one tied block,upperp.0625;large signed+7.650 contrast interpreted with low symmetric baseline and legitimate changed incentives,no agreement/isolated mechanism or S31 replication claim. Known NODE_OPTIONS/proxy/certificate/auth/ancestor instruction gaps explicit,no retrospective attestation. Ledger result/context references finalized. Reports/HITS/README/DETAILS current;no new paid calls,second pilot,estimator/threshold/source edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Next fresh different axis after B;S36 proposed only,S30 unrun,S32 unconfirmed. Publication/handoff receipt commit and push next.
