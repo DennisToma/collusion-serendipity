@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T10:33:59.816071+00:00; Phase2, iteration48 RESULTS VERIFIED)
-- S67/E:posthoc accounting of all10 S65 games/5blocks;zero newgames/scientific calls.
-- Individually costly Y approvals9→0;pooled20/40 Y rejections forgo+2 each.
-- Stage regret18→40;per-round gap+.550[-.300,1.200];pairedt[-.620,1.720].
-- Pair shortfall124→80;orgloss90→200;all8 related measures reported equally.
-- Both arms9/40 both-Y rounds;strict Pareto0/9 individual,impossible pooled.
-- Original S65 UNRESOLVED/ODD unchanged;S67 fixed ODD/context-only,no HIT.
-- All80rounds/80gamecells/24bootstrap+t summaries/200rawbindings PASS.
-- 839canonical/16focused checks,eight verifier corruptions and release guards PASS.
-- Codex raw/statistical final PASS;Opus supplied-text final+addendum scopes retained.
-- 50source/input entries,1371older scientific paths/1384unique paths unchanged.
-- Next fresh-origin core reproduction,then different-axis pilot;own S66queued.
-- Risks:n5,posthoc/related measures,different regret schedules,continuation,provider.
+## Current state (2026-10-25T10:35:23.933842+00:00; Phase2, iteration48 COMPLETE)
+- S67/E:posthoc all10 S65games/5blocks;zero newgames/scientific calls.
+- Costly Y approvals9→0;pooled20/40 Y rejections each forgo+2 stage bonus.
+- Stage regret18→40;gap+.550[-.300,1.200]/round;t[-.620,1.720].
+- Pair shortfall124→80;orgloss90→200;all8 related measures reported.
+- Both arms9/40 both-Y rounds;individual strict Pareto0/9;pooled impossible.
+- S65 stays UNRESOLVED/ODD;S67 fixed ODD/context-only;no promoted HIT.
+- Full80rounds/80cells/24bootstrap+t/200rawbindings/32profiles verified.
+- 839canonical/16focused tests,eight verifier mutations,release guards PASS.
+- Codex raw/statistical review PASS;Opus supplied-text review+addendum retained.
+- 50source/input entries,1371older paths/1384unique frozen paths unchanged.
+- Fresh origin15b3189:five artifacts byte-identical,16checks,clone clean.
+- Next different-axis pilot;own S66,S63,S57,S52,S49queued. Risks:n5,posthoc,related metrics,continuation,provider.
 
 ## Log
 
@@ -669,3 +669,6 @@
 
 
 - 2026-10-25T10:33:59.816071+00:00: S67 completes frozen posthoc all-game audit after pushed registration03aebc9d9ff2079d37c73b2d9799fe001e8491a0. Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pairedt[-0.6197371146699497, 1.7197371146699498];pair shortfall124/80;orgloss90/200. All80primary rounds,80game-metric cells,24exact-bootstrap/t summaries,32profiles/64deviations and200raw action-note-reason bindings match separate reconstruction. Final Codex raw/statistical critic confirms every number;Opus supplied-text arithmetic review+addendum resolve all medium points,low exact-row/mutation/README points fixed via separate helpers. Existing9/40 both-Y counts displayed without a new metric. Scientific sources/results/verdict unchanged. All839 canonical+16focused checks PASS;all8in-memory verifier corruptions reject,465local links resolve,figure inspected. Sequential release/integrity checks PASS;initial overlapped logs retained but not verification basis. All50source/input entries and1371older scientific paths/1384unique frozen paths unchanged. Scientific milestone push and clean-origin proof next;no newgames/calls,tuning,HIT or sibling headline change.
+
+
+- 2026-10-25T10:35:23.933842+00:00: iteration48 COMPLETE. Registration03aebc9/results15b318959aa08eccd2b7d0b19768f6dde539352f committed/pushed. Fresh full-history origin clone of the results revision reproduces all5core artifacts byte-identically,16focused checks and clean gitstatus;existing pinned venv reused,no fresh-install claim. Receipt logs/s67_remote_clean_clone.json and full command output logs/s67_origin_clone_run.log. Ledger result reference points to this exact reproduced revision. All839 canonical checks had passed;registered scientific source/result bytes and older paths remain unchanged. REPORT49pilots,HITS explicitly unpromoted,opportunity display only. Final STATUS/receipt/ledger commit next. No remaining simulation/review process,newgame/call,tuning,exclusion,HIT,sibling write or headline change;no direction deviation.

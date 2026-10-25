@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "commit": "15b318959aa08eccd2b7d0b19768f6dde539352f",
+  "clone_source": "origin",
+  "full_history": true,
+  "clone_clean": true,
+  "commands": [
+    [
+      "scripts/s67_audit.py",
+      "release"
+    ],
+    [
+      "scripts/s67_independent.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s67"
+    ]
+  ],
+  "dependency_environment": "Existing pinned installed venv; no fresh-install claim",
+  "byte_identical_artifacts": {
+    "figures/s67_incentives.png": "86a2ced57a73e67fde507ee7ac5f62b97283692fb5048fc9ef69ae9e68e33392",
+    "logs/s67_independent.json": "3762a430e12a70c6c5a047ebda54313e00323c69e3b60fc27f6a9072e364dec7",
+    "results/s67_incentives.json": "fa0bb529b46b05b3cc0c241b984d865919cd5f545b906f9d288738b65e211f36",
+    "results/s67_summary.md": "b0c7b30fd678df8fcf99c98e405c5a2926f3e39e9075e3011ff643e35d80370a",
+    "logs/s67_release.json": "f1f126e7539a5cb318ec7e5646698b3cc41bd4152ee0e0f7d3c223c1bfdb02bd"
+  }
+}
