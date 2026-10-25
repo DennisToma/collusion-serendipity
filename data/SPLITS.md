@@ -184,3 +184,6 @@ history retain/erase decisions;zero newgames,tuning,heldout,pooling or independe
 replication. Same outcome-independent cases as S55;earlier replay results motivate
 the question but are not comparison arms. Full source/case freeze pushed before
 scientific calls;one directional approval-reduction screen fixed prospectively.
+
+
+S65:five fresh paired blocks25340..25344;ten workplace incentive-calibration games,individual versus equal pooled bonus settlement,T10,r3..10. Both arms retain full history/shared notes;200planned accepted decisions. All exploratory,no heldout,pooling with previous pilots or tuning. EXPECTED maps to serendipity DUD;UNRESOLVED to ODD;no HIT promotion. Full design/source manifest pushed before live calls.
