@@ -1,0 +1,1 @@
+UNAVAILABLE: initial raw-file reviewer exited 1 without a verdict after the backend reported selected model at capacity. CLI transcript retained at /var/tmp/iteration54_codex_cli.log. A compact retry is recorded separately; no initial PASS is claimed.

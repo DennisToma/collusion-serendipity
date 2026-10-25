@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "implementation_sha256": "2c1d488be1698588a51e0d60831fdd4b4e0a5bb83efe7343be8bd76434397965",
+  "probes": [
+    {
+      "probe": "results/s29_notepad.json",
+      "rejected": true,
+      "reason": "Baseline bytes changed: results/s29_notepad.json"
+    },
+    {
+      "probe": "REPORT.md",
+      "rejected": true,
+      "reason": "Presentation drift: REPORT.md"
+    },
+    {
+      "probe": "missing_manifest_path",
+      "rejected": true,
+      "reason": ""
+    },
+    {
+      "probe": "false_manifest_hash",
+      "rejected": true,
+      "reason": "Baseline bytes changed: .gitignore"
+    }
+  ],
+  "archive_files_mutated": false,
+  "scientific_calls": 0
+}

@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T12:32:02.462924+00:00; Phase2, iteration53 COMPLETE)
-- S70 (own): ten fresh games / five blocks; endowment 0 versus 10 at identical marginal incentives.
-- TYPE-Y approvals: baseline 2/40, endowed 2/40; difference 0.000, bootstrap95% [-.075,+.075].
-- Paired t95% [-.110,+.110]; upper/lower/two-sided sign p .75/.75/1; DUD for .25 increase screen.
-- All 200 responses accepted, no retries/failures; live child exit 0; zero tuning or pooling.
-- Main replay and independent 50 metric cells / 15 intervals / 200 response bindings PASS.
-- All 19 frozen sources / 1543 older scientific artifacts and exact split append preserved.
-- Ten result / three prewrite-document corruptions reject; 53 prior rows retained, 54 contiguous, 493 links.
-- Both methodology and final critics exit 0; final 926 canonical checks PASS, terminal exit 0.
-- Origin 49dfd7f: 10 artifacts byte-identical, 14 focused tests, clean clone; pinned venv reused.
-- Results pushed; no HIT, mechanism, equivalence, collusion or sibling headline claim; S72 unchanged.
-- S68 remains interrupted: no estimate or restart. Own S73 timing idea queued, not run.
-- Next: a different-axis fresh pilot only if valuable before 14:30 UTC; otherwise polish/handoff.
+## Current state (2026-10-25T12:44:10.096456+00:00; Phase 2, iteration 54 VERIFIED)
+- Added a concise, source-checked evidence handoff and complete machine-readable pilot inventory.
+- Portfolio: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT.
+- Selected S29/S62/S69/S70 reanalyses and separate checkers pass; raw opportunity counts verified.
+- S72 replay/checker pass at its pinned historical revision; no scientific validator patched.
+- All 3018 protected baseline files and 54 original report rows preserved; 262 selected local links resolve.
+- Final 926 canonical checks pass, zero failures/errors, actual terminal exit 0; 21 focused S45 tests pass.
+- Codex selected-file static/numerical review passes; Opus supplied-text review issues resolved.
+- Final four corruption probes reject; source hash binds the selected-replay receipt to released code.
+- No new experiment, scientific call, estimate, pooling, tuning, verdict, HIT or sibling headline change.
+- Initial parser, replay and presentation-test failures retained with fixes and review dispositions.
+- S68 remains interrupted, no effect estimate or restart; S70 and S72 scientific results unchanged.
+- Next: commit/push and fresh-origin reproduction; then bounded presentation upkeep before the cutoff.
+- Risks: five-block exploratory results, post hoc example selection and data reuse; no collusion/equivalence claim.
 
 ## Log
 
@@ -747,3 +748,9 @@
 - 2026-10-25T12:30:34.955007+00:00: S70 final926canonical checks PASS,zero failures/errors,terminalexit0 using established narrow historical synthetic fixtures;actual archive analysis remains unpatched. Final call-forbidden release/postcheck PASS with unchanged scientific result SHA1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2,19frozen sources,1543older artifacts,53older report rows/54contiguous and493links. No post-outcome scientific-source edit or new simulated-agent call. Results commit+push then clean-origin reproduction next.
 
 - 2026-10-25T12:32:02.462924+00:00: Iteration 53 complete. Registration c0d9ce0frozen before all scientific calls; results 49dfd7f9e46f2939a8978dc330f4b2d2e41c75e7 committed and pushed. A fresh full-history origin clone at that result revision reproduces all 10 checked result/report/figure/verification artifacts byte for byte and passes 14 focused tests with a clean working tree (logs/s70_remote_clean_clone.json; full commands/output in logs/s70_origin_clone_run.log). Existing pinned venv reused; no fresh-install claim. Ledger result reference pins this reproduced revision. Final 926 canonical checks and both final critics pass; Codex scope includes raw/source/statistical reconstruction, Opus scope is supplied-text hand arithmetic. All 19 registered sources, 1543 older scientific artifacts and exact split append remain unchanged; 53 older report rows preserved, 54 contiguous rows and 493 local links verified. Result stays DUD: 2/40 versus 2/40 adverse approvals, difference 0.000, descriptive bootstrap95% [-0.075,+0.075], pairedt95% [-0.10974862913563535,+0.10974862913563535], upper/lower/two-sided p .75/.75/1. Five blocks [-.125,0,0,0,.125]; no equivalence or population-absence claim. Fixed income/accounting intervention only; mechanical +20 pair bonus is not behavioral evidence. No post-outcome scientific-source edits, extra scientific calls, exclusions, tuning, pooling, reverse/secondary promotion, HIT, sibling writes or direction deviation. S68 remains interrupted without restart; S72 unchanged; S73 proposal is queued only. Removed 3 ignored regenerable Python bytecode directories to keep the workspace under 100 MB (81306014 file bytes excluding git/venv); scratch and scientific evidence retained. No active simulation or review remains. Closing proof/status/ledger commit and push follows.
+
+- 2026-10-25 12:34 UTC: iteration54 read CLAUDE/PLAN/STATUS/DIRECTION, complete ledger and both sibling summaries. Chose one judge-facing synthesis/reproduction chunk: 54 recorded pilots already cover every portfolio axis, no HIT is promoted, and both siblings have frozen research. Marginal value favors a concise, fully sourced handoff over another small workplace variation. No DIRECTION deviation: initial zero-cost/new-world queue is complete, and PLAN permits polish. No new experiment, scientific call, tuning, pooling, estimate, verdict or sibling write. Snapshot all preexisting tracked paths except four editable documentation files; preserve all prior report rows and historical STATUS log.
+
+- 2026-10-25 12:42 UTC: iteration 54 presentation and selected replay complete. The source-bound brief and 54-entry inventory retain 29 DUD, 23 ODD and two failed entries; these counts are not independent replications or a discovery rate. Raw approval opportunities are checked separately for every displayed game and arm. Four workplace cache reanalyses and their separate checkers pass. S72 reanalysis and its checker pass in a local clone at its actual result revision, 793a641, because its protected split index predates the legitimate S70 append; no scientific validator was patched. All 3018 protected preexisting files and 54 original report rows remain unchanged. The first draft incorrectly expected a list for the registered window string; corrected before any document write. Initial verification and test failures are retained: current-tree S72 correctly refused the later split append, and two S45 presentation tests required the metadata line at its original position. After restoring that position, all 21 focused S45 tests pass; the full suite rerun is active. Initial Codex review was unavailable (model at capacity, exit 1, no verdict); its compact retry passes with a static code review and numerical digest of selected result files, not execution or a raw-cache audit. Supplied-text Opus feedback prompted explicit payoffs, raw denominator checks, label definitions, clearer screen wording and precise call-guard scope. Its remaining import-before-guard concern was fixed; narrow final confirmation is active. Four in-memory corruption probes reject; archive bytes untouched. No new scientific experiment, call, estimate, rule, tuning, pooling, promotion, sibling write or DIRECTION deviation. Presentation-only work adds no experiment-ledger row.
+
+- 2026-10-25T12:44:10.096456+00:00: iteration 54 verification complete. All 926 canonical checks pass with zero failures/errors and actual terminal exit 0, using the existing narrow historical synthetic fixtures; no frozen source or fixture changed. All 21 focused S45 tests also pass. Final selected replay receipt binds the released verifier source and 3018 preserved baseline files, all 54 original table rows and 262 selected document links. Four final corruption probes reject without archive mutation. Compact Codex review passes (selected-file static/numerical digest); final narrow supplied-text Opus confirms the import-guard fix resolves its remaining medium issue. Remaining guard limits are explicitly disclosed; no network sandbox claim. Both critiques and all earlier failed/unavailable records retained. No new scientific calls, estimates, ledger entry or sibling write. Result commit/push and actual fresh-origin reproduction follow; not claimed in advance.

@@ -1,0 +1,11 @@
+[
+  {
+    "critic": "codex_raw_files",
+    "exit": 1,
+    "output_exists": false
+  },
+  {
+    "critic": "opus_supplied_text",
+    "exit": 0
+  }
+]

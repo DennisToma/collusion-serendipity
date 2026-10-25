@@ -1,6 +1,8 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 53.** S01 is DUD; S02 is ODD/inconclusive;
+**Current handoff:** [source-checked portfolio brief](results/iteration54_brief.md). No promotion or confirmatory request; existing entries below retain their original labels.
+
+**No promoted hits after iteration 54.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**

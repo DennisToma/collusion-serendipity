@@ -1,0 +1,152 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+......................F...F..Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.........................................Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.........................................................................................Complete:30 cached decision responses
+.............Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....................................................
+======================================================================
+FAIL: test_mocked_live_complete_archive (test_s45.Tests.test_mocked_live_complete_archive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 316, in test_mocked_live_complete_archive
+    present();published={p:p.read_bytes() for p in [Path('REPORT.md'),Path('results/s45_summary.md'),Path('figures/s45_reviewring.png')]}
+    ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s45_present.py", line 52, in main
+    assert report_lines[2].startswith('2026-10-25 · Iteration '),'Missing report metadata line'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing report metadata line
+
+======================================================================
+FAIL: test_renderer_idempotent_synthetic (test_s45.Tests.test_renderer_idempotent_synthetic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 217, in test_renderer_idempotent_synthetic
+    present();before={p:p.read_bytes() for p in [Path('REPORT.md'),Path('results/s45_summary.md'),Path('figures/s45_reviewring.png')]}
+    ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s45_present.py", line 52, in main
+    assert report_lines[2].startswith('2026-10-25 · Iteration '),'Missing report metadata line'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing report metadata line
+
+----------------------------------------------------------------------
+Ran 886 tests in 166.281s
+
+FAILED (failures=2)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.571s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.103s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.398s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": false,
+  "tests": 926,
+  "failures": 2,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 886,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

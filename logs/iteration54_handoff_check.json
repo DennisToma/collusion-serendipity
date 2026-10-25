@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "baseline_commit": "aafd05a358c7ac1113402912011342ed198edb54",
+  "unchanged_baseline_files": 3018,
+  "original_report_rows": 54,
+  "local_links": 262,
+  "presentation_hashes": {
+    "results/iteration54_portfolio.json": "edfe0fcb197d930fbe9ee73f61b67ffc8f889cff0e2d2fdc2e9f25835867dc04",
+    "results/iteration54_brief.md": "fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6",
+    "REPORT.md": "4866bcf1b8bbe61daa918df49f674d818191afaa283adde0dc1f9056f10c808e",
+    "HITS.md": "1c6370e7f6f2dfbf3bc4620dba7456fa3dd35efe9adaf5f5e907ae101cdc8e82",
+    "README.md": "b471c017fa2862bdcd6b6f3a6422c6f76261072b80509ddb844d7d194ab8d8fc"
+  },
+  "implementation_sha256": "2c1d488be1698588a51e0d60831fdd4b4e0a5bb83efe7343be8bd76434397965",
+  "baseline_snapshot_sha256": "1e67ce0b4d9a1fa77fb7d264318933138edcf52de4911b85963d51dc482bddd3",
+  "llm_chat_patched_to_raise": true,
+  "new_experiments": 0,
+  "pooled_estimates": 0,
+  "scope": "Selected handoff replay, not full-portfolio reproduction; existing installed dependencies reused",
+  "replays": [
+    {
+      "pilot": "S29",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "self": 0,
+          "shared": 0
+        },
+        "verdict": "ODD"
+      }
+    },
+    {
+      "pilot": "S62",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 204,
+        "note_snapshots": 204,
+        "raw_auxiliary_bindings": 200,
+        "rejections": {
+          "self": 2,
+          "shared": 2
+        },
+        "verdict": "ODD"
+      }
+    },
+    {
+      "pilot": "S69",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "low_charge": 0,
+          "high_charge": 0
+        },
+        "verdict": "DUD"
+      }
+    },
+    {
+      "pilot": "S70",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "baseline": 0,
+          "endowed": 0
+        },
+        "verdict": "DUD"
+      }
+    },
+    {
+      "pilot": "S72",
+      "reanalysis_matches": true,
+      "independent": {
+        "passed": true,
+        "raw_action_note_reason_bindings": 200,
+        "primary_rounds": 80,
+        "fixed_two_round_windows": 40,
+        "full_windows": 10,
+        "game_metric_cells": 70,
+        "exact_bootstrap_and_t_summaries": 21,
+        "authorship": "Separate implementation by same manager; independent critics recorded separately"
+      },
+      "local_historical_clone_commit": "793a6411f6d7b646b1897d964b531cbaa7116cc0",
+      "clone_clean": true,
+      "scientific_validation_unpatched": true
+    }
+  ]
+}

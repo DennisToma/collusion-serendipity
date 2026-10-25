@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/iteration54_handoff.py", line 279, in <module>
+    main()
+  File "/home/factory/collusion/collusion-serendipity/scripts/iteration54_handoff.py", line 271, in main
+    receipt['replays'] = replay()
+                         ^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/iteration54_handoff.py", line 243, in replay
+    actual = analyze()
+             ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s72_temporal.py", line 192, in analyze
+    manifest = checked_manifest()
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s72_temporal.py", line 115, in checked_manifest
+    raise ValueError('Registered/protected file changed: '+p)
+ValueError: Registered/protected file changed: data/SPLITS.md

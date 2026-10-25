@@ -1,5 +1,7 @@
 # Collusion Serendipity Explorer
 
+**Judge / handoff entry:** [concise evidence brief](results/iteration54_brief.md) · [complete pilot log](REPORT.md). Verify the selected handoff offline with `uv run --frozen python scripts/iteration54_handoff.py verify`. This checks preserved science and selected replays; it makes no full-portfolio reproduction claim.
+
 Discovery pilots for the Apart AI Collusion Sprint. Read [REPORT.md](REPORT.md)
 for results, [DESIGN.md](DESIGN.md) for frozen choices and amendments, and
 [STATUS.md](STATUS.md) for the handoff. The sibling repos are read-only inputs.
