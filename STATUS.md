@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T11:37:08.864080+00:00; Phase2, iteration51 CLOSING)
+## Current state (2026-10-25T11:44:45.867443+00:00; Phase2, iteration51 COMPLETE)
 - S68 FAILED_INTERRUPTED:30admitted requests,29returned/accepted;exit143.
-- One repeat reply missing;start-only journal;root cause/exact exit time unknown.
+- One repeat reply absent;start-only journal;cause/exact exit time unknown.
 - No effect estimate,scientific verdict,HIT,restart or replacement call.
-- All18registered sources/1450earlier sciencepaths unchanged;prefix preserved.
-- Full29prefix bindings/30requests/registration/schedule/split audit PASS.
-- Analysis and interrupted resume reject with calls forbidden;no data rewriting.
-- Seven prefix/four prewrite document corruption probes reject;483links valid.
-- All24focused protocol checks/895canonical repository checks PASS.
-- REPORT52contiguous pilotrows,51olderrows preserved;HITS unpromoted.
-- Both final failure critics exit0;Codex raw/source versus Opus supplied-text scopes.
-- Supervised canonical895checks PASS,zero failures/errors and terminal exit0.
-- Next:commit/push,clean-origin replay and closing receipt.
-- Future different-axis pilot needs new registration;S68cannotresume;stop14:30UTC.
+- All18registered sources/1450older sciencepaths and original prefix unchanged.
+- All30admission/29response bindings,registration/schedule/split audits PASS.
+- Incomplete analysis/resume reject with calls forbidden;no journal repair.
+- Seven prefix/four prewrite document corruptions reject;483links valid.
+- Supervised895canonical checks PASS,zero failures/errors,terminal exit0.
+- Both final critics exit0;Codex raw/source versus Opus supplied-text scopes.
+- Origin043d357:7artifacts byte-identical,24focused tests,clean clone.
+- Existing pinned venv reused;52contiguous reportrows/51priorrows preserved.
+- Results pushed,HITS unpromoted;no active simulation/review or sibling write.
+- Next:different axis with fresh registration and supervised launch;stop14:30UTC.
 
 ## Log
 
@@ -720,3 +720,5 @@
 - 2026-10-25T11:40:32.841569+00:00: Both final failure critics exit0. Codex independently checks all30admissions/29rawresponses/accepted bindings,source/case/registration/runtime/schedule/concurrency,interrupted analysis/resume rejection,all18sourcehashes/1450prior sciencepaths/51old reportrows and byte-identical failure-metadata/document reconstruction;no high/medium bug. Compact Opus supplied-text review confirms counts/no-effect scope;accepted clarification separates30admissionbindings from29responsebindings. Read-only local diagnostics find no exhausted manager4500s timeout or explicit pilot shell timeout;manager still active,stdout empty. Rootcause/exactprocess-exit time unknown. The895test zero-failure receipt is complete,but enclosing toolsession76212 also returned143 later;supervised wrapper rerun with continuous polling active to capture terminalstatus. No inference of causality from this symptom. Failure release retains sevenprefix/fourprewrite-document rejection probes and unchangedraw/no-estimate guarantees. Older ledger rows verified exactly except prospective S68-proposal activation. No extra scientific call,resume,behavioral aggregation or direction deviation.
 
 - 2026-10-25T11:43:10.629738+00:00: Supervised canonical rerun completed895checks,zero failures/errors,and actual terminal exit0 in continuously polled functions cell63. Receipt logs/s68_repository_supervised.json plus local exit receipt. Scientific-pilot rootcause remains unknown;no inference from supervision outcome. Failure result/prose regenerated and byte-identical release PASS;updated summaries distinguish30admissionbindings/29responsebindings and local exit-observation versus termination time. All18sourcehashes/1450older sciencepaths unchanged;52contiguous reportrows/51olderrows and all483local links verified. Local process snapshot finds no active gpt-6-luna CLI;provider-side execution unattested. Both final critics complete;no further simulation/review. Ready for scientific/document result commit,push and clean-origin reproduction.
+
+- 2026-10-25T11:44:45.867443+00:00: iteration51 COMPLETE. Registration0318e808fed67b75199098e5316d39a14ae736b3 and failure/scientific-document result043d3577e614e7858c9a97843fa1d05143315510 committed and pushed. Fresh full-history ORIGIN clone at exact result revision reproduces all7checked failure/result/document/release artifacts byte-identically and passes24focused protocol tests;clone gitstatus clean. Receipt logs/s68_remote_clean_clone.json;commands/output logs/s68_origin_clone_run.log. Existing pinned venv reused,no fresh-install claim. Ledger S68-result now pins this exact reproduced revision. Failure recordSHA bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290. Scientific pilot remains FAILED_INTERRUPTED:30admissions/29returned/29accepted,one missing repeat response,start-only journal,exit143,unknownrootcause/exactexit time. No behavioral aggregate/effect/interval/p-value/scientificverdict,HIT,partialcase estimate,restart,replacement or extra scientific call. All18frozen sources/1450earlier sciencepaths/original7prefixfiles/exact prospective split append preserved;all51older reportrows/52current contiguousrows/483links verified. Seven corrupt-prefix/four prewrite-document probes reject. Full supervised895canonical checks PASS with existing historical synthetic fixtures and terminalexit0;both independent final failure critics exit0 with raw/source Codex versus supplied-text Opus scopes retained. Read-only diagnostics and anomalous earlier test-session exit143 preserved;no termination-cause inference. No active scientific CLI at final local snapshot;provider-side activity unattested. OwnS71queued before scientific calls;no secondpilot,siblingwrite,headlinechange or direction deviation. Future pilot must use a fresh different-axis registration and supervised process/exit capture;S68mustneverresume. Closing proof/status/ledger commit+push follows.

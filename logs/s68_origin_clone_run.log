@@ -1,0 +1,89 @@
+{
+  "pilot": "S68",
+  "status": "FAILED_INTERRUPTED",
+  "scientific_verdict": null,
+  "behavioral_estimates_computed": false,
+  "planned_decisions": 30,
+  "admitted_requests": 30,
+  "returned_responses": 29,
+  "accepted_responses": 29,
+  "logical_retries": 0,
+  "complete_cases": 9,
+  "requested_model": "gpt-6-luna",
+  "recorded_model": "gpt-6-luna",
+  "backend": "codex",
+  "new_games": 0,
+  "tuning_attempts": 0,
+  "failure_scope": "Process exit143;one request has no archived reply;no completion event;no harness-generated terminal marker;cause unknown",
+  "registration_commit": "0318e808fed67b75199098e5316d39a14ae736b3",
+  "source_hashes_verified": 18,
+  "admission_bindings_verified": 30,
+  "returned_response_bindings_verified": 29,
+  "prefix_bindings_verified": 29,
+  "missing_reply": [
+    {
+      "case_id": "s29_24484_shared_B",
+      "view": "repeat",
+      "started_utc": "2026-10-25T11:31:11.002290+00:00"
+    }
+  ],
+  "first_admission_utc": "2026-10-25T11:29:49.405299+00:00",
+  "last_archived_return_utc": "2026-10-25T11:31:12.212647+00:00",
+  "local_exit_observation_utc": "2026-10-25T11:33:08.208073+00:00",
+  "interrupted_resume_and_analysis_reject": true,
+  "zero_model_calls_in_audit": true,
+  "prior_scientific_paths_unchanged": 1450,
+  "exact_prospective_split_append": true,
+  "process_or_provider_root_cause_attested": false,
+  "archived_prefix_intact": true
+}
+{"status": "FAILED_INTERRUPTED", "admitted_requests": 30, "returned_responses": 29, "accepted_responses": 29, "scientific_verdict": null, "behavioral_estimates_computed": false}
+{
+  "passed": true,
+  "status": "FAILED_INTERRUPTED",
+  "model_calls_forbidden": true,
+  "raw_prefix_files_unchanged": 7,
+  "registered_sources_unchanged": 18,
+  "no_behavioral_effect_estimate": true,
+  "source_prefix_and_metadata_reconstructed": true,
+  "corrupt_prefixes_rejected": [
+    "request_count",
+    "response_count",
+    "response_duplicate",
+    "response_hash",
+    "accepted_binding",
+    "source_manifest",
+    "completion_event"
+  ],
+  "prior_report_rows": 51,
+  "current_contiguous_report_rows": 52,
+  "local_links_checked": 483,
+  "prewrite_document_corruptions_rejected": [
+    "REPORT.md",
+    "REPORT_DETAILS.md",
+    "README.md",
+    "HITS.md"
+  ],
+  "current_report_rows": 52,
+  "checked_sha256": {
+    "results/s68_failure.json": "bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290",
+    "results/s68_summary.md": "209a4428c5c934ee74bc1affe2e5b32262da46dbc941dc4c17dcecfbc07b2862",
+    "REPORT.md": "91aa86b31e3f420e9c7456bb3ec179f99eafc5ce91a6d963df1a84b27d9e7fa4",
+    "REPORT_DETAILS.md": "e504cc5363ba8d7fd5c2eff764f6f486229baabd1ee5f202608e159629038ff5",
+    "README.md": "94ff7819154c2decf2549500978884d4776c609f6c91e0468dd2ef98639d34c8",
+    "HITS.md": "9b361c205b85c32092e84ca7ad84becda5d7df3311543104e153056ddbe55eee"
+  },
+  "existing_venv_reused": true,
+  "process_root_cause_unknown": true
+}
+.Complete:30 cached decision responses
+.............Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+......
+----------------------------------------------------------------------
+Ran 24 tests in 5.230s
+
+OK
+PASS interrupted-prefix origin clone 043d3577e614e7858c9a97843fa1d05143315510
