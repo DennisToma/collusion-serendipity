@@ -1,0 +1,71 @@
+{
+  "verdict": "ODD",
+  "contrast": {
+    "mean": 0.1,
+    "mean_exact": "1/10",
+    "ci95": [
+      -0.3,
+      0.6
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "3/5"
+    ],
+    "t95": [
+      -0.5800873806582557,
+      0.7800873806582557
+    ],
+    "upper_signflip_p": 0.5,
+    "lower_signflip_p": 0.75,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -0.5
+    ]
+  },
+  "approval_counts": {
+    "hidden": 4,
+    "final": 3
+  }
+}
+{
+  "passed": true,
+  "raw_approvals": 20,
+  "case_prompt_bindings": 20,
+  "block_cells": 15,
+  "bootstrap_draws_per_summary": 3125,
+  "summaries": 3,
+  "sign_flips_per_summary": 32,
+  "result_sha256": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33"
+}
+{
+  "passed": true,
+  "raw_archive_files": 7,
+  "model_calls_forbidden": true,
+  "scientific_and_rendered_artifacts_byte_identical": true,
+  "local_links_checked": 155,
+  "independent": {
+    "passed": true,
+    "raw_approvals": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33"
+  }
+}
+.Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+......
+----------------------------------------------------------------------
+Ran 16 tests in 3.063s
+
+OK
+PASS remote clean clone 061b8ea812d3cc6d509703ec7577315fbe8143ea

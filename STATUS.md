@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T05:27:01.869593+00:00; Phase2, iteration35 VERIFYING)
+## Current state (2026-10-25T05:31:10.944481+00:00; Phase2, iteration35 COMPLETE)
 - S50(F):20fresh decisions/10observed S29TYPE-Ycontexts/5sourceblocks;zero newgames/tuning/retries/failures.
 - Adverse approval hidden4/10(.400)/final3/10(.300);reduction+.100[-.300,+.600]descriptive bootstrap.
 - Pairedt[-.580087,+.780087];upperp.5/lowerp.75/two-sidedp1;frozen ODD,no HIT.
 - Block differences[0,0,1,0,-.5];three ties,one in each direction;.25target unresolved.
-- Only source horizon/objective sentence replaced;same personal objective,stage payoffs and all user bytes.
-- Focal-only hypothetical;generic future-note rules/history cues remain;no terminal-game/mechanism claim.
-- Full source/registration/runtime/time/schedule replay and separate20bindings/15cells/3summaries PASS.
+- Only source horizon/objective sentence replaced;all user bytes and stage payoffs fixed.
+- Focal-only hypothetical;generic future-note/history cues survive;no terminal-game/mechanism claim.
+- Full archive/source/registration/runtime/time/schedule replay and separate20bindings/15cells/3summaries PASS.
 - Both design/final critics exit0;Codex raw/source audit versus Opus supplied-cell/text-only scope.
-- 581pre/post-live canonical tests and16scoped tests PASS;all scientific sources frozen.
-- Registration6b1ca1f pushed;actual figure inspected;call-forbidden release PASS;results push/clone next.
-- No HIT or sibling headline change;S29/S32/S35/S36/S41unpromoted ODD,S30unrun.
-- Risks:n5,selected histories,uncontrolled draws/interference,unknown source runtime/unattested provider.
+- 581pre/post-live canonical tests PASS;actual figure inspected;model-call-forbidden release byte-identical.
+- Registration6b1ca1f/results061b8ea pushed;fresh origin clone PASS,16protocol tests PASS.
+- Six artifacts byte-identical,clone clean;frozen installed venv reused,not fresh dependency installation.
+- Next:fresh different axis;S46/S39/S49proposals,S32unconfirmed,S30unrun;no active science/review.
+- Risks:n5,selected histories,draws/interference;requested labels only,provider/source runtime unattested.
 
 ## Log
 
@@ -507,3 +508,5 @@
 - 2026-10-25T05:27:01.869593+00:00: S50 sole run complete20accepted responses,zero retries/transport/parser/route/source/runtime failures. Hidden0.400/final0.300;hidden-minus-final+0.100[-0.3, 0.6];pairedt[-0.5800873806582557, 0.7800873806582557];upperp0.5;ODD. Frozen ODD,no HIT. Full source/registration/runtime/UTC/schedule/request replay and separate20rawbindings/15cells/3exactbootstrap+t/all sign tails PASS. No scientific-source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion or sibling writes. Reports/ledgers updated;final critics,post-live canonical suite,figure/release/origin-clone next.
 
 - 2026-10-25T05:29:40.140764+00:00: Both S50 final critics/parent exit0;unchanged ODD and all primary numbers confirmed. Codex independently reconstructs20rawbindings/15cells/3bootstrap+t/all sign tails/full source+registration replay;Opus supplied-cell/code/text-only scope.581post-live canonical tests PASS,zero failures/errors;actual figure inspected;call-forbidden release regenerates byte-identically. Accepted explicit requested-label versus served-identity/routing disclosure;auxiliary cost log/single-attempt sleep limitations scoped. All13scientific sources and canonical result unchanged. Results push then fresh origin-clone reproduction next.
+
+- 2026-10-25T05:31:10.944481+00:00: iteration35 COMPLETE. S50 registration6b1ca1f923b7df9aeae5b8b9a482ac54055af98b/results061b8ea812d3cc6d509703ec7577315fbe8143ea committed/pushed. Fresh full-history ORIGIN clone at results commit passes full source/archive/registration/environment/runtime/UTC/schedule/request/response replay,separate20rawbindings/15blockcells/3exact-bootstrap+t/all sign tails,summary/figure regeneration,model-call-forbidden release and16protocol tests;childexit0. Six artifacts byte-identical,clone gitstatus clean. Existing installed frozen venv reused,not fresh dependency installation;logs/s50_remote_clean_clone.json records exact commands/hashes. Both design/finalcritics/parents and581pre/post-live canonical tests exit0;Codex raw/source audit versus Opus supplied-cell/text-only scope. Scientific resultSHA01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33 andall13registeredscientificsources/7archivefiles unchanged. ODD retained,no HIT or sibling headline change;hidden4/10/final3/10,reduction+.1[-.3,.6],pairedt[-.58008738066,.78008738066],upperp.5/lowerp.75/two-sidedp1;three ties,one+1,one-.5. Generic continuation cues remain and only focal decisions are rerun;no foresight,mechanism,agreement,collusion,equivalence,population-prevalence or completed-terminal-game claim. Requested backend/model labels do not attest served identity/routing;source runtime unknown. New tracked canonical-test driver preserves established legacy synthetic clock fixtures with real archive sources/deadlines unchanged. Ledgers/REPORT/HITS/DETAILS/README current;next fresh different axis. No extra scientificcalls,secondpilot,source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,siblingwrites,directiondeviation or active generation/review. Final handoff commit+push next.
