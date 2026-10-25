@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "local_links": 363,
+  "prior_pilot_rows_unchanged": 39,
+  "total_pilot_rows": 40,
+  "generated_document_files": [
+    "REPORT.md",
+    "REPORT_DETAILS.md",
+    "results/s56_interpretation.md"
+  ],
+  "document_helper_idempotent": true,
+  "generated_documents_match_frozen_json": true,
+  "frozen_source_inputs_unchanged": 40
+}

@@ -12,11 +12,13 @@ def run():
     current=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     origin=subprocess.check_output(['git','remote','get-url','origin'],text=True).strip()
     artifacts=['results/s56_coalitions.json','results/s56_summary.md','figures/s56_coalitions.png',
-               'logs/s56_independent.json','logs/s56_release.json','data/s56_registration.json','data/s56_registration_receipt.json']
+               'logs/s56_independent.json','logs/s56_release.json','data/s56_registration.json','data/s56_registration_receipt.json',
+               'REPORT.md','REPORT_DETAILS.md','results/s56_interpretation.md','logs/s56_document_checks.json']
     records=[]
     with tempfile.TemporaryDirectory(prefix='s56_origin_',dir='/var/tmp') as temp:
         clone=Path(temp)/'repo'
         subprocess.run(['git','clone','--quiet',origin,str(clone)],check=True,timeout=90)
+        if (clone/'.git/shallow').exists():raise ValueError('Origin clone is shallow')
         head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=clone,text=True).strip()
         if head!=current:raise ValueError('Origin HEAD differs from current results commit')
         manifest=json.loads((clone/'data/s56_registration.json').read_text())
@@ -25,6 +27,7 @@ def run():
         if before!=frozen:raise ValueError('Clone registered bytes differ')
         commands=[[sys.executable,'scripts/s56_coalitions.py','--release'],
                   [sys.executable,'scripts/s56_independent.py'],
+                  [sys.executable,'scripts/s56_check_documents.py'],
                   [sys.executable,'-m','unittest','scripts.test_s56','scripts.test_s25_presentation']]
         for i,command in enumerate(commands):
             p=subprocess.run(command,cwd=clone,text=True,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=180)

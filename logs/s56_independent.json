@@ -1,0 +1,10 @@
+{
+  "bootstrap_and_t_summaries": 24,
+  "enumerated_profiles": 3375,
+  "game_cells": 80,
+  "passed": true,
+  "raw_bindings": 360,
+  "raw_requests": 376,
+  "rounds": 90,
+  "scope": "Independent raw bid/provenance/payoff/statistic reconstruction; full prompt/history/retry eligibility and registration binding require production S14 replay and S56 manifest checks"
+}

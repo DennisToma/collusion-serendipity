@@ -1,11 +1,11 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 38 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 39 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
-<!-- S54 summary start -->
-**Latest — S54:** ten fresh workplace games/five blocks. TYPE-Y approvals: complementary **10/40**, synchronized **0/40**; synchronized−control **-0.250 [-0.375, -0.150]** (descriptive bootstrap95%), pairedt95% [-0.440, -0.060], upper sign p=1.00000. **DUD for the predicted increase.** All five differences are negative;the reverse pattern stays descriptive and unpromoted.
-Both arms have shared notes and balanced marginal task counts. Joint status composition,own status and downstream histories change together. This does not verify coordination or replicate S29’s channel comparison. “Alternating” in frozen files means complementary employee types within a round,not alternation over time. [All outcomes and figure](results/s54_summary.md) · [Every adverse returned text](results/s54_action_text.md).
-<!-- S54 summary end -->
+<!-- S56 summary start -->
+**Latest — S56 (post hoc):** all ten original S14 tender games/five blocks;zero new scientific model calls. Over45 primary rounds per arm (none→private): payments above the maximum static Nash payment **9→18**;fixed-pair/singleton stable rounds **29→19**;rounds permitting a strict profit increase for BOTH pair members **14→19**. Stable-fraction contrast **-0.222 [-0.733, +0.378]**,paired t95% [-1.111, +0.667]. **ODD/context-only;no promotion.**
+The eight fixed descriptive metrics and all24 bootstrap/t summaries are [reported equally](results/s56_summary.md). Pair-total gains may sacrifice a member;the strict-both-gain diagnostic requires no transfers. Some ordinary Nash profiles also fail this pair-deviation criterion;payments above7 fail it by construction. [Interpretation](results/s56_interpretation.md). These static counterfactuals do not establish agreement or repeated-game stability. All contrast intervals span zero;the original S14 ODD and its original bootstrap remain unchanged.
+<!-- S56 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -48,6 +48,7 @@ Both arms have shared notes and balanced marginal task counts. Joint status comp
 | S51 · D, reviewer penalty | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval charge3 **0.500**, charge9 **0.500**; baseline−strong **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
 | S53 · E, static incentive audit | All10 original S29 games /5 blocks; no new calls. Totals over40 rounds/arm (self→shared): Y approvals **2→15**; missed X **0→0**; mutual-Y **0→0**; strict Pareto **0→0**; stage regret **4→30**; pair excess **8→60** bonus points. [All six bootstrap/t intervals](results/s53_summary.md). | **ODD / context-only**, post hoc |
 | S54 · own, task correlation | 10 fresh games /5 blocks. TYPE-Y approval rate r3–10: alternating **0.250**, synchronized **0.000**; difference **-0.250 [-0.375, -0.150]**. | **DUD for predicted increase** |
+| S56 · A1, tender coalition audit | All10 original S14 games/5blocks;no new calls. Counts/45 rounds (none→private): above-Nash **9→18**,fixed-pair stable rounds **29→19**,strict-both gain available **14→19**. Stable fraction contrast **-0.222 [-0.733, +0.378]**;[all8 metrics](results/s56_summary.md). | **ODD / context-only**, post hoc |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -55,7 +56,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** fresh different-axis A/B pilot;own/S55,S52,S49,S46,S39 remain queued. No sibling headline change.
+**Next:** fresh different-axis B/C/F pilot;own/S55,S57,S52,S49,S46,S39 remain queued. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

@@ -53,3 +53,31 @@ Stability's competitive static/no-collusion-label scope now adjacent to definiti
 Seed-derived pair check and matching synthetic fixtures were already fixed after
 patch critics captured their initial context; final source/tests confirm it.
 No new raw aggregates computed, no archived data/scientific edits, no rule changes.
+
+Both final critics/parent processes exit0. Codex independently reconstructs all
+90rounds/80cells/24summaries/3375profiles from original raw S14 archive,checks all
+360accepted bids/376requests,original full request/history/retry replay,original
+separate statistics,all40source/registration hashes,and confirms all REPORT numbers.
+Opus supplied-code/cells-only scope checks examples,selected cells,analytic census,
+reported means/one t interval and front-report numbers;no raw/hash reproduction.
+Neither finds a computational bug or justification to change ODD/context-only.
+
+Accepted final interpretation fixes in post-outcome presentation only:
+- Observed counts refer to rounds including repeated profiles;distinct profiles
+  are counted only in the complete grid census.
+- The fixed-partition stable set is a strict subset of ordinary Nash in this
+  grid;example(6,6,7) is competitively priced ordinary Nash but allows both pair
+  members to gain by both bidding7 against the fixed outsider7.
+- All payments above7 fail the fixed-partition criterion by construction;the
+  metric is not independent validation of high prices as a cartel label.
+These are checked static-census explanations,not new observed subgroup endpoints.
+The frozen scientific summary/result/figure are unchanged;front report and linked
+results/s56_interpretation.md provide the adjacent caveat. Presentation generator
+and checker match docs against frozen JSON and preserve all39 prior pilot rows.
+Fresh-clone proof is pending and will be logged only after a pushed results commit.
+
+Focused final editorial Codex critic exit0,no blockers. Independently confirms
+all front numbers,round/distinct-profile wording,nested stable set,Nash example,
+above7byconstruction caveat,all39prior rows,all40registered source/input bytes
+and three canonical artifact hashes. Its read-only equivalent document generation
+matched all three generated documents;actual manager checker also passes.

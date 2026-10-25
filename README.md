@@ -1291,3 +1291,30 @@ All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. F
 
 The post-run test driver gives only the frozen new-launch rejection test its intended empty external directory;all experiment/test source bytes and real archives remain unchanged. The frozen legacy `s54_release.py --clean-clone` directly runs that destination-dependent test;use `s54_clone.py` for origin-clone verification with the isolated fixture. The initial post-live test failure and corrected scoped/canonical receipts are retained in logs.
 <!-- S54 reproduction end -->
+
+S56 (iteration39): post-hoc coalition-deviation audit of all ten S14 procurement games.
+
+[Design](DESIGN_S56.md) · [All eight metrics,48 descriptive intervals and figure](results/s56_summary.md) · [All90round records/80game cells/full3375profile census](results/s56_coalitions.json).
+Zero new games or scientific calls;no HIT screen. Original S14 ODD unchanged.
+
+```bash
+uv run --frozen python scripts/s56_coalitions.py --release
+uv run --frozen python scripts/s56_independent.py
+uv run --frozen python -m unittest scripts.test_s56 scripts.test_s25_presentation
+uv run --frozen python scripts/s56_clone.py
+```
+
+The release matches40source/input files against the pushed registration,reruns
+original all-key S14 replay,and separately reconstructs360raw actions/all376
+requests,90rounds/80cells/24bootstrap+t summaries and3375bid profiles. The separate
+checker covers raw bid/provenance/payoff/statistic reconstruction;full prompt/history
+and rejected-attempt eligibility use original S14 replay. Release stages artifacts,
+checks them and demands byte-identical regeneration with llm.chat forbidden;
+this is not OS network isolation. Fresh origin-clone proof reuses the installed
+frozen venv,not a fresh dependency installation. A post-outcome documentation helper
+(`scripts/s56_documents.py`) updates only report prose and preserves all older rows.
+
+[Post-review interpretation](results/s56_interpretation.md) clarifies why even
+ordinary Nash profiles can fail this fixed-pair criterion. Observed counts are
+rounds,not distinct profiles. `uv run --frozen python scripts/s56_check_documents.py`
+checks generated report prose against frozen JSON and preserves all prior rows.

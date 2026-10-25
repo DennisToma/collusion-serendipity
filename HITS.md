@@ -552,3 +552,20 @@ All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. F
 
 “Alternating” is the frozen condition identifier for cross-employee complementary types;it does not mean temporal X/Y alternation. Full realized schedules are in all ten game files and trajectories. The separate checker independently reconstructs actions/payoffs/statistics but copies the prompt template;the original S29 prompt-identity reference is checked by the primary analyzer.
 <!-- S54 handoff end -->
+
+<!-- S56 handoff start -->
+## S56 — Unpromoted procurement context, not a HIT
+
+All ten original S14 games/five source blocks;post hoc,zero newgames/scientificcalls.
+Across45primaryrounds/arm(none→private):above-max-static-Nash payment9→18;
+fixed-pair/singleton stable29→19;strict-both-member gain available14→19.
+Stable-fraction contrast−.222222[−.733333,+.377778]bootstrap95%,pairedt95%
+[−1.110985,+.666540]. All eight contrast bootstrap/t bounds span0.
+
+[All metrics/figure/limits](results/s56_summary.md) · [Design](DESIGN_S56.md).
+No promoted handoff,independent replication or sibling headline change. This is
+context for Q1.4/Q2.2:high buyer payments alone do not establish the defined static
+stability or an agreement. The fixed-pair total-profit benchmark may sacrifice a
+member;strict-both gain requires no transfers. Neither notion classifies repeated
+game stability,reciprocal intent or profitable collusion. S14 remains ODD.
+<!-- S56 handoff end -->

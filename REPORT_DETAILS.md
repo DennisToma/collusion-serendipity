@@ -1176,3 +1176,50 @@ All five block differences are negative. The original increase hypothesis failed
 “Alternating” means complementary employee types within a round,not alternation over time;the full schedules are retained in the game files.
 <!-- S54 summary end -->
 <!-- Iteration38 front-report prose archive end -->
+
+
+<!-- S56 context start -->
+## S56 — Post-hoc procurement coalition-deviation audit
+
+**Latest — S56 (post hoc):** all ten original S14 tender games/five blocks;zero new scientific model calls. Over45 primary rounds per arm (none→private): payments above the maximum static Nash payment **9→18**;fixed-pair/singleton stable rounds **29→19**;rounds permitting a strict profit increase for BOTH pair members **14→19**. Stable-fraction contrast **-0.222 [-0.733, +0.378]**,paired t95% [-1.111, +0.667]. **ODD/context-only;no promotion.**
+The eight fixed descriptive metrics and all24 bootstrap/t summaries are [reported equally](results/s56_summary.md). Pair-total gains may sacrifice a member;the strict-both-gain diagnostic requires no transfers. Some ordinary Nash profiles also fail this pair-deviation criterion;payments above7 fail it by construction. [Interpretation](results/s56_interpretation.md). These static counterfactuals do not establish agreement or repeated-game stability. All contrast intervals span zero;the original S14 ODD and its original bootstrap remain unchanged.
+
+All original S14 primary rounds4..12 retained:90 profiles,45/arm,five source
+blocks24200..24204. Buyer payment and pair-total profit reproduce S14 and supply
+no independent evidence. The new full-grid comparison holds outsider bids fixed
+for225 pair choices and holds pair bids fixed for15 outsider choices. Coalition
+stability here means zero joint pair-total and outsider regrets;it is a competitive
+static benchmark,not strong equilibrium,coalition-proofness or repeated-game
+stability. This stable set is strictly smaller than the ordinary Nash set;some competitively
+priced ordinary Nash profiles permit a joint pair deviation. All above7 payments
+fail fixed-partition stability by construction;this metric is not independent
+validation of high prices as a cartel label. Observed counts refer to rounds,
+including repeated profiles;the census counts distinct profiles.
+[Post-review interpretation supplement](results/s56_interpretation.md).
+Side payments are absent,and the separate strict-both-profit criterion
+requires no transfer. None of these metrics labels agreement,intent or collusion.
+
+[All eight metrics,48 intervals,counts,limits and figure](results/s56_summary.md)
+· [All90 records,80game cells,24summaries and3375-profile census](results/s56_coalitions.json)
+· [Registered design](DESIGN_S56.md).
+
+The new decomposition is post hoc and uses exhaustive3125 empirical block
+resamples;S14 originally used10000 random draws. Its payment contrast therefore
+has new descriptive bounds[-5.600,+10.000],whereas the unchanged S14 original
+bounds are[-5.600,+9.733]. No pooling,endpoint selection,significance tests,tuning,
+HIT screen,held-out validation or independent replication. All eight contrast
+bootstrap and t intervals span zero. Provider settings/tool non-use unattested.
+
+Complete original S14 raw/request/cache/source replay and separate original
+statistical verifier pass. S56 separately binds360final actions/all376requests,
+reconstructs90rounds/80cells/24summaries,and enumerates all3375profiles. The raw
+checker does not independently rebuild full request histories or classify rejected
+attempts;those eligibility checks use original S14 replay. Forty source/input
+files are matched against the pushed registration. Local records are not signed
+provider attestations. [Reviews and disposition](logs/s56_review_disposition.md).
+
+A canonical-suite check exposed an older presentation renderer expecting prose
+removed from the compact front report. Its presentation-only repair renders the
+S25 standalone summary using a temporary anchor and preserves compact REPORT bytes;
+S25 scientific sources,results and data are unchanged. Initial failure retained.
+<!-- S56 context end -->
