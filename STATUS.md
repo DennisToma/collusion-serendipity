@@ -1,14 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T04:51:42.498146+00:00; Phase2, iteration32 verification)
-- S44 own payoff-row-order pilot:20freshdecisions/10observed S42contexts/5source blocks;zero newgames/tuning.
-- Ascending10.300/descending10.200;descending-minus-ascending-0.100[-0.3, 0.0];pairedt[-0.37764451051977943, 0.1776445105197794];upperp1.0;DUD.
-- Full20request/source/runtime/chronology replay and separate20bindings/15cells/3statistics summaries PASS.
-- Only21exact payoff rows reverse;identical header/history/system/notes;no current archived response supplied.
-- No pooling,reverse/secondary promotion,mechanism,agreement,coordination or equivalence claim.
-- Risks:n5,observed histories,uncontrolled provider draws/service interference;focal offers are not worker pay.
-- Next:final critics,canonical tests,call-forbidden regeneration,push and origin-clone reproduction.
-- S46/S39/S47 proposals only;S32unconfirmed,S30unrun;next fresh different axis.
+## Current state (2026-10-25T04:55:54.124912+00:00; Phase2, iteration32 COMPLETE)
+- S44:20fresh decisions/10observed S42histories/5source blocks;zero newgames,tuning,retries or failures.
+- Focal offers ascending10.300/descending10.200;difference−.100[−.300,0] descriptive bootstrap.
+- Pairedt[−.377645,+.177645];upperp1/lowerp.5/two-sidedp1;frozen DUD,no HIT.
+- Block differences0,−.5,0,0,0;full case table shows within-block cancellations.
+- Only21exact payoff rows reverse;identical header/history/system/notes;no mechanism or equivalence claim.
+- Full archive/source/runtime/registration replay and separate20rawbindings/15cells/3statistics summaries PASS.
+- Local529post-live canonical tests PASS;both finalcritics/parent exit0;figure inspected.
+- Codex raw/source reconstruction;Opus supplied-cell/text-only scope,not raw audit.
+- Registration84bbfc6/resultsb8c0e4f pushed;full-history origin clone PASS.
+- Six cloned artifacts byte-identical,clone clean;20protocol tests PASS;existing frozen venv reused.
+- All13registered sources/7archivefiles/resultSHA66ba1e4a9c0 unchanged;no active science/review.
+- Risks:n5,observed histories,uncontrolled provider draws/service interference;source/runtime fingerprints differ.
+- Next:fresh different axis;S46/S39/S47 proposals only,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -467,3 +472,5 @@
 - 2026-10-25T04:54:15.844870+00:00: final Codex+Opus critics and parent exit0;DUD/allprimarynumbers confirmed. Codex20rawresponses/15cells/all3bootstrap+t/all sign tails/source+registration replay;Opus supplied-cell/text-only hand checks,not raw audit. Post-live529canonicaltests exit0. Added presentation-only warning:arm-level generic signflip fields test zero,not roworder;only paired contrast is primary. No extra subgroup analysis/promotion;allcaseoutputs expose within-block cancellation,10is interior on0..20. Frozen scientific sources/result unchanged. Final call-forbidden regeneration,results push and origin-clone reproduction next.
 
 - 2026-10-25T04:54:48.748845+00:00: final call-forbidden release and supplemental publication audit PASS;all7archivefiles/13registered scientificsources/canonical resultSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa unchanged. Scientific result/summary/figure/REPORT regenerate byte-identically. Actual figure inspected;both finalcritics/parent and529postlivetests exit0. No active generation/review,scientificsource/threshold edits,newcalls,tuning,pooling,exclusions,secondary/reverse promotion,HIT,sibling writes or direction deviation. Results milestone commit/push,then full-history origin-clone reproduction next.
+
+- 2026-10-25T04:55:54.124912+00:00: iteration32 COMPLETE. S44 registration84bbfc60915c4ca7004308aea95ff0a4ba5855ea/resultsb8c0e4f42d0c6faf6b95819c3480190e0df15085 pushed. Fresh full-history ORIGIN clone at results commit passes frozen archive/source/registration/environment/UTC/schedule/request/response replay,separate20rawquotes/20promptbindings/15blockcells/3exactbootstrap+t/all sign tails,summary/figure regeneration,model-call-forbidden release and all20protocoltests;childexit0. Sixprimaryartifacts byte-identical;clone gitstatus clean. Existing installed frozen venv reused,not fresh dependency install;logs/s44_remote_clean_clone.json records commands/hashes. Local529post-live canonical tests and both finalcritics/parent exit0. Codex raw/full-source versus Opus supplied-cell/text-only scope explicit. FrozenDUD:ascending10.3/descending10.2,delta−.1[−.3,0],t[−.37764451052,.17764451052],upperp1/lowerp.5/two-sidedp1;fourblockties/one−.5. No effect-absence,equivalence,anchoring,mechanism,agreement,coordination or realized-wage claim. All13scientificsources/7archivefiles/resultSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa unchanged. Supplemental publication audit added afterregistration,no frozen-source edits. Ledgers/resultreference and REPORT/HITS/DETAILS/README current. Newown/S47queued before outcomes;next fresh different axis. No extra scientificcalls,secondpilot,tuning,pooling,exclusions,secondary/reversepromotion,HIT,siblingwrites,directiondeviation or active generation/review. Final receipt/handoff commit and push next.

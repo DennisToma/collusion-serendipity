@@ -1155,7 +1155,7 @@ Supplemental post-outcome metadata validation: `uv run python scripts/s45_metada
 
 ### S44 — exact payoff rows reversed
 
-Twenty fresh focal offers at ten observed S42 histories;no newgames,tuning or pooling. [Design](DESIGN_S44.md),[results](results/s44_summary.md),[figure](figures/s44_payoff.png). Reproduce from the S44 results commit with its committed launch receipt and frozen installed dependencies;later scientific-source drift correctly rejects.
+Twenty fresh focal offers at ten observed S42 histories;no newgames,tuning or pooling. [Design](DESIGN_S44.md),[results](results/s44_summary.md),[figure](figures/s44_payoff.png). Reproduce from S44 results commit `b8c0e4f42d0c6faf6b95819c3480190e0df15085` with its committed launch receipt and frozen installed dependencies;later scientific-source drift correctly rejects.
 
 ```sh
 uv run --frozen python scripts/s44_replay.py --analyze
