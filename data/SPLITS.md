@@ -177,3 +177,10 @@ S56:POST-HOC zero-call coalition-deviation audit of all10original S14 games,
 tuning,replication or promotion screen. Eight metrics fixed before decomposition,
 after original outcomes known. Full source/input freeze pushed and remotely
 observed before computing the new decomposition;original S14 ODD unchanged.
+
+S58:ten observed S29 shared-note histories,each employee last primary TYPE-Y
+review opportunity;five reused sourceblocks24480..24484. Twenty fresh public-
+history retain/erase decisions;zero newgames,tuning,heldout,pooling or independent
+replication. Same outcome-independent cases as S55;earlier replay results motivate
+the question but are not comparison arms. Full source/case freeze pushed before
+scientific calls;one directional approval-reduction screen fixed prospectively.

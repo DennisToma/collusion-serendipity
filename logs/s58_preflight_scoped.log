@@ -1,0 +1,30 @@
+.Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+E...Complete:20 cached decision responses
+.....F.
+======================================================================
+ERROR: test_full_dry_and_mutations (scripts.test_s58.Protocol.test_full_dry_and_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s58.py", line 84, in test_full_dry_and_mutations
+    self.assertTrue(verify(p,out)['passed'])
+                    ^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s58_independent.py", line 60, in verify
+    index=next(i for i,line in enumerate(lines) if line.startswith('Completed public rounds: '))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration
+
+======================================================================
+FAIL: test_selection_and_exact_public_history_erasure (scripts.test_s58.Protocol.test_selection_and_exact_public_history_erasure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s58.py", line 24, in test_selection_and_exact_public_history_erasure
+    i=changes[0];self.assertTrue(original[i].startswith('Completed public rounds: '))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.188s
+
+FAILED (failures=1, errors=1)

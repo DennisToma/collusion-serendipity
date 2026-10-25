@@ -1,18 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T07:25:48.452144+00:00; Phase2, iteration40 COMPLETE)
-- S55:20fresh decisions/10S29histories/5blocks;own current status visible versus deleted.
-- TYPE-Y approvals visible6/10,masked1/10;contrast+.500[+.200,+.800]bootstrap95%.
-- Pairedt95%[+.061005,+.938995];upperp=.0625;block differences[.5,1,.5,0,.5].
-- Frozen ODD:24483ties;no HIT or sibling headline change;zero tuning/newgames.
-- Full source/request/response/runtime/registration/time/schedule replay PASS.
-- Separate20rawbindings/15cells/3exactbootstrap+t/all32sign summaries PASS.
-- Both design+caveat/final critics exit0;Codex raw versus Opus supplied-text scopes logged.
-- 682pre/post canonical and19scoped tests PASS;initial obsolete-test failure retained.
-- Fresh origin82905ce PASS:7artifacts byte-identical,19checks,clone clean;existingvenv reused.
-- All14scientific/27input hashes unchanged;40older pilot rows preserved;REPORT has41pilots.
-- Registration9d392f3/results82905ce pushed;next different-axis B/C/F;S57/S52/S49 queued.
-- Risks:reusedn5,type/block imbalance,retained inference,missing-map cues;no isolated mechanism.
+## Current state (2026-10-25T07:34:38.618596+00:00; Phase2, iteration41 preflight COMPLETE)
+- Selected C/S58 after own/S55:completed-public-history erasure at fixed S29 prompts.
+- Ten task-status-selected histories/five blocks;20planned fresh decisions,no games/tuning.
+- Exact public-list→[] only;system,current round,statuses,all notes and payoffs retained.
+- Directional .25 approval-reduction screen frozen;no mechanism or replication claim.
+- Both initial/fixed Codex+Opus design critics exit0;earlier checker-prefix bug corrected.
+- 701canonical tests,19scoped checks,full20decision synthetic/separate replay PASS.
+- Initial scoped failures and obsolete-runner failures preserved;canonical fixtures documented.
+- All14scientific/27input hashes frozen;41older pilot rows will be preserved.
+- Register/push then sole one-shot run;uncached cutoff09:00UTC,20min launch headroom.
+- Risks:reusedn5,floor,notes retain history,inconsistency/length/action-reward bundle.
+- Next:full provenance/statistical replay,final critics,REPORT,originclone,commit/push.
 
 ## Log
 
@@ -575,3 +574,7 @@
 - 2026-10-25T07:24:40.165245+00:00: Both final critics exit0 and confirm frozen ODD/allprimary numbers. Codex raw/source scope reconstructs20actions/20requests/15cells/3fullbootstrap+t/sign summaries,validates complete execution provenance and4readonly checks;Opus supplied-code/cases-only arithmetic scope,not raw archive. Accepted presentation-only preidentified tied-block clarification and process-level versus power-loss fsync scope. Declined subgroup/reciprocity attribution. 682post-live canonical tests PASS;all14scientific/27input hashes and resultSHA unchanged. Call-forbidden release remains byte-identical;writer lock gitignored. Scientific results/documents commit+push then fresh originclone proof next.
 
 - 2026-10-25T07:25:48.452144+00:00: iteration40 COMPLETE. Registration9d392f30030095a6279e9241d157ed950b4b4ecc/scientific+document results82905ce88170eb76deac1c9933d6a3099fc64633 committed/pushed. Fresh full-history originclone at resultscommit PASS:all7release artifacts byte-identical,19scoped tests,full main replay plus separate20rawapproval/requestbindings/15blockcells/3exactbootstrap+t/all32sign summaries,clone gitstatus clean;receipt logs/s55_remote_clean_clone.json. Existing installed frozenvenv reused,no fresh dependency install. All14registered scientificsources/27sourceinputs(37unique paths) unchanged,resultSHAd46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710. Both initial+caveat design/final critics exit0,scopes recorded;682pre/post canonical tests and19S55checks pass. S55visible6/10,masked1/10;difference+.500[.200,.800],pairedt[.0610054834574586,.9389945165425414],upperp.0625,lowerp1,two-sidedp.125;blocks[.5,1,.5,0,.5]. Frozen ODD due one tie,not promoted despite positive descriptive bootstrap/t bounds. Preidentified floor/type-block imbalance,retained own-type inference,missing-map completeness and strategic-belief confounds remain explicit;no mechanism/agreement/collusion or equivalence claim. All40prior pilot rows preserved;41pilot frontlog current. No extra scientificcalls,newgames,tuning,case replacement,subgroup/reverse promotion,sibling writes,DIRECTION deviation or active generation/review. Next fresh different-axis B/C/F;own proposals remain queued. Closing proof/ledger/handoff commit+push next.
+
+- 2026-10-25T07:28:39.733331+00:00: iteration41 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling report/state summaries. Selected C/S58 after own/S55:exact completed-public-history erasure at ten outcome-independent S29 histories,twenty fresh decisions. Current statuses and notes retained. New own/S59 representation proposal queued only. Preflight and independent design critics next;no scientific calls yet,no sibling writes or DIRECTION deviation.
+
+- 2026-10-25T07:34:38.618596+00:00: S58 preflight COMPLETE:701canonical repository tests,19scoped checks,20decision synthetic main+separate20rawbindings/15cells/3bootstrap+t/all32sign summaries PASS. Both initial/fixed design critics exit0;fixed checker/test Round N prefix before live,retained failures. Legacy run_tests invoked twice before canonical entry discovery;its missing S54 fixture failure retained without frozen-source edits. Source census200requests/200responses/allattempt0. All14scientific/27input hashes frozen,41priorrows recorded. No scientific calls yet. Registration commit/push then sole20decision run;no DIRECTION deviation or sibling writes.

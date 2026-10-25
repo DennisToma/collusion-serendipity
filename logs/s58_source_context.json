@@ -1,0 +1,31 @@
+{
+  "source_request_count": 200,
+  "source_response_count": 200,
+  "source_attempt_indices": [
+    0
+  ],
+  "source_nonzero_attempt_requests": 0,
+  "own_type_y_contexts": [
+    "s29_24480_shared_C",
+    "s29_24483_shared_B",
+    "s29_24483_shared_C"
+  ],
+  "own_y_archived_approvals": [
+    false,
+    false,
+    false
+  ],
+  "public_round_counts": [
+    9,
+    8,
+    8,
+    9,
+    6,
+    8,
+    9,
+    9,
+    7,
+    8
+  ],
+  "interpretation": "Source census only;not a reliability estimate for20newcalls or an additional effect endpoint"
+}
