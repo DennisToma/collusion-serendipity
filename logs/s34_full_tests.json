@@ -1,0 +1,36 @@
+{
+  "stage": "post-live",
+  "scope": "Canonical repository runner;historical synthetic clock overrides and new S34 fixture clock only;real archive times unchanged",
+  "result": {
+    "passed": true,
+    "tests": 304,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "legacy_s31_synthetic_clock": {
+      "modules": [
+        "test_s31"
+      ],
+      "tests": 12,
+      "now": "2026-10-24T23:29:00+00:00",
+      "source_files_modified": false
+    },
+    "s33_synthetic_clock": {
+      "modules": [
+        "test_s33"
+      ],
+      "tests": 13,
+      "now": "2026-10-25T00:20:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  }
+}

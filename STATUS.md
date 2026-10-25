@@ -1,15 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T00:34:05.490996+00:00; Phase2, iteration22 IN PROGRESS)
-- S34 own-axis pilot registered:plain versus payoff-inert report wording/field.
-- Ten planned games/five fresh blocks24680..24684,T10,r3-10;no live calls yet.
-- Same stage payoffs/shared notes both arms;no schema-only or mechanism claim.
-- Primary plain-minus-flag Y approval rate;fixed .25/bootstrap/sign screen.
-- S33 remains DUD:10/40vs12/40,reduction-.050[-.175,.050],upperp.875.
-- All304tests/final dry200-key replay/50cells/15summary+sign checks PASS.
-- Codex+Opus design/patch critics disposed;20 sources ready to freeze/push.
-- Next:one-shot live run;no partial outcome inspection.
-- Risks:n5,uncontrolled model draws,salience bundle,possible fresh-control floor.
+## Current state (2026-10-25T00:48:00.838073+00:00; Phase2, iteration22 RESULTS)
+- S34 inert-report option:10games/5blocks,200valid decisions,zero retries/failures.
+- Plain8/40vsflag7/40 Y approvals;reduction+.025[-.100,.150],upperp.5.
+- Paired t[-.177366,.227366];frozen DUD,both clauses,no HIT/equivalence claim.
+- Plain baseline.20 below.25 reduction screen;primary flag requests all false.
+- Identical stage payoffs/shared notes;wording+field bundle,no isolated mechanism.
+- Full replay/20-source registration/runtime/UTC/export/actual-call overlap PASS.
+- Separate50cells/15exact bootstrap+t summaries/15sign tails/200bindings PASS.
+- Final critics exit0;post-live304tests/release PASS;figure inspected.
+- Next:byte regeneration/results push/origin clean-clone reproduction.
+- Source freeze7427939 unchanged;scientific SHA31d37a09;no active generation.
+- Next:fresh other-world/structure after own;S30 unrun;risks n5/baseline/salience.
 
 ## Log
 
@@ -300,3 +302,11 @@
 - 2026-10-25T00:34:05.490996+00:00: iteration22 read rules/plan/state/direction/ledger and both sibling summaries read-only. Selected queued own/S34 after D/S33;fresh ten-game inert-report option comparison registered before calls,unchanged stage economics,shared notes,strict condition-specific schemas. No S33 pooling,mechanism,HIT or direction deviation. Pre-live verification and methodology critics next.
 
 - 2026-10-25T00:39:42.552000+00:00: S34 both methodology critics exit0,patch Codex exit0. Accepted actual-transport pairing,strict positive overlap,timestamped exact preflight chronology/first-admission headroom,isolated mutation and persistent rejection tests;prospective new synthetic fixture clock fixed. Final15 scoped/full304 tests and dry200-key replay/independent50cells+15bootstrap+t summaries+15sign tails/all200action+note+reason bindings PASS. All20 sources recorded in readiness before outcomes;stage payoffs unchanged. Source freeze/push and one-shot run next. No live calls,tuning,pooling or sibling write.
+
+- 2026-10-25T00:40:30.293776+00:00: S34 matching remote source freeze74279390e475c4a65555bef701227688ec365d36 observed at2026-10-25T00:40:24.350107+00:00;foreground session runner active with durable exit receipt. Initial background shell exited before Python started(no launch receipt,raw directory or paid calls);this is the sole actual launch. Headroom59.62min versus required19.59min,20 source entries,01:40UTC cutoff. No prefix/action/note/treatment inspection.
+
+- 2026-10-25T00:48:00.838073+00:00: S34 all10games/200valid decisions finished00:46:34UTC,zero retries/parse/route/transport failures. Frozen DUD:plain8/40 versus flag7/40,reduction+.025[-.100,.150],t[-.177366,.227366],upperp.5;two positive/two negative/one tied block,both DUD clauses apply. Plain baseline.20 below.25 screen;primary flags all false. No equivalence,isolated schema/attention mechanism,S33 explanation,pooling,reverse/secondary promotion or HIT. Exact200-key replay,20-source registration/environment/immutable CLI/admission/UTC/export/strict actual-call overlap gates and independent50cells/15bootstrap+t summaries/15sign tails/all200action+note+reason bindings PASS. Scientific SHA31d37a098d381e9384ba670b571a291a735804f16518eb381464a18d50630ae9;sources frozen unchanged. REPORT compacted by retaining earlier context in DETAILS;table values unchanged. Final claims critics,figure/full suite/release/remote clone next.
+
+- 2026-10-25T00:51:07.112565+00:00: S34 final Codex/Opus critics exit0,parent0. Codex raw-reconstructs50cells/all15bootstrap+t summaries/all15sign tails/200bindings/full replay+source/runtime chronology,nine read-only checks;Opus supplied-text-only scope explicit,its three-positive-block slip corrected to two positive/two negative/one tie. Accepted explicit0/80 primary true reports and baseline cap disclosure;no behavioral-inert or mechanism inference. Figure inspected;post-live304tests and full cache-only release/104links PASS. Both critics request pending commit/push/remote clone;next final regeneration and results milestone. All20sources/scientificSHA31d37a09 unchanged,no new calls.
+
+- 2026-10-25T00:51:56.086321+00:00: S34 final cache-only regeneration under forbidden model calls leaves six artifacts byte-identical(scientific result,summary,figure,REPORT,independent/release receipts). All20source hashes and canonical scientificSHA31d37a09 unchanged. Both critic dispositions complete except release gap being closed by upcoming results push and origin clean clone;post-live304suite PASS. No new scientific calls/metrics,source mutation,tuning,pooling,HIT or sibling write. Results milestone next.

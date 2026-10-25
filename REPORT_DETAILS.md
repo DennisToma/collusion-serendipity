@@ -709,3 +709,35 @@ local known-input guards over S32;complete effective configuration,provider
 execution and actual tool non-use remain unattested. Source freeze20 entries,
 registrationad3cfff,pushed before all scientific calls. The13 S33 tests and289-test
 canonical suite passed before launch,with scoped historical synthetic clocks.
+
+## Earlier context retained from the compact log (S34 preparation)
+
+<!-- S33 summary start -->
+**S33:** paired t95% **[-0.227, 0.127]**, upper sign-flip **p=0.87500**. Private report flag in both arms; active rule bundles contingent sanctions and immunity. Shared partner notes both arms. No isolated leniency or collusion claim. [All outcomes and figure](results/s33_summary.md).
+<!-- S33 summary end -->
+
+**S33 exposure (post-outcome):** no extra charges or waivers occurred in primary rounds, while 29 private report flags were submitted. One qualifying warmup report produced a public charge that entered later history. Conditional incentives still differ between arms; the DUD does not isolate deterrence or establish a backfire. [Post-outcome exposure counts](results/s33_reporting_diagnostic.json).
+
+<!-- S32 summary start -->
+**S32:** paired t95% **[-3.023, 10.623]**, upper sign-flip **p=0.25000**. Two positive blocks,two ties,one negative; bootstrap/sign gates fail. One identity sentence at identical economics,self-only notes both arms;no fairness or agreement mechanism. [All outcomes and figure](results/s32_summary.md).
+Manager process arguments accidentally exposed some prefix rates/notes during generation;no abort/continue/analysis decision depended on them,frozen source unchanged. [Disclosure and reviews](logs/s32_review_disposition.md).
+<!-- S32 summary end -->
+
+## S34 — Payoff-inert reporting option
+
+[Design](DESIGN_S34.md),[every frozen outcome and figure](results/s34_summary.md),
+[raw arithmetic reconstruction](logs/s34_independent.json),
+[critic dispositions](logs/s34_review_disposition.md).
+Ten fresh games/five paired blocks;plain8/40 versus inert-flag7/40 Y approvals.
+Plain-minus-flag reduction+.025[-.100,.150] descriptive exact bootstrap,
+paired t[-.177366,.227366],upper signp.5;frozen DUD by both clauses.
+Plain.20 limits the possible reduction below the.25 HIT threshold;no equivalence
+or isolated schema/attention mechanism claim. Stage payoffs/shared notes matched;
+extra request wording and a required boolean field bundled with downstream choices.
+Primary flag requests all false;the prompt says request a check but no check executes.
+No explanation of S33,agreement label,secondary/reverse promotion or cross-pilot pooling.
+All200 decisions valid,zero retries/failures;50 raw metric cells,15 exact
+bootstrap+t summaries,15 sign tails and all200 action/note/reason bindings agree.
+Pre-live timing critique prompted actual-call pairing,strict positive overlap,
+timestamped preflight ordering and first-admission headroom guards.
+Synthetic fixtures alone use a fixed clock;real archive timestamps/cutoff unchanged.

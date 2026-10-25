@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "model_calls_forbidden": true,
+  "source_count": 20,
+  "byte_identical_artifacts": {
+    "results/s34_salience.json": "31d37a098d381e9384ba670b571a291a735804f16518eb381464a18d50630ae9",
+    "results/s34_summary.md": "079ddfec467f4de1c7c13adc997435be66e5f21a664613a3f6591872a4d8b412",
+    "figures/s34_salience.png": "75f6035af02e8d480e0e7e26a0fb6342191953b1fb5f140afb8213f79e7280df",
+    "REPORT.md": "f323a4c19c129e2830e04bd7fea91e9f8b3de91d2955adf8ff7114ad4c837c84",
+    "logs/s34_independent.json": "0c74432b457fb26ad6840c8ceae179009ad060d4d303a0c510f0128508d88676",
+    "logs/s34_release.json": "33825ab4dcf03ca64b604dd7274aa89e448f828cde8c7031af61b5cc977b0095"
+  }
+}

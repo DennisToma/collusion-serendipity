@@ -1,0 +1,12 @@
+{
+  "parent_exit_code": 0,
+  "reported_child_exit_codes": {
+    "opus": 0,
+    "codex": 0
+  },
+  "evidence": "Captured stdout of scripts/s34_reviews.py final: opus final exit0;codex final exit0",
+  "scope": {
+    "codex": "Raw reconstruction and read-only checks",
+    "opus": "Supplied text with tools disabled;no independent raw reread"
+  }
+}

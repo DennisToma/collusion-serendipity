@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 21.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 22.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -349,3 +349,16 @@ S33 exposure detail (post-outcome):six primary flags co-occurred with the
 reporter own adverse review. This is an observed action conjunction,not evidence
 of deliberate evasion,confusion or agreement. The warmup charge enters later
 public history;the pilot does not isolate a threat-only intervention.
+
+**S34: unpromoted DUD for inert-report reduction (axis own).**
+Ten fresh games/five paired blocks:plain8/40 versus inert-flag7/40 adverse partner
+approvals;r3–10 reduction+.025[-.100,.150] descriptive bootstrap,paired
+t[-.177366,.227366],upper signp.5. Two positive,two negative,one tied block.
+Both frozen DUD clauses apply;plain baseline.20 is below the.25 HIT threshold.
+The extra report wording/boolean field has no stage-payoff effect. Both arms
+share notes;the option is worded as a request but no check executes. Primary
+flag reports are all false. No equivalence,attention/schema-only mechanism,
+verified collusion,S33 explanation or pooling claim. No sibling headline change.
+[Design](DESIGN_S34.md) · [All outcomes/figure](results/s34_summary.md) ·
+[Raw reconstruction](logs/s34_independent.json).
+Reproduce:`uv run python scripts/s34_release.py`.

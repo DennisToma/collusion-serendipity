@@ -845,3 +845,11 @@ After pushing results: `uv run python scripts/s34_release.py --clean-clone`.
 The clean clone reuses the installed frozen dependency environment.
 Independent reconstruction is a separate arithmetic implementation adapted by the
 manager,not independent authorship or replication;critic review scopes are logged.
+
+S34 completed:plain8/40 versus inert-flag7/40 adverse approvals,reduction+.025
+[-.100,.150] descriptive bootstrap,t[-.177366,.227366],upper signp.5;frozen DUD.
+All200 decisions valid,zero retries/failures;both DUD clauses apply. Plain.20
+caps the possible observed reduction below the.25 HIT threshold;no equivalence
+or isolated-schema/attention mechanism claim. [All outcomes](results/s34_summary.md).
+The final registered S34 synthetic suite has15 tests;the complete current runner
+has304 tests. The earlier289-test references describe the S33 checkpoint.
