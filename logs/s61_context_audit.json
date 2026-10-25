@@ -1,0 +1,121 @@
+{
+  "passed": true,
+  "contexts": 10,
+  "public_round_records": 81,
+  "note_records": 162,
+  "independent_primitive_economics": true,
+  "structured_transform_roundtrip": true,
+  "repeat_request_byte_identical": true,
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "mapping": {
+        "B": "C",
+        "C": "B"
+      },
+      "history_rounds": 9,
+      "notes": 18,
+      "system_bytes": 1484,
+      "prompt_bytes": 3854
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "mapping": {
+        "C": "B",
+        "B": "C"
+      },
+      "history_rounds": 8,
+      "notes": 16,
+      "system_bytes": 1484,
+      "prompt_bytes": 3475
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "mapping": {
+        "A": "C",
+        "C": "A"
+      },
+      "history_rounds": 8,
+      "notes": 16,
+      "system_bytes": 1484,
+      "prompt_bytes": 3119
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "mapping": {
+        "C": "A",
+        "A": "C"
+      },
+      "history_rounds": 9,
+      "notes": 18,
+      "system_bytes": 1484,
+      "prompt_bytes": 3447
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "mapping": {
+        "A": "B",
+        "B": "A"
+      },
+      "history_rounds": 6,
+      "notes": 12,
+      "system_bytes": 1484,
+      "prompt_bytes": 2699
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "mapping": {
+        "B": "A",
+        "A": "B"
+      },
+      "history_rounds": 8,
+      "notes": 16,
+      "system_bytes": 1484,
+      "prompt_bytes": 3429
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "mapping": {
+        "B": "C",
+        "C": "B"
+      },
+      "history_rounds": 9,
+      "notes": 18,
+      "system_bytes": 1484,
+      "prompt_bytes": 3563
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "mapping": {
+        "C": "B",
+        "B": "C"
+      },
+      "history_rounds": 9,
+      "notes": 18,
+      "system_bytes": 1484,
+      "prompt_bytes": 3563
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "mapping": {
+        "A": "B",
+        "B": "A"
+      },
+      "history_rounds": 7,
+      "notes": 14,
+      "system_bytes": 1484,
+      "prompt_bytes": 3123
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "mapping": {
+        "B": "A",
+        "A": "B"
+      },
+      "history_rounds": 8,
+      "notes": 16,
+      "system_bytes": 1484,
+      "prompt_bytes": 3502
+    }
+  ]
+}
