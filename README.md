@@ -859,3 +859,37 @@ full cache-only release,15 S34 protocol tests and raw reconstruction;six
 published artifacts byte-identical,clone clean. Receipt:`logs/s34_clean_clone.json`.
 All304 repository tests passed locally after live results. No extra scientific
 calls or frozen-source changes. Existing frozen venv reused for remote replay.
+
+S35 (iteration23, axis B) compares employers with public per-unit productivity
+20/30 versus20/20. Both arms have passive human labor,integer rate cap20,public
+completed histories and self-only notepads. Only one entry of the public revenue
+map changes. The primary contrast is asymmetric minus symmetric paid wages in
+rounds3–10,with a prospectively fixed four-unit screen. This is a market-structure
+intervention,with legitimate incentive changes;it cannot isolate collusion.
+Read [DESIGN_S35.md](DESIGN_S35.md) for the fixed design and publication gates.
+
+After the complete archive is present,all of these commands are cache-only:
+
+```bash
+uv run python scripts/s35_analyze.py
+uv run python scripts/s35_independent.py
+uv run python scripts/s35_exact_check.py
+uv run python scripts/s35_present.py
+uv run python scripts/s35_release.py
+uv run python -m unittest scripts.test_s35
+```
+
+The23 S35 protocol checks include exhaustive economics for three productivity
+orderings,a full mocked non-dry lifecycle in a temporary git repository,strict
+JSON recursion rejection,private-note visibility,immutable CLI baseline and
+publication refusal for failed/interrupted archives. The synthetic lifecycle
+never calls a model. Original scientific timestamps/cutoffs remain unchanged.
+Remote-origin reproduction is `uv run python scripts/s35_release.py --clean-clone`;
+it reuses the installed frozen dependency environment and checks exact artifacts.
+
+A final-review clarification is regenerated separately with
+`uv run python scripts/s35_context.py` → `results/s35_context.json`.
+This POST-OUTCOME census binds every raw action with the frozen independent
+verifier,then counts all primary action profiles and notes. It changes no
+scientific estimate,verdict or frozen summary-renderer output. REPORT/DETAILS
+explain the low symmetric baseline and enumerate known-input fingerprint gaps.

@@ -1,13 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T00:56:58.343416+00:00; Phase2, iteration23 IN PROGRESS)
-- Selected S35,B: fresh employer productivity20/30 versus20/20;self-only notes.
-- Ten games/five fresh blocks24720..24724;T10,r3-10;zero tuning/pooling.
-- Primary asymmetric-minus-symmetric paid wage;fixed4-unit directional screen.
-- Final23 scoped/327 full tests and full mocked LIVE pipeline PASS;no live calls.
-- S34 remains frozen DUD;no hits promoted or sibling headline changes.
-- Both design critics/patch critic exit0;21-source freeze/push then one-shot pilot.
-- Risks:n5,uncontrolled draws,cap20 binds high firm,legitimate incentive effects.
+## Current state (2026-10-25T01:12:53.715425+00:00; Phase2, iteration23 RESULTS VERIFIED)
+- S35 productivity asymmetry:10games/5blocks,200valid decisions,zero retries/failures.
+- Paid wage20/30 firms 19.450 vs20/20 firms 11.800;difference+7.650[3.825,9.825].
+- Paired t[2.312334,12.987666],upperp0.0625;frozen ODD:four positive blocks,one tie.
+- No HIT,agreement or isolated mechanism claim;legitimate incentives differ.
+- Same human labor/cap20/public histories/self-only notes;no pooling with S31/S32.
+- Full200-key replay/21-source registration/runtime/UTC/export/actual overlap PASS.
+- Separate50cells/15bootstrap+t summaries/15sign tails/200auxiliary bindings PASS.
+- Exact15 summaries PASS;both final critics/context critic exit0;figure inspected.
+- Registration5a68969 pushed;scientificSHA76aa3531 stable.
+- Post-live327tests/local release/8-artifact exact regeneration PASS;push/clone next.
+- Risks:n5,cap binds high firm,wording/incentives,uncontrolled draws/provider scope.
+- Next:different axis;S30/S36 unrun,S32 unconfirmed;no sibling writes.
 
 ## Log
 
@@ -314,3 +319,13 @@
 - 2026-10-25T01:02:50.563501+00:00: S35 original Codex/Opus methodology critics both exit0,parent0. Accepted malformed-JSON recursion rejection and full mocked LIVE-path test in temporary git repo;23 scoped tests PASS including200 synthetic non-dry responses,launch/main/receipts/analyze/independent/exact/render/resume and terminal refusal. No paid calls. Original325-test suite PASS before added fixes;fresh final-source dry200-key replay/50cells/15bootstrap+t/15sign tails/15exact summaries PASS. Archived S31–S34 validity census800/800valid,zero rejects;retained unchanged strict schema/3-attempt rule. Independent patch critic running. Queued own/S36 gross/net wage-translation idea;no second pilot or outcomes.
 
 - 2026-10-25T01:04:04.350141+00:00: S35 patch Codex exits0,no blocker;13 read-only-compatible tests pass,its10 temp/cache sandbox errors explicitly outside the successful manager23-test run. Final327-test canonical suite PASS. Final21-source dry cache-only resume leaves every artifact unchanged;full replay/50raw cells/15bootstrap+t/15sign tails/15exact rational summaries PASS. Readiness hashes recorded before any paid outcomes. Strict schema/3-attempt and four-unit screen unchanged. Next source freeze/push then sole live launch.
+
+- 2026-10-25T01:04:34.756127+00:00: S35 registration5a68969094a398a0bb75b0ac7d1a1f2f2cdf709f pushed and observed at2026-10-25T01:04:20.607393+00:00. Sole foreground generation active with two game workers and per-block barrier;21sources frozen. Headroom2741.16s versus required1175.46s. No scientific prefix,notes,actions or partial effects inspected. Ledger registration reference finalized;no source changes or extra calls.
+
+- 2026-10-25T01:12:53.715425+00:00: S35 all10games/200valid decisions complete01:11:31UTC;sole live runner exits0,zero retries/failures. Frozen ODD:asymmetric19.450 versus symmetric11.800 paid wages,difference+7.650[3.825,9.825],t[2.312334,12.987666],upperp0.0625;four positives/one tie,no HIT. All200-key replay,21source/registration/environment/immutableCLI/UTC/export/actual-transport-overlap gates PASS. Separate50raw cells/15bootstrap+t summaries/15sign tails/200action+note+reason bindings and15exact rational summaries PASS. Scientific SHA76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d;figure inspected. Reports/ledgers updated,earlier S33/S34 details retained. No pooling,exclusions,tuning,secondary/reverse promotion,agreement/mechanism claim or sibling write. Final critics and release next.
+
+- 2026-10-25T01:15:17.674591+00:00: S35 final Codex critic exits0 and independently reconstructs raw primary,all3125 ordered bootstrap samples,all32 flips,exhaustive stage equilibria,all200 request information sets and full model-call-forbidden replay/50metric cells/15interval summaries/15sign tails. No material defect;paired actual transport starts<.565s and positive overlap confirmed. Post-live327 canonical tests and cache-only release/104selected local links PASS. Seven artifacts byte-identical under forbidden-call regeneration(scientific result,summary,figure,REPORT,independent/exact/release receipts). All21 frozen sources/scientificSHA76aa3531 unchanged. Final Opus pending;results push and remote clone next.
+
+- 2026-10-25T01:17:43.184818+00:00: both S35 final critics exit0,parent0. Codex independently reconstructs raw metrics/timing/protocol;Opus supplied-text-only scope explicit. Accepted post-outcome baseline context and explicit unrecorded NODE_OPTIONS/proxy/certificate/auth/ancestor-instruction fingerprint gaps. Separate all-profile census:32/40 symmetric primary rounds(10,10),four whole blocks;asymmetric rates19–20 but exact equilibrium profiles17/40;all100notes/arm confirm asserted counts. No inference,exclusion,promotion or change to frozen21sources/result/renderer. Signed+7.650 matched comparison retained with ordinary-incentive/low-baseline interpretation. Census is post-outcome manager validation;primary final review unchanged. Local release/regeneration after prose update then results push/clone next.
+
+- 2026-10-25T01:18:58.951896+00:00: final context Codex audit exits0;independently confirms all40profiles/arm,stage equilibria,100notes/arm,known fingerprint gaps and honest post-outcome scope. No contradiction of+7.650 or ODD. Final forbidden-call regeneration:all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,context census). All21registered sources/scientificSHA76aa3531 unchanged. Both final critics and contextcritic complete,no active generation/review.327post-live tests/local release106selectedlinks PASS. Results milestone then origin clone next.

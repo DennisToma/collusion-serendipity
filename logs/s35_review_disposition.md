@@ -37,3 +37,33 @@ Final patch Codex critic exits0 and finds no remaining blocker. Its13 read-only
 compatible checks pass;10 temp/cache-writing test errors are sandbox restrictions,
 not failures of the manager’s23-test full mocked-pipeline run. Fresh final source-manifest dry replay/independent
 and exact checks pass;23 scoped tests pass including full mocked LIVE branch.
+
+## Final claims critics
+
+Both final critics exit0,parent0. Codex independently reconstructs raw primary,
+all3125 bootstrap samples/32flips,stage equilibria,all200 information sets,
+full cache-only replay,source hashes and timing. Opus has supplied-text-only
+scope,independently recalculates primary/bootstrap band counts/t/sign/verdict,
+and explicitly does not inspect raw files,timing,release or origin.
+
+Accepted baseline contextualization,with a labeled POST-OUTCOME exhaustive raw
+profile census.32/40 symmetric rounds are(10,10),all in four whole blocks;
+asymmetric rates19–20 do not imply equilibrium profiles (only17/40 exact).
+Do not adopt “not asymmetry raising wages”:the signed matched comparison is
+unchanged;ordinary incentives and a low symmetric baseline are both relevant.
+Context is in REPORT/DETAILS/HITS plus a separate census,leaving the frozen
+summary renderer and scientific source/result bytes unchanged.
+
+Explicitly listed NODE_OPTIONS,proxy/certificate/auth/other CODEX_HOME and
+ancestor-instruction fingerprint gaps. No after-the-fact attestation is inferred.
+Confirmed actual100 notes/arm matches the asserted frozen written count;the
+unreachable cache_only assignment on resume is redundant,the archive branch
+returns through complete verified replay. No material bug or estimator change.
+Post-live327 tests,seven-artifact forbidden-call regeneration and local release
+pass. Results milestone and fresh origin clone pending.
+
+Targeted post-outcome context Codex audit also exits0,independently checks all
+profile counts/equilibria/actual notes and honest provenance,and confirms no
+change to the matched comparison or ODD. Eight artifacts,including separate
+context census,regenerate byte-identically with model calls forbidden. All21
+registered source files and canonical scientific result remain unchanged.

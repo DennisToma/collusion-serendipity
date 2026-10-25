@@ -1,0 +1,174 @@
+{
+  "scope": "POST-OUTCOME descriptive context census; no inferential CI, causal mechanism, secondary promotion or change to frozen verdict",
+  "passed": true,
+  "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d",
+  "conditions": {
+    "symmetric": {
+      "primary_rounds": 40,
+      "profiles": {
+        "10,10": 32,
+        "18,19": 1,
+        "19,19": 7
+      },
+      "profile_order": "roster order",
+      "pure_nash_profile_rounds": 7,
+      "notes_written_all_rounds": 100,
+      "blocks": [
+        {
+          "seed": 24720,
+          "paid_wages": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "all_paid10": true
+        },
+        {
+          "seed": 24721,
+          "paid_wages": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "all_paid10": true
+        },
+        {
+          "seed": 24722,
+          "paid_wages": [
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "all_paid10": false
+        },
+        {
+          "seed": 24723,
+          "paid_wages": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "all_paid10": true
+        },
+        {
+          "seed": 24724,
+          "paid_wages": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "all_paid10": true
+        }
+      ]
+    },
+    "asymmetric": {
+      "primary_rounds": 40,
+      "profiles": {
+        "19,19": 22,
+        "19,20": 14,
+        "20,19": 1,
+        "20,20": 3
+      },
+      "profile_order": "low/high productivity",
+      "pure_nash_profile_rounds": 17,
+      "notes_written_all_rounds": 100,
+      "blocks": [
+        {
+          "seed": 24720,
+          "paid_wages": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "all_paid10": false
+        },
+        {
+          "seed": 24721,
+          "paid_wages": [
+            20,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "all_paid10": false
+        },
+        {
+          "seed": 24722,
+          "paid_wages": [
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "all_paid10": false
+        },
+        {
+          "seed": 24723,
+          "paid_wages": [
+            20,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19,
+            19
+          ],
+          "all_paid10": false
+        },
+        {
+          "seed": 24724,
+          "paid_wages": [
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20
+          ],
+          "all_paid10": false
+        }
+      ]
+    }
+  }
+}

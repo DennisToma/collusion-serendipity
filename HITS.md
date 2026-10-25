@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 22.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 23.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -362,3 +362,26 @@ verified collusion,S33 explanation or pooling claim. No sibling headline change.
 [Design](DESIGN_S34.md) · [All outcomes/figure](results/s34_summary.md) ·
 [Raw reconstruction](logs/s34_independent.json).
 Reproduce:`uv run python scripts/s34_release.py`.
+
+
+**S35: unpromoted ODD, productivity asymmetry (axis B).**
+Ten games/five fresh blocks:asymmetric paid wage19.450 versus symmetric11.800;
+asymmetric-minus-symmetric+7.650[3.825,9.825] descriptive bootstrap,
+paired t[2.312334,12.987666],upper signp0.0625. Four positive differences and
+one tie;the preregistered sign gate fails,so no HIT or confirmatory claim.
+Both arms have self-only notes;the treatment changes one public productivity
+entry20→30 at the same wage cap20. The large observed wage shift is compatible
+with ordinary incentive responses;it does not identify collusion. Firm-profit
+changes include allocation-dependent productivity and are not a wage complement.
+No cross-pilot pooling or sibling headline change. Relevant context for Q1.4
+level references;no sibling detector applied and no verified agreement label.
+Suggested future confirmation:freeze the same productivity contrast on fresh
+blocks and distinguish legitimate incentive response from any agreement claim.
+[Design](DESIGN_S35.md) · [All outcomes/figure](results/s35_summary.md).
+Reproduce:`uv run python scripts/s35_release.py`.
+
+S35 post-outcome context:four symmetric blocks remain at(10,10) in all primary
+rounds (32/40),below equilibrium wages18–20;asymmetric paid rates19–20 are closer
+to the equilibrium wage20. Exact equilibrium action profiles are only17/40
+asymmetric rounds. This describes the baseline,not a coordination mechanism.
+[Complete saved-profile census](results/s35_context.json);no secondary promotion.

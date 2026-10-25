@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "observed_utc": "2026-10-25T01:18:58.951896+00:00",
+  "model_calls_forbidden": true,
+  "byte_identical_artifacts": {
+    "results/s35_asymmetry.json": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d",
+    "results/s35_summary.md": "5a7cec09d80c9fcbcf6d4557f69034682064d9e1fd03cbee4d42392273351f2e",
+    "figures/s35_asymmetry.png": "3d0f6ef3696d84553452db734cfa92769f585041f5b1ecfc4d601b95861b2942",
+    "REPORT.md": "c134ac182f1b22e7bd0532ff753fbc0a60fb463b6ff2589d929e324a1c0294a6",
+    "logs/s35_independent.json": "42923406eb12c0171a7127ff2613c5f330aa0e9f3ff9d16924c77f454f764451",
+    "logs/s35_exact_check.json": "9b43e283a80273ad8e5e1f5e468005ae6c8e060c1da53a550a9eea5008992bcb",
+    "logs/s35_release.json": "8832937c59c36fde960ec99c3682ebb48d37d5bea693707cdf70bc0aff96e31b",
+    "results/s35_context.json": "9d31b5bf5a3fa737bfbc2efecccdebdfb1ea1d173bedf0a82975eff44722916a"
+  },
+  "frozen_source_entries": 21
+}
