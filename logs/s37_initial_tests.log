@@ -1,0 +1,30 @@
+s37_24800_payroll complete 20 calls
+======================================================================
+ERROR: test_mocked_live_end_to_end (scripts.test_s37.Resource.test_mocked_live_end_to_end)
+Run the full LIVE branch against synthetic paid-route responses in a temp git repo.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s37.py", line 77, in test_mocked_live_end_to_end
+    self.assertTrue(verify(root/'data/s37_policyword',out)['passed'])
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s37_independent.py", line 152, in verify
+    no=[cases[s,'coded'][k] for s in range(24800,24805)];yes=[cases[s,'payroll'][k] for s in range(24800,24805)];ds=[a-b for a,b in zip(no,yes)]
+        ~~~~~~~~~~~~~~~~^^^
+KeyError: 'stage_regret'
+
+======================================================================
+FAIL: test_raw_quote_and_normalization_tamper_rejected (scripts.test_s37.Resource.test_raw_quote_and_normalization_tamper_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s37.py", line 259, in test_raw_quote_and_normalization_tamper_rejected
+    self.assertTrue(verify(data,out)['passed'])
+                    ^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s37_independent.py", line 124, in verify
+    assert obj['rate']==a['price'];ws.append(obj['rate'])
+           ^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+----------------------------------------------------------------------
+Ran 30 tests in 4.705s
+
+FAILED (failures=1, errors=1)

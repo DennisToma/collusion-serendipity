@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-25T02:14:56.785828+00:00",
+  "independent": {
+    "passed": true,
+    "metric_cells": 50,
+    "bootstrap_and_t_summaries": 15,
+    "sign_sets": 5,
+    "sign_tails": 15,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "DUD",
+    "primary_mean": 0.35,
+    "primary_ci": [
+      -1.0,
+      1.7
+    ],
+    "upper_p": 0.375,
+    "result_sha256": "888be6c9892852a6dbaac8070df55da046910216c1f97973b2799ef0c6447aea"
+  },
+  "exact": {
+    "passed": true,
+    "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+    "exact_summaries": 15,
+    "raw_bound_metric_cells": 50,
+    "result_sha256": "888be6c9892852a6dbaac8070df55da046910216c1f97973b2799ef0c6447aea"
+  },
+  "dry_render_label": true,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/policyword.py": "f5e5d36785a2594177ac56252bb82d309bab0954f0b35125a7ed9dc23fddae6e",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "DESIGN_S37.md": "964d2d297b3779c9a2b01c87c4d306ab23b6787d9b0d13ba3abe748962f37a4d",
+    "scripts/s37_analyze.py": "5716a9fa1e44913232faa351ac75c39ae11b54b805c95925dff8e0bd21dbe938",
+    "scripts/test_s37.py": "8f588e21f9c27fd05a955733bfe88ff879427ec129573289cd0d0b207fce1076",
+    "scripts/s37_launch.py": "7ecff84ee77c9cc2fe1257b1686d7b86e5a185901df77fc9427c36d209aee64c",
+    "scripts/s37_independent.py": "a034e7eea15f0d20ed5e9bd75a482c918fe635e42b30bf4cdf39ab0a77467729",
+    "scripts/s37_present.py": "3719ac1f2742ea2cfcaaa0d2d0ef3ddd1e0041a6ad171055fd341a25e48b0c1a",
+    "scripts/s37_reviews.py": "5a0b96010cda63fba1a2a3954059c5894ea0d6c7f52efa1dc157494445d4560a",
+    "scripts/s37_exact_check.py": "ce781233d4259c05cf0e37e2ca5181742e833f86063ba7521ef19c6361f8b3c1",
+    "scripts/s37_release.py": "a98eb89f7aa120b61def1798510885c74f1667d648633d0fa1010e706c8d89ff",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  }
+}

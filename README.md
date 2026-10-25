@@ -970,3 +970,28 @@ check out the S38 result commit recorded in EXPERIMENTS.tsv in a separate
 worktree and run the commands there. Keep archived source checks intact.
 Known untracked CLI inputs include AGENTS.override.md,skills/rules/profile
 includes and other effective configuration;no retrospective attestation.
+
+## S37 — Payroll wording at an identical quoted grid (iteration 26)
+
+[Prospective design](DESIGN_S37.md): CODED versus GROSS payroll wording,
+both quoting10..30 and subtracting10 for take-home and employer cost.
+Five fresh paired blocks24800..24804,ten games,T10,r3..10;no pooling with S36.
+The directional primary is coded-minus-payroll take-home,with the frozen2-unit
+screen. Wording/labels/sentence length are bundled;no isolated mechanism claim.
+
+After completion,reproduce offline from the registered source checkout:
+
+```bash
+uv run python scripts/s37_analyze.py
+uv run python scripts/s37_independent.py
+uv run python scripts/s37_exact_check.py
+uv run python scripts/s37_present.py
+uv run python scripts/s37_release.py
+uv run python -m unittest scripts.test_s37
+```
+
+`uv run python scripts/s37_release.py --clean-clone` verifies an origin clone
+using the existing frozen dependency environment. The separate reconstruction
+checks arithmetic and raw contracts;it is not independent authorship or replication.
+S38 admission/runtime/publication safeguards are retained;complete effective
+settings,provider execution and actual tool non-use remain unattested.

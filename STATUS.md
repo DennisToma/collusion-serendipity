@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T02:08:23.234534+00:00; Phase2, iteration25 COMPLETE)
-- F/S38:10games/5blocks,200valid decisions,zero retries/failures.
-- Known/hidden wages8.000each;all five paired contrasts0;frozen DUD.
-- Bootstrap/t[0,0] degenerate,upperp1;no population-equivalence claim.
-- Terminal wages8both;four blocks10/10,one0/0;no secondary promotion.
-- Full200key replay/22sources/registration/runtime/UTC/exports PASS.
-- Separate60cells/18bootstrap+t/18sign tails/200bindings/exact18 PASS.
-- Durable384post-live tests PASS;both final critics and parent exit0.
-- Call-forbidden7artifact regeneration PASS;scientificSHA38b00a81 unchanged.
-- Fresh origin clone30tests/seven artifacts exact,clean;frozen venv reused.
-- Registration6d354c3/resultsb7768e5 pushed;ledger references finalized.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- Next:fresh different axis;S37 queued only,S32 unconfirmed,S30 unrun.
+## Current state (2026-10-25T02:13:32.021188+00:00; Phase2, iteration26 IN PROGRESS)
+- own/S37:fixed-grid payroll-versus-coded wording pilot;no live outcomes.
+- Fresh24800..24804;ten games,T10,primaryr3-10,coded-minus-payroll.
+- Samequote10..30,minus10 map,productivity20,owner-only notes.
+- Frozen2-unit directional screen;no pooling,mechanism or replication claim.
+- Corrected30protocol tests and414repository tests PASS.
+- Full dry200keys/50cells/15exact summaries PASS;runtime safeguards retained.
+- Codex design critic complete;two low presentation fixes applied.
+- Both initial/focused design critics exit0;no remaining blockers.
+- S38 remains DUD:known/hidden8,all five paired contrasts0.
+- S36 remains ODD:+6.2[2.2,10],upperp.0625;no HIT.
+- Next:final suite,freeze,push,run S37,verify and publish.
+- S39 own proposal queued;S32 unconfirmed,S30 unrun;no sibling writes.
 
 ## Log
 
@@ -363,3 +363,7 @@
 - 2026-10-25T02:07:02.949536+00:00: S38 final model-call-forbidden regeneration PASS. Seven artifacts(scientific result,summary,figure,REPORT,independent/exact/release receipts) byte-identical;all20archive files and22frozen sources unchanged. Canonical scientificSHA38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7. git diff --check PASS;384post-live tests childexit0,both final critics/parent exit0. No active generation/review,new scientific calls,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone commit/push then origin clone next.
 
 - 2026-10-25T02:08:23.234534+00:00: iteration25 COMPLETE. S38 registration6d354c3f38dcce5137a19444e3494f38e768ed6a/resultsb7768e53b19d2a73801fdc81165bf5f78e9faf4e pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,separate raw reconstruction,exact companion,summary/figure regeneration,cache-only release and all30S38protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone git status clean. logs/s38_remote_clean_clone.json records exact commands/hashes and existing registered-venv reuse,not fresh dependency installation. Durable local384post-live tests childexit0;all7local artifacts byte-identical under model-call-forbidden regeneration;all20archive files/22source hashes/scientificSHA38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7 unchanged. Both final critics,parent exit0;Codex raw reconstruction/full chronology versus explicitly supplied-text-only Opus. Frozen DUD:known8/hidden8,all five paired differences0,bootstrap/t[0,0] degenerate,upperp1;no equivalence,isolated horizon/anchoring/unraveling or coordination claim. Terminal8both;four blocks10both,one0both;no secondary promotion. Source/config attestation limits and future frozen-checkout regeneration requirements documented. Ledger result reference finalized;Reports/HITS/README/DETAILS current. Tracked payload38824411bytes<100MB. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Next fresh different axis after F;S37 queued only,S30 unrun,S32 unconfirmed. Publication receipt/handoff commit and push next.
+
+- 2026-10-25T02:11:01.618912+00:00: iteration26 read rules/plan/state/direction/ledger and both sibling report/state summaries. Selected own/S37 after F/S38:queued fixed-grid payroll-versus-coded wording control of S36. Fresh five paired blocks,no pooling or mechanism claim. Registered design/ledger before calls;reused S38 admission/runtime/publication safeguards. Queued own/S39 offset-magnitude idea. Pre-live validation/reviews next;no direction deviation or sibling writes.
+
+- 2026-10-25T02:17:06.072785+00:00: S37 final-source pre-live checks PASS:30protocol tests,414canonical repository tests with durable childexit0,full dry200key replay,50raw metric cells,15bootstrap/t summaries,15sign tails,200action/note/reason bindings and15exact summaries. Initial verifier-copy errors and historical S25 Next-line interface failure preserved and corrected before outcomes. Initial and focused Codex/Opus design critics exit0;focused critics no blockers,Opus supplied-text scope explicit. Accepted synthetic preview labels,action-evaluation count,preworker heavy preflight and served-model caveat.20fingerprint benchmark median~.498s,max~.509s;400check extrapolation204s. All22frozen source hashes match final dry receipt. Live registration/push and sole runner next;no scientific outcomes,tuning,pooling or sibling writes.

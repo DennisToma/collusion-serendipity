@@ -1,0 +1,10 @@
+[
+  {
+    "critic": "codex",
+    "exit_code": 0
+  },
+  {
+    "critic": "opus",
+    "exit_code": 0
+  }
+]

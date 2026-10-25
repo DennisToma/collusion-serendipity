@@ -114,3 +114,8 @@ productivity20 and completed public histories.T10,primary r3..10,200planned
 valid decisions. Six frozen outcomes include descriptive final-round wage.
 Exploratory,zero tuning,no locked-test,pooled or confirmatory claim.
 Full source manifest/2-unit directional screen frozen before paid outcomes.
+
+S37:five fresh paired blocks24800..24804;ten owner-only-note labor games,
+CODED versus payroll wording at identical quote10..30 and minus10 mapping.
+T10,r3..10,200planned decisions;exploratory,zero tuning,no locked test,
+pooling or confirmatory claim. Selected after S36;full source freeze before calls.
