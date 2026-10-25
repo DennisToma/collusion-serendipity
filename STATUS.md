@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T03:13:07.261365+00:00; Phase2, iteration28 RESULTS)
-- B2/S42 complete:10fresh games/5blocks;third employer joinsr6,control staysduopoly.
-- Paid wage r7–10:entry10.000/control10.000;difference+0.000 [+0.000, +0.000];upperp1.00000.
-- FrozenDUD;pairedt[+0.000,+0.000];zero tuning,pooling or verifiedcoordination.
-- Pre-entry means10.000/10.000;descriptiveDID+0.000[+0.000,+0.000].
-- 225cached responses;retries{'control': 0, 'entry': 0};no failures.
-- Full225decision replay/source/runtime/UTC/schedule/export validation PASS.
-- Separate80raw metriccells/24exactbootstrap+t summaries/24sign tails PASS.
-- Registrationbccab9f pushed;all22frozen sources preserved;no sibling writes.
-- Both finalcritics exit0;439post-live tests PASS;frozen DUD unchanged.
-- Risks:smalln,stochastic prehistories,entry/identities/prompt-length bundle.
-- Provider/effective settings/tool non-use unattested;no causalmechanism claim.
-- Next:final forbidden-call regeneration,results push,origin clone/handoff.
+## Current state (2026-10-25T03:18:32.278477+00:00; Phase2, iteration28 COMPLETE)
+- B2/S42:10 fresh games/5 blocks,225 decisions;zero retries/failures.
+- Entry fromr6 versus two employers throughout;paid wage r7–10 is10.000 both.
+- Difference0[0,0],upperp1;frozen DUD,no HIT or verified coordination.
+- All5 paired ties;SD0 makes bootstrap/t formulas degenerate,no equivalence.
+- Pre-entry10/10;registered descriptive DID0;zero tuning/pooling/promotion.
+- Full archive replay plus80 raw metriccells/24exact-bootstrap+t summaries PASS.
+- All439 post-live repo tests and13 fresh-origin-clone protocol tests PASS.
+- Both finalcritics exit0;Codex raw reconstruction,Opus supplied-cell scope.
+- Call-forbidden regeneration:six artifacts/20archivefiles/22sources unchanged.
+- Registrationbccab9f/resultsb18f875 pushed;origin clone clean,six exact artifacts.
+- ScientificSHA56856f0c41ab;clone reuses installed frozen venv.
+- Risks:smalln,roster/prompt bundle;effective settings/provider/tool use unattested.
+- Next:fresh different axis/new world;S39/S41 queued,S32 unconfirmed,S30 unrun.
 
 ## Log
 
@@ -409,3 +410,5 @@
 - 2026-10-25T03:14:43.065672+00:00: S42 figure inspected:allfive paired paid-wage means overlay at10;no population-equivalence inference. Durable post-live439canonical tests childexit0;all20archivefiles/22frozen sources unchanged. Cache-only release PASS,all125local links resolve;explicit call-forbidden regeneration preserves allsix primary artifacts byte-for-byte,including canonical result56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4. Both finalcritics running. FrozenDUD,no HIT,tuning,pooling,secondary promotion or source edits;no active generation. Results push and fresh origin clone follow final reviews.
 
 - 2026-10-25T03:16:51.489462+00:00: S42 final Codex/Opus critics and parent exit0. Codex independently reconstructs80raw metriccells/all24exactbootstrap+t summaries/32signflips per contrast and complete archive/result;Opus explicitly supplied-per-game/code hand-check scope,no raw choices or code execution. Both confirm frozenDUD,no result-changing bug. Fixed generic REPORT economics to distinguish two-employer Nash18–20 from post-entry three-employer19–20;clarified “currently active” wording in both arms and local-input gaps. Prespecified aggregate secondary tables remain descriptive;no all-action-invariance,mechanism,coordination or population-equivalence claim. No scientific source/results edits or active generation/review. Final regeneration,results push and fresh origin clone next.
+
+- 2026-10-25T03:18:32.278477+00:00: iteration28 COMPLETE. S42 registrationbccab9f37e59a897b259a05048609a3907427a37/resultsb18f87547122c0c62c5c1dcb819d6b2c305f166d pushed (registration full SHA in config/ledger). Fresh full-history origin clone at results commit passes full scientific/archive/source/environment/registration/UTC/schedule replay,separate80raw metriccells/24exactbootstrap+t summaries/24sign tails,summary/figure regeneration,call-forbidden release and all13protocol tests. Six primary artifacts byte-identical;clone git status clean,durable remote childexit0. Existing installed frozen venv reused,not fresh dependency installation. Durable local439post-live tests childexit0;both finalcritics/parent exit0,with Codex raw/full-archive scope and Opus supplied-cell/code-only scope explicit. FrozenDUD:paid wages10.000both,allfive paired differences0,bootstrap/tformula[0,0] degenerate atSD0,upperp1;pre-entry10both,DID0 descriptive. No population-equivalence,all-action-invariance,isolated mechanism,agreement,coordination or sibling headline claim. All22scientific sources/20archivefiles unchanged;scientificSHA56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4. Ledger result reference finalized;REPORT/HITS/DETAILS/README current. S39/S41 proposals only,S32unconfirmed,S30unrun. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Final publication receipt commit/push next.

@@ -1080,3 +1080,10 @@ or provider/tool-use attestation. The “currently active” phrase occurs in bo
 arms before entry;the round6 addition is not explicitly preannounced. Offered-wage
 and regret diagnostics average different actor populations;paid-wage equality
 does not mean every submitted quote or behavior is unchanged.
+
+S42 registrationbccab9f/resultsb18f875 pushed. Fresh
+origin clone passes the complete offline release,all13S42protocol tests and six
+byte-identical artifacts;clone clean. Receipts:logs/s42_remote_clean_clone.json
+and logs/s42_remote_exit.json. Local439post-live tests and both finalcritics
+exit0;Opus scope is supplied cells/code only,Codex independently read raw
+archives. ScientificSHA56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4 unchanged.

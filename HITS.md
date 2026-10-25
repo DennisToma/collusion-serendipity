@@ -460,3 +460,8 @@ label collusion. Small-n/bootstrap/t/sign limitations remain.
 Reproduce: `uv run python scripts/s42_analyze.py`;
 `uv run python scripts/s42_independent.py`; `uv run python scripts/s42_present.py`;
 `uv run python scripts/s42_release.py`.
+
+S42 uncertainty:all five primary differences are zero;observed SD0 makes
+bootstrap bounds and the t formula degenerate,not population-equivalence
+evidence. No all-action-invariance claim;aggregate offered-wage/regret
+diagnostics average different actor populations after entry.
