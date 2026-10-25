@@ -1,0 +1,41 @@
+{
+  "version": "notepad-qwen-0.1",
+  "model": "qwen-3.6-35b",
+  "backend": "aqueduct",
+  "rounds": 10,
+  "n": 5,
+  "seed0": 25200,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/notepad_qwen.py": "d9ed7e3269ff9e7daac5af906c3c773524070baba7c371fe4281fdc4e1a2d25f",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/common_qwen.py": "6c9fea9739702b8ff991b44435b4772147f654ba7cff56cd8b16c02bbb051486",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S62.md": "393d497e5893627a1f81a67151fa24067903cf72427663e6dc5efdc6b063f9f4",
+    "scripts/s62_probe.py": "405a6414b8953e0dd12ea923bc6c8293345df36cd94d511ea091a8edeabdf886",
+    "scripts/s62_failure.py": "ded22baa680d1d56234b332b94ecf5041887956ed457a12e4e8170fb66589062",
+    "scripts/s62_analyze.py": "1c16ca1638a67bafd0a43673dfdd4b7eb64f6eea259f4747060a7e13007cca89",
+    "scripts/test_s62.py": "ae3715c46b937e99bf8c50abebedb98626e46b5265dff89037f72c0854d52da0",
+    "scripts/s62_launch.py": "ee23e87244fc8b465ce397fdd55dab79eac4a70bd26475a825ac84cca2c5ada6",
+    "scripts/s62_independent.py": "18309194ee433bb403e3de54c771eab99764e3efb9734123cadd602ffefa3a76",
+    "scripts/s62_present.py": "00162728aabe77cd022859f44e0edaf107135febd531fc53d90ee3e0e4f276e6",
+    "scripts/s62_release.py": "a0ead712e6ca3bde89462fd430fdbac644ca96296d9389e7b7f38da37a083050",
+    "scripts/s62_reviews.py": "ae9a72c77d738cd7b0001c127f418bb71c70ee1520e5034cf8fd13e451c4f24b",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-25T10:00:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "9088f76f016469b4d8bab1b4aa7d5f7abb0841ff"
+}

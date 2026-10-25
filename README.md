@@ -1394,7 +1394,7 @@ The canonical publication entry compares the frozen rendered summary,figure,appe
 ## S62 — Qwen workplace notepad generalization
 
 Fresh requested Aqueduct/qwen-3.6-35b version of S29,ten games/five blocks25200..25204;
-[design](DESIGN_S62.md). Original stage prompts/payoffs/statistics/screen preserved,
+[design](DESIGN_S62.md),[results](results/s62_summary.md),[all adverse returned text](results/s62_action_text.md). Original stage prompts/payoffs/statistics/screen preserved,
 fresh seeds and API serving. One neutral readiness response informed a prospective,
 symmetric exact-JSON-fence allowance;raw outputs retained. No game-outcome tuning,
 pooling,held-out claim or controlled model-family attribution.
@@ -1402,10 +1402,12 @@ pooling,held-out claim or controlled model-family attribution.
 After successful completion,reproduce without model calls:
 
 ```bash
+uv run --frozen python scripts/s62_probe_check.py
 uv run --frozen python scripts/s62_release.py
 uv run --frozen python scripts/s62_independent.py
 uv run --frozen python -m unittest scripts.test_s62
 uv run --frozen python scripts/s62_present.py
+uv run --frozen python scripts/s62_action_text.py
 ```
 
 The release checks full archived request/action/reason/note replay,source/Git
@@ -1414,3 +1416,5 @@ If failed or interrupted,use `uv run --frozen python scripts/s62_failure.py` for
 prefix-only auditing;it produces no scientific effect estimate. Never relaunch
 an incomplete pilot. Origin-clone proof reuses the installed frozen venv;no fresh
 dependency installation or provider/immutable-memory attestation is claimed.
+
+Post-outcome S62 probe supplement validates the complete cached neutral request and its chronology before registration/execution;the frozen probe CLI alone does not perform those checks on its cache-return path. Use the supplement above.

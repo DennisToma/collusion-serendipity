@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "registered_sources_unchanged": 21,
+  "original_selected_artifacts_unchanged": 1272,
+  "older_pilot_rows_preserved": 44,
+  "report_rows": 45,
+  "canonical_tests": {
+    "passed": true,
+    "tests": 769,
+    "failures": 0,
+    "errors": 0,
+    "group_counts": {
+      "ordinary": 729,
+      "s21": 14,
+      "s31": 12,
+      "s33": 13,
+      "s54_direct_entry": 1
+    },
+    "legacy_synthetic_fixtures": {
+      "s21_deadline": "2099-01-01T00:00:00+00:00",
+      "s31_now": "2026-10-24T23:29:00+00:00",
+      "s33_now": "2026-10-25T00:20:00+00:00"
+    },
+    "real_archive_deadlines_and_sources_unchanged": true,
+    "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+  },
+  "focused_tests": 16,
+  "supplemental_probe_mutation_checks": 3,
+  "result_sha256": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+  "figure_inspected": true,
+  "primary_verdict": "ODD",
+  "scientific_calls_accepted": 200,
+  "scientific_responses_returned": 204,
+  "artifact_sha256": {
+    "results/s62_notepad_qwen.json": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+    "results/s62_summary.md": "1734e9a140e7bb1decca87b5777811c796c04a95a7be61c794985860809171da",
+    "figures/s62_notepad.png": "052b72bf5a0d887ffd7ce7f65f3e11adbc887c014ec705e1ff93d96f134aaf09",
+    "results/s62_action_text.json": "7111542b331d20025ff75bb3a45b463e6956905541158cca64a79033590c3576",
+    "results/s62_action_text.md": "1c99e0265f9d7e8424b0956b465dc37bea4e932ee9309ff6a5d4029ff99ba7bd"
+  }
+}

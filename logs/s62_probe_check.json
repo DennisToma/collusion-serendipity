@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "cached_probe_request_route_bool_validated": true,
+  "probe_before_registration_and_execution": true,
+  "chronology_attestation": "Local client UTC/Git only",
+  "probe_sha256": "2227c160519ce21667ea302bebd06d14555b1b6185be4662e198e3110254f322"
+}

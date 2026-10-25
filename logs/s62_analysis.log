@@ -1,0 +1,41 @@
+{
+  "pilot": "S62",
+  "primary_metric": "pair_bad",
+  "primary_contrast": "shared minus self",
+  "verdict": "ODD",
+  "pair_score_gate_exact": "13/8",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "qwen-3.6-35b",
+  "backend": "aqueduct",
+  "dry": false,
+  "cached_responses": 204,
+  "invalid_attempt_retries": {
+    "self": 2,
+    "shared": 2
+  },
+  "exact_json_fenced_responses": 0,
+  "notes": {
+    "self": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "shared": {
+      "nonempty": 99,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero game-outcome tuning; no held-out or multiplicity correction",
+    "One readiness-informed exact-JSON-fence parser amendment before registration; no scientific outcomes used; differs from S29 strict serialization",
+    "Partner note delivery and stated readability vary together; content, expectations and downstream history are bundled",
+    "Two-person roster, directed payoffs, task schedules, public action history and own-note persistence fixed in design; realized histories may differ",
+    "Adverse approvals do not verify agreements or reciprocal intent",
+    "Pair-internal bonus gate mechanically related to approvals, not independent evidence",
+    "Client model and timing metadata do not attest provider execution; API draws uncontrolled",
+    "No tool definitions supplied in API requests; served model/settings remain unattested"
+  ]
+}
+Primary: {'mean': 0.1, 'mean_exact': '1/10', 'ci95': [-0.025, 0.25], 'ci95_exact': ['-1/40', '1/4'], 'paired_t_ci95': [-0.1302106666239977, 0.3302106666239977], 'exact_signflip_p_upper': 0.25, 'exact_signflip_p_lower': 0.9375, 'exact_signflip_p_two_sided': 0.5}
