@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "scripts/s42_analyze.py"
+  ],
+  "exit_code": 0,
+  "result_byte_identical_to_head": true,
+  "source_result_sha256": "56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4",
+  "stdout_sha256": "595df523fbe1346f1d3492d06a90051eaac06ab8c7c85af3e2f28425fb8964cb"
+}

@@ -1,0 +1,39 @@
+{
+  "pilot": "S42",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "entry minus control",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "7..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 225,
+  "invalid_attempt_retries": {
+    "control": 0,
+    "entry": 0
+  },
+  "notes": {
+    "control": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "entry": {
+      "nonempty": 125,
+      "written": 125
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out validation or multiplicity correction",
+    "Entry changes market size, visible identities, prompt length and endogenous histories; not an isolated competition mechanism",
+    "Entry is unannounced until round6; the entrant receives all public history and an empty private notepad",
+    "Seeds fix identities and task ordering, not model draws; pre-entry paths can differ between arms",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Stage Nash sets change with market size; low wages do not verify agreement or coordination",
+    "Passive labor accepts zero, fixed supply, identical revenue20 and self-only notepads; no strategic workers",
+    "Known local CLI fingerprints only; effective configuration, provider execution and actual tool non-use unattested"
+  ]
+}
+Primary: {'mean': 0.0, 'mean_exact': '0', 'ci95': [0.0, 0.0], 'ci95_exact': ['0', '0'], 'paired_t_ci95': [0.0, 0.0], 'exact_signflip_p_upper': 1.0, 'exact_signflip_p_lower': 1.0, 'exact_signflip_p_two_sided': 1.0}

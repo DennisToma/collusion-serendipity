@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-25T03:27:38.350602+00:00",
+  "fingerprint_seconds": [
+    0.5864632311277092,
+    0.5618554558604956,
+    0.5778080592863262,
+    0.567124716937542,
+    0.5888961176387966
+  ],
+  "median_seconds": 0.5778080592863262,
+  "max_seconds": 0.5888961176387966,
+  "forty_check_estimate_seconds": 23.555844705551863,
+  "historical_s40_twenty_calls_seconds": 50.627077,
+  "scope": "Engineering headroom reference;not a worst-case runtime guarantee or provider attestation"
+}
