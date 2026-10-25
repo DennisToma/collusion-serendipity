@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "result_revision": "2a21fee1d34b061026b56984cb92bd02865c5feb",
+  "clone_source": "origin",
+  "full_history": true,
+  "installed_venv_reused": true,
+  "fresh_dependency_install": false,
+  "clone_clean": true,
+  "command": [
+    "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+    "scripts/iteration54_handoff.py",
+    "verify"
+  ],
+  "command_exit": 0,
+  "command_output": "{\n  \"passed\": true,\n  \"baseline_commit\": \"aafd05a358c7ac1113402912011342ed198edb54\",\n  \"unchanged_baseline_files\": 3018,\n  \"original_report_rows\": 54,\n  \"local_links\": 262,\n  \"presentation_hashes\": {\n    \"results/iteration54_portfolio.json\": \"edfe0fcb197d930fbe9ee73f61b67ffc8f889cff0e2d2fdc2e9f25835867dc04\",\n    \"results/iteration54_brief.md\": \"fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6\",\n    \"REPORT.md\": \"4866bcf1b8bbe61daa918df49f674d818191afaa283adde0dc1f9056f10c808e\",\n    \"HITS.md\": \"1c6370e7f6f2dfbf3bc4620dba7456fa3dd35efe9adaf5f5e907ae101cdc8e82\",\n    \"README.md\": \"b471c017fa2862bdcd6b6f3a6422c6f76261072b80509ddb844d7d194ab8d8fc\"\n  },\n  \"implementation_sha256\": \"2c1d488be1698588a51e0d60831fdd4b4e0a5bb83efe7343be8bd76434397965\",\n  \"baseline_snapshot_sha256\": \"1e67ce0b4d9a1fa77fb7d264318933138edcf52de4911b85963d51dc482bddd3\",\n  \"llm_chat_patched_to_raise\": true,\n  \"new_experiments\": 0,\n  \"pooled_estimates\": 0,\n  \"scope\": \"Selected handoff replay, not full-portfolio reproduction; existing installed dependencies reused\"\n}\n",
+  "byte_identical_artifacts": {
+    "results/iteration54_portfolio.json": "edfe0fcb197d930fbe9ee73f61b67ffc8f889cff0e2d2fdc2e9f25835867dc04",
+    "results/iteration54_brief.md": "fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6",
+    "REPORT.md": "4866bcf1b8bbe61daa918df49f674d818191afaa283adde0dc1f9056f10c808e",
+    "HITS.md": "1c6370e7f6f2dfbf3bc4620dba7456fa3dd35efe9adaf5f5e907ae101cdc8e82",
+    "README.md": "b471c017fa2862bdcd6b6f3a6422c6f76261072b80509ddb844d7d194ab8d8fc",
+    "logs/iteration54_handoff_check.json": "36fb4bde455d51be259241a6bfd04143694f509e235f1757780900cc7b52a3cc"
+  }
+}
