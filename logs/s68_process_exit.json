@@ -1,0 +1,8 @@
+{
+  "exit_code": 143,
+  "observed_utc": "2026-10-25T11:33:08.208073+00:00",
+  "cause": "unknown",
+  "source": "exec session34513 returned exit_code143;later metadata inspection found30requests29responses29accepted and only a start event",
+  "posthoc_local_observation": true,
+  "exact_process_exit_time_attested": false
+}

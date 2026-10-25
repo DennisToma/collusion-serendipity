@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "baseline": "9a811024c12980c702fabccd328f22113bcd3e58",
+  "older_ledger_rows_checked": {
+    "IDEAS.tsv": 88,
+    "EXPERIMENTS.tsv": 110
+  },
+  "only_older_row_changed": "IDEAS.tsv:S68-proposal activation",
+  "no_second_pilot": true
+}

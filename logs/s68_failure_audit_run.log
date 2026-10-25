@@ -1,0 +1,37 @@
+{
+  "pilot": "S68",
+  "status": "FAILED_INTERRUPTED",
+  "scientific_verdict": null,
+  "behavioral_estimates_computed": false,
+  "planned_decisions": 30,
+  "admitted_requests": 30,
+  "returned_responses": 29,
+  "accepted_responses": 29,
+  "logical_retries": 0,
+  "complete_cases": 9,
+  "requested_model": "gpt-6-luna",
+  "recorded_model": "gpt-6-luna",
+  "backend": "codex",
+  "new_games": 0,
+  "tuning_attempts": 0,
+  "failure_scope": "Process exit143;one request has no archived reply;no completion event;no harness-generated terminal marker;cause unknown",
+  "registration_commit": "0318e808fed67b75199098e5316d39a14ae736b3",
+  "source_hashes_verified": 18,
+  "prefix_bindings_verified": 29,
+  "missing_reply": [
+    {
+      "case_id": "s29_24484_shared_B",
+      "view": "repeat",
+      "started_utc": "2026-10-25T11:31:11.002290+00:00"
+    }
+  ],
+  "first_admission_utc": "2026-10-25T11:29:49.405299+00:00",
+  "last_archived_return_utc": "2026-10-25T11:31:12.212647+00:00",
+  "local_exit_observation_utc": "2026-10-25T11:33:08.208073+00:00",
+  "interrupted_resume_and_analysis_reject": true,
+  "zero_model_calls_in_audit": true,
+  "prior_scientific_paths_unchanged": 1450,
+  "exact_prospective_split_append": true,
+  "process_or_provider_root_cause_attested": false,
+  "archived_prefix_intact": true
+}

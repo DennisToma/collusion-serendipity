@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "status": "FAILED_INTERRUPTED",
+  "model_calls_forbidden": true,
+  "raw_prefix_files_unchanged": 7,
+  "registered_sources_unchanged": 18,
+  "no_behavioral_effect_estimate": true,
+  "source_prefix_and_metadata_reconstructed": true,
+  "corrupt_prefixes_rejected": [
+    "request_count",
+    "response_count",
+    "response_duplicate",
+    "response_hash",
+    "accepted_binding",
+    "source_manifest",
+    "completion_event"
+  ],
+  "prior_report_rows": 51,
+  "current_contiguous_report_rows": 52,
+  "local_links_checked": 483,
+  "prewrite_document_corruptions_rejected": [
+    "REPORT.md",
+    "REPORT_DETAILS.md",
+    "README.md",
+    "HITS.md"
+  ],
+  "current_report_rows": 52,
+  "checked_sha256": {
+    "results/s68_failure.json": "bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290",
+    "results/s68_summary.md": "209a4428c5c934ee74bc1affe2e5b32262da46dbc941dc4c17dcecfbc07b2862",
+    "REPORT.md": "91aa86b31e3f420e9c7456bb3ec179f99eafc5ce91a6d963df1a84b27d9e7fa4",
+    "REPORT_DETAILS.md": "e504cc5363ba8d7fd5c2eff764f6f486229baabd1ee5f202608e159629038ff5",
+    "README.md": "94ff7819154c2decf2549500978884d4776c609f6c91e0468dd2ef98639d34c8",
+    "HITS.md": "9b361c205b85c32092e84ca7ad84becda5d7df3311543104e153056ddbe55eee"
+  },
+  "existing_venv_reused": true,
+  "process_root_cause_unknown": true
+}

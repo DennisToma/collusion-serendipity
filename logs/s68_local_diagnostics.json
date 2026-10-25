@@ -1,0 +1,25 @@
+{
+  "observed_utc": "2026-10-25T11:39:28.861817+00:00",
+  "diagnostic_scope": "Read-only local wrapper/launch/stdout/runner-log/process inspection;no new scientific calls",
+  "manager_runner_entries": [
+    "Sun Oct 25 11:18:59 AM UTC 2026 iter 51 start (timeout 4500s)"
+  ],
+  "manager_timeout_seconds": 4500,
+  "manager_still_active_during_inspection": true,
+  "explicit_pilot_shell_command": "uv run python scripts/s68_replay.py > logs/s68_live_run.log 2>&1",
+  "explicit_pilot_shell_timeout_configured": false,
+  "pilot_stdout_log_bytes": 0,
+  "launch_receipt_observed_utc": "2026-10-25T11:29:48.660363+00:00",
+  "root_cause": "unknown",
+  "all_other_tool_service_supervisor_signals_ruled_out": false,
+  "exact_exit_time_attested": false,
+  "test_suite_note": "895tests completed with zero failures/errors and full PASS receipt,but its enclosing exec session76212 later reported143. This is an additional tool/session symptom,not evidence of its cause.",
+  "next_iteration_procedure": "Use a supervised launch with captured process exit and signal receipts and prompt polling/heartbeats for any separately registered future pilot;do not resume S68.",
+  "subsequent_supervised_suite": {
+    "tests": 895,
+    "failures": 0,
+    "errors": 0,
+    "shell_exit_code": 0,
+    "cause_inference": false
+  }
+}

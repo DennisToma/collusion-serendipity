@@ -675,3 +675,10 @@ Unpromoted; no confirmatory request or sibling headline change.
 TYPE-Y approvals low charge **31/40**, high charge **4/40**; low−high **+0.675 [+0.450, +0.875]**, paired t95% [+0.335, +1.015], upper sign-flip p=0.03125. **EXPECTED / DUD** for the registered incentive calibration.
 
 Expected-incentive calibration only;no HIT promotion or sibling headline change. [Full results and reproduction](results/s69_summary.md).
+
+
+## S68 — Interrupted boolean-output polarity pilot
+
+S68 interrupted: **29/30** responses returned and accepted from **30** admitted requests;process exit143,one unanswered request,no completion event. **No behavioral effect estimate or scientific verdict.** Registered whole-pilot interruption rule retained;no restart or replacement call.
+
+[Design](DESIGN_S68.md) · [Failure counts and prefix verification](results/s68_failure.json) · [Full limits](results/s68_summary.md). No HIT or sibling headline change.

@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-25T11:43:07.702646+00:00",
+  "shell_exit_code": 0,
+  "source": "Continuous exec/write_stdin orchestration reached terminal exit0 in functions cell63",
+  "test_receipt_sha256": "e744eb39629630800eabe0aebe1cc3dcaafd9ccad5cd43801da98ee450df02a2",
+  "tests": 895,
+  "failures": 0,
+  "errors": 0
+}

@@ -1,17 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T11:23:36.548594+00:00; Phase2, iteration51 IN PROGRESS)
-- Selected own S68 after D/S69:output boolean polarity with repeat control.
-- Ten fixed S29contexts/five sourceblocks;30planned choices,zero newgames.
-- Full system/history/status/notes/economics fixed;only output mapping reversed.
-- Common historical-encoding clarification;decode before comparing approvals.
-- Primary excess disagreement above identical-request repeat;frozen .25screen.
-- All24focused checks/480decoded profiles pass;both refined design critics exit0.
-- No S68scientific calls yet;registration/push precedes calls.
-- Previous51pilotrows and scientific artifacts preserved;HITS unpromoted.
-- Canonical894preflight checks PASS with existing historical fixtures.
-- Next:freeze/push,run once,replay/report/final critics and clean clone.
-- Pilots stop14:30UTC;risks:n5,shared anchor,variability,blindspot atp=.5.
+## Current state (2026-10-25T11:37:08.864080+00:00; Phase2, iteration51 CLOSING)
+- S68 FAILED_INTERRUPTED:30admitted requests,29returned/accepted;exit143.
+- One repeat reply missing;start-only journal;root cause/exact exit time unknown.
+- No effect estimate,scientific verdict,HIT,restart or replacement call.
+- All18registered sources/1450earlier sciencepaths unchanged;prefix preserved.
+- Full29prefix bindings/30requests/registration/schedule/split audit PASS.
+- Analysis and interrupted resume reject with calls forbidden;no data rewriting.
+- Seven prefix/four prewrite document corruption probes reject;483links valid.
+- All24focused protocol checks/895canonical repository checks PASS.
+- REPORT52contiguous pilotrows,51olderrows preserved;HITS unpromoted.
+- Both final failure critics exit0;Codex raw/source versus Opus supplied-text scopes.
+- Supervised canonical895checks PASS,zero failures/errors and terminal exit0.
+- Next:commit/push,clean-origin replay and closing receipt.
+- Future different-axis pilot needs new registration;S68cannotresume;stop14:30UTC.
 
 ## Log
 
@@ -712,3 +714,9 @@
 - 2026-10-25T11:23:36.548594+00:00: iteration51 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling status/report summaries. Selected queued own S68 response-boolean polarity after D/S69. Thirty fresh one-shot decisions with identical-repeat control on ten outcome-independent S29 contexts/five reused blocks;no newgames. Copied S61 lifecycle into separate sources;all historical scientific sources unchanged. Exact single equal-length mapping substitution,common history-encoding clarification,and fresh-only canonical decoding. Full81history-record/162note/16profile equivalence audit and21focused tests PASS;canonical preflight and independent Codex/compact supplied-text Opus design critics running. New auxiliary audit initially treated adverse-count output as loss units;corrected before calls,original failure retained in task output. No scientific outcomes inspected,calls,tuning,secondpilot or direction deviation.
 
 - 2026-10-25T11:29:39.560719+00:00: S68 preflight COMPLETE. Independent initial and refined Codex critics exit0,no confirmed high/medium bug;compact supplied-text Opus initial auxiliary-audit finding fixed before calls,and refined cache/boolean questions resolved with actual-router separate-dispatch test plus structured field audit. Full actual-decoder480case/view/stageprofiles/81publicroundrecords/162notes verified. All24focused checks PASS;canonical preflight894checks PASS via established scripts/s65_tests.py fixtures. Initial older run_tests.py diagnostic892checks had7failures/1error from expired/inapplicable historical fixtures,preserved in logs/s68_legacy_runner_diagnostic.log;no scientific archive/source changed. Canonical collected23S68tests before last added actual-router regression;final canonical will collect24. Every1450prior sciencepath unchanged,exact prospective split append registered,51prior reportrows retained. Frozen18source manifest ready;queued ownS71explicit-action-words idea before calls. No scientificcalls,outcomes,tuning,secondpilot,siblingwrite or direction deviation. Registration commit/push next.
+
+- 2026-10-25T11:37:08.864080+00:00: S68 scientific pilot FAILED_INTERRUPTED. Registration0318e808fed67b75199098e5316d39a14ae736b3 pushed and locally observed remotely before first admission11:29:49.405299UTC. Tool session34513 later returned exit143;archive has30admissions,29returned/accepted,9complete triplets and one unanswered last-block repeat request;last archived return11:31:12.212647UTC. No complete/failure journal event or harness failure marker;process/provider root cause and exact exit time unknown. Post-interruption local observation receipt explicitly marked as such. Preserved all original7archivefiles and18frozen scientific sources;no signal-handler fiction,journal repair,relaunch,replacement/extra scientificcall,decoding aggregate,effect/interval/p-value,completed-case estimate or scientific verdict. Registered complete-only rule retained;queue ODD/unclassified is operational only. Additive post-run failure audit binds29responses/accepted records,30requests,sources/registration/schedule/runtime hashes and exact prospective split append;analysis/validate/resume reject with calls forbidden and raw bytes intact. All1450prior sciencepaths/51prior reportrows preserved;REPORT52contiguous rows. Call-forbidden deterministic failure presentation/release PASS;sevenprefix/fourprewrite-document corruptions reject,480links resolve. Finalcanonical895checks PASS using established historical synthetic fixtures;24S68protocol tests included. Final independent raw/source Codex and supplied-text-only Opus failure critics running. No siblingwrite,HIT,headlinechange or direction deviation.
+
+- 2026-10-25T11:40:32.841569+00:00: Both final failure critics exit0. Codex independently checks all30admissions/29rawresponses/accepted bindings,source/case/registration/runtime/schedule/concurrency,interrupted analysis/resume rejection,all18sourcehashes/1450prior sciencepaths/51old reportrows and byte-identical failure-metadata/document reconstruction;no high/medium bug. Compact Opus supplied-text review confirms counts/no-effect scope;accepted clarification separates30admissionbindings from29responsebindings. Read-only local diagnostics find no exhausted manager4500s timeout or explicit pilot shell timeout;manager still active,stdout empty. Rootcause/exactprocess-exit time unknown. The895test zero-failure receipt is complete,but enclosing toolsession76212 also returned143 later;supervised wrapper rerun with continuous polling active to capture terminalstatus. No inference of causality from this symptom. Failure release retains sevenprefix/fourprewrite-document rejection probes and unchangedraw/no-estimate guarantees. Older ledger rows verified exactly except prospective S68-proposal activation. No extra scientific call,resume,behavioral aggregation or direction deviation.
+
+- 2026-10-25T11:43:10.629738+00:00: Supervised canonical rerun completed895checks,zero failures/errors,and actual terminal exit0 in continuously polled functions cell63. Receipt logs/s68_repository_supervised.json plus local exit receipt. Scientific-pilot rootcause remains unknown;no inference from supervision outcome. Failure result/prose regenerated and byte-identical release PASS;updated summaries distinguish30admissionbindings/29responsebindings and local exit-observation versus termination time. All18sourcehashes/1450older sciencepaths unchanged;52contiguous reportrows/51olderrows and all483local links verified. Local process snapshot finds no active gpt-6-luna CLI;provider-side execution unattested. Both final critics complete;no further simulation/review. Ready for scientific/document result commit,push and clean-origin reproduction.

@@ -32,3 +32,23 @@ cache-only without changing bytes. Provider-side caching remains unknown.
 Statuses contain only TYPE-X/Y strings;notepads have integer round/string
 ID/text fields,asserted in the full context audit. Original-plus-clarification
 anchor wording retained. Middle positions anchor3/inverted2/repeat0 are disclosed.
+
+Final failure critics both exit0. Codex independently reconstructs all30requests,
+29responses/accepted rows,case/schedule/source/registration/runtime bindings,
+incomplete validate/analyze/resume rejection and byte-identical failure
+JSON/summary/four-doc reconstruction. It verifies18sourcehashes,1450prior science
+paths and51older contiguous reportrows. Read-only scope;no write-producing
+release or clean clone executed by that critic. No confirmed high/medium bug.
+Compact supplied-text Opus confirms counts/no-effect framing only;it does not
+certify raw provenance. Accepted its ambiguity finding:the report now separately
+labels30admissionbindings and29returned-response/acceptedbindings,which the code
+already verified. Added read-only local diagnostic receipt:manager4500s timeout
+not exhausted,manager still active,no explicit pilot shell timeout,empty stdout;
+root cause/exactexit time unknown. The separate test tool session also reported
+143 after a complete895/zero-failure receipt;supervised repository rerun keeps
+polling and captures its terminal process status. No cause inference from this
+symptom. Clarified retries=1 means one router attempt,zero extra logical request
+admissions;provider-side unknowns retained. Raw journals and18scientific sources
+stay byte-identical. No behavioral aggregates,effects,p-values or scientific
+verdict computed. Only additive failure-metadata/presentation changes after
+interruption;original complete-only design honored.

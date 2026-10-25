@@ -1,0 +1,27 @@
+{
+  "commit": "0318e808fed67b75199098e5316d39a14ae736b3",
+  "remote": "0318e808fed67b75199098e5316d39a14ae736b3",
+  "observed_utc": "2026-10-25T11:29:48.660363+00:00",
+  "server_time_attested": false,
+  "source_sha256": {
+    "DESIGN_S68.md": "6efd9d136d5a164bb1df49570b27a86ee187b5f498cf4e77788d02f6d507cda4",
+    "scripts/s68_replay.py": "e467b6b38701b945f3cb0b0807edaf09027ebf1f0f9623dd9f5378dfc7fbab5c",
+    "scripts/s68_independent.py": "90eead10c4c3927b729dbd89a3abb8fdfd6e380a52e75711192278dd66a01170",
+    "scripts/s68_present.py": "829eb35d2d844ec7591fc73992ce59564ab037ecb9d67634c1770c199273e0ee",
+    "scripts/s68_release.py": "3f01fc8dae8042b595f45132b1b6482533f3ab5db833f7335f35ff74e3d3f0a4",
+    "scripts/test_s68.py": "3cb4cda6e44193a838ef34e725b267da1e936f8fce5fb8697db99ecddda87fe6",
+    "scripts/s68_action_text.py": "ea94e1b2cb4d62532d5b45918763379786303fdbf399088a57275353b6a5552e",
+    "scripts/s68_context_audit.py": "d1d9814f80c7c18dd056a53081d78c2fa28392fb00167a4bf14fcc1641265ffe",
+    "scripts/s68_reviews.py": "cfaad1b1a7ad37c01ea4b244e1a8429ded345cd28d9dafff14f6394ce64a6f25",
+    "scripts/s68_publish.py": "32074cabf486e9fe7c22a3471721c5b50738c3e19f6ede7e3fc835406b83c055",
+    "scripts/s68_archive_audit.py": "185fb7b7e84d603aecd25156ed5bb55b9f15332d40d6a8aba796ba66425ca3fa",
+    "scripts/s68_postcheck.py": "01644d91e65bbd073531e9ca4e29d2e730356332d397db742cd7ef26e8303511",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa"
+}

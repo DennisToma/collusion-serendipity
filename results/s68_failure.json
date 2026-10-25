@@ -1,0 +1,48 @@
+{
+  "pilot": "S68",
+  "status": "FAILED_INTERRUPTED",
+  "scientific_verdict": null,
+  "behavioral_estimates_computed": false,
+  "planned_decisions": 30,
+  "admitted_requests": 30,
+  "returned_responses": 29,
+  "accepted_responses": 29,
+  "logical_retries": 0,
+  "complete_cases": 9,
+  "requested_model": "gpt-6-luna",
+  "recorded_model": "gpt-6-luna",
+  "backend": "codex",
+  "new_games": 0,
+  "tuning_attempts": 0,
+  "failure_scope": "Process exit143;one request has no archived reply;no completion event;no harness-generated terminal marker;cause unknown",
+  "registration_commit": "0318e808fed67b75199098e5316d39a14ae736b3",
+  "source_hashes_verified": 18,
+  "admission_bindings_verified": 30,
+  "returned_response_bindings_verified": 29,
+  "prefix_bindings_verified": 29,
+  "missing_reply": [
+    {
+      "case_id": "s29_24484_shared_B",
+      "view": "repeat",
+      "started_utc": "2026-10-25T11:31:11.002290+00:00"
+    }
+  ],
+  "first_admission_utc": "2026-10-25T11:29:49.405299+00:00",
+  "last_archived_return_utc": "2026-10-25T11:31:12.212647+00:00",
+  "local_exit_observation_utc": "2026-10-25T11:33:08.208073+00:00",
+  "interrupted_resume_and_analysis_reject": true,
+  "zero_model_calls_in_audit": true,
+  "raw_archive_sha256": {
+    "responses.jsonl": "9913c957e00e0432147341be0de5b8a01248989b955ba3e95e953d99ae3a7ece",
+    "config.json": "30d36a5a22816c8315574e0d6313b2b0499f6b6216f25a0cef367eb4b1db6cd2",
+    "schedule.json": "286eba884d5e8aafe4c8e0e7822cc48948fbcdeeae470b6a1cc4e0379c7fea21",
+    "execution.jsonl": "7fd9a62b913909b4d4fd83f6e44154e99ecfec7ded38a6fef7bbde92dc2d43b1",
+    "cases.json": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa",
+    "accepted.jsonl": "db1e8ef3909a927e6e373b6e6726212629542b8bebc90a7e407608ec25278b32",
+    "requests.jsonl": "fc209560d2d08d505bdcc21248ff054fb293f77b26c556c5cbb7f3911406d0c6"
+  },
+  "prior_scientific_paths_unchanged": 1450,
+  "exact_prospective_split_append": true,
+  "process_or_provider_root_cause_attested": false,
+  "archived_prefix_intact": true
+}
