@@ -790,3 +790,20 @@ committed/pushed before one-shot `uv run python scripts/s33_launch.py`.
 After completion, offline reproduction uses `uv run python scripts/s33_release.py`;
 `uv run python scripts/s33_present.py` renders every outcome/figure/report row.
 Do not relaunch the live generator or relax an archived failure contract.
+
+S33 complete: [all outcomes and paired figure](results/s33_summary.md),
+[frozen result](results/s33_leniency.json),[dataset visibility guide](data/s33_leniency/README.md).
+Registered reduction screen DUD;no promoted HIT or sibling headline change.
+A separately labeled post-outcome exposure diagnostic reproduces with
+`uv run python scripts/s33_reporting_diagnostic.py`;its output is
+[the reporting contingency census](results/s33_reporting_diagnostic.json).
+No primary sanctions or waivers triggered;do not equate report flags with
+executed enforcement or infer an isolated mechanism from this package.
+All20 registered scientific sources remain unchanged after outcomes.
+
+The S33 separate raw-arithmetic verifier was adapted by the manager from the
+archived S29 checker. “Independent reconstruction” denotes separate arithmetic
+implementation,not independent authorship or replication. Codex and Opus
+critics provide independent reviews with their checked/unchecked scope recorded.
+Remote reproduction including the post-outcome companion uses
+`uv run python scripts/s33_validate.py --clean-clone` after results are pushed.

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "observed_utc": "2026-10-25T00:27:42.546766+00:00",
+  "scientific_registration": "ad3cfff2e9537671a132924d06fab5b973624dc8",
+  "scientific_sources_unchanged": 20,
+  "result_sha256": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+  "prelaunch_repository_tests": 289,
+  "S33_protocol_tests": 13,
+  "all_key_replay": 200,
+  "independent_raw_metric_cells": 70,
+  "independent_exact_summaries": 21,
+  "independent_sign_tail_checks": 21,
+  "all_accepted_action_note_reason_bindings": 200,
+  "post_outcome_companion_verified_by_independent_final_codex": true,
+  "figure_visually_inspected": true,
+  "final_critics": {
+    "codex_exit": 0,
+    "opus_exit": 0,
+    "parent_exit": 0
+  },
+  "remote_clone": "pending publication"
+}

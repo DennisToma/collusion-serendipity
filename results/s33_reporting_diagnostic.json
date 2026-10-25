@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "scope": "POST-OUTCOME descriptive exposure diagnostic; no causal/intent/secondary promotion",
+  "conditions": {
+    "baseline": {
+      "all_rounds": {
+        "counts": {
+          "adverse_reviews": 10,
+          "both_submissions_Y": 12,
+          "decisions": 100,
+          "qualifying_requests": 0,
+          "report_flags": 1,
+          "reported_own_adverse_reviews": 0,
+          "reports_with_partner_submission_Y": 1,
+          "reports_with_reporter_submission_Y": 0,
+          "rounds": 50,
+          "waiver_eligible_own_adverse_reviews": 0
+        },
+        "type_cells": {
+          "reporter_X_partner_X_decisions": 24,
+          "reporter_X_partner_X_flags": 0,
+          "reporter_X_partner_Y_decisions": 26,
+          "reporter_X_partner_Y_flags": 1,
+          "reporter_Y_partner_X_decisions": 26,
+          "reporter_Y_partner_X_flags": 0,
+          "reporter_Y_partner_Y_decisions": 24,
+          "reporter_Y_partner_Y_flags": 0
+        }
+      },
+      "primary": {
+        "counts": {
+          "adverse_reviews": 10,
+          "both_submissions_Y": 10,
+          "decisions": 80,
+          "qualifying_requests": 0,
+          "report_flags": 0,
+          "reported_own_adverse_reviews": 0,
+          "reports_with_partner_submission_Y": 0,
+          "reports_with_reporter_submission_Y": 0,
+          "rounds": 40,
+          "waiver_eligible_own_adverse_reviews": 0
+        },
+        "type_cells": {
+          "reporter_X_partner_X_decisions": 20,
+          "reporter_X_partner_X_flags": 0,
+          "reporter_X_partner_Y_decisions": 20,
+          "reporter_X_partner_Y_flags": 0,
+          "reporter_Y_partner_X_decisions": 20,
+          "reporter_Y_partner_X_flags": 0,
+          "reporter_Y_partner_Y_decisions": 20,
+          "reporter_Y_partner_Y_flags": 0
+        }
+      }
+    },
+    "amnesty": {
+      "all_rounds": {
+        "counts": {
+          "adverse_reviews": 13,
+          "both_submissions_Y": 12,
+          "decisions": 100,
+          "qualifying_requests": 1,
+          "report_flags": 40,
+          "reported_own_adverse_reviews": 7,
+          "reports_with_partner_submission_Y": 37,
+          "reports_with_reporter_submission_Y": 24,
+          "rounds": 50,
+          "waiver_eligible_own_adverse_reviews": 0
+        },
+        "type_cells": {
+          "reporter_X_partner_X_decisions": 24,
+          "reporter_X_partner_X_flags": 0,
+          "reporter_X_partner_Y_decisions": 26,
+          "reporter_X_partner_Y_flags": 16,
+          "reporter_Y_partner_X_decisions": 26,
+          "reporter_Y_partner_X_flags": 3,
+          "reporter_Y_partner_Y_decisions": 24,
+          "reporter_Y_partner_Y_flags": 21
+        }
+      },
+      "primary": {
+        "counts": {
+          "adverse_reviews": 12,
+          "both_submissions_Y": 10,
+          "decisions": 80,
+          "qualifying_requests": 0,
+          "report_flags": 29,
+          "reported_own_adverse_reviews": 6,
+          "reports_with_partner_submission_Y": 28,
+          "reports_with_reporter_submission_Y": 18,
+          "rounds": 40,
+          "waiver_eligible_own_adverse_reviews": 0
+        },
+        "type_cells": {
+          "reporter_X_partner_X_decisions": 20,
+          "reporter_X_partner_X_flags": 0,
+          "reporter_X_partner_Y_decisions": 20,
+          "reporter_X_partner_Y_flags": 11,
+          "reporter_Y_partner_X_decisions": 20,
+          "reporter_Y_partner_X_flags": 1,
+          "reporter_Y_partner_Y_decisions": 20,
+          "reporter_Y_partner_Y_flags": 17
+        }
+      }
+    }
+  }
+}

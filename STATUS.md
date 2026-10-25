@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T00:12:23.878577+00:00; Phase2, iteration21 IN PROGRESS)
-- Selected S33 axis D: private reporting-amnesty package in two-person workplace.
-- Ten fresh games/five blocks24640..24644,T10,r3..10;200planned decisions.
-- Both arms share partner notes and report schema;active rule adds sanctions/immunity.
-- Primary baseline-minus-amnesty approval reduction;frozen .25/sign/bootstrap screen.
-- Thirteen S33 tests PASS:128 stage cases,privacy,parser/failures,closure/dry mutations.
-- Codex+Opus methodology and Codex patch critics exit0;all fixes pre-live.
-- S32 remains ODD:human-compute+3.8[-.25,7.875],upperp.25;no HIT.
-- Siblings final/frozen;no sibling writes or headline changes.
-- Full289-test canonical suite PASS,scoped historical synthetic clocks only.
-- Next:freeze/push,run single pilot,full verification/reports/push.
-- Risks:small n,control floor,intervention bundles sanctions/immunity/wording.
+## Current state (2026-10-25T00:24:59.156724+00:00; Phase2, iteration21 REVIEWED)
+- S33 reporting/amnesty complete:10games/5blocks,200valid decisions,no retries/failures.
+- Baseline10/40 versus amnesty12/40 Y approvals;reduction-.050[-.175,.050].
+- Paired t[-.226964,.126964],upperp.875;frozen DUD,no HIT or backfire claim.
+- All200-key replay/20-source registration/export/timing/runtime checks PASS.
+- Independent70cells/21exact summaries/21sign sets/200action+note+reason bindings PASS.
+- Cache-only resume leaves data/result byte-identical;figure generated.
+- Primary report flags0vs29;no primary extra/waived charges;warmup1qualifying report.
+- Reporting exposure companion is POST-OUTCOME,no mechanism/secondary promotion.
+- Prelaunch289tests PASS,synthetic clocks scoped;all scientific sources unchanged.
+- Codex+Opus final critics exit0,agree DUD;Codex independently reproduces every metric.
+- Next:commit/push results,remote clone,finalize publication receipts.
+- Risks:n5,bundled intervention,no primary realized enforcement,unattested provider.
 
 ## Log
 
@@ -288,3 +289,9 @@
 - 2026-10-25T00:12:23.878577+00:00: iteration21 read all rules/plans/direction/ledgers and sibling report/state summaries. Selected fresh intervention S33 after own/S32;registered private reporting/amnesty versus inert flag at identical shared-note workplace base. Implemented from archived S29 lifecycle,using one-transport-attempt cache and immutable in-memory known-CLI baseline. Nine pre-live tests PASS including128 stage cases and full dry replay/independent reconstruction. Independent methodology critics running. No direction deviation or live calls.
 
 - 2026-10-25T00:16:24.840526+00:00: both methodology critics exit0;Codex patch audit exit0. Accepted optimization/completion guards,all missing mocked failure paths,ordinary-net-payoff wording and admission-only deadline authority. Added private-report stripping from observable exports,ground-truth bindings and exact21-summary verification. All13 S33 tests and fresh200-key dry/70cells/21summaries/21sign checks PASS. Queued own S34 inert-report-schema salience idea;no second experiment or live calls.
+
+- 2026-10-25T00:16:49.428592+00:00: S33 registrationad3cfff2e9537671a132924d06fab5b973624dc8 committed/pushed and matching remote main observed. One-shot live launch started with two workers and block barriers;no partial treatment effects will be inspected. Scientific source manifest20 entries remains frozen;known CLI baseline checked on every admission and at completion.
+
+- 2026-10-25T00:24:59.156724+00:00: S33 completed all10 games/200valid decisions,no retries/failures. Frozen analysis DUD:baseline10/40 versus amnesty12/40 adverse approvals,reduction-.050[-.175,.050],t[-.226964,.126964],upperp.875. All200-key replay,20source registration/export/timing/runtime checks and independent70cells/21exact bootstrap+t summaries/21sign sets/200history+note+reason/action bindings PASS. Cache-only resume byte-identical. Registered primary extra/waived-charge means zero prompted a separately labeled post-outcome reporting-exposure diagnostic:29flags,zero qualifying primary requests,one warmup qualifying request. No intent/backfire/causal-null or secondary promotion;scientific estimates/sources unchanged. Figure generated;final critics next.
+
+- 2026-10-25T00:27:42.546766+00:00: final independent Codex and Opus critics both exit0;review parent exit0 explicitly verified. Codex independently recalculates all70cells/21bootstrap+t intervals/21sign tails,128stage cases,all observable report exclusions and diagnosticJSON;Opus independently hand-verifies primary/t/sign/verdict and qualifies its unchecked raw/bootstrap scope. Accepted wording/provenance/warmup-history clarifications;no scientific source/result changes. All20 registered sources unchanged,resultSHA256bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb. Complete offline release PASS;figure visually checked. Results ready for milestone commit/push and remote-clone check.

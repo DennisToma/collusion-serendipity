@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 18.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 21.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -322,3 +322,30 @@ analysis unchanged,no partial contrast or tuning. [Disclosure](logs/s32_review_d
 [Design](DESIGN_S32.md) · [All outcomes](results/s32_summary.md).
 Reproduce:`uv run python scripts/s32_release.py`;
 `uv run python scripts/s32_present.py`.
+
+
+**S33: unpromoted DUD for a private reporting/amnesty reduction screen (axis D1).**
+Ten fresh games/five blocks:baseline10/40 versus amnesty12/40 adverse approvals;
+baseline-minus-amnesty -.050[-.175,.050] descriptive bootstrap,t[-.227,.127],
+upper sign p=.875. Both arms share partner notes and the same private report
+schema;active reporting bundles contingent extra sanctions,immunity and wording.
+No reduction resolved,no backfire/causal-null/isolated-leniency or agreement claim.
+
+Registered primary-window sanctions and waiver totals are both zero. A labeled
+POST-OUTCOME exposure count finds29 primary flags but zero qualifying requests;
+one qualifying request occurs during warmup. Report flags are requests to check
+simultaneous current actions,not verified allegations. Private request counts do
+not imply executed enforcement. No secondary promotion or sibling headline
+change;no sibling detector is applied. Confirming package efficacy would need
+fresh registered games and an appropriate enforcement-exposure/comprehension
+control,not selecting or pooling these observed episodes.
+
+Reproduce:`uv run python scripts/s33_release.py`;`uv run python
+scripts/s33_reporting_diagnostic.py`;`uv run python scripts/s33_present.py`.
+[Design](DESIGN_S33.md) · [All outcomes](results/s33_summary.md) ·
+[Post-outcome exposure counts](results/s33_reporting_diagnostic.json).
+
+S33 exposure detail (post-outcome):six primary flags co-occurred with the
+reporter own adverse review. This is an observed action conjunction,not evidence
+of deliberate evasion,confusion or agreement. The warmup charge enters later
+public history;the pilot does not isolate a threat-only intervention.

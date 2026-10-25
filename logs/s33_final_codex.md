@@ -1,0 +1,15 @@
+**S33’s DUD is arithmetically correct. I found no concrete implementation, statistical-calculation, or report-privacy bug in the checked paths.**
+
+- **Primary reconstruction:** Raw games give baseline Y approvals `[2,2,2,1,3]` and amnesty `[3,1,2,3,3]`, each divided by eight. Arm means are 0.250 and 0.300; baseline minus amnesty is −0.050. Exhaustive bootstrap bounds are `[−0.175, 0.050]`; paired t95% is `[−0.226964, 0.126964]`. Inclusive sign-flip tails are upper 0.875, lower 0.375, two-sided 0.750. DUD follows independently from mean ≤0.05 and bootstrap upper <0.25.
+
+- **All statistical claims checked:** My separate raw-game reconstruction matched all 70 game/metric cells, 21 bootstrap intervals, 21 t intervals, and 21 sign tails. The supplied independent verifier also passed, including 200 accepted action/reason/note bindings, saved histories, and note snapshots. Zero parser retries and both arms’ 100/100 nonempty notes agree with the records.
+
+- **Implementation and privacy:** Independently checked all 128 stage cases against the stated charge/waiver rules. Ordinary charges, extra sanctions, nonwaivable extras, and contingent immunity match. Saved histories and notes exclude current-round choices; private reasoning is not replayed. All 100 observable trajectory rows omit report fields. Internal records retain flags as documented. Charges and voluntary notes can reveal information—an acknowledged limitation, not a confidentiality guarantee.
+
+- **Exposure diagnostic:** Recomputed output exactly matches the saved JSON. Primary amnesty rounds contain 29 flags, zero qualifying requests, and zero extra/waived charges; warmup contains one qualifying request. The script, JSON, and [report link](/home/factory/collusion/collusion-serendipity/REPORT.md:34) explicitly identify this as post-outcome description. They avoid mechanism identification, backfire, causal-null, and intent claims. Zero realized primary sanctions cannot establish absent deterrence or treatment inactivity; warmup sanctions can affect subsequent histories.
+
+**Acknowledged scientific limitations:** Five exploratory blocks provide weak inference. Bootstrap bounds are empirical; sign-flip enumeration does not establish exchangeability, and t coverage depends on assumptions. Bundled incentives/wording, uncontrolled provider draws, shared-service interference, and synthetic tasks prevent stronger mechanism or transfer claims. The documents appropriately qualify these points.
+
+**Unchecked:** Full operational/failure-test suite, historical headroom evidence, remote publication/clean-clone reproduction, actual provider execution, and tool non-use. Recorded launch/config/completion fingerprints and current frozen-source hashes agree, but those records cannot independently attest execution.
+
+No edits, live model calls, or other final critic reviews.

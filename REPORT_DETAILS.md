@@ -662,3 +662,50 @@ remote clone of results0d5eff5 passes19 S32 protocol/companion checks,full
 release and original S21 archive;all seven artifacts byte-identical,clone clean.
 Installed frozen dependency environment reused,not freshly installed.
 [Remote reproduction receipt](logs/s32_remote_clean_clone.json).
+
+## Earlier pilot scope notes (moved from the one-page log, iteration21)
+
+<!-- S31 summary start -->
+**S31:** paired t95% **[0, 0]**, upper sign-flip **p=1**; all five paired differences zero. Mean worker earnings10 in both arms lie between symmetric integer Nash wages18–20 and joint-profit wage0; this does not establish an agreement. Public wages remain visible in self-only games. No equivalence or zero-effect population claim. [All outcomes and figure](results/s31_summary.md).
+<!-- S31 summary end -->
+
+
+
+<!-- S28 summary start -->
+**S28:** paired t95% **[-0.155, 0.355]**, upper sign-flip **p=0.25000**. Extra role-attached table with shared notes in both arms; repetition/format/detail bundled. No isolated arithmetic mechanism or agreement claim. [All outcomes and figure](results/s28_summary.md).
+<!-- S28 summary end -->
+
+
+
+<!-- S29 summary start -->
+**S29:** paired t95% **[-0.049, 0.699]**, upper sign-flip **p=0.06250**. Shared versus self-only notepads in fixed two-person teams. Delivery and stated readability bundled; public actions visible in both arms; approvals do not verify agreement. [All outcomes and figure](results/s29_summary.md).
+<!-- S29 summary end -->
+
+
+
+<!-- S27 summary start -->
+**S27:** paired t95% **[-0.002, 0.352]**, upper sign-flip **p=0.06250**. Two versus three active employees; pair payoffs and shared notes fixed. Team size bundles outsider interaction, workload and history dimension; approvals do not verify agreement. [All outcomes and figure](results/s27_summary.md).
+<!-- S27 summary end -->
+
+
+
+S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+## S33 — Reporting with contingent immunity
+
+[Full frozen design](DESIGN_S33.md),[every registered outcome and uncertainty](results/s33_summary.md),
+[raw reconstruction](logs/s33_independent.json),[post-outcome reporting exposure](results/s33_reporting_diagnostic.json).
+The directional reduction screen is DUD;the signed contrast is baseline minus
+amnesty. Both arms have private simultaneous request flags and shared notepads.
+Only active reporting bundles extra sanctions and conditional immunity. No
+isolated deterrence,leniency,agreement,backfire or causal-null claim. Requests
+and adverse reviews do not coincide in primary rounds;one request qualifies in
+warmup. Charges and voluntary notes can reveal private reporting information.
+The exposure diagnostic was written after the result,does not change the frozen
+estimates/verdict,and receives no secondary promotion.
+
+The immutable CLI fingerprint closure and completion observation improve the
+local known-input guards over S32;complete effective configuration,provider
+execution and actual tool non-use remain unattested. Source freeze20 entries,
+registrationad3cfff,pushed before all scientific calls. The13 S33 tests and289-test
+canonical suite passed before launch,with scoped historical synthetic clocks.
