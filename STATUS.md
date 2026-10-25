@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:37:23.571255+00:00; Phase2, iteration36 IN PROGRESS)
-- S51(D):registered personal-penalty replay;20fresh decisions planned at10S29contexts/5blocks.
-- Charge3/net-2 versus charge9/net-8;matched current-policy notice;all user bytes fixed.
-- No scientific calls yet;18protocol tests and separate synthetic raw/stat replay PASS.
-- Initial598canonical tests PASS;final source changes covered by current18protocol tests.
-- Initial Codex/Opus design reviews complete;patch review running before live.
-- Closed global attempt-reservation gap before selection/runtime/registration failures.
-- Source scorer cross-check covers16status/review combinations;own status now reported.
-- Source contexts have3ownTYPE-Y,7ownTYPE-X;all reviewTYPE-Y partners inr7..10.
-- S50 remains ODD:hidden4/10/final3/10,reduction+.1[-.3,.6],no HIT.
-- New own/S52 net-versus-decomposed payoff framing proposal queued,not run.
-- Next:finish reviews,freeze/push,one live run,verify/report/push/origin clone.
+## Current state (2026-10-25T05:42:37.795482+00:00; Phase2, iteration36 PUBLISHING)
+- S51(D):20fresh decisions/10observed S29 TYPE-Y contexts/5sourceblocks;zero newgames/tuning.
+- Adverse approvals charge3:5/10;charge9:5/10;reduction+0.000[-0.3, 0.3];frozen DUD.
+- Pairedt[-0.4389945165425414, 0.4389945165425414];upperp0.75;blockdifferences[-0.5, 0.0, 0.5, 0.0, 0.0].
+- Both arms add matched current-policy notice;only charge3to9/net-2to-8 changes between arms.
+- All user bytes/history/notes fixed;dated old-policy note cues remain in6contexts.
+- Full source/archive/registration/runtime/UTC/schedule replay and separate20bindings/15cells/3summaries PASS.
+- All20returned JSON responses exported verbatim;no intent/agreement labels.
+- Both final critics exit0;Codex raw/source audit,Opus supplied-cell/code-only scope.
+- 600pre/post canonical tests PASS;figure inspected;call-forbidden regeneration byte-identical.
+- Registration836655c pushed before sole launch;result publication in progress.
+- Frozen DUD,no HIT or sibling headline change;.25reduction remains unresolved.
+- Next:fresh different axis;new own/S52 queued,not run.
 - Risks:n5,late selected histories,draws/interference;focal-only,provider execution unattested.
 
 ## Log
@@ -513,3 +514,7 @@
 - 2026-10-25T05:34:01.592746+00:00: iteration36 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries. Selected D/S51 personal-penalty sensitivity after F/S50:20fresh decisions at ten observed S29 contexts,zero newgames.17protocol tests PASS;synthetic checks only,no scientific calls. Codex+Opus methodology critics running. New own/S52 net-versus-decomposed payoff framing proposal queued. No DIRECTION deviation or sibling writes.
 
 - 2026-10-25T05:40:44.248103+00:00: S51 both initial/patch methodology critics exit0;accepted global pre-initialization reservation,source scorer cross-check,own-status and dated-policy-cue census.600canonical and19final protocol tests PASS;complete synthetic20key replay,separate raw/stat reconstruction and all15current source hashes PASS. No scientific calls;register/push then sole live launch next. Verbatim20-output appendix generator added prelive;final critics will inspect it.
+
+- 2026-10-25T05:42:37.795482+00:00: S51 sole run complete20accepted decisions,zero retries/transport/parser/route/source/runtime failures. Baseline5/10,strong5/10;baseline-minus-strong+0.000[-0.3, 0.3];pairedt[-0.4389945165425414, 0.4389945165425414];upperp0.75;DUD. Frozen DUD. Full source/archive/registration/runtime/UTC/schedule/request replay and separate20bindings/15cells/3exactbootstrap+t/sign summaries PASS. Reports/ledgers/verbatim-output appendix updated;final critics,post-live canonical suite,figure/release/origin-clone next. No scientific-source edits,tuning,pooling,exclusions,secondpilot or sibling writes.
+
+- 2026-10-25T05:46:14.916069+00:00: Both final critics exit0;Codex raw/source reconstruction versus Opus supplied-cell/code-only scope. Frozen DUD and all statistics confirmed.600post-live canonical tests PASS;actual figure inspected;call-forbidden scientific/summary/figure/verbatim-appendix release byte-identical. All15registered scientific sources unchanged. Explicit unresolved.25target,ambiguous common-notice referent,reused-history and no test-retest attribution limits recorded. Results push then fresh origin clone next.

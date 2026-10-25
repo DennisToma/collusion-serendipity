@@ -1234,3 +1234,18 @@ The canonical offline repository suite is now reproducible from a tracked driver
 `uv run --frozen python scripts/repository_tests.py --out /var/tmp/repository_tests.json`.
 This scopes legacy synthetic clock fixtures to S21/S31/S33 tests;real archive
 release clocks and frozen source files are unchanged.
+
+S51 (iteration36): personal reviewer penalty at fixed workplace histories.
+
+[Design](DESIGN_S51.md),[all outcomes](results/s51_summary.md),[all returned text](results/s51_action_text.md). Twenty fresh decisions/ten observed S29 histories/five source blocks;zero newgames or tuning. Charge3/net−2 versus charge9/net−8,with a matched current-policy notice. The experiment is a focal-decision replay,not a completed intervention game.
+
+```bash
+uv run --frozen python scripts/s51_replay.py --analyze
+uv run --frozen python scripts/s51_independent.py
+uv run --frozen python scripts/s51_present.py
+uv run --frozen python scripts/s51_action_text.py
+uv run --frozen python scripts/s51_release.py
+uv run --frozen python -m unittest scripts.test_s51
+```
+
+The release forbids calls to the scientific model entry point and requires byte-identical results,summary,figure and verbatim-output appendix. `scripts/s51_context_audit.py` reproduces the pre-outcome historical-policy census. `scripts/repository_tests.py --out /var/tmp/serendipity_tests.json` runs canonical offline checks with scoped legacy synthetic clocks;real experiment deadlines stay fixed.
