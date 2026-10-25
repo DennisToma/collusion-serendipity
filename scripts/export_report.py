@@ -24,12 +24,13 @@ from scripts import iteration55_claims as audit
 BASELINE = '573f97310771f76fefb67e8d57f666539ad919cb'
 REPO_URL = 'https://github.com/DennisToma/collusion-serendipity'
 COMMAND = 'uv run --frozen python scripts/export_report.py --check --replay-selected'
-EXPORT_RECEIPT = 'logs/iteration61_exports.json'
-PREVIOUS_READER_REVISION = '16ef96d941619d3beebee21500ab034f90526b20'
+EXPORT_RECEIPT = 'logs/iteration62_exports.json'
+PREVIOUS_READER_REVISION = '3d2a9fdad1edce5e2466c5cfd37b1a1b57dcc70a'
 PRESERVATION_BASELINE = '73492a929c2245a033f1b1598a03703c3f6f6ee6'
 REPLAY_SOURCE_REVISION = 'cd3505ce141d190d92ecda420430ff74caccf70d'
 EXPORT_FILES = ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']
-EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
+EXPORT_SOURCES = ['results/iteration62_acceptance.md', 'logs/iteration62_remote_full_acceptance_final.json',
+    'scripts/check_release_clone.py', 'scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
     'scripts/iteration57_fresh_install.py', 'logs/iteration57_fresh_install.json', 'requirements-export.lock',
     'results/iteration57_reproduction.md', 'scripts/portfolio_replay.py',
     'logs/iteration58_portfolio_replay.json', 'results/iteration58_reproduction.md',
@@ -37,7 +38,7 @@ EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results
     'results/s48_summary.md', 'results/s58_summary.md', 'results/s59_summary.md', 'results/s72_summary.md',
     'results/s18_summary.md', 'results/s31_summary.md', 'results/s45_summary.md']
 EXPORT_ENV = {'markdown-it-py': '4.2.0', 'playwright': '1.64.1', 'pypdf': '6.21.2', 'matplotlib': '3.11.2'}
-NOTICE = ('**Reader exports — iteration 61:** [Concise brief (PDF)](BRIEF.pdf) · '
+NOTICE = ('**Reader exports — iteration 62:** [Concise brief (PDF)](BRIEF.pdf) · '
           '[Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). '
           'Exports preserve the saved evidence and original pilot rows. Current verification: '
           f'`{COMMAND}`. The iteration-54/55 full-document commands require their archived revisions.\n\n')
@@ -155,6 +156,9 @@ def verification_note():
         '[The archived iteration-58 primary-result replay](results/iteration58_reproduction.md) reproduced '
         '52 completed analyses and two failure audits at pinned revisions, running 50 existing checkers whose '
         'validation depth varies. These are consistency checks, not independent scientific validation. '
+        '[Final clean-origin acceptance](https://github.com/DennisToma/collusion-serendipity/blob/main/results/iteration62_acceptance.md) executed 926 tests with zero recorded '
+        'failures/errors and replayed all 54 primary objects at its pinned release; '
+        'the existing export environment and warm caches were reused. '
         'Current verification: `' + COMMAND + '`. This command checks saved replay receipts and '
         'reruns five selected analyses/checkers; it does not rerun all 54. Use full Git history and '
         'installed pinned dependencies. The scientific call entry is guarded; no network isolation '
@@ -209,7 +213,7 @@ def documents():
     table_marker = '| Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |'
     require(original.count(table_marker) == 1, 'Original table marker changed')
     report = ('# Serendipity log — Beyond Words\n\n'
-        '2026-10-25 · Iteration 61 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.\n\n'
+        '2026-10-25 · Iteration 62 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.\n\n'
         + scientific_lead() + NOTICE + original[original.index(table_marker):])
     report = replace_once(report, '**Next:** different-axis pilot only if valuable before14:30UTC;then polish.',
                           '**Next:** preserve the frozen evidence and polish the final handoff.')
@@ -273,7 +277,7 @@ def readme():
         'uv pip install --python /var/tmp/explorer-export61/bin/python --require-hashes -r requirements-export.lock\n'
         '/var/tmp/explorer-export61/bin/python -m playwright install chromium\n'
         '/var/tmp/explorer-export61/bin/python scripts/export_report.py --build --check-pdf\n'
-        'git diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration61_exports.json\n```\n\n'
+        'git diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration62_exports.json\n```\n\n'
         'Dependency/browser installation needs network access; Linux may also need Chromium system '
         'libraries. Rendering blocks browser network requests. `--check-pdf` re-extracts text, checks '
         'complete table rows in order and validates link targets. The final command tests byte identity '
@@ -343,7 +347,7 @@ def verify_sources():
 
 def sources():
     brief = (ROOT / 'results/iteration54_brief.md').read_text()
-    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 61 ·')
+    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 62 ·')
     start = '**Suggested future confirmation, not launched:**'
     require(brief.count(start) == 1, 'Archived future suggestion moved')
     archived_future = start + brief.split(start, 1)[1].split('\n\n', 1)[0]

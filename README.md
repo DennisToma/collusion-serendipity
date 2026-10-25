@@ -42,7 +42,7 @@ uv venv --python 3.12.15 /var/tmp/explorer-export61
 uv pip install --python /var/tmp/explorer-export61/bin/python --require-hashes -r requirements-export.lock
 /var/tmp/explorer-export61/bin/python -m playwright install chromium
 /var/tmp/explorer-export61/bin/python scripts/export_report.py --build --check-pdf
-git diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration61_exports.json
+git diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration62_exports.json
 ```
 
 Dependency/browser installation needs network access; Linux may also need Chromium system libraries. Rendering blocks browser network requests. `--check-pdf` re-extracts text, checks complete table rows in order and validates link targets. The final command tests byte identity on the recording host. Other hosts may change PDF, PNG, embedded HTML and receipt bytes; report those differences alongside the content checks. Keep the brief/report exports together for local links. Pinned GitHub evidence links require repository access.

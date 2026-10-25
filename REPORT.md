@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 61 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.
+2026-10-25 · Iteration 62 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.
 
 **Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: shared notes coincided with more organization-harming approvals in one small pilot, while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.
 
@@ -14,7 +14,7 @@
 
 **Portfolio:** **54 entries: 29 DUD, 23 ODD/context-only, two failed/unclassified.** Entries include fresh games, reused-history decisions and reanalyses; they are not independent replications. Examples above were selected post hoc. DUD/ODD are prioritization labels; no held-out validation or multiplicity correction is claimed. S68 remains interrupted without an estimate or restart.
 
-**Reader exports — iteration 61:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+**Reader exports — iteration 62:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -79,7 +79,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 **S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
 
-**Evidence and reproduction:** All 54 original pilot rows are preserved. [The field audit](results/iteration55_claim_audit.json) binds 307 highlighted values and failure counts plus 144 sample/window checks to saved artifacts. [The archived iteration-58 primary-result replay](results/iteration58_reproduction.md) reproduced 52 completed analyses and two failure audits at pinned revisions, running 50 existing checkers whose validation depth varies. These are consistency checks, not independent scientific validation. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. This command checks saved replay receipts and reruns five selected analyses/checkers; it does not rerun all 54. Use full Git history and installed pinned dependencies. The scientific call entry is guarded; no network isolation is claimed. [Fresh-dependency reproduction and its same-host scope](results/iteration57_reproduction.md).
+**Evidence and reproduction:** All 54 original pilot rows are preserved. [The field audit](results/iteration55_claim_audit.json) binds 307 highlighted values and failure counts plus 144 sample/window checks to saved artifacts. [The archived iteration-58 primary-result replay](results/iteration58_reproduction.md) reproduced 52 completed analyses and two failure audits at pinned revisions, running 50 existing checkers whose validation depth varies. These are consistency checks, not independent scientific validation. [Final clean-origin acceptance](https://github.com/DennisToma/collusion-serendipity/blob/main/results/iteration62_acceptance.md) executed 926 tests with zero recorded failures/errors and replayed all 54 primary objects at its pinned release; the existing export environment and warm caches were reused. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. This command checks saved replay receipts and reruns five selected analyses/checkers; it does not rerun all 54. Use full Git history and installed pinned dependencies. The scientific call entry is guarded; no network isolation is claimed. [Fresh-dependency reproduction and its same-host scope](results/iteration57_reproduction.md).
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Primary-result reproduction](results/iteration58_reproduction.md) · [Unpromoted handoffs](HITS.md).
 
