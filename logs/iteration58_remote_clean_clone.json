@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "result_revision": "f5fd3dfea8c62bba16f59bc8a0e5d946a60a4c1c",
+  "full_history_origin_clone": true,
+  "commands": [
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/portfolio_replay.py",
+        "run",
+        "--out",
+        "/var/tmp/iteration58_origin_d26msjjk/portfolio.json"
+      ],
+      "returncode": 0,
+      "stdout": "S01 PASS\nS02 PASS\nS04 PASS\nS03 PASS\nS07 PASS\nS09 PASS\nS11 PASS\nS06 PASS\nS14 PASS\nS16 PASS\nS18 PASS\nS19 PASS\nS21 PASS\nS22 PASS\nS24 PASS\nS25 PASS\nS27 PASS\nS29 PASS\nS28 PASS\nS31 PASS\nS32 PASS\nS33 PASS\nS34 PASS\nS35 PASS\nS36 PASS\nS38 PASS\nS37 PASS\nS40 PASS\nS42 PASS\nS43 PASS\nS41 PASS\nS45 PASS\nS44 PASS\nS48 PASS\nS47 PASS\nS50 PASS\nS51 PASS\nS53 PASS\nS54 PASS\nS56 PASS\nS55 PASS\nS58 PASS\nS59 PASS\nS60 PASS\nS62 PASS\nS61 PASS\nS64 PASS\nS65 PASS\nS67 PASS\nS66 PASS\nS69 PASS\nS68 PASS\nS72 PASS\nS70 PASS\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/portfolio_replay.py",
+        "check",
+        "--out",
+        "/var/tmp/iteration58_origin_d26msjjk/portfolio.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"archived_result_objects\": 54,\n  \"completed_analyses\": 52,\n  \"failure_audits\": 2,\n  \"existing_independent_checkers\": 50,\n  \"imported_revision_source_bindings\": 478,\n  \"scope\": \"Receipt consistency with pinned Git objects and current scientific sources; no new execution attestation\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/iteration58_verify.py",
+        "--receipt",
+        "/var/tmp/iteration58_origin_d26msjjk/portfolio.json",
+        "--out",
+        "/var/tmp/iteration58_origin_d26msjjk/probes.json"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"passed\": true,\n  \"probes\": 25,\n  \"receipt_check\": {\n    \"passed\": true,\n    \"archived_result_objects\": 54,\n    \"completed_analyses\": 52,\n    \"failure_audits\": 2,\n    \"existing_independent_checkers\": 50,\n    \"imported_revision_source_bindings\": 478,\n    \"scope\": \"Receipt consistency with pinned Git objects and current scientific sources; no new execution attestation\"\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--build"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--check-pdf"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "returncode": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 178, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "byte_identical_artifacts": {
+    "REPORT.md": "890690d4beb1b81346735400384909fbed1a0c470027eee8bd859c2604e8a16f",
+    "README.md": "b9d255b2e979c956e0e85f6a9e3c5404faaa797e00845665b94db3c399c33912",
+    "BRIEF.html": "a9b76526f91f94f4bac9aaa3eb15d453b390951efd40ce3dff769acea6ed376d",
+    "BRIEF.pdf": "c130eb55f1f56cdd91eb64c5dd0a252319f81bcd2d86c08aca203a344cde3d76",
+    "REPORT.html": "4ff2f276c2bf98be1956e3146108cf1b7206cc461abce96c92531faf6fcfba57",
+    "REPORT.pdf": "70e94de560693035b9653fc421fa9f59a8603fec0421d020943f2d3caf282c58",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration58_exports.json": "39c3ff12bee6761fab4553d28d0329fd599a36ca8c2029f2527265e045f23809",
+    "logs/iteration58_portfolio_replay.json": "d12f2365fb421f1c6372f21490a1c5c5980dfaf3400584241e817fbbd6588f03",
+    "results/iteration58_reproduction.md": "726ad913e445dda150f65f0770826ac034ead0980a7d9d29f40306950eb32c44"
+  },
+  "portfolio_replay_receipt_recomputed_byte_identically": true,
+  "corruption_probes": 25,
+  "clone_git_status": "",
+  "installed_project_export_dependencies_reused": true,
+  "fresh_install": false,
+  "cross_platform": false,
+  "clone_runner_sha256": "4b5b828a64aca135012e1716c01e92bab10aac57fd1c983402d1ee87104dcf3a",
+  "scope": "Actual fresh-origin selected-host replay of all archived result objects and reader rebuild. Pilot-specific validation depth and inner local/shared clone scopes remain unchanged."
+}
