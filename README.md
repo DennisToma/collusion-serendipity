@@ -1184,7 +1184,7 @@ uv run --frozen python -m unittest scripts.test_s48
 uv run --frozen python scripts/s48_release.py --clean-clone
 ```
 
-Use the registered/results checkout if scientific sources later change. Release
+Use results checkout `a863e4b1ee1cbe326c64c6313bda3b931a17ffa3` if scientific sources later change. Release
 forbids model calls and checks raw replay plus byte-identical scientific/presentation
 artifacts. The full-history origin clone reuses the installed frozen dependency
 venv; it does not test a fresh installation. S29 CLI inputs were not fingerprinted,

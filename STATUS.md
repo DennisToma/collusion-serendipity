@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:04:34.197719+00:00; Phase2, iteration33 RESULTS COMPLETE)
+## Current state (2026-10-25T05:07:26.764538+00:00; Phase2, iteration33 COMPLETE)
 - S48(C):20fresh decisions/10S29 TYPE-Y contexts/5sourceblocks;zero newgames/tuning/retries/failures.
 - Adverse approval retain4/10,erase4/10;retain-minus-erase0.000[−.300,+.300] descriptive bootstrap.
-- Pairedt[−.438995,+.438995];upperp.75,lowerp.75,two-sidedp1;frozen DUD,no HIT.
+- Pairedt[−.438995,+.438995];upperp.75/lowerp.75/two-sidedp1;frozen DUD,no HIT.
 - Block differences+.5,0,−.5,0,0;two opposing cases;fresh retain matches7/10archived actions.
-- Exact retain prompt versus partner-only note deletion;own/public history fixed,indirect information survives.
-- No mediation,long-run,agreement or equivalence claim;bounds include registered.25target.
-- Full source/registration/runtime/archive replay and separate20bindings/15cells/3statistics PASS.
-- Call-forbidden archive/scientific/summary/figure regeneration byte-identical;actual figure inspected.
-- Both methodology critics exit0;round/serialization/exogenous-task/full-prompt guards fixed before freeze.
-- Both finalcritics/parent exit0;post-live canonical545tests PASS;registration e6ddcde pushed.
-- Risks:n5,observed histories,uncontrolled draws/shared services;source S29 CLI fingerprint unavailable.
-- Next:results push and full-history origin-clone reproduction;then fresh different axis.
+- Partner-only note deletion preserves own/public information;no mediation,long-run or equivalence claim.
+- DUD mean gate does not exclude the registered.25target;source CLI fingerprint unavailable.
+- Full source/registration/runtime/archive replay;separate20bindings/15cells/3statistics PASS.
+- Both design/final critics and parents exit0;Codex raw audit,Opus supplied-cell/code-only scope.
+- Post-live canonical545tests PASS;actual figure inspected;no active science/review.
+- Registratione6ddcde/resultsa863e4b pushed;full-history origin clone PASS,16protocoltests PASS.
+- Six artifacts byte-identical and clone clean;installed frozen venv reused,not fresh install.
+- Next:fresh different axis;S46/S39/S47 proposals,S32unconfirmed,S30unrun;risks n5/draws/interference.
 
 ## Log
 
@@ -483,3 +483,5 @@
 - 2026-10-25T05:04:34.197719+00:00: S48 sole run complete20accepted responses,zero retries/transport/parser/route failures. Retain4/10 and erase4/10,contrast0[-.3,.3],t[-.438994516543,+.438994516543],upperp.75/lowerp.75/two-sidedp1;frozen DUD. Full source/registration/runtime/timing/all-key replay and separate20rawbindings/15cells/3exactbootstrap+t/all sign tails PASS. Call-forbidden complete resume/scientific/summary/figure regeneration byte-identical;actual figure inspected. Reports/ledgers updated;final independent critics and post-live canonical tests running. No scientific-source edits,extra calls,pooling,tuning,exclusions,promotion,sibling writes or direction deviation.
 
 - 2026-10-25T05:06:20.084995+00:00: final Codex+Opus critics/parent exit0;unchanged DUD/allprimarynumbers confirmed. Codex raw/source/full-statistical reconstruction;Opus supplied-cell/code-only scope,no raw audit.545post-live canonical tests PASS,zero failures/errors. Clarified DUD mean gate versus unresolved.25target;signgate discrete-resolution limitation acknowledged. Rejected interpreting archived/fresh disagreements as an isolated noise estimate. All scientific sources remain frozen. Results milestone push and clean-origin clone next.
+
+- 2026-10-25T05:07:26.764538+00:00: iteration33 COMPLETE. S48 registratione6ddcde/resultsa863e4b1ee1cbe326c64c6313bda3b931a17ffa3 pushed. Fresh full-history ORIGIN clone at results commit passes complete scientific/source/registration/runtime/environment/UTC/schedule/request/response replay,separate20rawapprovalbindings/15blockcells/3exactbootstrap+t/all sign tails,model-call-forbidden release,summary/figure regeneration and16protocoltests;childexit0. Sixartifacts byte-identical;clone gitstatus clean. Existing installed frozen venv reused,not fresh install;logs/s48_remote_clean_clone.json records commands/hashes. Both independent design/finalcritics and parents exit0;Codex raw audit versus Opus supplied-cell/code-only scope explicit. Local545post-live canonical tests PASS. Scientific resultSHA0bc8ae20224ac9678fb979184d64a47f1db6e10cf16b7a45e737ec42cca60c29 andall13registeredscientificsources/7archivefiles unchanged. Ledgers/report/HITS/DETAILS/README current;no extra calls,secondpilot,source/threshold changes,tuning,pooling,exclusions,promotion,siblingwrites,directiondeviation or active science/review. Next fresh different axis. Final receipt/handoff commit+push next.
