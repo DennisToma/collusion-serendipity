@@ -1210,3 +1210,27 @@ Reproduction needs the frozen results checkout including committed launch receip
 and the existing dependency environment. A remote clone reuses installed frozen
 dependencies;it is not a fresh package-install test. Later edits to frozen
 scientific sources correctly reject reanalysis outside the frozen checkout.
+
+### S50 — Final-round disclosure in workplace review
+
+Twenty fresh decisions at ten observed S29 TYPE-Y review contexts;the exact
+source prompt versus a replacement common-knowledge final-round system sentence.
+Current incentives and all user bytes fixed;focal-only hypothetical decisions,
+zero new games,tuning,pooling or completed-terminal-game claim.
+[Design](DESIGN_S50.md). Scientific sources/cases registered before live calls.
+
+```bash
+uv run --frozen python scripts/s50_replay.py --analyze
+uv run --frozen python scripts/s50_independent.py
+uv run --frozen python scripts/s50_present.py
+uv run --frozen python scripts/s50_release.py
+uv run --frozen python -m unittest scripts.test_s50
+uv run --frozen python scripts/s50_release.py --clean-clone
+```
+
+Use the results checkout containing the committed launch receipt and frozen
+scientific sources;origin-clone reproduction reuses installed dependencies.
+The canonical offline repository suite is now reproducible from a tracked driver:
+`uv run --frozen python scripts/repository_tests.py --out /var/tmp/repository_tests.json`.
+This scopes legacy synthetic clock fixtures to S21/S31/S33 tests;real archive
+release clocks and frozen source files are unchanged.

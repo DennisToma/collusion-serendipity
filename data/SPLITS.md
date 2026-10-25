@@ -152,3 +152,9 @@ status selection never uses actions or text;archived actions are context only.
 Full source/case manifest pushed before live calls.
 
 S47:ten observed S42round10contexts/five sourceblocks24920..24924,first incumbent,both source arms;same selection as S43/S44. Twenty fresh syntax-example rate0/rate20 decisions;exploratory,zero tuning,no heldout/pooling. Archived actions context only;full source/case/config committed before calls.
+
+S50:ten observed S29 shared-note histories,each employee last primary TYPE-Y review
+opportunity;five sourceblocks24480..24484. Twenty fresh hidden/final decisions,
+zero newgames,tuning,heldout,pooling or completed-terminal-game claim. Same contexts
+as S48 but no S48 outcome selection or comparison arm;all source task statuses,
+notes and histories fixed. Full source/case freeze committed before live calls.

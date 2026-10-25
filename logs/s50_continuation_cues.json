@@ -1,0 +1,51 @@
+{
+  "scope": "Pre-outcome display only;not selection,gate or model input",
+  "source_raw_files_tracked": [
+    "data/s29_notepad/raw/requests.jsonl",
+    "data/s29_notepad/raw/responses.jsonl"
+  ],
+  "generic_system_rule_preserved": true,
+  "required_note_preserved": true,
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "continuation_cue_matches": []
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "continuation_cue_matches": []
+    }
+  ]
+}

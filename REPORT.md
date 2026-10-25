@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 34 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 35 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -80,3 +80,5 @@ Only the paired contrast is the registered hypothesis; generic arm-level sign-fl
 **S47:** A JSON syntax example with rate 0 versus 20 gave a high-minus-low focal-offer difference of **-0.100 [-0.300, +0.000]**; paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Both arms had the same payoff table, history and explicit non-recommendation warning. Four blocks tie; one differs by −0.5. The registered two-unit screen is DUD, with no equivalence, mechanism or realized-wage claim. Five observed source blocks and uncontrolled draws limit transfer. Known source/replay local fingerprints differ;both fresh arms share one frozen local runtime,with provider execution unattested. [All cases, methods and figure](results/s47_summary.md).
 Only the paired contrast is a registered hypothesis; generic arm-level sign-flip fields test against zero.
 <!-- S47 summary end -->
+
+**In progress:** S50(F) tests an explicit common-knowledge final-round notice at ten fixed S29 review histories. Twenty fresh decisions planned;registered .25 hidden-minus-final approval-reduction screen. Outcomes pending.

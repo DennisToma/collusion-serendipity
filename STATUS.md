@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:18:25.306930+00:00; Phase2, iteration34 COMPLETE)
-- S47(own):20fresh decisions/10observed S42contexts/5sourceblocks;zero newgames/tuning/retries/failures.
-- Example rate0 offer10.100/rate20 offer10.000;high-minus-low−.100[−.300,0] descriptive bootstrap.
-- Pairedt[−.377645,+.177645];upperp1/lowerp.5/two-sidedp1;frozen DUD,no HIT.
-- Four block ties/one−.5;archived quote matches9/10low,10/10high;not a comparison arm.
-- Only example numeral changes;identical table/history/warning;no mechanism/equivalence/wage claim.
-- Full source/registration/runtime/archive replay and separate20bindings/15cells/3statistics PASS.
-- Both design/final critics/parents exit0;Codex raw audit,Opus supplied-cell/code/text scope.
-- 565pre/post-live canonical tests PASS;actual figure inspected;no active science/review.
-- Registratione486abf/results6c7e0ca pushed;origin clone PASS,20protocol tests PASS.
-- Six artifacts byte-identical and clone clean;frozen installed venv reused,not fresh installation.
-- Source/replay known local PATH hash differs;both fresh arms share a frozen runtime;provider unattested.
-- Next:fresh different axis;S46/S39/S49proposals,S32unconfirmed,S30unrun;risks n5/draws/interference.
+## Current state (2026-10-25T05:24:24.422343+00:00; Phase2, iteration35 IN PROGRESS)
+- S50(F) selected after own/S47: common-knowledge final-round disclosure at fixed S29 histories.
+- Ten observed contexts/five source blocks;twenty fresh decisions planned;zero new games/tuning/pooling.
+- Hidden is exact source;Final replaces only objective/horizon sentence;all user bytes/stage payoffs fixed.
+- Primary hidden-minus-final adverse approval;registered .25 directional screen;no outcomes yet.
+- Both methodology critics exit0;Codex source/gate reconstruction,Opus supplied-text-only scope.
+- Accepted cue-conflict and gate-discreteness disclosures;source full release and16protocol tests PASS.
+- Full synthetic20-key replay and separate raw15cell/3statistic reconstruction PASS;581canonical tests PASS.
+- Generic future-note rules/required note survive;only focal agent rerun,no completed terminal-game claim.
+- Scientific sources/cases will be frozen,committed,pushed before sole launch;07:00uncached cutoff.
+- S29/S32/S35/S36/S41 remain ODD;no HIT or sibling headline change;S30unrun.
+- Next:register/run S50,verify/report/review/release and origin-clone reproduction.
+- Risks:n5,selected histories,uncontrolled draws/shared services,unattested provider/settings/source runtime.
 
 ## Log
 
@@ -497,3 +497,7 @@
 - 2026-10-25T05:17:20.498468+00:00: S47 both final critics and parent exit0;Codex independent20rawbindings/15cells/3bootstrap+t/all sign tails/full-source/registration/schedule replay;Opus supplied-cell/code/text-only scope.565post-live canonical tests PASS with real scientific clocks unchanged. Actual figure inspected;model-call-forbidden regeneration byte-identical. Accepted REPORT fingerprint disclosure;only covered PATH hash differs,not provider attestation. No power/equivalence/mechanism inference or scientific-source edit. Results milestone push and fresh origin clone next.
 
 - 2026-10-25T05:18:25.306930+00:00: iteration34 COMPLETE. S47 registratione486abf/results6c7e0ca080291fed93ca26873096a8c3dd1d3b72 committed/pushed;fresh full-history ORIGIN clone at results commit passes frozen archive/source/registration/runtime/environment/UTC/schedule/request/response replay,separate20rawquotes/20promptbindings/15cells/3exact-bootstrap+t/all sign tails,summary/figure regeneration,model-call-forbidden release and20protocoltests;childexit0. Six artifacts byte-identical;clone gitstatus clean. Installed frozen venv reused,not fresh dependency installation;logs/s47_remote_clean_clone.json records commands/hashes. Both design/finalcritics/parents and565pre/post-live canonical tests exit0;Codex raw/source audit versus Opus supplied-cell/code/text-only scope. Scientific resultSHA14b1383f47a98561e19cf4545abdb6023fd03a2eca85caca4e1c38b7b98af6b8 and13registered scientificsources/7archivefiles unchanged. DUD retained,no HIT,equivalence,anchoring/coordination mechanism,population prevalence or realized-wage claim. Source/replay fingerprints differ only in recorded PATH;complete effective settings/provider behavior unattested. Ledgers/report/HITS/DETAILS/README current;newown/S49serialization proposal logged before outcomes. No extra scientificcalls,secondpilot,source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,siblingwrites,directiondeviation or active science/review. Next fresh different axis. Final handoff commit+push next.
+
+- 2026-10-25T05:24:24.422343+00:00: iteration35 read rules/PLAN/STATUS/DIRECTION/ledgers and both sibling summaries. Selected F/S50 terminal workplace disclosure after own/S47;twenty fresh decisions at ten S29 histories,zero newgames. Both methodology critics exit0;accepted residual continuation-cue and discrete-gate disclosures,kept frozen scientific rule. Full source release,16protocol tests,synthetic20-key replay and separate raw/statistical reconstruction PASS. Canonical suite in progress;no live calls or outcome inspection. No direction deviation or sibling writes.
+
+- 2026-10-25T05:24:56.491904+00:00: S50 final preflight ready:all13scientific-source hashes and case manifest match current code;16scoped protocol tests and581canonical tests PASS,zero failures/errors. Both methodology critics exit0;continuation-cue census and review dispositions recorded. Registration milestone next;no scientific calls or outcomes yet. New tracked repository_tests.py reproduces established scoped legacy synthetic clock fixtures without changing archived science.
