@@ -9,7 +9,7 @@
 - Full raw replay+separate200bindings/50metriccells/15bootstrap+t summaries PASS.
 - Corrected823canonical PASS;17focused PASS;adversarial release mutations PASS.
 - All20registered sources unchanged;split index prospective append verified.
-- Codex final critic independently confirms all numbers/ODD;Opus pending;origin clone next.
+- Codex raw/source final PASS;compact Opus supplied-text arithmetic PASS;full-context timeout retained.
 - New own S66 queued;next fresh different-axis A/C/E;no sibling headline change.
 - Risks:n5,multiplicity,settlement/wording bundle,repeated-game continuation,provider.
 
@@ -658,3 +658,5 @@
 - 2026-10-25T10:07:11.582747+00:00: final Codex critic independently enumerates all3125 bootstrap samples for15summaries,all32sign patterns per metric,and50rawmetric cells,confirming9/40versus20/40,+11/40,[0,19/40],p3/32 and unchanged UNRESOLVED/ODD. No correctness findings. Final release verifies20registered source hashes,891older scientific artifacts unchanged and exact prospective split-index append;all80Y choices source-bound. Milestone scientific-results push prepared while independent Opus final review runs;no further simulator calls.
 
 - 2026-10-25T10:08:51.477007+00:00: correction to the preceding preservation count: first clone exposed45 ignored empty .writer.lock files in the broad snapshot. The corrected release excludes only those unpublished empty process locks and verifies all846 published older science artifacts against registration-tree membership and byte hashes, plus the prospective split-index append. First clone failure retained;scientific sources/results unchanged;repeat origin proof pending.
+
+- 2026-10-25T10:13:57.599398+00:00: fresh origin9f80f31 passes13byte-identical artifacts,17focused tests and clean clone. Compact Opus supplied-text final review confirms counts,mean,sign p,t arithmetic,economics,ODD and no-overclaim scope;bootstrap enumeration/raw audit explicitly unchecked by Opus and checked by Codex. Accepted bonus/loss per-primary-round units and one-shot/grammar/count clarifications via separate presentation wrapper. All scientific sources/data/estimates unchanged. Final origin rerun after wording changes pending.

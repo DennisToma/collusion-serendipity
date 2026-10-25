@@ -24,5 +24,10 @@ def render():
     positive=sum(v>0 for v in result['metrics']['pair_bad']['exact_seed_difference_numerators'])
     body=path.read_text().replace('Ten fresh workplace games/five paired blocks',f'Positive paired blocks: {positive}/5; all five must be strictly positive for the frozen sign gate.\n\nTen fresh workplace games/five paired blocks',1)
     body=body.replace('[All primary TYPE-Y approvals/text](s65_action_text.md)', '[All primary TYPE-Y approvals/text](s65_action_text.md) · [All TYPE-Y choices, including rejection](s65_all_y_decisions.md)')
+    body=body.replace('zero game-outcome tuning, reused contexts or pooling with earlier pilots','no tuning on game outcomes, no reused contexts, and no pooling with earlier pilots')
+    body=body.replace('Pooling therefore changes the unique stage equilibrium from approve-X/reject-Y to approve-all.','Each directed review has a strict one-shot best response: approve-X/reject-Y with individual bonuses, approve-all with pooled bonuses. This states a stage-game result; repeated-game continuation can matter.')
+    body=body.replace('| Outcome | Individual | Pooled |', 'Units: approval outcomes are fractions of the corresponding type-specific opportunities. Pair bonuses are bonus points per primary round and organization loss is organization units per primary round, each averaged over8 primary rounds/game. The8 Y opportunities/game happen to equal the8 primary rounds; they do not define the bonus/loss unit. Descriptive bootstrap values also enter the frozen exploratory screen; nominal coverage is not claimed.\n\n| Outcome | Individual | Pooled |')
+    body=body.replace('Returned responses 200; accepted200;', 'Returned responses200 = 2arms × 5blocks × 2employees × 10rounds; accepted200;')
+
     path.write_text(body.replace('scripts/s65_release.py','scripts/s65_release_final.py').replace('-m unittest scripts.test_s65 -q','scripts/s65_focused_tests.py'))
     return docs
