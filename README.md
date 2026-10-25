@@ -777,3 +777,9 @@ runner-only clock patch. Frozen scientific/test source files remain unchanged.
 Both full final critique artifacts are retained;their parent runner later
 returned143 without individual exit receipts,so individual final exit0 statuses
 are unverified. No scientific number or substantive critique changes.
+
+Fresh full-history origin-remote clone of results0d5eff5 passes19 S32
+protocol/companion tests,full cache-only release and real S21 original archive;
+seven artifacts byte-identical and clone clean. Receipt:
+logs/s32_remote_clean_clone.json. Existing frozen dependency environment reused,
+not a fresh dependency installation. All19 scientific sources remain frozen.

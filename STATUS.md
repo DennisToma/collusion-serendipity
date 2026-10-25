@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T00:07:16.423688+00:00; Phase2, iteration20 RELEASE READY)
-- S32 own resource identity:10games/5blocks,200valid decisions,zero retries/failures.
+## Current state (2026-10-25T00:08:39.894798+00:00; Phase2, iteration20 COMPLETE)
+- S32 resource identity:10games/5blocks,200valid decisions,zero retries/failures.
 - Human17.525/compute13.725;primary+3.800[-.250,7.875],t[-3.023,10.623],upperp.25.
-- Two positive/two ties/one negative;frozen ODD,no HIT/fairness claim.
-- Exact200-key replay/all19sources/registration/known CLI fingerprints PASS.
-- Independent50cells/15summaries/five sign sets/200full prompts+notes PASS.
-- New post-outcome exact companion15rational summaries/two regressions PASS.
-- Full276 tests/cache-only release/seven byte-identical regenerations PASS.
-- S21/S31 real original archives PASS;runner-only synthetic clocks scoped14+12.
+- Two positive/two ties/one negative;frozen ODD,no HIT/fairness mechanism claim.
+- Full200-key replay/19sources/registration/known CLI input checks PASS.
+- Independent50cells/15summaries/five sign sets/200prompt+note+reason bindings PASS.
+- Post-outcome exact15-summary companion/two mutation regressions PASS.
+- Full276 tests PASS;scoped synthetic clocks14S21+12S31,real archives unchanged/PASS.
+- Remote clone of0d5eff5:19checks/seven artifacts byte-identical,clone clean.
+- Registrationab7e42a/results0d5eff5 pushed;scientific SHA0950187e unchanged.
+- Mutable CLI baseline/effective-config gaps and accidental prefix peek disclosed.
 - Final critique texts complete,parent143;individual final exit statuses unverified.
-- Mutable CLI expected-baseline/effective-config gaps and prefix peek disclosed.
-- Scientific SHA0950187e/source freezeab7e42a unchanged;no tuning/pooling/HIT.
-- Next:results push/remote clone;then fresh structure/intervention with immutable CLI baseline.
+- No active generation/review,tuning,pooling,HIT or sibling writes.
+- Next:fresh structure/intervention;freeze future CLI baseline in closure,S30 unrun.
 
 ## Log
 
@@ -283,3 +284,5 @@
 - 2026-10-25T00:06:27.280727+00:00: post-companion/full final276-test suite PASS. Confirmed two legacy S31 mocked fixtures fail under simulated00:31 clock;scoped12-test S31 fixture clock added only in scripts/run_tests.py,alongside existing14 S21 synthetic overrides. Actual S21 and S31 original-source/original-cutoff releases separately PASS;old derived S31 receipt restored after its link count regenerated. All19 S32 sources/canonical SHA0950187e unchanged. Exact companion15 summaries/two regressions PASS;release includes companion. Final critique artifacts complete,parent143/individual exitcodes unverified accurately recorded. No scientific calls,source mutation,new outcome,tuning,pooling or HIT. Byte regeneration/results push/remote clone follow.
 
 - 2026-10-25T00:07:16.423894+00:00: final byte regeneration PASS:scientific result,summary,figure,independent receipt,post-outcome exact receipt,release receipt and REPORT all seven byte-identical under cache-only analysis. All19 sources and canonical SHA0950187e unchanged. Full276 tests and real S21/S31 archives pass;all final review dispositions documented,individual final critic exit statuses unverified after parent143. No new scientific calls,metric/source changes,tuning,pooling,HIT or sibling writes. Results milestone commit/push then remote-origin clean clone.
+
+- 2026-10-25T00:08:39.894798+00:00: iteration20 COMPLETE. S32 registrationab7e42ae1c83911a4b0481da63ee43f0bfbcc127 and results0d5eff51f49b5789432b0532f25aa1b9a6206de1 pushed;fresh full-history ORIGIN REMOTE clone passes cache-only release,19 S32 protocol/companion checks,raw independent reconstruction,all15 exact rational summaries and real S21 original archive. Seven artifacts byte-identical(scientific result,summary,figure,independent/exact/release receipts,REPORT);clone git status clean. logs/s32_remote_clean_clone.json records exact commit/commands/hashes and installed frozen-environment reuse,not fresh dependency installation. Full276 repository tests pass with14 historical S21 synthetic cutoff and12 S31 synthetic clock overrides;real original-cutoff S21/S31 archives separately PASS,all scientific/test source files unchanged. All19 S32 source hashes/canonical scientific SHA0950187e unchanged;200valid responses,zero retries/failures. ODD retained,no HIT/fairness/coordination/equivalence claim or secondary promotion. Exact companion is post-outcome manager validation,not critic-reviewed;final substantive critiques complete but parent143 means individual exit statuses unverified. Mutable expected CLI-baseline/transient-coordinated-drift and input-coverage/provider-attestation gaps remain explicit;no abort/continue/analysis decision depended on accidentally seen first-block prefixes. Ledger result reference finalized. Reports/HITS/README/DETAILS current;no extra scientific call,second pilot,tuning,pooling,exclusion,subgroup/reverse/secondary promotion,sibling write,direction deviation or active generation/review. Next different structure/intervention axis with immutable prospective CLI baseline;S30 stays unrun.

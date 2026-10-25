@@ -654,3 +654,11 @@ No partial treatment contrast computed;all19 sources and screening rules already
 frozen and unchanged,no tuning/exclusion/redraw/selected subgroup followed.
 Monitoring then used only metadata. Do not claim fully blinded monitoring.
 Both final critics confirm the unchanged ODD and primary numbers. Codex independently reconstructed raw arithmetic/all3125 bootstrap samples/all32 signs/all200 prompts/full replay;Opus checked supplied source/result text only,without raw/shell or the other review. Codex found a mutable CLI-baseline integrity gap:the expected fingerprint is reread from config,so coordinated transient input/baseline changes restored before completion are not excluded. Recorded launch/config/dispatch/completion fingerprints agree;this is no complete immutability or provider attestation. Frozen code unchanged;future harness should capture baseline in an immutable closure and guard the full config digest. Original independent rational-bound check used float tolerance;new post-outcome [exact-number companion](logs/s32_exact_check.json) checks all15 rational summaries by equality after binding50 metric cells to raw decisions. Two companion regressions catch1e-13 bound/mean perturbations. Manager figure/release/clone checks are outside critics fixed input scope. No abort/continue/analysis decision depended on the accidental prefix exposure;the one-shot automatic run completed unchanged. Opus proposed interpreting low rates as coordination;declined because actions do not identify an agreement or mechanism. Stage-regret remains unpromoted. Full post-companion suite and remote reproduction follow.
+
+Final full276-test suite PASS with14 historical S21 synthetic overrides and12
+S31 synthetic clock overrides;actual S21/S31 original archives separately PASS.
+Seven core artifacts regenerate byte-identically. Fresh full-history origin
+remote clone of results0d5eff5 passes19 S32 protocol/companion checks,full
+release and original S21 archive;all seven artifacts byte-identical,clone clean.
+Installed frozen dependency environment reused,not freshly installed.
+[Remote reproduction receipt](logs/s32_remote_clean_clone.json).

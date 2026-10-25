@@ -104,3 +104,10 @@ clone checks are distinct from their fixed input sets.
   omit other effective config/auth/profile/rule inputs and time between checks.
   Actual provider behavior/tool non-use remain unattested. Duplicated source
   checks/dead code are harmless;no frozen-source cosmetic edits.
+
+Manager final validation:276 repository tests PASS with scoped14 S21+12 S31
+synthetic clocks;actual original S21/S31 archives independently PASS. All19
+frozen sources/scientific SHA0950187e unchanged. Fresh origin-remote clone of
+results0d5eff5 passes19 S32 checks,exact companion/cache-only release and
+real S21 archive;seven artifacts byte-identical,clone clean. Installed frozen
+environment reused. Receipt:logs/s32_remote_clean_clone.json.
