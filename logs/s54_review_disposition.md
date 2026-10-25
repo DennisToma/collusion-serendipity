@@ -153,3 +153,14 @@ counts/bounds/t/sign fields against frozen results and confirmed the complete
 former post-table prose preserved verbatim,with prior details unchanged. No new
 scientific overclaim;predicted increase DUD/reverse unpromoted and all scope
 caveats retained. Scientific sources/data/result are unchanged.
+
+## Final release proof
+
+All634post-live canonical checks pass;all23S54tests pass with one synthetic empty
+NEW-launch destination. Final origin checkout24aa461 reproduces11artifacts
+byte-for-byte,verifies22registered sources/20archive files,forbids scientific
+calls and remains Git-clean. Existing frozen venv reused;no fresh dependency
+install. Current scientific-resultSHA remains unchanged. The prior19fb595
+science-release clone proof is retained separately. No estimator,source,data,
+threshold,label or endpoint changed after registration;only documentation and
+external test/reproduction fixtures were corrected.
