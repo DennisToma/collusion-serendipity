@@ -1,19 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T05:47:31.074679+00:00; Phase2, iteration36 COMPLETE)
-- S51(D):20fresh decisions/10observed S29 TYPE-Y contexts/5sourceblocks;zero newgames/tuning/retries/failures.
-- Adverse approvals charge3:5/10;charge9:5/10;reduction0[-.3,+.3];frozen DUD,no HIT.
-- Pairedt[-.438994516543,+.438994516543];upper/lowerp.75,two-sidedp1;.25target unresolved.
-- Blockdifferences[-.5,0,+.5,0,0];one each direction,three ties.
-- Matched current-policy notice;only charge3to9/net-2to-8 changes between arms;all user bytes fixed.
-- Full source/archive/registration/runtime/UTC/schedule replay and separate20bindings/15cells/3summaries PASS.
-- Both design/final critics exit0;Codex raw/source audit,Opus supplied-cell/code-only scope.
-- 600pre/post canonical tests PASS;figure inspected;call-forbidden regeneration byte-identical.
-- Registration836655c/resultsbf42c4e pushed;fresh origin clone PASS,19protocol tests PASS.
-- Seven release artifacts byte-identical,clone clean;installed frozen venv reused,not fresh install.
-- All20returned JSON exported;action/text mismatch illustrated without intent/agreement labels.
-- Next:fresh different axis;own/S52proposal,S46/S39/S49queued,S32unconfirmed,S30unrun;no active science/review.
-- Risks:n5,late reused histories,old-policy notes,draws/interference;focal-only,served runtime unattested.
+## Current state (2026-10-25T05:58:04.500526+00:00; Phase2, iteration37 REGISTERING)
+- S53(E):posthoc zero-call full-game static-incentive audit of S29;new decomposition not yet computed.
+- All10originalgames/5blocks/80primary rounds retained;zero newgames/scientificcalls/tuning.
+- Six fixed diagnostic metrics contain3independent quantities;Pareto=mutual-Y mechanically.
+- Both initial and patch Codex/Opus critics exit0;dispositions in logs/s53_review_disposition.md.
+- All611canonical and11scoped synthetic tests PASS;real archived clocks/sources unchanged.
+- Frozen manifest covers55source/input files,including complete S29 replay/runtime dependencies.
+- Next:commit/push/remote receipt before new decomposition;thenfull replay,independent stats,finalcritics/release/clone.
+- Fixed ODD/context-only,no HIT screen;original S29ODD and all original science unchanged.
+- Sciencequeue:freshdifferent axis after E/S53;own/S52proposed,S46/S39/S49queued,S32unconfirmed,S30unrun.
+- Risks:posthoc selection,n5,synthetic types,one family,draws/interference,source runtime unattested.
 
 ## Log
 
@@ -520,3 +517,7 @@
 - 2026-10-25T05:46:14.916069+00:00: Both final critics exit0;Codex raw/source reconstruction versus Opus supplied-cell/code-only scope. Frozen DUD and all statistics confirmed.600post-live canonical tests PASS;actual figure inspected;call-forbidden scientific/summary/figure/verbatim-appendix release byte-identical. All15registered scientific sources unchanged. Explicit unresolved.25target,ambiguous common-notice referent,reused-history and no test-retest attribution limits recorded. Results push then fresh origin clone next.
 
 - 2026-10-25T05:47:31.074679+00:00: iteration36 COMPLETE. Registration836655c50926a60b536096b6a772084e9a27fea7/resultsbf42c4e7a7598291d65bd482d2420ee9f0511bca committed/pushed. Fresh full-history ORIGIN clone at results commit passes complete source/archive/registration/runtime/environment/UTC/schedule/request/response replay,separate20rawbindings/15blockcells/3exactbootstrap+t/all sign tails,summary/figure/verbatim-output regeneration,model-call-forbidden release and19protocol tests;childexit0. Seven release artifacts byte-identical;clone gitstatus clean. Existing installed frozen venv reused,not fresh dependency installation;logs/s51_remote_clean_clone.json records exact commands/hashes. Both initial+patch design/final critics and parent processes exit0;Codex raw/source audit versus Opus supplied-cell/code-only scope.600pre/post canonical tests PASS. All15registered scientific sources and canonical resultSHA1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77 unchanged. Charge3:5/10/charge9:5/10,reduction0[-.3,.3],pairedt[-.438994516543,+.438994516543],upper/lowerp.75/two-sidedp1;frozen DUD,no HIT,sibling headline change or claim excluding.25. Only focal decisions rerun;old policy persists in dated notes,common-notice referent imperfect,observed late histories reused fromS48/S50;no long-run,mechanism,equilibrium,verified-collusion,equivalence,population or isolated stochastic-noise claim. All20returned texts preserved;illustrative action/text mismatch assigns no intent label. Requested model/backend labels and local fingerprints do not attest served identity/settings/tool non-use. Early scientific-initialization reservation guard closed before calls;new own/S52framing idea queued,not run. No extra scientificcalls,secondpilot,scientific-source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,siblingwrites,DIRECTION deviation or active science/review. Closing proof/handoff commit+push next.
+
+- 2026-10-25T05:56:37.224459+00:00: iteration37 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling summaries. Selected E/S53 zero-call posthoc full-game incentive audit after D/S51,avoiding another perturbation of the same ten focal histories. New decomposition fixed before computation;all10S29games retained;no newgames/scientificcalls/tuning. Both initial and patch methodology critics exit0;accepted payoff-metric redundancy,complete source/input freeze,specific pushed-registration evidence,all-six figure,standalone debug guard,matched schedules,staged publication and exact verifier schema/coverage.11scoped synthetic tests PASS;final canonical preflight running. Original S29label and all source/data bytes unchanged;no sibling writes or DIRECTION deviation.
+
+- 2026-10-25T05:58:04.500526+00:00: S53 finalpreflight PASS:611canonical tests,11scoped tests,allsource/input manifest ready,allnew aggregate calculations still unrun. Accepted both methodology review rounds;no outcome-dependent rule,sourceS29change,new scientificcalls or siblingwrites. Registration commit/push then remote observation required before decomposition.
