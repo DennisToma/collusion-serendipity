@@ -1,18 +1,14 @@
 # STATUS
 
-## Current state (2026-10-25T10:15:13.433894+00:00; Phase2, iteration47 COMPLETE)
-- S65/B:10fresh games/5blocks;200accepted responses,zero retries/failures.
-- TYPE-Y approvals individual9/40,pooled20/40;gap+.275[.000,.475].
-- Pairedt[-.111465,.661465];upperp.09375;blocks[.5,.5,.25,-.25,.375].
-- Frozen UNRESOLVED calibration/ODD;no HIT rule or collusion claim.
-- Final stage Y reviewer increment−2 versus+2;both arms retain history/shared notes.
-- Full raw replay+independent200bindings/50cells/15bootstrap+t summaries PASS.
-- Post-publication823canonical/17focused tests and3release mutations PASS.
-- Codex raw/source final PASS;compact Opus supplied-text arithmetic PASS;full timeout retained.
-- All20registered sources and846published older science artifacts unchanged;split append verified.
-- Fresh origin4bb315b:13artifacts byte-identical,17focused tests,clone clean.
-- Next different-axis A/C/E;ownS66,S63,S57,S52,S49queued;no promoted HIT.
-- Risks:n5,multiplicity,settlement/wording bundle,repeated-game continuation,provider.
+## Current state (2026-10-25T10:25:18.977815+00:00; Phase2, iteration48 IN PROGRESS)
+- Selected S67/E: posthoc settlement-aware incentive audit of all10 S65 games.
+- Zero new games/scientific calls;original S65 UNRESOLVED/ODD unchanged.
+- Eight bookkeeping metrics fixed;32 stage profiles/64 unilateral deviations.
+- Methodology Codex+Opus complete;exact-endpoint verification gap corrected.
+- 838 preanalysis repository tests and16 final focused tests PASS.
+- Next push source/input freeze,then compute/reconstruct all80 primary rounds.
+- Fixed ODD/context-only;no HIT screen,replication or mechanism claim.
+- Risks:n5,posthoc selection,related metrics,different regret schedules,provider.
 
 ## Log
 
@@ -663,3 +659,6 @@
 - 2026-10-25T10:13:57.599398+00:00: fresh origin9f80f31 passes13byte-identical artifacts,17focused tests and clean clone. Compact Opus supplied-text final review confirms counts,mean,sign p,t arithmetic,economics,ODD and no-overclaim scope;bootstrap enumeration/raw audit explicitly unchecked by Opus and checked by Codex. Accepted bonus/loss per-primary-round units and one-shot/grammar/count clarifications via separate presentation wrapper. All scientific sources/data/estimates unchanged. Final origin rerun after wording changes pending.
 
 - 2026-10-25T10:15:13.433894+00:00: iteration47 COMPLETE. Final origin4bb315bd6d6910af5050d1cae7623bdca3bb1fe4 reproduces13artifacts byte-identically,all17focused tests,clean clone;existing pinned venv reused,no fresh-install claim. Post-publication canonical823 PASS with named historical synthetic fixtures,actual archive checks unpatched. All20registered source hashes,canonical scientific result bytes,846published older scientific artifacts and prospective split-index append verified. Ledger result reference points to the exact reproduced revision. REPORT48pilots;HITS unpromoted;all80Y decisions bound without new metrics/labels. Both final review scopes/dispositions and full-context Opus timeout retained. No remaining live simulation or review;no direction deviation,new experiment,HIT or sibling headline change.
+
+
+- 2026-10-25T10:25:18.977815+00:00: iteration48 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries read-only. Chose different-axis E/S67 after B/S65: zero-call all-game final-settlement accounting rather than more reused-context seller calls. Both independent methodology critics confirm arithmetic/comparators;accepted exact-rational endpoint checks,explicit structural-zero/unit/guard limits and source indexing assertions. All838 initial repository tests and16 final focused checks PASS;no new archived aggregates computed. Freeze/push next;original S65 remains UNRESOLVED/ODD. No direction deviation or sibling change.
