@@ -1,6 +1,6 @@
 # STATUS
 
-## Current state (2026-10-25T02:29:41.996045+00:00; Phase2, iteration26 PUBLICATION)
+## Current state (2026-10-25T02:30:43.094440+00:00; Phase2, iteration26 COMPLETE)
 - own/S37:10games/5blocks,200valid decisions,zero retries/failures.
 - Coded/payroll take-home0each;five paired ties;frozen DUD.
 - Bootstrap/t[0,0] degenerate,upperp1;no population-equivalence claim.
@@ -8,11 +8,12 @@
 - Full200key/22source/registration/runtime/UTC/export replay PASS.
 - Separate50cells/15bootstrap+t/15sign tails/200bindings/15exact PASS.
 - Durable414post-live tests PASS;both final critics/parent exit0.
-- Final forbidden-call7artifact regeneration PASS;21archivefiles unchanged.
-- ScientificSHA9c9ad480 unchanged;all22frozen source hashes match.
-- Registrationfe1d49e pushed;results push/origin clone next.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- S39 queued only,S32unconfirmed,S30unrun;next fresh different axis.
+- Forbidden-call7artifacts/21archivefiles/22sources unchanged.
+- Fresh origin clone30tests/seven artifacts exact,clean;frozen venv reused.
+- Registrationfe1d49e/results7f7f867 pushed;ledger references finalized.
+- ScientificSHA9c9ad480 unchanged;no active generation/review.
+- No tuning,pooling,HIT,secondary promotion or sibling writes.
+- Next:fresh different axis;S39 queued only,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -377,3 +378,5 @@
 - 2026-10-25T02:28:51.090587+00:00: S37 final Codex/Opus critics both exit0,parent0. Codex independently reconstructs raw choices,bootstrap/sign flips,stage economics and full archive integrity;Opus supplied-text-only scope explicit. Accepted floor/joint-profit/unilateral-regret context and explicit fingerprint/journal limitations in docs,without source/estimator changes or mechanism claim. Opus total-profit denominator typo documented;actual total-profit/8 and regret/16 independently verified. Durable post-live414-test suite childexit0. Figure inspected,119local links/cache-only release PASS;first forbidden-call regeneration all7artifacts/21archivefiles/22sources unchanged. ScientificSHA9c9ad480 unchanged. Final regeneration then results push/origin clone next.
 
 - 2026-10-25T02:29:41.996045+00:00: S37 final model-call-forbidden regeneration PASS:all7artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts),21archive files and22frozen sources unchanged. ScientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20.119local links/cache-only release PASS,git diff --check PASS,publishable payload40778613bytes<100MB.414post-live tests childexit0,both final critics/parent exit0. No active generation/review,new scientific calls,source edits,tuning,pooling,HIT or sibling writes. Results milestone push then origin clean clone next.
+
+- 2026-10-25T02:30:43.094440+00:00: iteration26 COMPLETE. S37 registrationfe1d49e/results7f7f8676dbcef9fd31e3a20c79cec6e5f5757128 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,separate raw reconstruction,exact companion,summary/figure regeneration,cache-only release and all30S37protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone clean. logs/s37_remote_clean_clone.json records exact commands/hashes and existing frozen-venv reuse,not fresh dependency installation. Durable local414post-live tests childexit0;all7local artifacts regenerate identically with model calls forbidden;21archive files/22source hashes/scientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20 unchanged. Both final critics/parent exit0;Codex raw reconstruction/full chronology versus supplied-text-only Opus. Frozen DUD:coded0/payroll0,all five paired ties,degenerate bootstrap/t[0,0],upperp1;no population equivalence,S36 mechanism,anchoring or verified coordination claim. Primaryquote10 minimum,mean unilateral regret9 clarifies joint-profit floor without intent inference. Source/config/provider/journal limitations explicit;future regeneration requires frozen checkout. Ledger result reference finalized;reports/HITS/README/DETAILS current. S39 proposal only,S32unconfirmed,S30unrun. No new scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Publication receipt/handoff commit and push next.

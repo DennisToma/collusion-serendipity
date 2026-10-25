@@ -1012,3 +1012,10 @@ local-input gaps include AGENTS.override.md,config includes/referenced MCP/plugi
 executables,and transient changes reverted between checks;full effective settings
 and provider execution remain unattested. Admission hashes serialize local guards,
 with invocation overlap verified afterward. Frozen scientific sources are preserved.
+
+S37 registrationfe1d49e/results7f7f867 pushed. A fresh origin clone
+passes full cache-only release,all30S37protocol tests and seven byte-identical
+primary artifacts;clone remains clean. Receipts:logs/s37_remote_clean_clone.json
+and logs/s37_remote_exit.json. The clone reuses the installed frozen venv rather
+than installing dependencies afresh. All414repository tests passed locally with
+durable childexit0;all22frozen source hashes/scientificSHA9c9ad480 remain unchanged.
