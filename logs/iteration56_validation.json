@@ -1,0 +1,43 @@
+{
+  "time_utc": "2026-10-25T13:21:21.550971+00:00",
+  "command": [
+    "uv",
+    "run",
+    "--frozen",
+    "python",
+    "scripts/export_report.py",
+    "--check",
+    "--replay-selected"
+  ],
+  "source_sha256": "f7347ad29b119a8f98f69f55de71a3ab3fdf8e8f703366dc850cf2d3626ed734",
+  "precommit_head": "573f97310771f76fefb67e8d57f666539ad919cb",
+  "export_receipt_sha256": "0f2f279853a08d3b0517be98aabf0b647d94d737f68e6d02003e8dc2154c26e2",
+  "command_exit": 0,
+  "command_output": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 176, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+  "command_errors": "",
+  "canonical_suite": {
+    "passed": true,
+    "tests": 926,
+    "failures": 0,
+    "errors": 0,
+    "group_counts": {
+      "ordinary": 886,
+      "s21": 14,
+      "s31": 12,
+      "s33": 13,
+      "s54_direct_entry": 1
+    },
+    "legacy_synthetic_fixtures": {
+      "s21_deadline": "2099-01-01T00:00:00+00:00",
+      "s31_now": "2026-10-24T23:29:00+00:00",
+      "s33_now": "2026-10-25T00:20:00+00:00"
+    },
+    "real_archive_deadlines_and_sources_unchanged": true,
+    "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+  },
+  "canonical_terminal_exit": 0,
+  "focused_suite": "scripts.test_s45",
+  "focused_tests": 21,
+  "focused_terminal_exit": 0,
+  "scientific_sources_and_results_unchanged": true
+}

@@ -1,0 +1,7 @@
+**One medium correctness issue; no high issues found.**
+
+- **Medium — PDF navigation is tied to the build machine.** [export_report.py:179](/home/factory/collusion/collusion-serendipity/scripts/export_report.py:179) preserves relative export links, then Chromium prints from a local file URL at [line 246](/home/factory/collusion/collusion-serendipity/scripts/export_report.py:246). I extracted `REPORT.pdf` annotations: all four export links resolve to `file:///home/factory/collusion/collusion-serendipity/...`. A judge who downloads or relocates the PDF cannot use those links, even with the sibling exports beside it. Emit portable PDF links or published HTTPS targets, and validate the resulting annotations.
+
+Verification: the installed-environment `--check` passed: 54 original rows, 307 numeric bindings, 144 metadata checks. Both HTML exports matched the renderer; independent PDF extraction confirmed all 58 brief and 176 report source fragments. Interval directions, labels and claim scope were consistent with the stated limits.
+
+The requested `uv` command failed because its cache-lock creation requires filesystem writes; direct `.venv/bin/python` verification succeeded. No edits, subagents or scientific model calls were made.

@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "archive_writes": false,
+  "probes": [
+    {
+      "probe": "missing_figure_marker",
+      "rejected": true,
+      "reason": "Brief figure insertion marker changed"
+    },
+    {
+      "probe": "reordered_complete_rows_with_same_fragments",
+      "rejected": true,
+      "reason": "BRIEF PDF missing or reordered complete table row: S29:Sharednotepad;gpt-6-lunaself2/40\u2192shared15/40sharedminusself:+0.325[+0.100,+0"
+    },
+    {
+      "probe": "machine_local_pdf_link",
+      "rejected": true,
+      "reason": "Machine-local PDF link: file:///var/tmp/other-machine/BRIEF.pdf"
+    }
+  ],
+  "export_source_sha256": "f7347ad29b119a8f98f69f55de71a3ab3fdf8e8f703366dc850cf2d3626ed734",
+  "probe_source_sha256": "1f16b524bce272452ce38a33e1890c538af9ba380bdf07e14d1bc4533850e4fa",
+  "command_argv": [
+    "scripts/iteration56_probes.py"
+  ],
+  "scope": "In-memory checks of missing-figure, row-order and PDF-link regressions; scientific archives unchanged."
+}

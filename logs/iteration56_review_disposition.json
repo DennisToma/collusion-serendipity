@@ -1,0 +1,40 @@
+{
+  "scope": "Reader export methodology and final claim presentation; frozen scientific research not changed.",
+  "codex_initial": "One medium: Chromium emitted file:// links tied to build machine.",
+  "opus_initial": "Missing-figure guard, coverage labels, row order, brief binding and pinned link existence needed clearer checks.",
+  "actions": [
+    "Rewrote PDF annotation targets to portable relative URIs and checked every PDF link against generated pinned HTML.",
+    "Guarded unique figure and editorial insertion markers and exact image counts.",
+    "Added ordered complete-row extraction checks and in-memory rejection probes.",
+    "Rebuilt the archived brief using saved fields and original raw opportunity counts through unmodified products().",
+    "Checked every frozen source link with git cat-file at actual evidence revision.",
+    "Moved scientific/source checks before writing the successful render receipt.",
+    "Labelled plain-check coverage as saved; fresh PDF extraction requires check-pdf.",
+    "Derived selected replay count from actual replay records.",
+    "Bound chart directions to each source primary_contrast."
+  ],
+  "historical_probe_scope": "Old thirteen-probe receipt remains exactly Git-bound by preservation; current command recomputes row/field checks, not those historical probes. Three new export probes separately pass.",
+  "reproduction_scope": "Actual byte-identical repeat and relocated-local-clone builds pass on installed export environment/Chromium. Origin reproduction follows push; no fresh/cross-platform installation claim.",
+  "initial_records_retained": true,
+  "intermediate_records_retained": true,
+  "closure_review_pending": false,
+  "limitations": [
+    "Supplied-text Opus scope excludes execution, raw archives and visual PDF inspection.",
+    "PDF text/row checks verify retained presentation and order, not scientific validity.",
+    "HTTPS evidence links require repository access.",
+    "The exported complete log is REPORT.md, not all historical STATUS entries or REPORT_DETAILS."
+  ],
+  "closure_codex": "No concrete high/medium issue. Independently checked all numeric bindings, fresh PDF text/rows, links, chart and claim scope; no selected replays or builds rerun by critic.",
+  "closure_opus": "Supplied-text scope retains medium requests about execution-receipt binding, mutable hash receipts and environment guidance. Actual primary-command validation, final-source hashes, explicit check-pdf command and origin reproduction address evidence/guidance requests. Consistency with committed receipt is the stated scope, not malicious co-edit resistance.",
+  "accepted_closure_actions": [
+    "Added exporter SHA256, exact argv/command and precommit HEAD to executed validation/repeat receipts; negative-probe receipt pins exporter and probe sources.",
+    "Documented literal separate-environment check-pdf command and project-environment scientific replay command.",
+    "Clarified plain check as consistency with committed receipt; Git is the release anchor.",
+    "Final origin proof will bind result revision and exporter SHA256 and run both complete advertised commands."
+  ],
+  "not_scientific_defects": [
+    "Additional guard probes for every implementation line were not added; actual full-source audit, successful end-to-end commands and three concrete regression probes define the verified scope.",
+    "The reviewer could not inspect historical helpers or validation receipt; actual executions and reconstruction pass. No missing-dependency failure observed in tested environments.",
+    "No claim that file hashes defend an adversary editing both code and receipt or that the private source repo is public."
+  ]
+}

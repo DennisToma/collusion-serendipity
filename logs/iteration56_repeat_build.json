@@ -1,0 +1,27 @@
+{
+  "command": [
+    "uv",
+    "run",
+    "--no-project",
+    "--with",
+    "markdown-it-py==4.2.0",
+    "--with",
+    "playwright==1.64.1",
+    "--with",
+    "pypdf==6.21.2",
+    "--with",
+    "matplotlib==3.11.2",
+    "python",
+    "scripts/export_report.py",
+    "--build",
+    "--check-pdf"
+  ],
+  "source_sha256": "f7347ad29b119a8f98f69f55de71a3ab3fdf8e8f703366dc850cf2d3626ed734",
+  "export_receipt_sha256": "0f2f279853a08d3b0517be98aabf0b647d94d737f68e6d02003e8dc2154c26e2",
+  "precommit_head": "573f97310771f76fefb67e8d57f666539ad919cb",
+  "command_exit": 0,
+  "command_output": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 176, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+  "command_errors": "",
+  "exports_byte_identical": true,
+  "receipt_byte_identical": true
+}

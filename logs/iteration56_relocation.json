@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "command_exit": 0,
+  "command_output": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 176, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+  "command_errors": "",
+  "all_export_bytes_and_receipt_identical": true,
+  "scope": "Relocated local shared clone with pending changes overlaid; not origin reproduction; same installed export environment."
+}

@@ -1,0 +1,91 @@
+{
+  "scope": "Presentation only; source-fragment coverage is not raw scientific validation.",
+  "source_revision": "573f97310771f76fefb67e8d57f666539ad919cb",
+  "export_environment": {
+    "markdown-it-py": "4.2.0",
+    "playwright": "1.64.1",
+    "pypdf": "6.21.2",
+    "matplotlib": "3.11.2"
+  },
+  "chromium_version": "156.0.8078.4",
+  "network_requests_blocked": [],
+  "chart_rows": [
+    {
+      "source": "results/s29_notepad.json",
+      "mean": 0.325,
+      "bootstrap95": [
+        0.1,
+        0.575
+      ],
+      "paired_t95": [
+        -0.0487903617363003,
+        0.6987903617363003
+      ]
+    },
+    {
+      "source": "results/s62_notepad_qwen.json",
+      "mean": 0.1,
+      "bootstrap95": [
+        -0.025,
+        0.25
+      ],
+      "paired_t95": [
+        -0.1302106666239977,
+        0.3302106666239977
+      ]
+    },
+    {
+      "source": "results/s69_pooled_enforcement.json",
+      "mean": 0.675,
+      "bootstrap95": [
+        0.45,
+        0.875
+      ],
+      "paired_t95": [
+        0.33495630967087225,
+        1.0150436903291278
+      ]
+    },
+    {
+      "source": "results/s70_bonus_endowment.json",
+      "mean": 0.0,
+      "bootstrap95": [
+        -0.075,
+        0.075
+      ],
+      "paired_t95": [
+        -0.10974862913563535,
+        0.10974862913563535
+      ]
+    }
+  ],
+  "pdf_text_coverage": {
+    "BRIEF": {
+      "pages": 2,
+      "source_fragments_checked": 58,
+      "missing_fragments": 0,
+      "complete_table_rows_in_order": 13,
+      "portable_relative_links": 1
+    },
+    "REPORT": {
+      "pages": 3,
+      "source_fragments_checked": 176,
+      "missing_fragments": 0,
+      "complete_table_rows_in_order": 55,
+      "portable_relative_links": 4
+    }
+  },
+  "files": {
+    "BRIEF.html": "d874c4ed3bab5fccd4732fc8892cdac222ee3315f37298dea3fd6ec02e3e4ab2",
+    "BRIEF.pdf": "9365e7a6f8fe3f96cc265035a87e818a0b99400d583a703a7bbad80ef35ada6c",
+    "REPORT.html": "f681d391008316d8d02c8b33c7d06101fd776b8c156215ddf6792d015774688a",
+    "REPORT.pdf": "1f3724e533ca2e4b76e352a92de74a4fd801e12d1b12fecf6d29da4f0b9528b8",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd"
+  },
+  "source_hashes": {
+    "scripts/export_report.py": "f7347ad29b119a8f98f69f55de71a3ab3fdf8e8f703366dc850cf2d3626ed734",
+    "REPORT.md": "d23b0d525bd4aee59ece1c9879eba3f720a466d0dd4075ccef6f44994fde063f",
+    "README.md": "558b8670a313acffb89597bb56422069b2065ce44bed488802adfce3132b4213",
+    "results/iteration54_brief.md": "fe604bc89bb75ea7c75f6d01016dde7ef9c2eb09ebdc3acc7da8b63dfbe285e6"
+  }
+}
