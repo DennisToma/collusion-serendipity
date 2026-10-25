@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "baseline": "69cc367ef801d841c9e0c1d16af1d6ce66061b4c",
+  "protected_preexisting_paths": 3218,
+  "intentional_mutable_paths": [
+    "BRIEF.html",
+    "BRIEF.pdf",
+    "README.md",
+    "REPORT.html",
+    "REPORT.md",
+    "REPORT.pdf",
+    "STATUS.md",
+    "scripts/check_release_clone.py",
+    "scripts/export_report.py"
+  ],
+  "original_pilot_rows": 54,
+  "historical_status_log_preserved": true
+}

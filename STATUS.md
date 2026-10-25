@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25 15:48 UTC; Phase 2, iteration 62 IN PROGRESS)
-- Frozen portfolio: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT.
-- S29 +.325[+.100,+.575], t[-.049,+.699], p=.0625; S62 +.100[-.025,+.250]; both ODD.
-- Iteration61 released at69cc367; selected5 checks pass again in iteration62.
-- Current chunk: complete clean-origin acceptance of the new canonical test wrapper together with full54 primary replay.
-- Candidate helper adds --full-validation; fresh project env, existing caches/export env/Chromium/OS reused.
-- First acceptance run and independent bounded Codex/Opus editorial reviews active; success not yet claimed.
-- Prior926-check/full54 replay/8-file reader reproduction receipts retained with their recorded scopes.
-- Review scopes differ; Opus supplied-text concerns are being checked against actual code before disposition.
-- Science, ledgers, splits, HITS and all54 original rows remain frozen; S68 never resume.
-- POLISH only; no new experiments, scientific decisions, estimates or sibling writes.
+## Current state (2026-10-25 16:00 UTC; Phase 2, iteration 62 COMPLETE)
+- Frozen portfolio: 54 entries; 29 DUD, 23 ODD/context-only, two failed; no promoted HIT or headline change.
+- S29 +.325[+.100,+.575], t[-.049,+.699], p=.0625; S62 +.100[-.025,+.250]; both ODD, unchanged.
+- Definitive full-origin acceptance at3d2a9fd: new project env; runner bound to that same pushed revision.
+- Canonical926 tests executed, zero recorded failures/errors; historical fixtures unchanged.
+- All54 primary objects reproduce:52 analyses/two failure audits;50 existing checkers and receipt check pass.
+- Selected5 and fresh PDF text/row/link checks pass; all8 target-revision reader files exact; clone Git status clean.
+- Interpreter verified inside clone; inherited Python/uv routing removed; stale PASS invalidation regression passes.
+- Warm caches/export env/Chromium/host reused; no empty-cache, cross-host or independent scientific validation claim.
+- Current iteration62 reader build/PDF extraction and field checks pass; brief2/report4 pages.
+- All3218 prior protected paths,54 rows and historical STATUS log preserved; science/ledgers/splits/HITS unchanged.
+- Initial critics retained; final narrow Codex static review exit0,no high/medium; no final scientific-validity audit.
+- Acceptance summary pins its tested revision; current reader additions checked separately. POLISH only; S68 never resume.
 
 ## Log
 
@@ -805,3 +807,5 @@
 - 2026-10-25 15:48 UTC: iteration62 read CLAUDE/PLAN/STATUS/DIRECTION, the complete experiment ledger and both sibling report/state summaries. All pilot deadlines have passed; select one final release-acceptance chunk for the newly introduced iteration61 compatibility wrapper. Existing clean-origin proof covers selected5 plus reader exports, while the new wrapper/full54 sweep was only checked locally. Extend the existing clean-origin helper with optional full validation; fresh clone run and bounded repository Codex/supplied-text Opus critiques active. First pass targets released69cc367 with a working-tree harness explicitly identified by hash; no result or success claim yet. No new experiment, scientific call, estimate, tuning, pooling, verdict, ledger row, HIT or sibling write. Original DIRECTION queue already satisfied; no deviation.
 
 - 2026-10-25 15:52 UTC: preliminary full-origin acceptance at69cc367 finishes terminalexit0: new project env, selected5,926 tests/zero failures/errors,54primary objects/50checkers, fresh PDF extraction and8exact files, clean Git status. This preliminary working-tree harness is explicitly not final acceptance evidence. Initial Codex repository review and supplied-text Opus both exit0. Accept inherited-UV/project-routing and stale-PASS concerns: sanitize Python/uv configuration, verify actual clone interpreter, prewrite non-passing receipt. Also bind runner to its committed revision, capture executed clone exporter hash and identify portfolio check by argv. Actual S60 tests/comparator use read_bytes and compose with split fixture; no frozen fixture/test changes. No skip declarations found; final wording uses executed-count/zero-recorded-failure scope. Preflight regression rejects uncommitted runner and invalidates synthetic stale PASS. Commit/push revised harness before final full run; no scientific change.
+
+- 2026-10-25 16:00 UTC: iteration62 COMPLETE. Revised acceptance harness3d2a9fdad1edce5e2466c5cfd37b1a1b57dcc70a committed/pushed before definitive full-origin run. Final receipt logs/iteration62_remote_full_acceptance_final.json binds that same runner revision/hash and the executed clone exporter. New project environment and its actual interpreter verified after clearing inherited Python/uv routing, disabling uv config and selecting public default index; warm caches and existing export environment/browser/host reused. Every command terminalexit0: selected5,current54-row/307numeric/144metadata checks,926 canonical tests with zero recorded failures/errors,52 archived analyses/two failure audits,50 existing checkers,full receipt consistency,fresh PDF text/row/link extraction and8byte-identical target-revision reader files; clone status --porcelain empty. Inner historical workers are local clones,checker depth varies,scientific llm.chat attempts0; no empty-cache,cross-host,network-isolation or independent-replication claim. Initial bounded Codex repository/supplied-text Opus concerns and dispositions retained; final narrow Codex code review exit0,no high/medium,static scope only. Preliminary69cc367 working-tree-harness success remains explicitly superseded; preflight regression rejects uncommitted runner and invalidates prior synthetic PASS. Frozen tests/fixtures/validators untouched. Acceptance summary and final reader overlay add reproducibility evidence only: current iteration62 build,fresh PDF extraction and saved-field checks pass separately; selected5 completed in the tested3d2a9fd release; brief/report pages2/4,fragments59/180,complete rows13/55. Current reader revisions are not folded into the earlier8-file identity claim. Independent preservation checks all3218 preexisting paths outside exact9-file intentional overlay,54 original rows and append-only STATUS log; scientific sources/data/results/ledgers/splits/HITS/verdicts intact. No new experiment,scientific decision,tuning,pooling,estimate,HIT,sibling write or DIRECTION deviation. S68 remains interrupted without estimate/restart. Final result commit/push follows; preserve stable release and act only on actual publication defects.
