@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T01:41:34.043149+00:00; Phase2, iteration24 publication)
-- S36 gross/net quotation:10games/5blocks,200valid responses,no retries/failures.
+## Current state (2026-10-25T01:42:36.644227+00:00; Phase2, iteration24 COMPLETE)
+- S36:10games/5blocks,200valid decisions,zero retries/failures.
 - Take-home NET8.000/GROSS1.800;NET−GROSS+6.200[2.200,10.000].
 - Paired t[-.275727,12.675727],upperp.0625;ODD,four positives/one tie.
-- Exact incentives;bundled wording/grid/arithmetic;both wage means below Nash.
-- No HIT or identified anchoring/coordination mechanism.
-- Full200-key replay,21frozen-source/runtime/UTC/export/overlap PASS.
+- Both means below Nash18–20;no HIT or identified anchoring/coordination.
+- Full200-key replay/21frozen sources/runtime/UTC/exports/overlap PASS.
 - Separate50cells/15bootstrap+t/15sign tails/200bindings/exact15 PASS.
+- Durable354tests PASS;eight local artifacts regenerate with calls forbidden.
+- Origin clone27tests/seven primary artifacts exact,clean;existing venv reused.
+- Registrationce0389e/results4c9a157 pushed;SHAabfbb898 unchanged.
 - Both final critics,parent exit0;Opus supplied-text scope explicit.
-- Post-outcome raw quote census/160-response recount separately labeled.
-- Durable post-live354tests and eight-artifact forbidden-call regeneration PASS.
-- Registrationce0389e pushed;results push/origin clone next.
-- Next:different axis;prospective referenced-file guard repair,S37 queued only.
-- Risks:n5,low wage baselines,incomplete effective config/provider attestation.
+- Post-outcome quote census/160-response recount separately labeled.
+- No active generation/review,tuning,pooling,HIT or sibling writes.
+- Next:different axis;fix referenced-file guard prospectively,S37 queued only.
 
 ## Log
 
@@ -344,3 +344,5 @@
 - 2026-10-25T01:40:21.399779+00:00: S36 final Codex/Opus critics both exit0,parent0. Codex independently reconstructs raw50cells/15bootstrap+t summaries/15sign tails/all200prompt bindings,441profiles/18,522deviations and full archive chronology/replay;Opus supplied-text scope explicit. Added post-outcome quote census at critic request:meanquotesNET7.85/GROSS11.6625;quote10 counts52/80 versus65/80,with separate160raw-response recount and no inference/promotion. Referenced-file fingerprint gap explicit;five named path-input env values recorded unset,not full attestation. Full354post-live tests emit PASS;outer143 ambiguity closed by standalone durable childexit0 and354PASS. Separate cache-only release/109local links PASS;figure inspected. All21frozen sources/scientificSHAabfbb898 unchanged. Final regeneration then results push/origin clone next.
 
 - 2026-10-25T01:41:34.043149+00:00: S36 final model-call-forbidden regeneration leaves all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,post-outcome quote census). All21source hashes/scientificSHAabfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0 unchanged. Both final critics,parent exit0;durable standalone354-test suite childexit0. Cache-only release/110local links PASS. Separate raw160-quote recount/context SHA matches;context explicitly not reviewed by primary critics. Queued own/S37 policy-wording control as unrun future idea;no second experiment,new scientific calls,tuning,pooling,exclusion,reverse/secondary promotion,HIT or sibling write. Results milestone commit/push then origin clone next.
+
+- 2026-10-25T01:42:36.644227+00:00: iteration24 COMPLETE. S36 registrationce0389e5d5cf39847f8d9ff27fc7221db7540bbf/results4c9a15785d9a697f7ccef55b9f62e0fd88d3f447 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,separate raw reconstruction,exact companion,summary/figure regeneration,cache-only release and all27protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone clean. logs/s36_remote_clean_clone.json records exact commands/hashes and installed frozen-venv reuse,not fresh dependency installation. Durable local354post-live tests childexit0;all8local artifacts including post-outcome census byte-identical under forbidden-call regeneration. Initial post-live outer143 retained separately despite complete PASS summary;standalone receipt resolves childexit. Both final critics,parent exit0;Opus supplied-text scope explicit,post-outcome census manager-validated by160raw responses and not reviewed by primary critics. All21source hashes/scientificSHAabfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0 unchanged. Frozen ODD:+6.2[2.2,10],t[-.275727,12.675727],upperp.0625,four positives/one tie;no HIT/isolated anchoring/coordination claim. Both wage means below Nash;raw quote10 counts52/80NET versus65/80GROSS clarify coordinates without mechanism inference. Selected known-input coverage does not hash referenced file contents;five named path-input env values recorded unset,not complete config/provider attestation. Ledger result/context references finalized. Reports/HITS/README/DETAILS current;S37 proposal only,S30 unrun,S32 unconfirmed. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Publication receipt/handoff commit and push next.

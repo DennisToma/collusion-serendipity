@@ -922,3 +922,11 @@ receipts are in logs/s36_*;no isolated mechanism claim.
 
 `uv run python scripts/s36_context.py` regenerates a separately labeled post-outcome
 quote census. It adds no inference or promotion and preserves frozen sources.
+
+S36 results4c9a157 are pushed. Fresh origin clone passes cache-only release,
+all27protocol tests and seven byte-identical primary artifacts;clone stays clean.
+Receipts:logs/s36_remote_clean_clone.json and logs/s36_remote_exit.json.
+All354repository tests passed locally with explicit childexit0;all8local artifacts,
+including the post-outcome quote census,regenerate under forbidden model calls.
+The remote script checks seven primary artifacts;its environment reuses the
+installed frozen venv rather than installing dependencies afresh.

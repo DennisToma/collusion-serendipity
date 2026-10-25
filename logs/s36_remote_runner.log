@@ -1,0 +1,104 @@
+{
+  "pilot": "S36",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "net minus gross",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "net": 0,
+    "gross": 0
+  },
+  "notes": {
+    "net": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "gross": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Gross quotation changes grid labels, tax/subsidy wording and arithmetic together; isolated anchoring mechanism unidentified",
+    "Exactly bijective stage incentives; no strategic workers or public budget objective",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Net pure Nash profiles (18,18),(19,19),(20,20); gross profiles translate each entry by10",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Known local CLI fingerprints include selected NODE_OPTIONS, proxy, certificate and authentication inputs; ancestor instructions and complete effective configuration or provider execution remain unattested",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}
+Primary: {'mean': 6.2, 'mean_exact': '31/5', 'ci95': [2.2, 10.0], 'ci95_exact': ['11/5', '10'], 'paired_t_ci95': [-0.2757271388348128, 12.675727138834812], 'exact_signflip_p_upper': 0.0625, 'exact_signflip_p_lower': 1.0, 'exact_signflip_p_two_sided': 0.125}
+{
+  "passed": true,
+  "metric_cells": 50,
+  "bootstrap_and_t_summaries": 15,
+  "sign_sets": 5,
+  "sign_tails": 15,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "prompt_contracts": 200,
+  "verdict": "ODD",
+  "primary_mean": 6.2,
+  "primary_ci": [
+    2.2,
+    10.0
+  ],
+  "upper_p": 0.0625,
+  "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0"
+}
+{
+  "passed": true,
+  "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+  "exact_summaries": 15,
+  "raw_bound_metric_cells": 50,
+  "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0"
+}
+{
+  "passed": true,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "source_entries": 21,
+  "local_links_checked": 110,
+  "independent": {
+    "passed": true,
+    "metric_cells": 50,
+    "bootstrap_and_t_summaries": 15,
+    "sign_sets": 5,
+    "sign_tails": 15,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "ODD",
+    "primary_mean": 6.2,
+    "primary_ci": [
+      2.2,
+      10.0
+    ],
+    "upper_p": 0.0625,
+    "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0"
+  },
+  "exact_companion": {
+    "passed": true,
+    "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+    "exact_summaries": 15,
+    "raw_bound_metric_cells": 50,
+    "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0"
+  }
+}
+.......s36_24760_gross complete 20 calls
+....................
+----------------------------------------------------------------------
+Ran 27 tests in 4.262s
+
+OK
+PASS remote clean clone 4c9a15785d9a697f7ccef55b9f62e0fd88d3f447
