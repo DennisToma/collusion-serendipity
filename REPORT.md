@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 26 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 27 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -30,6 +30,7 @@
 | S35 · B, productivity asymmetry | 10 games /5 blocks. Paid wage r3–10: symmetric **11.800**, asymmetric **19.450**; asymmetric−symmetric **7.650 [3.825, 9.825]**. | **ODD** for four-unit wage screen |
 | S36 · own, gross/net quotation | 10 games /5 blocks. Worker take-home r3–10: NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]**. | **ODD** for two-unit reduction screen |
 | S38 · F, final-round disclosure | 10 games /5 blocks. Paid wage r3–10: hidden **8.000**, known **8.000**; known−hidden **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
+| S40 · E, private-note erasure | Registered: 20 fresh decisions at ten observed S37 final-round histories; erase versus retain, normalized focal offer. No scientific calls yet. | **PENDING** |
 | S37 · own, payroll wording | 10 games /5 blocks. Take-home wage r3–10: coded **0.000**, payroll **0.000**; coded−payroll **+0.000 [+0.000, +0.000]** (degenerate); both at allowed minimum. | **DUD** for two-unit increase screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.

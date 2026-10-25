@@ -1,0 +1,6 @@
+{
+  "source_replay_different_fingerprint_fields": [
+    "/environment_sha256/PATH"
+  ],
+  "note": "Names only;no environment or credential values printed;fresh arms share a newly frozen runtime"
+}

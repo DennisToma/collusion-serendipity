@@ -119,3 +119,10 @@ S37:five fresh paired blocks24800..24804;ten owner-only-note labor games,
 CODED versus payroll wording at identical quote10..30 and minus10 mapping.
 T10,r3..10,200planned decisions;exploratory,zero tuning,no locked test,
 pooling or confirmatory claim. Selected after S36;full source freeze before calls.
+
+S40:ten observed S37round10histories,first active firm in simulator roster order,
+one per source game;five source blocks24800..24804,each containing coded/payroll.
+Twenty fresh stateless retain/erase decisions;zero new games,zero tuning and
+no held-out/prevalence/independent-replication claim. Original actions are
+context only,never an outcome arm;no pooling with S37 scientific outcomes.
+DESIGN_S40.md/case manifest/code registered and pushed before paid calls.

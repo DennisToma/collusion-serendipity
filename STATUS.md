@@ -1,19 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T02:30:43.094440+00:00; Phase2, iteration26 COMPLETE)
-- own/S37:10games/5blocks,200valid decisions,zero retries/failures.
-- Coded/payroll take-home0each;five paired ties;frozen DUD.
-- Bootstrap/t[0,0] degenerate,upperp1;no population-equivalence claim.
-- Minimumquote10,normalized0;regret9each;no S36 mechanism/coordination claim.
-- Full200key/22source/registration/runtime/UTC/export replay PASS.
-- Separate50cells/15bootstrap+t/15sign tails/200bindings/15exact PASS.
-- Durable414post-live tests PASS;both final critics/parent exit0.
-- Forbidden-call7artifacts/21archivefiles/22sources unchanged.
-- Fresh origin clone30tests/seven artifacts exact,clean;frozen venv reused.
-- Registrationfe1d49e/results7f7f867 pushed;ledger references finalized.
-- ScientificSHA9c9ad480 unchanged;no active generation/review.
-- No tuning,pooling,HIT,secondary promotion or sibling writes.
-- Next:fresh different axis;S39 queued only,S32unconfirmed,S30unrun.
+## Current state (2026-10-25T02:39:39.808981+00:00; Phase2, iteration27 IN PROGRESS)
+- Selected E/S40 after own/S37: fixed-history private-note erasure.
+- Ten S37 final-round cases/five source blocks;20fresh decisions planned,zero new games.
+- Primary normalized focal offer erase−retain;2unit screen frozen before calls.
+- Fresh retain controls;source archived actions are never comparison outcomes.
+- Exact public history/system preserved;empty note array is sole request difference.
+- Source S37 full replay/result exact;scientific sources/archives untouched.
+- Final12scoped/426canonical repository tests PASS;full dry20request replay PASS.
+- Original Codex/Opus design critics exit0;verifier/live-path fixes applied.
+- Separate raw-rate/15cell/3125bootstrap/32signflip synthetic verification PASS.
+- No live S40 calls,outcomes,tuning,pooling or sibling writes.
+- Critics completed;registered-source/setup/lock races fixed and tested.
+- Next:registration push,sole20decision launch;no paid S40outputs yet.
 
 ## Log
 
@@ -380,3 +379,7 @@
 - 2026-10-25T02:29:41.996045+00:00: S37 final model-call-forbidden regeneration PASS:all7artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts),21archive files and22frozen sources unchanged. ScientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20.119local links/cache-only release PASS,git diff --check PASS,publishable payload40778613bytes<100MB.414post-live tests childexit0,both final critics/parent exit0. No active generation/review,new scientific calls,source edits,tuning,pooling,HIT or sibling writes. Results milestone push then origin clean clone next.
 
 - 2026-10-25T02:30:43.094440+00:00: iteration26 COMPLETE. S37 registrationfe1d49e/results7f7f8676dbcef9fd31e3a20c79cec6e5f5757128 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen analysis,separate raw reconstruction,exact companion,summary/figure regeneration,cache-only release and all30S37protocol tests. Seven primary artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts);clone clean. logs/s37_remote_clean_clone.json records exact commands/hashes and existing frozen-venv reuse,not fresh dependency installation. Durable local414post-live tests childexit0;all7local artifacts regenerate identically with model calls forbidden;21archive files/22source hashes/scientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20 unchanged. Both final critics/parent exit0;Codex raw reconstruction/full chronology versus supplied-text-only Opus. Frozen DUD:coded0/payroll0,all five paired ties,degenerate bootstrap/t[0,0],upperp1;no population equivalence,S36 mechanism,anchoring or verified coordination claim. Primaryquote10 minimum,mean unilateral regret9 clarifies joint-profit floor without intent inference. Source/config/provider/journal limitations explicit;future regeneration requires frozen checkout. Ledger result reference finalized;reports/HITS/README/DETAILS current. S39 proposal only,S32unconfirmed,S30unrun. No new scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Publication receipt/handoff commit and push next.
+
+- 2026-10-25T02:39:39.808981+00:00: iteration27 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/state summaries. Selected E/S40 fixed-history private-note erasure after own/S37;20fresh decisions at10S37round10contexts/fiveblocks,zero new games. Retain uses exact source prompt;erase empties only private-note array. Registered primary is normalized focal offer,not realized wage;2unit directional screen,zero tuning. New own/S41 tick-size proposal queued only. Source S37 full replay/canonical result PASS. Original critics Codex/Opus exit0;fixed incomplete independent published-case verification,UTC/headroom replay,added mocked live/one-shot/runtime-drift coverage and explicit accounting-loss limitation. Initial7test missing-journal fixture error preserved and fixed;9scoped tests/423canonical tests PASS before final refinements. Patched critics/final synthetic replay in progress;no paid S40calls,outcomes or direction deviation.
+
+- 2026-10-25T02:47:05.974534+00:00: S40 final pre-live12protocol/426canonical tests PASS,childexit0. All13frozen source hashes match final synthetic archive;20requests/15raw blockcells/3sets3125bootstrap/32signflips independently reconstructed. Figure preview inspected. Original/patch/final Codex+Opus critics exit0;targeted Codex identified lost-writer failure-marker race,now fixed by owned-lock journaling and direct flock contention test. Registered source baselines use immutable Git objects;source-mismatch and lost-headroom tests prove zero paid calls. Runtime10check benchmark median.571s,max.594s;40checks estimate23.76s. Source/replay CLI both0.163.0;known fingerprint differs only PATH hash,not full provider identity. Auth-refresh/strict-parser/deadline abort risks accepted prospectively. No paid outcomes,tuning,pooling or sibling writes. Registration freeze/push and sole launch next.

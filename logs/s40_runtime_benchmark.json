@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "observations": 10,
+  "median_seconds": 0.5707849725149572,
+  "max_seconds": 0.5940175703726709,
+  "source_cli_version": "codex-cli 0.163.0",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_known_fingerprint_matches": false,
+  "estimated_40_observation_seconds": 23.760702814906836
+}

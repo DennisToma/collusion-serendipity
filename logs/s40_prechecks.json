@@ -1,0 +1,71 @@
+{
+  "initial_scoped_fixture": "7tests;1error from missing accepted journal in deliberately failed archive;explicit missing-journal assertion added",
+  "initial_log": "/var/tmp/s40_first_tests.log",
+  "pre_edit_full_suite": {
+    "passed": true,
+    "tests": 421,
+    "failures": 0,
+    "errors": 0,
+    "log": "/var/tmp/s40_prelive_full_tests_v1.log"
+  },
+  "source_s37_full_replay": {
+    "passed": true,
+    "scientific_result_byte_identical": true
+  },
+  "new_live_contract_tests": "Mocked transport only;no paid calls;final canonical full suite still pending",
+  "final_scoped_tests": {
+    "passed": true,
+    "tests": 12,
+    "includes": [
+      "real flock contention",
+      "mocked live one-shot and cache-only",
+      "runtime drift",
+      "registered source mismatch",
+      "lost headroom with durable failure marker",
+      "source intervention",
+      "strict JSON",
+      "archive mutations",
+      "independent result-case mutations",
+      "screen boundaries"
+    ]
+  },
+  "final_dry": {
+    "passed": true,
+    "archive": "/var/tmp/s40_registered_dry",
+    "source_sha256": {
+      "DESIGN_S40.md": "3f0c7bb6c2de9f7e57b783c5d09bffc13036c61e3e9b22c6aa36201af0db6891",
+      "scripts/s40_replay.py": "d40405648f4c8ac7b48ede712d98d9a7577101ffc7064665f0069275bb04c875",
+      "scripts/s40_independent.py": "26a2dc2259fde5c2b661b76b66795ad08405afb6dc64f5420c7b9151a143ac21",
+      "scripts/s40_present.py": "4097d64abb8e577e96da2e987d27b36884f6f04650eae7ac22ed96af8830d5cb",
+      "scripts/s40_release.py": "823322c4403b696bf0ba2c29c0c90ad5259fe795051ce1db931becc35ce188f7",
+      "scripts/test_s40.py": "1d8c8ef8dc0120523d35a3b1a69d1b5b6be7ecc1b97165a903655cc09f3c0228",
+      "scripts/s40_reviews.py": "f12739be783980d01a54231a79cd4f1ca849d5e64960c79564d6961f9db64a83",
+      "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+      "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+      "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+      "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+      "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+      "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+    },
+    "separate_raw_reconstruction": {
+      "passed": true,
+      "raw_quotes": 20,
+      "case_prompt_bindings": 20,
+      "block_cells": 15,
+      "bootstrap_draws_per_summary": 3125,
+      "summaries": 3,
+      "sign_flips_per_summary": 32,
+      "result_sha256": "039868c8a34e4b6e4d13f3953affa6d899ad0d0f0960c4132ff34b368d4a412f"
+    },
+    "synthetic_figure_inspected": true
+  },
+  "final_canonical_repository_suite": {
+    "passed": true,
+    "tests": 426,
+    "failures": 0,
+    "errors": 0,
+    "child_exit_code": 0,
+    "log": "/var/tmp/s40_prelive_full_tests_registered.log",
+    "historical_fixture_clock_overrides_only": true
+  }
+}
