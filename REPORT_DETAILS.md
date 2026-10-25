@@ -1041,3 +1041,15 @@ Supplemental post-outcome metadata validation: `uv run python scripts/s45_metada
 [Full registered design](DESIGN_S44.md) and [all case/block results and figure](results/s44_summary.md). Both fresh arms use the same ten observed S42 histories as S43; no source outcomes or earlier fresh outputs are an outcome arm and no pooling or tuning. Only21exactpayoffrows reverse,with identical header. Twenty new stateless outputs;five source blocks as units. Outcome is focal offer,not realized worker pay;sign calibration/small-n/provider/interference limits apply. No agreement,mechanism or equivalence claim.
 
 S44 final-review interpretation:only the paired descending-minus-ascending sign test is a registered hypothesis. Arm-level signflip fields in the generic JSON summary compare an arm againstzero and are not row-order tests. Two block ties cancel opposing case differences;the full case table shows them. No extra order subgroup test,posthoc promotion or mechanical floor/ceiling interpretation. Final Codex critic independently reconstructs raw archive;Opus supplied-text/cell-only scope. Source/replay local fingerprints differ;complete serving behavior remains unattested.
+
+## Iteration33 — S48 partner-note deletion
+
+| S48 · C, partner-note deletion | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval retain **0.400**, erase **0.400**; retain−erase **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
+
+[Full registered design](DESIGN_S48.md), [all outcomes and figure](results/s48_summary.md). All five S29 shared games, both employees, last primary TYPE-Y opportunity selected by exogenous seeded task status; no action/text selection. Twenty fresh stateless outputs; original actions context only, zero tuning/newgames/pooling. Five source blocks are inference units. Content and snapshot length vary together, while own/public communication survives. No verified-agreement, mechanism, mediation, independent-replication, long-run or equivalence claim.
+
+S48 final critics confirm unchanged DUD and all primary numbers. The small
+resolution plus all-positive sign gate is stricter than the nominal magnitude
+threshold. Source/fresh exact-prompt disagreements do not separate stochastic
+draw variation,runtime drift or shared-service interference. Codex independently
+reconstructed the raw archive;Opus reviewed supplied result cells/code only.

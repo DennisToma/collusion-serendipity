@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T04:59:46.189620+00:00; Phase2, iteration33 IN PROGRESS)
-- S48(axis C): immediate partner-note deletion at fixed S29 workplace histories.
-- Ten task-status-selected contexts/five observed blocks;20fresh decisions planned;zero newgames/tuning.
-- Retain exact source prompt;erase only partner note records;own/public history fixed.
-- Primary retain-minus-erase adverse approval;.25directional screen;no mediation/long-run claim.
-- Source S29 full cache-only release PASS;all16S48synthetic protocol tests PASS.
-- Codex+Opus methodology critics PASS;round/serialization/schedule checks added before freeze.
-- S44 frozen DUD unchanged:−.100[−.300,0];no HIT promoted in portfolio.
-- Risks:n5,observed histories,remaining indirect message information,uncontrolled provider draws.
-- Source S29 CLI fingerprint unavailable;current known replay inputs will be frozen.
-- Next:freeze/push registration,run20decisions,verify/review/publish.
-- S46/S39/S47 remain proposals;S32unconfirmed,S30unrun.
+## Current state (2026-10-25T05:04:34.197719+00:00; Phase2, iteration33 RESULTS COMPLETE)
+- S48(C):20fresh decisions/10S29 TYPE-Y contexts/5sourceblocks;zero newgames/tuning/retries/failures.
+- Adverse approval retain4/10,erase4/10;retain-minus-erase0.000[−.300,+.300] descriptive bootstrap.
+- Pairedt[−.438995,+.438995];upperp.75,lowerp.75,two-sidedp1;frozen DUD,no HIT.
+- Block differences+.5,0,−.5,0,0;two opposing cases;fresh retain matches7/10archived actions.
+- Exact retain prompt versus partner-only note deletion;own/public history fixed,indirect information survives.
+- No mediation,long-run,agreement or equivalence claim;bounds include registered.25target.
+- Full source/registration/runtime/archive replay and separate20bindings/15cells/3statistics PASS.
+- Call-forbidden archive/scientific/summary/figure regeneration byte-identical;actual figure inspected.
+- Both methodology critics exit0;round/serialization/exogenous-task/full-prompt guards fixed before freeze.
+- Both finalcritics/parent exit0;post-live canonical545tests PASS;registration e6ddcde pushed.
+- Risks:n5,observed histories,uncontrolled draws/shared services;source S29 CLI fingerprint unavailable.
+- Next:results push and full-history origin-clone reproduction;then fresh different axis.
 
 ## Log
 
@@ -476,3 +477,9 @@
 - 2026-10-25T04:59:46.189620+00:00: iteration33 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries. Selected C/S48 after own/S44, testing immediate partner-note availability at fixed S29 TYPE-Y opportunities. Synthetic checks began before ledger row;all live calls remain unstarted.16protocol tests and complete S29 release PASS;archived sources preserved. Independent Codex/Opus methodology reviews started. No direction deviation.
 
 - 2026-10-25T05:02:24.515393+00:00: both independent design critics exit0;accepted round-binding and serialization checks plus deterministic source task/full-prompt reconstruction.545pre-live canonical tests PASS before those additions;all16S48tests rerun PASS afterward. Source S29 CLI fingerprint honestly unknown. Scientific sources/case manifest now ready for registration push;no fresh outcomes yet.
+
+- 2026-10-25T05:02:47.376984+00:00: S48 registration e6ddcde pushed and observed on remote main;non-writing registration/runtime/source preflight PASS. One-shot twenty-decision run launched with two workers and per-block barrier;no partial response text or effects inspected. No scientific source changes after freeze.
+
+- 2026-10-25T05:04:34.197719+00:00: S48 sole run complete20accepted responses,zero retries/transport/parser/route failures. Retain4/10 and erase4/10,contrast0[-.3,.3],t[-.438994516543,+.438994516543],upperp.75/lowerp.75/two-sidedp1;frozen DUD. Full source/registration/runtime/timing/all-key replay and separate20rawbindings/15cells/3exactbootstrap+t/all sign tails PASS. Call-forbidden complete resume/scientific/summary/figure regeneration byte-identical;actual figure inspected. Reports/ledgers updated;final independent critics and post-live canonical tests running. No scientific-source edits,extra calls,pooling,tuning,exclusions,promotion,sibling writes or direction deviation.
+
+- 2026-10-25T05:06:20.084995+00:00: final Codex+Opus critics/parent exit0;unchanged DUD/allprimarynumbers confirmed. Codex raw/source/full-statistical reconstruction;Opus supplied-cell/code-only scope,no raw audit.545post-live canonical tests PASS,zero failures/errors. Clarified DUD mean gate versus unresolved.25target;signgate discrete-resolution limitation acknowledged. Rejected interpreting archived/fresh disagreements as an isolated noise estimate. All scientific sources remain frozen. Results milestone push and clean-origin clone next.

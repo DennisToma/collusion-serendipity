@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 33 (S48 registered; no live results yet) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 33 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -37,6 +37,7 @@
 | S41 · own, wage tick size | 10 games /5 blocks. Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**. | **ODD** for two-unit increase screen |
 | S45 · A5, marketplace reviews | 10 games /5 blocks. Unsupported recommendation rate r3–10: self **0.025**, shared **0.000**; difference **-0.025 [-0.075, 0.000]**. | **DUD** for directional screen |
 | S44 · own, payoff-row order | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer ascending **10.300**, descending **10.200**; descending−ascending **-0.100 [-0.300, +0.000]**. | **DUD** for one-unit increase screen |
+| S48 · C, partner-note deletion | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval retain **0.400**, erase **0.400**; retain−erase **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -63,9 +64,14 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis pilot after own/S44. S46/S39/S47 are proposals; S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis pilot after C/S48. S46/S39/S47 are proposals; S32 unconfirmed and S30 unrun.
 
 <!-- S44 summary start -->
 **S44:** paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Block differences: +0.00, -0.50, +0.00, +0.00, +0.00. Identical headers and payoff rows; only row sequence reverses. Focal offers, not realized worker pay; observed histories, uncontrolled model draws, n5. The directional screen does not exclude smaller or reverse effects and does not identify a mechanism. [Methods, all outcomes and figure](results/s44_summary.md).
 Only the paired contrast sign-flip is a registered hypothesis; arm-level sign-flip fields in JSON are generic tests against zero and carry no row-order claim.
 <!-- S44 summary end -->
+
+<!-- S48 summary start -->
+**S48:** immediate TYPE-Y review after partner-note deletion. Retain 4/10, erase 4/10; paired t95% [-0.439, +0.439], inclusive upper sign-flip p=0.75000. Five source-block differences [0.5, 0.0, -0.5, 0.0, 0.0]. Retain is the exact archived prompt; erase removes only partner records. Own notes and public history preserve indirect communication, so this is no mediation or long-run channel estimate. Observed histories, uncontrolled fresh draws and n5 limit transfer. DUD is triggered by the mean≤.05 rule; the bounds include the .25 directional target, so they do not exclude that effect. Source S29 CLI inputs were not fingerprinted. [All cases, methods and figure](results/s48_summary.md).
+Only the paired contrast is the registered hypothesis; generic arm-level sign-flip fields test against zero and carry no deletion-effect claim.
+<!-- S48 summary end -->

@@ -1,0 +1,216 @@
+{
+  "pilot": "S48",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 20,
+  "tuning_attempts": 0,
+  "source_cli_version": "not recorded",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": null,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "DUD",
+  "primary": "retain_minus_erase_adverse_approval",
+  "metrics": {
+    "retain": {
+      "mean": 0.4,
+      "mean_exact": "2/5",
+      "ci95": [
+        0.2,
+        0.5
+      ],
+      "ci95_exact": [
+        "1/5",
+        "1/2"
+      ],
+      "t95": [
+        0.12235548948022074,
+        0.6776445105197793
+      ],
+      "upper_signflip_p": 0.0625,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.125,
+      "block_values": [
+        0.5,
+        0.5,
+        0.5,
+        0.0,
+        0.5
+      ]
+    },
+    "erase": {
+      "mean": 0.4,
+      "mean_exact": "2/5",
+      "ci95": [
+        0.1,
+        0.7
+      ],
+      "ci95_exact": [
+        "1/10",
+        "7/10"
+      ],
+      "t95": [
+        -0.11942531684178381,
+        0.9194253168417839
+      ],
+      "upper_signflip_p": 0.125,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.25,
+      "block_values": [
+        0.0,
+        0.5,
+        1.0,
+        0.0,
+        0.5
+      ]
+    }
+  },
+  "contrast": {
+    "mean": 0.0,
+    "mean_exact": "0",
+    "ci95": [
+      -0.3,
+      0.3
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "3/10"
+    ],
+    "t95": [
+      -0.4389945165425414,
+      0.4389945165425414
+    ],
+    "upper_signflip_p": 0.75,
+    "lower_signflip_p": 0.75,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      0.5,
+      0.0,
+      -0.5,
+      0.0,
+      0.0
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": true,
+      "approvals": {
+        "retain": true,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": false,
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": true,
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": true,
+      "approvals": {
+        "retain": true,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 6,
+      "archived_approval": true,
+      "approvals": {
+        "retain": false,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": true,
+      "approvals": {
+        "retain": true,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": false,
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": false,
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 7,
+      "archived_approval": false,
+      "approvals": {
+        "retain": true,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": false,
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    }
+  ],
+  "approval_counts": {
+    "retain": 4,
+    "erase": 4
+  },
+  "archived_match_counts": {
+    "retain": 7,
+    "erase": 7
+  }
+}

@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 31.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 33.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -508,3 +508,7 @@ Supplemental post-outcome metadata validation: `uv run python scripts/s45_metada
 ### S44 — unpromoted payoff-row-order screen
 
 Ascending10.300/descending10.200;descending-minus-ascending-0.100[-0.3, 0.0];pairedt[-0.37764451051977943, 0.1776445105197794];upperp1.0;DUD. Twenty fresh decisions/ten observed S42contexts/five source blocks;zero newgames/tuning/pooling. Focal offers,not realized wages. No HIT promoted;see [all outcomes](results/s44_summary.md) and [design](DESIGN_S44.md). Reproduce:`uv run python scripts/s44_replay.py --analyze` and `uv run python scripts/s44_independent.py`. Relevant to both siblings as a redundant-information/formatting sensitivity check only;no sibling headline change or isolated mechanism. Any positive screen needs fresh registered histories.
+
+### S48 — unpromoted partner-note deletion screen
+
+Retain0.400/erase0.400;retain-minus-erase+0.000[-0.3, 0.3];pairedt[-0.4389945165425414, 0.4389945165425414];upperp0.75;DUD. Twenty fresh decisions/ten observed S29 TYPE-Y contexts/five source blocks;zero newgames/tuning/pooling. Immediate adverse review only. Exact retained prompt versus partner-only note deletion,own/public history fixed;remaining indirect communication prevents a mediation or long-run conclusion. No sibling headline change. Both siblings: use a fresh exact-prompt control when auditing effects of removing messages. Any HIT requires a new registered game-level comparison with fresh histories and more blocks;not run here. [Design](DESIGN_S48.md),[all outcomes/figure](results/s48_summary.md). Reproduce: `uv run python scripts/s48_release.py`.
