@@ -200,3 +200,10 @@ scientific calls;directional .25representation screen;see DESIGN_S66.md.
 Fresh paired seeds25420..25424,T10,primaryr3..10;all five exploratory,not heldout.
 Lowcharge3 versus highcharge13;five paired blocks;zero tuning,cross-pilot pooling or exclusions.
 Frozen design: DESIGN_S69.md. Registration precedes all scientific calls.
+
+
+## S68 — Output boolean polarity (prospective)
+Ten outcome-independently selected S29 shared-note contexts,five reused blocks24480..24484.
+Anchor/identical-repeat/inverted output encoding;30fresh choices,zero newgames.
+No heldout,tuning,pooling or independent S29 replication. See DESIGN_S68.md.
+Full source/case registration pushed before scientific calls.

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "contexts": 10,
+  "public_round_records": 81,
+  "note_records": 162,
+  "decoded_case_view_stage_profiles": 480,
+  "repeat_request_byte_identical": true,
+  "history_unchanged": true,
+  "production_polarity_decoder_exercised": true
+}

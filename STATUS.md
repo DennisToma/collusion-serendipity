@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T11:18:48.232164+00:00; Phase2, iteration50 COMPLETE)
-- S69D:10fresh games/5blocks;pooled Ypayoff+2versus-3 via charge3to13.
-- Yapprovals31/40versus4/40;low-high+.675[+.450,+.875],t[+.335,+1.015].
-- Upper sign-flipp=.03125;all5positive;EXPECTED calibration maps to DUD.
-- No HIT,collusion,mechanism,absence or cross-pilot pooling claim.
-- Sole200responses,zero retries/failures;19frozen sources unchanged.
-- Mainraw replay+separate50cells/15bootstrap+t/all32signs/200bindings PASS.
-- Ten verifier/three prewrite editorial corruptions reject;871canonical checks PASS.
-- Both final critics exit0;raw Codex versus supplied-text Opus scopes retained.
-- Originda6cf2c:10artifacts byte-identical,16focused tests,clean clone;existing venv.
-- All1422older sciencepaths/exact split append/50prior report rows preserved.
-- REPORT51pilots,HITS unpromoted;no active simulation/review or sibling change.
-- Next different-axis A/C/F or ownS70/S68/S63/S57/S52/S49;pilots stop14:30UTC.
-- Risks:n5,exploratory multiplicity,provider settings,incentive+wording package.
+## Current state (2026-10-25T11:23:36.548594+00:00; Phase2, iteration51 IN PROGRESS)
+- Selected own S68 after D/S69:output boolean polarity with repeat control.
+- Ten fixed S29contexts/five sourceblocks;30planned choices,zero newgames.
+- Full system/history/status/notes/economics fixed;only output mapping reversed.
+- Common historical-encoding clarification;decode before comparing approvals.
+- Primary excess disagreement above identical-request repeat;frozen .25screen.
+- All24focused checks/480decoded profiles pass;both refined design critics exit0.
+- No S68scientific calls yet;registration/push precedes calls.
+- Previous51pilotrows and scientific artifacts preserved;HITS unpromoted.
+- Canonical894preflight checks PASS with existing historical fixtures.
+- Next:freeze/push,run once,replay/report/final critics and clean clone.
+- Pilots stop14:30UTC;risks:n5,shared anchor,variability,blindspot atp=.5.
 
 ## Log
 
@@ -710,3 +708,7 @@
 - 2026-10-25T11:17:52.817701+00:00: Both final critics exit0 confirm frozen S69EXPECTED→DUD and every displayed number. Codex independently reproduces raw50cells/15bootstrap+t/15tailprobabilities/200bindings and all19source+1422older artifact hashes;four pure checks pass,write-producing release not run in read-only critic environment(matplotlib cache failure retained). Compact Opus is supplied-text hand-arithmetic only,not raw/timing/cache audit. All871final canonical checks PASS with existing historical synthetic fixtures;16S69checks included. Final release/postcheck PASS,unchanged scientific resultSHA5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143. Generic unused-branch wording retained;sign_tests15 clarified as5contrasts×3tails,not per-arm tests. No scientific change,extra scientific call,promotion or sibling write. Results commit+push and clean-origin reproduction next.
 
 - 2026-10-25T11:18:48.232164+00:00: iteration50 COMPLETE. Registration754ed1b8a840cf4e4faed68529fe8d2b2d8e5449/scientific+document resultsda6cf2c109800e67cc43ed70b304c552cdaaf2da committed and pushed. Fresh full-history ORIGIN clone at exact resultsrevision reproduces all10checked artifacts byte-identically,16focused tests,full call-forbidden raw/provenance replay and separate50metriccells/15exactbootstrap+t summaries/all32signpatterns percontrast/200action-note-reason and prompt/history bindings,plus ten verifier/three prewrite editorial corruption probes;clone gitstatus clean. Receipt logs/s69_remote_clean_clone.json;full commands/output logs/s69_origin_clone_run.log. Existing pinned installed venv reused,no fresh-install claim. Ledger result reference points to this exact reproduced revision. All871final canonical checks PASS with pre-existing historical synthetic fixtures;actual archive audits unpatched. All19registeredsource hashes/1422older sciencepaths/exact prospective split append/50older report rows/51contiguous currentrows/471links verified. Both final critics exit0(Codex raw/source/statistical reconstruction versus compact Opus supplied-text arithmetic);read-only critic matplotlib cache limitation retained. Scientific resultSHA5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143. Yapprovalscharge3=31/40,charge13=4/40;low-minus-high+.675[+.450,+.875],pairedt[.33495630967087225,1.0150436903291278],upper/lower/two-sided sign-flipp.03125/1/.0625;blocks[.25,1,.625,.75,.75]. EXPECTED frozen calibration maps to serendipity DUD,no HIT rule. All200returned/accepted responses,zero retries/failures;live elapsed366.062808seconds. No additional scientificcalls,games,tuning,pooling,exclusions,reverse/secondary/subgroup promotion,siblingwrites or headlinechange. Source/estimates/verdict unchanged after outcomes. Incentive and numeric-description package,not an isolated mechanism;unbounded t95% is descriptive. Earlier communication-only count correction retained;all saved artifacts always correct. OwnS70endowment proposal queued before complete outcomes;no secondpilot. No DIRECTION deviation or remaining simulation/review. Closing proof/status/ledger commit+push follows.
+
+- 2026-10-25T11:23:36.548594+00:00: iteration51 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling status/report summaries. Selected queued own S68 response-boolean polarity after D/S69. Thirty fresh one-shot decisions with identical-repeat control on ten outcome-independent S29 contexts/five reused blocks;no newgames. Copied S61 lifecycle into separate sources;all historical scientific sources unchanged. Exact single equal-length mapping substitution,common history-encoding clarification,and fresh-only canonical decoding. Full81history-record/162note/16profile equivalence audit and21focused tests PASS;canonical preflight and independent Codex/compact supplied-text Opus design critics running. New auxiliary audit initially treated adverse-count output as loss units;corrected before calls,original failure retained in task output. No scientific outcomes inspected,calls,tuning,secondpilot or direction deviation.
+
+- 2026-10-25T11:29:39.560719+00:00: S68 preflight COMPLETE. Independent initial and refined Codex critics exit0,no confirmed high/medium bug;compact supplied-text Opus initial auxiliary-audit finding fixed before calls,and refined cache/boolean questions resolved with actual-router separate-dispatch test plus structured field audit. Full actual-decoder480case/view/stageprofiles/81publicroundrecords/162notes verified. All24focused checks PASS;canonical preflight894checks PASS via established scripts/s65_tests.py fixtures. Initial older run_tests.py diagnostic892checks had7failures/1error from expired/inapplicable historical fixtures,preserved in logs/s68_legacy_runner_diagnostic.log;no scientific archive/source changed. Canonical collected23S68tests before last added actual-router regression;final canonical will collect24. Every1450prior sciencepath unchanged,exact prospective split append registered,51prior reportrows retained. Frozen18source manifest ready;queued ownS71explicit-action-words idea before calls. No scientificcalls,outcomes,tuning,secondpilot,siblingwrite or direction deviation. Registration commit/push next.

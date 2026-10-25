@@ -1,0 +1,239 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.............................Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+............................S54 completed archive verified; no artifacts rewritten
+F..............Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....................................F.FF.Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+...............E....................F....F.............F.................................Complete:30 cached decision responses
+..........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+......................
+======================================================================
+ERROR: test_fenced_responses_cached_verbatim_and_replayed (test_s62.Tests.test_fenced_responses_cached_verbatim_and_replayed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s62.py", line 132, in test_fenced_responses_cached_verbatim_and_replayed
+    first=run_game(SEEDS[0],'shared',cache,'qwen-3.6-35b','aqueduct')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 252, in run_game
+    try:return _run_game(seed,condition,cache,model,backend,rounds)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 232, in _run_game
+    result=checked_call(cache,system,user,run_id,t,agent,model,backend,parser,calls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/advisor.py", line 71, in checked_call
+    response = cache.call(system, user, 'cheap', backend, run_id, t, agent, attempt, model)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/notepad_qwen.py", line 109, in call
+    raise RuntimeError('S62 absolute deadline reached; no new uncached requests')
+RuntimeError: S62 absolute deadline reached; no new uncached requests
+
+======================================================================
+FAIL: test_direct_live_entries_rejected_without_bootstrap (test_s54.Tests.test_direct_live_entries_rejected_without_bootstrap)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s54.py", line 442, in test_direct_live_entries_rejected_without_bootstrap
+    with self.assertRaisesRegex(RuntimeError,'byte-bound entry'):main()
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_front_report_drift_is_rejected_without_rewriting (test_s60_presentation.Tests.test_front_report_drift_is_rejected_without_rewriting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 14, in test_front_report_drift_is_rejected_without_rewriting
+    generated=render_documents_expected()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_later_pilots_can_append_and_archive_the_front_summary (test_s60_presentation.Tests.test_later_pilots_can_append_and_archive_the_front_summary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 32, in test_later_pilots_can_append_and_archive_the_front_summary
+    generated=render_documents_expected();current=dict(generated)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_readme_false_claim_is_rejected (test_s60_presentation.Tests.test_readme_false_claim_is_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 23, in test_readme_false_claim_is_rejected
+    generated=render_documents_expected()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 61, in render_documents_expected
+    integrate(document_capture=True)
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_integrate.py", line 28, in main
+    assert all(hashlib.sha256(Path(n).read_bytes()).hexdigest()==h for n,h in snapshot['protected_sha256'].items())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+======================================================================
+FAIL: test_published_claim_and_older_row_mutations_rejected (test_s64.Tests.test_published_claim_and_older_row_mutations_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s64.py", line 243, in test_published_claim_and_older_row_mutations_rejected
+    receipt=apply();self.assertEqual(receipt['managed_blocks'],4);self.assertEqual(receipt['older_pilot_rows'],46)
+            ^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s64_publish.py", line 55, in apply
+    return apply(True)
+           ^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s64_publish.py", line 51, in apply
+    assert sum(x.startswith('| S64 ') for x in report.splitlines())==1,'Extra or missing S64 pilot row'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Extra or missing S64 pilot row
+
+======================================================================
+FAIL: test_isolated_presentation_idempotent_and_preserves_older_rows (test_s65.PoolingTests.test_isolated_presentation_idempotent_and_preserves_older_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s65.py", line 265, in test_isolated_presentation_idempotent_and_preserves_older_rows
+    report=Path('REPORT.md').read_text();self.assertEqual(report.count('| S65 · B,'),1)
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 1
+
+======================================================================
+FAIL: test_pilot_table_is_contiguous_and_corrected_render_is_idempotent (test_s65_publication.Tests.test_pilot_table_is_contiguous_and_corrected_render_is_idempotent)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s65_publication.py", line 19, in test_pilot_table_is_contiguous_and_corrected_render_is_idempotent
+    self.assertEqual(sum(line.startswith('| S') for line in table.splitlines()),48)
+AssertionError: 52 != 48
+
+----------------------------------------------------------------------
+Ran 853 tests in 158.223s
+
+FAILED (failures=7, errors=1)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.609s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.100s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.397s
+
+OK
+{
+  "passed": false,
+  "tests": 892,
+  "failures": 7,
+  "errors": 1,
+  "legacy_synthetic_cutoff_override": {
+    "modules": [
+      "test_s21",
+      "test_s21_release"
+    ],
+    "tests": 14,
+    "deadline": "2099-01-01T00:00:00+00:00",
+    "source_files_modified": false
+  },
+  "legacy_s31_synthetic_clock": {
+    "modules": [
+      "test_s31"
+    ],
+    "tests": 12,
+    "now": "2026-10-24T23:29:00+00:00",
+    "source_files_modified": false
+  },
+  "s33_synthetic_clock": {
+    "modules": [
+      "test_s33"
+    ],
+    "tests": 13,
+    "now": "2026-10-25T00:20:00+00:00",
+    "source_files_modified": false
+  },
+  "real_archive_deadlines_unchanged": true
+}

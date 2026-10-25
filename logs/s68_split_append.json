@@ -1,0 +1,5 @@
+{
+  "baseline_commit": "9a811024c12980c702fabccd328f22113bcd3e58",
+  "baseline_sha256": "bf52f97c7434141d9c609c03d20a92fca5d5727cef96dee7af7cd2806e3b3093",
+  "appended": "\n\n## S68 \u2014 Output boolean polarity (prospective)\nTen outcome-independently selected S29 shared-note contexts,five reused blocks24480..24484.\nAnchor/identical-repeat/inverted output encoding;30fresh choices,zero newgames.\nNo heldout,tuning,pooling or independent S29 replication. See DESIGN_S68.md.\nFull source/case registration pushed before scientific calls.\n"
+}
