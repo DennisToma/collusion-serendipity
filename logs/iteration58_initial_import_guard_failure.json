@@ -1,0 +1,981 @@
+{
+  "passed": false,
+  "baseline_commit": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d",
+  "runner_sha256": "62b2e66cbfe0b9f16778a376096ff1ffeac71d34042d7fde9aa319a14438a316",
+  "records": [
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S01",
+        "category": "DUD",
+        "result": "results/s01_digits.json",
+        "data": "data/s01_digits",
+        "analyzer": "scripts.s01_digits",
+        "checker": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S02",
+        "category": "ODD",
+        "result": "results/s02_cournot.json",
+        "data": "data/s02_cournot_luna",
+        "analyzer": "scripts.s02_analyze",
+        "checker": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S04",
+        "category": "ODD",
+        "result": "results/s04_advisor.json",
+        "data": "data/s04_advisor",
+        "analyzer": "scripts.s04_analyze",
+        "checker": [
+          "scripts.s04_verify",
+          "main"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S03",
+        "category": "DUD",
+        "result": "results/s03_calculator.json",
+        "data": "data/s03_calculator",
+        "analyzer": "scripts.s03_analyze",
+        "checker": [
+          "scripts.s03_verify",
+          "main"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S07",
+        "category": "DUD",
+        "result": "results/s07_legality.json",
+        "data": "data/s07_legality",
+        "analyzer": "scripts.s07_analyze",
+        "checker": [
+          "scripts.s07_independent",
+          "main"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S09",
+        "category": "DUD",
+        "result": "results/s09_replay.json",
+        "data": "data/s09_replay",
+        "analyzer": "scripts.s09_analyze",
+        "checker": [
+          "scripts.s09_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S11",
+        "category": "ODD",
+        "result": "results/s11_delay.json",
+        "data": "data/s11_delay",
+        "analyzer": "scripts.s11_analyze",
+        "checker": [
+          "scripts.s11_independent",
+          "check_out"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S06",
+        "category": "ODD",
+        "result": "results/s06_denomination.json",
+        "data": "data/s06_denomination",
+        "analyzer": "scripts.s06_analyze",
+        "checker": [
+          "scripts.s06_checked_independent",
+          "check_out"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S14",
+        "category": "ODD",
+        "result": "results/s14_tender.json",
+        "data": "data/s14_tender",
+        "analyzer": "scripts.s14_analyze",
+        "checker": [
+          "scripts.s14_independent",
+          "check_out"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S16",
+        "category": "FAILED",
+        "result": "results/s16_failure.json",
+        "data": "data/s16_tender",
+        "analyzer": "scripts.s16_failure_audit",
+        "checker": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S18",
+        "category": "DUD",
+        "result": "results/s18_workplace.json",
+        "data": "data/s18_workplace",
+        "analyzer": "scripts.s18_analyze",
+        "checker": [
+          "scripts.s18_checked_independent",
+          "checked_verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S19",
+        "category": "DUD",
+        "result": "results/s19_labels.json",
+        "data": "data/s19_labels",
+        "analyzer": "scripts.s19_analyze",
+        "checker": [
+          "scripts.s19_checked_independent",
+          "checked_verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S21",
+        "category": "DUD",
+        "result": "results/s21_audit.json",
+        "data": "data/s21_audit",
+        "analyzer": "scripts.s21_analyze",
+        "checker": [
+          "scripts.s21_independent",
+          "check"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S22",
+        "category": "DUD",
+        "result": "results/s22_enforcement.json",
+        "data": "data/s22_enforcement",
+        "analyzer": "scripts.s22_analyze",
+        "checker": [
+          "scripts.s22_checked_independent",
+          "checked_verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S24",
+        "category": "DUD",
+        "result": "results/s24_identity.json",
+        "data": "data/s24_identity",
+        "analyzer": "scripts.s24_analyze",
+        "checker": [
+          "scripts.s24_checked_independent",
+          "checked_verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S25",
+        "category": "DUD",
+        "result": "results/s25_order.json",
+        "data": "data/s25_order",
+        "analyzer": "scripts.s25_analyze",
+        "checker": [
+          "scripts.s25_independent",
+          "check"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S27",
+        "category": "ODD",
+        "result": "results/s27_concentration.json",
+        "data": "data/s27_concentration",
+        "analyzer": "scripts.s27_analyze",
+        "checker": [
+          "scripts.s27_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S29",
+        "category": "ODD",
+        "result": "results/s29_notepad.json",
+        "data": "data/s29_notepad",
+        "analyzer": "scripts.s29_analyze",
+        "checker": [
+          "scripts.s29_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S28",
+        "category": "ODD",
+        "result": "results/s28_payoff.json",
+        "data": "data/s28_payoff",
+        "analyzer": "scripts.s28_analyze",
+        "checker": [
+          "scripts.s28_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S31",
+        "category": "DUD",
+        "result": "results/s31_labor.json",
+        "data": "data/s31_labor",
+        "analyzer": "scripts.s31_analyze",
+        "checker": [
+          "scripts.s31_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S32",
+        "category": "ODD",
+        "result": "results/s32_resource.json",
+        "data": "data/s32_resource",
+        "analyzer": "scripts.s32_analyze",
+        "checker": [
+          "scripts.s32_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S33",
+        "category": "DUD",
+        "result": "results/s33_leniency.json",
+        "data": "data/s33_leniency",
+        "analyzer": "scripts.s33_analyze",
+        "checker": [
+          "scripts.s33_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S34",
+        "category": "DUD",
+        "result": "results/s34_salience.json",
+        "data": "data/s34_salience",
+        "analyzer": "scripts.s34_analyze",
+        "checker": [
+          "scripts.s34_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S35",
+        "category": "ODD",
+        "result": "results/s35_asymmetry.json",
+        "data": "data/s35_asymmetry",
+        "analyzer": "scripts.s35_analyze",
+        "checker": [
+          "scripts.s35_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S36",
+        "category": "ODD",
+        "result": "results/s36_grossnet.json",
+        "data": "data/s36_grossnet",
+        "analyzer": "scripts.s36_analyze",
+        "checker": [
+          "scripts.s36_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S38",
+        "category": "DUD",
+        "result": "results/s38_horizon.json",
+        "data": "data/s38_horizon",
+        "analyzer": "scripts.s38_analyze",
+        "checker": [
+          "scripts.s38_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S37",
+        "category": "DUD",
+        "result": "results/s37_policyword.json",
+        "data": "data/s37_policyword",
+        "analyzer": "scripts.s37_analyze",
+        "checker": [
+          "scripts.s37_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S40",
+        "category": "DUD",
+        "result": "results/s40_memory.json",
+        "data": "data/s40_memory",
+        "analyzer": "scripts.s40_replay",
+        "checker": [
+          "scripts.s40_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S42",
+        "category": "DUD",
+        "result": "results/s42_entry.json",
+        "data": "data/s42_entry",
+        "analyzer": "scripts.s42_analyze",
+        "checker": [
+          "scripts.s42_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S43",
+        "category": "DUD",
+        "result": "results/s43_payoff.json",
+        "data": "data/s43_payoff",
+        "analyzer": "scripts.s43_replay",
+        "checker": [
+          "scripts.s43_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S41",
+        "category": "ODD",
+        "result": "results/s41_ticksize.json",
+        "data": "data/s41_ticksize",
+        "analyzer": "scripts.s41_analyze",
+        "checker": [
+          "scripts.s41_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S45",
+        "category": "DUD",
+        "result": "results/s45_reviewring.json",
+        "data": "data/s45_reviewring",
+        "analyzer": "scripts.s45_analyze",
+        "checker": [
+          "scripts.s45_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S44",
+        "category": "DUD",
+        "result": "results/s44_payoff.json",
+        "data": "data/s44_payoff",
+        "analyzer": "scripts.s44_replay",
+        "checker": [
+          "scripts.s44_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S48",
+        "category": "DUD",
+        "result": "results/s48_notes.json",
+        "data": "data/s48_notes",
+        "analyzer": "scripts.s48_replay",
+        "checker": [
+          "scripts.s48_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S47",
+        "category": "DUD",
+        "result": "results/s47_example.json",
+        "data": "data/s47_example",
+        "analyzer": "scripts.s47_replay",
+        "checker": [
+          "scripts.s47_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S50",
+        "category": "ODD",
+        "result": "results/s50_terminal.json",
+        "data": "data/s50_terminal",
+        "analyzer": "scripts.s50_replay",
+        "checker": [
+          "scripts.s50_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S51",
+        "category": "DUD",
+        "result": "results/s51_penalty.json",
+        "data": "data/s51_penalty",
+        "analyzer": "scripts.s51_replay",
+        "checker": [
+          "scripts.s51_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S53",
+        "category": "ODD",
+        "result": "results/s53_payoffs.json",
+        "data": "data/s53_payoffs",
+        "analyzer": "scripts.s53_payoffs",
+        "checker": [
+          "scripts.s53_independent",
+          "verify_result"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S54",
+        "category": "DUD",
+        "result": "results/s54_opportunities.json",
+        "data": "data/s54_opportunities",
+        "analyzer": "scripts.s54_analyze",
+        "checker": [
+          "scripts.s54_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S56",
+        "category": "ODD",
+        "result": "results/s56_coalitions.json",
+        "data": "data/s56_coalitions",
+        "analyzer": "scripts.s56_coalitions",
+        "checker": [
+          "scripts.s56_independent",
+          "verify_result"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S55",
+        "category": "ODD",
+        "result": "results/s55_visibility.json",
+        "data": "data/s55_visibility",
+        "analyzer": "scripts.s55_replay",
+        "checker": [
+          "scripts.s55_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S58",
+        "category": "ODD",
+        "result": "results/s58_history.json",
+        "data": "data/s58_history",
+        "analyzer": "scripts.s58_replay",
+        "checker": [
+          "scripts.s58_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S59",
+        "category": "ODD",
+        "result": "results/s59_history.json",
+        "data": "data/s59_history",
+        "analyzer": "scripts.s59_replay",
+        "checker": [
+          "scripts.s59_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S60",
+        "category": "ODD",
+        "result": "results/s60_author_bonus.json",
+        "data": "data/s60_author_bonus",
+        "analyzer": "scripts.s60_analyze",
+        "checker": [
+          "scripts.s60_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S62",
+        "category": "ODD",
+        "result": "results/s62_notepad_qwen.json",
+        "data": "data/s62_notepad_qwen",
+        "analyzer": "scripts.s62_analyze",
+        "checker": [
+          "scripts.s62_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S61",
+        "category": "DUD",
+        "result": "results/s61_identity.json",
+        "data": "data/s61_identity",
+        "analyzer": "scripts.s61_replay",
+        "checker": [
+          "scripts.s61_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S64",
+        "category": "DUD",
+        "result": "results/s64_memory_retention.json",
+        "data": "data/s64_memory_retention",
+        "analyzer": "scripts.s64_analyze",
+        "checker": [
+          "scripts.s64_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S65",
+        "category": "ODD",
+        "result": "results/s65_bonus_pooling.json",
+        "data": "data/s65_bonus_pooling",
+        "analyzer": "scripts.s65_analyze",
+        "checker": [
+          "scripts.s65_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S67",
+        "category": "ODD",
+        "result": "results/s67_incentives.json",
+        "data": "data/s67_incentives",
+        "analyzer": "scripts.s67_audit",
+        "checker": [
+          "scripts.s67_independent",
+          "verify_result"
+        ],
+        "revision": "15b318959aa08eccd2b7d0b19768f6dde539352f"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S66",
+        "category": "DUD",
+        "result": "results/s66_payoff_order.json",
+        "data": "data/s66_payoff_order",
+        "analyzer": "scripts.s66_analyze",
+        "checker": [
+          "scripts.s66_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S69",
+        "category": "DUD",
+        "result": "results/s69_pooled_enforcement.json",
+        "data": "data/s69_pooled_enforcement",
+        "analyzer": "scripts.s69_analyze",
+        "checker": [
+          "scripts.s69_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S68",
+        "category": "FAILED",
+        "result": "results/s68_failure.json",
+        "data": "data/s68_polarity",
+        "analyzer": "scripts.s68_failure_audit",
+        "checker": null,
+        "revision": "043d3577e614e7858c9a97843fa1d05143315510"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S72",
+        "category": "ODD",
+        "result": "results/s72_temporal.json",
+        "data": "data/s72_temporal",
+        "analyzer": "scripts.s72_temporal",
+        "checker": [
+          "scripts.s72_independent",
+          "verify_result"
+        ],
+        "revision": "793a6411f6d7b646b1897d964b531cbaa7116cc0"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    },
+    {
+      "passed": false,
+      "specification": {
+        "pilot": "S70",
+        "category": "DUD",
+        "result": "results/s70_bonus_endowment.json",
+        "data": "data/s70_bonus_endowment",
+        "analyzer": "scripts.s70_analyze",
+        "checker": [
+          "scripts.s70_independent",
+          "verify"
+        ],
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exit": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 316, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 205, in worker\n    require(not original or not path.is_relative_to(Path(original).resolve()),\n  File \"/var/tmp/portfolio_replay_x4s8bw4j/worker.py\", line 35, in require\n    raise ValueError(message)\nValueError: Imported a module from the source checkout: /home/factory/collusion/collusion-serendipity/.venv/lib/python3.12/site-packages/numpy/version.py\n"
+    }
+  ],
+  "special_revisions": {
+    "S67": "15b318959aa08eccd2b7d0b19768f6dde539352f",
+    "S68": "043d3577e614e7858c9a97843fa1d05143315510",
+    "S72": "793a6411f6d7b646b1897d964b531cbaa7116cc0"
+  },
+  "protected_baseline_files": 3112,
+  "scope": "All 54 archived result objects (52 completed analyses, two failure audits); exact result equality plus available existing checkers. Validation depth varies by pilot. Not an independent scientific validity audit, a new experiment, network isolation, fresh installation, or cross-platform reproduction.",
+  "project_python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "llm_chat_attempts_in_passing_workers": 0,
+  "full_history_local_clone": true,
+  "existing_installed_dependencies_reused": true,
+  "origin_clone": false,
+  "source_checkout_preserved": true,
+  "runner_unchanged": true
+}

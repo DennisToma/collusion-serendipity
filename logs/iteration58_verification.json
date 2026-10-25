@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "receipt_check": {
+    "passed": true,
+    "archived_result_objects": 54,
+    "completed_analyses": 52,
+    "failure_audits": 2,
+    "existing_independent_checkers": 50,
+    "imported_revision_source_bindings": 478,
+    "scope": "Receipt consistency with pinned Git objects and current scientific sources; no new execution attestation"
+  },
+  "probes": {
+    "missing_pilot": "rejected",
+    "duplicate_pilot": "rejected",
+    "failed_run": "rejected",
+    "wrong_baseline": "rejected",
+    "wrong_runner": "rejected",
+    "changed_checkout": "rejected",
+    "wrong_historical_revision": "rejected",
+    "attempted_llm_call": "rejected",
+    "dirty_clone": "rejected",
+    "changed_result": "rejected",
+    "missing_imported_analyzer": "rejected",
+    "changed_imported_source": "rejected",
+    "missing_checker": "rejected",
+    "failed_checker": "rejected",
+    "substituted_checker_receipt": "rejected",
+    "wrong_evidence_manifest": "rejected",
+    "wrong_evidence_file_count": "rejected",
+    "wrong_preservation_coverage": "rejected",
+    "bool_integer_float_distinctions": "rejected; key order/tuple normalization accepted",
+    "uncorrupted_S29_control": "passed",
+    "result_integer_to_float": {
+      "rejected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 354, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 189, in worker\n    require(canonical(actual) == canonical(saved), 'Archived result differs: ' + spec['pilot'])\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 36, in require\n    raise ValueError(message)\nValueError: Archived result differs: S29\n"
+    },
+    "raw_response_corruption": {
+      "rejected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 354, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 185, in worker\n    actual = mod.analyze(Path(spec['data']))\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_probes_tn56czkj/repo/scripts/s29_analyze.py\", line 126, in analyze\n    assert all(isinstance(r['response']['text'],str) for r in cache_rows)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_probes_tn56czkj/repo/scripts/s29_analyze.py\", line 126, in <genexpr>\n    assert all(isinstance(r['response']['text'],str) for r in cache_rows)\n                          ~~~~~~~~~~~~~^^^^^^^^\nKeyError: 'text'\n"
+    },
+    "model_call_during_import": {
+      "rejected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 354, in main\n    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/var/tmp/portfolio_probes_tn56czkj/worker.py\", line 174, in worker\n    mod = importlib.import_module(spec['analyzer'])\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/importlib/__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 935, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 999, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"/var/tmp/portfolio_probes_tn56czkj/repo/scripts/s29_analyze.py\", line 2, in <module>\n    llm.chat()\n  File \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/unittest/mock.py\", line 1139, in __call__\n    return self._mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/unittest/mock.py\", line 1143, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/unittest/mock.py\", line 1198, in _execute_mock_call\n    raise effect\nRuntimeError: Portfolio replay forbids scientific model calls\n"
+    },
+    "optimized_python_rejected": "rejected before verification/output write",
+    "protected_output_rejected": "rejected before verification/output write"
+  },
+  "checker_success_counts": {
+    "explicit": 43,
+    "completed": 7,
+    "not available": 4
+  },
+  "receipt_sha256": "d12f2365fb421f1c6372f21490a1c5c5980dfaf3400584241e817fbbd6588f03",
+  "runner_sha256": "7c784431fc1893df689da3749be9e48b8ae7370cce3dd08d253fd4400f8b8795",
+  "source_evidence_preserved": true,
+  "scope": "In-memory receipt corruptions, type boundaries and three real disposable-clone S29 corruptions; no frozen source/archive changed"
+}

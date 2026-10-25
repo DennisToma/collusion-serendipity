@@ -1,0 +1,12 @@
+[
+  {
+    "critic": "codex",
+    "exit": 0,
+    "scope": "Read-only repo; executed checks only as stated by critic"
+  },
+  {
+    "critic": "opus",
+    "exit": 0,
+    "scope": "Supplied text only; checker details/import maps omitted"
+  }
+]

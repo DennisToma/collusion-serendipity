@@ -1,0 +1,64 @@
+S01 PASS
+S02 PASS
+S04 PASS
+S03 PASS
+S07 PASS
+S09 PASS
+S11 PASS
+S06 PASS
+S14 PASS
+S16 PASS
+S18 PASS
+S19 PASS
+S21 PASS
+S22 PASS
+S24 PASS
+S25 PASS
+S27 PASS
+S29 PASS
+S28 FAILED
+S31 PASS
+S32 PASS
+S33 PASS
+S34 PASS
+S35 PASS
+S36 PASS
+S38 PASS
+S37 PASS
+S40 PASS
+S42 PASS
+S43 PASS
+S41 PASS
+S45 PASS
+S44 PASS
+S48 PASS
+S47 PASS
+S50 PASS
+S51 PASS
+S53 PASS
+S54 PASS
+S56 PASS
+S55 PASS
+S58 PASS
+S59 PASS
+S60 PASS
+S62 PASS
+S61 PASS
+S64 PASS
+S65 PASS
+S67 FAILED
+S66 PASS
+S69 PASS
+S68 PASS
+S72 PASS
+S70 PASS
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 227, in <module>
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 223, in main
+    
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 198, in run
+    runner_sha256=script_hash, records=records,
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 34, in require
+    raise ValueError(message)
+ValueError: Runner changed during replay

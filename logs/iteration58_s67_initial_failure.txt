@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 216, in main
+    print(json.dumps(worker(args.root.resolve(), json.loads(args.spec))))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/portfolio_replay.py", line 125, in worker
+    actual = mod.analyze()
+             ^^^^^^^^^^^^^
+  File "/var/tmp/s67_diagnose_6ovyzcec/repo/scripts/s67_audit.py", line 185, in analyze
+    manifest = checked_manifest()
+               ^^^^^^^^^^^^^^^^^^
+  File "/var/tmp/s67_diagnose_6ovyzcec/repo/scripts/s67_audit.py", line 84, in checked_manifest
+    raise ValueError('Registered/protected file changed: ' + p)
+ValueError: Registered/protected file changed: data/SPLITS.md

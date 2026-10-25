@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25 13:56 UTC; Phase 2, iteration 57 COMPLETE)
-- Fresh dependency audit reproduces archived e6b0c02: new project/export envs, empty uv/browser caches.
-- Both exact 19-package inventories match locks; fresh Chromium download and all stages exit zero.
-- Five selected scientific replays, 926 canonical checks and eight archived artifact byte matches pass.
-- Current reader exports: brief 2 pages, report 3 pages; all five pages visually inspected.
-- All 54 pilot rows, 307 numeric bindings, 144 metadata checks and current five selected replays pass.
-- All 3083 prior files outside the explicit editorial/export overlay remain byte-identical.
-- Seventeen in-memory corruptions and missing-origin/output-path guards reject; repeat build identical.
-- Fresh receipt validates full command arguments and captured-output consistency; export coverage exact.
-- Codex/Opus reviews complete; scopes/dispositions and process-loss limits retained. Source rejection preserved.
-- Portfolio unchanged: 29 DUD, 23 ODD/context-only, two failed; no promoted HIT or new scientific calls.
-- S68 interrupted without restart; S74 (IDEAS) and S75 (STATUS) proposals queued; no sibling headline change.
-- Origin e478210 reproduces all 10 checked current files byte for byte; all commands pass, clone clean.
-- Limits: selected same-host reproduction; host Python/uv/OS/fonts reused; no full raw or equivalence claim.
+## Current state (2026-10-25 14:24 UTC; Phase 2, iteration 58 IN PROGRESS)
+- All 54 primary result objects replay: 52 completed analyses and two retained failure audits.
+- All 50 existing checkers match archived receipts; 478 imported-source bindings match pinned Git.
+- Fifty-one entries use a9b3c47; S67/S68/S72 use ledger-bound historical result revisions.
+- All 3112 protected prior paths, original 54 report rows and historical log remain unchanged.
+- All 926 canonical checks pass with terminal exit zero; 25 corruption/control probes pass.
+- Worker guard precedes scientific imports; zero llm.chat attempts in passing workers.
+- Codex/Opus critiques retained; verifier output/optimization and raw-probe issues fixed.
+- No new experiment, scientific generation, tuning, estimate, label, HIT or sibling write.
+- Reader exports and actual fresh-origin closure pending; source/receipt milestone next.
+- Limits: primary-result consistency, heterogeneous same-author checks, reused same-host dependencies.
+- Portfolio remains 29 DUD, 23 ODD/context-only, two failed; S68 must not resume.
 
 ## Log
 
@@ -776,3 +774,5 @@
 - 2026-10-25 13:56 UTC: iteration57 COMPLETE. Atomic result e478210c669eeeb637d46301ee053b683246c9a8 committed/pushed with runner, full export lock, receipts, instructions and reader assets. A fresh full-history ORIGIN clone at that exact revision rebuilds all10checked current artifacts/receipts/documents byte for byte, passes current PDF extraction, all54rows/307numeric/144metadata checks, five selected scientific replays/checkers, strict archived fresh-receipt consistency and17corruption probes, and finishes clean. Actual receipt logs/iteration57_remote_clean_clone.json records all4commands with exit0. This closure reuses installed project/export dependencies and Chromium; the separate fresh-install receipt targets archived e6b0c02 and records the actual fresh19+19package installs/downloads,926canonical checks and8archived byte matches. No fresh-current-install, cross-platform, full-raw or external-attestation claim. Both critics’ atomic Git-binding concern is now resolved by the executed origin proof; their remaining process-loss/timeout limitations and supplied-text scope remain disclosed. Current exports retain2/3pages,58/177fragments and13/55table rows. Final21focused tests/repeated build pass; all3083prior protected paths, all scientific/ledger/split/HITS bytes and original54rows preserved. No scientific experiment, simulated-agent call, estimate, tuning, pooling, verdict, HIT or sibling write. Closing proof/status commit and push follow.
 
 - 2026-10-25 13:56 UTC: own-idea cadence, S75-proposal (axis own; queued, not registered or run): compare shared versus independently sampled payoff-irrelevant binary display markers in otherwise identical workplace reviews, without revealing marker correlation or suggesting coordination. Shared random cues could provide an action-selection convention without partner messages; prospective outcomes would include both employees’ full-window gains as well as approvals. Needs fresh design, registration, matched marginal cue distributions, seed-block randomization and a fixed screen before any future calls. Recorded in STATUS only to preserve the frozen table-audit ledger bytes; transfer to IDEAS as part of a fresh registration before launch. No second pilot or scientific call.
+
+- 2026-10-25 14:24 UTC: iteration58 read CLAUDE/PLAN/STATUS/DIRECTION, complete ledger and both sibling report/state summaries. Chose one complete-primary-result reproduction chunk after earlier five-pilot handoffs; initial exploration queue is complete and both siblings have frozen science. No DIRECTION deviation. A disposable local shared clone now replays all54 inventory-mapped primary result objects (52 completed analyses plus S16/S68 failure audits), with50 existing separate checkers. All478 imported-repository-source bindings, full result objects and checker receipts match pinned Git. Exact finite canonical JSON comparison preserves bool/int/float distinctions and all fields. Fifty-one entries use a9b3c47; S67/S68/S72 use ledger-bound ancestor result revisions because their original split-index guards correctly reject later appends. No validator patch or incomplete-case estimate. All3112 prior protected paths, original54 report rows and full historical STATUS prefix remain unchanged. All926 canonical checks pass with actual terminalexit0 using unchanged historical synthetic fixtures;25 receipt/type/real-clone/control/CLI probes pass. Initial failures retained: wrong S28 path, S67 split rejection, first sweep invalidated by runner edits, and an overbroad import guard rejecting reused NumPy. Corrected only the new runner/prober. Codex/Opus design/intermediate/final critiques and scopes retained; accepted exact-type, import-root, fresh-checker-write, output-path, optimization and specific raw-failure checks. Opus's posthoc-selfcheck characterization contradicted by raw-reading separate checker source; its future-ledger-compatibility request declined under explicit frozen-release scope, with usage limitation documented. No new scientific experiment, generation, tuning, estimate, pooling, verdict, HIT, ledger row or sibling write. S68 stays interrupted. Matching source/receipt commit, updated reader exports and actual fresh-origin closure follow; no advance success claim.
