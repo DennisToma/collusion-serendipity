@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "scope": "Model-call-forbidden final cache-only regeneration",
+  "source_hashes_unchanged": true,
+  "scientific_result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+  "byte_identical_artifacts": {
+    "results/s36_grossnet.json": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+    "results/s36_summary.md": "9da7a1254333170602baaea45fadbc3f6e96fb33e82b294ae0e6a98cc8354bd1",
+    "figures/s36_grossnet.png": "84b06048f9bce1c09636e714bcda6d1e6a701647447a4436c25f62d60874f693",
+    "REPORT.md": "a7a5dc9546ef7dcaa68d7f4d2fbd033e1259e6aff03bac6af7d18a4870c3d34b",
+    "logs/s36_independent.json": "547b588d6f58d4267cdf224b9e1d3758bde21b098bc9aca557ff97580c646fee",
+    "logs/s36_exact_check.json": "4aabce5b5b98132c1872775ac56d767c516c12aaa7c996af949c15be9785a61e",
+    "logs/s36_release.json": "d19430aa3fd0d449a12b42bd44439f8c186221cb81c31181138345fa809289be",
+    "results/s36_context.json": "1e96185d825f06a0ee44d76b2313e7b56774276415d8959f3d280a3c938e4994"
+  }
+}

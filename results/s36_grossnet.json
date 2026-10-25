@@ -1,0 +1,492 @@
+{
+  "pilot": "S36",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "net minus gross",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "resource_payment": {
+      "net": {
+        "mean": 8.0,
+        "mean_exact": "8",
+        "ci95": [
+          4.0,
+          10.0
+        ],
+        "ci95_exact": [
+          "4",
+          "10"
+        ],
+        "paired_t_ci95": [
+          2.447109789604413,
+          13.552890210395587
+        ]
+      },
+      "gross": {
+        "mean": 1.8,
+        "mean_exact": "9/5",
+        "ci95": [
+          0.0,
+          5.4
+        ],
+        "ci95_exact": [
+          "0",
+          "27/5"
+        ],
+        "paired_t_ci95": [
+          -3.197601189356029,
+          6.797601189356029
+        ]
+      },
+      "paired_difference": {
+        "mean": 6.2,
+        "mean_exact": "31/5",
+        "ci95": [
+          2.2,
+          10.0
+        ],
+        "ci95_exact": [
+          "11/5",
+          "10"
+        ],
+        "paired_t_ci95": [
+          -0.2757271388348128,
+          12.675727138834812
+        ],
+        "exact_signflip_p_upper": 0.0625,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.125
+      },
+      "seed_differences": [
+        10.0,
+        1.0,
+        10.0,
+        0.0,
+        10.0
+      ],
+      "exact_seed_difference_numerators": [
+        320,
+        32,
+        320,
+        0,
+        320
+      ],
+      "exact_denominator": 32
+    },
+    "offered_rate": {
+      "net": {
+        "mean": 7.85,
+        "mean_exact": "157/20",
+        "ci95": [
+          3.9125,
+          9.9125
+        ],
+        "ci95_exact": [
+          "313/80",
+          "793/80"
+        ],
+        "paired_t_ci95": [
+          2.3976355279558934,
+          13.302364472044106
+        ]
+      },
+      "gross": {
+        "mean": 1.6625,
+        "mean_exact": "133/80",
+        "ci95": [
+          0.0,
+          4.9875
+        ],
+        "ci95_exact": [
+          "0",
+          "399/80"
+        ],
+        "paired_t_ci95": [
+          -2.9533399873913306,
+          6.27833998739133
+        ]
+      },
+      "paired_difference": {
+        "mean": 6.1875,
+        "mean_exact": "99/16",
+        "ci95": [
+          2.2625,
+          9.9
+        ],
+        "ci95_exact": [
+          "181/80",
+          "99/10"
+        ],
+        "paired_t_ci95": [
+          -0.07827213325815219,
+          12.453272133258153
+        ],
+        "exact_signflip_p_upper": 0.0625,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.125
+      },
+      "seed_differences": [
+        10.0,
+        1.375,
+        9.9375,
+        0.0,
+        9.625
+      ],
+      "exact_seed_difference_numerators": [
+        320,
+        44,
+        318,
+        0,
+        308
+      ],
+      "exact_denominator": 32
+    },
+    "firm_profit": {
+      "net": {
+        "mean": 12.0,
+        "mean_exact": "12",
+        "ci95": [
+          10.0,
+          16.0
+        ],
+        "ci95_exact": [
+          "10",
+          "16"
+        ],
+        "paired_t_ci95": [
+          6.447109789604413,
+          17.55289021039559
+        ]
+      },
+      "gross": {
+        "mean": 18.2,
+        "mean_exact": "91/5",
+        "ci95": [
+          14.6,
+          20.0
+        ],
+        "ci95_exact": [
+          "73/5",
+          "20"
+        ],
+        "paired_t_ci95": [
+          13.202398810643972,
+          23.19760118935603
+        ]
+      },
+      "paired_difference": {
+        "mean": -6.2,
+        "mean_exact": "-31/5",
+        "ci95": [
+          -10.0,
+          -2.2
+        ],
+        "ci95_exact": [
+          "-10",
+          "-11/5"
+        ],
+        "paired_t_ci95": [
+          -12.675727138834812,
+          0.2757271388348128
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 0.0625,
+        "exact_signflip_p_two_sided": 0.125
+      },
+      "seed_differences": [
+        -10.0,
+        -1.0,
+        -10.0,
+        0.0,
+        -10.0
+      ],
+      "exact_seed_difference_numerators": [
+        -320,
+        -32,
+        -320,
+        0,
+        -320
+      ],
+      "exact_denominator": 32
+    },
+    "tie_rate": {
+      "net": {
+        "mean": 0.7,
+        "mean_exact": "7/10",
+        "ci95": [
+          0.425,
+          0.975
+        ],
+        "ci95_exact": [
+          "17/40",
+          "39/40"
+        ],
+        "paired_t_ci95": [
+          0.25285008944123627,
+          1.1471499105587637
+        ]
+      },
+      "gross": {
+        "mean": 0.925,
+        "mean_exact": "37/40",
+        "ci95": [
+          0.775,
+          1.0
+        ],
+        "ci95_exact": [
+          "31/40",
+          "1"
+        ],
+        "paired_t_ci95": [
+          0.7167666171101655,
+          1.1332333828898347
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.225,
+        "mean_exact": "-9/40",
+        "ci95": [
+          -0.5,
+          -0.025
+        ],
+        "ci95_exact": [
+          "-1/2",
+          "-1/40"
+        ],
+        "paired_t_ci95": [
+          -0.6114648028018531,
+          0.16146480280185313
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 0.125,
+        "exact_signflip_p_two_sided": 0.25
+      },
+      "seed_differences": [
+        0.0,
+        -0.25,
+        -0.125,
+        0.0,
+        -0.75
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        -8,
+        -4,
+        0,
+        -24
+      ],
+      "exact_denominator": 32
+    },
+    "stage_regret": {
+      "net": {
+        "mean": 5.15,
+        "mean_exact": "103/20",
+        "ci95": [
+          4.0875,
+          7.0875
+        ],
+        "ci95_exact": [
+          "327/80",
+          "567/80"
+        ],
+        "paired_t_ci95": [
+          2.470357369696156,
+          7.829642630303844
+        ]
+      },
+      "gross": {
+        "mean": 8.2375,
+        "mean_exact": "659/80",
+        "ci95": [
+          6.7125,
+          9.0
+        ],
+        "ci95_exact": [
+          "537/80",
+          "9"
+        ],
+        "paired_t_ci95": [
+          6.120460607286683,
+          10.354539392713319
+        ]
+      },
+      "paired_difference": {
+        "mean": -3.0875,
+        "mean_exact": "-247/80",
+        "ci95": [
+          -4.9,
+          -1.1625
+        ],
+        "ci95_exact": [
+          "-49/10",
+          "-93/80"
+        ],
+        "paired_t_ci95": [
+          -6.120813927714014,
+          -0.054186072285985265
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 0.0625,
+        "exact_signflip_p_two_sided": 0.125
+      },
+      "seed_differences": [
+        -5.0,
+        -0.875,
+        -4.9375,
+        0.0,
+        -4.625
+      ],
+      "exact_seed_difference_numerators": [
+        -160,
+        -28,
+        -158,
+        0,
+        -148
+      ],
+      "exact_denominator": 32
+    }
+  },
+  "games": [
+    {
+      "seed": 24760,
+      "condition": "gross",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24760,
+      "condition": "net",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 10.0,
+        "firm_profit": 10.0,
+        "tie_rate": 1.0,
+        "stage_regret": 4.0
+      }
+    },
+    {
+      "seed": 24761,
+      "condition": "gross",
+      "primary": {
+        "resource_payment": 9.0,
+        "offered_rate": 8.3125,
+        "firm_profit": 11.0,
+        "tie_rate": 0.625,
+        "stage_regret": 5.1875
+      }
+    },
+    {
+      "seed": 24761,
+      "condition": "net",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.6875,
+        "firm_profit": 10.0,
+        "tie_rate": 0.375,
+        "stage_regret": 4.3125
+      }
+    },
+    {
+      "seed": 24762,
+      "condition": "gross",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24762,
+      "condition": "net",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625
+      }
+    },
+    {
+      "seed": 24763,
+      "condition": "gross",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24763,
+      "condition": "net",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24764,
+      "condition": "gross",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24764,
+      "condition": "net",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.625,
+        "firm_profit": 10.0,
+        "tie_rate": 0.25,
+        "stage_regret": 4.375
+      }
+    }
+  ],
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "net": 0,
+    "gross": 0
+  },
+  "notes": {
+    "net": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "gross": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Gross quotation changes grid labels, tax/subsidy wording and arithmetic together; isolated anchoring mechanism unidentified",
+    "Exactly bijective stage incentives; no strategic workers or public budget objective",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Net pure Nash profiles (18,18),(19,19),(20,20); gross profiles translate each entry by10",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Known local CLI fingerprints include selected NODE_OPTIONS, proxy, certificate and authentication inputs; ancestor instructions and complete effective configuration or provider execution remain unattested",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}

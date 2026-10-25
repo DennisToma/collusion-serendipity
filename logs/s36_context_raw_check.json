@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "POST-OUTCOME direct raw-response recount;no new inference or critic review",
+  "quoted_decisions_checked": 160,
+  "referenced_file_input_variables_recorded_unset": [
+    "NODE_OPTIONS",
+    "CODEX_MANAGED_CONFIG_FILE",
+    "NODE_EXTRA_CA_CERTS",
+    "SSL_CERT_FILE",
+    "SSL_CERT_DIR"
+  ],
+  "context_sha256": "1e96185d825f06a0ee44d76b2313e7b56774276415d8959f3d280a3c938e4994"
+}

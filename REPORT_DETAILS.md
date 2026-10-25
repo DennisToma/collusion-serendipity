@@ -807,3 +807,53 @@ No retrospective widening of the fingerprint or scientific source changes.
 Both final critics exit0,parent0. Codex independently binds raw rates and all
 primary arithmetic;Opus recomputes from supplied game metrics and explicitly
 cannot inspect raw files,timing,release or origin. The signed matched contrast remains unchanged,with baseline context above.
+
+### S36 — Gross/net wage quotation, iteration24 (own)
+
+<!-- S36 summary start -->
+**S36:** worker take-home pay NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]** descriptive bootstrap. Paired t95% **[-0.276, +12.676]**, upper sign-flip **p=0.06250**. Four positive blocks and one tie leave the frozen sign screen unmet: **ODD**, no HIT. Both arm means are below the static Nash take-home range18–20. All stage profiles/payoffs map exactly after subtracting10 from gross quotes; wording,grid labels and arithmetic change together. No isolated anchoring or collusion mechanism. [All outcomes and figure](results/s36_summary.md).
+<!-- S36 summary end -->
+
+Fresh seeds24760–24764,T10,primary r3–10;200planned decisions and5paired
+blocks. Normalized wage contrast tests whether gross quotation lowers take-home
+by at least2. Gross10..30 maps to net0..20 via automatic worker tax10 and
+employer subsidy10;firms have identical productivity20 and self-only notepads.
+All441 profiles and18,522 unilateral deviations verified before paid calls;
+normalized Nash profiles(18,18),(19,19),(20,20). Worker take-home plus total
+firm profit equals20 every round. The reported offers and regret use normalized
+units;raw trajectory price fields retain condition-specific quotes.
+
+Block primary differences: +10.000, +1.000, +10.000, +0.000, +10.000.
+200 cached responses;invalid retries {'net': 0, 'gross': 0}.
+Notes {'net': {'nonempty': 100, 'written': 100}, 'gross': {'nonempty': 100, 'written': 100}}. No pooling,tuning,secondary/reverse promotion,or equivalence
+claim. Five-block intervals are descriptive;conditional sign-flip assumptions
+and bundled institutional wording/grid/arithmetic limit interpretation.
+
+Both methodology critics,parent and patch critic exit0 before live calls.
+Codex independently confirms exact stage translation;Opus supplied-text scope
+is explicit. Fixed a preflight abort race before freeze with a deterministic
+two-thread regression check. Known-input fingerprints now include selected
+Node/proxy/certificate environment values and auth.json hashes,with incomplete
+ancestor-instruction/effective-config/provider attestation. Legitimate auth/config
+refresh can abort the entire pilot;this risk was accepted prospectively.
+All21scientific sources stay frozen after registrationce0389e.
+
+[Design](DESIGN_S36.md) · [Raw reconstruction](logs/s36_independent.json) ·
+[Exact checks](logs/s36_exact_check.json) · [Methodology dispositions](logs/s36_review_disposition.md).
+
+### S36 post-outcome quote-coordinate clarification
+
+Post-outcome quote context, requested by the supplied-text critic: mean submitted quotes were NET7.850 and GROSS11.662. Quote10 occurred in52/80 NET decisions (take-home10) and65/80 GROSS decisions (take-home0). This descriptive census identifies no mechanism. [Raw quote census](results/s36_context.json).
+
+This census was requested after outcomes and changes no registered metric,
+threshold,result,or renderer. The manager's separate direct raw-response recount
+checks all160 primary quotes and the means. It is not a new independent critic
+review. Both final critics reviewed the primary before this addition.
+
+Codex identifies a prospective medium known-input guard weakness: environment
+path strings are hashed,but referenced NODE_OPTIONS/configuration/certificate
+contents are not. The archived NODE_OPTIONS,CODEX_MANAGED_CONFIG_FILE,
+NODE_EXTRA_CA_CERTS,SSL_CERT_FILE and SSL_CERT_DIR values were recorded unset.
+No retrospective full attestation follows. Future pilots should reject unsupported
+populated referenced-input variables or hash those files/directories prospectively;
+the21registered S36 source files remain unchanged.

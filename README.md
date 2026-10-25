@@ -914,3 +914,11 @@ uv run python -m unittest scripts.test_s36
 reusing the installed frozen dependency environment. The manager-adapted separate
 reconstruction is independent arithmetic,not independent authorship/replication.
 All new synthetic tests fix their clocks;real scientific deadlines stay fixed.
+
+S36 completed:NET 8.000, GROSS 1.800; NET−GROSS +6.200 [+2.200, +10.000];t[-0.276,+12.676],upperp0.06250;frozenODD.
+200 cached responses,strict condition-specific quoted grid.
+[All five registered metrics](results/s36_summary.md). Both final critics exit0,parent0;cache-only release passes. Verification
+receipts are in logs/s36_*;no isolated mechanism claim.
+
+`uv run python scripts/s36_context.py` regenerates a separately labeled post-outcome
+quote census. It adds no inference or promotion and preserves frozen sources.

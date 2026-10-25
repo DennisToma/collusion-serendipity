@@ -1,0 +1,48 @@
+{
+  "scope": "POST-OUTCOME manager descriptive quote census requested by supplied-text final critic;no mechanism,screen,inference or promotion",
+  "passed": true,
+  "scientific_result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+  "raw_bound_decisions": 200,
+  "arms": {
+    "net": {
+      "primary_decisions": 80,
+      "primary_rounds": 40,
+      "quote_offset": 0,
+      "raw_mean_quote": 7.85,
+      "raw_mean_quote_exact": "157/20",
+      "normalized_mean_offer": 7.85,
+      "normalized_mean_offer_exact": "157/20",
+      "quote_counts": {
+        "0": 16,
+        "9": 12,
+        "10": 52
+      },
+      "raw_profile_counts": {
+        "0,0": 8,
+        "9,10": 6,
+        "10,9": 6,
+        "10,10": 20
+      }
+    },
+    "gross": {
+      "primary_decisions": 80,
+      "primary_rounds": 40,
+      "quote_offset": 10,
+      "raw_mean_quote": 11.6625,
+      "raw_mean_quote_exact": "933/80",
+      "normalized_mean_offer": 1.6625,
+      "normalized_mean_offer_exact": "133/80",
+      "quote_counts": {
+        "10": 65,
+        "18": 2,
+        "19": 13
+      },
+      "raw_profile_counts": {
+        "10,10": 32,
+        "19,10": 1,
+        "19,18": 2,
+        "19,19": 5
+      }
+    }
+  }
+}

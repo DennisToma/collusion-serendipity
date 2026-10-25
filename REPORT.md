@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 24 (S36 registered; outcomes pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 24 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -28,16 +28,17 @@
 | S33 · D, reporting/amnesty | 10 games /5 blocks. Partner Y approval rate r3–10: baseline **0.250**, amnesty **0.300**; reduction **-0.050 [-0.175, 0.050]**. | **DUD** for reduction screen |
 | S34 · own, inert report field | 10 games /5 blocks. Partner Y approval rate r3–10: plain **0.200**, flag **0.175**; reduction **0.025 [-0.100, 0.150]**. | **DUD** for reduction screen |
 | S35 · B, productivity asymmetry | 10 games /5 blocks. Paid wage r3–10: symmetric **11.800**, asymmetric **19.450**; asymmetric−symmetric **7.650 [3.825, 9.825]**. | **ODD** for four-unit wage screen |
+| S36 · own, gross/net quotation | 10 games /5 blocks. Worker take-home r3–10: NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]**. | **ODD** for two-unit reduction screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
-<!-- S35 summary start -->
-**S35:** paid wages asymmetric **19.450**, symmetric **11.800**; difference **+7.650 [3.825, 9.825]** descriptive bootstrap. Paired t95% **[2.312, 12.988]**, upper sign-flip **p=0.06250**. Four positive blocks and one tie leave the frozen sign screen unmet: **ODD**, no HIT. Productivity changes legitimate incentives and wording; both arms have self-only notes. No collusion mechanism is identified. [All outcomes and figure](results/s35_summary.md).
-<!-- S35 summary end -->
+<!-- S36 summary start -->
+**S36:** worker take-home pay NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]** descriptive bootstrap. Paired t95% **[-0.276, +12.676]**, upper sign-flip **p=0.06250**. Four positive blocks and one tie leave the frozen sign screen unmet: **ODD**, no HIT. Both arm means are below the static Nash take-home range18–20. All stage profiles/payoffs map exactly after subtracting10 from gross quotes; wording,grid labels and arithmetic change together. No isolated anchoring or collusion mechanism. [All outcomes and figure](results/s36_summary.md).
+<!-- S36 summary end -->
 
-Post-outcome context: four symmetric blocks have (10,10) in all primary rounds (32/40 rounds),below the symmetric equilibrium wages18–20. Asymmetric paid wages are19–20,versus equilibrium20. This contrast includes a low symmetric baseline;it does not establish a collusion mechanism or replicate S31. [Raw profile census](results/s35_context.json).
+Post-outcome quote context, requested by the supplied-text critic: mean submitted quotes were NET7.850 and GROSS11.662. Quote10 occurred in52/80 NET decisions (take-home10) and65/80 GROSS decisions (take-home0). This descriptive census identifies no mechanism. [Raw quote census](results/s36_context.json).
 
-Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S35 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested.
+Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values;contents of referenced code/configuration/certificate files and ancestor instructions remain outside its coverage.
 
 Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible.
 
@@ -47,4 +48,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Complete S36, which tests NET versus GROSS wage quotation under a bijective payoff translation, on five fresh paired blocks. The registered primary is normalized take-home pay; no paid outcomes yet. S35 remains unpromoted, S32 unconfirmed and S30 unrun. [S36 design](DESIGN_S36.md).
+**Next:** Fresh question on a different axis after own/S36; no secondary-driven promotion. S32 remains unconfirmed and S30 unrun. Use take-home units when comparing wage quotations.

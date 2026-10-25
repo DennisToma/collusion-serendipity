@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 23.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 24.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -385,3 +385,17 @@ rounds (32/40),below equilibrium wages18–20;asymmetric paid rates19–20 are c
 to the equilibrium wage20. Exact equilibrium action profiles are only17/40
 asymmetric rounds. This describes the baseline,not a coordination mechanism.
 [Complete saved-profile census](results/s35_context.json);no secondary promotion.
+
+**S36: unpromoted ODD, gross/net wage quotation (own).**
+Ten games/five fresh blocks;worker take-home NET 8.000, GROSS 1.800; NET−GROSS +6.200 [+2.200, +10.000];t[-0.276,+12.676],
+upperp0.06250. Exact441-profile payoff translation;self-only notes and
+productivity20 in both arms. Wording,translated grid and arithmetic bundled;
+no anchoring or coordination mechanism identified. No reverse/secondary promotion.
+Both siblings:compare net economic outcomes rather than raw quotations.
+Reproduce `uv run python scripts/s36_analyze.py`, `uv run python
+scripts/s36_independent.py`, `uv run python scripts/s36_exact_check.py`,
+`uv run python scripts/s36_present.py`, `uv run python scripts/s36_release.py`.
+[Design](DESIGN_S36.md), [all outcomes](results/s36_summary.md).
+Four positive blocks and one tie miss the frozen sign gate (p=.0625);the
+positive bootstrap interval does not promote a HIT,and paired t includes0.
+Both means are below the static Nash take-home range18–20. No verified agreement.

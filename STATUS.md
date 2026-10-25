@@ -1,13 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T01:22:49.167805+00:00; Phase2, iteration24 IN PROGRESS)
-- S36 own/framing selected after B/S35;fresh10games/5blocks planned.
-- NET0..20 versus GROSS10..30,worker tax10/employer subsidy10.
-- All441 profiles/deviations bijective;primary net-minus-gross take-home.
-- Fixed2-unit directional screen,zero tuning;no live calls yet.
-- Implementing full replay,independent normalization and design reviews.
-- S35 retained ODD:+7.650[3.825,9.825],upperp.0625;no HIT.
-- S32 unconfirmed;S30 unrun;no sibling writes or direction deviation.
+## Current state (2026-10-25T01:41:34.043149+00:00; Phase2, iteration24 publication)
+- S36 gross/net quotation:10games/5blocks,200valid responses,no retries/failures.
+- Take-home NET8.000/GROSS1.800;NET−GROSS+6.200[2.200,10.000].
+- Paired t[-.275727,12.675727],upperp.0625;ODD,four positives/one tie.
+- Exact incentives;bundled wording/grid/arithmetic;both wage means below Nash.
+- No HIT or identified anchoring/coordination mechanism.
+- Full200-key replay,21frozen-source/runtime/UTC/export/overlap PASS.
+- Separate50cells/15bootstrap+t/15sign tails/200bindings/exact15 PASS.
+- Both final critics,parent exit0;Opus supplied-text scope explicit.
+- Post-outcome raw quote census/160-response recount separately labeled.
+- Durable post-live354tests and eight-artifact forbidden-call regeneration PASS.
+- Registrationce0389e pushed;results push/origin clone next.
+- Next:different axis;prospective referenced-file guard repair,S37 queued only.
+- Risks:n5,low wage baselines,incomplete effective config/provider attestation.
 
 ## Log
 
@@ -330,3 +336,11 @@
 - 2026-10-25T01:22:49.167805+00:00: iteration24 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/state summaries. Activated queued own/S36 after B/S35;fresh gross/net wage quotation comparison with exact payoff translation,condition-specific quote schema and normalized outcomes. Registered before paid calls;no pooling,reverse promotion or direction deviation. Full pre-live validation and independent critics next.
 
 - 2026-10-25T01:28:09.357219+00:00: S36 original Codex/Opus design critics both exit0,parent0;patch Codex exit0. Fixed atomic terminal admission after preflight failures and stale fingerprint wording;added seeded-seat assertions and receipt chronology mutations. All27 scoped tests/full354 repository tests PASS;final-source dry200-key replay,50raw metric cells,15bootstrap+t summaries,15sign tails,200auxiliary bindings and15 exact rational summaries PASS. Complete synthetic LIVE path passes;all21source hashes match final dry manifest. Auth/config refresh abort risk explicitly accepted before outcomes. Initial full-suite S25 Next-anchor presentation failure retained and corrected without scientific edits. HistoricalS31–S35 census1000valid decisions,zero retries/failures supports unchanged strict parsing. No paid outcomes,tuning,pooling or sibling writes. Source-freeze/push then sole live launch next.
+
+- 2026-10-25T01:28:42.574100+00:00: S36 registrationce0389e5d5cf39847f8d9ff27fc7221db7540bbf committed/pushed and observed remotely at2026-10-25T01:28:19.374155+00:00. Sole foreground live runner started with durable exit receipt,two workers and per-block barriers;21sources frozen. Launch remaining3102.47s versus required1175.46s,02:20UTC admission cutoff. No partial actions,notes or treatment effects inspected. Ledger registration reference finalized.
+
+- 2026-10-25T01:36:00.971970+00:00: S36 complete;NET 8.000, GROSS 1.800; NET−GROSS +6.200 [+2.200, +10.000];t[-0.275727,12.675727],upperp0.0625;frozenODD. Full replay,source/registration/environment/immutableCLI/UTC/export/actual-transport-overlap checks PASS. Separate50raw cells/15bootstrap+t summaries/15sign tails/200action+note+reason bindings and15exact rational summaries PASS. No pooling,tuning,exclusion,mechanism inference,reverse/secondary promotion or sibling write. Final critics,figure inspection,post-live suite,cache-only release and remote clone next.
+
+- 2026-10-25T01:40:21.399779+00:00: S36 final Codex/Opus critics both exit0,parent0. Codex independently reconstructs raw50cells/15bootstrap+t summaries/15sign tails/all200prompt bindings,441profiles/18,522deviations and full archive chronology/replay;Opus supplied-text scope explicit. Added post-outcome quote census at critic request:meanquotesNET7.85/GROSS11.6625;quote10 counts52/80 versus65/80,with separate160raw-response recount and no inference/promotion. Referenced-file fingerprint gap explicit;five named path-input env values recorded unset,not full attestation. Full354post-live tests emit PASS;outer143 ambiguity closed by standalone durable childexit0 and354PASS. Separate cache-only release/109local links PASS;figure inspected. All21frozen sources/scientificSHAabfbb898 unchanged. Final regeneration then results push/origin clone next.
+
+- 2026-10-25T01:41:34.043149+00:00: S36 final model-call-forbidden regeneration leaves all8artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts,post-outcome quote census). All21source hashes/scientificSHAabfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0 unchanged. Both final critics,parent exit0;durable standalone354-test suite childexit0. Cache-only release/110local links PASS. Separate raw160-quote recount/context SHA matches;context explicitly not reviewed by primary critics. Queued own/S37 policy-wording control as unrun future idea;no second experiment,new scientific calls,tuning,pooling,exclusion,reverse/secondary promotion,HIT or sibling write. Results milestone commit/push then origin clone next.

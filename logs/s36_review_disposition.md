@@ -39,3 +39,32 @@ full suite follows before registration.
 Corrected full354-test suite and27 scoped checks PASS before registration. All21
 source hashes match final dry archive. Both original critics,parent and patch
 critic exit0. Readiness receipt records exact source digests before paid data.
+
+## Final reviews
+
+Both final critics exit0;parent exit0 verified in durable receipt. Codex independently
+rebuilds all50raw cells,15 exact bootstrap+t summaries,15sign tails,200prompt
+bindings,441profiles/18,522deviations and full replay/runtime chronology. Opus
+supplied-text-only scope explicit;it hand-checks primary bootstrap/t/sign/verdict
+but cannot inspect raw files,figure,tests or origin.
+
+- No result-changing scientific bug. Frozen ODD retained;four positives/one tie.
+- Raw quote context requested by Opus:added separate post-outcome census and
+  direct160-response recount;no inference,exclusion,mechanism or promotion.
+  Primary critics did not review this later census;manager validation scope explicit.
+- Codex's referenced-file coverage weakness:documented explicitly in REPORT,
+  DETAILS and STATUS. Archived five named referenced-input env values recorded
+  unset;this does not attest complete effective configuration. Prospective repair
+  deferred to a future pilot;no frozen source changes.
+- Opus's duplicate prompt contract is a copied string:separate arithmetic and
+  binding validation,not independent prompt authorship or semantic proof.
+- Both overlap functions check the same recorded transport timestamps;they
+  provide no independent second transport observation. Labels are not quoted
+  as separate evidence. Actual starts<.585s apart,strictly positive overlap.
+- Short launch writer-lock gap accepted for one operator;one-shot receipt and
+  main writer lock remain. No second launch was attempted.
+- Post-live suite emitted complete354-test pass before outer shell143 prevented
+  the chained release from starting. Preserved outer receipt;standalone durable
+  rerun independently exits0,354tests PASS. Separate release exits0.
+- Figure visually inspected. All21source hashes and scientific SHAabfbb898 remain
+  unchanged. Results push/origin clone pending at this point.
