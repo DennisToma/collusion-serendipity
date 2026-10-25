@@ -783,3 +783,10 @@ protocol/companion tests,full cache-only release and real S21 original archive;
 seven artifacts byte-identical and clone clean. Receipt:
 logs/s32_remote_clean_clone.json. Existing frozen dependency environment reused,
 not a fresh dependency installation. All19 scientific sources remain frozen.
+
+S33 (iteration21): private reporting/amnesty intervention versus inert report flag,
+shared-note workplace in both arms. Design: `DESIGN_S33.md`. Source freeze is
+committed/pushed before one-shot `uv run python scripts/s33_launch.py`.
+After completion, offline reproduction uses `uv run python scripts/s33_release.py`;
+`uv run python scripts/s33_present.py` renders every outcome/figure/report row.
+Do not relaunch the live generator or relax an archived failure contract.

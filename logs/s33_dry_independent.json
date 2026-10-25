@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "raw_metric_cells": 70,
+  "bootstrap_intervals": 21,
+  "t_intervals": 21,
+  "sign_tests": 21,
+  "accepted_action_note_reason_bindings": 200,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "rejections": {
+    "baseline": 0,
+    "amnesty": 0
+  },
+  "verdict": "DUD"
+}

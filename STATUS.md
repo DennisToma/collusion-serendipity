@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T00:08:39.894798+00:00; Phase2, iteration20 COMPLETE)
-- S32 resource identity:10games/5blocks,200valid decisions,zero retries/failures.
-- Human17.525/compute13.725;primary+3.800[-.250,7.875],t[-3.023,10.623],upperp.25.
-- Two positive/two ties/one negative;frozen ODD,no HIT/fairness mechanism claim.
-- Full200-key replay/19sources/registration/known CLI input checks PASS.
-- Independent50cells/15summaries/five sign sets/200prompt+note+reason bindings PASS.
-- Post-outcome exact15-summary companion/two mutation regressions PASS.
-- Full276 tests PASS;scoped synthetic clocks14S21+12S31,real archives unchanged/PASS.
-- Remote clone of0d5eff5:19checks/seven artifacts byte-identical,clone clean.
-- Registrationab7e42a/results0d5eff5 pushed;scientific SHA0950187e unchanged.
-- Mutable CLI baseline/effective-config gaps and accidental prefix peek disclosed.
-- Final critique texts complete,parent143;individual final exit statuses unverified.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- Next:fresh structure/intervention;freeze future CLI baseline in closure,S30 unrun.
+## Current state (2026-10-25T00:12:23.878577+00:00; Phase2, iteration21 IN PROGRESS)
+- Selected S33 axis D: private reporting-amnesty package in two-person workplace.
+- Ten fresh games/five blocks24640..24644,T10,r3..10;200planned decisions.
+- Both arms share partner notes and report schema;active rule adds sanctions/immunity.
+- Primary baseline-minus-amnesty approval reduction;frozen .25/sign/bootstrap screen.
+- Thirteen S33 tests PASS:128 stage cases,privacy,parser/failures,closure/dry mutations.
+- Codex+Opus methodology and Codex patch critics exit0;all fixes pre-live.
+- S32 remains ODD:human-compute+3.8[-.25,7.875],upperp.25;no HIT.
+- Siblings final/frozen;no sibling writes or headline changes.
+- Full289-test canonical suite PASS,scoped historical synthetic clocks only.
+- Next:freeze/push,run single pilot,full verification/reports/push.
+- Risks:small n,control floor,intervention bundles sanctions/immunity/wording.
 
 ## Log
 
@@ -286,3 +284,7 @@
 - 2026-10-25T00:07:16.423894+00:00: final byte regeneration PASS:scientific result,summary,figure,independent receipt,post-outcome exact receipt,release receipt and REPORT all seven byte-identical under cache-only analysis. All19 sources and canonical SHA0950187e unchanged. Full276 tests and real S21/S31 archives pass;all final review dispositions documented,individual final critic exit statuses unverified after parent143. No new scientific calls,metric/source changes,tuning,pooling,HIT or sibling writes. Results milestone commit/push then remote-origin clean clone.
 
 - 2026-10-25T00:08:39.894798+00:00: iteration20 COMPLETE. S32 registrationab7e42ae1c83911a4b0481da63ee43f0bfbcc127 and results0d5eff51f49b5789432b0532f25aa1b9a6206de1 pushed;fresh full-history ORIGIN REMOTE clone passes cache-only release,19 S32 protocol/companion checks,raw independent reconstruction,all15 exact rational summaries and real S21 original archive. Seven artifacts byte-identical(scientific result,summary,figure,independent/exact/release receipts,REPORT);clone git status clean. logs/s32_remote_clean_clone.json records exact commit/commands/hashes and installed frozen-environment reuse,not fresh dependency installation. Full276 repository tests pass with14 historical S21 synthetic cutoff and12 S31 synthetic clock overrides;real original-cutoff S21/S31 archives separately PASS,all scientific/test source files unchanged. All19 S32 source hashes/canonical scientific SHA0950187e unchanged;200valid responses,zero retries/failures. ODD retained,no HIT/fairness/coordination/equivalence claim or secondary promotion. Exact companion is post-outcome manager validation,not critic-reviewed;final substantive critiques complete but parent143 means individual exit statuses unverified. Mutable expected CLI-baseline/transient-coordinated-drift and input-coverage/provider-attestation gaps remain explicit;no abort/continue/analysis decision depended on accidentally seen first-block prefixes. Ledger result reference finalized. Reports/HITS/README/DETAILS current;no extra scientific call,second pilot,tuning,pooling,exclusion,subgroup/reverse/secondary promotion,sibling write,direction deviation or active generation/review. Next different structure/intervention axis with immutable prospective CLI baseline;S30 stays unrun.
+
+- 2026-10-25T00:12:23.878577+00:00: iteration21 read all rules/plans/direction/ledgers and sibling report/state summaries. Selected fresh intervention S33 after own/S32;registered private reporting/amnesty versus inert flag at identical shared-note workplace base. Implemented from archived S29 lifecycle,using one-transport-attempt cache and immutable in-memory known-CLI baseline. Nine pre-live tests PASS including128 stage cases and full dry replay/independent reconstruction. Independent methodology critics running. No direction deviation or live calls.
+
+- 2026-10-25T00:16:24.840526+00:00: both methodology critics exit0;Codex patch audit exit0. Accepted optimization/completion guards,all missing mocked failure paths,ordinary-net-payoff wording and admission-only deadline authority. Added private-report stripping from observable exports,ground-truth bindings and exact21-summary verification. All13 S33 tests and fresh200-key dry/70cells/21summaries/21sign checks PASS. Queued own S34 inert-report-schema salience idea;no second experiment or live calls.

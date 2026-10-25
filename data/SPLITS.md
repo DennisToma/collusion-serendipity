@@ -91,3 +91,8 @@ S32: five fresh paired blocks24600..24604;ten self-only-note resource games,
 human labor versus automated compute in one identity sentence. T10,primary
 r3..10;200 planned decisions. Exploratory,zero tuning,no held-out claim or
 pooling with S31;directional screen and source manifest frozen before calls.
+
+S33: five fresh paired blocks24640..24644;ten two-person shared-note workplace
+games,inert versus active private report flag with contingent sanctions/amnesty.
+T10,r3..10,200 planned decisions;exploratory,zero tuning,no held-out claim or
+pooling. Full design/source manifest committed/pushed before live outcomes.
