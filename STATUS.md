@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T00:48:00.838073+00:00; Phase2, iteration22 RESULTS)
+## Current state (2026-10-25T00:53:05.960879+00:00; Phase2, iteration22 COMPLETE)
 - S34 inert-report option:10games/5blocks,200valid decisions,zero retries/failures.
 - Plain8/40vsflag7/40 Y approvals;reduction+.025[-.100,.150],upperp.5.
 - Paired t[-.177366,.227366];frozen DUD,both clauses,no HIT/equivalence claim.
-- Plain baseline.20 below.25 reduction screen;primary flag requests all false.
-- Identical stage payoffs/shared notes;wording+field bundle,no isolated mechanism.
-- Full replay/20-source registration/runtime/UTC/export/actual-call overlap PASS.
-- Separate50cells/15exact bootstrap+t summaries/15sign tails/200bindings PASS.
-- Final critics exit0;post-live304tests/release PASS;figure inspected.
-- Next:byte regeneration/results push/origin clean-clone reproduction.
-- Source freeze7427939 unchanged;scientific SHA31d37a09;no active generation.
+- Plain baseline.20 below.25 reduction screen;all80 primary reports=false.
+- Same stage payoffs/shared notes;wording+field bundle,no isolated mechanism.
+- Full200-key replay/20-source registration/runtime/UTC/export/actual overlap PASS.
+- Separate50cells/15bootstrap+t summaries/15sign tails/200bindings PASS.
+- Both final critics exit0;Codex raw reconstruction,Opus supplied-text-only.
+- Post-live304tests/local release PASS;figure inspected;sources/scientific SHA stable.
+- Registration7427939/results830a62d pushed;origin clone15tests/six artifacts exact.
+- Clone clean;frozen installed venv reused;result SHA31d37a09 unchanged.
+- No active generation/review,tuning,pooling,HIT or sibling writes.
 - Next:fresh other-world/structure after own;S30 unrun;risks n5/baseline/salience.
 
 ## Log
@@ -310,3 +312,5 @@
 - 2026-10-25T00:51:07.112565+00:00: S34 final Codex/Opus critics exit0,parent0. Codex raw-reconstructs50cells/all15bootstrap+t summaries/all15sign tails/200bindings/full replay+source/runtime chronology,nine read-only checks;Opus supplied-text-only scope explicit,its three-positive-block slip corrected to two positive/two negative/one tie. Accepted explicit0/80 primary true reports and baseline cap disclosure;no behavioral-inert or mechanism inference. Figure inspected;post-live304tests and full cache-only release/104links PASS. Both critics request pending commit/push/remote clone;next final regeneration and results milestone. All20sources/scientificSHA31d37a09 unchanged,no new calls.
 
 - 2026-10-25T00:51:56.086321+00:00: S34 final cache-only regeneration under forbidden model calls leaves six artifacts byte-identical(scientific result,summary,figure,REPORT,independent/release receipts). All20source hashes and canonical scientificSHA31d37a09 unchanged. Both critic dispositions complete except release gap being closed by upcoming results push and origin clean clone;post-live304suite PASS. No new scientific calls/metrics,source mutation,tuning,pooling,HIT or sibling write. Results milestone next.
+
+- 2026-10-25T00:53:05.960879+00:00: iteration22 COMPLETE. S34 registration7427939 and results830a62d1e44a459711b68a25af8328473545e18f committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes complete cache-only release,15 S34 protocol tests,independent raw reconstruction and six byte-identical artifacts(scientific result,summary,figure,REPORT,independent/release receipts);clone git status clean. logs/s34_clean_clone.json records commands/hashes and installed frozen-venv reuse,not a fresh dependency installation. Post-live304 canonical repository tests passed locally,with scoped historical clocks and prospectively fixed S34 temporary/mock clock;real scientific timestamps/cutoff unchanged. All20 frozen sources/canonical scientificSHA31d37a09 unchanged. Both final critic release gaps closed;Opus supplied-text scope and corrected positive-block count explicit. Ledger result reference points to results commit. REPORT/HITS/README/DETAILS current,earlier context retained in DETAILS. No extra scientific call,second pilot,new metric,semantic classifier,exclusion,tuning,pooling,reverse/secondary promotion,HIT,sibling write,direction deviation or active generation/review. Next different axis,fresh other-world/structure question;S30 remains unrun,S32 unconfirmed.

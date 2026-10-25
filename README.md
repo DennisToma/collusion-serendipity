@@ -853,3 +853,9 @@ caps the possible observed reduction below the.25 HIT threshold;no equivalence
 or isolated-schema/attention mechanism claim. [All outcomes](results/s34_summary.md).
 The final registered S34 synthetic suite has15 tests;the complete current runner
 has304 tests. The earlier289-test references describe the S33 checkpoint.
+
+S34 results milestone830a62d is pushed. Origin clean-clone reproduction passes
+full cache-only release,15 S34 protocol tests and raw reconstruction;six
+published artifacts byte-identical,clone clean. Receipt:`logs/s34_clean_clone.json`.
+All304 repository tests passed locally after live results. No extra scientific
+calls or frozen-source changes. Existing frozen venv reused for remote replay.
