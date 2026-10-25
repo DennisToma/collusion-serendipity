@@ -1,0 +1,12 @@
+[
+  {
+    "critic": "codex",
+    "exit": 0,
+    "scope": "Repository/raw access; actual verification scope in review"
+  },
+  {
+    "critic": "opus",
+    "exit": 0,
+    "scope": "Supplied excerpts/result/per-game metric cells only; not raw archive verification"
+  }
+]

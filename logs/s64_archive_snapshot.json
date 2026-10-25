@@ -1,0 +1,20 @@
+{
+  "data/s64_memory_retention/game_25303_reset.json": "db3fa39f220d7fa28f1b21e6d184de6fccec9646f9d81ecb9b80e8854c74e476",
+  "data/s64_memory_retention/config.json": "6fd4533161a8bfa3326561a2fa6fd7ed40adeaac538e69f5c05aec197122fd13",
+  "data/s64_memory_retention/schedule.json": "576421550604768976e601d99bc6237227f444863a5e38f1d2aac0bc2512bcba",
+  "data/s64_memory_retention/game_25300_reset.json": "bc5cd673ceba79d54989f6c39617fabf4f902bdcc66c234da6ffbbc22a124ee2",
+  "data/s64_memory_retention/ground_truth.jsonl": "51ce7c64f1c1ae4da1c0452a8cef6778e325f59cb199235a3ff3a67401978bd1",
+  "data/s64_memory_retention/game_25304_persistent.json": "06bf44b8eace776e365e7925c0dbfe6f453292bf07b569e09e5f05512c99094a",
+  "data/s64_memory_retention/game_25304_reset.json": "d1a9d98749d7ec022f29d22826394213b9a090b2c97acb39b2388cbb26a140fd",
+  "data/s64_memory_retention/game_25300_persistent.json": "042e0041c59da4dd45e195b6a2d3d0200142b6976e27b4ca3a0416193136883b",
+  "data/s64_memory_retention/game_25301_persistent.json": "6029b7355986a8b4c8298cea2591758fd1e26fbe0bbbad972b0bf1eef47e3e6a",
+  "data/s64_memory_retention/game_25302_persistent.json": "6e94adc61f021aa47c33c3133c767ebae3fdb80b93d4a3d28c22a346bba79142",
+  "data/s64_memory_retention/game_25302_reset.json": "a72d32cec3ab1a320e979ce9f3de84432d1904bc6b563db84c7f08b97015f0b9",
+  "data/s64_memory_retention/game_25303_persistent.json": "8cdd1987fd1381577c4d7366752bb885f4607b7d8be31c91bf8d351fc4ac3b5a",
+  "data/s64_memory_retention/trajectories.jsonl": "136d6e537470e8d75342f609b1ac0952e9c1d10e3a04c53d99be6b118c500428",
+  "data/s64_memory_retention/game_25301_reset.json": "6f94db33cc186d2b1d138c659ef8f53fefcdb51d0f57cb78dd9a7c4c4a76f00c",
+  "data/s64_memory_retention/raw/responses.jsonl": "16f7a8e336199ceb34cbd246907610d52ae5c25d60ed00da71f4299dc9ae5ee6",
+  "data/s64_memory_retention/raw/dispatch_preflight.json": "7d0c7e433a3061a34da10591b27b805c0095e8eb3cafa9de419d5ef7bc676faf",
+  "data/s64_memory_retention/raw/execution.jsonl": "98ef8566dd8f4bb32f9c21082bfcefa79053861fc249ccc94050e89c9d9084eb",
+  "data/s64_memory_retention/raw/requests.jsonl": "69bbfac92862025bb2ea1f2327ad32d01e656113395588063cd1871c21766947"
+}

@@ -1,0 +1,190 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+........................s36_24760_gross complete 20 calls
+............................s37_24800_payroll complete 20 calls
+..............................s38_24840_hidden complete 20 calls
+.......................Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+................Completed archive validated; zero model calls
+s41_24880_coarse complete 20 calls
+.....................................Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+...........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+......................F...F..Complete:20 cached decision responses
+........Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.......Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+.....................................Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........Complete:20 cached decision responses
+.......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....................................F..F.Complete:30 cached decision responses
+........Completed archive validated; zero model calls
+Complete:30 cached decision responses
+.....Completed archive validated; zero model calls
+Complete:30 cached decision responses
+....................................F..
+======================================================================
+FAIL: test_mocked_live_complete_archive (test_s45.Tests.test_mocked_live_complete_archive)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 316, in test_mocked_live_complete_archive
+    present();published={p:p.read_bytes() for p in [Path('REPORT.md'),Path('results/s45_summary.md'),Path('figures/s45_reviewring.png')]}
+    ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s45_present.py", line 28, in main
+    assert original_report.count('<!-- S41 summary start -->')==1,'Missing/duplicate S41 prose anchor'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing/duplicate S41 prose anchor
+
+======================================================================
+FAIL: test_renderer_idempotent_synthetic (test_s45.Tests.test_renderer_idempotent_synthetic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 217, in test_renderer_idempotent_synthetic
+    present();before={p:p.read_bytes() for p in [Path('REPORT.md'),Path('results/s45_summary.md'),Path('figures/s45_reviewring.png')]}
+    ^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s45_present.py", line 28, in main
+    assert original_report.count('<!-- S41 summary start -->')==1,'Missing/duplicate S41 prose anchor'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing/duplicate S41 prose anchor
+
+======================================================================
+FAIL: test_front_report_drift_is_rejected_without_rewriting (test_s60_presentation.Tests.test_front_report_drift_is_rejected_without_rewriting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 15, in test_front_report_drift_is_rejected_without_rewriting
+    self.assertEqual(set(compare_documents(generated)),set(DOCUMENTS))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 99, in compare_documents
+    expected,actual=document_sections(generated,{name:read_bytes(name) for name in DOCUMENTS})
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s60_publish_check.py", line 81, in document_sections
+    assert len(a)==len(b)==1,'Missing or duplicate S60 document section: '+name
+           ^^^^^^^^^^^^^^^^^
+AssertionError: Missing or duplicate S60 document section: REPORT.md
+
+======================================================================
+FAIL: test_readme_false_claim_is_rejected (test_s60_presentation.Tests.test_readme_false_claim_is_rejected)
+----------------------------------------------------------------------
+AssertionError: Missing or duplicate S60 document section: REPORT.md
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s60_presentation.py", line 27, in test_readme_false_claim_is_rejected
+    with self.assertRaisesRegex(AssertionError,'Displayed artifact differs.*README.md'):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: "Displayed artifact differs.*README.md" does not match "Missing or duplicate S60 document section: REPORT.md"
+
+======================================================================
+FAIL: test_published_claim_and_older_row_mutations_rejected (test_s64.Tests.test_published_claim_and_older_row_mutations_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s64.py", line 243, in test_published_claim_and_older_row_mutations_rejected
+    receipt=apply();self.assertEqual(receipt['managed_blocks'],4);self.assertEqual(receipt['older_pilot_rows'],46)
+            ^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s64_publish.py", line 55, in apply
+    return apply(True)
+           ^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/s64_publish.py", line 51, in apply
+    assert sum(x.startswith('| S64 ') for x in report.splitlines())==1,'Extra or missing S64 pilot row'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Extra or missing S64 pilot row
+
+----------------------------------------------------------------------
+Ran 766 tests in 143.220s
+
+FAILED (failures=5)
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.683s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.110s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.259s
+
+OK
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+{
+  "passed": false,
+  "tests": 806,
+  "failures": 5,
+  "errors": 0,
+  "group_counts": {
+    "ordinary": 766,
+    "s21": 14,
+    "s31": 12,
+    "s33": 13,
+    "s54_direct_entry": 1
+  },
+  "legacy_synthetic_fixtures": {
+    "s21_deadline": "2099-01-01T00:00:00+00:00",
+    "s31_now": "2026-10-24T23:29:00+00:00",
+    "s33_now": "2026-10-25T00:20:00+00:00"
+  },
+  "real_archive_deadlines_and_sources_unchanged": true,
+  "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+}

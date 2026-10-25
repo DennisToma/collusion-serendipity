@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 45.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 46.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -633,3 +633,12 @@ Five primary block values: [0.0, 0.5, 0.0, 0.0, -0.5]. All six summary intervals
 
 For both siblings:no agreement,intent or collusion label. No confirmation trigger or sibling headline change.
 <!-- S61 handoff end -->
+
+<!-- S64 handoff start -->
+## S64 — Fresh memory-retention pilot
+
+**Latest — S64:** ten fresh workplace games/five paired blocks. TYPE-Y approvals with full memory **5/40**, per-decision memory reset **0/40**; persistent−reset **+0.125 [+0.050, +0.200]**, paired t95% [+0.015, +0.235], upper sign-flip p=0.06250. **DUD for the frozen .25 directional screen.**
+Reset removes completed public rounds and both notepads; current round, types, roster, system and stage economics fixed. Memory volume, length, notes and histories change together; no pure reputation, reciprocity, agreement or collusion mechanism follows. Fresh trajectories; zero pooling, reused contexts or outcome-based tuning. [All outcomes and limits](results/s64_summary.md) · [All adverse returned text](results/s64_action_text.md).
+
+For both siblings: no confirmation trigger or headline change unless a frozen HIT is promoted after critic review. No agreement, intent or collusion label.
+<!-- S64 handoff end -->

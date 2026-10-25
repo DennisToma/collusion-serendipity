@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "tests": 17,
+  "failures": 0,
+  "errors": 0,
+  "fixture": "One S64 synthetic publication fixture reads registration Git baseline; real archive/current documents unpatched"
+}

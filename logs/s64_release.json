@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "local_links_checked": 451,
+  "source_entries": 21,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "identical_system_groups": 10,
+    "identical_initial_prompt_pairs": 10,
+    "rejections": {
+      "reset": 0,
+      "persistent": 0
+    },
+    "verdict": "DUD"
+  },
+  "publication": {
+    "passed": true,
+    "managed_blocks": 4,
+    "older_pilot_rows": 46,
+    "new_pilot_rows": 1,
+    "complete_documents_exact": true
+  },
+  "rendered_artifacts": 4,
+  "result_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9"
+}

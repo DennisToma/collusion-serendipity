@@ -1434,3 +1434,7 @@ uv run --frozen python scripts/s61_release.py --clean-clone
 
 Completed archives replay with scientific calls forbidden. Failed/interrupted pilots cannot resume. Origin-clone proof uses existing frozen venv,not fresh dependency install. Separate checker uses token splitting rather than the main substitution and reconstructs30decisions,30blockcells and6bootstrap/t/sign summaries.
 <!-- S61 reproduction end -->
+
+<!-- S64 reproduction start -->
+S64 fresh memory retention: `uv run python scripts/s64_release_final.py` validates the complete raw archive, independent statistics, rendered figure/summary, all adverse text and published S64 blocks without model calls. Full document validation targets the S64 results revision; from later publication revisions, checkout that results commit first. `uv run python scripts/s64_tests.py` runs all17focused checks with one registration-baseline-only synthetic fixture. Registered scientific sources/raw results stay unchanged; the original direct unittest command is superseded for post-publication use. [Design](DESIGN_S64.md) · [Results](results/s64_summary.md).
+<!-- S64 reproduction end -->

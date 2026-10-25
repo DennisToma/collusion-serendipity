@@ -1277,3 +1277,12 @@ The swap covers system,user,all structured history,notes and output target;apply
 
 Five primary block values: [0.0, 0.5, 0.0, 0.0, -0.5]. All six summary intervals and30actions are in the linked results;no secondary promotion. Zero new games,tuning,pooling or held-out claim. Reused late contexts and exploratory multiplicity limit generalization. [Design](DESIGN_S61.md) · [Separate reconstruction](logs/s61_independent.json) · [Figure](figures/s61_identity.png).
 <!-- S61 details end -->
+
+<!-- S64 details start -->
+## S64 — Fresh memory-retention pilot
+
+**Latest — S64:** ten fresh workplace games/five paired blocks. TYPE-Y approvals with full memory **5/40**, per-decision memory reset **0/40**; persistent−reset **+0.125 [+0.050, +0.200]**, paired t95% [+0.015, +0.235], upper sign-flip p=0.06250. **DUD for the frozen .25 directional screen.**
+Reset removes completed public rounds and both notepads; current round, types, roster, system and stage economics fixed. Memory volume, length, notes and histories change together; no pure reputation, reciprocity, agreement or collusion mechanism follows. Fresh trajectories; zero pooling, reused contexts or outcome-based tuning. [All outcomes and limits](results/s64_summary.md) · [All adverse returned text](results/s64_action_text.md).
+
+Five block differences [0.0, 0.125, 0.125, 0.125, 0.25]; lower sign p=1.00000, two-sided=0.12500. All five metrics and bootstrap/t intervals in linked results. Pair-bonus gate is mechanically related to approvals. No held-out, multiplicity correction, equivalence or independent S29 replication claim. Sole200 returned/200 accepted decisions; retries{'reset': 0, 'persistent': 0}. CLI roles flattened; served identity/settings/tool non-use unattested. [Design](DESIGN_S64.md), [independent reconstruction](logs/s64_independent.json), [release](logs/s64_release_final.json).
+<!-- S64 details end -->

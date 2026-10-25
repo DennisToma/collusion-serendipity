@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "utc": "2026-10-25T09:38:08.037345+00:00",
+  "registered_sources_unchanged": 21,
+  "older_artifacts_unchanged": 1334,
+  "registered_commit": "fa2e5c2b535966b16d23f5bfd4695d1625aaf9f5",
+  "result_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+  "first_admitted_utc": "2026-10-25T09:29:54.203873+00:00",
+  "last_returned_utc": "2026-10-25T09:36:16.155464+00:00",
+  "raw_responses": 200,
+  "accepted": 200,
+  "primary_blocks": [
+    0.0,
+    0.125,
+    0.125,
+    0.125,
+    0.25
+  ],
+  "no_new_games_beyond_registered_10": true
+}

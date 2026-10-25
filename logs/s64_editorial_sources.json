@@ -1,0 +1,11 @@
+{
+  "post_outcome_editorial_only": true,
+  "sources": {
+    "scripts/s64_publication_final.py": "5f789567feede1ef0b209efb936b6ff806516d35064bad8b92a216a12f357ed5",
+    "scripts/s64_release_final.py": "a4d68c385552bd0bfca722b154645e78d24173ca848d356c552c333672fda3bf",
+    "scripts/s64_tests.py": "165dcc67cdf15618faa1735afe4e6733c6cd9e57932a6180532441606d5df0d4"
+  },
+  "registered_scientific_sources_unchanged": 21,
+  "source_manifest_unchanged": true,
+  "result_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9"
+}
