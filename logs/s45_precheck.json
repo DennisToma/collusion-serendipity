@@ -1,0 +1,49 @@
+{
+  "checked_utc": "2026-10-25T04:23:18.695754+00:00",
+  "live_calls": 0,
+  "canonical_tests": 509,
+  "canonical_child_exit": 0,
+  "scoped_tests": 21,
+  "scoped_child_exit": 0,
+  "dry_key_count": 200,
+  "byte_identical_reanalysis": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "accepted_action_note_reason_bindings": 200,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "rejections": {
+      "self": 0,
+      "shared": 0
+    },
+    "verdict": "ODD"
+  },
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/reviewring.py": "337fbd6a613d16bc5c3524120f50bd8804893ef74e199c702f224af46e4b45fb",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S45.md": "8816e45767a14f44edae32e0f028af8b2f3d12f658f4879d22cde6414cd9e166",
+    "scripts/s45_analyze.py": "ec660936faa2d267a73ffc9257fae59049acb51585264f3a564b57c05998f367",
+    "scripts/test_s45.py": "f3b4f18356a27b40ac814b43011f8b13e6450a992e8d9e6f1f1c93195676e9c9",
+    "scripts/s45_launch.py": "39577b86a0b75cc0b37d128298c32f3fa786c28b2b2ca7660ddfc09dacd1c50a",
+    "scripts/s45_independent.py": "ddf8cd8cff12ee95a3655febbee29c1f1aee83d088b1ee7bba3bc9627936bbd3",
+    "scripts/s45_present.py": "bc8c3c783cafaee232d3e8522059a934252755d1bcdea513ddc24d106e9c3fbf",
+    "scripts/s45_release.py": "baa93699a173beec8442c7de2fb0207f324cc9ec0a2e488a1e2228cc928c350c",
+    "scripts/s45_reviews.py": "a53a1e642a2b4f24dfd628d49bf50d050c6f6ae91e8e9f95c1ac279f7d6efc53",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "scripts/s45_runtime.py": "ee54044d4b09e666d9d5f71a0e9aea2c44212c4534b1f7ee43748421b5e7bf0e",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "review_status": "Initial/amended Codex+Opus and two targeted Codex patch critics exit0;final patch no remaining bugs;scope explicit",
+  "upstream_output_loss_risk": "Accounting/transport can fail before returning;admission/failure records survive;no partial estimate"
+}

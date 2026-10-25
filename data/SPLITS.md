@@ -136,3 +136,9 @@ S41:five fresh paired blocks24880..24884;ten owner-only-note labor games,
 unit versus half-unit wages0..20;T10,primaryr3..10,200planned decisions.
 Exploratory,zero tuning,no heldout,pooling or confirmatory claim. Full design/
 source freeze pushed before live calls;fine-minus-coarse2unit screen.
+
+S45:five fresh paired blocks24960..24964;ten two-seller marketplace games,
+self/shared notepads,T10,primaryr3..10,200planned decisions. Unsupported
+recommendation primary,.25directional screen;exploratory,zero tuning,no heldout,
+pooling or cross-world confirmatory contrast. Design and full source freeze
+committed/pushed before scientific calls. S46is a queued idea only.

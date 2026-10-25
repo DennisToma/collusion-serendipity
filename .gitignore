@@ -7,3 +7,5 @@ __pycache__/
 /logs/*_error.log
 
 /logs/.s41-launch.lock
+
+/logs/.s45-launch.lock

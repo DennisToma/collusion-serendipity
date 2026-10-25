@@ -1,18 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T04:05:59.948161+00:00; Phase2, iteration30 COMPLETE)
-- Own/S41:10fresh games/5paired blocks,T10,200valid decisions,zero retries/failures.
-- Paid wage fine10.1875/coarse9.2250;difference+.9625[0,2.6875].
-- Pairedt[-1.378261,3.303261],upperp.25;frozen ODD/inconclusive,no HIT.
-- Block differences0,4.3125,0,.5,0;three ties,dominant coarse-low block explicit.
-- Full archive replay and separate60rawcells/18bootstrap+t/exact summaries PASS.
-- 488post-live canonical tests and both final critics/parent exit0.
-- Codex raw/full-archive scope;Opus supplied-cell/code-only scope explicit.
-- Registration92b327b/results1d81209 pushed;fresh origin clone passes32protocol tests.
-- Seven clone artifacts byte-identical;clone clean;existing frozen venv reused.
-- All20archive files/23scientific sources unchanged;scientificSHA27f3704ba650.
-- Risks:n5,changed action/equilibrium sets;regret grid-specific;provider/tool use unattested.
-- Next:fresh different axis/new world;S44/S39queued,S32unconfirmed,S30unrun.
+## Current state (2026-10-25T04:22:45.221834+00:00; Phase2, iteration31 PRE-REGISTRATION)
+- A5/S45:10fresh marketplace games/5paired blocks24960..24964,T10,200planned decisions.
+- Shared-minus-self unsupported recommendation rate r3–10;fixed.25screen.
+- Recipient sale8,reviewer supported+1/unsupported−2,consumer loss10.
+- Twenty-one protocol tests PASS,including full mocked-live/replay/publication/tamper checks.
+- Final dry200-key replay and separate50rawcells/15bootstrap+t summaries PASS.
+- Initial/amended Codex+Opus and both targeted Codex patch critics exit0.
+- Last patch critic static-only;Opus supplied-text-only;scope explicit in disposition.
+- Response/request fsync,bijection,and per-call wrapper-overlap guards added pre-live.
+- No scientific model calls;final509canonical tests PASS before freeze/push.
+- Risks:n5,bundled note delivery,synthetic consumers,auth-refresh abort,provider unverified.
+- Next:sole foreground live launch,full raw verification,final critics,origin-clone release.
 
 ## Log
 
@@ -435,3 +434,9 @@
 - 2026-10-25T04:04:24.898733+00:00: final Codex+Opus critics and parent exit0,both confirm unchanged ODD/numbers. Codex raw60cell/18bootstrap/six sign-set reconstruction/full archive replay versus Opus supplied-cells/code-only hand checks;scope explicit. Added presentation-only dominant-block context,arm-specific regret and requested low reasoning effort;rejected unsupported inference from repeated metrics to deterministic/dependent sampling. Durable488post-live tests childexit0. Final call-forbidden regeneration PASS:all10artifacts byte-identical,all20archivefiles/23frozen sources unchanged,scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b. No active generation/review,new model calls,scientific-source/threshold edits,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone push and fresh origin clone next.
 
 - 2026-10-25T04:05:59.948161+00:00: iteration30 COMPLETE. S41 registration92b327b6b78e62b7a17ded3819bf3c15af891f84/results1d8120998c791a3d24db5c5aea59052e6ee8e5dd pushed. Fresh full-history origin clone at results commit passes full scientific/archive/source/environment/registration/UTC/timing replay,separate60raw metriccells/18bootstrap+t/18exact-rational summaries/18sign tails,summary/figure regeneration,call-forbidden release and all32S41protocol tests. Seven primary artifacts byte-identical;clone git status clean,childexit0. Existing installed frozen venv reused,not fresh dependency installation;logs/s41_remote_clean_clone.json records exact commands/hashes. Durable local488post-live tests and both finalcritics/parent exit0. Codex raw/full-archive scope versus supplied-cells/code-only Opus explicit. Frozen ODD:paid wagefine10.1875/coarse9.2250,difference+.9625[0,2.6875],pairedt[-1.378261,3.303261],upperp.25;differences0,4.3125,0,.5,0. No confirmed granularity effect,isolated mechanism,coordination,equivalence or sibling headline claim. All23sources/20archivefiles/scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b unchanged. Ledger result reference finalized;REPORT/HITS/DETAILS/README current. S44/S39 proposals only,S32unconfirmed,S30unrun;next fresh different axis/new world. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Final publication receipt/handoff commit and push next.
+
+- 2026-10-25T04:11:23.470421+00:00: iteration31 read rule/state/direction/ledgers and both sibling report/state summaries. Selected A5/S45 fresh marketplace after own/S41 to restore world diversity. Registered five fresh paired blocks24960..24964,self/shared notepads,T10,200planned decisions,unsupported recommendation primaryr3–10 and fixed.25screen. Recipient sale8,reviewer+1or-2,consumer loss10;adapted S29 structure with explicit factual labels,not an independent structural generalization. Initial14protocol tests PASS;upgraded cache to S41durable admission/atomic abort/completion checks and S41referenced-input closure,scoped mocked-live checks running. Codex/Opus design critics running. New own/S46account-display proposal queued. No live science,sibling writes,tuning,pooling or direction deviation.
+
+- 2026-10-25T04:22:45.221834+00:00: final S45 pre-live amendments address independent raw duplicates/key hashes/decision bijection,fsynced response/request appends,deep JSON rejection,unique stage equilibria,strict per-call local-wrapper overlap and publication validation before writes. Initial/amended Codex+Opus and both targeted Codex patch critics exit0;scope explicit in logs/s45_review_disposition.md. Final scoped21tests PASS and dry200-key/separate50cells/15bootstrap+t summaries PASS. Temperature/token arguments local-only;auth-refresh fail-closed and upstream accounting loss explicit. Final canonical suite finishing;no paid calls or outcome-dependent changes.
+
+- 2026-10-25T04:23:18.695754+00:00: final pre-registration checks PASS:509canonical tests and21scoped tests childexit0,full200-key dry replay,separate50raw metriccells/15bootstrap+t summaries/all15sign sets,20frozen source hashes,byte-identical repeated analysis. Both initial/amended critics and two patch critics exit0;final patch static-only scope explicit. Historical test cutoff overrides remain synthetic-only;no historical scientific source modified. Headroom gate passes. Registration commit/push then sole live launch next.

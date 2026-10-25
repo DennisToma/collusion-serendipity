@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 30 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 31 (S45 registered; live results pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -35,6 +35,7 @@
 | S42 · B2, surprise employer entry | 10 games /5 blocks. Paid wage r7–10: entry **10.000**, duopoly **10.000**; entry−control **+0.000 [+0.000, +0.000]**. | **DUD** for four-unit increase screen |
 | S43 · D, own-payoff table | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**. | **DUD** for one-unit offer screen |
 | S41 · own, wage tick size | 10 games /5 blocks. Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**. | **ODD** for two-unit increase screen |
+| S45 · A5, marketplace reviews | Registered: 10 games /5 blocks; shared versus self-only notes; unsupported positive recommendations r3–10. No live results yet. | **PENDING** |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 

@@ -1,0 +1,9 @@
+Two remaining correctness issues:
+
+- **Report validation can fail after publication has begun.** [s45_present.py:42](/home/factory/collusion/collusion-serendipity/scripts/s45_present.py:42) writes the summary and figure before checking report metadata (line 50) or existing S45 marker integrity (lines 58–61). A missing S45 end marker raises after those outputs have been replaced, leaving a partial publication. Validate metadata and marker counts/order, then construct and validate the complete report before writing any publication artifact. The S41 anchor guards already run early.
+
+- **The timing claim exceeds the implemented overlap check.** [s45_analyze.py:126](/home/factory/collusion/collusion-serendipity/scripts/s45_analyze.py:126) compares each game’s earliest wrapper start and latest wrapper completion. Those envelopes include gaps between calls: alternating, entirely nonoverlapping `llm.chat` invocations can pass. Consequently, DESIGN_S45’s “wrapper overlap” wording is too strong. Either describe overlapping game envelopes plus first-wrapper starts within 60 seconds, or require positive overlap between actual per-call intervals. This is separate from the disclosed lack of provider-execution timing.
+
+The other requested checks pass static review: response fsync precedes request append/fsync and return; incomplete or inconsistent journals are rejected without repair; game failures propagate abort while preserving collected evidence. Independent reconstruction rejects requests after acceptance, requires exactly one accepted decision for every planned slot, and enforces preceding attempt IDs contiguous from zero with at most three attempts.
+
+Auth refresh failure, upstream accounting output loss, and unattested provider timing remain disclosed limitations, not additional findings. No edits or live calls were made.

@@ -1,0 +1,18 @@
+F...............
+======================================================================
+FAIL: test_abort_and_logical_admission_serialized (scripts.test_s45.Tests.test_abort_and_logical_admission_serialized)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 149, in test_abort_and_logical_admission_serialized
+    cache.call('s','u','cheap','codex','r',0,'A',0,'gpt-6-luna')
+  File "/home/factory/collusion/collusion-serendipity/sim/reviewring.py", line 168, in call
+    try:self.before_live()
+        ^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s45.py", line 141, in preflight
+    self.assertFalse(setter_finished.is_set())
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.281s
+
+FAILED (failures=1)
