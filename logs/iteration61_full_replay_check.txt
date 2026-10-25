@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "archived_result_objects": 54,
+  "completed_analyses": 52,
+  "failure_audits": 2,
+  "existing_independent_checkers": 50,
+  "imported_revision_source_bindings": 478,
+  "scope": "Receipt consistency with pinned Git objects and current scientific sources; no new execution attestation"
+}

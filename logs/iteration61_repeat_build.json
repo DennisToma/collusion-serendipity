@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "command": [
+    "/var/tmp/explorer-export61/bin/python",
+    "scripts/export_report.py",
+    "--build",
+    "--check-pdf"
+  ],
+  "exit": 0,
+  "stdout": "{\"protected_files\": 3181, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"saved_primary_replay_objects\": 54, \"saved_existing_checkers\": 50, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 59, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 180, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 6}}, \"passed\": true}\n",
+  "stderr": "",
+  "byte_identical_files": {
+    "BRIEF.html": "dd288afd09d994c61444c92e73519a56cba57c468239811867d0d88770f4470e",
+    "BRIEF.pdf": "13f56686c53e8b4939301c2b7d1eea455bdd79f7da8b337c83851ed164e5e0cc",
+    "REPORT.html": "e1d2a2bff93fe454c84da0a61e0c150271ef4f30f24d737e5e0cc1c10e7e90a4",
+    "REPORT.pdf": "9835d454bf6602dab095d7e3ce7f7a54d54b5b5f43c44a0aa094b9fecca91add",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration61_exports.json": "e328c0492218ba1458a4a8bab9fa81c6bcfb47a746ddcec901f7307d26a4f56d",
+    "README.md": "d33366483406b77ad312a2717c9b6514238492cff5c43cfeb2ee22565daac0e7",
+    "REPORT.md": "f80300cd21da5913cb2ae896d7ebee778c8d95e4ff0caf1aba22223271bdb052"
+  },
+  "scope": "Repeat current reader build on recording host; existing host libraries and warmed caches."
+}

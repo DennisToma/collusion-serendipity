@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 582, in <module>
+    main()
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 558, in main
+    require((ROOT / name).read_bytes() in [old(name), audit.git('show', 'e6b0c02:' + name), audit.git('show', REPLAY_SOURCE_REVISION + ':' + name), audit.git('show', PREVIOUS_READER_REVISION + ':' + name), value.encode()], 'Intervening editorial change: ' + name)
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 186, in require
+    raise ValueError(message)
+ValueError: Intervening editorial change: README.md

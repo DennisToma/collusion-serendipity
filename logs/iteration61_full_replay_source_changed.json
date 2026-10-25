@@ -1,0 +1,2777 @@
+{
+  "passed": false,
+  "baseline_commit": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d",
+  "runner_sha256": "7c784431fc1893df689da3749be9e48b8ae7370cce3dd08d253fd4400f8b8795",
+  "records": [
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S01",
+        "category": "DUD",
+        "result": "results/s01_digits.json",
+        "data": "data/s01_prices",
+        "analyzer": "scripts.s01_digits",
+        "checker": null,
+        "analyzer_input": "fixed dataset names",
+        "checker_log": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "513f43ff2f1010b88fd78d197d5fbdab5176ae3b2d739baec4cd70870fab9dc4",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": null,
+      "checker_success_basis": "not available",
+      "checker_scope": "No additional independent checker in this runner",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s01_digits.py": "1ce1c3e3f3ea78c006e9af7c3801db8f8f2fd719eeb3fca35e5e5ba6f245599f"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S02",
+        "category": "ODD",
+        "result": "results/s02_cournot.json",
+        "data": "data/s02_cournot_luna",
+        "analyzer": "scripts.s02_analyze",
+        "checker": null,
+        "analyzer_input": "data directory argument",
+        "checker_log": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "662063a5a4ec802c2f48e1862f24c541b3a77eb8f3e3551b1cda8731c94ddbb4",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": null,
+      "checker_success_basis": "not available",
+      "checker_scope": "No additional independent checker in this runner",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S04",
+        "category": "ODD",
+        "result": "results/s04_advisor.json",
+        "data": "data/s04_advisor",
+        "analyzer": "scripts.s04_analyze",
+        "checker": [
+          "scripts.s04_verify",
+          "main"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s04_verification.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "2e2df12a02fc2a3cbdd19d8c0e8aaab930dcd37659390367c38ae2996b0e6bdc",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "cache_only_replay_all_games": true,
+        "raw_cache_unchanged": true,
+        "independent_primary_matches": true,
+        "exports_match_authoritative_games": true,
+        "games": 10,
+        "rounds": 120,
+        "cached_responses": 600,
+        "primary_seed_differences": [
+          -0.3888888888888893,
+          -0.833333333333333,
+          -0.05555555555555536,
+          -1.7777777777777777,
+          0.5
+        ],
+        "primary_mean": -0.5111111111111111,
+        "sha256": {
+          "data/s04_advisor/game_24040_independent.json": "2c67d84ad53d8a44aa4c57cfbe9a9f10f6f0786536ab4ec4dc8e871343115814",
+          "data/s04_advisor/game_24040_shared.json": "64812beedf22703410e7678226929b36ae462683de605d19c9807e91672c6544",
+          "data/s04_advisor/game_24041_independent.json": "a3841eaed299e3f65bfd15b908ff472be1f1662cc6c49b85de901dd1979d118b",
+          "data/s04_advisor/game_24041_shared.json": "4dfb51ec30f06e6167c4cff08c7bdc7f2be57c4565d55d4545036c011ba58d35",
+          "data/s04_advisor/game_24042_independent.json": "db34d18c82f4efb2be63dfd7f4deb23ff57bafdd682c3d90e36f9d527578beda",
+          "data/s04_advisor/game_24042_shared.json": "e1eba98972f04911fec466eee6d69804c426f6923021980a27a69f5a6ac331f1",
+          "data/s04_advisor/game_24043_independent.json": "62908a024803c8f0e69cda618ad9a52a0b7d7bdf2d361f0fedcd5d117aa1590a",
+          "data/s04_advisor/game_24043_shared.json": "1f8c3e36ffbad5bf70bdc4c980d88f53f479c5d6affc3390b5e770e6e1420b9a",
+          "data/s04_advisor/game_24044_independent.json": "efc33a158efd5adab3efa5650268c9ba92065cafbef7e4aedd37b94612111bfb",
+          "data/s04_advisor/game_24044_shared.json": "628f598784233ae2ab2720f0a7b6a0c6db3f523fe91a846d87bcfeaf5bd241c6",
+          "data/s04_advisor/raw/responses.jsonl": "210f50a273e69e8963e5e38fafe38838c995bad714dbc5ad16a44fd7785d8ec5",
+          "data/s04_advisor/trajectories.jsonl": "0a8e6a296b0c32fde0121764a22e1b8b7c1fdb38ddd27364fc2d481041d00c13",
+          "data/s04_advisor/ground_truth.jsonl": "5b096c25c017acca4295e7bce39b26324123a1c70b4204a08c6e52697381e803"
+        }
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s04_analyze.py": "02632a9fef98309a593e6ac14ee0c11380511bd5f8fbbd5090e8c531d37d2514",
+        "scripts/s04_verify.py": "19cc013b33ac421f076ebb1b928edc3b432eca9be7f7fef20ab009587c175caf"
+      },
+      "captured_stdout_sha256": "fe34d34c2f8c15bf73fc45f0cbbcc1ee82f3618f260a9b792e67dd2c43601951"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S03",
+        "category": "DUD",
+        "result": "results/s03_calculator.json",
+        "data": "data/s03_calculator",
+        "analyzer": "scripts.s03_analyze",
+        "checker": [
+          "scripts.s03_verify",
+          "main"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s03_verification.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "bda05e1e727bdaec30ada9dd7be082026f85571e74040fb8ee1f1f5cd1e8435b",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "cache_only_replay_all_games": true,
+        "raw_cache_unchanged": true,
+        "independent_primary_matches": true,
+        "independent_regret_metrics_match": true,
+        "exports_match_authoritative_games": true,
+        "source_hashes_match": true,
+        "games": 10,
+        "rounds": 120,
+        "cached_responses": 368,
+        "invalid_attempts": 8,
+        "primary_seed_differences": [
+          -0.7777777777777778,
+          -1.2222222222222223,
+          -1.1481481481481481,
+          -1.1111111111111112,
+          -0.14814814814814814
+        ],
+        "primary_mean": -0.8814814814814815,
+        "exact_higher_output_signflip_p": 1.0,
+        "sha256": {
+          "data/s03_calculator/game_24060_calculator.json": "708dac4d75229e1be4682fbe96239c2c29cf419c25a87be30ffbc1e0ea5e06ff",
+          "data/s03_calculator/game_24060_none.json": "bf22919045c69e8a908f985b43f173b76e1eea6c2db11f092171d9ee3d3d4984",
+          "data/s03_calculator/game_24061_calculator.json": "c6eb5d5cc207b549c695d4bfbc7f26604fb5e757ef020826c4e99428b65f91aa",
+          "data/s03_calculator/game_24061_none.json": "c2fd24f4cc9b97017d2cb3219fa07f256b364edf358bdad624ed7ab74c5a7b13",
+          "data/s03_calculator/game_24062_calculator.json": "3173f1169bb2fd5281ddc1963b88d20a02ae5f34897f804e8b9dcb1ed5752407",
+          "data/s03_calculator/game_24062_none.json": "42bcd54aca8964f30c5999fa9f6fd3b6aa34ccd8b015dfd04a149839e1eb06df",
+          "data/s03_calculator/game_24063_calculator.json": "e742205ca2d165f174ba92915d644795763efc58178dec8d67f163e4156e5de7",
+          "data/s03_calculator/game_24063_none.json": "310c0ce96d3b1d68275f4d8f8ac268e9e1b8c1e9bb21019d87247c8fd95493fe",
+          "data/s03_calculator/game_24064_calculator.json": "13f3df927dc7ed1ece814c055efb57ffdffee49d1bfd06df2fb142a12c061304",
+          "data/s03_calculator/game_24064_none.json": "fb8b361b055481692c8b369de3d25e412519d3d961e64911e140a8e397ab06b1",
+          "data/s03_calculator/raw/responses.jsonl": "5e6b233d618b00ec8e259ba99fa39975567c2fa80b0eb57597bb65f635e1ae47",
+          "data/s03_calculator/raw/requests.jsonl": "c3802a5899c9951c6f42e2c00ca67a1fd30a02b106b1c3d33362c28ce3778de2",
+          "data/s03_calculator/trajectories.jsonl": "eb56d7172b723bb3b24639b4e8be5406a678f27765797600593763e5dcc4b715",
+          "data/s03_calculator/ground_truth.jsonl": "3a81c19faf1a69f7cb9cc0163827b14fe0f24c2c99c013277745801ccfe6aea1"
+        }
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/calculator.py": "94eeb837d4fe7d79fe72f5445ec97b2dfd2683395b9ec9ea34d832acf8342ab9",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s03_analyze.py": "ac87d5cfbb77113f0b20856c698956a1e63303314823d25f074131aeef4a2e79",
+        "scripts/s03_verify.py": "098c3347b914cb6706856c2a74661acfca4b68d7dcb5f4dabc8b70ff5c095dd7"
+      },
+      "captured_stdout_sha256": "aeb3c76625cfd1ba5444a5af98ea4446bfc4cda774da93a98de5df91d9a1dd47"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S07",
+        "category": "DUD",
+        "result": "results/s07_legality.json",
+        "data": "data/s07_legality",
+        "analyzer": "scripts.s07_analyze",
+        "checker": [
+          "scripts.s07_independent",
+          "main"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s07_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "independent_metric_window_cells": 210,
+        "all_seven_arms_bootstrap_t_intervals_match": true,
+        "exact_numerators": [
+          6,
+          -14,
+          6,
+          0,
+          -84
+        ],
+        "exact_mean": "-43/45",
+        "exact_upper_p": "13/16",
+        "verdict": "DUD",
+        "result_sha256": "0d5bf59cbca650bf102972cfb1b44a5c610c187ea1a618e94474189a80e074b6",
+        "script_sha256": "f80ba46b4d91fefd4865272f6fd354e956ca346b4bc85b496dd994ff23a7824e"
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s07_analyze.py": "01cc3d1f5a930cb84239251215102f0d4f38fd8e9ce24f158d7697b5c9987eca",
+        "scripts/s07_independent.py": "f80ba46b4d91fefd4865272f6fd354e956ca346b4bc85b496dd994ff23a7824e"
+      },
+      "captured_stdout_sha256": "48eda21f3ae846364426df6ca8a1493dcda983fd4f5fd50455c1cd77bb5455fb"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S09",
+        "category": "DUD",
+        "result": "results/s09_replay.json",
+        "data": "data/s09_replay",
+        "analyzer": "scripts.s09_analyze",
+        "checker": [
+          "scripts.s09_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s09_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "metric_window_cells": 210,
+        "bootstrap_intervals": 22,
+        "paired_t_intervals": 7,
+        "exact_numerators": [
+          0,
+          6,
+          0,
+          0,
+          0
+        ],
+        "exact_primary_mean": 0.1,
+        "exact_upper_p": 0.5,
+        "verdict": "DUD",
+        "result_sha256": "80b030778adce92abac0d7a7e8dad0bf98386a4861368c71689f8ed1483decbb"
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "sim/replay.py": "62ccb39b000dc33b8cc7b6597079cb45c847404ce0469cf4f51e5a2ba2868235",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s09_analyze.py": "24ee403d3ec15b40bea7b3017023db05fbc93867868c617d711adbc5953ba937",
+        "scripts/s09_snapshot.py": "ea122e628e886cd323236c1a176f81c2bdd1af9099dbe9e1cac10e40aa8910e9",
+        "scripts/s09_independent.py": "b26fb045281b8405f89dd552d895186dfda4070aed566eeb0524cca594cc5c11"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S11",
+        "category": "ODD",
+        "result": "results/s11_delay.json",
+        "data": "data/s11_delay",
+        "analyzer": "scripts.s11_analyze",
+        "checker": [
+          "scripts.s11_independent",
+          "check_out"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s11_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "independent_metric_cells": 240,
+        "bootstrap_intervals": 24,
+        "paired_t_intervals": 8,
+        "primary_numerators": [
+          11,
+          -25,
+          57,
+          27,
+          52
+        ],
+        "primary_mean": 0.9037037037037037,
+        "upper_p": 0.09375,
+        "lower_p": 0.9375,
+        "verdict": "ODD",
+        "exact_3125_bootstrap_ci95": [
+          -0.08888888888888889,
+          1.8148148148148149
+        ],
+        "sha256": {
+          "data/s11_delay/raw/responses.jsonl": "01a4372c3ea2f8bbadff3589e77ec5198f4d21d46a94b24582ec5e97d31e648b",
+          "data/s11_delay/raw/requests.jsonl": "462a67416a5a7dae5cb22f9477ca871e05766f8fd0e05444da0b490434cabf58",
+          "results/s11_delay.json": "d136e50168d3aeb534a48120935f1fc4b71db280ff20bdb918758646992e99b2"
+        }
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/delay.py": "97ac904b10d90b46967b8a7db7b315e943094f570851601cf687f7675f949dbd",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s11_analyze.py": "b031aefcbe5a679afe66c14b3cd3c4f1a86442687c921724a78c741aa1e9708c",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s11_independent.py": "fc521a6206f38b86517ebeb2386c38cf65548d30b47fe6c4152d0769c3445be9"
+      },
+      "captured_stdout_sha256": "83bfd94d2db9b042e2603fe11f4adb7d8824fda9a667ea51d7ae3254ddcf9250"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S06",
+        "category": "ODD",
+        "result": "results/s06_denomination.json",
+        "data": "data/s06_denomination",
+        "analyzer": "scripts.s06_analyze",
+        "checker": [
+          "scripts.s06_checked_independent",
+          "check_out"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s06_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "independent_metric_cells": 240,
+        "bootstrap_intervals": 24,
+        "paired_t_intervals": 8,
+        "primary_numerators": [
+          -8,
+          -19,
+          -3,
+          4,
+          -10
+        ],
+        "primary_mean": -0.26666666666666666,
+        "upper_p": 0.9375,
+        "lower_p": 0.09375,
+        "two_sided_p": 0.1875,
+        "verdict": "ODD",
+        "exact_3125_bootstrap_ci95": [
+          -0.5185185185185185,
+          -0.022222222222222223
+        ],
+        "sha256": {
+          "data/s06_denomination/raw/responses.jsonl": "db942dee23b5b0a4d74d8400b64bbc153278dca71b9ca69f226ff7883a03f65b",
+          "data/s06_denomination/raw/requests.jsonl": "45a20c56e191bd43f3caca8687ed0a2d2e080818da963b7028b2bcedc6ee1c7f",
+          "results/s06_denomination.json": "f9253e97b363b51048bbf7a001b28216c62cee5839cc8fa250709b3decfd36a3"
+        }
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/denomination.py": "99e76855af2dfebf0124f3fa6acda3c82b6da38470da5718a5014393c218b1ae",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s06_analyze.py": "ea6db3ac71486b9731c440b031cd73680bc44e17abea48be61881ad1c1f604ce",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s06_independent.py": "64672603a4117d8d7ecde77f3b15d1500a0cbd67983356ec2f60ec07e5268c8e",
+        "scripts/s06_checked_independent.py": "be3f401f8ab6a3a08499ab97eec59e50ba4fd24c642411c6d9ea2cb1dc710c44"
+      },
+      "captured_stdout_sha256": "3e0464bf57b1f8974ff70b4a87e7cd9b961841a4feea5d523cb69154716e95d7"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S14",
+        "category": "ODD",
+        "result": "results/s14_tender.json",
+        "data": "data/s14_tender",
+        "analyzer": "scripts.s14_analyze",
+        "checker": [
+          "scripts.s14_independent",
+          "check_out"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s14_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "independent_metric_cells": 270,
+        "bootstrap_intervals": 27,
+        "paired_t_intervals": 9,
+        "primary_numerators": [
+          99,
+          0,
+          117,
+          -117,
+          6
+        ],
+        "primary_mean": 2.3333333333333335,
+        "upper_p": 0.375,
+        "pair_profit_difference": 0.8,
+        "verdict": "ODD",
+        "exact_3125_bootstrap_ci95": [
+          -5.6,
+          10.0
+        ],
+        "result_sha256": "ecba9a8fb2a262cd63fd84872de921d43787d23b275b7b321d6fce8230d7f828"
+      },
+      "checker_success_basis": "completed without exception; nonempty returned/freshly written receipt",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/tender.py": "79a0a48f49a8bd3dd9ee9c4b03b1670465edce3d734ad5818dab5b0cebde4a4a",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s14_analyze.py": "c69da6323fd02ee2bd08639835b3b2aefa5d1d424f2f7204bc92df831cceadc4",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s14_independent.py": "c1cbf801689c04e21913e7638b2f41fef103d8e71f1be8cb5f2c39e0deb7e860"
+      },
+      "captured_stdout_sha256": "bf3b6a0ef2931e63747bbec30e06e8d791cbf41e3fafff6209ef298d78c53eab"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S16",
+        "category": "FAILED",
+        "result": "results/s16_failure.json",
+        "data": "data/s16_tender",
+        "analyzer": "scripts.s16_failure_audit",
+        "checker": null,
+        "analyzer_input": "data directory argument",
+        "checker_log": null,
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "e2fcadfc05086d9f0e442602d7b5f8dfffa3efad98da556d603114c3ee9ccef8",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": null,
+      "checker_success_basis": "not available",
+      "checker_scope": "No additional independent checker in this runner",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s16_failure_audit.py": "b5774d6637b3699013d53cefaed447b1899218255bd211865dfaeb67c5c9c81d",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notes.py": "f0d598f88e3b10cf9cc55d19ba3a5d5b99da2a79d273fb9316d1e5e753954eb1",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s16_analyze.py": "b23a0377025c34801ff5c8dca7cdf7a2797c3d79778cd3a9f3c06eaff14a9dd1"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S18",
+        "category": "DUD",
+        "result": "results/s18_workplace.json",
+        "data": "data/s18_workplace",
+        "analyzer": "scripts.s18_analyze",
+        "checker": [
+          "scripts.s18_checked_independent",
+          "checked_verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s18_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "fc759e79b10924eaa634f1451049697ccbd20e7f09d2a5214f2a627c3492eb60",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 70,
+        "bootstrap_intervals": 21,
+        "t_intervals": 21,
+        "sign_tests": 21,
+        "saved_request_histories": 300,
+        "note_snapshots": 200,
+        "rejections": {
+          "self": 0,
+          "shared": 0
+        },
+        "verdict": "DUD",
+        "complete_registered_contract": true
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/workplace.py": "37bc7e91f1e02a78f6a931307eb4d800acf4186a34e0bde814a1e6621e8b0863",
+        "scripts/s18_analyze.py": "05e5f95041abbfb81abb8a2a54090ad852e917be0a02049edca5cb5620a500e7",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s18_independent.py": "401caa5d88a602d62d3f571cc87c37a3806e930cdf4b4cdb8b8da8912c07619f",
+        "scripts/s18_checked_independent.py": "37e1140b1ca4cf9a2dbef35c099e1f6ec69e48c652b63626df8bbd42833beec2"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S19",
+        "category": "DUD",
+        "result": "results/s19_labels.json",
+        "data": "data/s19_labels",
+        "analyzer": "scripts.s19_analyze",
+        "checker": [
+          "scripts.s19_checked_independent",
+          "checked_verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s19_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "f2ba647f4a5b17ff69c5de8e249b277f64627a6a1c7769c8ae06383bcd015042",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 80,
+        "bootstrap_intervals": 24,
+        "t_intervals": 24,
+        "sign_tests": 24,
+        "saved_request_histories": 300,
+        "note_snapshots": 200,
+        "rejections": {
+          "normative": 0,
+          "neutral": 0
+        },
+        "verdict": "DUD",
+        "complete_registered_contract": true
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/labels.py": "1a0adb53898353dbb09a7adbb7acc84193824085871066fdd15287f82f34bd59",
+        "scripts/s19_analyze.py": "0b1f18cb83eef538b1218b80637711dbbf8df5fec20420723c587e2840f04c42",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s19_independent.py": "e6df1d9c0e4e5dec5410c333cf553bf98ab809fbf9aaa14eb04b16e4c211750e",
+        "scripts/s19_checked_independent.py": "3ae74a50412ec59d05a5e5de8d533f1a96d5a0e691dd3412fba042b6dcd85cd4"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S21",
+        "category": "DUD",
+        "result": "results/s21_audit.json",
+        "data": "data/s21_audit",
+        "analyzer": "scripts.s21_analyze",
+        "checker": [
+          "scripts.s21_independent",
+          "check"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s21_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_answers": 30,
+        "case_view_cells": 30,
+        "summary_checks": 15,
+        "verdict": "DUD",
+        "result_sha256": "aa47b52d4b09378f124eba08672e31b6dfcf56f4a7deeec1f3f899475a69b850"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s21_audit.py": "1f33207c93eb142e742a26f78bb06fcddac465b3bd01b3b9fea32a9227fe33a7",
+        "scripts/s21_analyze.py": "107fec2127d546646f8a19b453129214f6fc94a319d61dfd46cf1e0fa7a9c904",
+        "scripts/s21_independent.py": "564a8affd1020d5f308f6348635a940c3b66c500b6f383dbfef2a0dbff1b5cda"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S22",
+        "category": "DUD",
+        "result": "results/s22_enforcement.json",
+        "data": "data/s22_enforcement",
+        "analyzer": "scripts.s22_analyze",
+        "checker": [
+          "scripts.s22_checked_independent",
+          "checked_verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s22_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "b00e5199e9249ecea7e0235dd5ecc25e8456bc6ade95261e68a8fe0864c32383",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 100,
+        "bootstrap_intervals": 30,
+        "t_intervals": 30,
+        "sign_tests": 30,
+        "saved_request_histories": 300,
+        "note_snapshots": 200,
+        "rejections": {
+          "certain": 0,
+          "lottery": 0
+        },
+        "verdict": "DUD",
+        "complete_registered_contract": true
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/enforcement.py": "91922b8767c175973685ec86395cf0ada69565e7f176a371e647b5815cfdba33",
+        "scripts/s22_analyze.py": "b978343e5b47f373c8c166c5ac597e317512b2e1a47a4a1b652241e9ef9f92db",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s22_independent.py": "042e068ef52bb541bc67f9258d554a2214162ff73c118ddb91706b99f09cfbef",
+        "scripts/s22_checked_independent.py": "53d6c034e67bacfb2caddfee83e364f74333e6dc70ba31f14c8de811e99cc31c"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S24",
+        "category": "DUD",
+        "result": "results/s24_identity.json",
+        "data": "data/s24_identity",
+        "analyzer": "scripts.s24_analyze",
+        "checker": [
+          "scripts.s24_checked_independent",
+          "checked_verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s24_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "236d34b8723f629b976675506040382b208e0c197a488797a6724957eaa4d2d4",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 100,
+        "bootstrap_intervals": 30,
+        "t_intervals": 30,
+        "sign_tests": 30,
+        "saved_request_histories": 300,
+        "note_snapshots": 200,
+        "rejections": {
+          "human": 0,
+          "ai": 0
+        },
+        "verdict": "DUD",
+        "complete_registered_contract": true
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/identity.py": "ce5dd289805812f108f67f815019cfc2f5dc80d18bf66cae8c6f42a426ee64ec",
+        "scripts/s24_analyze.py": "7749aaa78115613f9934319354641f65904e2ddd33b2878d016b4cb0b4b6138b",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s24_independent.py": "810fd47ebd85ed8b761e9882feae57c8fd52a834a6d5b6eb604446029aceb574",
+        "scripts/s24_checked_independent.py": "9a784673e5505aba56bac1939d4fd52427c1b92f0120003e8631052ed3f503da"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S25",
+        "category": "DUD",
+        "result": "results/s25_order.json",
+        "data": "data/s25_order",
+        "analyzer": "scripts.s25_analyze",
+        "checker": [
+          "scripts.s25_independent",
+          "check"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s25_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_decisions": 20,
+        "independent_request_contracts": 20,
+        "case_arm_cells": 20,
+        "summary_checks": 6,
+        "verdict": "DUD",
+        "result_sha256": "3cc8648a01c3f0c7ff9be8f53eb7d079ba9fb44b1819d04283c22ba5104ed48c"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s25_replay.py": "4a1f57c1a258a0cfa193d32f89a2d5693cad4a5e5f2eed3078693fe7fa08e65d",
+        "scripts/s21_audit.py": "1f33207c93eb142e742a26f78bb06fcddac465b3bd01b3b9fea32a9227fe33a7",
+        "scripts/s21_analyze.py": "107fec2127d546646f8a19b453129214f6fc94a319d61dfd46cf1e0fa7a9c904",
+        "scripts/s25_analyze.py": "562bf092c630ed6f9f6123eaec13cd03b8b6a709781d2d04c7b2e2c10e475a4d",
+        "scripts/s25_independent.py": "860e6676bd2ce9dfcabeb6edcf5651800df03d495b14bef5ec8a8dd45a1b2e78"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S27",
+        "category": "ODD",
+        "result": "results/s27_concentration.json",
+        "data": "data/s27_concentration",
+        "analyzer": "scripts.s27_analyze",
+        "checker": [
+          "scripts.s27_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s27_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "fa82d20612fc9caa21867428ba4680825e73703008e0fde404d8864671889ea7",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 250,
+        "note_snapshots": 200,
+        "rejections": {
+          "three": 0,
+          "two": 0
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/concentration.py": "b782fe9fc86b7ad7dd618bf0c5cdeba96535169ac86440566b89dc279ec557d8",
+        "scripts/s27_analyze.py": "d2f1ac55da296d350188dd51cb95325c118765d3979952f7f9d61a2f23791edf",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s27_independent.py": "508a39d2c3edf3eca25bee1d444ea2fb0e0cd9ed331f3653a59c5263e4460d81"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S29",
+        "category": "ODD",
+        "result": "results/s29_notepad.json",
+        "data": "data/s29_notepad",
+        "analyzer": "scripts.s29_analyze",
+        "checker": [
+          "scripts.s29_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s29_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0b8e25627a663026f3baab259978d789145768581fad8fabc9f92a455d258e5c",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "self": 0,
+          "shared": 0
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s29_analyze.py": "5672baa4d2d8dfdb57850fbdb9d8633bb4f19924cea5dc9937442b7b9f46f6e7",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s29_independent.py": "6088a9ce7d7f3c0678829d037112a7cc46f297591c8d3ed8a1661703c937e795"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S28",
+        "category": "ODD",
+        "result": "results/s28_payoff.json",
+        "data": "data/s28_payoff",
+        "analyzer": "scripts.s28_analyze",
+        "checker": [
+          "scripts.s28_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s28_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "c89482ea26350451ce70042c2d0b9e0ed657d11a0574a0506613eac9420322e3",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_outputs": 200,
+        "final_round_outputs": 20,
+        "note_counts": {
+          "prose": {
+            "nonempty": 100,
+            "written": 100
+          },
+          "table": {
+            "nonempty": 100,
+            "written": 100
+          }
+        },
+        "rejections": {
+          "prose": 0,
+          "table": 0
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/payoff_table.py": "c3696b24870965dd2023744fd9425377a100b2db8cefaafaa97eb0c417cfa42b",
+        "scripts/s28_analyze.py": "35eb27e16d13e02558b2899486474c5bc93b6f456ae29eff790ffd9ccd301a17",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s28_independent.py": "3f3ebc8dab229bd541d5c5ae915e4b5e0ab34e4e3b740975c54b5929c1d5bbf9"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S31",
+        "category": "DUD",
+        "result": "results/s31_labor.json",
+        "data": "data/s31_labor",
+        "analyzer": "scripts.s31_analyze",
+        "checker": [
+          "scripts.s31_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s31_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 50,
+        "bootstrap_and_t_summaries": 15,
+        "sign_sets": 5,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "verdict": "DUD",
+        "primary_mean": 0.0,
+        "primary_ci": [
+          0.0,
+          0.0
+        ],
+        "upper_p": 1.0,
+        "result_sha256": "0673f925800685e3ed45cdd6ed6448ab653f233dfca2a12b5dd58aed4dd525f0"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/labor_cache.py": "8892fb09986b2f2e689a012f6d62f368e559946a61eaa54655b8bc0e56215779",
+        "sim/labor.py": "d05848a80ad041a4f498edbfa5f0e6b47b94db60daf01780212434bd18011ec4",
+        "scripts/s31_analyze.py": "7628e907b17864036524595e3040f48ac4fd90b108ab2c92de644ccf26c2e6f2",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s31_independent.py": "fe405ddceadbde63d080aac2d88daa392a926adc35ff6834be888ae4086bc647"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S32",
+        "category": "ODD",
+        "result": "results/s32_resource.json",
+        "data": "data/s32_resource",
+        "analyzer": "scripts.s32_analyze",
+        "checker": [
+          "scripts.s32_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s32_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0950187eea087d0d9e6440efe58482f9d689fe732cae66155a63d1418c7faecd",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 50,
+        "bootstrap_and_t_summaries": 15,
+        "sign_sets": 5,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "ODD",
+        "primary_mean": 3.8,
+        "primary_ci": [
+          -0.25,
+          7.875
+        ],
+        "upper_p": 0.25,
+        "result_sha256": "0950187eea087d0d9e6440efe58482f9d689fe732cae66155a63d1418c7faecd"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/resource.py": "118078a35be33b6723bfe9f1dc0cd00128577c90eb0eb626f696c8cfb01c1ab8",
+        "scripts/s32_analyze.py": "68d1900cee2f56da5761c6fc74bd9832ce0adb114baf4f0448a7a1bc21583b16",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s32_independent.py": "339080176d7f09684628d5aa3c179a9a61bc3e0fdb33cd543b0612ddf75829db"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S33",
+        "category": "DUD",
+        "result": "results/s33_leniency.json",
+        "data": "data/s33_leniency",
+        "analyzer": "scripts.s33_analyze",
+        "checker": [
+          "scripts.s33_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s33_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 70,
+        "bootstrap_intervals": 21,
+        "t_intervals": 21,
+        "sign_tests": 21,
+        "accepted_action_note_reason_bindings": 200,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "baseline": 0,
+          "amnesty": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/leniency.py": "b7f20c6061030206bd20485610b46587677d0117a018bcdd6394d432e0641d9c",
+        "scripts/s33_analyze.py": "f55acc828de36bf8fbfc07b3fcd885a3d6bdf4ee3729c9834a0dd2b6f1de64ac",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s33_independent.py": "b9ddc903d0fcfdd44ec75e5969a406509017def2e3e4e1284f44a32671a8a6f5"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S34",
+        "category": "DUD",
+        "result": "results/s34_salience.json",
+        "data": "data/s34_salience",
+        "analyzer": "scripts.s34_analyze",
+        "checker": [
+          "scripts.s34_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s34_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "31d37a098d381e9384ba670b571a291a735804f16518eb381464a18d50630ae9",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "accepted_action_note_reason_bindings": 200,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "plain": 0,
+          "flag": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/salience.py": "9e52e765f94cf08540546925beb78c1f64699486784b9b3a5efcddbc4ad2ddd8",
+        "scripts/s34_analyze.py": "fd87a4890e9a5d1d52e674f85b7412c4eb6d384826b19798ad8f1af8b4548088",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s34_independent.py": "09e86868bb2659057267455c5e36b56762e5f6b0d9da70c83e05fbcf73125596"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S35",
+        "category": "ODD",
+        "result": "results/s35_asymmetry.json",
+        "data": "data/s35_asymmetry",
+        "analyzer": "scripts.s35_analyze",
+        "checker": [
+          "scripts.s35_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s35_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 50,
+        "bootstrap_and_t_summaries": 15,
+        "sign_sets": 5,
+        "sign_tails": 15,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "ODD",
+        "primary_mean": 7.65,
+        "primary_ci": [
+          3.825,
+          9.825
+        ],
+        "upper_p": 0.0625,
+        "result_sha256": "76aa35318c772e213793400ca2940922c5109bb881411da6edf19561031f7f6d"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/asymmetry.py": "715dadfc0fbfd5c657dc87c8756454e3ebae64bad56ee849b80ecba8c051564c",
+        "scripts/s35_analyze.py": "8959a6f3083f3ad25a3acbd1227dba062c860f354b9ff75b5afd6193ad75e709",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s35_independent.py": "d90fecd9a557d32de491a97877cc17afd28b42f34dbf61eb69119fba890382b2"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S36",
+        "category": "ODD",
+        "result": "results/s36_grossnet.json",
+        "data": "data/s36_grossnet",
+        "analyzer": "scripts.s36_analyze",
+        "checker": [
+          "scripts.s36_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s36_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 50,
+        "bootstrap_and_t_summaries": 15,
+        "sign_sets": 5,
+        "sign_tails": 15,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "ODD",
+        "primary_mean": 6.2,
+        "primary_ci": [
+          2.2,
+          10.0
+        ],
+        "upper_p": 0.0625,
+        "result_sha256": "abfbb898b2d1956c7eabfa82c2123907f032ee6bf6d812e632a1738070aadcd0"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/grossnet.py": "fbc49e0db4e18425ade2ce6a59d8c93c36f57f746851027bacde27004cc7f66e",
+        "scripts/s36_analyze.py": "450ba70def0aabb654d8968435e16a8af5bb6e24cf72f0ac927f67fe6f186c55",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s36_independent.py": "a44a9687b31407a17edc978c75eb77101bc808259105f5562d0c9b9953c65465"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S38",
+        "category": "DUD",
+        "result": "results/s38_horizon.json",
+        "data": "data/s38_horizon",
+        "analyzer": "scripts.s38_analyze",
+        "checker": [
+          "scripts.s38_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s38_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 60,
+        "bootstrap_and_t_summaries": 18,
+        "sign_sets": 6,
+        "sign_tails": 18,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "DUD",
+        "primary_mean": 0.0,
+        "primary_ci": [
+          0.0,
+          0.0
+        ],
+        "upper_p": 1.0,
+        "result_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/horizon.py": "56ee8edbd79b89ee199787f3f5ab762485e41f2fa413f2033f9368d6400ba56e",
+        "scripts/s38_analyze.py": "6c4cef9727f46a634847b88116263e2d11dfa090719879c08eacd9c32aa45f89",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s38_independent.py": "6a717f0eebda970ab42de4ca64cdcf2b932f0f932bcac1aea7c2608f895edd96"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S37",
+        "category": "DUD",
+        "result": "results/s37_policyword.json",
+        "data": "data/s37_policyword",
+        "analyzer": "scripts.s37_analyze",
+        "checker": [
+          "scripts.s37_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s37_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 50,
+        "bootstrap_and_t_summaries": 15,
+        "sign_sets": 5,
+        "sign_tails": 15,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "DUD",
+        "primary_mean": 0.0,
+        "primary_ci": [
+          0.0,
+          0.0
+        ],
+        "upper_p": 1.0,
+        "result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/policyword.py": "f5e5d36785a2594177ac56252bb82d309bab0954f0b35125a7ed9dc23fddae6e",
+        "scripts/s37_analyze.py": "5716a9fa1e44913232faa351ac75c39ae11b54b805c95925dff8e0bd21dbe938",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s37_independent.py": "a034e7eea15f0d20ed5e9bd75a482c918fe635e42b30bf4cdf39ab0a77467729"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S40",
+        "category": "DUD",
+        "result": "results/s40_memory.json",
+        "data": "data/s40_memory",
+        "analyzer": "scripts.s40_replay",
+        "checker": [
+          "scripts.s40_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s40_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_quotes": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s40_replay.py": "d40405648f4c8ac7b48ede712d98d9a7577101ffc7064665f0069275bb04c875",
+        "scripts/s40_independent.py": "26a2dc2259fde5c2b661b76b66795ad08405afb6dc64f5420c7b9151a143ac21"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S42",
+        "category": "DUD",
+        "result": "results/s42_entry.json",
+        "data": "data/s42_entry",
+        "analyzer": "scripts.s42_analyze",
+        "checker": [
+          "scripts.s42_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s42_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 80,
+        "bootstrap_and_t_summaries": 24,
+        "sign_sets": 8,
+        "sign_tails": 24,
+        "raw_keys": 225,
+        "notes_and_reasons": 225,
+        "prompt_contracts": 225,
+        "verdict": "DUD",
+        "primary_mean": 0.0,
+        "primary_ci": [
+          0.0,
+          0.0
+        ],
+        "upper_p": 1.0,
+        "result_sha256": "56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/entry.py": "f444880d920d5e585175f05897403c8fa1c4bdee26971a057ec8ec48cfeadc61",
+        "scripts/s42_analyze.py": "aa5190faf82d6badf026a7f96f3a3f72a7d57a519807daea4a0e19728ea548bb",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s42_independent.py": "ef615006ee2cad388937dbcfe9fab6d5636f95651f763b793d970be91a03af3e"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S43",
+        "category": "DUD",
+        "result": "results/s43_payoff.json",
+        "data": "data/s43_payoff",
+        "analyzer": "scripts.s43_replay",
+        "checker": [
+          "scripts.s43_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s43_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_quotes": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s43_replay.py": "f16cc40cfd7bf2ffaac9e314ea141ff62378f0a86fa0337b97db2cc453f55f15",
+        "scripts/s43_independent.py": "c2f8d7cbaa803978b7d2c123f28c8dc477703d822dbcefcf5d0644955a8842d5"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S41",
+        "category": "ODD",
+        "result": "results/s41_ticksize.json",
+        "data": "data/s41_ticksize",
+        "analyzer": "scripts.s41_analyze",
+        "checker": [
+          "scripts.s41_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s41_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "metric_cells": 60,
+        "bootstrap_and_t_summaries": 18,
+        "sign_sets": 6,
+        "sign_tails": 18,
+        "raw_keys": 200,
+        "notes_and_reasons": 200,
+        "prompt_contracts": 200,
+        "verdict": "ODD",
+        "primary_mean": 0.9625,
+        "primary_ci": [
+          0.0,
+          2.6875
+        ],
+        "upper_p": 0.25,
+        "result_sha256": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/ticksize.py": "ae12cb2605f4613160562453cf13f73a6a0a735126e35eb00d098d4f93902000",
+        "scripts/s41_analyze.py": "a303cb7d792a47fd1832deccab6e05d1483f06c290e6d7d37990c02360d8bd88",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s41_independent.py": "7ae56d9df3172a088d4600749ed35333c2cbe0534cc349c31f6074d090574dce"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S45",
+        "category": "DUD",
+        "result": "results/s45_reviewring.json",
+        "data": "data/s45_reviewring",
+        "analyzer": "scripts.s45_analyze",
+        "checker": [
+          "scripts.s45_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s45_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "1e17c9b976a04d93691b448dad61aa8717c08374536084b99a69ab8cf2b726ec",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "accepted_action_note_reason_bindings": 200,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "self": 0,
+          "shared": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/reviewring.py": "337fbd6a613d16bc5c3524120f50bd8804893ef74e199c702f224af46e4b45fb",
+        "scripts/s45_analyze.py": "ec660936faa2d267a73ffc9257fae59049acb51585264f3a564b57c05998f367",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s45_independent.py": "ddf8cd8cff12ee95a3655febbee29c1f1aee83d088b1ee7bba3bc9627936bbd3"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S44",
+        "category": "DUD",
+        "result": "results/s44_payoff.json",
+        "data": "data/s44_payoff",
+        "analyzer": "scripts.s44_replay",
+        "checker": [
+          "scripts.s44_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s44_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_quotes": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s44_replay.py": "a65000556ececb0d26c1eb8f556c9dc3bb37c0e3a0e167dd43214f181ba30593",
+        "scripts/s44_independent.py": "dc05618db1341f1b1cb9d86d80d54afc39d424cb9c4cc28705d73fd68388603e"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S48",
+        "category": "DUD",
+        "result": "results/s48_notes.json",
+        "data": "data/s48_notes",
+        "analyzer": "scripts.s48_replay",
+        "checker": [
+          "scripts.s48_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s48_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0bc8ae20224ac9678fb979184d64a47f1db6e10cf16b7a45e737ec42cca60c29",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "0bc8ae20224ac9678fb979184d64a47f1db6e10cf16b7a45e737ec42cca60c29"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s48_replay.py": "95d08da66edc6c414eec62b8f4f357ef30923eef890c11f8f50fd1a50b452077",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s48_independent.py": "4285821639df686d975f293f966f45cab8fbec0af5054cbf8248c08b4584c783"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S47",
+        "category": "DUD",
+        "result": "results/s47_example.json",
+        "data": "data/s47_example",
+        "analyzer": "scripts.s47_replay",
+        "checker": [
+          "scripts.s47_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s47_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "14b1383f47a98561e19cf4545abdb6023fd03a2eca85caca4e1c38b7b98af6b8",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_quotes": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "14b1383f47a98561e19cf4545abdb6023fd03a2eca85caca4e1c38b7b98af6b8"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s47_replay.py": "f7af34c20cf15b2461674e1e6de8895279dbaba4a4f9aa7d7ee5c5a3994a506a",
+        "scripts/s47_independent.py": "2dd71015b11f11b165030f2ca27c7bfa18f82e15f3e5e23567b57cc9c8860f18"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S50",
+        "category": "ODD",
+        "result": "results/s50_terminal.json",
+        "data": "data/s50_terminal",
+        "analyzer": "scripts.s50_replay",
+        "checker": [
+          "scripts.s50_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s50_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s50_replay.py": "0e6481a97ea3078f389193e2b3bb4413b30b8573f551134ae4cbe38a485439ed",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s50_independent.py": "7aa305c9639ab2c33d0eff2c150f3f98ba278153b2b396fcbd5eabd05048ea78"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S51",
+        "category": "DUD",
+        "result": "results/s51_penalty.json",
+        "data": "data/s51_penalty",
+        "analyzer": "scripts.s51_replay",
+        "checker": [
+          "scripts.s51_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s51_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s51_replay.py": "a3d872642199f668ddb40ce5dcf8bf1da01aac70cce75f23e10905413c55aa0e",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s51_independent.py": "cfe828bb8f0941193444b1e690a0b7495dfd05ecaec6c9d5e60d9bcbcd1af703"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S53",
+        "category": "ODD",
+        "result": "results/s53_payoffs.json",
+        "data": "data/s29_notepad",
+        "analyzer": "scripts.s53_payoffs",
+        "checker": [
+          "scripts.s53_independent",
+          "verify_result"
+        ],
+        "analyzer_input": "fixed source paths",
+        "checker_log": "logs/s53_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_action_bindings": 200,
+        "primary_rounds": 80,
+        "game_metric_cells": 60,
+        "bootstrap_and_t_intervals": 18,
+        "stage_profiles": 16,
+        "unilateral_deviations": 32,
+        "authorship": "same manager; separate implementation, not independent authorship"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s53_payoffs.py": "e154fcd45b3f9944f2c36bb1bec40ad88363c505eb910f822c0d5a504838899e",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s29_analyze.py": "5672baa4d2d8dfdb57850fbdb9d8633bb4f19924cea5dc9937442b7b9f46f6e7",
+        "scripts/s29_independent.py": "6088a9ce7d7f3c0678829d037112a7cc46f297591c8d3ed8a1661703c937e795",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s53_independent.py": "feb69cc7a7fce5843f07a4a451760210ebe5a8c7fa1abb1b0f5999b4ce0e79e5"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S54",
+        "category": "DUD",
+        "result": "results/s54_opportunities.json",
+        "data": "data/s54_opportunities",
+        "analyzer": "scripts.s54_analyze",
+        "checker": [
+          "scripts.s54_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s54_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "7f1d9114cc541fc1070b008a49a5c4d84ba35030aa07b0b6c92f993cd5f3ceb6",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "archive_eligibility_checked": false,
+        "scope": "Independent action/prompt/payoff/statistic reconstruction only; publication also requires s54_analyze archive-eligibility validation",
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "accepted_action_note_reason_bindings": 200,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "alternating": 0,
+          "synchronized": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/opportunities.py": "ff310f94aa34c28c93ea1194b0629f24413f227abf7e8c5ccbe9fd3f57c6f4d4",
+        "scripts/s54_analyze.py": "dc42ffba00252e8ae480423fafe319bf2e95e78d410317f136682da68d23edbe",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s54_independent.py": "b2d08203c78fef927288b9c1149835986736c23fab6d69c7fcc30eaa2bddf65c"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S56",
+        "category": "ODD",
+        "result": "results/s56_coalitions.json",
+        "data": "data/s14_tender",
+        "analyzer": "scripts.s56_coalitions",
+        "checker": [
+          "scripts.s56_independent",
+          "verify_result"
+        ],
+        "analyzer_input": "fixed source paths",
+        "checker_log": "logs/s56_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "469ec8dc1fb9b2b2e104c1b5ccdd45a27851671866b11b3bc7c2ff204fac2ce9",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "scope": "Independent raw bid/provenance/payoff/statistic reconstruction; full prompt/history/retry eligibility and registration binding require production S14 replay and S56 manifest checks",
+        "rounds": 90,
+        "game_cells": 80,
+        "bootstrap_and_t_summaries": 24,
+        "enumerated_profiles": 3375,
+        "raw_bindings": 360,
+        "raw_requests": 376
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s56_coalitions.py": "c08c1af141980b9eb1041ff8d8702a3d86789d1e412ba418054d78e8ee6d0a73",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/tender.py": "79a0a48f49a8bd3dd9ee9c4b03b1670465edce3d734ad5818dab5b0cebde4a4a",
+        "scripts/s02_analyze.py": "145118d8a14000cbc0e8fa665911503406fedcf41e20a7a87a5f0ba8897a0eac",
+        "scripts/s14_analyze.py": "c69da6323fd02ee2bd08639835b3b2aefa5d1d424f2f7204bc92df831cceadc4",
+        "scripts/s14_independent.py": "c1cbf801689c04e21913e7638b2f41fef103d8e71f1be8cb5f2c39e0deb7e860",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s56_independent.py": "e23c9e3d808b273a4f322d47f44285dc47d9b01ca66c1b5f2acaea6f6dea8782"
+      },
+      "captured_stdout_sha256": "bf3b6a0ef2931e63747bbec30e06e8d791cbf41e3fafff6209ef298d78c53eab"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S55",
+        "category": "ODD",
+        "result": "results/s55_visibility.json",
+        "data": "data/s55_visibility",
+        "analyzer": "scripts.s55_replay",
+        "checker": [
+          "scripts.s55_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s55_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "d46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "d46e8617c852d708d79e6c000b13b55003a1c6de58fe80de7c2a78d3ae772710"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s55_replay.py": "f2c711675ad143bdb1513a7d82767a5ed242de4c14079f863adbe09adacdc59e",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s55_independent.py": "9a71750ce0dbaa90c2583ec7b864d3cb412e7c7ec1b9b59c2949ca1309c43829"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S58",
+        "category": "ODD",
+        "result": "results/s58_history.json",
+        "data": "data/s58_history",
+        "analyzer": "scripts.s58_replay",
+        "checker": [
+          "scripts.s58_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s58_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s58_replay.py": "920dcd509dfb72c68c1616a440f32d2b4d4db0188090277329f06e57e3ffe485",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s58_independent.py": "ee2577ce20314cec7b00e3c49f27224fc40333648b13fbdc5d8d0306a1284a39"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S59",
+        "category": "ODD",
+        "result": "results/s59_history.json",
+        "data": "data/s59_history",
+        "analyzer": "scripts.s59_replay",
+        "checker": [
+          "scripts.s59_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s59_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 20,
+        "case_prompt_bindings": 20,
+        "block_cells": 15,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 3,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s59_replay.py": "62c623d79dabcab590f15473eed9e1b713eda9d5821ac603300d4a12e4a9c009",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s59_independent.py": "f6695606b1042058bf9017dae007d29c95e01f839ad12cd66bf66122131e8768"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S60",
+        "category": "ODD",
+        "result": "results/s60_author_bonus.json",
+        "data": "data/s60_author_bonus",
+        "analyzer": "scripts.s60_analyze",
+        "checker": [
+          "scripts.s60_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s60_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "archive_eligibility_checked": false,
+        "scope": "Independent action/prompt/payoff/statistic reconstruction only; publication also requires s60_analyze archive-eligibility validation",
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "accepted_action_note_reason_bindings": 200,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "rejections": {
+          "low": 0,
+          "high": 0
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+        "sim/author_bonus.py": "570ce07cf9f5438a0340aea423ee305b9c4aa57d355c9f8c9e3927c3ba936b7a",
+        "scripts/s60_analyze.py": "ad0e4a4f399a03ba6847c1383700ca70957c5cc92535bfaa0a321fc6d9e02236",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s60_independent.py": "e317357151cf792887120c26b3cd74bb724071729e2ea5f7a5fb938dc6d52472"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S62",
+        "category": "ODD",
+        "result": "results/s62_notepad_qwen.json",
+        "data": "data/s62_notepad_qwen",
+        "analyzer": "scripts.s62_analyze",
+        "checker": [
+          "scripts.s62_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s62_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 204,
+        "note_snapshots": 204,
+        "raw_auxiliary_bindings": 200,
+        "rejections": {
+          "self": 2,
+          "shared": 2
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_qwen.py": "6c9fea9739702b8ff991b44435b4772147f654ba7cff56cd8b16c02bbb051486",
+        "sim/notepad_qwen.py": "d9ed7e3269ff9e7daac5af906c3c773524070baba7c371fe4281fdc4e1a2d25f",
+        "scripts/s62_analyze.py": "1c16ca1638a67bafd0a43673dfdd4b7eb64f6eea259f4747060a7e13007cca89",
+        "scripts/s62_probe.py": "405a6414b8953e0dd12ea923bc6c8293345df36cd94d511ea091a8edeabdf886",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s62_independent.py": "18309194ee433bb403e3de54c771eab99764e3efb9734123cadd602ffefa3a76"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S61",
+        "category": "DUD",
+        "result": "results/s61_identity.json",
+        "data": "data/s61_identity",
+        "analyzer": "scripts.s61_replay",
+        "checker": [
+          "scripts.s61_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s61_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_approvals": 30,
+        "case_prompt_bindings": 30,
+        "block_cells": 30,
+        "bootstrap_draws_per_summary": 3125,
+        "summaries": 6,
+        "sign_flips_per_summary": 32,
+        "result_sha256": "09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s61_replay.py": "eb03ecd697efaa98acdca34721d5f3fd8f0bd799f8816fb57ef0c1e04466c354",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s61_independent.py": "c63e48fc80afcf8d20945c6094c0ecfbe15f5bb498ebd1cc2f36d711bf31cf9c"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S64",
+        "category": "DUD",
+        "result": "results/s64_memory_retention.json",
+        "data": "data/s64_memory_retention",
+        "analyzer": "scripts.s64_analyze",
+        "checker": [
+          "scripts.s64_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s64_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "0d203530f56278c359aca1f4c6ba47ec1d775aca65ff0dae1c3a4bf4af6e04f9",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "identical_system_groups": 10,
+        "identical_initial_prompt_pairs": 10,
+        "rejections": {
+          "reset": 0,
+          "persistent": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/memory_retention.py": "ab621224f733302b5c5846d337ccb806caf0a84cfe11a88048a4c42a305c3a3d",
+        "scripts/s64_analyze.py": "1a97b2a8a1181556367d2e64f800392acb54213a66114ac59c62189539ba2def",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s64_independent.py": "77903b791ebf26562764a45817b1609914ab843663b7e0f5b02721dc8f1b7e4f"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S65",
+        "category": "ODD",
+        "result": "results/s65_bonus_pooling.json",
+        "data": "data/s65_bonus_pooling",
+        "analyzer": "scripts.s65_analyze",
+        "checker": [
+          "scripts.s65_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s65_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "individual": 0,
+          "pooled": 0
+        },
+        "verdict": "ODD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/bonus_pooling.py": "08c517824805cf54c6fc00f402e1d22795049100809680f83f268f34481476fd",
+        "scripts/s65_analyze.py": "8e96e105be9f96effb43fa41dc7909eb289550beb96158f5998436fd495df8e6",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s65_independent.py": "d00c3d612ac2c242642b5b28e3a5d4360d3d95c88c1fcaac3900a362bb0bb198"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S67",
+        "category": "ODD",
+        "result": "results/s67_incentives.json",
+        "data": "data/s65_bonus_pooling",
+        "analyzer": "scripts.s67_audit",
+        "checker": [
+          "scripts.s67_independent",
+          "verify_result"
+        ],
+        "analyzer_input": "fixed source paths",
+        "checker_log": "logs/s67_independent.json",
+        "revision": "15b318959aa08eccd2b7d0b19768f6dde539352f"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "fa0bb529b46b05b3cc0c241b984d865919cd5f545b906f9d288738b65e211f36",
+      "evidence_files_unchanged": 2707,
+      "evidence_manifest_sha256": "0999f7686bb56d5f6d91d791b57195b79aad2e6cbeeab1dee199cdc2f0e7ed25",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_action_note_reason_bindings": 200,
+        "primary_rounds": 80,
+        "game_metric_cells": 80,
+        "bootstrap_and_t_summaries": 24,
+        "stage_profiles": 32,
+        "unilateral_deviations": 64,
+        "authorship": "Separate implementation by same manager; independent critics recorded separately"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s67_audit.py": "0ac3e80e2785d01a07b6c812fcc83df269763f2d540300bd5470d3e716f3925f",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/bonus_pooling.py": "08c517824805cf54c6fc00f402e1d22795049100809680f83f268f34481476fd",
+        "scripts/s65_analyze.py": "8e96e105be9f96effb43fa41dc7909eb289550beb96158f5998436fd495df8e6",
+        "scripts/s65_independent.py": "d00c3d612ac2c242642b5b28e3a5d4360d3d95c88c1fcaac3900a362bb0bb198",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s67_independent.py": "49abd5e2858348741becdb083934a7113da096205db573678948c1942ae1e227"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S66",
+        "category": "DUD",
+        "result": "results/s66_payoff_order.json",
+        "data": "data/s66_payoff_order",
+        "analyzer": "scripts.s66_analyze",
+        "checker": [
+          "scripts.s66_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s66_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "allocated_first": 0,
+          "final_first": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/payoff_order.py": "5f032794d166ff0a1a190071beba97bd3e0af7d101dd84ffc1480177590b0aec",
+        "scripts/s66_analyze.py": "abb63826741ac9ddcc2e4de4a54373cf9666911af4c939eb2d18245920c8ccdc",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s66_independent.py": "e254a32ec1b8f4ef3cac86b761ffd4b6d0205f155a2d17360f4432e769011c68"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S69",
+        "category": "DUD",
+        "result": "results/s69_pooled_enforcement.json",
+        "data": "data/s69_pooled_enforcement",
+        "analyzer": "scripts.s69_analyze",
+        "checker": [
+          "scripts.s69_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s69_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "low_charge": 0,
+          "high_charge": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/pooled_enforcement.py": "c4700c4d76f9a01f9c38756f894272e3723063d7a5a16e9cfc1f14c6de7cbb2d",
+        "scripts/s69_analyze.py": "6f9392a2fe681a88f514c556e27b13e94432c2338f48160d4de74e3fcba6e311",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s69_independent.py": "d2cd539913a926a00112ccfc52cb55680228171e73ce8282fea581a29b30c0b8"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S68",
+        "category": "FAILED",
+        "result": "results/s68_failure.json",
+        "data": "data/s68_polarity",
+        "analyzer": "scripts.s68_failure_audit",
+        "checker": null,
+        "analyzer_input": "data directory argument",
+        "checker_log": null,
+        "revision": "043d3577e614e7858c9a97843fa1d05143315510"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "bfa43e504a9d44886bbffa72750c1864de5f7d71afe1288b575f5a1e95e4f290",
+      "evidence_files_unchanged": 2923,
+      "evidence_manifest_sha256": "78ce319a648942a72af3df19b8688990f65e3c1b89ad7ea34bf4358b6bf009d2",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": null,
+      "checker_success_basis": "not available",
+      "checker_scope": "No additional independent checker in this runner",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s68_replay.py": "e467b6b38701b945f3cb0b0807edaf09027ebf1f0f9623dd9f5378dfc7fbab5c",
+        "scripts/s68_failure_audit.py": "b3d51d9494dabd25c6805ef69aedaa8d6c4286910fc22999d33ae614753ed791",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S72",
+        "category": "ODD",
+        "result": "results/s72_temporal.json",
+        "data": "data/s29_notepad",
+        "analyzer": "scripts.s72_temporal",
+        "checker": [
+          "scripts.s72_independent",
+          "verify_result"
+        ],
+        "analyzer_input": "fixed source paths",
+        "checker_log": "logs/s72_independent.json",
+        "revision": "793a6411f6d7b646b1897d964b531cbaa7116cc0"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049",
+      "evidence_files_unchanged": 2956,
+      "evidence_manifest_sha256": "91bf4b62821ce3e0f7b1615bf08167e563d994c4fca1f61281ee21cb83f46200",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_action_note_reason_bindings": 200,
+        "primary_rounds": 80,
+        "fixed_two_round_windows": 40,
+        "full_windows": 10,
+        "game_metric_cells": 70,
+        "exact_bootstrap_and_t_summaries": 21,
+        "authorship": "Separate implementation by same manager; independent critics recorded separately"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "scripts/s72_temporal.py": "e09e2d26b68b6e889a2c1fd4a44415bacd5971457662138263a83ed750b74ca0",
+        "scripts/s53_payoffs.py": "e154fcd45b3f9944f2c36bb1bec40ad88363c505eb910f822c0d5a504838899e",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+        "scripts/s29_analyze.py": "5672baa4d2d8dfdb57850fbdb9d8633bb4f19924cea5dc9937442b7b9f46f6e7",
+        "scripts/s29_independent.py": "6088a9ce7d7f3c0678829d037112a7cc46f297591c8d3ed8a1661703c937e795",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s72_independent.py": "b9de5692844be71378164dd4d96dbad377400ccf5b163966f460576c68197463"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "passed": true,
+      "specification": {
+        "pilot": "S70",
+        "category": "DUD",
+        "result": "results/s70_bonus_endowment.json",
+        "data": "data/s70_bonus_endowment",
+        "analyzer": "scripts.s70_analyze",
+        "checker": [
+          "scripts.s70_independent",
+          "verify"
+        ],
+        "analyzer_input": "data directory argument",
+        "checker_log": "logs/s70_independent.json",
+        "revision": "a9b3c47654c1f694b253a4b8ab70477a2731aa5d"
+      },
+      "exact_complete_result_match": true,
+      "result_sha256": "1d84a42eba49f019a494ab6d8175dad07a3bdcf314c933e3fc0e10271165dcf2",
+      "evidence_files_unchanged": 3120,
+      "evidence_manifest_sha256": "f7b84f932d97188ce5e667d8e4c4cb883fccc992f1fd9f53116e15a879da4ce8",
+      "clone_clean": true,
+      "llm_chat_attempts": 0,
+      "independent_checker": {
+        "passed": true,
+        "raw_metric_cells": 50,
+        "bootstrap_intervals": 15,
+        "t_intervals": 15,
+        "sign_tests": 15,
+        "saved_request_histories": 200,
+        "note_snapshots": 200,
+        "raw_auxiliary_bindings": 200,
+        "constant_system_groups": 20,
+        "checked_initial_prompts": 20,
+        "rejections": {
+          "baseline": 0,
+          "endowed": 0
+        },
+        "verdict": "DUD"
+      },
+      "checker_success_basis": "explicit passed=true and no exception",
+      "checker_scope": "Existing archived checker; coverage is pilot-specific",
+      "imported_repo_sources": {
+        "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+        "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+        "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+        "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+        "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+        "sim/bonus_endowment.py": "8a1665293de044ed3e188909a9418975fd64b2c8451e0b0ccf602f9a555f54f5",
+        "scripts/s70_analyze.py": "d8b53d22148ea4d7f19bc5f9edc1f4eb26ae72c30c407597319a28cd9f13dc4c",
+        "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+        "scripts/s70_independent.py": "2094b2e5b87a1de263cfe8fb834f7f260214f15368366a653c7b404d35ee7654"
+      },
+      "captured_stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "special_revisions": {
+    "S67": "15b318959aa08eccd2b7d0b19768f6dde539352f",
+    "S68": "043d3577e614e7858c9a97843fa1d05143315510",
+    "S72": "793a6411f6d7b646b1897d964b531cbaa7116cc0"
+  },
+  "protected_baseline_files": 3112,
+  "scope": "All 54 archived result objects (52 completed analyses, two failure audits); exact result equality plus available existing checkers. Validation depth varies by pilot. Not an independent scientific validity audit, a new experiment, network isolation, fresh installation, or cross-platform reproduction.",
+  "project_python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+  "llm_chat_attempts_in_passing_workers": 0,
+  "full_history_local_clone": true,
+  "existing_installed_dependencies_reused": true,
+  "origin_clone": false,
+  "source_checkout_preserved": false,
+  "runner_unchanged": true
+}

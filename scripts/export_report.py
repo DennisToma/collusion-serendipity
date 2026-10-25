@@ -24,9 +24,9 @@ from scripts import iteration55_claims as audit
 BASELINE = '573f97310771f76fefb67e8d57f666539ad919cb'
 REPO_URL = 'https://github.com/DennisToma/collusion-serendipity'
 COMMAND = 'uv run --frozen python scripts/export_report.py --check --replay-selected'
-EXPORT_RECEIPT = 'logs/iteration60_exports.json'
-PREVIOUS_READER_REVISION = '9777a99aa03e00e9921ae4e1aadd953b146b54c6'
-PRESERVATION_BASELINE = '11aaf729538894adcc828ab20145d437a5131c3e'
+EXPORT_RECEIPT = 'logs/iteration61_exports.json'
+PREVIOUS_READER_REVISION = '16ef96d941619d3beebee21500ab034f90526b20'
+PRESERVATION_BASELINE = '73492a929c2245a033f1b1598a03703c3f6f6ee6'
 REPLAY_SOURCE_REVISION = 'cd3505ce141d190d92ecda420430ff74caccf70d'
 EXPORT_FILES = ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']
 EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
@@ -37,7 +37,7 @@ EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results
     'results/s48_summary.md', 'results/s58_summary.md', 'results/s59_summary.md', 'results/s72_summary.md',
     'results/s18_summary.md', 'results/s31_summary.md', 'results/s45_summary.md']
 EXPORT_ENV = {'markdown-it-py': '4.2.0', 'playwright': '1.64.1', 'pypdf': '6.21.2', 'matplotlib': '3.11.2'}
-NOTICE = ('**Reader exports — iteration 60:** [Concise brief (PDF)](BRIEF.pdf) · '
+NOTICE = ('**Reader exports — iteration 61:** [Concise brief (PDF)](BRIEF.pdf) · '
           '[Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). '
           'Exports preserve the saved evidence and original pilot rows. Current verification: '
           f'`{COMMAND}`. The iteration-54/55 full-document commands require their archived revisions.\n\n')
@@ -209,7 +209,7 @@ def documents():
     table_marker = '| Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |'
     require(original.count(table_marker) == 1, 'Original table marker changed')
     report = ('# Serendipity log — Beyond Words\n\n'
-        '2026-10-25 · Iteration 60 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.\n\n'
+        '2026-10-25 · Iteration 61 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.\n\n'
         + scientific_lead() + NOTICE + original[original.index(table_marker):])
     report = replace_once(report, '**Next:** different-axis pilot only if valuable before14:30UTC;then polish.',
                           '**Next:** preserve the frozen evidence and polish the final handoff.')
@@ -220,37 +220,67 @@ def documents():
                           + '[All methods,per-pilot caveats,uncertainty and figures]')
     report = replace_once(report, '[Reproduction](README.md)',
                           '[Primary-result reproduction](results/iteration58_reproduction.md)')
-    readme = old('README.md').decode()
-    entry = readme.split('\n\n')[1]
-    require(entry.startswith('**Judge / handoff entry:**'), 'README entry moved')
-    display_entry = replace_once(entry, '[concise evidence brief]', '[archived evidence brief]')
-    replacement = scientific_lead() + NOTICE + replace_once(display_entry,
-        'uv run --frozen python scripts/iteration55_claims.py --check --replay-selected', COMMAND)
-    replacement += '\n\n' + verification_note() + FRESH_NOTICE
-    replacement += ('\n\nRender with a separate pinned environment (project dependencies and `uv.lock` stay unchanged):\n\n'
-        'The Git diff command below checks byte identity on the recording host. On another host, '
-        'use the PDF content checks and report any byte differences.\n\n'
-        '```bash\nuv venv --python 3.12.15 /var/tmp/explorer-export57\n'
-        'uv pip install --python /var/tmp/explorer-export57/bin/python --require-hashes -r requirements-export.lock\n'
-        '/var/tmp/explorer-export57/bin/python -m playwright install chromium\n'
-        '/var/tmp/explorer-export57/bin/python scripts/export_report.py --build\n'
-        '/var/tmp/explorer-export57/bin/python scripts/export_report.py --check-pdf\n'
-        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration60_exports.json\n```\n\n'
-        'The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. '
-        'Source links in the exports pin historical evidence and reproduction revisions on GitHub; '
-        'following them requires repository access. Brief/report links point to the portable local exports. '
-        'The archive checks and selected replay use the installed project dependencies and full Git history. '
-        'For independent PDF-content checking use the pinned export command with `--check-pdf`. '
-        'Plain `--check` verifies consistency with the source/export hashes in the committed receipt; '
-        'it reports saved PDF-coverage counts without re-extracting text. '
-        '`--check-pdf` re-extracts source text and checks complete table rows in order. '
-        'Use the project-environment command above for the five selected scientific replays. '
-        'The separate iteration-57 runner downloads and installs both environments and Chromium anew to reproduce '
-        'the fixed iteration-56 handoff; its receipt-only check does not rerun installation or validate later checkout edits. '
-        'It consumes the complete hash-locked export requirements. To rerun without replacing the committed receipt, use '
-        '`uv run --frozen python scripts/iteration57_fresh_install.py run --out /var/tmp/explorer-fresh-receipt.json`. '
-        'No full-portfolio raw replication is claimed.')
-    return {'REPORT.md': report, 'README.md': replace_once(readme, entry, replacement)}
+    return {'REPORT.md': report, 'README.md': readme()}
+
+
+def readme():
+    """Current entry point; the complete historical per-pilot runbook stays in Git."""
+    lead = '\n\n'.join(scientific_lead().split('\n\n')[:2])
+    return ('# Collusion Serendipity Explorer\n\n' + lead + '\n\n'
+        'The frozen portfolio contains 54 entries: 29 DUD, 23 ODD/context-only and two failed. '
+        'Entries reuse data and are not independent replications. These exploratory screens have '
+        'no multiplicity correction or held-out validation. Adverse approvals do not establish '
+        'agreement, intent or profitable collusion.\n\n'
+        '| Read | Contents |\n|---|---|\n'
+        '| [Brief PDF](BRIEF.pdf) / [HTML](BRIEF.html) | Selected evidence, payoffs and uncertainty |\n'
+        '| [Report](REPORT.md) / [PDF](REPORT.pdf) / [HTML](REPORT.html) | All 54 pilot rows and current interpretation |\n'
+        '| [Methods and limitations](REPORT_DETAILS.md) | Per-pilot setup, caveats and figures |\n'
+        '| [Experiment ledger](EXPERIMENTS.tsv) / [ideas](IDEAS.tsv) / [splits](data/SPLITS.md) | Registration/result chronology and exploratory status |\n'
+        '| [Current state](STATUS.md) / [handoffs](HITS.md) | Append-only research history; no promoted hit |\n\n'
+        '**Check the current release.** Start from a clean full-history clone (no `--depth`), '
+        '[uv](https://docs.astral.sh/uv/getting-started/installation/) and Python 3.12.15, '
+        'the recorded Python version. Run from the repository root. The first two commands may '
+        'download Python or dependencies; the check reads saved evidence and guards the selected replays.\n\n'
+        '```bash\nuv python install 3.12.15\nuv sync --frozen --python 3.12.15\n'
+        + COMMAND + '\n```\n\n'
+        'This checks all 54 table rows, 307 numerical bindings, 144 sample/window fields and '
+        'saved reproduction receipts, then reruns five selected analyses and separate checkers '
+        '(S29, S62, S69, S70 and S72). S72 uses its genuine historical revision. '
+        'It verifies export hashes and reports saved PDF coverage; it does not re-extract PDF text '
+        'or rerun all 54 analyses. No API credentials are needed for these replays. '
+        'The selected replays guard `llm.chat`; this is not network isolation or independent scientific validation.\n\n'
+        '**Recompute every primary result.** With the project environment installed:\n\n'
+        '```bash\nuv run --frozen python scripts/portfolio_replay.py run --out /var/tmp/explorer-portfolio.json\n'
+        'uv run --frozen python scripts/portfolio_replay.py check --out /var/tmp/explorer-portfolio.json\n```\n\n'
+        'The first command reruns 52 completed analyses, two failure audits and 50 existing checkers '
+        'in disposable pinned checkouts; checker depth varies. The second checks the resulting receipt. '
+        'This reproduces archived primary result objects, not every supplementary artifact or a new '
+        'independent dataset. [Coverage, revisions and limits](results/iteration58_reproduction.md). '
+        'S68 remains interrupted, with no effect estimate or restart.\n\n'
+        '**Rebuild and inspect the reader exports.** Run in a clean released clone: the build '
+        'regenerates tracked reader documents, exports, figure and receipt. The export environment '
+        'is separate from the project environment and uses a hash-locked dependency file:\n\n'
+        '```bash\nuv venv --python 3.12.15 /var/tmp/explorer-export61\n'
+        'uv pip install --python /var/tmp/explorer-export61/bin/python --require-hashes -r requirements-export.lock\n'
+        '/var/tmp/explorer-export61/bin/python -m playwright install chromium\n'
+        '/var/tmp/explorer-export61/bin/python scripts/export_report.py --build --check-pdf\n'
+        'git diff --exit-code HEAD -- README.md REPORT.md BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration61_exports.json\n```\n\n'
+        'Dependency/browser installation needs network access; Linux may also need Chromium system '
+        'libraries. Rendering blocks browser network requests. `--check-pdf` re-extracts text, checks '
+        'complete table rows in order and validates link targets. The final command tests byte identity '
+        'on the recording host. Other hosts may change PDF, PNG, embedded HTML and receipt bytes; '
+        'report those differences alongside the content checks. Keep the brief/report exports together '
+        'for local links. Pinned GitHub evidence links require repository access.\n\n'
+        '**Historical reproduction.** [Fresh-install evidence](results/iteration57_reproduction.md) '
+        'targets the archived handoff `e6b0c02`, reusing host Python, uv, OS libraries and fonts. '
+        'Its receipt-only check does not reproduce the current checkout. '
+        '[The complete iteration-60 runbook](' + REPO_URL + '/blob/' + PRESERVATION_BASELINE + '/README.md) '
+        'retains all per-pilot commands, including historical generation and publication commands; '
+        'use their recorded revisions. Archived files linking to per-pilot README instructions refer '
+        'to that runbook. Read it offline with `git show ' + PRESERVATION_BASELINE + ':README.md`. '
+        'The current replay commands above reproduce saved evidence '
+        'without starting simulated agents. Future work is an unfinished, unregistered proposal '
+        'in the [report](REPORT.md).\n')
 
 
 def preservation():
@@ -304,7 +334,7 @@ def verify_sources():
 
 def sources():
     brief = (ROOT / 'results/iteration54_brief.md').read_text()
-    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 60 ·')
+    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 61 ·')
     start = '**Suggested future confirmation, not launched:**'
     require(brief.count(start) == 1, 'Archived future suggestion moved')
     archived_future = start + brief.split(start, 1)[1].split('\n\n', 1)[0]
@@ -506,7 +536,7 @@ def render():
         browser.close()
     require(not blocked, 'Unexpected browser network request')
     record = {'scope': 'Presentation only; source-fragment coverage is not raw scientific validation.',
-        'reader_iteration': 60, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
+        'reader_iteration': 61, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
         'fresh_install_target_revision': 'e6b0c02bb189923b3fd039fe67db153826ee3aff',
         'source_revision': BASELINE, 'preservation_baseline': PRESERVATION_BASELINE,
         'export_environment': EXPORT_ENV, 'chromium_version': browser_version,

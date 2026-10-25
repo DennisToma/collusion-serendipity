@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "readme_bytes_before": 106249,
+  "readme_bytes_after": 5958,
+  "selected_ids_match_saved_receipt": true,
+  "local_links_checked": [
+    "BRIEF.pdf",
+    "BRIEF.pdf",
+    "BRIEF.html",
+    "REPORT.md",
+    "REPORT.pdf",
+    "REPORT.html",
+    "REPORT_DETAILS.md",
+    "EXPERIMENTS.tsv",
+    "IDEAS.tsv",
+    "data/SPLITS.md",
+    "STATUS.md",
+    "HITS.md",
+    "results/iteration58_reproduction.md",
+    "results/iteration57_reproduction.md",
+    "REPORT.md"
+  ],
+  "archived_runbook_exact": true,
+  "archived_readme_referrals": [
+    "REPORT_DETAILS.md:84:Cached generation/resume commands: [README.md](README.md). Frozen outputs:",
+    "REPORT_DETAILS.md:435:[Methods, designs and reproduction](README.md).",
+    "REPORT_DETAILS.md:1143:[All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) \u00b7 [S19 adverse actions](results/s19_action_text.md) \u00b7 [S21 audit](results/s21_summary.md) \u00b7 [Reproduction](README.md) \u00b7 [Unpromoted handoffs](HITS.md).",
+    "data/s14_tender/README.md:33:Reproduce via [README](../../README.md), using the archived result commit if",
+    "results/s14_summary.md:79:[Design](../DESIGN_S14.md) \u00b7 [Reproduce](../README.md)",
+    "results/s16_summary.md:36:[Design](../DESIGN_S16.md) \u00b7 [Failure audit code](../scripts/s16_failure_audit.py) \u00b7 [Reviews](../logs/s16_review_disposition.md) \u00b7 [Release](../logs/s16_release.json) \u00b7 [Reproduce](../README.md)",
+    "data/s37_policyword/README.md:18:[reproduction instructions](../../README.md). No pooling with S36;the wording"
+  ],
+  "offline_archive_command_resolves": true,
+  "scope": "Current guide, existing local link targets, exact offline Git archive and frozen-file README referrals; external accessibility not tested."
+}

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 60 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.
+2026-10-25 · Iteration 61 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.
 
 **Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: shared notes coincided with more organization-harming approvals in one small pilot, while the fresh Qwen follow-up left the contrast unresolved. Neither sibling headline changes.
 
@@ -14,7 +14,7 @@
 
 **Portfolio:** **54 entries: 29 DUD, 23 ODD/context-only, two failed/unclassified.** Entries include fresh games, reused-history decisions and reanalyses; they are not independent replications. Examples above were selected post hoc. DUD/ODD are prioritization labels; no held-out validation or multiplicity correction is claimed. S68 remains interrupted without an estimate or restart.
 
-**Reader exports — iteration 60:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+**Reader exports — iteration 61:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
