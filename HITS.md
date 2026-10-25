@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 29.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 30.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -474,3 +474,16 @@ Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.10
 Both source-arm cases per seed enter one equally weighted block. Fresh control uses the exact source prompt; treatment adds all21hypothetical own-payoff rows holding rivals at round9public offers. The archived round10response is withheld from both arms. This selected challenge is exploratory, without multiplicity correction or held-out confirmation. Bootstrap/sign/t summaries have small-n limitations and sign calibration requires symmetry/exchangeability. No arithmetic-error, coordination, trajectory or realized-worker-pay claim.
 
 [Design](DESIGN_S43.md), [all offers/figure](results/s43_summary.md). Reproduce: `uv run python scripts/s43_release.py`.
+
+<!-- S41 handoff start -->
+**S41: unpromoted ODD, wage tick size (own).**
+
+Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375).
+
+Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested.
+
+Five paired differences: [0.0, 4.3125, 0.0, 0.5, 0.0].
+Both siblings: action-grid specification and its equilibrium benchmark belong in matched level-screen references. This pilot alone supplies no collusion label. A suggested confirmation would independently repeat the frozen grid comparison with more blocks and another seller family; it is not run here.
+
+[Design](DESIGN_S41.md), [All outcomes and figure](results/s41_summary.md). Reproduce: `uv run python scripts/s41_release.py`.
+<!-- S41 handoff end -->

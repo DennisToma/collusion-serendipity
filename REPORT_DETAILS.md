@@ -1002,3 +1002,20 @@ Source public history and owner-only notes remain identical. One/two rivals, val
 S43 source/replay CLI versions are both codex-cli0.163.0;the archived known-input fingerprints differ only in PATH hash. The prospective replay baseline remains invariant across its own calls. This comparison does not attest served-model identity or complete effective configuration. See logs/s43_runtime_comparison.json.
 
 S43 bounds are percentile quantiles of the empirical block-bootstrap distribution (the design specifies linear2.5/97.5percentiles),not the reflected/basic bootstrap. The positive descriptive bounds do not override the paired t interval crossing0 or the coarse sign-flip p=.125,and the registered magnitude screen fails because its upper bound.5is below1.
+
+<!-- S41 detail start -->
+## S41 — Wage granularity
+
+**S41: unpromoted ODD, wage tick size (own).**
+
+Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375).
+
+Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested.
+
+Five paired differences: [0.0, 4.3125, 0.0, 0.5, 0.0].
+Both siblings: action-grid specification and its equilibrium benchmark belong in matched level-screen references. This pilot alone supplies no collusion label. A suggested confirmation would independently repeat the frozen grid comparison with more blocks and another seller family; it is not run here.
+
+[Design](DESIGN_S41.md), [All outcomes and figure](results/s41_summary.md). Reproduce: `uv run python scripts/s41_release.py`.
+
+Scientific sources stay frozen; `scripts/s41_publish.py` is a later presentation-only generator. Prompt copies bind raw assembly rather than independently proving wording validity. Local-input metadata does not attest served identity or actual tool non-use.
+<!-- S41 detail end -->

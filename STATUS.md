@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T03:43:40.175288+00:00; Phase2, iteration30 IN PROGRESS)
-- Selected own/S41:unit versus half-unit wage grid,fresh ten games/fiveblocks24880..24884.
-- Primary paid-wage fine-minus-coarse r3-10;two-unit frozen directional screen.
-- Same payoff formula;feasible deviations/equilibrium sets differ,no representation-only claim.
-- Pre-live dry200-key replay,independent60cells/18bootstrap+t/exact summaries PASS.
-- Exhaustive441/1681profiles and18522/137842unilateral choices PASS.
-- Initial31tests exposed copied result-key bug;fixed before live calls.
-- Varied fractional mocked-live32tests/488canonical tests and both design critics PASS.
-- No paid S41calls,outcomes,tuning,pooling,HIT or sibling writes.
-- Previous D/S43:DUD,+.300[+.100,+.500],upperp.125;no headline change.
-- Risks:n5,shared model service,changed action set,local-input/provider attestation limits.
-- Next:registration freeze/push,one live launch,full replay/reviews/release.
+## Current state (2026-10-25T04:00:53.159222+00:00; Phase2, iteration30 RESULTS VERIFIED)
+- Own/S41:10fresh games/5paired blocks24880..24884,T10,200valid decisions,no retries/failures.
+- Paid wages fine10.1875/coarse9.2250;fine-minus-coarse+.9625[0,2.6875].
+- Pairedt[-1.378261,3.303261],upperp.25;frozen ODD/inconclusive,no HIT.
+- Block differences0,4.3125,0,.5,0;below2unit threshold,three ties.
+- Full scientific/archive/source/runtime/UTC/timing replay PASS;23sources unchanged.
+- Separate60raw metriccells/18bootstrap+t/18exact summaries/18sign tails PASS.
+- Figure inspected;REPORT/HITS/DETAILS/README regenerated;cache-only release PASS.
+- Initial/amended Codex+Opus and targeted Codex design critics complete.
+- Final Codex+Opus critics/parent exit0;488post-live canonical tests PASS.
+- Registration92b327b pushed;final10artifact regeneration PASS;results push/origin clone next.
+- Risks:n5,changed action/equilibrium set,salience bundle;provider/tool use unattested.
+- Next:fresh different axis/new world;S44/S39proposals,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -426,3 +427,9 @@
 - 2026-10-25T03:51:18.748853+00:00: initial and amended Codex+Opus design critics exit0. Added per-block terminal timing gate,whole-launch external lock,explicit one-sample/paired t field convention,fine minimum-Nash plot marker,and positive-zero normalization. Amended Codex found snapshot-delimiter and terminal quote-representation holes;fixed before calls,with delimiter-containing notes and varied half/high/negative-zero mocked-live quotes plus terminal tamper regression.32scoped tests PASS;all required archive paths not ignored,prior S19 cache tracked. Full ready200-key replay/separate60cells/18bootstrap+t/18exact summaries PASS. Targeted patch critic/final canonical suite pending;no paid calls.
 
 - 2026-10-25T03:52:36.586933+00:00: final pre-live checks PASS:32scoped and488canonical tests,full200-key dry replay,independent60raw metriccells/18bootstrap+t/18exact-rational summaries,23registered source hashes,required tracking and runtime headroom. Initial/amended Codex+Opus critics and targeted Codex patch critic exit0;patch critic16in-memory passes/16read-only filesystem errors recorded separately from local all-pass suite. Earlier static receipt held four pre-patch source hashes;guard caught it before launch,old hashes preserved and final receipt refreshed against byte-matching dry/current sources. No paid calls,threshold edits,tuning,pooling or sibling writes. Registration milestone push and sole live launch next.
+
+- 2026-10-25T03:52:53.008689+00:00: S41 registration92b327b6b78e62b7a17ded3819bf3c15af891f84 pushed and observed remotely at2026-10-25T03:52:44.879540+00:00 before sole foreground live runner. Two game workers,per-seed barriers,05:00UTC uncached-admission cutoff;source/runtime/headroom/one-shot guards active. Ledger registration reference finalized. No scientific source edits,partial actions/notes/effects inspection,tuning,pooling or second launch.
+
+- 2026-10-25T04:00:53.159222+00:00: S41 sole runner childexit0;all10games/200valid decisions,zero retries/failures. Frozen ODD:paid wagefine10.1875/coarse9.2250,difference+.9625[0,2.6875],pairedt[-1.378261,3.303261],upperp.25;blockdifferences0,4.3125,0,.5,0. Full archive/source/environment/registration/runtime/UTC/schedule/prompt/export/normalization replay PASS;separate60raw metriccells/18bootstrap+t/18exact-rational summaries/18sign tails PASS. All23registered sources unchanged;scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b. Figure inspected,cache-only release PASS;post-registration presentation-only publisher updates REPORT/HITS/DETAILS/README from validated result. No new calls,source/threshold edits,tuning,pooling,secondary promotion,HIT,coordination or isolated mechanism claim. Final critics/post-live488suite running;results push and fresh origin clone next.
+
+- 2026-10-25T04:04:24.898733+00:00: final Codex+Opus critics and parent exit0,both confirm unchanged ODD/numbers. Codex raw60cell/18bootstrap/six sign-set reconstruction/full archive replay versus Opus supplied-cells/code-only hand checks;scope explicit. Added presentation-only dominant-block context,arm-specific regret and requested low reasoning effort;rejected unsupported inference from repeated metrics to deterministic/dependent sampling. Durable488post-live tests childexit0. Final call-forbidden regeneration PASS:all10artifacts byte-identical,all20archivefiles/23frozen sources unchanged,scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b. No active generation/review,new model calls,scientific-source/threshold edits,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone push and fresh origin clone next.

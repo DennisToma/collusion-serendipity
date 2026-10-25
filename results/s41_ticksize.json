@@ -1,0 +1,571 @@
+{
+  "pilot": "S41",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "fine minus coarse",
+  "verdict": "ODD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "resource_payment": {
+      "fine": {
+        "mean": 10.1875,
+        "mean_exact": "163/16",
+        "ci95": [
+          10.0,
+          10.3875
+        ],
+        "ci95_exact": [
+          "10",
+          "831/80"
+        ],
+        "paired_t_ci95": [
+          9.867530511492447,
+          10.507469488507553
+        ]
+      },
+      "coarse": {
+        "mean": 9.225,
+        "mean_exact": "369/40",
+        "ci95": [
+          7.675,
+          10.0
+        ],
+        "ci95_exact": [
+          "307/40",
+          "10"
+        ],
+        "paired_t_ci95": [
+          7.073255043471709,
+          11.37674495652829
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.9625,
+        "mean_exact": "77/80",
+        "ci95": [
+          0.0,
+          2.6875
+        ],
+        "ci95_exact": [
+          "0",
+          "43/16"
+        ],
+        "paired_t_ci95": [
+          -1.3782609981679235,
+          3.3032609981679233
+        ],
+        "exact_signflip_p_upper": 0.25,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.5
+      },
+      "seed_differences": [
+        0.0,
+        4.3125,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        276,
+        0,
+        32,
+        0
+      ],
+      "exact_denominator": 64
+    },
+    "offered_rate": {
+      "fine": {
+        "mean": 10.15625,
+        "mean_exact": "325/32",
+        "ci95": [
+          9.96875,
+          10.35625
+        ],
+        "ci95_exact": [
+          "319/32",
+          "1657/160"
+        ],
+        "paired_t_ci95": [
+          9.836280511492447,
+          10.476219488507553
+        ]
+      },
+      "coarse": {
+        "mean": 9.025,
+        "mean_exact": "361/40",
+        "ci95": [
+          7.225,
+          9.9375
+        ],
+        "ci95_exact": [
+          "289/40",
+          "159/16"
+        ],
+        "paired_t_ci95": [
+          6.534649071642078,
+          11.515350928357922
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.13125,
+        "mean_exact": "181/160",
+        "ci95": [
+          0.04375,
+          3.09375
+        ],
+        "ci95_exact": [
+          "7/160",
+          "99/32"
+        ],
+        "paired_t_ci95": [
+          -1.5450193219752713,
+          3.8075193219752714
+        ],
+        "exact_signflip_p_upper": 0.03125,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.0625
+      },
+      "seed_differences": [
+        0.03125,
+        4.96875,
+        0.03125,
+        0.53125,
+        0.09375
+      ],
+      "exact_seed_difference_numerators": [
+        2,
+        318,
+        2,
+        34,
+        6
+      ],
+      "exact_denominator": 64
+    },
+    "firm_profit": {
+      "fine": {
+        "mean": 9.8125,
+        "mean_exact": "157/16",
+        "ci95": [
+          9.6125,
+          10.0
+        ],
+        "ci95_exact": [
+          "769/80",
+          "10"
+        ],
+        "paired_t_ci95": [
+          9.492530511492447,
+          10.132469488507553
+        ]
+      },
+      "coarse": {
+        "mean": 10.775,
+        "mean_exact": "431/40",
+        "ci95": [
+          10.0,
+          12.325
+        ],
+        "ci95_exact": [
+          "10",
+          "493/40"
+        ],
+        "paired_t_ci95": [
+          8.62325504347171,
+          12.92674495652829
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.9625,
+        "mean_exact": "-77/80",
+        "ci95": [
+          -2.6875,
+          0.0
+        ],
+        "ci95_exact": [
+          "-43/16",
+          "0"
+        ],
+        "paired_t_ci95": [
+          -3.3032609981679233,
+          1.3782609981679235
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 0.25,
+        "exact_signflip_p_two_sided": 0.5
+      },
+      "seed_differences": [
+        0.0,
+        -4.3125,
+        0.0,
+        -0.5,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        -276,
+        0,
+        -32,
+        0
+      ],
+      "exact_denominator": 64
+    },
+    "tie_rate": {
+      "fine": {
+        "mean": 0.875,
+        "mean_exact": "7/8",
+        "ci95": [
+          0.875,
+          0.875
+        ],
+        "ci95_exact": [
+          "7/8",
+          "7/8"
+        ],
+        "paired_t_ci95": [
+          0.875,
+          0.875
+        ]
+      },
+      "coarse": {
+        "mean": 0.8,
+        "mean_exact": "4/5",
+        "ci95": [
+          0.7,
+          0.875
+        ],
+        "ci95_exact": [
+          "7/10",
+          "7/8"
+        ],
+        "paired_t_ci95": [
+          0.6611777447401104,
+          0.9388222552598897
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.075,
+        "mean_exact": "3/40",
+        "ci95": [
+          0.0,
+          0.175
+        ],
+        "ci95_exact": [
+          "0",
+          "7/40"
+        ],
+        "paired_t_ci95": [
+          -0.06382225525988965,
+          0.21382225525988963
+        ],
+        "exact_signflip_p_upper": 0.25,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.5
+      },
+      "seed_differences": [
+        0.0,
+        0.25,
+        0.0,
+        0.0,
+        0.125
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        16,
+        0,
+        0,
+        8
+      ],
+      "exact_denominator": 64
+    },
+    "stage_regret": {
+      "fine": {
+        "mean": 4.4375,
+        "mean_exact": "71/16",
+        "ci95": [
+          4.3375,
+          4.53125
+        ],
+        "ci95_exact": [
+          "347/80",
+          "145/32"
+        ],
+        "paired_t_ci95": [
+          4.2775152557462235,
+          4.5974847442537765
+        ]
+      },
+      "coarse": {
+        "mean": 4.5875,
+        "mean_exact": "367/80",
+        "ci95": [
+          4.0625,
+          5.6125
+        ],
+        "ci95_exact": [
+          "65/16",
+          "449/80"
+        ],
+        "paired_t_ci95": [
+          3.172849110428062,
+          6.002150889571938
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.15,
+        "mean_exact": "-3/20",
+        "ci95": [
+          -1.25,
+          0.45625
+        ],
+        "ci95_exact": [
+          "-5/4",
+          "73/160"
+        ],
+        "paired_t_ci95": [
+          -1.6563973861180492,
+          1.3563973861180494
+        ],
+        "exact_signflip_p_upper": 0.53125,
+        "exact_signflip_p_lower": 0.5,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.46875,
+        -2.3125,
+        0.46875,
+        0.21875,
+        0.40625
+      ],
+      "exact_seed_difference_numerators": [
+        30,
+        -148,
+        30,
+        14,
+        26
+      ],
+      "exact_denominator": 64
+    },
+    "terminal_payment": {
+      "fine": {
+        "mean": 10.2,
+        "mean_exact": "51/5",
+        "ci95": [
+          10.0,
+          10.4
+        ],
+        "ci95_exact": [
+          "10",
+          "52/5"
+        ],
+        "paired_t_ci95": [
+          9.85995630967087,
+          10.540043690329128
+        ]
+      },
+      "coarse": {
+        "mean": 8.8,
+        "mean_exact": "44/5",
+        "ci95": [
+          6.4,
+          10.0
+        ],
+        "ci95_exact": [
+          "32/5",
+          "10"
+        ],
+        "paired_t_ci95": [
+          5.468265873762649,
+          12.131734126237353
+        ]
+      },
+      "paired_difference": {
+        "mean": 1.4,
+        "mean_exact": "7/5",
+        "ci95": [
+          0.0,
+          4.0
+        ],
+        "ci95_exact": [
+          "0",
+          "4"
+        ],
+        "paired_t_ci95": [
+          -2.1501603534571565,
+          4.950160353457156
+        ],
+        "exact_signflip_p_upper": 0.25,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 0.5
+      },
+      "seed_differences": [
+        0.0,
+        6.5,
+        0.0,
+        0.5,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        416,
+        0,
+        32,
+        0
+      ],
+      "exact_denominator": 64
+    }
+  },
+  "games": [
+    {
+      "seed": 24880,
+      "condition": "coarse",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24880,
+      "condition": "fine",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.96875,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.53125,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24881,
+      "condition": "coarse",
+      "primary": {
+        "resource_payment": 6.125,
+        "offered_rate": 5.4375,
+        "firm_profit": 13.875,
+        "tie_rate": 0.625,
+        "stage_regret": 6.625,
+        "terminal_payment": 4.0
+      }
+    },
+    {
+      "seed": 24881,
+      "condition": "fine",
+      "primary": {
+        "resource_payment": 10.4375,
+        "offered_rate": 10.40625,
+        "firm_profit": 9.5625,
+        "tie_rate": 0.875,
+        "stage_regret": 4.3125,
+        "terminal_payment": 10.5
+      }
+    },
+    {
+      "seed": 24882,
+      "condition": "coarse",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24882,
+      "condition": "fine",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.96875,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.53125,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24883,
+      "condition": "coarse",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24883,
+      "condition": "fine",
+      "primary": {
+        "resource_payment": 10.5,
+        "offered_rate": 10.46875,
+        "firm_profit": 9.5,
+        "tie_rate": 0.875,
+        "stage_regret": 4.28125,
+        "terminal_payment": 10.5
+      }
+    },
+    {
+      "seed": 24884,
+      "condition": "coarse",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.875,
+        "firm_profit": 10.0,
+        "tie_rate": 0.75,
+        "stage_regret": 4.125,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24884,
+      "condition": "fine",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.96875,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.53125,
+        "terminal_payment": 10.0
+      }
+    }
+  ],
+  "interval_field_convention": "paired_t_ci95 is paired t on differences; one-sample t on per-arm values",
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "coarse": 0,
+    "fine": 0
+  },
+  "notes": {
+    "coarse": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "fine": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Grid size, action set, numerical salience and equilibrium set change together; no isolated arithmetic, competition or anchoring mechanism",
+    "Identical payoff formula and allocation, supplied memory and self-only notepads; feasible deviations differ and workers are passive",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Coarse symmetric pure-Nash wages18,19,20; fine symmetric pure-Nash wages19,19.5,20; multiple equilibria and changed deviations preclude attributing effects solely to representation",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Selected local CLI/environment and referenced-file fingerprints; complete effective configuration and provider execution remain unattested",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "model_calls_forbidden": true,
+  "byte_identical_artifacts": {
+    "results/s41_ticksize.json": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+    "results/s41_summary.md": "d00c14220b86851d6dbd8c07dbca843114cd1e5b82aa4a36ce22b3cb1b487cb0",
+    "figures/s41_ticksize.png": "3b2a1f53646ca4614f412dbd79abc7587684f5bae286f896a82a4408da8a09bd",
+    "logs/s41_independent.json": "92416f4ad34f935bb3f6baca504242f7ef7b00c4f7ccfd21617b2bf310f7d7fc",
+    "logs/s41_exact_check.json": "aa6f6c3df7d73baed47e2c8604216b4a11c82928f0bc8df79122ae80ac063659",
+    "logs/s41_release.json": "6ada5b2883b37723c458511a4f0e928ccddafd0cfa6c0310d9fed9f8b076ee81",
+    "REPORT.md": "2605ad45fa97a20e3207727c11553f6744603f109f5c43857d36aa8f5b6c78f8",
+    "HITS.md": "45f581f4f21b78a661c9f6ed2d0ceae0b804a89a90ec4885e2e53c5cdd51f3e9",
+    "REPORT_DETAILS.md": "b8c97fa67f3ec887dda110c3628e6fa61ad8e98bdeb5cf0bf8e70c555ba5b717",
+    "README.md": "f2af1e0f5c79261d00f02922d4a03c286719a8e55a6a27f122e8c5cd52d2feeb"
+  },
+  "unchanged_archive_files": 20,
+  "unchanged_scientific_sources": 23
+}

@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 29 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 30 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -34,17 +34,18 @@
 | S40 · E, private-note erasure | Ten observed S37 histories /5 blocks;20 fresh decisions. Normalized offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
 | S42 · B2, surprise employer entry | 10 games /5 blocks. Paid wage r7–10: entry **10.000**, duopoly **10.000**; entry−control **+0.000 [+0.000, +0.000]**. | **DUD** for four-unit increase screen |
 | S43 · D, own-payoff table | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**. | **DUD** for one-unit offer screen |
+| S41 · own, wage tick size | 10 games /5 blocks. Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**. | **ODD** for two-unit increase screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
-<!-- S43 summary start -->
-**S43:** fixed-history focal wage offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**; paired t95% [-0.040,+0.640], inclusive upper sign-flip **p=0.12500**; frozen **DUD** for the one-unit screen. Twenty fresh decisions at ten selected S42 histories/five source blocks, zero new games or tuning. The table fixes rivals to their last public offers and changes arithmetic/scenario salience, length and order together; it does not identify an arithmetic error or a coordination mechanism. Offers are not realized worker pay. [All offers, uncertainty and figure](results/s43_summary.md).
-<!-- S43 summary end -->
+<!-- S41 summary start -->
+**S41:** Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375). Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested. [All outcomes and figure](results/s41_summary.md).
+<!-- S41 summary end -->
 
 
 Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
 
-Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible. Labor: initially two employers,value20,wages0..20,one passive divisible unit allocated to the highest wage. Duopoly/control pure-Nash wages18–20;S42 adds a third employer fromr6 in the entry arm,whose pure-Nash wages are19–20.
+Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible. Labor: initially two employers,value20,wages0..20,one passive divisible unit allocated to the highest wage. Integer-wage duopoly/control pure-Nash wages18–20;S41 half-unit pure-Nash wages19–20;S42 adds a third employer fromr6 in the entry arm,whose pure-Nash wages are19–20.
 
 **Earlier caveats:** S01 digits cannot identify coding; S02 echoed own notes; S04 fails its exposure gate; S03/S11 dynamics depend on timing/window phase; S07 is driven by one block; S09 removes incoming information as well as memory; S16 is an operational failure with no effect estimate. S19 adverse JSON actions can contradict explanations; S21's action-aware auditor correctly reads the selected challenge cases. No sibling headline change.
 
@@ -52,4 +53,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis question after D/S43; S44 row-order proposal only, S39/S41 queued, S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis/new-world question after own/S41; S44/S39 proposals only, S32 unconfirmed and S30 unrun.

@@ -1106,24 +1106,22 @@ S43 source/replay CLI versions are both codex-cli0.163.0;the archived known-inpu
 
 S43 registration00112c2/results137a292 pushed. Fresh full-history origin clone passes full offline release,17S43protocol tests and six byte-identical primary artifacts;clone clean. Receipts:logs/s43_remote_clean_clone.json and logs/s43_remote_clone.exit. Installed frozen venv reused,not a fresh install. Local456post-live tests and both final critics/parent exit0;Codex read raw archives,Opus used supplied quotes/text only. ScientificSHA5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1 unchanged.
 
+<!-- S41 reproduction start -->
+S41 wage tick-size pilot completed. Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375).
 
-S41 wage-tick pilot is being registered in iteration30:unit versus half-unit
-wages0..20,five fresh paired blocks24880..24884,T10. The feasible action set and
-pure-Nash wages differ,so this does not isolate numeric representation.
-[Design](DESIGN_S41.md). No live outcomes yet.
+Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested.
 
-After completion,reproduce from the registered/result checkout:
+[Design](DESIGN_S41.md), [All outcomes and figure](results/s41_summary.md).
 
 ```sh
 uv run python scripts/s41_analyze.py
 uv run python scripts/s41_independent.py
 uv run python scripts/s41_exact_check.py
 uv run python scripts/s41_present.py
+uv run python scripts/s41_publish.py
 uv run python scripts/s41_release.py
 uv run python -m unittest scripts.test_s41
 ```
 
-The release uses cache only and checks the REPORT row against the scientific
-result. `--clean-clone` verifies origin using the existing frozen venv,rather
-than installing dependencies afresh. Shared-source changes require the original
-frozen checkout. No interrupted resume,new scientific calls or sibling writes.
+`uv run python scripts/s41_release.py --clean-clone` checks origin with the existing frozen venv,not a fresh dependency installation. Sources require their original checkout after shared-source changes. The external launch lock spans the sole execution; no interrupted resume. `s41_publish.py` was added after registration for presentation only and never changes scientific sources,data,thresholds or estimators.
+<!-- S41 reproduction end -->

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "metric_cells": 60,
+  "bootstrap_and_t_summaries": 18,
+  "sign_sets": 6,
+  "sign_tails": 18,
+  "raw_keys": 200,
+  "notes_and_reasons": 200,
+  "prompt_contracts": 200,
+  "verdict": "ODD",
+  "primary_mean": 0.9625,
+  "primary_ci": [
+    0.0,
+    2.6875
+  ],
+  "upper_p": 0.25,
+  "result_sha256": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b"
+}

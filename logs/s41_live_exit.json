@@ -1,0 +1,15 @@
+{
+  "returncode": 0,
+  "scientific_result_sha256": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+  "observed_utc": "2026-10-25T04:00:53.159222+00:00",
+  "raw_execution_events": [
+    {
+      "event": "start",
+      "utc": "2026-10-25T03:52:44.899993+00:00"
+    },
+    {
+      "event": "complete",
+      "utc": "2026-10-25T03:59:55.268589+00:00"
+    }
+  ]
+}
