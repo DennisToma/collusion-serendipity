@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "commit": "9f80f3147a61965e835b3fd4ec218f694772b864",
+  "commit": "4bb315bd6d6910af5050d1cae7623bdca3bb1fe4",
   "clone_source": "origin",
   "full_history": true,
   "clone_clean": true,
@@ -20,7 +20,7 @@
   "dependency_environment": "Existing pinned installed venv; no fresh dependency installation",
   "byte_identical_artifacts": {
     "results/s65_bonus_pooling.json": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
-    "results/s65_summary.md": "4188cab7d92fd2314976e0cfd6a947c2ae8263cba0bfffcb0f350a9d31384819",
+    "results/s65_summary.md": "9d980d71902acd8021163bca1798bd29a05df6308c4d3f4f63a5eeb834cc54a2",
     "figures/s65_pooling.png": "c1fb6b20f7674087e01d3372525a948200ac398bdd4353ba328ca224273d587c",
     "results/s65_action_text.json": "eb05beea13f1be9d418fa8ba011e7b88ee8aa97911691e89fe018eca72ad45bd",
     "results/s65_action_text.md": "d17cb9ed9d6a0938f349bfb46476f4a0da69c9e26e394cd93eb5d50d4f271850",
@@ -31,6 +31,6 @@
     "REPORT_DETAILS.md": "a56d216d2b1a088913b9b55e1736f5e0ffa58e35137ffc7d603332160e384abc",
     "HITS.md": "58a66f6cf63677c76a8e94b19358cd35a55c6da3f8cae0bedef3a1c6374d557a",
     "README.md": "d14c84ee37fe83ccc750441f4ce5d16c4234ca4daffa2e3e1c71a766e85b6b66",
-    "logs/s65_release_final.json": "d4bd48cab9d6add9b6124204242c05279a961316a724a1042859d9b9047089c7"
+    "logs/s65_release_final.json": "0a0400ba9720f482f7e0c1f0117ab983cab18d4403e72c444a6287799211f1fc"
   }
 }

@@ -26,7 +26,7 @@
   "local_links": 457,
   "checked_sha256": {
     "results/s65_bonus_pooling.json": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
-    "results/s65_summary.md": "4188cab7d92fd2314976e0cfd6a947c2ae8263cba0bfffcb0f350a9d31384819",
+    "results/s65_summary.md": "9d980d71902acd8021163bca1798bd29a05df6308c4d3f4f63a5eeb834cc54a2",
     "figures/s65_pooling.png": "c1fb6b20f7674087e01d3372525a948200ac398bdd4353ba328ca224273d587c",
     "results/s65_action_text.json": "eb05beea13f1be9d418fa8ba011e7b88ee8aa97911691e89fe018eca72ad45bd",
     "results/s65_action_text.md": "d17cb9ed9d6a0938f349bfb46476f4a0da69c9e26e394cd93eb5d50d4f271850",
@@ -41,7 +41,7 @@
 }
 .................
 ----------------------------------------------------------------------
-Ran 17 tests in 2.930s
+Ran 17 tests in 3.132s
 
 OK
 {
@@ -61,4 +61,4 @@ OK
   },
   "verdict": "ODD"
 }
-PASS clean origin clone 9f80f3147a61965e835b3fd4ec218f694772b864
+PASS clean origin clone 4bb315bd6d6910af5050d1cae7623bdca3bb1fe4
