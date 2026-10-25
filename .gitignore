@@ -21,3 +21,5 @@ __pycache__/
 /logs/.s65-launch.lock
 
 /logs/.s66-launch.lock
+
+/logs/.s69-launch.lock

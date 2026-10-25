@@ -1,0 +1,5 @@
+{
+  "baseline_commit": "61c23c294f952d6b259997159e237550180a1465",
+  "baseline_sha256": "ecea2b2102cd31dd6a3f3a7b49c491801854c76d97d3b6cddf294feae6178363",
+  "appended": "\n\n## S69 \u2014 Pooled reviewer-charge sign calibration (prospective)\nFresh paired seeds25420..25424,T10,primaryr3..10;all five exploratory,not heldout.\nLowcharge3 versus highcharge13;five paired blocks;zero tuning,cross-pilot pooling or exclusions.\nFrozen design: DESIGN_S69.md. Registration precedes all scientific calls.\n"
+}

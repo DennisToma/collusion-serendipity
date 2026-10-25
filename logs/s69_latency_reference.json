@@ -1,0 +1,8 @@
+{
+  "reference": "S66 operational latency only,not outcome pooling",
+  "responses": 200,
+  "elapsed_seconds": 373.106041,
+  "median_call_seconds": 3.523479,
+  "max_call_seconds": 6.436546,
+  "runtime_guaranteed": false
+}

@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T11:01:41.788309+00:00; Phase2, iteration49 COMPLETE)
-- S66 (own):10fresh games/5blocks,identical pooled payoffs;200responses,no retries/failures.
-- Y approvals allocated-first23/40,final-first13/40;difference-.250[-.500,+.100].
-- Pairedt[-.728,+.228];upper sign-flip p=.9375;frozen directional DUD.
-- No reverse promotion,equivalence,comprehension,agreement or collusion claim.
-- Raw replay and independent50cells/15bootstrap+t/32signpatterns/200bindings PASS.
-- All855canonical+16focused checks PASS;nine verifier/three editorial mutations reject.
-- Codex raw/statistical and Opus supplied-text final reviews PASS;scopes retained.
-- All19frozen sources/1385older sciencepaths and prospective split append verified.
-- Origin78f108c:9artifacts byte-identical,16tests,clean clone;existing venv reused.
-- REPORT50pilots,HITS unpromoted;no active scientific run/review or sibling change.
-- Next different-axis A/C/D/F;own S68,S63,S57,S52,S49queued.
-- Risks:n5,many pilots,paragraph-position package,provider settings;edit guard is not atomic.
+## Current state (2026-10-25T11:07:14.445555+00:00; Phase2, iteration50 PREFLIGHT)
+- S69D:10fresh games/5blocks planned;pooled Ypayoff+2versus-3 via charge3to13.
+- Single new incentive calibration;no HIT rule,collusion claim or outcome pooling.
+- Main+independent synthetic replay and16focused tests PASS.
+- Both Codex and compact supplied-text Opus design critics exit0;dispositions retained.
+- Prior S66 directional DUD remains unchanged;REPORT currently50pilots.
+- All older scientific artifacts preserved;prospective split entry appended.
+- Canonical870checks PASS;19sources frozen;registration push precedes calls.
+- No scientific calls yet;requested codex/gpt-6-luna,max2simulator calls.
+- Cutoff13:30UTC,60min launch/first-admission headroom;pilots stop14:30.
+- Risks:n5,exploratory multiplicity,provider settings,whole-pilot quota/transport abort.
 
 ## Log
 
@@ -693,3 +691,9 @@
 
 
 - 2026-10-25T11:01:41.788309+00:00: iteration49 COMPLETE. Registration53c104deda5f20f7ca290e39f09d37da04ed09ae/scientific+document results78f108c57d4e7c4137e92e033801fb6f5f29b5f2 committed and pushed. Actual fresh full-history ORIGIN clone at exact resultsrevision reproduces all9checked artifacts byte-identically,all16focused checks and clean gitstatus;existing pinned installed venv reused,no fresh-install claim. Receipt logs/s66_remote_clean_clone.json;full command output logs/s66_origin_clone_run.log. Ledger result reference now points to that exact reproduced revision. Corrected release entry scripts/s66_release_final.py uses additive terminology overlay;frozen19sources and scientific result unchanged. All855canonical checks PASS using pre-existing historical synthetic fixtures,actual archive audits unpatched;50rawmetriccells/15exactbootstrap+t summaries/all32signpatterns per contrast/200raw action-note-reason and prompt/history bindings independently reproduced. Nine verifier mutations and three isolated pre-validation editorial mutations reject;19source hashes/1385older sciencepaths/exact prospective split-index append/49priorreportrows/50contiguous currentrows/468links verified. Both final scientific critics exit0(Codex raw/statistical versus compact Opus supplied-text arithmetic),focused publication critic confirms hashes/wiring/terminology;its concurrency finding accepted by narrowing guard scope,no concurrent-writer atomicity claim. Yapproval23/40 versus13/40,final-minus-allocated-.250[-.500,+.100],pairedt[-.728383183594358,.22838318359435805],upper/lower/two-sided sign-flipp.9375/.09375/.1875;blocks[-.5,.375,-.5,-.125,-.5]. Frozen DUD through negative mean and bootstrapupper.100<.25;no reverse/secondary/subgroup promotion,extra scientific calls,games,tuning,pooling,exclusions,HIT,sibling writes or headline change. No DIRECTION deviation. New ownS68queued before outcomes;next axis should differ from own. No active generation or review. Closing proof/status/ledger commit+push follows.
+
+- 2026-10-25T11:04:22.249489+00:00: iteration50 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling summaries read-only. Selected fresh axisD/S69 after own/S66: charge3to13 crosses pooled personal Yapproval payoff+2to-3. S51 changed already-negative unilateral incentives,so this is a new calibration question. Ten games/five paired blocks planned,no scientific calls. No DIRECTION deviation or sibling writes;preflight and independent methodology critics next.
+
+- 2026-10-25T11:07:14.445555+00:00: S69 preflight main+separate raw/stat replay and16focused checks PASS. Both independent methodology critics exit0;accepted explicit ODD/calibration criterion framing and latency/deadline context. Numeric-only penalty system substitution and all16stage profiles verified. No scientific calls;canonical suite finishing before registration.
+
+- 2026-10-25T11:08:09.385424+00:00: S69 registration ready:all870canonical checks PASS with existing historical synthetic fixtures,16final focused checks PASS,19frozen source hashes and1422older scientific artifact hashes verified. Both design critics exit0;no scientific outcomes/calls. Commit+push registration then one-shot launch.

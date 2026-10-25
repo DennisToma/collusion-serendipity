@@ -194,3 +194,9 @@ settlement and complete accounting facts;allocation-first versus final-payoff-fi
 paragraph order,T10,primaryr3..10;200planned decisions. Exploratory,zero tuning,
 no heldout,pooling or collusion inference. Full design/source freeze pushed before
 scientific calls;directional .25representation screen;see DESIGN_S66.md.
+
+
+## S69 — Pooled reviewer-charge sign calibration (prospective)
+Fresh paired seeds25420..25424,T10,primaryr3..10;all five exploratory,not heldout.
+Lowcharge3 versus highcharge13;five paired blocks;zero tuning,cross-pilot pooling or exclusions.
+Frozen design: DESIGN_S69.md. Registration precedes all scientific calls.
