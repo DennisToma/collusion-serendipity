@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+  "exact_summaries": 15,
+  "raw_bound_metric_cells": 50,
+  "result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20"
+}

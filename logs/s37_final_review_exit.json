@@ -1,0 +1,12 @@
+{
+  "manager_observed_utc": "2026-10-25T02:29:41.996045+00:00",
+  "driver_parent_exit_code": 0,
+  "driver_session_id": 29295,
+  "critic_exit_codes": {
+    "codex": 0,
+    "opus": 0
+  },
+  "evidence": "Completed exec session and logs/s37_final_reviews.log",
+  "opus_scope": "Supplied text only;no raw access or executed tests",
+  "codex_scope": "Independent raw reconstruction,full archive verification and static failure-test inspection"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_utc": "2026-10-25T02:28:56.757157+00:00",
+  "model_calls_forbidden": true,
+  "byte_identical_artifacts": {
+    "results/s37_policyword.json": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20",
+    "results/s37_summary.md": "f6fb0055d9af8926352a387383972f08cc1196e81ce3eff4bc48e07b1a50f2ef",
+    "figures/s37_policyword.png": "751647bb1143dacd492f9ccb8a66becd6869b3394abde2d73299916dbceeb607",
+    "REPORT.md": "ba56fd12d4ac5c40368e8faa1fea616767e39e1149697ef09469308e8ae7b2e8",
+    "logs/s37_independent.json": "33e16fa4544147aec4a844bfea487a85591f4c960b3cc473ecb58d8ee3f13349",
+    "logs/s37_exact_check.json": "59aa92f859724c72ae53ab1ff4242fd19452a9ac9969375b070eed7273d25440",
+    "logs/s37_release.json": "6d9fbb9d256cbc64efe45cc2083eb2f812e29de0dbde8a6dd117f1daf6d73db2"
+  },
+  "unchanged_archive_files": 21,
+  "frozen_sources": 22,
+  "scientific_result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20"
+}

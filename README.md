@@ -995,3 +995,20 @@ using the existing frozen dependency environment. The separate reconstruction
 checks arithmetic and raw contracts;it is not independent authorship or replication.
 S38 admission/runtime/publication safeguards are retained;complete effective
 settings,provider execution and actual tool non-use remain unattested.
+
+S37 completed: **DUD**. Coded and payroll take-home0.000 each;difference0.000
+[0.000,0.000] descriptive bootstrap,paired t[0,0],upperp1. All five differences
+zero;200responses,zero retries/failures. Both primary windows remain at the
+minimum quoted wage10 (normalized0). Bounds are degenerate,not population
+equivalence;no coordination or S36 mechanism claim.
+[All outcomes/figure](results/s37_summary.md),[interpretation](REPORT_DETAILS.md).
+Future regeneration requires the registered source checkout and dependency
+versions;after shared-source changes,use the result commit in EXPERIMENTS.tsv
+in a separate worktree rather than weakening archive checks.
+
+S37 final review:both critics confirm the frozen DUD;Codex reconstructs raw data
+and chronology,Opus uses supplied text only. Only admissions are fsynced. Known
+local-input gaps include AGENTS.override.md,config includes/referenced MCP/plugin
+executables,and transient changes reverted between checks;full effective settings
+and provider execution remain unattested. Admission hashes serialize local guards,
+with invocation overlap verified afterward. Frozen scientific sources are preserved.

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "source_entries": 22,
+  "local_links_checked": 119,
+  "independent": {
+    "passed": true,
+    "metric_cells": 50,
+    "bootstrap_and_t_summaries": 15,
+    "sign_sets": 5,
+    "sign_tails": 15,
+    "raw_keys": 200,
+    "notes_and_reasons": 200,
+    "prompt_contracts": 200,
+    "verdict": "DUD",
+    "primary_mean": 0.0,
+    "primary_ci": [
+      0.0,
+      0.0
+    ],
+    "upper_p": 1.0,
+    "result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20"
+  },
+  "exact_companion": {
+    "passed": true,
+    "scope": "PRE-FROZEN companion; exact rational equality after original independent raw-cell binding",
+    "exact_summaries": 15,
+    "raw_bound_metric_cells": 50,
+    "result_sha256": "9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20"
+  }
+}

@@ -880,3 +880,49 @@ tool non-use remain unattested. Timestamps bracket local llm.chat invocations.
 S38 interpretation: All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.
 
 Registered per-block primary means clarify the overlap in the figure:four blocks average wage10 in both arms,and one averages0 in both. The aggregate8 is heterogeneous across blocks,not a uniform wage8 path.
+
+
+## S37 — Payroll wording at an identical quoted wage grid
+
+Frozen **DUD**,ten fresh games/five paired blocks24800..24804,zero tuning.
+Both arms quote10..30 and subtract10 for worker take-home and employer cost.
+Coded wording replaces payroll tax/subsidy wording;wording,labels and length
+change together. Same owner-only notes,allocation and stage payoffs. This
+comparison was selected after S36 and uses no pooled outcomes.
+
+Take-home coded0.000,payroll0.000;coded−payroll0.000[0.000,0.000] descriptive
+bootstrap,paired t[0.000,0.000],upper sign-flip p1. All five differences0.
+All primary-window paid and offered normalized wages are0 in both arms,
+so primary quoted wages are at the allowed minimum10. The bounds are degenerate
+resampling summaries,not evidence of population equivalence. The stage pure Nash
+quoted profiles are(28,28),(29,29),(30,30),normalized wages18–20. Mean one-shot
+regret9 in both arms describes profitable unilateral deviations at observed
+actions;low wages and firm profits do not verify an agreement or coordination.
+A null wording contrast at this observed floor cannot identify which component
+of S36's bundled comparison mattered,nor establish anchoring or policy aversion.
+
+200cached responses,zero invalid-output retries/failures. All200raw request keys,
+50metric cells,15bootstrap/t summaries,15sign tails and200action/note/reason
+bindings reproduced separately;15exact rational summaries agree.
+[Prospective design](DESIGN_S37.md) · [All five outcomes](results/s37_summary.md) ·
+[Frozen results](results/s37_policyword.json).
+
+The prompt reconstruction duplicates literal contracts and checks raw-byte
+consistency;the separate economics/statistics are independent arithmetic,not
+independent authorship or semantic assurance. S38 safeguards are retained,with
+heavy preflight before workers and visibly labeled synthetic previews. Served
+model,provider scheduling,full effective settings and tool non-use are unattested.
+
+Final critics both confirm the unchanged DUD. Codex independently reconstructed
+raw choices,all bootstrap/sign-flip values and the complete archive;Opus reviewed
+supplied text only. At the observed zero-wage floor,total firm profit20 is maximal
+in this stage game,while each firm can raise its own payoff10→19 by quoting11
+against10. This does not establish coordination or distinguish unmeasured
+mechanisms. All registered metric values remain unchanged.
+
+Only admissions are fsynced;other journals are flushed and crash loss fails
+closed. Known local-input gaps include AGENTS.override.md,configuration includes
+and referenced MCP/plugin executables,other effective settings,and transient
+changes reverted between checks. No complete attestation is claimed. Admission
+hashing is serialized;recorded local invocation overlap passed,without provider
+scheduling attestation. These limitations do not change the frozen screen.

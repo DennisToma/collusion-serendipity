@@ -416,3 +416,15 @@ No equivalence,agreement,coordination or sibling headline claim;no pooling.
 `uv run python scripts/s38_present.py`;`uv run python scripts/s38_release.py`.
 
 S38 interpretation: All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.
+
+
+**S37: unpromoted DUD for payroll wording at fixed quote grid (own).**
+Ten fresh games/five blocks,coded and payroll take-home wages0.000 each over
+r3–10;coded−payroll0.000[0.000,0.000],paired t[0,0],upperp1. All five ties.
+Both quoted grids10..30 normalize by subtracting10;primary actions are at the
+minimum in both arms. Bounds are degenerate,no population-equivalence claim.
+No agreement or coordination verified;no S36 mechanism identification,pooled
+comparison or sibling headline change. Both siblings:quote coordinates and
+economic wages differ;self-only low wages alone do not establish coordination.
+[Design](DESIGN_S37.md),[all outcomes/figure](results/s37_summary.md).
+Reproduce:`uv run python scripts/s37_release.py`.

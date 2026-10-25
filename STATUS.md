@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T02:13:32.021188+00:00; Phase2, iteration26 IN PROGRESS)
-- own/S37:fixed-grid payroll-versus-coded wording pilot;no live outcomes.
-- Fresh24800..24804;ten games,T10,primaryr3-10,coded-minus-payroll.
-- Samequote10..30,minus10 map,productivity20,owner-only notes.
-- Frozen2-unit directional screen;no pooling,mechanism or replication claim.
-- Corrected30protocol tests and414repository tests PASS.
-- Full dry200keys/50cells/15exact summaries PASS;runtime safeguards retained.
-- Codex design critic complete;two low presentation fixes applied.
-- Both initial/focused design critics exit0;no remaining blockers.
-- S38 remains DUD:known/hidden8,all five paired contrasts0.
-- S36 remains ODD:+6.2[2.2,10],upperp.0625;no HIT.
-- Next:final suite,freeze,push,run S37,verify and publish.
-- S39 own proposal queued;S32 unconfirmed,S30 unrun;no sibling writes.
+## Current state (2026-10-25T02:29:41.996045+00:00; Phase2, iteration26 PUBLICATION)
+- own/S37:10games/5blocks,200valid decisions,zero retries/failures.
+- Coded/payroll take-home0each;five paired ties;frozen DUD.
+- Bootstrap/t[0,0] degenerate,upperp1;no population-equivalence claim.
+- Minimumquote10,normalized0;regret9each;no S36 mechanism/coordination claim.
+- Full200key/22source/registration/runtime/UTC/export replay PASS.
+- Separate50cells/15bootstrap+t/15sign tails/200bindings/15exact PASS.
+- Durable414post-live tests PASS;both final critics/parent exit0.
+- Final forbidden-call7artifact regeneration PASS;21archivefiles unchanged.
+- ScientificSHA9c9ad480 unchanged;all22frozen source hashes match.
+- Registrationfe1d49e pushed;results push/origin clone next.
+- No active generation/review,tuning,pooling,HIT or sibling writes.
+- S39 queued only,S32unconfirmed,S30unrun;next fresh different axis.
 
 ## Log
 
@@ -367,3 +367,13 @@
 - 2026-10-25T02:11:01.618912+00:00: iteration26 read rules/plan/state/direction/ledger and both sibling report/state summaries. Selected own/S37 after F/S38:queued fixed-grid payroll-versus-coded wording control of S36. Fresh five paired blocks,no pooling or mechanism claim. Registered design/ledger before calls;reused S38 admission/runtime/publication safeguards. Queued own/S39 offset-magnitude idea. Pre-live validation/reviews next;no direction deviation or sibling writes.
 
 - 2026-10-25T02:17:06.072785+00:00: S37 final-source pre-live checks PASS:30protocol tests,414canonical repository tests with durable childexit0,full dry200key replay,50raw metric cells,15bootstrap/t summaries,15sign tails,200action/note/reason bindings and15exact summaries. Initial verifier-copy errors and historical S25 Next-line interface failure preserved and corrected before outcomes. Initial and focused Codex/Opus design critics exit0;focused critics no blockers,Opus supplied-text scope explicit. Accepted synthetic preview labels,action-evaluation count,preworker heavy preflight and served-model caveat.20fingerprint benchmark median~.498s,max~.509s;400check extrapolation204s. All22frozen source hashes match final dry receipt. Live registration/push and sole runner next;no scientific outcomes,tuning,pooling or sibling writes.
+
+- 2026-10-25T02:17:21.235978+00:00: S37 registrationfe1d49e2f7483880ee466821f816d7f6d1170e9a committed/pushed before live calls. Sole foreground runner launches with durable exit receipt,two workers and per-block barriers;22frozen sources,03:20UTC admission cutoff. Launch and first-admission guards repeat historical20minute headroom requirement. No partial treatment estimates or scientific source edits.
+
+- 2026-10-25T02:21:31.812136+00:00: S37 metadata-only live checkpoint:4/10games complete,108responses,zero parser retries/failure markers;all22source hashes match. No actions,notes or partial effects inspected. Sole runner remains active;no scientific source edits or second pilot.
+
+- 2026-10-25T02:26:13.953636+00:00: S37 sole runner exit0,ten games/five blocks,200valid decisions,zero retries/failures. Frozen coded0/payroll0,difference0[0,0],pairedt[0,0],upperp1,all five ties;DUD. Both primary windows at quote10 minimum(normalized0);no equivalence,S36 mechanism,anchoring,agreement or coordination claim. Full admission/request/response/replay/source/registration/environment/runtime/invocation overlap/UTC/export checks PASS. Separate50raw cells,15bootstrap/t summaries,15sign tails,200action/note/reason bindings and15exact summaries PASS. ScientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20. Reports/HITS/README current;final critics,post-live suite,figure,call-forbidden release and remote clone next. No second pilot,tuning,pooling or sibling writes.
+
+- 2026-10-25T02:28:51.090587+00:00: S37 final Codex/Opus critics both exit0,parent0. Codex independently reconstructs raw choices,bootstrap/sign flips,stage economics and full archive integrity;Opus supplied-text-only scope explicit. Accepted floor/joint-profit/unilateral-regret context and explicit fingerprint/journal limitations in docs,without source/estimator changes or mechanism claim. Opus total-profit denominator typo documented;actual total-profit/8 and regret/16 independently verified. Durable post-live414-test suite childexit0. Figure inspected,119local links/cache-only release PASS;first forbidden-call regeneration all7artifacts/21archivefiles/22sources unchanged. ScientificSHA9c9ad480 unchanged. Final regeneration then results push/origin clone next.
+
+- 2026-10-25T02:29:41.996045+00:00: S37 final model-call-forbidden regeneration PASS:all7artifacts byte-identical(scientific result,summary,figure,REPORT,independent/exact/release receipts),21archive files and22frozen sources unchanged. ScientificSHA9c9ad48057c03dc23f452f825f0214267ae8b5ee5cd06e8cc07bcde3a4a96a20.119local links/cache-only release PASS,git diff --check PASS,publishable payload40778613bytes<100MB.414post-live tests childexit0,both final critics/parent exit0. No active generation/review,new scientific calls,source edits,tuning,pooling,HIT or sibling writes. Results milestone push then origin clean clone next.

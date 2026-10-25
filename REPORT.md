@@ -30,13 +30,13 @@
 | S35 · B, productivity asymmetry | 10 games /5 blocks. Paid wage r3–10: symmetric **11.800**, asymmetric **19.450**; asymmetric−symmetric **7.650 [3.825, 9.825]**. | **ODD** for four-unit wage screen |
 | S36 · own, gross/net quotation | 10 games /5 blocks. Worker take-home r3–10: NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]**. | **ODD** for two-unit reduction screen |
 | S38 · F, final-round disclosure | 10 games /5 blocks. Paid wage r3–10: hidden **8.000**, known **8.000**; known−hidden **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
+| S37 · own, payroll wording | 10 games /5 blocks. Take-home wage r3–10: coded **0.000**, payroll **0.000**; coded−payroll **+0.000 [+0.000, +0.000]** (degenerate); both at allowed minimum. | **DUD** for two-unit increase screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
-<!-- S38 summary start -->
-**S38:** the observed known−hidden mean wage difference was **+0.000 [+0.000, +0.000]** (known−hidden;descriptive bootstrap). Paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Frozen verdict **DUD**, no HIT. Final-round wages were known **8.000**, hidden **8.000** (prespecified descriptive secondary only). Numeral10/salience and horizon knowledge change together;no isolated unraveling or coordination mechanism. [All outcomes and figure](results/s38_summary.md).
-All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.
-<!-- S38 summary end -->
+<!-- S37 summary start -->
+**S37:** with the same quote grid10–30 and minus10 payoff map, coded and payroll wording both produced **zero take-home wages throughout the primary window**. The observed minimum quote10 gives take-home0 and maximizes combined firm profit here,while mean one-shot regret is9 in both arms. All five coded−payroll block differences are0;bootstrap/t95% **[0,0]**,upper sign-flip **p=1**;frozen **DUD**,no HIT. The bounds are degenerate and do not establish population equivalence. Both arms use self-only notes;no agreement or coordination is verified. Labels,wording and length change together. This fresh comparison does not identify S36's mechanism or explain its earlier gap. [All outcomes and figure](results/s37_summary.md).
+<!-- S37 summary end -->
 
 
 Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
@@ -49,4 +49,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** S37 in progress; tests payroll versus coded wording at the same10–30 quote grid and minus10 payoff map. Five fresh paired blocks; frozen coded−payroll screen; no outcome pooling or mechanism claim. S32 remains unconfirmed and S30 unrun.
+**Next:** Fresh different-axis question after own/S37; no secondary-driven promotion. S39 is queued only, S32 unconfirmed and S30 unrun.

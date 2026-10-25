@@ -1,0 +1,492 @@
+{
+  "pilot": "S37",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "coded minus payroll",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "resource_payment": {
+      "coded": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "payroll": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "offered_rate": {
+      "coded": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "payroll": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "firm_profit": {
+      "coded": {
+        "mean": 20.0,
+        "mean_exact": "20",
+        "ci95": [
+          20.0,
+          20.0
+        ],
+        "ci95_exact": [
+          "20",
+          "20"
+        ],
+        "paired_t_ci95": [
+          20.0,
+          20.0
+        ]
+      },
+      "payroll": {
+        "mean": 20.0,
+        "mean_exact": "20",
+        "ci95": [
+          20.0,
+          20.0
+        ],
+        "ci95_exact": [
+          "20",
+          "20"
+        ],
+        "paired_t_ci95": [
+          20.0,
+          20.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "tie_rate": {
+      "coded": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "paired_t_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "payroll": {
+        "mean": 1.0,
+        "mean_exact": "1",
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "ci95_exact": [
+          "1",
+          "1"
+        ],
+        "paired_t_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "stage_regret": {
+      "coded": {
+        "mean": 9.0,
+        "mean_exact": "9",
+        "ci95": [
+          9.0,
+          9.0
+        ],
+        "ci95_exact": [
+          "9",
+          "9"
+        ],
+        "paired_t_ci95": [
+          9.0,
+          9.0
+        ]
+      },
+      "payroll": {
+        "mean": 9.0,
+        "mean_exact": "9",
+        "ci95": [
+          9.0,
+          9.0
+        ],
+        "ci95_exact": [
+          "9",
+          "9"
+        ],
+        "paired_t_ci95": [
+          9.0,
+          9.0
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    }
+  },
+  "games": [
+    {
+      "seed": 24800,
+      "condition": "coded",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24800,
+      "condition": "payroll",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24801,
+      "condition": "coded",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24801,
+      "condition": "payroll",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24802,
+      "condition": "coded",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24802,
+      "condition": "payroll",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24803,
+      "condition": "coded",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24803,
+      "condition": "payroll",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24804,
+      "condition": "coded",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    },
+    {
+      "seed": 24804,
+      "condition": "payroll",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0
+      }
+    }
+  ],
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "coded": 0,
+    "payroll": 0
+  },
+  "notes": {
+    "coded": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "payroll": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Fresh wording comparison selected after S36; both quote grids10..30 and both subtract10; policy labels, wording and sentence length change together",
+    "Identical stage incentives, supplied memory, and self-only notepads; no strategic workers",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Static pure Nash quoted profiles (28,28),(29,29),(30,30),normalized wages18..20 in both arms; no isolated anchoring or tax mechanism",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Selected local CLI/environment and referenced-file fingerprints; complete effective configuration and provider execution remain unattested",
+    "Model/backend fields record requested route; served model identity and actual tool non-use unverified"
+  ]
+}
