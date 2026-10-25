@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "commit": "4b16dba6a7bb191c799249721bd593c7c3101063",
+  "observed_origin_head": "4b16dba6a7bb191c799249721bd593c7c3101063",
+  "full_history_origin_clone": true,
+  "scientific_calls_forbidden": true,
+  "clone_git_status_clean": true,
+  "dependency_environment": "Existing installed frozen venv;not a fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s60_summary.md": "af78a7d70cef4c9df117a8649def712080c820bb0254d87cd8b7b3c0bca2abb7",
+    "results/s60_action_text.md": "d2cce3f885bc4a597bff2d3fd328d3fe1f8a520340ade596b664869efa5a7d17",
+    "results/s60_action_text.json": "a914e584e75122d9c2a1f4e3422129c010387885b576f992f457356018eca1dd",
+    "figures/s60_author_bonus.png": "facc42b1f610033d4db2d7de9b88c7ee1039694b095122b872ad76a998171352",
+    "REPORT.md": "49f5484f34c1410014b06f4a0286fbfb087decbf3b5fb09d6e8077b26348a1aa",
+    "REPORT_DETAILS.md": "f72eeca4528380fa6796989342f3db809b4bcb6fec0d5dde7bd0fafa4d535508",
+    "HITS.md": "e2b57ba4d0214869c6e5a2a980615065a5c93e5121e246857929020606d9547a",
+    "README.md": "931ecba24efceb59a7e6ff4ec87262b723b367bfc7bfee232771d5097f5ee102",
+    "logs/s60_document_check.json": "7f5e8aa470dbcbed06892daa4b14fa7e682e9bdece9fc7e47f3d682d1df68b7d",
+    "results/s60_author_bonus.json": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb",
+    "logs/s60_independent.json": "d9ea0b29f7b478ce638ca9b6c8720b0c5cf2370a9f5230120b2caea4dfc10627",
+    "logs/s60_release.json": "fc4e0430b372831c7b50bbbf4647f60a97f7e65d6dacb99e3c09c7c583f5db23",
+    "logs/s60_publication.json": "96e3dab2bb74d70e259e69a6ddcc3875990899b028987dca9a6893c9b14e7cfb",
+    "logs/s60_static_bound.json": "14e336fc6b2f66d93bac76acc1c13f939fa8d01741a8b24f742b3d82e2be651e"
+  },
+  "commands": [
+    [
+      "scripts/s60_publish_check.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s60",
+      "scripts.test_s60_presentation"
+    ],
+    [
+      "scripts/s60_independent.py"
+    ],
+    [
+      "scripts/s60_present.py"
+    ],
+    [
+      "scripts/s60_static_bound.py"
+    ]
+  ]
+}

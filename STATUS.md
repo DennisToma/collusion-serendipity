@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T08:15:27.558706+00:00; Phase2, iteration43 RELEASE CHECKS)
-- S60/D:10fresh games/5paired blocks,T10;200accepted/zero retry or failure.
-- Author6 Yapprovals11/40,author1 5/40;reviewer marginal Ypayoff−2 fixed.
-- High−low+.150[-.025,.400] bootstrap95%;t[-.203929,.503929];upperp.25.
-- Blocks[.125,.625,-.125,.125,0];frozen ODD,no HIT or sibling headline change.
+## Current state (2026-10-25T08:34:37.280764+00:00; Phase2, iteration43 COMPLETE)
+- S60/D:10fresh games/5paired blocks,T10;200accepted,zero retries/failures.
+- Author6 Yapprovals11/40,author1 5/40;high−low+.150[-.025,.400] bootstrap95%.
+- Pairedt[-.203929,.503929];upperp.25;blocks[.125,.625,-.125,.125,0].
+- Frozen ODD;no HIT or sibling headline change;zero tuning/pooling/exclusions.
 - Full source/registration/runtime/time/request/cache/export replay PASS.
-- Separate200rawbindings/50cells/15exact bootstrap+t/all sign summaries PASS.
-- Call-forbidden release/regeneration PASS;all1191prior scientific files unchanged.
-- 753final canonical tests/32scoped checks PASS;initial747pre/post PASS.
-- Both design/final scientific critics exit0;corrected publication critic PASS.
-- REPORT44pilots/43older rows preserved;actual figure visually inspected.
-- Registrationeecaf5f pushed;results commit+originclone proof next.
+- Separate200bindings/50cells/15bootstrap+t/all32sign enumerations PASS.
+- 753final canonical tests and32fresh-origin scoped checks PASS.
+- Both design/final scientific critics and corrected publication critics PASS.
+- Fresh origin4b16dba:14artifacts byte-identical,clone clean;existing venv reused.
+- All1191older scientific files/22registered sources unchanged;REPORT44pilots.
+- Registered eecaf5f/results4b16dba pushed;closing clone-proof commit next.
+- Next fresh different-axis B/F/A;own S61,S57,S52,S49 queued only.
 - Risks:n5,multiplicity,one model;incoming reward/surplus/salience/history bundled.
-- Queued own/S61 only;next fresh different-axis B/F/A;no active game generation.
 
 ## Log
 
@@ -612,3 +612,5 @@
 - 2026-10-25T08:31:21.210580+00:00: Both final scientific critics exit0,confirm frozen ODD and all primary statistics. Codex raw200response/full archive reconstruction versus Opus supplied-source/per-game arithmetic scope recorded. Accepted post-outcome static low-pair-total bound and flattened CLI-role clarification;no observed endpoint/source/result/threshold change. Publication critic exposed inherited default-check prose gap,then README self-copy in new helper. Both fixed outside registered scientific sources:independent Git-baseline S60 sections,read-only rendered-artifact comparisons,six mutation/future-compatibility regressions. Corrective critic exit0,PASS(static-only). 747postlive suite passed;753final suite PASS. All22scientific source hashes/resultSHA/1191older science files unchanged. Originclone proof next.
 
 - 2026-10-25T08:32:33.233746+00:00: Final753canonical checks PASS(0failures/errors),including26frozen S60checks and6post-outcome publication/mutation/compatibility checks. Corrected focused publication critic exit0,PASS static-only. Strong publication check binds4frozen displayed artifacts plus independently generated S60-managed sections from registration Git baselines,full raw/archive replay and unchanged original bytes. All22registered sources,complete archive and resultSHAb7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb unchanged. Actualfigure inspected;all43older pilot rows preserved. Results commit/push then fresh14artifact/32check originclone next;no further scientific calls or experiments.
+
+- 2026-10-25T08:34:37.280764+00:00: iteration43 COMPLETE. Registrationeecaf5f988819a1800237b943154c0085ff4fdbb/scientific+document results4b16dba6a7bb191c799249721bd593c7c3101063 committed/pushed;registration full hash is authoritatively recorded in data/s60_author_bonus/config.json and launch receipt. Fresh full-history ORIGIN clone at results commit PASS:14scientific/document artifacts byte-identical,32scoped checks,full registered provenance/raw replay,separate200accepted action/note/reason bindings,50metric cells,15exact bootstrap/t summaries and all32sign enumerations. Clone gitstatus clean;receipt logs/s60_remote_clean_clone.json,commands/output logs/s60_origin_clone_run.log. Existing installed frozen venv reused,not a fresh dependency installation. Final753canonical tests PASS;initial747pre/post suites and all correction receipts retained. Both initial design/final scientific critics exit0;Codex raw/source reconstruction versus Opus supplied-text/per-game arithmetic scope recorded. Design boundary patch and corrected publication/editorial critics exit0,PASS(static-only for latter). Sole200returned/accepted scientific responses,zero retries/failures;no active generation/review. Author6 TYPE-Y approvals11/40,author1 5/40;contrast+.150[-.025,.400],pairedt[-.203928694245568,.503928694245568],upperp.25,lowerp.9375,two-sidedp.5;blocks[.125,.625,-.125,.125,0]. Frozen ODD,no promotion or sibling headline change. All22registered source bytes,complete archive and resultSHAb7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb unchanged;all1191original science artifacts/43older pilot rows preserved,REPORT44pilots. Post-outcome algebraic clarification proves low pair-total gap versus approve-X/reject-Y is−2*rejectedX−approvedY<=0 for any fixed task sequence;no observed endpoint or mechanism added. Simulator message fields flattened into one CLI prompt. New publication guard fixes false-prose/README-self-copy gaps outside all registered sources,uses independent Git-baseline S60 sections and rendered-asset comparisons,allows later-pilot additions safely;6regressions PASS. Initial focused publication BLOCKER retained with corrected PASS. No extra games/scientific calls,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,sibling writes or DIRECTION deviation. New own/S61consistent-ID-permutation proposal queued only. Closing proof/ledger commit+push follows.
