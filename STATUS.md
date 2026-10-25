@@ -1,19 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T09:14:18.348548+00:00; Phase2, iteration45 COMPLETE)
-- S61/own:30fresh decisions,ten fixed S29 histories/five blocks;zero new games.
-- Swap mismatch1/10,identical-repeat mismatch1/10;excess0.000[-.300,.300].
-- Pairedt[-.438995,.438995];upperp.75;blocks[0,.5,0,0,-.5].
-- Frozen DUD via mean rule;+.25 unresolved;no invariance/equivalence or mechanism.
-- Approvals anchor4/10,repeat5/10,swapped5/10;zero retries/failures/tuning.
-- Full replay,separate30bindings/30cells/6bootstrap+t/32sign summaries PASS.
-- Context81rounds/162notes/payoffs;789canonical/20focused tests PASS.
-- Both design/final critics pass;Codex raw replay,Opus supplied-text scope.
-- Fresh origin56e66d7:7artifacts byte-identical,20focused tests,clone clean.
-- All15registered sources/1267older artifacts/45older report rows unchanged.
-- Registration8535124/results56e66d7 pushed;REPORT46pilots;closing proof next.
-- Next fresh different-axis A/B/F;S63,S57,S52,S49 queued only;no promoted HIT.
-- Risks:n5,multiplicity,anchor blindspot,ID/order cues,CLI/provider variability.
+## Current state (2026-10-25T09:23:46.065939+00:00; Phase2, iteration46 IN PROGRESS)
+- Selected F/S64:fresh memory retention versus per-decision reset;10games/5blocks planned.
+- Reset clears completed public rounds and both notepads;current types/round/payoffs fixed.
+- Fresh seeds25300..25304,T10,r3-10;no reused histories,pooling or outcome tuning.
+- Frozen .25persistent-minus-reset screen;no pure reciprocity/reputation mechanism claim.
+- 17focused synthetic/provenance/publication checks PASS;zero scientific calls so far.
+- Final806canonical +17focused/+17future-clock checks PASS;both design critics PASS.
+- Codex found hidden transport retries;separate one-attempt wrapper/regression now PASS.
+- Initial unscoped suite9fail/1error:known expired legacy fixtures;receipt retained.
+- All1334older selected scientific artifacts unchanged;46older report rows preserved.
+- Latest complete S61:DUD,excess disagreement0[-.3,.3];+.25 remains unresolved.
+- Next:freeze/push,sole S64run,replay/finalcritics/cleanclone.
+- Risks:n5,multiplicity,bundled memory/length/emptiness cues,provider variability.
 
 ## Log
 
@@ -636,3 +635,9 @@
 - 2026-10-25T09:13:16.747907+00:00: both final critics exit0,no blocking bug. Codex independently reconstructs30raw approvals/30cells/6exact summaries and verifies complete registered provenance;five read-only checks PASS. Opus supplied-text arithmetic only. REPORT explicitly states +.25 remains unresolved. All registered source/result bytes unchanged. Results milestone commit/push then frozen cache-only remote-clone proof.
 
 - 2026-10-25T09:14:18.348548+00:00: iteration45 COMPLETE. Registration8535124fc80941bfe752c716348cd8ed79f5ad3c and scientific/document results56e66d72e61aced0bf877de3c55d19c116712132 committed/pushed. Fresh full-history ORIGIN clone at results commit PASS:7scientific/presentation artifacts byte-identical,20focused tests,full registered provenance/raw replay and separate30bindings/30blockcells/6exact bootstrap+t+32sign summaries;clone clean. Receipt logs/s61_remote_clean_clone.json and commands/output logs/s61_origin_clone_run.log;existing installed frozen venv reused,not fresh dependency installation. Both methodology and final Codex/Opus critics exit0;Codex raw source/statistics reconstruction versus Opus supplied-text arithmetic scope. Canonical789tests and focused20tests PASS. Sole30scientific responses/acceptances,zero retries/failures/newgames/tuning/pooling/exclusions/secondary promotion. Excess0.000[-.300,.300],pairedt[-.4389945165425414,.4389945165425414],upperp.75,lowerp.75,two-sidedp1;blocks[0,.5,0,0,-.5],mismatch1/10versus1/10,approvals4/5/5. Frozen DUD via mean rule;+.25 remains unresolved,no invariance/equivalence/mechanism/agreement/intent/collusion inference or sibling headline change. All15registered sources/1267older selected scientific artifacts/45prior report rows and prior ledger outcomes unchanged;REPORT46pilots. Result SHA09141f01450b0f2559c4bee7ed14300cc950657297b854589d78f8815e806636. No active generation/review,new experiment,sibling writes or DIRECTION deviation. S61 proposal activated;new own/S63 temporal-distance idea queued only. Closing proof/ledger/handoff commit+push follows.
+
+- 2026-10-25T09:23:46.065939+00:00: iteration46 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling report/state summaries. Selected F/S64 fresh persistent-versus-reset memory trajectories after own/S61;ten games/five paired blocks,zero scientific decisions yet. 17focused checks/full synthetic main+independent replay PASS;initial804canonical PASS. Initial unscoped discovery9failures/1error is from known expired S21/S31/S33 fixtures and S54 completed-default-dataset test;unmodified canonical fixture runner resolves them. Codex design found inherited hidden llm.chat transport retries;fixed in new S64-only common_memory wrapper(retries1),first-failure regression PASS. Preserved original failure/test receipts,all1334older science artifacts unchanged. Corrected publication helper/figure paths before outcomes;new publication mutation guards reject fabricated S64prose and changed older rows. Broader final suite and design critics pending. No new own idea required(S63queued iteration45),sibling writes or DIRECTION deviation.
+
+- 2026-10-25T09:29:27.879886+00:00: S64 source-frozen806canonical checks PASS;17focused and17future2099-clock checks PASS. Both corrected Codex and compact Opus design reviews PASS;initial full-context Opus timeout retained,compact scope is supplied excerpts only. Corrected Codex in-memory probes confirm full document/duplicate-row rejection and one backend/subprocess dispatch;its9temp-write-denied test errors are a critic-environment restriction,manager17checks pass. All21source files ready for pushed registration;all1334older artifacts unchanged,zero scientific calls. No scientific tuning or DIRECTION deviation.
+
+- Pre-registration staged whitespace check caught one inherited trailing blank line in new common_memory.py;removed without executable/AST change,17focused checks re-pass,source-hash preflight refreshed. No scientific calls.

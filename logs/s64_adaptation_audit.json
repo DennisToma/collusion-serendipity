@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "unchanged_ast_functions": {
+    "simulation.unwrap_json_fence": true,
+    "simulation.parse_action": true,
+    "simulation.outcome": true,
+    "simulation.display_status": true,
+    "statistics.metrics": true,
+    "statistics.exact_summary": true,
+    "statistics.exact_signflip": true,
+    "statistics.classify": true
+  },
+  "identical_initial_prompt_pairs": 10,
+  "older_artifacts_unchanged": 1334,
+  "source_scope": "Parsed code comparison and synthetic initial prompts; no live decisions"
+}

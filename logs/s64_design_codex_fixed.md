@@ -1,0 +1,11 @@
+**BLOCKERS — publication verification and reproducibility.** No edits or live scientific calls made.
+
+- **Publication check accepts contradictory results.** [s64_publish.py:30](/home/factory/collusion/collusion-serendipity/scripts/s64_publish.py:30) checks that expected blocks and the correct row appear somewhere; it does not reject extra S64 claims or duplicate rows. An entirely in-memory probe prepended a fabricated HIT headline and appended a conflicting S64 row to otherwise correct DUD documents. `apply(True)` still reported success, including `new_pilot_rows=1`. Default release inherits this gap. Compare complete documents against deterministic output from the registered baseline, or explicitly reject additional S64 claims/rows.
+
+- **Required reproduction tests expire at the scientific cutoff.** [test_s64.py:113](/home/factory/collusion/collusion-serendipity/scripts/test_s64.py:113)’s fenced-response test and the new first-failure regression use nondry `TenderCache` without freezing `sim.memory_retention.now`. At/after **2026-10-25 11:00 UTC**, admission rejects their mocked calls before the expected behavior executes. This breaks the required clean-clone test command in [s64_release.py:65](/home/factory/collusion/collusion-serendipity/scripts/s64_release.py:65). Freeze those tests’ clocks before cutoff.
+
+**Checks that pass:** The separate S64 wrapper explicitly supplies `retries=1`; the first-failure regression checks one dispatch, terminal abort and retained failure evidence. The pinned model equals `CODEX_CHEAP`; a mocked `_codex` failure confirmed one subprocess attempt. Shared `llm.py` remains unchanged.
+
+Default release **does invoke independent reconstruction**, compares its receipt, replays **every raw response key exactly once**, and regenerates/computes byte equality for **both action-text JSON and Markdown**, alongside the summary and figure. Its publication check exists but has the gap above.
+
+No additional result-invalidating arithmetic or intervention defect found. Bundled memory effects, five exploratory blocks, symmetry-dependent inference, mechanically related metrics and unattested provider behavior remain disclosed limitations. The 17-test success is logged; I did not rerun the suites or validate a scientific archive, which is not yet present.

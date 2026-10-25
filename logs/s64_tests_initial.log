@@ -1,0 +1,20 @@
+..............E
+======================================================================
+ERROR: test_renderer_idempotent_synthetic (scripts.test_s64.Tests.test_renderer_idempotent_synthetic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s64.py", line 222, in test_renderer_idempotent_synthetic
+    present();before={p:p.read_bytes() for p in [Path('REPORT.md'),Path('results/s64_summary.md'),Path('figures/s64_notepad.png')]}
+                        ^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'figures/s64_notepad.png'
+
+----------------------------------------------------------------------
+Ran 15 tests in 1.919s
+
+FAILED (errors=1)
