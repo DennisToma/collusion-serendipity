@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T03:32:14.350777+00:00; Phase2, iteration29 PRE-LIVE)
-- D/S43 registered fixed-history payoff-table intervention after B/S42.
-- Ten S42round10contexts/fiveblocks;20planned fresh decisions,zero newgames.
-- Exact source control versus21counterfactual own-payoff rows fixing last rivals.
-- Primary focal offer table−control;one-unit prospective screen,zero tuning/pooling.
-- Final17protocol/456canonical tests PASS,exit0;all9702payoff cells checked.
-- Complete synthetic replay/separate exact arithmetic/source S42 replay PASS.
-- Three rounds Codex/Opus design reviews exit0;all material findings fixed.
-- Sources13frozen;source-file count36;no live calls or outcomes.
-- S44own row-order proposal queued;S32unconfirmed,S30unrun,S39/S41queued.
-- Risks:scenario/arithmetic/length bundle,selected histories,n5,provider/tool use unattested.
-- Next:commit/push registration,sole live runner,full replay/final critics/release/clone.
+## Current state (2026-10-25T03:37:49.224483+00:00; Phase2, iteration29 RESULTS VERIFIED)
+- D/S43:20fresh decisions/10fixed S42histories/5blocks,zero newgames/retries/failures.
+- Focal offer control9.900/table10.200;difference+.300[+.100,+.500].
+- Pairedt[-.040,+.640],upperp.125;frozen DUD for one-unit screen,no HIT.
+- Three block differences+.5,two0;no mechanism,coordination or realized-wage claim.
+- Full20request/source/runtime/UTC/schedule replay and separate exact math PASS.
+- Post-live456canonical tests childexit0;17protocol/9702source payoff cells PASS.
+- Both final critics/parent exit0;Codex raw reconstruction,Opus supplied quotes only.
+- Six artifacts regenerate byte-identically with model calls forbidden.
+- Seven archivefiles/13scientific sources unchanged;127local links resolve.
+- ScientificSHA5424dfaaf39a;registration00112c2 pushed;results push/clone next.
+- S44proposal only;S39/S41queued,S32unconfirmed,S30unrun;next fresh different axis.
+- Risks:n5,selected histories,scenario/arithmetic bundle;provider/tool use unattested.
 
 ## Log
 
@@ -414,3 +415,7 @@
 - 2026-10-25T03:22:01.466867+00:00: iteration29 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling summaries. Selected D/S43 after B/S42:fixed-history own-payoff tables motivated by marginal-cost-only wage explanations,not a coordination diagnosis. Source S42round10/first incumbent rule,ten contexts/fiveblocks,20planned calls,zero newgames. Related S03 was Cournot;new labor allocation discontinuity and fixed-history design justify this intervention.13protocol tests PASS,including all462one/two-rival profiles*21actions,synthetic replay/separate reconstruction,source/failure/tamper/mocklive guards. New own/S44 table-row-order proposal queued. No live outcomes,tuning,pooling,sibling writes or direction deviation.
 
 - 2026-10-25T03:32:14.350777+00:00: S43 final pre-live17protocol/456canonical tests childexit0;full20call synthetic replay,20rawquotes/15blockcells/3sets3125exactbootstrap+t/32signflips and9702source-engine payoff cells PASS. Both final design critics exit0;fixed minor independent exact-field coverage with separate Fraction/integer reconstruction/regressions,plus source-visibility/economics/roster/failure/optimization checks. Initial canonical failure logs retained;historical Next-line interface restored and fresh-only synthetic drift hook corrected,without changing historical scientific sources. All13source hashes match final dry archive. Source S42 full replay unchanged,scientificSHA56856f0c41ab. Draft4-to1screen amendment before any fresh calls documented because best reply to rival10is11. No new science,tuning,pooling or sibling writes. Registration commit/push then sole launch next.
+
+- 2026-10-25T03:34:11.718447+00:00: S43 sole runner childexit0 after remote registration00112c29719ae5ffda8f6227091b38f31dc5712d;all20fresh decisions at ten S42histories/fiveblocks,zero newgames/retries/failures. Full request/source/registration/runtime/UTC/schedule replay and separate20rawquotes/15blockcells/3sets3125exactbootstrap+t/32signflips PASS. FrozenDUD:control9.900/table10.200,difference+.300[+.100,+.500],t[-.040,+.640],upperp.125;pairedblocks[.5,.5,.5,0,0]. Positive descriptive bootstrap alone does not satisfy one-unit/sign screen;no mechanistic,coordination,realized-worker-pay or population-equivalence claim. All13scientific sources and S42source inputs unchanged. Reports/HITS/README updated;final critics/post-live tests/release/remoteclone next. No scientific edits,tuning,pooling,secondary/reverse promotion,HIT or sibling writes.
+
+- 2026-10-25T03:37:49.224483+00:00: S43 final critics Codex/Opus and parent exit0. Codex reconstructs all20raw responses/15blockcells/3sets3125bootstrap+t/32signflips plus full archive/chronology;Opus supplied-case-quotes/text-only scope explicit. Both confirm frozenDUD,no result-changing bug. Added percentile-bootstrap clarification in nonfrozen details;no scientific source/threshold/result edits. Durable post-live456canonical tests childexit0. Actual figure inspected;127local links/cache-only release PASS. Final forbidden-call regeneration preserves six primary artifacts byte-for-byte,seven archivefiles/13frozen sources;scientificSHA5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1. Known source/replay fingerprint differs only in PATH hash;effective settings/provider/tool use remain unattested. Whitespace-only HITS EOF warning corrected;git diff --check PASS. No active generation/review,additional calls,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone push then fresh origin clone next.

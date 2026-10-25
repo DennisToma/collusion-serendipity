@@ -1,0 +1,200 @@
+{
+  "pilot": "S43",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 20,
+  "tuning_attempts": 0,
+  "source_cli_version": "codex-cli 0.163.0",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": false,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "DUD",
+  "primary": "table_minus_control_offer",
+  "metrics": {
+    "control": {
+      "mean": 9.9,
+      "mean_exact": "99/10",
+      "ci95": [
+        9.7,
+        10.0
+      ],
+      "ci95_exact": [
+        "97/10",
+        "10"
+      ],
+      "t95": [
+        9.62235548948022,
+        10.17764451051978
+      ],
+      "upper_signflip_p": 0.03125,
+      "block_values": [
+        9.5,
+        10.0,
+        10.0,
+        10.0,
+        10.0
+      ]
+    },
+    "table": {
+      "mean": 10.2,
+      "mean_exact": "51/5",
+      "ci95": [
+        10.0,
+        10.4
+      ],
+      "ci95_exact": [
+        "10",
+        "52/5"
+      ],
+      "t95": [
+        9.85995630967087,
+        10.540043690329128
+      ],
+      "upper_signflip_p": 0.03125,
+      "block_values": [
+        10.0,
+        10.5,
+        10.5,
+        10.0,
+        10.0
+      ]
+    }
+  },
+  "contrast": {
+    "mean": 0.3,
+    "mean_exact": "3/10",
+    "ci95": [
+      0.1,
+      0.5
+    ],
+    "ci95_exact": [
+      "1/10",
+      "1/2"
+    ],
+    "t95": [
+      -0.04004369032912786,
+      0.6400436903291278
+    ],
+    "upper_signflip_p": 0.125,
+    "block_values": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s42_24920_control_A",
+      "seed": 24920,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 9,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24920_entry_A",
+      "seed": 24920,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24921_control_A",
+      "seed": 24921,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24921_entry_A",
+      "seed": 24921,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 11
+      }
+    },
+    {
+      "case_id": "s42_24922_control_A",
+      "seed": 24922,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 11
+      }
+    },
+    {
+      "case_id": "s42_24922_entry_A",
+      "seed": 24922,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24923_control_B",
+      "seed": 24923,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24923_entry_B",
+      "seed": 24923,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24924_control_B",
+      "seed": 24924,
+      "condition": "control",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    },
+    {
+      "case_id": "s42_24924_entry_B",
+      "seed": 24924,
+      "condition": "entry",
+      "archived_quote": 10,
+      "quotes": {
+        "control": 10,
+        "table": 10
+      }
+    }
+  ],
+  "floor_counts": {
+    "control": 0,
+    "table": 0
+  },
+  "archived_match_counts": {
+    "control": 9,
+    "table": 8
+  }
+}

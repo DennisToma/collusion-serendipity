@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "model_calls_forbidden": true,
+  "byte_identical_artifacts": {
+    "results/s43_payoff.json": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1",
+    "results/s43_summary.md": "550e7dd071b7ea200f20b8090c3ad34f0b63406dd6da6d971c94be0395db45b5",
+    "figures/s43_payoff.png": "1641cc745ca1e10b4243e6d13fc793061d0bd08cd3f0413578574b98edc902cc",
+    "REPORT.md": "f37b1f43ac8613d3c5f6f10b3dc8ca5fa3117d04dd41e5ecbedf552aa27c876f",
+    "logs/s43_independent.json": "fe00873511ba2f8511504aa3150acb61809c36e3e1779466b0f53577b1560ef0",
+    "logs/s43_release.json": "8085e029575010741ab277e2c91cf551044a459674f7a3132c4834f315484603"
+  },
+  "raw_archive_sha256": {
+    "data/s43_payoff/responses.jsonl": "ef1cc9e69bf3a727145b9fc19e39603423475b3d16cdded4584487ff67e4f9ef",
+    "data/s43_payoff/config.json": "e33a1dcf321796ae5601a3acd7c8d730a48374ec93ba6ee60114a0ad5462253a",
+    "data/s43_payoff/schedule.json": "9a3da832ea6efd18e88c22f0d72b1471e3f79ba1dcf4d6181c44968049aac77b",
+    "data/s43_payoff/execution.jsonl": "5ce25b1ed7df80a1dc5e83edc8853f3ceeaf5c6493713f5a0f38db6157282676",
+    "data/s43_payoff/cases.json": "6e0c58129aa2dba7b1bf36fe7a3139529fbc583e4d2fe8d8235f37fff3827b4b",
+    "data/s43_payoff/accepted.jsonl": "478d5148016729819358c17ef390530705890bcbe903fa25bd9b6597325b8f59",
+    "data/s43_payoff/requests.jsonl": "d2239747542616fb728c9b0a35e98c06eddb34f89db20894c47b7680798a5144"
+  },
+  "source_sha256": {
+    "DESIGN_S43.md": "ff3d13e177704ec61553cefd2820a1229ad89c89d768c59f113d2ad7e59b1f11",
+    "scripts/s43_replay.py": "f16cc40cfd7bf2ffaac9e314ea141ff62378f0a86fa0337b97db2cc453f55f15",
+    "scripts/s43_independent.py": "c2f8d7cbaa803978b7d2c123f28c8dc477703d822dbcefcf5d0644955a8842d5",
+    "scripts/s43_present.py": "d0feee4344594b747d730a5ede0f8b0b6690d4562a710016b197832ed593c679",
+    "scripts/s43_release.py": "5bd04e4796bf237fba56e5515e0d99a1c7447beac8e5ac50811d08a1e25d6b8c",
+    "scripts/test_s43.py": "57cdf004069b27d1f27c6328bdcc0bf55d6a60e7494d96554da4fe0cc52ce5dd",
+    "scripts/s43_reviews.py": "20200d96861c6f2bffb370c1979a33ddd6da715bb2a9d57b62f98119b308705b",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  }
+}

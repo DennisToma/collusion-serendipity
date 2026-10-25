@@ -33,12 +33,13 @@
 | S37 · own, payroll wording | 10 games /5 blocks. Take-home wage r3–10: coded **0.000**, payroll **0.000**; coded−payroll **+0.000 [+0.000, +0.000]** (degenerate); both at allowed minimum. | **DUD** for two-unit increase screen |
 | S40 · E, private-note erasure | Ten observed S37 histories /5 blocks;20 fresh decisions. Normalized offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
 | S42 · B2, surprise employer entry | 10 games /5 blocks. Paid wage r7–10: entry **10.000**, duopoly **10.000**; entry−control **+0.000 [+0.000, +0.000]**. | **DUD** for four-unit increase screen |
+| S43 · D, own-payoff table | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**. | **DUD** for one-unit offer screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
-<!-- S42 summary start -->
-**S42:** third employer becomes active at round6, with no advance announcement. Paid wage r7–10 entry **10.000**, duopoly **10.000**; entry−control **+0.000 [+0.000, +0.000]**, paired t95% **[+0.000,+0.000]**, upper sign-flip **p=1.00000**; frozen **DUD**. Observed block SD=0 makes these bootstrap bounds and the t formula degenerate; they do not establish population equivalence. Pre-entry r1–5 wage means entry **10.000**, control **10.000**; descriptive difference-in-differences **+0.000 [+0.000, +0.000]**. Pre-entry paths use fresh model draws and can differ. Entry is not explicitly preannounced,though both arms say “currently active.” Entry bundles competition, visible identities and subsequent histories; neither low wages nor a wage change proves collusion. [All eight outcomes and figure](results/s42_summary.md).
-<!-- S42 summary end -->
+<!-- S43 summary start -->
+**S43:** fixed-history focal wage offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**; paired t95% [-0.040,+0.640], inclusive upper sign-flip **p=0.12500**; frozen **DUD** for the one-unit screen. Twenty fresh decisions at ten selected S42 histories/five source blocks, zero new games or tuning. The table fixes rivals to their last public offers and changes arithmetic/scenario salience, length and order together; it does not identify an arithmetic error or a coordination mechanism. Offers are not realized worker pay. [All offers, uncertainty and figure](results/s43_summary.md).
+<!-- S43 summary end -->
 
 
 Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
@@ -51,4 +52,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** D/S43 tests a hypothetical own-payoff table at ten fixed S42 histories (20 fresh focal decisions, zero games). Registered one-unit offer screen; no outcomes yet. [Design](DESIGN_S43.md). S44 row-order proposal only; S39/S41 queued, S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis question after D/S43; S44 row-order proposal only, S39/S41 queued, S32 unconfirmed and S30 unrun.

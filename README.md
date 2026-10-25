@@ -1087,3 +1087,19 @@ byte-identical artifacts;clone clean. Receipts:logs/s42_remote_clean_clone.json
 and logs/s42_remote_exit.json. Local439post-live tests and both finalcritics
 exit0;Opus scope is supplied cells/code only,Codex independently read raw
 archives. ScientificSHA56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4 unchanged.
+
+
+S43 counterfactual own-payoff table completed: **DUD**. Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**; paired t95% [-0.040,+0.640], inclusive upper sign-flip **p=0.12500**. Twenty fresh decisions at ten selected S42histories/five blocks;zero newgames/tuning. Offers are not realized worker wages;no coordination or arithmetic-error mechanism claim.
+
+```sh
+uv run python scripts/s43_replay.py --analyze
+uv run python scripts/s43_independent.py
+uv run python scripts/s43_present.py
+uv run python scripts/s43_release.py
+uv run python -m unittest scripts.test_s43
+uv run python scripts/run_tests.py
+```
+
+`uv run python scripts/s43_release.py --clean-clone` verifies a fresh origin clone with the installed frozen venv,not a fresh dependency installation. The registered/result checkout is needed after future shared-source edits. Source fingerprints are known-local-input metadata,not complete effective-settings/provider/tool-use attestation. Main REPORT row is checked against the canonical scientific-result row;prose scope is checked in final reviews. No new calls or interrupted resumes during regeneration.
+
+S43 source/replay CLI versions are both codex-cli0.163.0;the archived known-input fingerprints differ only in PATH hash. The prospective replay baseline remains invariant across its own calls. This comparison does not attest served-model identity or complete effective configuration. See logs/s43_runtime_comparison.json.

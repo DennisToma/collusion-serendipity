@@ -1,0 +1,8 @@
+{
+  "source_cli_version": "codex-cli 0.163.0",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "known_fingerprint_differences": [
+    "/environment_sha256/PATH"
+  ],
+  "scope": "Archived source-versus-replay comparison;prospective replay fingerprint invariant across its own calls;not provider or effective-configuration attestation"
+}

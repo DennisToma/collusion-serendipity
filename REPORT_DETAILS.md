@@ -983,3 +983,22 @@ Reproduce: `uv run python scripts/s42_analyze.py`;
 `uv run python scripts/s42_release.py`.
 
 Pre-entry wage and difference-in-differences are registered descriptive checks;no secondary promotion.
+
+
+## S43 — Fixed-history counterfactual own-payoff table
+
+**S43: unpromoted DUD, fixed-history own-payoff table (D).**
+
+Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**; paired t95% [-0.040,+0.640], inclusive upper sign-flip **p=0.12500**. Five paired source-block differences: [0.5, 0.5, 0.5, 0.0, 0.0]. Ten S42round10histories/five blocks,20fresh decisions,zero newgames/tuning.
+
+Both source-arm cases per seed enter one equally weighted block. Fresh control uses the exact source prompt; treatment adds all21hypothetical own-payoff rows holding rivals at round9public offers. The archived round10response is withheld from both arms. This selected challenge is exploratory, without multiplicity correction or held-out confirmation. Bootstrap/sign/t summaries have small-n limitations and sign calibration requires symmetry/exchangeability. No arithmetic-error, coordination, trajectory or realized-worker-pay claim.
+
+[Design](DESIGN_S43.md), [all offers/figure](results/s43_summary.md). Reproduce: `uv run python scripts/s43_release.py`.
+
+Primary screen was frozen at mean≥1, positive empirical-bootstrap lower and inclusive upperp≤.05; DUD if mean≤0 or upper<1, otherwise ODD. The draft4→1 amendment preceded all fresh calls and follows the exact best response11 to highest rival10. Zero fresh-outcome tuning, no pooling or reverse/secondary promotion.
+
+Source public history and owner-only notes remain identical. One/two rivals, value20, all21own choices: all9702profile/action payoff cells agree with the archived simulator. The full main archive validator checks registered sources, case selection, prompts, routing, returned outputs, runtime fingerprints, UTC and schedule; a separate implementation reconstructs20raw quotes,15block cells and3sets3125bootstrap/t/32sign summaries including exact rational bounds. Provider/effective-settings/tool-use and reverted between-check drift are unattested. Future shared-source edits require an original frozen checkout for regeneration.
+
+S43 source/replay CLI versions are both codex-cli0.163.0;the archived known-input fingerprints differ only in PATH hash. The prospective replay baseline remains invariant across its own calls. This comparison does not attest served-model identity or complete effective configuration. See logs/s43_runtime_comparison.json.
+
+S43 bounds are percentile quantiles of the empirical block-bootstrap distribution (the design specifies linear2.5/97.5percentiles),not the reflected/basic bootstrap. The positive descriptive bounds do not override the paired t interval crossing0 or the coarse sign-flip p=.125,and the registered magnitude screen fails because its upper bound.5is below1.

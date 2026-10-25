@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 25.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 29.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -465,3 +465,12 @@ S42 uncertainty:all five primary differences are zero;observed SD0 makes
 bootstrap bounds and the t formula degenerate,not population-equivalence
 evidence. No all-action-invariance claim;aggregate offered-wage/regret
 diagnostics average different actor populations after entry.
+
+
+**S43: unpromoted DUD, fixed-history own-payoff table (D).**
+
+Focal offer control **9.900**, table **10.200**; table−control **+0.300 [+0.100, +0.500]**; paired t95% [-0.040,+0.640], inclusive upper sign-flip **p=0.12500**. Five paired source-block differences: [0.5, 0.5, 0.5, 0.0, 0.0]. Ten S42round10histories/five blocks,20fresh decisions,zero newgames/tuning.
+
+Both source-arm cases per seed enter one equally weighted block. Fresh control uses the exact source prompt; treatment adds all21hypothetical own-payoff rows holding rivals at round9public offers. The archived round10response is withheld from both arms. This selected challenge is exploratory, without multiplicity correction or held-out confirmation. Bootstrap/sign/t summaries have small-n limitations and sign calibration requires symmetry/exchangeability. No arithmetic-error, coordination, trajectory or realized-worker-pay claim.
+
+[Design](DESIGN_S43.md), [all offers/figure](results/s43_summary.md). Reproduce: `uv run python scripts/s43_release.py`.
