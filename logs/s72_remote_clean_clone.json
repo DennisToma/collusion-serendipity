@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "results_commit": "793a6411f6d7b646b1897d964b531cbaa7116cc0",
+  "origin": "gh-csr:DennisToma/collusion-serendipity.git",
+  "full_history_origin_clone": true,
+  "installed_frozen_venv_reused": true,
+  "fresh_dependency_install": false,
+  "commands": [
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s72_temporal.py",
+        "release"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"artifacts\": {\n    \"results/s72_temporal.json\": \"f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049\",\n    \"results/s72_summary.md\": \"08e77efd3553ce44e1dbe6c9a27fe4e9847d0f265730942a58d55d3f8c5d5013\",\n    \"figures/s72_temporal.png\": \"2a375cb044cff6ea0ff0c50c4b15dc78fc13e0224a4b80f64561145450ccf278\",\n    \"logs/s72_independent.json\": \"7342b8cd88076ab5b5a999a1ce24d8417b9a4aea0e7c972f90d42b36ee4591f1\"\n  },\n  \"independent\": {\n    \"passed\": true,\n    \"raw_action_note_reason_bindings\": 200,\n    \"primary_rounds\": 80,\n    \"fixed_two_round_windows\": 40,\n    \"full_windows\": 10,\n    \"game_metric_cells\": 70,\n    \"exact_bootstrap_and_t_summaries\": 21,\n    \"authorship\": \"Separate implementation by same manager; independent critics recorded separately\"\n  },\n  \"scientific_model_calls\": 0,\n  \"guard\": \"llm.chat raises; no OS network/process isolation\"\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s72_independent.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"raw_action_note_reason_bindings\": 200,\n  \"primary_rounds\": 80,\n  \"fixed_two_round_windows\": 40,\n  \"full_windows\": 10,\n  \"game_metric_cells\": 70,\n  \"exact_bootstrap_and_t_summaries\": 21,\n  \"authorship\": \"Separate implementation by same manager; independent critics recorded separately\"\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s72_present.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"prior_pilot_rows\": 52,\n  \"current_pilot_rows\": 53,\n  \"documents\": [\n    \"REPORT.md\",\n    \"REPORT_DETAILS.md\",\n    \"HITS.md\",\n    \"README.md\"\n  ],\n  \"guard\": \"Exclusive-writer prevalidation; no atomic concurrent-writer guarantee\"\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s72_present.py",
+        "--check-documents"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"prior_pilot_rows\": 52,\n  \"current_pilot_rows\": 53,\n  \"documents\": [\n    \"REPORT.md\",\n    \"REPORT_DETAILS.md\",\n    \"HITS.md\",\n    \"README.md\"\n  ],\n  \"guard\": \"Exclusive-writer prevalidation; no atomic concurrent-writer guarantee\"\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s72_postcheck.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"result_or_source_corruptions_rejected\": [\n    \"individual window gain\",\n    \"window boundary\",\n    \"raw decoded action\",\n    \"missing metric\",\n    \"exact rational endpoint\",\n    \"embedded provenance\",\n    \"opportunity denominator\",\n    \"source raw bytes\"\n  ],\n  \"prewrite_document_corruptions_rejected\": [\n    \"REPORT.md\",\n    \"REPORT_DETAILS.md\",\n    \"HITS.md\",\n    \"README.md\"\n  ],\n  \"mutations\": \"in memory/read interception only; archive bytes untouched\",\n  \"older_scientific_paths\": 1531,\n  \"source_and_input_paths\": 64,\n  \"artifact_sha256\": {\n    \"results/s72_temporal.json\": \"f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049\",\n    \"results/s72_summary.md\": \"08e77efd3553ce44e1dbe6c9a27fe4e9847d0f265730942a58d55d3f8c5d5013\",\n    \"figures/s72_temporal.png\": \"2a375cb044cff6ea0ff0c50c4b15dc78fc13e0224a4b80f64561145450ccf278\",\n    \"logs/s72_independent.json\": \"7342b8cd88076ab5b5a999a1ce24d8417b9a4aea0e7c972f90d42b36ee4591f1\"\n  },\n  \"documents\": {\n    \"passed\": true,\n    \"prior_pilot_rows\": 52,\n    \"current_pilot_rows\": 53,\n    \"documents\": [\n      \"REPORT.md\",\n      \"REPORT_DETAILS.md\",\n      \"HITS.md\",\n      \"README.md\"\n    ],\n    \"guard\": \"Exclusive-writer prevalidation; no atomic concurrent-writer guarantee\"\n  },\n  \"local_links\": 489\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "-m",
+        "unittest",
+        "scripts.test_s72"
+      ],
+      "returncode": 0,
+      "output": ".................\n----------------------------------------------------------------------\nRan 17 tests in 0.702s\n\nOK\n"
+    }
+  ],
+  "byte_identical_artifacts": {
+    "results/s72_temporal.json": "f6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049",
+    "results/s72_summary.md": "08e77efd3553ce44e1dbe6c9a27fe4e9847d0f265730942a58d55d3f8c5d5013",
+    "figures/s72_temporal.png": "2a375cb044cff6ea0ff0c50c4b15dc78fc13e0224a4b80f64561145450ccf278",
+    "logs/s72_independent.json": "7342b8cd88076ab5b5a999a1ce24d8417b9a4aea0e7c972f90d42b36ee4591f1",
+    "logs/s72_release.json": "7f1ab2ee8c25d2f3a748bbd3033865eb2d75097c5a6b68f0bf996b4b7ffd2deb",
+    "data/s72_registration.json": "da40e4ac09beae288580d8e42f7211e8b109f75c651353d6025c1b9ed359277c",
+    "data/s72_registration_receipt.json": "8d0696278fffca9ae1b2bbdda651964a0a71269e10aa1ea265561934e9a52346",
+    "logs/s72_postcheck.json": "08ab225a7269a104940c1434de0ea9e59f10b10a89226b1e79af05e6ec68559b",
+    "REPORT.md": "fac99c7f53c995a43540c07b145b46602515b9fc9254dc17445e9cf55de0b7b6",
+    "REPORT_DETAILS.md": "fcfb52344097bd3a9d607d5ce6b50c54d24bf8b1208e5f7cb798832c9767ea55",
+    "HITS.md": "dc916ac4a7e686ccabe2728c7a4ea5b573258f557ef7605325d7570f53a3fa80",
+    "README.md": "339dbfb494cbb2ed7dd6e306c30e7421ddd33807bd393110a48a4e5e7818cfe0"
+  },
+  "clone_git_status": ""
+}
