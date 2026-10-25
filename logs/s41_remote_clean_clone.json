@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "commit": "1d8120998c791a3d24db5c5aea59052e6ee8e5dd",
+  "clone_source": "origin remote",
+  "dependency_environment": "Existing venv with frozen dependencies",
+  "commands": [
+    [
+      "scripts/s41_analyze.py"
+    ],
+    [
+      "scripts/s41_independent.py"
+    ],
+    [
+      "scripts/s41_exact_check.py"
+    ],
+    [
+      "scripts/s41_present.py"
+    ],
+    [
+      "scripts/s41_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s41"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s41_ticksize.json": "27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b",
+    "results/s41_summary.md": "d00c14220b86851d6dbd8c07dbca843114cd1e5b82aa4a36ce22b3cb1b487cb0",
+    "figures/s41_ticksize.png": "3b2a1f53646ca4614f412dbd79abc7587684f5bae286f896a82a4408da8a09bd",
+    "logs/s41_independent.json": "92416f4ad34f935bb3f6baca504242f7ef7b00c4f7ccfd21617b2bf310f7d7fc",
+    "logs/s41_release.json": "6ada5b2883b37723c458511a4f0e928ccddafd0cfa6c0310d9fed9f8b076ee81",
+    "logs/s41_exact_check.json": "aa6f6c3df7d73baed47e2c8604216b4a11c82928f0bc8df79122ae80ac063659",
+    "REPORT.md": "2605ad45fa97a20e3207727c11553f6744603f109f5c43857d36aa8f5b6c78f8"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "child_returncode": 0,
+  "observed_utc": "2026-10-25T04:05:59.948161+00:00",
+  "verified_results_commit": "1d8120998c791a3d24db5c5aea59052e6ee8e5dd",
+  "receipt": "logs/s41_remote_clean_clone.json"
+}

@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T04:00:53.159222+00:00; Phase2, iteration30 RESULTS VERIFIED)
-- Own/S41:10fresh games/5paired blocks24880..24884,T10,200valid decisions,no retries/failures.
-- Paid wages fine10.1875/coarse9.2250;fine-minus-coarse+.9625[0,2.6875].
+## Current state (2026-10-25T04:05:59.948161+00:00; Phase2, iteration30 COMPLETE)
+- Own/S41:10fresh games/5paired blocks,T10,200valid decisions,zero retries/failures.
+- Paid wage fine10.1875/coarse9.2250;difference+.9625[0,2.6875].
 - Pairedt[-1.378261,3.303261],upperp.25;frozen ODD/inconclusive,no HIT.
-- Block differences0,4.3125,0,.5,0;below2unit threshold,three ties.
-- Full scientific/archive/source/runtime/UTC/timing replay PASS;23sources unchanged.
-- Separate60raw metriccells/18bootstrap+t/18exact summaries/18sign tails PASS.
-- Figure inspected;REPORT/HITS/DETAILS/README regenerated;cache-only release PASS.
-- Initial/amended Codex+Opus and targeted Codex design critics complete.
-- Final Codex+Opus critics/parent exit0;488post-live canonical tests PASS.
-- Registration92b327b pushed;final10artifact regeneration PASS;results push/origin clone next.
-- Risks:n5,changed action/equilibrium set,salience bundle;provider/tool use unattested.
-- Next:fresh different axis/new world;S44/S39proposals,S32unconfirmed,S30unrun.
+- Block differences0,4.3125,0,.5,0;three ties,dominant coarse-low block explicit.
+- Full archive replay and separate60rawcells/18bootstrap+t/exact summaries PASS.
+- 488post-live canonical tests and both final critics/parent exit0.
+- Codex raw/full-archive scope;Opus supplied-cell/code-only scope explicit.
+- Registration92b327b/results1d81209 pushed;fresh origin clone passes32protocol tests.
+- Seven clone artifacts byte-identical;clone clean;existing frozen venv reused.
+- All20archive files/23scientific sources unchanged;scientificSHA27f3704ba650.
+- Risks:n5,changed action/equilibrium sets;regret grid-specific;provider/tool use unattested.
+- Next:fresh different axis/new world;S44/S39queued,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -433,3 +433,5 @@
 - 2026-10-25T04:00:53.159222+00:00: S41 sole runner childexit0;all10games/200valid decisions,zero retries/failures. Frozen ODD:paid wagefine10.1875/coarse9.2250,difference+.9625[0,2.6875],pairedt[-1.378261,3.303261],upperp.25;blockdifferences0,4.3125,0,.5,0. Full archive/source/environment/registration/runtime/UTC/schedule/prompt/export/normalization replay PASS;separate60raw metriccells/18bootstrap+t/18exact-rational summaries/18sign tails PASS. All23registered sources unchanged;scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b. Figure inspected,cache-only release PASS;post-registration presentation-only publisher updates REPORT/HITS/DETAILS/README from validated result. No new calls,source/threshold edits,tuning,pooling,secondary promotion,HIT,coordination or isolated mechanism claim. Final critics/post-live488suite running;results push and fresh origin clone next.
 
 - 2026-10-25T04:04:24.898733+00:00: final Codex+Opus critics and parent exit0,both confirm unchanged ODD/numbers. Codex raw60cell/18bootstrap/six sign-set reconstruction/full archive replay versus Opus supplied-cells/code-only hand checks;scope explicit. Added presentation-only dominant-block context,arm-specific regret and requested low reasoning effort;rejected unsupported inference from repeated metrics to deterministic/dependent sampling. Durable488post-live tests childexit0. Final call-forbidden regeneration PASS:all10artifacts byte-identical,all20archivefiles/23frozen sources unchanged,scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b. No active generation/review,new model calls,scientific-source/threshold edits,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone push and fresh origin clone next.
+
+- 2026-10-25T04:05:59.948161+00:00: iteration30 COMPLETE. S41 registration92b327b6b78e62b7a17ded3819bf3c15af891f84/results1d8120998c791a3d24db5c5aea59052e6ee8e5dd pushed. Fresh full-history origin clone at results commit passes full scientific/archive/source/environment/registration/UTC/timing replay,separate60raw metriccells/18bootstrap+t/18exact-rational summaries/18sign tails,summary/figure regeneration,call-forbidden release and all32S41protocol tests. Seven primary artifacts byte-identical;clone git status clean,childexit0. Existing installed frozen venv reused,not fresh dependency installation;logs/s41_remote_clean_clone.json records exact commands/hashes. Durable local488post-live tests and both finalcritics/parent exit0. Codex raw/full-archive scope versus supplied-cells/code-only Opus explicit. Frozen ODD:paid wagefine10.1875/coarse9.2250,difference+.9625[0,2.6875],pairedt[-1.378261,3.303261],upperp.25;differences0,4.3125,0,.5,0. No confirmed granularity effect,isolated mechanism,coordination,equivalence or sibling headline claim. All23sources/20archivefiles/scientificSHA27f3704ba65090a598192c785992a1c284fa79a562c275dfc8abc852ff74bd0b unchanged. Ledger result reference finalized;REPORT/HITS/DETAILS/README current. S44/S39 proposals only,S32unconfirmed,S30unrun;next fresh different axis/new world. No extra scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Final publication receipt/handoff commit and push next.

@@ -1125,3 +1125,11 @@ uv run python -m unittest scripts.test_s41
 
 `uv run python scripts/s41_release.py --clean-clone` checks origin with the existing frozen venv,not a fresh dependency installation. Sources require their original checkout after shared-source changes. The external launch lock spans the sole execution; no interrupted resume. `s41_publish.py` was added after registration for presentation only and never changes scientific sources,data,thresholds or estimators.
 <!-- S41 reproduction end -->
+
+
+S41 registration92b327b/results1d81209 pushed. A fresh full-history origin
+clone at the results commit passes full offline release and all32S41protocol
+tests,with seven byte-identical artifacts and clean git status. Existing frozen
+venv reused,not fresh dependency installation. Receipt:logs/s41_remote_clean_clone.json.
+Local488post-live tests and both final critics pass;source/raw versus supplied-cell
+critic scope is explicit in logs/s41_final_disposition.md. ScientificSHA27f3704b unchanged.
