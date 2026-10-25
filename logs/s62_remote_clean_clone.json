@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "commit": "87b77c791716d34f1a12bd8bccc29162dfba5fed",
+  "observed_origin_head": "87b77c791716d34f1a12bd8bccc29162dfba5fed",
+  "full_history_origin_clone": true,
+  "scientific_calls_forbidden": true,
+  "clone_git_status_clean": true,
+  "dependency_environment": "Existing frozen installed venv;not a fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s62_notepad_qwen.json": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226",
+    "results/s62_summary.md": "1734e9a140e7bb1decca87b5777811c796c04a95a7be61c794985860809171da",
+    "logs/s62_independent.json": "a0835d8e76aa0d483e8f942b9f8333d2933a9454fa92a48410e50b926ffef6e4",
+    "figures/s62_notepad.png": "052b72bf5a0d887ffd7ce7f65f3e11adbc887c014ec705e1ff93d96f134aaf09",
+    "REPORT.md": "cee815c7df0754961d868689ba650605e0fdaf9c49718b848c4ed31f866429cb",
+    "logs/s62_release.json": "6f91eb3e02cabfee6b5c93859497d256ac1bd6023601694a143d310e61097d1d",
+    "results/s62_action_text.json": "7111542b331d20025ff75bb3a45b463e6956905541158cca64a79033590c3576",
+    "results/s62_action_text.md": "1c99e0265f9d7e8424b0956b465dc37bea4e932ee9309ff6a5d4029ff99ba7bd",
+    "REPORT_DETAILS.md": "c21cb0d241e2cb4be906e5357e9bc415cc067c2bd093419de777bf021455c94a",
+    "README.md": "269786eecd51302b38fc75a2f5a0af518ee607995469c62f14784dd1af556014",
+    "HITS.md": "eea9067cbf7071813cd33a56190af9cacbfe218b65b9b2ac06e2a9930438bc8b",
+    "logs/s62_document_check.json": "5d3364972dad9f96a38f3b4f2a854c7c216f3ce58eae51ae9b6b7200bf564ab7",
+    "logs/s62_probe_check.json": "8fda798da7498d3edf313a4dd218cb86226f78d3416ed6c9da29761f9d1c3895"
+  },
+  "commands": [
+    [
+      "scripts/s62_probe_check.py"
+    ],
+    [
+      "scripts/s62_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s62"
+    ],
+    [
+      "scripts/s62_independent.py"
+    ],
+    [
+      "scripts/s62_present.py"
+    ],
+    [
+      "scripts/s62_action_text.py"
+    ],
+    [
+      "scripts/s62_integrate.py"
+    ]
+  ],
+  "scoped_tests": 16
+}

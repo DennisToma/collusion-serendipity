@@ -55,3 +55,5 @@ with no scientific calls or result/threshold edits. Use it instead of rerunning 
 frozen probe CLI. Tests/receipts preserve these limitations and their validation scope.
 
 Final769canonical tests and16focused tests PASS. Supplemental probe validation and3mutation checks PASS. Initial supplement compared Z to +00:00 text incorrectly;corrected to aware datetime equality before publication. All21registered sources and resultSHA97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226 unchanged. Read-only source/input chronology evidence is local,not provider attestation. Origin proof pending final results push.
+
+Release completed and pushed as87b77c791716d34f1a12bd8bccc29162dfba5fed. Fresh full-history origin clone verifies13byte-identical artifacts and16scoped tests with scientific calls forbidden;clone gitstatus clean. Original21scientific sources unchanged. See logs/s62_remote_clean_clone.json.

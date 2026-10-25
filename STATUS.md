@@ -1,16 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T08:54:13.036937+00:00; Phase2, iteration44 RESULTS VERIFIED)
+## Current state (2026-10-25T09:00:24.551086+00:00; Phase2, iteration44 COMPLETE)
 - S62/C:10fresh Qwen/Aqueduct games/5blocks,T10;200accepted/204returned,4retries.
 - Self3/40,shared7/40 Yapprovals;shared−self+.100[-.025,.250] bootstrap95%.
 - Pairedt[-.130211,.330211];upperp.25;blocks[.375,-.125,.125,.125,0].
-- Frozen ODD;no HIT,pooling,game-outcome tuning or sibling headline change.
-- One readiness-informed exact-fence allowance before registration;unused in204responses.
-- Main replay/separate50cells/15bootstrap+t/32sign patterns/200raw bindings PASS.
-- Call-forbidden byte-identical release PASS;figure inspected;both final critics/769postlive checks PASS.
-- 21registered sources/1272older code-data-result-figure-design files unchanged.
-- Registration9088f76 pushed before calls;45pilot REPORT current.
-- Next fresh different-axis own/A/B/F;own S61,S57,S52,S49 queued only.
+- Frozen ODD;upper=.25is exact DUDboundary;no HIT or sibling headline change.
+- Readiness-informed exact-fence allowance before registration;unused in204responses.
+- Full replay,separate50cells/15bootstrap+t/32sign patterns/200bindings PASS.
+- Both final critics,769canonical/16focused tests,3probe-mutation checks PASS.
+- Fresh origin87b77c7:13artifacts byte-identical,16scoped checks,clone clean.
+- All21registered sources/1272older selected artifacts/44older rows unchanged.
+- Registration9088f76/results87b77c7 pushed;REPORT45pilots;closing proof commit next.
+- Next fresh different-axis own/A/B/F;S61,S57,S52,S49 queued only.
 - Risks:n5,multiplicity,bundled notes/history;API/CLI,seed,date/serving differences.
 
 ## Log
@@ -624,3 +625,5 @@
 - 2026-10-25T08:54:13.036937+00:00: S62 sole run completed200accepted/204returned responses,4invalid-output retries(2self/2shared),zero transport/route/exhaustion/source failure. Allcalls finish08:51:53.921162 before10:00admissioncutoff. Self3/40,shared7/40;gap+.100[-.025,.250],pairedt[-0.1302106666239977, 0.3302106666239977],upperp.25,lowerp.9375,two-sidedp.5;blocks[.375,-.125,.125,.125,0]. Frozen ODD:mean below.25,HITp gate fails,and bootstrapupper exactly.25does not meet strict DUDupper<.25rule. Full provenance/raw/export replay and separate50cells/15bootstrap+t/all32signpatterns/200reason-note-actionbindings PASS. Readiness-informed exact-fence allowance unused inall204responses. Call-forbidden byte-identical release PASS,figure inspected,all44older pilot rows retained;REPORT45pilots. All10primary adverse decisions/explanations enumerated source-bound without semantic/intention labels. Both finalcritics and769postlive canonical suite running. No extra scientificcalls,tuning,pooling,exclusions,reverse/secondary/subgroup promotion,sibling writes or DIRECTION deviation.
 
 - 2026-10-25T08:58:19.000463+00:00: Both final S62 critics exit0 and confirm ODD/all primary numbers. Codex independently reconstructs200raw decisions/50metriccells/15bootstrap+t/all32signpatterns and runs8selectedtests/fullrawreplay;Opus supplied-text/per-game primary arithmetic only,not rawarchive. Accepted presentation-only exactupper=.25DUDboundary and general-X-approval caveats. No registered source,result or threshold edits. Low probe-CLI/cache chronology gaps closed by separate read-only s62_probe_check.py:actual request/route/strictbool/duplicate/time/source checks PASS;3mutation checks reject malformed/futureprobe. Initial supplement textual Z/+00:00 equality assertion corrected to aware datetime equality before use;no scientific failure.769postlive canonical tests PASS. All21sources/1272older selected artifacts/44older rows unchanged;resultSHA97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226. Call-forbidden byte-identical core release and complete10event action/explanation appendix PASS. Results commit/push then fresh13artifact origin-clone proof next.
+
+- 2026-10-25T09:00:24.551086+00:00: iteration44 COMPLETE. Registration9088f76f016469b4d8bab1b4aa7d5f7abb0841ff/scientific+document results87b77c791716d34f1a12bd8bccc29162dfba5fed committed and pushed. Fresh full-history ORIGIN clone at results commit PASS:13scientific/presentation/document artifacts byte-identical,16focused tests,full registered main provenance/raw replay,separate50metriccells/15bootstrap+t/all32signpatterns/204request-history checks/200accepted action-note-reasonbindings. Includes complete10event adverse-output appendix,main REPORT/DETAILS/HITS/README/editorial regeneration and supplemental probe request/chronology/source check;scientific llm.chat calls forbidden throughout. Clone clean;receipt logs/s62_remote_clean_clone.json,commands/output logs/s62_origin_clone_run.log. Existing frozen installed venv reused,not fresh dependency installation.769pre/post canonical tests PASS;initial source-edit-overlap canonical failures preserved. Both initial/fixed design and final critics exit0;Codex raw-source/stat reconstruction versus Opus supplied-text/per-game arithmetic scope. Sole200accepted/204returned scientific responses,4invalid-output retries,zero transport/route/exhaustion/source failures;no active generation/review. Self3/40/shared7/40 Yapprovals;difference+.100[-.025,.250],pairedt[-.130210666624,.330210666624],upperp.25/lowerp.9375/two-sidedp.5;blocks[.375,-.125,.125,.125,0]. Frozen ODD,not promoted:mean below HIT threshold and upperp gate fails;bootstrapupper exactly.25does not satisfy strict DUDupper<.25. Xapproval rise is prespecified secondary,not selective-Y mechanism evidence. Readiness-informed exact-fence allowance unused inall204responses. All21registered source bytes/1272older selected code-data-results-figures-design artifacts/44priorpilotrows unchanged;resultSHA97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226. One cached neutral probe plus sole scientific run,no game-outcome tuning,pooling,exclusions,case replacement,reverse/secondary/subgroup promotion,newexperiment,sibling writes or DIRECTION deviation. No controlled family effect,agreement,intent,collusion,mechanism,equivalence or null-population inference. Closing proof/ledger/handoff commit+push follows.

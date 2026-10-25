@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "source_unchanged": true,
+  "cached_probe_request_route_bool_validated": true,
+  "probe_before_registration_and_execution": true,
+  "chronology_attestation": "Local client UTC/Git only",
+  "probe_sha256": "2227c160519ce21667ea302bebd06d14555b1b6185be4662e198e3110254f322"
+}
+{
+  "passed": true,
+  "local_links_checked": 217,
+  "source_entries": 21,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 204,
+    "note_snapshots": 204,
+    "raw_auxiliary_bindings": 200,
+    "rejections": {
+      "self": 2,
+      "shared": 2
+    },
+    "verdict": "ODD"
+  },
+  "result_sha256": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226"
+}
+................
+----------------------------------------------------------------------
+Ran 16 tests in 2.028s
+
+OK
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 204,
+  "note_snapshots": 204,
+  "raw_auxiliary_bindings": 200,
+  "rejections": {
+    "self": 2,
+    "shared": 2
+  },
+  "verdict": "ODD"
+}
+S62 summary and figure rendered
+{
+  "event_count": 10,
+  "counts": {
+    "self": 3,
+    "shared": 7
+  },
+  "scientific_result_sha256": "97f1f592e557625be8882a39b789561625da8c70392974b229bd356376134226"
+}
+S62 documents updated;all older rows preserved
+PASS origin clone 87b77c791716d34f1a12bd8bccc29162dfba5fed: 13 byte-identical artifacts;16 scoped tests;clean clone
