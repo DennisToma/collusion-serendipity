@@ -1,0 +1,65 @@
+{
+  "observed_utc": "2026-10-25T08:14:22.074517+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "cli_fingerprint": {
+    "referenced_inputs": {
+      "named_references": {
+        "CODEX_MANAGED_CONFIG": null,
+        "CODEX_MANAGED_CONFIG_FILE": null,
+        "NODE_EXTRA_CA_CERTS": null,
+        "SSL_CERT_FILE": null,
+        "SSL_CERT_DIR": null
+      },
+      "ancestor_instructions": {
+        "/home/factory/collusion/collusion-serendipity/AGENTS.md": null,
+        "/home/factory/collusion/collusion-serendipity/CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883",
+        "/home/factory/collusion/AGENTS.md": null,
+        "/home/factory/collusion/CLAUDE.md": null,
+        "/home/factory/AGENTS.md": null,
+        "/home/factory/CLAUDE.md": null,
+        "/home/AGENTS.md": null,
+        "/home/CLAUDE.md": null,
+        "/AGENTS.md": null,
+        "/CLAUDE.md": null,
+        "/tmp/AGENTS.md": null,
+        "/tmp/CLAUDE.md": null
+      }
+    },
+    "files": {
+      "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70",
+      "/home/factory/.nvm/versions/node/v24.22.0/bin/node": "67ca5783febb8bf85736c79fcdd92c8d6d465a0eb2a082672bcdfa76a506751c",
+      "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+      "/home/factory/.codex/config.toml": "cf0ea790b1028a5a11e08ea5250e2567e0d647e45d39ef21c6c4d72ad6531e5b",
+      "/home/factory/.codex/AGENTS.md": null,
+      "/etc/codex/config.toml": null,
+      "/etc/codex/managed_config.toml": null,
+      "/home/factory/.codex/auth.json": "21609fee43259055fda53be60b3fff3abdbb78c96748bd2133fa5a7cbe0d5c0b"
+    },
+    "environment_sha256": {
+      "PATH": "e26d00cd9c27a750e1b342ef780ea98110b3cf8a295fc40a0abebdfa4bd06336",
+      "CODEX_HOME": null,
+      "OPENAI_BASE_URL": null,
+      "OPENAI_API_KEY": null,
+      "OPENAI_ORG_ID": null,
+      "OPENAI_PROJECT_ID": null,
+      "CODEX_API_KEY": null,
+      "CODEX_MANAGED_CONFIG": null,
+      "CODEX_MANAGED_CONFIG_FILE": null,
+      "TMPDIR": null,
+      "HOME": "4f9c067d619da894a96e9cb073407bd91a28d2b9f63e9af68828cdeb7db58c2d",
+      "NODE_OPTIONS": null,
+      "HTTP_PROXY": null,
+      "HTTPS_PROXY": null,
+      "ALL_PROXY": null,
+      "NO_PROXY": null,
+      "NODE_EXTRA_CA_CERTS": null,
+      "SSL_CERT_FILE": null,
+      "SSL_CERT_DIR": null
+    },
+    "scope": "Known local launcher/node/native/config/routing inputs only; no provider attestation or complete effective-configuration reconstruction"
+  }
+}

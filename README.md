@@ -1372,3 +1372,20 @@ uv run --frozen python scripts/s59_release.py --clean-clone
 
 Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses installed frozen dependencies,not a fresh installation. Main replay binds raw requests,replies,source/runtime/registration/time/schedule records;the separate checker rebuilds20raw approvals,lossless table encoding,15blockcells,3125bootstrap draws/32signflips per summary. This integrator is outside the frozen scientific manifest;all older pilot rows are preserved.
 <!-- S59 reproduction end -->
+
+
+## S60 — Author approval benefit
+
+Ten fresh paired workplace games;author1 versus6,reviewer net TYPE-Y approval payoff−2 in both arms. [Design](DESIGN_S60.md),[results](results/s60_summary.md),[all adverse returned text](results/s60_action_text.md).
+
+```bash
+uv run --frozen python scripts/s60_publish_check.py
+uv run --frozen python scripts/s60_independent.py
+uv run --frozen python scripts/s60_present.py
+uv run --frozen python -m unittest scripts.test_s60 scripts.test_s60_presentation
+uv run --frozen python scripts/s60_publish_check.py --clean-clone
+```
+
+Release forbids scientific calls,requires byte-identical result and full archived replay. Origin-clone proof reuses the installed frozen venv;it is not a fresh dependency installation. Original historical sources/data stay unchanged. Canonical offline suite:`uv run --frozen python scripts/repository_tests.py --out /var/tmp/serendipity_tests.json`.
+
+The canonical publication entry compares the frozen rendered summary,figure,appendix and independently generated S60 document sections;it rejects false prose even when links are valid. Original document text comes from the registration commit,not the displayed copies. The registered `s60_release.py` remains the underlying archive-only check. Simulator system/user fields are flattened into one CLI prompt. The post-outcome [static-bound check](logs/s60_static_bound.json) clarifies that low-reward Y approvals cannot raise pair total above approve-X/reject-Y.

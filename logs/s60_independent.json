@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "archive_eligibility_checked": false,
+  "scope": "Independent action/prompt/payoff/statistic reconstruction only; publication also requires s60_analyze archive-eligibility validation",
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "accepted_action_note_reason_bindings": 200,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "rejections": {
+    "low": 0,
+    "high": 0
+  },
+  "verdict": "ODD"
+}

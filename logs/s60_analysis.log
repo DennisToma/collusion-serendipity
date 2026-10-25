@@ -1,0 +1,39 @@
+{
+  "pilot": "S60",
+  "primary_metric": "pair_bad",
+  "primary_contrast": "high minus low",
+  "verdict": "ODD",
+  "bonus_gate_used": false,
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "low": 0,
+    "high": 0
+  },
+  "notes": {
+    "low": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "high": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "Author approval benefit is 1 versus 6; reviewer immediate marginal payoff and paired task assignments are fixed",
+    "Own incoming reward, joint surplus, numeral salience and downstream actions/notes/histories change together; no isolated reciprocity mechanism",
+    "TYPE-Y approvals do not verify agreements or reciprocal intent",
+    "No bonus gate: cross-arm total bonus also changes mechanically with the author multiplier",
+    "Client model and timing metadata do not attest provider execution; API draws uncontrolled",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}
+Primary: {'mean': 0.15, 'mean_exact': '3/20', 'ci95': [-0.025, 0.4], 'ci95_exact': ['-1/40', '2/5'], 'paired_t_ci95': [-0.203928694245568, 0.503928694245568], 'exact_signflip_p_upper': 0.25, 'exact_signflip_p_lower': 0.9375, 'exact_signflip_p_two_sided': 0.5}

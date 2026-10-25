@@ -1,0 +1,269 @@
+{
+  "passed": true,
+  "post_outcome_interpretation_only": true,
+  "observed_outcomes_read": false,
+  "scientific_calls": 0,
+  "status_action_profiles_per_arm": 16,
+  "payoff_profiles_total": 32,
+  "low_always_at_most_stage_nash": true,
+  "low_gap_formula": "-2*rejected_X-approved_Y",
+  "high_gap_formula": "-7*rejected_X+4*approved_Y",
+  "cases": [
+    {
+      "author_types": [
+        false,
+        false
+      ],
+      "author_approvals": [
+        false,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 0,
+      "low_pair_total": 0,
+      "high_pair_total": 0,
+      "low_stage_nash_total": 0,
+      "high_stage_nash_total": 0
+    },
+    {
+      "author_types": [
+        false,
+        false
+      ],
+      "author_approvals": [
+        false,
+        true
+      ],
+      "approved_x": 0,
+      "approved_y": 1,
+      "low_pair_total": -1,
+      "high_pair_total": 4,
+      "low_stage_nash_total": 0,
+      "high_stage_nash_total": 0
+    },
+    {
+      "author_types": [
+        false,
+        false
+      ],
+      "author_approvals": [
+        true,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 1,
+      "low_pair_total": -1,
+      "high_pair_total": 4,
+      "low_stage_nash_total": 0,
+      "high_stage_nash_total": 0
+    },
+    {
+      "author_types": [
+        false,
+        false
+      ],
+      "author_approvals": [
+        true,
+        true
+      ],
+      "approved_x": 0,
+      "approved_y": 2,
+      "low_pair_total": -2,
+      "high_pair_total": 8,
+      "low_stage_nash_total": 0,
+      "high_stage_nash_total": 0
+    },
+    {
+      "author_types": [
+        false,
+        true
+      ],
+      "author_approvals": [
+        false,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 0,
+      "low_pair_total": 0,
+      "high_pair_total": 0,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        false,
+        true
+      ],
+      "author_approvals": [
+        false,
+        true
+      ],
+      "approved_x": 1,
+      "approved_y": 0,
+      "low_pair_total": 2,
+      "high_pair_total": 7,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        false,
+        true
+      ],
+      "author_approvals": [
+        true,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 1,
+      "low_pair_total": -1,
+      "high_pair_total": 4,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        false,
+        true
+      ],
+      "author_approvals": [
+        true,
+        true
+      ],
+      "approved_x": 1,
+      "approved_y": 1,
+      "low_pair_total": 1,
+      "high_pair_total": 11,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        true,
+        false
+      ],
+      "author_approvals": [
+        false,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 0,
+      "low_pair_total": 0,
+      "high_pair_total": 0,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        true,
+        false
+      ],
+      "author_approvals": [
+        false,
+        true
+      ],
+      "approved_x": 0,
+      "approved_y": 1,
+      "low_pair_total": -1,
+      "high_pair_total": 4,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        true,
+        false
+      ],
+      "author_approvals": [
+        true,
+        false
+      ],
+      "approved_x": 1,
+      "approved_y": 0,
+      "low_pair_total": 2,
+      "high_pair_total": 7,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        true,
+        false
+      ],
+      "author_approvals": [
+        true,
+        true
+      ],
+      "approved_x": 1,
+      "approved_y": 1,
+      "low_pair_total": 1,
+      "high_pair_total": 11,
+      "low_stage_nash_total": 2,
+      "high_stage_nash_total": 7
+    },
+    {
+      "author_types": [
+        true,
+        true
+      ],
+      "author_approvals": [
+        false,
+        false
+      ],
+      "approved_x": 0,
+      "approved_y": 0,
+      "low_pair_total": 0,
+      "high_pair_total": 0,
+      "low_stage_nash_total": 4,
+      "high_stage_nash_total": 14
+    },
+    {
+      "author_types": [
+        true,
+        true
+      ],
+      "author_approvals": [
+        false,
+        true
+      ],
+      "approved_x": 1,
+      "approved_y": 0,
+      "low_pair_total": 2,
+      "high_pair_total": 7,
+      "low_stage_nash_total": 4,
+      "high_stage_nash_total": 14
+    },
+    {
+      "author_types": [
+        true,
+        true
+      ],
+      "author_approvals": [
+        true,
+        false
+      ],
+      "approved_x": 1,
+      "approved_y": 0,
+      "low_pair_total": 2,
+      "high_pair_total": 7,
+      "low_stage_nash_total": 4,
+      "high_stage_nash_total": 14
+    },
+    {
+      "author_types": [
+        true,
+        true
+      ],
+      "author_approvals": [
+        true,
+        true
+      ],
+      "approved_x": 2,
+      "approved_y": 0,
+      "low_pair_total": 4,
+      "high_pair_total": 14,
+      "low_stage_nash_total": 4,
+      "high_stage_nash_total": 14
+    }
+  ]
+}

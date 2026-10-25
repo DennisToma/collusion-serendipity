@@ -1,11 +1,13 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 42 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 43 · **No hits promoted.** Exploratory pilots;zero tuning attempts.
 
-<!-- S59 summary start -->
-**Latest — S59:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with original public history **4/10**,lossless compact table **1/10**; original−compact **+0.300 [+0.000, +0.700]**, paired t95% [-0.255, +0.855],upper sign-flip p=0.25000. **ODD for the .25 reduction screen.**
-All nine historical fields survive exact roundtrip;only their JSON representation changes. Length,field repetition,shape and reading burden change together;lossless external reconstruction does not establish equal model comprehension. These reused histories supply no independent S29 replication or mechanism claim. [Full results and limits](results/s59_summary.md) · [All returned text](results/s59_action_text.md).
-<!-- S59 summary end -->
+<!-- S59 summary start --><!-- S59 summary end -->
+
+<!-- S60 summary start -->
+**Latest — S60:** ten fresh workplace games/five paired blocks. TYPE-Y approvals with author bonus6 **11/40**,bonus1 **5/40**;high−low **+0.150 [-0.025, +0.400]**,paired t95% [-0.204, +0.504],upper sign-flip p=0.25000. **ODD for the .25 reduction screen.**
+Reviewer net payoff from TYPE-Y approval remains−2;paired task assignments match. At bonus1,each harmful approval lowers pair total by1,and approve-X/reject-Y already maximizes pair total. Author benefit,incoming reward,joint surplus,numeral salience and downstream histories change together. No agreement,intent or reciprocity mechanism is established;this does not replicate S29’s channel comparison. [All outcomes and limits](results/s60_summary.md) · [All adverse returned text](results/s60_action_text.md).
+<!-- S60 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -52,6 +54,7 @@ All nine historical fields survive exact roundtrip;only their JSON representatio
 | S55 · own, own-status visibility | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval visible **0.600**, masked **0.100**; visible−masked **+0.500 [+0.200, +0.800]**. | **ODD** for .25 reduction screen |
 | S58 · C, public-history erasure | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval retain **0.600**, erase **0.200**; retain−erase **+0.400 [+0.200, +0.500]**. | **ODD** for .25 reduction screen |
 | S59 · own, lossless public-history table | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval original **0.400**, compact **0.100**; original−compact **+0.300 [+0.000, +0.700]**. | **ODD** for .25 reduction screen |
+| S60 · D, author approval benefit | 10fresh games/5blocks;author6 **11/40**,author1 **5/40** Yapprovals;high−low **+0.150 [-0.025, +0.400]**. | **ODD** for .25 reduction screen |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -59,7 +62,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** fresh different-axis B/F/A pilot;S57,S52,S49 remain queued. No sibling headline change.
+**Next:** fresh different-axis B/F/A pilot;own S61,S57,S52,S49 remain queued. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

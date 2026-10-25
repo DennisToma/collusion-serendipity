@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "local_links_checked": 211,
+  "source_entries": 22,
+  "all_key_replay": true,
+  "canonical_result_byte_identical": true,
+  "cached_resume_byte_identical": true,
+  "independent": {
+    "passed": true,
+    "archive_eligibility_checked": false,
+    "scope": "Independent action/prompt/payoff/statistic reconstruction only; publication also requires s60_analyze archive-eligibility validation",
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "accepted_action_note_reason_bindings": 200,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "rejections": {
+      "low": 0,
+      "high": 0
+    },
+    "verdict": "ODD"
+  },
+  "result_sha256": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb"
+}

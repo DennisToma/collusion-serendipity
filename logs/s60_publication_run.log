@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scientific_calls_forbidden": true,
+  "registered_scientific_sources_unchanged": true,
+  "display_originals_unchanged": true,
+  "all_display_artifacts_compared": true,
+  "regenerated_sha256": {
+    "figures/s60_author_bonus.png": "facc42b1f610033d4db2d7de9b88c7ee1039694b095122b872ad76a998171352",
+    "results/s60_summary.md": "af78a7d70cef4c9df117a8649def712080c820bb0254d87cd8b7b3c0bca2abb7",
+    "results/s60_action_text.md": "d2cce3f885bc4a597bff2d3fd328d3fe1f8a520340ade596b664869efa5a7d17",
+    "results/s60_action_text.json": "a914e584e75122d9c2a1f4e3422129c010387885b576f992f457356018eca1dd"
+  },
+  "regenerated_s60_document_section_sha256": {
+    "REPORT.md": "1afccf01203c63675228d59d19c4a3d4f3a05675d9a8898e19e383941d7d2421",
+    "REPORT_DETAILS.md": "4b4335617c79abe08d44bf195085f2e865636df2164ffe94dd3ef01cbe41a3cf",
+    "HITS.md": "61c86923f299c41ad4b1dfef556bfaa8812f6d00842fdcd2b3ec49288393b0f8",
+    "README.md": "93524ad78e663b9468e62779620e6b3cd5fe5a85d67efcf57fc6d60e7fe45e50",
+    "logs/s60_document_check.json": "7f5e8aa470dbcbed06892daa4b14fa7e682e9bdece9fc7e47f3d682d1df68b7d"
+  },
+  "archive": {
+    "passed": true,
+    "local_links_checked": 214,
+    "source_entries": 22,
+    "all_key_replay": true,
+    "canonical_result_byte_identical": true,
+    "cached_resume_byte_identical": true,
+    "independent": {
+      "passed": true,
+      "archive_eligibility_checked": false,
+      "scope": "Independent action/prompt/payoff/statistic reconstruction only; publication also requires s60_analyze archive-eligibility validation",
+      "raw_metric_cells": 50,
+      "bootstrap_intervals": 15,
+      "t_intervals": 15,
+      "sign_tests": 15,
+      "accepted_action_note_reason_bindings": 200,
+      "saved_request_histories": 200,
+      "note_snapshots": 200,
+      "rejections": {
+        "low": 0,
+        "high": 0
+      },
+      "verdict": "ODD"
+    },
+    "result_sha256": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb"
+  }
+}

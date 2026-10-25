@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "scientific_result_sha256": "b7770f90f9a4cbab1e776dc6f5e921e1f25cb6b7405c6ef01df681ffd9645efb",
+  "prior_scientific_artifacts_unchanged": 1191,
+  "prior_pilot_rows_unchanged": 43,
+  "pilot_rows": 44,
+  "verdict": "ODD",
+  "generated_from_frozen_result": true
+}
