@@ -1446,7 +1446,9 @@ Ten fresh workplace games/five blocks; individual versus pooled settlement. Both
 
 ```bash
 uv run python scripts/s65_release_final.py
-uv run python -m unittest scripts.test_s65 scripts.test_s65_publication -q
+uv run python scripts/s65_focused_tests.py
 ```
 
 The release forbids model calls, reconstructs every request/action and all outcomes, verifies byte-identical results and rendered claims. Use the results commit for exact document reproduction; existing pinned venv required.
+
+Current publication canonical suite: `uv run python scripts/s65_tests.py`. Named historical synthetic fixtures are scoped to tests; actual archive checks are unpatched.

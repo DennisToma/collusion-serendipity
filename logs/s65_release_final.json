@@ -26,7 +26,7 @@
   "local_links": 457,
   "checked_sha256": {
     "results/s65_bonus_pooling.json": "fc3ebf607e485d8aaf4070f34ed512e89103a087e7d7aaf2222149e105753bce",
-    "results/s65_summary.md": "80449c32e1a6202f8090bf17e1f829cf50d66b1bdeec711a4347b3493917ae23",
+    "results/s65_summary.md": "4188cab7d92fd2314976e0cfd6a947c2ae8263cba0bfffcb0f350a9d31384819",
     "figures/s65_pooling.png": "c1fb6b20f7674087e01d3372525a948200ac398bdd4353ba328ca224273d587c",
     "results/s65_action_text.json": "eb05beea13f1be9d418fa8ba011e7b88ee8aa97911691e89fe018eca72ad45bd",
     "results/s65_action_text.md": "d17cb9ed9d6a0938f349bfb46476f4a0da69c9e26e394cd93eb5d50d4f271850",
@@ -36,6 +36,6 @@
     "REPORT.md": "7d373ee4ddad816a122d72ed767a4fc5d646b14b204384a469614c50d7a32602",
     "REPORT_DETAILS.md": "a56d216d2b1a088913b9b55e1736f5e0ffa58e35137ffc7d603332160e384abc",
     "HITS.md": "58a66f6cf63677c76a8e94b19358cd35a55c6da3f8cae0bedef3a1c6374d557a",
-    "README.md": "a776fc689ee84a3ebb48b348bb243b003f7462dc9ed467cec10799953d5132eb"
+    "README.md": "d14c84ee37fe83ccc750441f4ce5d16c4234ca4daffa2e3e1c71a766e85b6b66"
   }
 }

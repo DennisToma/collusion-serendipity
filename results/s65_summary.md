@@ -35,4 +35,4 @@ Changing settlement also changes explanatory wording and endogenous bonus histor
 ![S65 bonus pooling](../figures/s65_pooling.png)
 
 [Design](../DESIGN_S65.md) · [Frozen result](s65_bonus_pooling.json) · [Independent reconstruction](../logs/s65_independent.json) · [All primary TYPE-Y approvals/text](s65_action_text.md) · [All TYPE-Y choices, including rejection](s65_all_y_decisions.md) · [Review dispositions](../logs/s65_review_disposition.md).
-Reproduce: `uv run python scripts/s65_release_final.py`; `uv run python -m unittest scripts.test_s65 scripts.test_s65_publication -q`.
+Reproduce: `uv run python scripts/s65_release_final.py`; `uv run python scripts/s65_focused_tests.py`.

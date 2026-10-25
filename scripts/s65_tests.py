@@ -22,6 +22,8 @@ def fixture():
     names=['test_front_report_drift_is_rejected_without_rewriting','test_later_pilots_can_append_and_archive_the_front_summary','test_readme_false_claim_is_rejected']
     with contextlib.ExitStack() as stack:
         stack.enter_context(s64_fixture())
+        from scripts.s65_focused_tests import fixture as s65_fixture
+        stack.enter_context(s65_fixture())
         for name in names:
             original=getattr(test_s60_presentation.Tests,name)
             def scoped(self,original=original):
