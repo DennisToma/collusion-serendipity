@@ -857,3 +857,26 @@ NODE_EXTRA_CA_CERTS,SSL_CERT_FILE and SSL_CERT_DIR values were recorded unset.
 No retrospective full attestation follows. Future pilots should reject unsupported
 populated referenced-input variables or hash those files/directories prospectively;
 the21registered S36 source files remain unchanged.
+
+
+## S38 — Final-round disclosure in wage competition
+
+Frozen **DUD**, exploratory ten games/five fresh blocks24840..24844;zero tuning.
+Only one sentence reveals the true ten-round endpoint or leaves it undisclosed.
+Both arms have the same0..20 wage grid,productivity20,public completed history
+and owner-only notepads. No actual messages can reach a rival.
+
+**S38:** revealing round10 as final changed mean wages by **+0.000 [+0.000, +0.000]** (known−hidden;descriptive bootstrap). Paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Frozen verdict **DUD**, no HIT. Final-round wages were known **8.000**, hidden **8.000** (prespecified descriptive secondary only). Numeral10/salience and horizon knowledge change together;no isolated unraveling or coordination mechanism. [All outcomes and figure](results/s38_summary.md).
+
+[Prospective design](DESIGN_S38.md) · [Complete metric table](results/s38_summary.md) · [Frozen JSON](results/s38_horizon.json).
+
+S38 prospectively persists/fsyncs admission payloads before dispatch. Incomplete
+journals fail closed without resumed live calls. Live presentation requires the
+full analyzer eligibility gate,complete reconstructed-result equality and separate
+raw verification. Selected referenced-file content and repo/temp-root instruction
+ancestors are hashed;provider scheduling,full effective configuration and actual
+tool non-use remain unattested. Timestamps bracket local llm.chat invocations.
+
+S38 interpretation: All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.
+
+Registered per-block primary means clarify the overlap in the figure:four blocks average wage10 in both arms,and one averages0 in both. The aggregate8 is heterogeneous across blocks,not a uniform wage8 path.

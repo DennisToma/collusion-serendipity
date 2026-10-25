@@ -1,17 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T01:54:14.576995+00:00; Phase2, iteration25 pre-live)
-- F/S38 registered:known final round10 versus undisclosed endpoint.
-- Ten fresh games/five blocks24840..24844,T10;primary known−hidden r3–10.
-- Frozen2-unit screen;terminal wage descriptive;zero tuning/no pooling.
-- Final-source full384tests PASS;30 S38 tests cover mocked LIVE path.
-- Dry200key replay/60rawcells/18bootstrap+t/18sign tails/18exact PASS.
-- Both original+patched Codex/Opus design critics exit0;targeted Codex exit0.
-- Persist/fsync admissions;full-archive eligibility gates live presentation.
-- Known referenced-file/ancestor guard;complete provider/config unattested.
-- Guard20-check benchmark and historical runtime headroom pass.
-- No live calls yet;source freeze/push then sole live launch next.
-- S37 queued only,S32 unconfirmed,S30 unrun;no promoted hits.
+## Current state (2026-10-25T02:02:40.762768+00:00; Phase2, iteration25 post-live)
+- F/S38 complete:10games/5blocks,200valid decisions,zero retries/failures.
+- Known/hidden endpoint wages8.000each;difference0,all five paired ties.
+- Bootstrap/t[0,0] degenerate;upperp1;frozen DUD,no equivalence claim.
+- Prespecified terminal wages8.000each;no secondary promotion.
+- Both means below static Nash18–20;no verified agreement/coordination.
+- Full200key replay/22sources/registration/runtime/UTC/exports PASS.
+- Separate60rawcells/18bootstrap+t/18sign tails/200bindings/exact18 PASS.
+- Pre/post-live384tests PASS;release114links PASS;both final critics exit0;regeneration7artifacts PASS;origin clone next.
+- Sources/scientificSHA38b00a81 unchanged;no tuning/pooling/sibling writes.
+- Next:different axis;S37 queued own proposal,S32 unconfirmed,S30 unrun.
 
 ## Log
 
@@ -348,3 +347,15 @@
 - 2026-10-25T01:45:09.934671+00:00: iteration25 read CLAUDE/PLAN/STATUS/DIRECTION/experiment ledger and both sibling report/state summaries. Both siblings holding under their directives;explorer direction unchanged. Selected F/S38 after own/S36:single-sentence finite-horizon disclosure at identical labor stage economics and private notepads. Fresh five blocks,known-minus-hidden primary2-unit screen,terminal wage descriptive,no pooling/secondary promotion. Prospective named-reference content/ancestor instruction fingerprint and empty NODE_OPTIONS guard address known prior gap without editing earlier sources. No live scientific outcomes;pre-live validation/reviews next.
 
 - 2026-10-25T01:54:14.576995+00:00: S38 final-source pre-live validation complete. Initial30protocol tests pass;full384canonical repository tests pass with existing scoped historical fixture clocks. Initial raw discovery382tests had8failures/1error from expired historical fixtures and is retained separately;first S38 run had stale copied filename,corrected before outcomes. Both initial and patched Codex/Opus design critics exit0;targeted final Codex publication review exit0. Fixed admission durability,dry/live metadata binding,and direct-render full archive eligibility before registration. Opus supplied-text scope explicit;added numeral10/final salience and invocation-not-provider timing limitations. Final200key dry replay,60raw cells,18bootstrap+t/18sign tails,200note/reason bindings and18exact summaries PASS. All22source hashes match final manifest. Real20-fingerprint benchmark~.506s median,.523s max,400-check extrapolation209s;historical headroom gate passes with>1hour left to03:00 cutoff. S36 parser census200valid/zero retries/failures. Auth-refresh/strict-parser abort risk accepted prospectively. No live outcomes,tuning,pooling,second pilot or sibling writes. Freeze/push and sole live launch next.
+
+- 2026-10-25T01:54:26.036427+00:00: S38 registration6d354c3f38dcce5137a19444e3494f38e768ed6a committed and pushed before live calls. Sole foreground live runner launched with durable exit receipt,two workers and per-block barriers,22frozen sources.03:00UTC admission cutoff;launch/first-admission guards repeat20-minute historical headroom gate. No partial actions,notes or treatment effects inspected. Ledger registration reference finalized;no frozen source edits after push.
+
+- 2026-10-25T01:55:58.465771+00:00: S38 metadata-only live checkpoint:2/10 games complete,43responses,0failure markers. All22frozen source hashes match config;no actions,notes or partial effects inspected. No scientific source edits or additional pilot.
+
+- 2026-10-25T02:02:40.762768+00:00: S38 sole live runner exit0,ten games/fiveblocks,200valid decisions andzero retries/failures. Frozen primary known8.000/hidden8.000,known−hidden0[0,0],pairedt[0,0],upperp1,all five paired ties;DUD. Terminal wage8.000both,registered descriptive only. Explicitly labeled degenerate resampling bounds/no equivalence;both means below Nash18–20,no verified coordination. Full admission/request/response/replay/source/registration/environment/runtime/invocation overlap/UTC/export checks PASS. Separate60raw metric cells,18bootstrap+t summaries,18sign tails,200action/note/reason bindings and18exact rational summaries PASS. Canonical SHA38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7. Reports/HITS/README/DETAILS updated;final independent critics,post-live suite,figure inspection,call-forbidden release and remote clone next. No second pilot,model calls for new science,tuning,pooling,reverse/secondary promotion,HIT or sibling writes.
+
+- 2026-10-25T02:04:43.870978+00:00: S38 figure visually inspected;four paired block means10 andone0,all differences0. Cache-only full release PASS,114local links resolve;all22source hashes/scientificSHA38b00a81 unchanged. Durable standalone post-live canonical suite childexit0,384tests PASS. Final critics running;Opus supplied-text scope remains explicit. No new games,source edits,tuning,pooling or semantic labels.
+
+- 2026-10-25T02:05:37.649703+00:00: S38 final Codex/Opus critics both exit0,parent0. Codex independently reconstructs all60rawcells/18bootstrap+t/6sets32signflips,441profiles/18522deviations and full archive chronology/replay;15selected tests pass. Opus supplied-text-only scope explicit. Accepted observed-difference phrasing and documented immutable-working-tree reproduction/named config omissions. Rejected unmeasured "little room to move"/focal-regime mechanism language. Preserved Opus reversed bootstrap-count annotation and independently clarified ascending counts without changing any estimate. All22sources/scientificSHA38b00a81 unchanged. No new scientific calls,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT or sibling writes. Final call-forbidden regeneration then results push/origin clone next.
+
+- 2026-10-25T02:07:02.949536+00:00: S38 final model-call-forbidden regeneration PASS. Seven artifacts(scientific result,summary,figure,REPORT,independent/exact/release receipts) byte-identical;all20archive files and22frozen sources unchanged. Canonical scientificSHA38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7. git diff --check PASS;384post-live tests childexit0,both final critics/parent exit0. No active generation/review,new scientific calls,tuning,pooling,secondary promotion,HIT or sibling writes. Results milestone commit/push then origin clone next.

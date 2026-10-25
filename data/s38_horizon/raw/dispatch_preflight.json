@@ -1,0 +1,69 @@
+{
+  "observed_utc": "2026-10-25T01:54:27.842783+00:00",
+  "registration_commit": "6d354c3f38dcce5137a19444e3494f38e768ed6a",
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/horizon.py": "56ee8edbd79b89ee199787f3f5ab762485e41f2fa413f2033f9368d6400ba56e",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s38_runtime.py": "e5e3b97d500786bbc9c26dedb495008d20c1702be31906271c0d99a7f4e93ccb",
+    "DESIGN_S38.md": "3aaa0a65679470ea9df5cad3222821d59d1830f16176d22b011c2effa76754f3",
+    "scripts/s38_analyze.py": "6c4cef9727f46a634847b88116263e2d11dfa090719879c08eacd9c32aa45f89",
+    "scripts/test_s38.py": "8151d81264b4a5e5e54263c5335c52cc33d5e87096705fd2bec43eda20329f14",
+    "scripts/s38_launch.py": "59a073d6040763695207129ddfe5a541049abf1ca0650b5866a0cea5feb8a00f",
+    "scripts/s38_independent.py": "6a717f0eebda970ab42de4ca64cdcf2b932f0f932bcac1aea7c2608f895edd96",
+    "scripts/s38_present.py": "bd0bf1800bb207473465b99fd003c1ad1322e141e343f985221af1f995eff70d",
+    "scripts/s38_reviews.py": "2c876ef6d3d9eb9324d7e59a38a8c8d522321c4c30f92d473c51068e20fe258b",
+    "scripts/s38_exact_check.py": "6bdd13d0459e1438a3e70ec766dab2971a60e6ffbac31136fae971dba2cbbc57",
+    "scripts/s38_release.py": "04aca39158e14541f03e70cc8632517c60be9de7fcc363ecb470167fb8fa1209",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "runtime_precheck": {
+    "checked_utc": "2026-10-25T01:54:27.842253+00:00",
+    "previous_block_seconds": [
+      148.482404,
+      156.727986,
+      152.011978,
+      102.188508,
+      107.288195
+    ],
+    "previous_game_calls": {
+      "s19_24320_neutral": 30,
+      "s19_24320_normative": 30,
+      "s19_24321_neutral": 30,
+      "s19_24321_normative": 30,
+      "s19_24322_neutral": 30,
+      "s19_24322_normative": 30,
+      "s19_24323_neutral": 30,
+      "s19_24323_normative": 30,
+      "s19_24324_neutral": 30,
+      "s19_24324_normative": 30
+    },
+    "previous_response_count": 300,
+    "previous_responses_sha256": "94c259b70c02eef8854b0375696a8cad2c2be32b7ac16b2416e34ed4593970dc",
+    "previous_game_sha256": {
+      "data/s19_labels/game_24320_neutral.json": "611c5c72d2b05cc1665d6cae02f215395e078a658b818b9fc9f1fa93c1f33865",
+      "data/s19_labels/game_24320_normative.json": "f49ffb566dc86fa86d33564c4eade52f3243d592802a2232946ec76a0e01b07b",
+      "data/s19_labels/game_24321_neutral.json": "f767a677c90cccb055a17eee82ad70743c259ff6a1745690317341bfc261b921",
+      "data/s19_labels/game_24321_normative.json": "c5a91db7c61b8fb1bcb6f69905766f921a3ba805ec8d23c4b5b0bf0d9e4b207b",
+      "data/s19_labels/game_24322_neutral.json": "ab1628b284ea989784ea0c2e834ab32222cd213395df6f0dccc35533bb39940a",
+      "data/s19_labels/game_24322_normative.json": "84d1d91df03d2b5487e66a5b88a7898e08e61c985581e24184e6a32f56927a03",
+      "data/s19_labels/game_24323_neutral.json": "3b47d9e32512880c9af96274917ec15f811f0a8347bae3235e96f3b193ad1f99",
+      "data/s19_labels/game_24323_normative.json": "8fc1ca68a10b42b92b48fb1c7ef7292441b296b9db529c7281ad2d038f502636",
+      "data/s19_labels/game_24324_neutral.json": "8a42eba6605174a5ca856cfe6a0afae3d27ea403ab0e07ac92f9229822857ee3",
+      "data/s19_labels/game_24324_normative.json": "f5155c738b12c36158f0460e747cba2048184c049054897ff1e903c4e0ea06eb"
+    },
+    "required_seconds": 1175.459895,
+    "remaining_seconds": 3932.157747,
+    "model": "gpt-6-luna",
+    "backend": "codex",
+    "passed": true
+  }
+}

@@ -959,3 +959,14 @@ live presentation verifies the raw archive. Selected referenced config/certifica
 contents and repo/temp-root instruction ancestors are fingerprinted. Nonempty
 NODE_OPTIONS is refused. This coverage does not attest full effective settings,
 provider identity/scheduling,tool non-use or provider temperature/token enforcement.
+
+S38 result: **DUD**,known−hidden +0.000[+0.000,+0.000] descriptive bootstrap;upperp1.00000. [All six outcomes and figure](results/s38_summary.md). No pooling or mechanism claim.
+
+S38 interpretation: All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.
+
+S38 regeneration requires the registered working-tree files and dependency versions
+unchanged. After later edits to CLAUDE.md,pyproject.toml,uv.lock or shared sources,
+check out the S38 result commit recorded in EXPERIMENTS.tsv in a separate
+worktree and run the commands there. Keep archived source checks intact.
+Known untracked CLI inputs include AGENTS.override.md,skills/rules/profile
+includes and other effective configuration;no retrospective attestation.

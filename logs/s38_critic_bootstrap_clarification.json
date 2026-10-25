@@ -1,0 +1,12 @@
+{
+  "scope": "Post-review arithmetic clarification only;frozen estimates unchanged",
+  "ascending_mean_counts": {
+    "0": 1,
+    "2": 20,
+    "4": 160,
+    "6": 640,
+    "8": 1280,
+    "10": 1024
+  },
+  "total": 3125
+}

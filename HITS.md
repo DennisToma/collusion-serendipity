@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 24.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 25.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -399,3 +399,20 @@ scripts/s36_independent.py`, `uv run python scripts/s36_exact_check.py`,
 Four positive blocks and one tie miss the frozen sign gate (p=.0625);the
 positive bootstrap interval does not promote a HIT,and paired t includes0.
 Both means are below the static Nash take-home range18–20. No verified agreement.
+
+
+**S38: unpromoted DUD for final-round disclosure (axis F).**
+Ten fresh wage games/five paired blocks: hidden 8.000,known
+8.000;known−hidden +0.000[+0.000,+0.000]
+descriptive bootstrap;t[+0.000000,+0.000000],
+upperp1.00000. Frozen2-unit increase screen;no reverse or
+secondary promotion. Last-round wage is registered descriptive only. The known
+sentence bundles numeral10/final salience with horizon information;hidden
+beliefs unobserved,multiple stage equilibria,no unique unraveling prediction.
+No equivalence,agreement,coordination or sibling headline claim;no pooling.
+[Design](DESIGN_S38.md),[all outcomes](results/s38_summary.md),
+[figure](figures/s38_horizon.png). Reproduce: `uv run python scripts/s38_analyze.py`;
+`uv run python scripts/s38_independent.py`;`uv run python scripts/s38_exact_check.py`;
+`uv run python scripts/s38_present.py`;`uv run python scripts/s38_release.py`.
+
+S38 interpretation: All five paired wage differences are zero;the [0,0] bootstrap/t bounds are degenerate resampling summaries and do not establish population equivalence. Both observed arm means are below the static Nash wage range18–20;low wages and personal profit alone do not establish coordination.

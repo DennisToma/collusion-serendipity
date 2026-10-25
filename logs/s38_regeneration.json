@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "model_calls_forbidden": true,
+  "byte_identical_artifacts": {
+    "results/s38_horizon.json": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7",
+    "results/s38_summary.md": "d66a543742c54964c2a525dcaea16c86b6967ca19900929325d034dca21a719f",
+    "figures/s38_horizon.png": "553fe37d62621ba193aaf9489dfaf70b99e451e2175b6cc7ecde5548f9ebb2b3",
+    "REPORT.md": "24f6b448221ac394478bd97f102d91dffea5c4406284553dba5e226b5d5a8989",
+    "logs/s38_independent.json": "dfcfc9e70e11ff684b578315cf9f5bcfd36a741042f4f2ccb5db93b0361c70a1",
+    "logs/s38_exact_check.json": "2e9da1e6b3d94bf9318fa4c92974783636e0caf7f7b39c767966f2b5c0492ff2",
+    "logs/s38_release.json": "b696e6833d7100cdce6f9b44d5abfdd72ab291c6d21db82d29154bfabda84f6f"
+  },
+  "unchanged_archive_files": 20,
+  "frozen_sources": 22,
+  "scientific_sha256": "38b00a816dc9535ee49e12d1d78102eef0356d207358111938d2f15c8359e7b7"
+}

@@ -30,3 +30,23 @@ failure markers,late/mismatched admissions,source drift and forged response coun
 All30 targeted tests pass. Final targeted Codex publication re-review pending.
 
 Final targeted Codex publication check exit0:both reported publication issues closed. Standalone independent verifier checks raw arithmetic/counts;it does not independently validate limitation prose. Live renderer binds that prose through full analyzer/result equality. Final-source full384tests pass,as do dry200-key replay,60rawcells,18bootstrap+t/18sign tails/18exact summaries. All22source hashes match the final dry manifest. No live calls before registration.
+
+Final critics:Codex exit0,Opus exit0,parent exit0. Codex independently reconstructed
+all60raw cells,18bootstrap+t summaries and32sign flips for each of6metrics;
+441profiles/18522deviations,full archive chronology/replay and15selected tests.
+It reports no remaining bug in scope. Opus explicitly reviewed supplied text
+only and did not inspect raw data,figure,archive receipts or repository tests.
+- Accepted wording fix:root report now states observed difference instead of
+"changed mean wages";all5paired differences0 and degenerate intervals explicit.
+- Rejected "little room to move"/"focal insensitive regime" mechanism framing:
+mean8 has substantial room to rise within0..20;no sensitivity calibration or
+isolated mechanism was measured. All original outcomes/verdict retained.
+- Documented frozen-working-tree regeneration requirement;later reproduction
+must use the S38 result commit/registered dependencies. No retrospective source
+check weakening. Added named CLI coverage omissions in README.
+- Opus arm-bootstrap count annotation was reversed relative to its10−2k formula:
+ascending means0,2,4,6,8,10 have counts1,20,160,640,1280,1024. Preserved the
+original critic and saved independent arithmetic clarification. Its reported
+[4,10] bounds and primary-zero arithmetic match frozen results.
+- No labels inferred from notes or low wages;no common-shock/determinism claim,
+model calls for new science,threshold changes,tuning,pooling or promotion.

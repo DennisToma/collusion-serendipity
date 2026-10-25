@@ -1,0 +1,99 @@
+{
+  "version": "horizon-0.1",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "rounds": 10,
+  "n": 5,
+  "seed0": 24840,
+  "dry": false,
+  "temperature_requested": 1.0,
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/horizon.py": "56ee8edbd79b89ee199787f3f5ab762485e41f2fa413f2033f9368d6400ba56e",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s38_runtime.py": "e5e3b97d500786bbc9c26dedb495008d20c1702be31906271c0d99a7f4e93ccb",
+    "DESIGN_S38.md": "3aaa0a65679470ea9df5cad3222821d59d1830f16176d22b011c2effa76754f3",
+    "scripts/s38_analyze.py": "6c4cef9727f46a634847b88116263e2d11dfa090719879c08eacd9c32aa45f89",
+    "scripts/test_s38.py": "8151d81264b4a5e5e54263c5335c52cc33d5e87096705fd2bec43eda20329f14",
+    "scripts/s38_launch.py": "59a073d6040763695207129ddfe5a541049abf1ca0650b5866a0cea5feb8a00f",
+    "scripts/s38_independent.py": "6a717f0eebda970ab42de4ca64cdcf2b932f0f932bcac1aea7c2608f895edd96",
+    "scripts/s38_present.py": "bd0bf1800bb207473465b99fd003c1ad1322e141e343f985221af1f995eff70d",
+    "scripts/s38_reviews.py": "2c876ef6d3d9eb9324d7e59a38a8c8d522321c4c30f92d473c51068e20fe258b",
+    "scripts/s38_exact_check.py": "6bdd13d0459e1438a3e70ec766dab2971a60e6ffbac31136fae971dba2cbbc57",
+    "scripts/s38_release.py": "04aca39158e14541f03e70cc8632517c60be9de7fcc363ecb470167fb8fa1209",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "workers": 2,
+  "deadline_utc": "2026-10-25T03:00:00+00:00",
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "registration_commit": "6d354c3f38dcce5137a19444e3494f38e768ed6a",
+  "cli_fingerprint": {
+    "referenced_inputs": {
+      "named_references": {
+        "CODEX_MANAGED_CONFIG": null,
+        "CODEX_MANAGED_CONFIG_FILE": null,
+        "NODE_EXTRA_CA_CERTS": null,
+        "SSL_CERT_FILE": null,
+        "SSL_CERT_DIR": null
+      },
+      "ancestor_instructions": {
+        "/home/factory/collusion/collusion-serendipity/AGENTS.md": null,
+        "/home/factory/collusion/collusion-serendipity/CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883",
+        "/home/factory/collusion/AGENTS.md": null,
+        "/home/factory/collusion/CLAUDE.md": null,
+        "/home/factory/AGENTS.md": null,
+        "/home/factory/CLAUDE.md": null,
+        "/home/AGENTS.md": null,
+        "/home/CLAUDE.md": null,
+        "/AGENTS.md": null,
+        "/CLAUDE.md": null,
+        "/tmp/AGENTS.md": null,
+        "/tmp/CLAUDE.md": null
+      }
+    },
+    "files": {
+      "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70",
+      "/home/factory/.nvm/versions/node/v24.22.0/bin/node": "67ca5783febb8bf85736c79fcdd92c8d6d465a0eb2a082672bcdfa76a506751c",
+      "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+      "/home/factory/.codex/config.toml": "cf0ea790b1028a5a11e08ea5250e2567e0d647e45d39ef21c6c4d72ad6531e5b",
+      "/home/factory/.codex/AGENTS.md": null,
+      "/etc/codex/config.toml": null,
+      "/etc/codex/managed_config.toml": null,
+      "/home/factory/.codex/auth.json": "21609fee43259055fda53be60b3fff3abdbb78c96748bd2133fa5a7cbe0d5c0b"
+    },
+    "environment_sha256": {
+      "PATH": "7693c1c6aa77532e409c7dd3277216a3cfb2a3925b3ec614f9c94d32a3724cab",
+      "CODEX_HOME": null,
+      "OPENAI_BASE_URL": null,
+      "OPENAI_API_KEY": null,
+      "OPENAI_ORG_ID": null,
+      "OPENAI_PROJECT_ID": null,
+      "CODEX_API_KEY": null,
+      "CODEX_MANAGED_CONFIG": null,
+      "CODEX_MANAGED_CONFIG_FILE": null,
+      "TMPDIR": null,
+      "HOME": "4f9c067d619da894a96e9cb073407bd91a28d2b9f63e9af68828cdeb7db58c2d",
+      "NODE_OPTIONS": null,
+      "HTTP_PROXY": null,
+      "HTTPS_PROXY": null,
+      "ALL_PROXY": null,
+      "NO_PROXY": null,
+      "NODE_EXTRA_CA_CERTS": null,
+      "SSL_CERT_FILE": null,
+      "SSL_CERT_DIR": null
+    },
+    "scope": "Known local launcher/node/native/config/routing inputs only; no provider attestation or complete effective-configuration reconstruction"
+  }
+}

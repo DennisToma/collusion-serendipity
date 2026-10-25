@@ -1,0 +1,570 @@
+{
+  "pilot": "S38",
+  "primary_metric": "resource_payment",
+  "primary_contrast": "known minus hidden",
+  "verdict": "DUD",
+  "n_games": 10,
+  "n_seed_blocks": 5,
+  "primary_rounds": "3..10",
+  "tuning_attempts": 0,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "dry": false,
+  "metrics": {
+    "resource_payment": {
+      "known": {
+        "mean": 8.0,
+        "mean_exact": "8",
+        "ci95": [
+          4.0,
+          10.0
+        ],
+        "ci95_exact": [
+          "4",
+          "10"
+        ],
+        "paired_t_ci95": [
+          2.447109789604413,
+          13.552890210395587
+        ]
+      },
+      "hidden": {
+        "mean": 8.0,
+        "mean_exact": "8",
+        "ci95": [
+          4.0,
+          10.0
+        ],
+        "ci95_exact": [
+          "4",
+          "10"
+        ],
+        "paired_t_ci95": [
+          2.447109789604413,
+          13.552890210395587
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "offered_rate": {
+      "known": {
+        "mean": 7.9375,
+        "mean_exact": "127/16",
+        "ci95": [
+          3.95,
+          9.9875
+        ],
+        "ci95_exact": [
+          "79/20",
+          "799/80"
+        ],
+        "paired_t_ci95": [
+          2.4265231022787974,
+          13.448476897721203
+        ]
+      },
+      "hidden": {
+        "mean": 7.9625,
+        "mean_exact": "637/80",
+        "ci95": [
+          3.975,
+          9.975
+        ],
+        "ci95_exact": [
+          "159/40",
+          "399/40"
+        ],
+        "paired_t_ci95": [
+          2.4355368081002124,
+          13.489463191899787
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.025,
+        "mean_exact": "-1/40",
+        "ci95": [
+          -0.1125,
+          0.05
+        ],
+        "ci95_exact": [
+          "-9/80",
+          "1/20"
+        ],
+        "paired_t_ci95": [
+          -0.15485632921044595,
+          0.10485632921044596
+        ],
+        "exact_signflip_p_upper": 0.75,
+        "exact_signflip_p_lower": 0.4375,
+        "exact_signflip_p_two_sided": 0.875
+      },
+      "seed_differences": [
+        0.0625,
+        -0.1875,
+        -0.0625,
+        0.0625,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        2,
+        -6,
+        -2,
+        2,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "firm_profit": {
+      "known": {
+        "mean": 12.0,
+        "mean_exact": "12",
+        "ci95": [
+          10.0,
+          16.0
+        ],
+        "ci95_exact": [
+          "10",
+          "16"
+        ],
+        "paired_t_ci95": [
+          6.447109789604413,
+          17.55289021039559
+        ]
+      },
+      "hidden": {
+        "mean": 12.0,
+        "mean_exact": "12",
+        "ci95": [
+          10.0,
+          16.0
+        ],
+        "ci95_exact": [
+          "10",
+          "16"
+        ],
+        "paired_t_ci95": [
+          6.447109789604413,
+          17.55289021039559
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "tie_rate": {
+      "known": {
+        "mean": 0.875,
+        "mean_exact": "7/8",
+        "ci95": [
+          0.675,
+          1.0
+        ],
+        "ci95_exact": [
+          "27/40",
+          "1"
+        ],
+        "paired_t_ci95": [
+          0.6061718586477461,
+          1.143828141352254
+        ]
+      },
+      "hidden": {
+        "mean": 0.925,
+        "mean_exact": "37/40",
+        "ci95": [
+          0.875,
+          0.975
+        ],
+        "ci95_exact": [
+          "7/8",
+          "39/40"
+        ],
+        "paired_t_ci95": [
+          0.8399890774177181,
+          1.010010922582282
+        ]
+      },
+      "paired_difference": {
+        "mean": -0.05,
+        "mean_exact": "-1/20",
+        "ci95": [
+          -0.225,
+          0.1
+        ],
+        "ci95_exact": [
+          "-9/40",
+          "1/10"
+        ],
+        "paired_t_ci95": [
+          -0.3097126584208919,
+          0.20971265842089193
+        ],
+        "exact_signflip_p_upper": 0.75,
+        "exact_signflip_p_lower": 0.4375,
+        "exact_signflip_p_two_sided": 0.875
+      },
+      "seed_differences": [
+        0.125,
+        -0.375,
+        -0.125,
+        0.125,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        4,
+        -12,
+        -4,
+        4,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "stage_regret": {
+      "known": {
+        "mean": 5.0625,
+        "mean_exact": "81/16",
+        "ci95": [
+          4.0125,
+          7.05
+        ],
+        "ci95_exact": [
+          "321/80",
+          "141/20"
+        ],
+        "paired_t_ci95": [
+          2.326477461235107,
+          7.798522538764892
+        ]
+      },
+      "hidden": {
+        "mean": 5.0375,
+        "mean_exact": "403/80",
+        "ci95": [
+          4.025,
+          7.025
+        ],
+        "ci95_exact": [
+          "161/40",
+          "281/40"
+        ],
+        "paired_t_ci95": [
+          2.286878797934811,
+          7.788121202065188
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.025,
+        "mean_exact": "1/40",
+        "ci95": [
+          -0.05,
+          0.1125
+        ],
+        "ci95_exact": [
+          "-1/20",
+          "9/80"
+        ],
+        "paired_t_ci95": [
+          -0.10485632921044596,
+          0.15485632921044595
+        ],
+        "exact_signflip_p_upper": 0.4375,
+        "exact_signflip_p_lower": 0.75,
+        "exact_signflip_p_two_sided": 0.875
+      },
+      "seed_differences": [
+        -0.0625,
+        0.1875,
+        0.0625,
+        -0.0625,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        -2,
+        6,
+        2,
+        -2,
+        0
+      ],
+      "exact_denominator": 32
+    },
+    "terminal_payment": {
+      "known": {
+        "mean": 8.0,
+        "mean_exact": "8",
+        "ci95": [
+          4.0,
+          10.0
+        ],
+        "ci95_exact": [
+          "4",
+          "10"
+        ],
+        "paired_t_ci95": [
+          2.447109789604413,
+          13.552890210395587
+        ]
+      },
+      "hidden": {
+        "mean": 8.0,
+        "mean_exact": "8",
+        "ci95": [
+          4.0,
+          10.0
+        ],
+        "ci95_exact": [
+          "4",
+          "10"
+        ],
+        "paired_t_ci95": [
+          2.447109789604413,
+          13.552890210395587
+        ]
+      },
+      "paired_difference": {
+        "mean": 0.0,
+        "mean_exact": "0",
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "paired_t_ci95": [
+          0.0,
+          0.0
+        ],
+        "exact_signflip_p_upper": 1.0,
+        "exact_signflip_p_lower": 1.0,
+        "exact_signflip_p_two_sided": 1.0
+      },
+      "seed_differences": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "exact_seed_difference_numerators": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "exact_denominator": 32
+    }
+  },
+  "games": [
+    {
+      "seed": 24840,
+      "condition": "hidden",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24840,
+      "condition": "known",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 10.0,
+        "firm_profit": 10.0,
+        "tie_rate": 1.0,
+        "stage_regret": 4.0,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24841,
+      "condition": "hidden",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24841,
+      "condition": "known",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.75,
+        "firm_profit": 10.0,
+        "tie_rate": 0.5,
+        "stage_regret": 4.25,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24842,
+      "condition": "hidden",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 10.0,
+        "firm_profit": 10.0,
+        "tie_rate": 1.0,
+        "stage_regret": 4.0,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24842,
+      "condition": "known",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24843,
+      "condition": "hidden",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 9.9375,
+        "firm_profit": 10.0,
+        "tie_rate": 0.875,
+        "stage_regret": 4.0625,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24843,
+      "condition": "known",
+      "primary": {
+        "resource_payment": 10.0,
+        "offered_rate": 10.0,
+        "firm_profit": 10.0,
+        "tie_rate": 1.0,
+        "stage_regret": 4.0,
+        "terminal_payment": 10.0
+      }
+    },
+    {
+      "seed": 24844,
+      "condition": "hidden",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0,
+        "terminal_payment": 0.0
+      }
+    },
+    {
+      "seed": 24844,
+      "condition": "known",
+      "primary": {
+        "resource_payment": 0.0,
+        "offered_rate": 0.0,
+        "firm_profit": 20.0,
+        "tie_rate": 1.0,
+        "stage_regret": 9.0,
+        "terminal_payment": 0.0
+      }
+    }
+  ],
+  "cached_responses": 200,
+  "invalid_attempt_retries": {
+    "hidden": 0,
+    "known": 0
+  },
+  "notes": {
+    "hidden": {
+      "nonempty": 100,
+      "written": 100
+    },
+    "known": {
+      "nonempty": 100,
+      "written": 100
+    }
+  },
+  "limitations": [
+    "Five exploratory fresh blocks; zero tuning; no held-out or multiplicity correction",
+    "The known sentence adds numeral10 and final-round salience; hidden-horizon beliefs are unobserved,so no isolated knowledge or unraveling mechanism",
+    "Identical stage incentives, supplied memory, and self-only notepads; no strategic workers",
+    "Sign-flip calibration requires exchangeability or symmetric paired differences, not enumeration alone",
+    "Static pure Nash profiles (18,18),(19,19),(20,20) in both arms; multiple equilibria preclude a unique finite-game path",
+    "No agreement or coordination verified; self-only notepads in both arms",
+    "Selected local CLI/environment and referenced-file fingerprints; complete effective configuration and provider execution remain unattested",
+    "Backend tools instruction-restricted only; actual tool non-use unverified"
+  ]
+}
