@@ -84,3 +84,5 @@ mixed-status observation was not promoted into a new subgroup screen.
 Postanalysis canonical suite:611tests PASS,zero errors/failures;same11scoped tests.
 Actual six-panel figure viewed;model-entry-point-forbidden second release has
 byte-identical JSON,summary andPNG. Fresh origin-clone evidence follows separately.
+
+Fresh full-history origin clone at results commit5ed960cc0df160a31fe5f3d8394dce630495c536:allseven release artifacts byte-identical,11scoped tests PASS,clone clean,allchild processes exit0. Existing installed frozen venv reused,not fresh dependency install. See logs/s53_remote_clean_clone.json.

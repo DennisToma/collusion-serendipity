@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "origin": "gh-csr:DennisToma/collusion-serendipity.git",
+  "results_commit": "5ed960cc0df160a31fe5f3d8394dce630495c536",
+  "full_history_origin_clone": true,
+  "installed_frozen_venv_reused": true,
+  "fresh_dependency_install": false,
+  "commands": [
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s53_payoffs.py",
+        "--release"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"byte_identical\": true,\n  \"artifacts\": {\n    \"results/s53_payoffs.json\": \"32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8\",\n    \"results/s53_summary.md\": \"30e28610b01d7e4d7836ebb25b1ce31b278e0206407e11369c084c808b93938e\",\n    \"figures/s53_payoffs.png\": \"7c998cc0a5a4a1826af4356b381f3af6ccdc933b99852e032e195fdde0483d20\"\n  },\n  \"independent\": {\n    \"passed\": true,\n    \"raw_action_bindings\": 200,\n    \"primary_rounds\": 80,\n    \"game_metric_cells\": 60,\n    \"bootstrap_and_t_intervals\": 18,\n    \"stage_profiles\": 16,\n    \"unilateral_deviations\": 32,\n    \"authorship\": \"same manager; separate implementation, not independent authorship\"\n  }\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/s53_independent.py"
+      ],
+      "returncode": 0,
+      "output": "{\n  \"passed\": true,\n  \"raw_action_bindings\": 200,\n  \"primary_rounds\": 80,\n  \"game_metric_cells\": 60,\n  \"bootstrap_and_t_intervals\": 18,\n  \"stage_profiles\": 16,\n  \"unilateral_deviations\": 32,\n  \"authorship\": \"same manager; separate implementation, not independent authorship\"\n}\n"
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "-m",
+        "unittest",
+        "scripts.test_s53"
+      ],
+      "returncode": 0,
+      "output": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.031s\n\nOK\n"
+    }
+  ],
+  "byte_identical_artifacts": {
+    "results/s53_payoffs.json": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+    "results/s53_summary.md": "30e28610b01d7e4d7836ebb25b1ce31b278e0206407e11369c084c808b93938e",
+    "figures/s53_payoffs.png": "7c998cc0a5a4a1826af4356b381f3af6ccdc933b99852e032e195fdde0483d20",
+    "logs/s53_independent.json": "7574232d8113affd5cb224b52bbd6ef90100d2c2e5ad05a9e5d195d265a18350",
+    "logs/s53_release.json": "2165a1a810aad55c1086e8c0e5b3aca2923aa13c39c9212b38210aa34fdfb5a9",
+    "data/s53_registration.json": "895aabbdac37363423dfed18978cd78a45681e6f6b468faea74103c982eb69db",
+    "data/s53_registration_receipt.json": "a787442c2f3d8521361a1289be8be0b47d62fd13ee709be586c42797a629e89c"
+  },
+  "clone_git_status": ""
+}

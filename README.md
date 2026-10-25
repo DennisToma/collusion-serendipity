@@ -1261,3 +1261,5 @@ uv run --frozen python -m unittest scripts.test_s53
 ```
 
 The release checks the required inputs and both generations of analysis code against the pushed registration commit,reruns all200 original raw bindings,and separately reconstructs80rounds/60gamecells/18bootstrap+t intervals. A second release stages and compares byte-identical JSON/summary/figure with the scientific llm.chat entry point patched to raise;this is not OS network/process isolation. Clean-clone reproduction may reuse the installed frozen venv,which is not a fresh dependency installation.
+
+S53 clean origin reproduction: `uv run --frozen python scripts/s53_clone.py` after pushing a results commit. [Recorded commands and hashes](logs/s53_remote_clean_clone.json). [Post-outcome report presentation supplement](scripts/s53_report_refine.py) displays all six counts equally and the scaled-payoff caveat without changing frozen scientific artifacts.

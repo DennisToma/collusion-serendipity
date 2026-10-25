@@ -1,18 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T06:01:38.042041+00:00; Phase2, iteration37 RELEASING)
-- S53(E):posthoc full S29audit,10originalgames/5blocks;zero newgames/scientificcalls/tuning.
-- Adverse approvals self2/40,shared15/40;mutual-Y0/9both-Y opportunities/arm (0/40rounds).
+## Current state (2026-10-25T06:03:13.666244+00:00; Phase2, iteration37 COMPLETE)
+- S53(E):posthoc audit of10original S29games/5blocks;zero newgames/scientificcalls/tuning.
+- Y approvals self2/40,shared15/40;mutual-Y0/9both-Y opportunities/arm (0/40rounds).
 - No missed-X or same-round strict Pareto gains;regret4→30,pairNash-excess8→60points.
-- Regret/pair excess are2x/4xoriginalS29rate contrast;no independent extra evidence.
-- Pair excess difference+1.3/round,bootstrap[+.4,+2.3],t[-.195,+2.795];static/posthoc only.
-- Full200-key source replay;separate80rounds/60cells/18bootstrap+t/16profiles/32deviations PASS.
-- Both finalcritics exit0;Codex original raw/source reconstruction,Opus supplied-text scope.
-- All611pre/post canonical and11scoped tests PASS;figure viewed;secondrelease byte-identical.
-- All55registered source/input files unchanged;registrationa94bb0e pushed/observed pre-decomposition.
-- Fixed ODD/context-only;no HIT or S29label/siblingheadline change;no active science/review.
-- Next:results push,fresh origin clone;then fresh different axis,own/S54 andS52 proposals.
-- Risks:posthoc,n5,degenerate bounds,static comparator;delayed/cross-round mutual gains not excluded.
+- Regret/pair excess are2x/4xoriginalS29contrast,not independent extra evidence.
+- Pair-excess difference+1.3/round,bootstrap[+.4,+2.3],t[-.195,+2.795];static/posthoc only.
+- Full200-key replay;separate80rounds/60cells/18bootstrap+t/16profiles/32deviations PASS.
+- Both finalcritics exit0:Codex original raw/source reconstruction;Opus supplied-text scope.
+- All611pre/post canonical and11scoped tests PASS;figure viewed;release byte-identical.
+- Registrationa94bb0e/results5ed960c pushed;fresh originclone PASS,7artifacts byte-identical,clean.
+- Clone reused installed frozen venv,not fresh install;all55registered files unchanged.
+- Fixed ODD/context-only;S29ODD unchanged,no HIT or siblingheadline change;no active science/review.
+- Next:fresh different axis;own/S54opportunity-correlation andS52framing proposed,S46/S39/S49queued.
+- Risks:posthoc,n5,degenerate bounds;delayed/cross-round mutual gains and coordination not excluded.
 
 ## Log
 
@@ -529,3 +530,5 @@
 - 2026-10-25T06:00:18.981763+00:00: queued new own/S54 opportunity-correlation proposal from S53 stage-table result: synchronized versus alternating balanced task types at unchanged marginal schedules and review payoffs. Fresh design required;no second pilot or source subgroup analysis. Zero observed same-round Pareto improvements does not exclude both employees gaining across multiple rounds;current claims remain explicitly one-round comparisons.
 
 - 2026-10-25T06:01:38.042041+00:00: Both finalcritics exit0;Codex independently reconstructs200rawbindings/80rounds/60cells/18bootstrap+t summaries/16profiles/32deviations and verifies55source/input hashes/fullreplay. Opus supplied80record/code-only scope reproducescounts/intervals.611postanalysis canonical tests PASS;actualsixpanel figure inspected;secondrelease byte-identical. Accepted postoutcome presentation supplement:allsixREPORTcounts,conditional0/9/unconditional0/40,degenerate-bound caveat,rescaledS29-not-independent disclosure,andboth pair-excess bootstrap/t bounds. No scientific-source/result edits or newcalls. Receipt included at results commit;fresh origin-clone next.
+
+- 2026-10-25T06:03:13.666244+00:00: iteration37 COMPLETE. S53 registrationa94bb0e353db8bdf2f5fa8a12d389280831b1de0/results5ed960cc0df160a31fe5f3d8394dce630495c536 committed/pushed. Fresh full-history ORIGIN clone at results commit passes all55source/input byte/registration/ancestry checks,original200-key cached replay,separate200bindings/80rounds/60cells/18bootstrap+t summaries/16profiles/32deviations,and11protocol tests. Seven release artifacts byte-identical;clone gitstatus clean;commands/hashes in logs/s53_remote_clean_clone.json. Installed frozen venv reused,not fresh dependency install. Both initial+patch methodology/finalcritic parent processes exit0;Codex original raw/source reconstruction versus Opus supplied-text-only scope.611pre/post canonical tests PASS with scoped legacy synthetic clocks;real archive source/deadline bytes unchanged. Scientific resultSHA32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8. Same-round mutual-Y0/9both-Y opportunities and0/40primary rounds in each arm;adverse approvals self2/40/shared15/40. Regret and pair-excess rescale the S29contrast,not independent evidence;Pareto=mutual-Y identity disclosed. No HIT,newgames,scientificcalls,tuning,pooling,subgroupscreen,sourceS29edits,siblingwrites,DIRECTIONdeviation or claim excluding delayed/cross-round mutual gain,agreement or coordination. REPORT/DETAILS/HITS/README/ledgers current;newown/S54proposal queued,not run. Closing proof/handoff commit+push next.
