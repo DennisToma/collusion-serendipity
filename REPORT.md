@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 32 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 33 (S48 registered; no live results yet) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|

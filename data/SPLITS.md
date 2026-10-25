@@ -144,3 +144,9 @@ pooling or cross-world confirmatory contrast. Design and full source freeze
 committed/pushed before scientific calls. S46is a queued idea only.
 
 S44:ten observed S42round10contexts/5sourceblocks24920..24924,same selection as S43;20fresh ascending/descending-table decisions. Exploratory,zero tuning,no heldout or pooled claim. Original actions context only;no newgames. Full design/source/case manifest registered before calls.
+
+S48:ten observed S29 shared-note histories,each employee last primary TYPE-Y
+review opportunity;five sourceblocks24480..24484. Twenty fresh retain/partner-only
+erase decisions;zero newgames,tuning,heldout,pooling or mediation claim. Exogenous
+status selection never uses actions or text;archived actions are context only.
+Full source/case manifest pushed before live calls.

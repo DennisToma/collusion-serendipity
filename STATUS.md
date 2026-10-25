@@ -1,19 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T04:55:54.124912+00:00; Phase2, iteration32 COMPLETE)
-- S44:20fresh decisions/10observed S42histories/5source blocks;zero newgames,tuning,retries or failures.
-- Focal offers ascending10.300/descending10.200;difference−.100[−.300,0] descriptive bootstrap.
-- Pairedt[−.377645,+.177645];upperp1/lowerp.5/two-sidedp1;frozen DUD,no HIT.
-- Block differences0,−.5,0,0,0;full case table shows within-block cancellations.
-- Only21exact payoff rows reverse;identical header/history/system/notes;no mechanism or equivalence claim.
-- Full archive/source/runtime/registration replay and separate20rawbindings/15cells/3statistics summaries PASS.
-- Local529post-live canonical tests PASS;both finalcritics/parent exit0;figure inspected.
-- Codex raw/source reconstruction;Opus supplied-cell/text-only scope,not raw audit.
-- Registration84bbfc6/resultsb8c0e4f pushed;full-history origin clone PASS.
-- Six cloned artifacts byte-identical,clone clean;20protocol tests PASS;existing frozen venv reused.
-- All13registered sources/7archivefiles/resultSHA66ba1e4a9c0 unchanged;no active science/review.
-- Risks:n5,observed histories,uncontrolled provider draws/service interference;source/runtime fingerprints differ.
-- Next:fresh different axis;S46/S39/S47 proposals only,S32unconfirmed,S30unrun.
+## Current state (2026-10-25T04:59:46.189620+00:00; Phase2, iteration33 IN PROGRESS)
+- S48(axis C): immediate partner-note deletion at fixed S29 workplace histories.
+- Ten task-status-selected contexts/five observed blocks;20fresh decisions planned;zero newgames/tuning.
+- Retain exact source prompt;erase only partner note records;own/public history fixed.
+- Primary retain-minus-erase adverse approval;.25directional screen;no mediation/long-run claim.
+- Source S29 full cache-only release PASS;all16S48synthetic protocol tests PASS.
+- Codex+Opus methodology critics PASS;round/serialization/schedule checks added before freeze.
+- S44 frozen DUD unchanged:−.100[−.300,0];no HIT promoted in portfolio.
+- Risks:n5,observed histories,remaining indirect message information,uncontrolled provider draws.
+- Source S29 CLI fingerprint unavailable;current known replay inputs will be frozen.
+- Next:freeze/push registration,run20decisions,verify/review/publish.
+- S46/S39/S47 remain proposals;S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -474,3 +472,7 @@
 - 2026-10-25T04:54:48.748845+00:00: final call-forbidden release and supplemental publication audit PASS;all7archivefiles/13registered scientificsources/canonical resultSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa unchanged. Scientific result/summary/figure/REPORT regenerate byte-identically. Actual figure inspected;both finalcritics/parent and529postlivetests exit0. No active generation/review,scientificsource/threshold edits,newcalls,tuning,pooling,exclusions,secondary/reverse promotion,HIT,sibling writes or direction deviation. Results milestone commit/push,then full-history origin-clone reproduction next.
 
 - 2026-10-25T04:55:54.124912+00:00: iteration32 COMPLETE. S44 registration84bbfc60915c4ca7004308aea95ff0a4ba5855ea/resultsb8c0e4f42d0c6faf6b95819c3480190e0df15085 pushed. Fresh full-history ORIGIN clone at results commit passes frozen archive/source/registration/environment/UTC/schedule/request/response replay,separate20rawquotes/20promptbindings/15blockcells/3exactbootstrap+t/all sign tails,summary/figure regeneration,model-call-forbidden release and all20protocoltests;childexit0. Sixprimaryartifacts byte-identical;clone gitstatus clean. Existing installed frozen venv reused,not fresh dependency install;logs/s44_remote_clean_clone.json records commands/hashes. Local529post-live canonical tests and both finalcritics/parent exit0. Codex raw/full-source versus Opus supplied-cell/text-only scope explicit. FrozenDUD:ascending10.3/descending10.2,delta−.1[−.3,0],t[−.37764451052,.17764451052],upperp1/lowerp.5/two-sidedp1;fourblockties/one−.5. No effect-absence,equivalence,anchoring,mechanism,agreement,coordination or realized-wage claim. All13scientificsources/7archivefiles/resultSHA66ba1e4a9c0f8f4d6e5a2bfa9733b56c7bf5cc5f480bf6edc6cd4c8162e703aa unchanged. Supplemental publication audit added afterregistration,no frozen-source edits. Ledgers/resultreference and REPORT/HITS/DETAILS/README current. Newown/S47queued before outcomes;next fresh different axis. No extra scientificcalls,secondpilot,tuning,pooling,exclusions,secondary/reversepromotion,HIT,siblingwrites,directiondeviation or active generation/review. Final receipt/handoff commit and push next.
+
+- 2026-10-25T04:59:46.189620+00:00: iteration33 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries. Selected C/S48 after own/S44, testing immediate partner-note availability at fixed S29 TYPE-Y opportunities. Synthetic checks began before ledger row;all live calls remain unstarted.16protocol tests and complete S29 release PASS;archived sources preserved. Independent Codex/Opus methodology reviews started. No direction deviation.
+
+- 2026-10-25T05:02:24.515393+00:00: both independent design critics exit0;accepted round-binding and serialization checks plus deterministic source task/full-prompt reconstruction.545pre-live canonical tests PASS before those additions;all16S48tests rerun PASS afterward. Source S29 CLI fingerprint honestly unknown. Scientific sources/case manifest now ready for registration push;no fresh outcomes yet.

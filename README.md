@@ -1167,3 +1167,25 @@ uv run --frozen python scripts/s44_release.py --clean-clone
 ```
 
 The clean clone uses full history from origin and the existing installed frozen venv,not a fresh dependency installation. Scientific calls are forbidden during release.
+
+### S48 — partner-note deletion at fixed workplace histories
+
+Twenty fresh TYPE-Y review decisions at ten observed S29 histories (five source
+blocks), retaining the exact original prompt versus deleting only partner note
+records. Own notes and public history survive; this is an immediate decision
+pilot, not a mediation or long-run channel estimate. [Design](DESIGN_S48.md).
+
+```sh
+uv run --frozen python scripts/s48_replay.py --analyze
+uv run --frozen python scripts/s48_independent.py
+uv run --frozen python scripts/s48_present.py
+uv run --frozen python scripts/s48_release.py
+uv run --frozen python -m unittest scripts.test_s48
+uv run --frozen python scripts/s48_release.py --clean-clone
+```
+
+Use the registered/results checkout if scientific sources later change. Release
+forbids model calls and checks raw replay plus byte-identical scientific/presentation
+artifacts. The full-history origin clone reuses the installed frozen dependency
+venv; it does not test a fresh installation. S29 CLI inputs were not fingerprinted,
+so equality of source and replay runtime cannot be established.
