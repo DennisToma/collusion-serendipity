@@ -1,0 +1,68 @@
+{
+  "verdict": "DUD",
+  "contrast": {
+    "mean": 0.3,
+    "mean_exact": "3/10",
+    "ci95": [
+      0.1,
+      0.5
+    ],
+    "ci95_exact": [
+      "1/10",
+      "1/2"
+    ],
+    "t95": [
+      -0.04004369032912786,
+      0.6400436903291278
+    ],
+    "upper_signflip_p": 0.125,
+    "block_values": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  "floor_counts": {
+    "control": 0,
+    "table": 0
+  }
+}
+{
+  "passed": true,
+  "raw_quotes": 20,
+  "case_prompt_bindings": 20,
+  "block_cells": 15,
+  "bootstrap_draws_per_summary": 3125,
+  "summaries": 3,
+  "sign_flips_per_summary": 32,
+  "result_sha256": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1"
+}
+{
+  "passed": true,
+  "raw_archive_files": 7,
+  "model_calls_forbidden": true,
+  "scientific_and_rendered_artifacts_byte_identical": true,
+  "local_links_checked": 127,
+  "independent": {
+    "passed": true,
+    "raw_quotes": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1"
+  }
+}
+.Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........
+----------------------------------------------------------------------
+Ran 17 tests in 2.697s
+
+OK
+Completed archive validated; zero model calls
+PASS remote clean clone 137a292c2a957482f52ff5f0f123dab501cb5197

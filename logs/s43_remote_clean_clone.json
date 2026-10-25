@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "commit": "137a292c2a957482f52ff5f0f123dab501cb5197",
+  "clone_source": "origin remote",
+  "dependency_environment": "Existing venv with frozen dependencies;not fresh install",
+  "commands": [
+    [
+      "scripts/s43_replay.py",
+      "--analyze"
+    ],
+    [
+      "scripts/s43_independent.py"
+    ],
+    [
+      "scripts/s43_present.py"
+    ],
+    [
+      "scripts/s43_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s43"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s43_payoff.json": "5424dfaaf39a00a65fcb25d117fec02f5249f9745dc2bd9fdf4e4569cd1511a1",
+    "results/s43_summary.md": "550e7dd071b7ea200f20b8090c3ad34f0b63406dd6da6d971c94be0395db45b5",
+    "figures/s43_payoff.png": "1641cc745ca1e10b4243e6d13fc793061d0bd08cd3f0413578574b98edc902cc",
+    "logs/s43_independent.json": "fe00873511ba2f8511504aa3150acb61809c36e3e1779466b0f53577b1560ef0",
+    "logs/s43_release.json": "8085e029575010741ab277e2c91cf551044a459674f7a3132c4834f315484603",
+    "REPORT.md": "f37b1f43ac8613d3c5f6f10b3dc8ca5fa3117d04dd41e5ecbedf552aa27c876f"
+  }
+}
