@@ -39,6 +39,7 @@
 | S44 · own, payoff-row order | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer ascending **10.300**, descending **10.200**; descending−ascending **-0.100 [-0.300, +0.000]**. | **DUD** for one-unit increase screen |
 | S48 · C, partner-note deletion | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval retain **0.400**, erase **0.400**; retain−erase **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
 | S47 · own, output example | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer low example **10.100**, high example **10.000**; high−low example **-0.100 [-0.300, +0.000]**. | **DUD** for two-unit increase screen |
+| S50 · F, final-round disclosure | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval hidden **0.400**, final **0.300**; hidden−final **+0.100 [-0.300, +0.600]**. | **ODD** for .25 reduction screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -64,7 +65,7 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis pilot after own/S47. S46/S39/S49 are proposals; S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis pilot after F/S50. S46/S39/S49 are proposals; S32 unconfirmed and S30 unrun.
 
 <!-- S44 summary start -->
 **S44:** paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Block differences: +0.00, -0.50, +0.00, +0.00, +0.00. Identical headers and payoff rows; only row sequence reverses. Focal offers, not realized worker pay; observed histories, uncontrolled model draws, n5. The directional screen does not exclude smaller or reverse effects and does not identify a mechanism. [Methods, all outcomes and figure](results/s44_summary.md).
@@ -81,4 +82,7 @@ Only the paired contrast is the registered hypothesis; generic arm-level sign-fl
 Only the paired contrast is a registered hypothesis; generic arm-level sign-flip fields test against zero.
 <!-- S47 summary end -->
 
-**In progress:** S50(F) tests an explicit common-knowledge final-round notice at ten fixed S29 review histories. Twenty fresh decisions planned;registered .25 hidden-minus-final approval-reduction screen. Outcomes pending.
+
+**S50:** paired t95% [-0.580, +0.780], upper sign-flip p=0.50000;block differences [0.0, 0.0, 1.0, 0.0, -0.5]. Final-round disclosure leaves 3/10 adverse approvals;this does not verify an agreement,strategic foresight or a completed terminal game. The .25 reduction remains unresolved. Only focal agents are rerun,and generic future-note rules/historical continuation cues survive. [All outcomes and figure](results/s50_summary.md).
+
+S50 response backend/model checks verify requested labels only;they do not attest served identity or routing.

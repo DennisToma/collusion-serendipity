@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:24:24.422343+00:00; Phase2, iteration35 IN PROGRESS)
-- S50(F) selected after own/S47: common-knowledge final-round disclosure at fixed S29 histories.
-- Ten observed contexts/five source blocks;twenty fresh decisions planned;zero new games/tuning/pooling.
-- Hidden is exact source;Final replaces only objective/horizon sentence;all user bytes/stage payoffs fixed.
-- Primary hidden-minus-final adverse approval;registered .25 directional screen;no outcomes yet.
-- Both methodology critics exit0;Codex source/gate reconstruction,Opus supplied-text-only scope.
-- Accepted cue-conflict and gate-discreteness disclosures;source full release and16protocol tests PASS.
-- Full synthetic20-key replay and separate raw15cell/3statistic reconstruction PASS;581canonical tests PASS.
-- Generic future-note rules/required note survive;only focal agent rerun,no completed terminal-game claim.
-- Scientific sources/cases will be frozen,committed,pushed before sole launch;07:00uncached cutoff.
-- S29/S32/S35/S36/S41 remain ODD;no HIT or sibling headline change;S30unrun.
-- Next:register/run S50,verify/report/review/release and origin-clone reproduction.
-- Risks:n5,selected histories,uncontrolled draws/shared services,unattested provider/settings/source runtime.
+## Current state (2026-10-25T05:27:01.869593+00:00; Phase2, iteration35 VERIFYING)
+- S50(F):20fresh decisions/10observed S29TYPE-Ycontexts/5sourceblocks;zero newgames/tuning/retries/failures.
+- Adverse approval hidden4/10(.400)/final3/10(.300);reduction+.100[-.300,+.600]descriptive bootstrap.
+- Pairedt[-.580087,+.780087];upperp.5/lowerp.75/two-sidedp1;frozen ODD,no HIT.
+- Block differences[0,0,1,0,-.5];three ties,one in each direction;.25target unresolved.
+- Only source horizon/objective sentence replaced;same personal objective,stage payoffs and all user bytes.
+- Focal-only hypothetical;generic future-note rules/history cues remain;no terminal-game/mechanism claim.
+- Full source/registration/runtime/time/schedule replay and separate20bindings/15cells/3summaries PASS.
+- Both design/final critics exit0;Codex raw/source audit versus Opus supplied-cell/text-only scope.
+- 581pre/post-live canonical tests and16scoped tests PASS;all scientific sources frozen.
+- Registration6b1ca1f pushed;actual figure inspected;call-forbidden release PASS;results push/clone next.
+- No HIT or sibling headline change;S29/S32/S35/S36/S41unpromoted ODD,S30unrun.
+- Risks:n5,selected histories,uncontrolled draws/interference,unknown source runtime/unattested provider.
 
 ## Log
 
@@ -501,3 +501,9 @@
 - 2026-10-25T05:24:24.422343+00:00: iteration35 read rules/PLAN/STATUS/DIRECTION/ledgers and both sibling summaries. Selected F/S50 terminal workplace disclosure after own/S47;twenty fresh decisions at ten S29 histories,zero newgames. Both methodology critics exit0;accepted residual continuation-cue and discrete-gate disclosures,kept frozen scientific rule. Full source release,16protocol tests,synthetic20-key replay and separate raw/statistical reconstruction PASS. Canonical suite in progress;no live calls or outcome inspection. No direction deviation or sibling writes.
 
 - 2026-10-25T05:24:56.491904+00:00: S50 final preflight ready:all13scientific-source hashes and case manifest match current code;16scoped protocol tests and581canonical tests PASS,zero failures/errors. Both methodology critics exit0;continuation-cue census and review dispositions recorded. Registration milestone next;no scientific calls or outcomes yet. New tracked repository_tests.py reproduces established scoped legacy synthetic clock fixtures without changing archived science.
+
+- 2026-10-25T05:25:14.464937+00:00: S50 registration6b1ca1f923b7df9aeae5b8b9a482ac54055af98b committed/pushed and observed remotely at2026-10-25T05:25:05.297526+00:00before sole live launch. Two caseworkers,opposite within-block view orders,five source-block barriers,07:00uncached-admission cutoff;one-shot source/case/runtime guards active. No partial response text or treatment effects inspected;all scientific sources frozen.
+
+- 2026-10-25T05:27:01.869593+00:00: S50 sole run complete20accepted responses,zero retries/transport/parser/route/source/runtime failures. Hidden0.400/final0.300;hidden-minus-final+0.100[-0.3, 0.6];pairedt[-0.5800873806582557, 0.7800873806582557];upperp0.5;ODD. Frozen ODD,no HIT. Full source/registration/runtime/UTC/schedule/request replay and separate20rawbindings/15cells/3exactbootstrap+t/all sign tails PASS. No scientific-source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion or sibling writes. Reports/ledgers updated;final critics,post-live canonical suite,figure/release/origin-clone next.
+
+- 2026-10-25T05:29:40.140764+00:00: Both S50 final critics/parent exit0;unchanged ODD and all primary numbers confirmed. Codex independently reconstructs20rawbindings/15cells/3bootstrap+t/all sign tails/full source+registration replay;Opus supplied-cell/code/text-only scope.581post-live canonical tests PASS,zero failures/errors;actual figure inspected;call-forbidden release regenerates byte-identically. Accepted explicit requested-label versus served-identity/routing disclosure;auxiliary cost log/single-attempt sleep limitations scoped. All13scientific sources and canonical result unchanged. Results push then fresh origin-clone reproduction next.
