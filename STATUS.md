@@ -1,19 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:31:10.944481+00:00; Phase2, iteration35 COMPLETE)
-- S50(F):20fresh decisions/10observed S29TYPE-Ycontexts/5sourceblocks;zero newgames/tuning/retries/failures.
-- Adverse approval hidden4/10(.400)/final3/10(.300);reduction+.100[-.300,+.600]descriptive bootstrap.
-- Pairedt[-.580087,+.780087];upperp.5/lowerp.75/two-sidedp1;frozen ODD,no HIT.
-- Block differences[0,0,1,0,-.5];three ties,one in each direction;.25target unresolved.
-- Only source horizon/objective sentence replaced;all user bytes and stage payoffs fixed.
-- Focal-only hypothetical;generic future-note/history cues survive;no terminal-game/mechanism claim.
-- Full archive/source/registration/runtime/time/schedule replay and separate20bindings/15cells/3summaries PASS.
-- Both design/final critics exit0;Codex raw/source audit versus Opus supplied-cell/text-only scope.
-- 581pre/post-live canonical tests PASS;actual figure inspected;model-call-forbidden release byte-identical.
-- Registration6b1ca1f/results061b8ea pushed;fresh origin clone PASS,16protocol tests PASS.
-- Six artifacts byte-identical,clone clean;frozen installed venv reused,not fresh dependency installation.
-- Next:fresh different axis;S46/S39/S49proposals,S32unconfirmed,S30unrun;no active science/review.
-- Risks:n5,selected histories,draws/interference;requested labels only,provider/source runtime unattested.
+## Current state (2026-10-25T05:37:23.571255+00:00; Phase2, iteration36 IN PROGRESS)
+- S51(D):registered personal-penalty replay;20fresh decisions planned at10S29contexts/5blocks.
+- Charge3/net-2 versus charge9/net-8;matched current-policy notice;all user bytes fixed.
+- No scientific calls yet;18protocol tests and separate synthetic raw/stat replay PASS.
+- Initial598canonical tests PASS;final source changes covered by current18protocol tests.
+- Initial Codex/Opus design reviews complete;patch review running before live.
+- Closed global attempt-reservation gap before selection/runtime/registration failures.
+- Source scorer cross-check covers16status/review combinations;own status now reported.
+- Source contexts have3ownTYPE-Y,7ownTYPE-X;all reviewTYPE-Y partners inr7..10.
+- S50 remains ODD:hidden4/10/final3/10,reduction+.1[-.3,.6],no HIT.
+- New own/S52 net-versus-decomposed payoff framing proposal queued,not run.
+- Next:finish reviews,freeze/push,one live run,verify/report/push/origin clone.
+- Risks:n5,late selected histories,draws/interference;focal-only,provider execution unattested.
 
 ## Log
 
@@ -510,3 +509,7 @@
 - 2026-10-25T05:29:40.140764+00:00: Both S50 final critics/parent exit0;unchanged ODD and all primary numbers confirmed. Codex independently reconstructs20rawbindings/15cells/3bootstrap+t/all sign tails/full source+registration replay;Opus supplied-cell/code/text-only scope.581post-live canonical tests PASS,zero failures/errors;actual figure inspected;call-forbidden release regenerates byte-identically. Accepted explicit requested-label versus served-identity/routing disclosure;auxiliary cost log/single-attempt sleep limitations scoped. All13scientific sources and canonical result unchanged. Results push then fresh origin-clone reproduction next.
 
 - 2026-10-25T05:31:10.944481+00:00: iteration35 COMPLETE. S50 registration6b1ca1f923b7df9aeae5b8b9a482ac54055af98b/results061b8ea812d3cc6d509703ec7577315fbe8143ea committed/pushed. Fresh full-history ORIGIN clone at results commit passes full source/archive/registration/environment/runtime/UTC/schedule/request/response replay,separate20rawbindings/15blockcells/3exact-bootstrap+t/all sign tails,summary/figure regeneration,model-call-forbidden release and16protocol tests;childexit0. Six artifacts byte-identical,clone gitstatus clean. Existing installed frozen venv reused,not fresh dependency installation;logs/s50_remote_clean_clone.json records exact commands/hashes. Both design/finalcritics/parents and581pre/post-live canonical tests exit0;Codex raw/source audit versus Opus supplied-cell/text-only scope. Scientific resultSHA01f4eac5613d16455f8da01758e0deed25e08fc233b8c0980baa2a10f1b5ee33 andall13registeredscientificsources/7archivefiles unchanged. ODD retained,no HIT or sibling headline change;hidden4/10/final3/10,reduction+.1[-.3,.6],pairedt[-.58008738066,.78008738066],upperp.5/lowerp.75/two-sidedp1;three ties,one+1,one-.5. Generic continuation cues remain and only focal decisions are rerun;no foresight,mechanism,agreement,collusion,equivalence,population-prevalence or completed-terminal-game claim. Requested backend/model labels do not attest served identity/routing;source runtime unknown. New tracked canonical-test driver preserves established legacy synthetic clock fixtures with real archive sources/deadlines unchanged. Ledgers/REPORT/HITS/DETAILS/README current;next fresh different axis. No extra scientificcalls,secondpilot,source/threshold edits,tuning,pooling,exclusions,subgroup/reverse/secondary promotion,siblingwrites,directiondeviation or active generation/review. Final handoff commit+push next.
+
+- 2026-10-25T05:34:01.592746+00:00: iteration36 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries. Selected D/S51 personal-penalty sensitivity after F/S50:20fresh decisions at ten observed S29 contexts,zero newgames.17protocol tests PASS;synthetic checks only,no scientific calls. Codex+Opus methodology critics running. New own/S52 net-versus-decomposed payoff framing proposal queued. No DIRECTION deviation or sibling writes.
+
+- 2026-10-25T05:40:44.248103+00:00: S51 both initial/patch methodology critics exit0;accepted global pre-initialization reservation,source scorer cross-check,own-status and dated-policy-cue census.600canonical and19final protocol tests PASS;complete synthetic20key replay,separate raw/stat reconstruction and all15current source hashes PASS. No scientific calls;register/push then sole live launch next. Verbatim20-output appendix generator added prelive;final critics will inspect it.

@@ -1,0 +1,17 @@
+S51 is defensible as a narrowly scoped immediate-decision pilot. I found no blocking implementation bug in the reviewed code. No completed live S51 archive is present, so this review does not validate a live result.
+
+**Checks passed:**
+
+- **Selection:** [s51_replay.py](/home/factory/collusion/collusion-serendipity/scripts/s51_replay.py:67) selects both employees from all five S29 shared games, using each employee’s last primary-round opportunity to review a TYPE-Y partner. Selection uses task status; archived approvals and note contents do not determine inclusion. The regenerated manifest matches.
+- **Intervention and incentives:** Strong changes precisely the deterministic charge **3→9** and stated reviewer net **−2→−8**. Both arms append the identical current-policy notice; user bytes, notes, public history, statuses, horizon uncertainty, author reward, review reward and organization cost remain fixed. Baseline therefore differs from the exact archived prompt. Exhaustive stage-payoff checks confirm mutual TYPE-Y approvals pay each **4 baseline versus −2 strong**, while rejection saves **2 versus 8**, holding incoming approval fixed.
+- **Action binding:** Strict parsing requires unique JSON keys, the exact partner target and an actual boolean. Analysis extracts that boolean directly; explanations do not substitute for actions.
+- **Integrity:** Inspection supports source/request/note/action binding, frozen runtime inputs, durable external attempt reservation, separate registration receipt, pre-call remote-main observation, raw-response persistence before parsing, terminal failure handling and no interrupted resume. Fixed-model deduplication plus `retries=1` yields one local transport attempt. Release reconstruction forbids the scientific model-call entry point and checks artifact bytes. These are code-level findings; live registration/failure receipts remain unverified.
+- **Statistics:** Two contexts are averaged within each of five equally weighted source blocks. The 3,125 ordered bootstrap draws, rational interpolated percentiles, paired t interval and 32 inclusive sign flips are implemented consistently. Exhaustive contrast-lattice checking confirms HIT requires five strictly positive blocks, forcing mean reduction ≥0.5. The three gates supply overlapping evidence.
+
+**Acknowledged limitations, not bugs:**
+
+[DESIGN_S51.md](/home/factory/collusion/collusion-serendipity/DESIGN_S51.md) and the presentation correctly restrict claims. Only focal decisions are rerun; the notice’s application to both employees is hypothetical. Partner adaptation, realized joint payoffs and repeated-game incentives remain unidentified. Penalty magnitude, arithmetic and numeral salience move together, preventing isolated-mechanism claims. Late selected histories limit transfer to earlier decisions.
+
+A fresh baseline may disappear, weakening interpretation of DUD as penalty insensitivity. Bootstrap bounds are descriptive; sign-flip calibration requires unestablished symmetry/exchangeability. DUD can leave the 0.25 target unresolved. No long-run, equilibrium, equivalence or verified-collusion claim follows.
+
+Four read-only targeted tests passed. No edits or paid calls were made.

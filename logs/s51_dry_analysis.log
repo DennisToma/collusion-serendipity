@@ -1,0 +1,33 @@
+{
+  "verdict": "ODD",
+  "contrast": {
+    "mean": 0.6,
+    "mean_exact": "3/5",
+    "ci95": [
+      0.2,
+      1.0
+    ],
+    "ci95_exact": [
+      "1/5",
+      "1"
+    ],
+    "t95": [
+      -0.08008738065825571,
+      1.2800873806582556
+    ],
+    "upper_signflip_p": 0.125,
+    "lower_signflip_p": 1.0,
+    "two_sided_signflip_p": 0.25,
+    "block_values": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ]
+  },
+  "approval_counts": {
+    "baseline": 6,
+    "strong": 0
+  }
+}

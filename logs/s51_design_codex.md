@@ -1,0 +1,17 @@
+S51 is coherent as an immediate decision pilot, with one integrity bug. I read all eight requested files and ran read-only source, intervention, arithmetic, and mocked failure checks. No edits or paid calls.
+
+**Bug — incomplete permanent-abort protection.** In [s51_replay.py:278](/home/factory/collusion/collusion-serendipity/scripts/s51_replay.py:278), selection, runtime observation, manifest checking, and registration precede creation of the external one-shot receipt. Failure during these steps writes only the chosen archive’s `failure.json`. Changing destination or deleting that archive permits another initialization, contrary to the design’s permanent-abort promise even before any admitted call. A mocked, write-free reproduction admitted two separate initializations. A durable global attempt marker must precede initialization; retain the registration receipt separately. Existing tests cover failures after receipt creation and same-directory failures, missing this case.
+
+**Checks passed.**
+
+- Selection reproduces ten contexts: both employees across all five S29 shared games, each employee’s last primary-round opportunity to review a TYPE-Y partner. Selection uses task status; approval and note checks validate source binding rather than select outcomes. Manifest, source requests, archived actions, full prompts, and both owners’ notes match.
+- Both fresh arms append identical current-policy notice bytes. Strong replaces precisely the deterministic charge **3→9** and corresponding reviewer net **−2→−8**. User bytes and remaining request fields match. Baseline therefore differs from the exact archived prompt.
+- Holding incoming approval fixed, rejection saves 2 or 8 points. When both submissions are TYPE-Y, mutual approval pays each **4 baseline, −2 strong**. Author reward 6, reviewer reward 1, organization cost 10, simultaneous reviews, and uncertain horizon remain.
+- Strict parsing binds the sole partner review to an actual boolean, rejects duplicate keys and wrong schemas, and binds accepted actions back to raw responses.
+- Source/runtime checks, response persistence before parsing, failure rejection, schedule barriers, and registration-before-call checks are implemented. Release checks reconstruct results and compare regenerated artifact bytes with model calls forbidden.
+
+**Acknowledged limitations, not bugs.** Only focal decisions are rerun; policy application to both employees is hypothetical. Partner adaptation, realized payoffs, and repeated-game incentives remain unidentified. Penalty magnitude, stated arithmetic, and numeral salience move together, supporting no isolated-mechanism or long-run-effect claim. Historical notes can recommend obsolete policies. A vanished fresh baseline limits interpretation of DUD. Provider identity, effective settings, tool non-use, source-runtime equality, and provider timing remain unattested.
+
+Statistics correctly average two contexts within each of five equally weighted blocks, enumerate 3,125 bootstrap draws and 32 inclusive sign flips, and compute paired t intervals. HIT requires five strictly positive blocks, implying mean ≥.5; its gates provide no independent corroboration. DUD can leave .25 unresolved. Calibration assumptions and descriptive, potentially degenerate bounds are disclosed.
+
+Live registration/results were absent; S51 files were untracked, so execution and release integrity remain prospective.

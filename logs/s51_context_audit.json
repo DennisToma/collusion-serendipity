@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa",
+  "n_cases": 10,
+  "own_status_counts": {
+    "TYPE-X": 7,
+    "TYPE-Y": 3
+  },
+  "cases_with_historical_3point_text": 6,
+  "textual_old_policy_outside_notes": false,
+  "writer_lock_gitignored": true,
+  "interpretation": "Dated notes retain old policy by design; current-policy system notice overrides it, with possible cue interference.",
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "round_1based": 10,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 8
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "round_1based": 9,
+      "own_status": "TYPE-Y",
+      "historical_notes_with_3point_text": 7
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "round_1based": 9,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 0
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "round_1based": 10,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 0
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "round_1based": 7,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 0
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "round_1based": 9,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 0
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "round_1based": 10,
+      "own_status": "TYPE-Y",
+      "historical_notes_with_3point_text": 1
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "round_1based": 10,
+      "own_status": "TYPE-Y",
+      "historical_notes_with_3point_text": 1
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "round_1based": 8,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 7
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "round_1based": 9,
+      "own_status": "TYPE-X",
+      "historical_notes_with_3point_text": 8
+    }
+  ]
+}

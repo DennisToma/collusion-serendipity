@@ -158,3 +158,9 @@ opportunity;five sourceblocks24480..24484. Twenty fresh hidden/final decisions,
 zero newgames,tuning,heldout,pooling or completed-terminal-game claim. Same contexts
 as S48 but no S48 outcome selection or comparison arm;all source task statuses,
 notes and histories fixed. Full source/case freeze committed before live calls.
+
+S51:ten observed S29 shared-note histories,each employee last primary TYPE-Y review
+opportunity;five sourceblocks24480..24484. Twenty fresh charge3/charge9 decisions;
+zero newgames,tuning,heldout,pooling or long-run enforcement claim. Same contexts
+as S48/S50 but no earlier replay outcome selection or comparison arms;all source
+histories and task statuses fixed. Full source/case freeze pushed before live.
