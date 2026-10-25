@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T13:12:07.600990+00:00; Phase 2, iteration 56 result ready)
-- Reader exports built: BRIEF.pdf (2 pages), REPORT.pdf (3 pages), matching self-contained HTML.
-- New sourced figure shows bootstrap and paired-t intervals for four selected workplace contrasts.
+## Current state (2026-10-25T13:24:03.155412+00:00; Phase 2, iteration 56 COMPLETE)
+- Portable reader exports: BRIEF.pdf (2 pages), REPORT.pdf (3 pages), matching self-contained HTML.
+- Sourced interval figure compares four selected workplace contrasts; scientific conclusions unchanged.
 - All 54 original rows, 307 numeric bindings and 144 metadata checks pass; five selected replays pass.
-- All 3060 prior non-editorial tracked files unchanged; no scientific or dependency-lock changes.
-- PDF extraction retains all 58 brief and 176 full-report source fragments; five pages visually checked.
-- Repeat build reproduces all five export assets and the export receipt byte for byte.
-- Portfolio unchanged: 29 DUD, 23 ODD/context-only, two failed; no promoted HIT.
-- No new scientific calls, experiments, estimates, tuning, pooling or sibling headline changes.
-- S68 remains interrupted with no estimate/restart; S74 stays queued, never launched.
-- Canonical926 and focused21 tests pass; final Codex review passes; Opus supplied-text limits recorded.
-- Next: final presentation upkeep; new pilots only if valuable and registered before14:30UTC.
-- Risks: five-block exploration, reused histories, post hoc selection; no agreement/equivalence claim.
+- All 3060 prior non-editorial files unchanged; no scientific or dependency-lock changes.
+- PDFs retain58/176source fragments and13/55table rows in order; allfivepages visually checked.
+- Five export assets/receipt repeat byte-identically; all PDF links portable or evidence-pinned.
+- Origin2352fee reproduces all8checked artifacts byte for byte, selected replays pass, clone clean.
+- Canonical926 and focused21 tests pass; independent reviews and scope/dispositions retained.
+- Portfolio unchanged:29DUD,23ODD/context-only,twofailed;no promoted HIT or new scientific calls.
+- S68 interrupted with no estimate/restart; S74 queued, never launched; no sibling headline change.
+- Next: bounded final presentation upkeep; current verification is scripts/export_report.py --check.
+- Risks: five-block exploration,reused histories,posthoc selection;no agreement/equivalence claim.
 
 ## Log
 
@@ -763,3 +763,5 @@
 - 2026-10-25T13:12:07.600990+00:00: iteration56 read CLAUDE/PLAN/STATUS/DIRECTION, experiment ledger and sibling summaries. Selected one reader-export chunk: the last two iterations verified and synthesized evidence but supplied no portable PDF/HTML. Both siblings have frozen science; another small pilot has lower handoff value. No DIRECTION deviation; initial queue complete and PLAN permits polish. Created a two-page brief, three-page complete pilot log and saved-field interval figure, preserving all54original rows and3060prior non-editorial tracked files. Separate pinned export environment leaves pyproject/uv.lock unchanged. Browser blocks network requests; source links pin genuine pre-export evidence revision. Current wrapper retains307numeric/144metadata checks and five selected scientific replays without changing historical validators. All58brief/176report source fragments survive PDF extraction; allfivepages visually inspected with no clipping. Repeat build reproduces allfiveassets and receipt byte for byte. Initial export failures retained here: system python alias absent and an unexpanded Git prefix typo prevented preflight; corrected before successful export, then report caveat checker expected the brief word order and correctly rejected the draft until fixed. No scientific file changed. Full canonical tests and independent Codex/Opus reviews active; no success claimed in advance. No new experiment, scientific call, estimate, tuning, pooling, verdict, HIT, sibling write or ledger row. S68 stays interrupted; S74 queued only.
 
 - 2026-10-25T13:22:05.319979+00:00: iteration56 final reader-export verification passes. New brief2pages/full-log3pages retain all58/176source fragments and13/55complete table rows in order; allfivepages of final layout visually inspected. Fixed initial independent Codex medium finding by rewriting PDF file:// annotations to portable relative targets and checking every annotation target against pinned HTML. Accepted supplied-text Opus guard/wording suggestions: unique editorial/figure markers, exact image count, pinned Git target existence, archived brief reconstructed through unchanged historical products(), source checks before successful render receipt, explicit saved-versus-fresh coverage labels, chart source directions and actual replay count. Three in-memory regression probes reject without archive edits. All3060older non-editorial files,54rows,307numeric bindings,144metadata checks and five selected scientific replays pass;926canonical checks actualexit0 and21focusedS45checks pass. Initial focused module-name typo produced a loader failure; corrected to scripts.test_s45 and passed21tests. A pypdf string-key API error during the portability fix was corrected to NameObject before successful release. Initial and intermediate critics retained. Final Codex independently checks actual files and fresh PDF extraction with no high/medium issue; final Opus remains supplied-text-only, with execution-receipt/environment concerns addressed by exact commands/source hashes and literal check-pdf instructions, and mutable-receipt scope explicitly limited to Git-committed consistency. No unanimous raw-review claim. Repeat/relocated builds pass in existing environment; final origin proof still pending. No new scientific experiment/call/estimate, tuning, pooling, verdict, HIT, sibling write or ledger row. S68 interrupted; S74 queued only. Result commit/push then fresh origin reproduction follow.
+
+- 2026-10-25T13:24:03.155412+00:00: iteration56 COMPLETE. Result2352fee1d8f422330b8e766a9c27b4a6069248b4 committed/pushed. Fresh full-history ORIGIN clone rebuilds all8checked artifacts (four reader documents,interval PNG,export receipt,REPORT.md,README.md) byte for byte and finishes clean. It runs the pinned export build with fresh PDF extraction and the project-environment verification with five selected scientific replays/separate checkers; both exit0. Receipt logs/iteration56_remote_clean_clone.json binds actual result revision,exporter SHA256,exact commands and all8artifact hashes. Existing installed project/export dependencies and Chromium reused;no fresh-install or cross-platform-byte claim. The source links pin573f973,PDF sibling links are relative,all234source fragments and68complete table rows survive in order. All3060older non-editorial files and54original pilot rows remain unchanged;science/ledgers/IDEAS/splits/HITS/lock bytes preserved. Canonical926 and focused21tests pass;final in-memory export regression probes reject. Codex reviewed actual artifacts;Opus scope stays supplied-text-only with retained reservations and recorded dispositions,not a unanimous full raw audit. No new experiment,scientific call,estimate,tuning,pooling,verdict,promotion,sibling write or headline change. S68 interrupted with no restart;S74 queued only. Closing proof/status commit and push follow.

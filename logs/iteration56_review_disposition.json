@@ -36,5 +36,6 @@
     "Additional guard probes for every implementation line were not added; actual full-source audit, successful end-to-end commands and three concrete regression probes define the verified scope.",
     "The reviewer could not inspect historical helpers or validation receipt; actual executions and reconstruction pass. No missing-dependency failure observed in tested environments.",
     "No claim that file hashes defend an adversary editing both code and receipt or that the private source repo is public."
-  ]
+  ],
+  "origin_reproduction": "PASS at2352fee1d8f422330b8e766a9c27b4a6069248b4:all8checked artifacts byte-identical,selected replays/checkers pass,clone clean. Exact commands/source hashes in logs/iteration56_remote_clean_clone.json."
 }
