@@ -23,11 +23,24 @@ from scripts import iteration55_claims as audit
 BASELINE = '573f97310771f76fefb67e8d57f666539ad919cb'
 REPO_URL = 'https://github.com/DennisToma/collusion-serendipity'
 COMMAND = 'uv run --frozen python scripts/export_report.py --check --replay-selected'
+EXPORT_RECEIPT = 'logs/iteration57_exports.json'
+EXPORT_FILES = ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']
+EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
+    'scripts/iteration57_fresh_install.py', 'logs/iteration57_fresh_install.json', 'requirements-export.lock',
+    'results/iteration57_reproduction.md']
 EXPORT_ENV = {'markdown-it-py': '4.2.0', 'playwright': '1.64.1', 'pypdf': '6.21.2', 'matplotlib': '3.11.2'}
-NOTICE = ('**Reader exports — iteration 56:** [Concise brief (PDF)](BRIEF.pdf) · '
+NOTICE = ('**Reader exports — iteration 57:** [Concise brief (PDF)](BRIEF.pdf) · '
           '[Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). '
           'Exports preserve the saved evidence and original pilot rows. Current verification: '
           f'`{COMMAND}`. The iteration-54/55 full-document commands require their archived revisions.\n\n')
+FRESH_NOTICE = ('**Fresh dependency reproduction — iteration 57:** Archived handoff `e6b0c02` reproduced '
+    'from new project/export environments and initially empty uv/browser caches: five selected scientific replays, '
+    '926 canonical checks (including historical synthetic fixtures) and eight byte-identical artifacts. '
+    'Host Python, uv, OS libraries and fonts were reused. '
+    'This is selected same-host reproduction, not cross-platform or full-portfolio validation. '
+    'The current iteration-57 exports were built separately and use the current export check. '
+    'Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. '
+    'Instructions and scope: `results/iteration57_reproduction.md`.\n\n')
 CSS = """
 :root { font-family: Arial, sans-serif; color: #192b3e; background: #fff }
 body { margin: 0 } main { max-width: 1080px; margin: 32px auto; padding: 0 28px }
@@ -58,6 +71,11 @@ def sha(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def check_coverage(record):
+    require(set(record['files']) == set(EXPORT_FILES), 'Export receipt artifact coverage differs')
+    require(set(record['source_hashes']) == set(EXPORT_SOURCES), 'Export receipt source coverage differs')
+
+
 def old(name):
     return audit.git('show', BASELINE + ':' + name)
 
@@ -68,22 +86,24 @@ def replace_once(text, before, after):
 
 
 def documents():
-    report = replace_once(old('REPORT.md').decode(), '2026-10-25 · Iteration 55 ·', '2026-10-25 · Iteration 56 ·')
-    report = replace_once(report, '**Reading guide — iteration 55:**', NOTICE + '**Reading guide — iteration 56:**')
+    report = replace_once(old('REPORT.md').decode(), '2026-10-25 · Iteration 55 ·', '2026-10-25 · Iteration 57 ·')
+    report = replace_once(report, '**Reading guide — iteration 55:**', NOTICE + FRESH_NOTICE + '**Reading guide — iteration 57:**')
     report = replace_once(report, 'Current offline command: `uv run --frozen python scripts/iteration55_claims.py --check --replay-selected`.',
                             f'Current offline command: `{COMMAND}`.')
     readme = old('README.md').decode()
     entry = readme.split('\n\n')[1]
     require(entry.startswith('**Judge / handoff entry:**'), 'README entry moved')
-    replacement = NOTICE.strip() + '\n\n' + replace_once(entry,
+    replacement = NOTICE + FRESH_NOTICE + replace_once(entry,
         'uv run --frozen python scripts/iteration55_claims.py --check --replay-selected', COMMAND)
     replacement += ('\n\nRender with a separate pinned environment (project dependencies and `uv.lock` stay unchanged):\n\n'
-        '```bash\nuv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 '
-        '--with pypdf==6.21.2 --with matplotlib==3.11.2 playwright install chromium\n'
-        'uv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 '
-        '--with pypdf==6.21.2 --with matplotlib==3.11.2 python scripts/export_report.py --build\n'
-        'uv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 '
-        '--with pypdf==6.21.2 --with matplotlib==3.11.2 python scripts/export_report.py --check-pdf\n```\n\n'
+        'The Git diff command below checks byte identity on the recording host. On another host, '
+        'use the PDF content checks and report any byte differences.\n\n'
+        '```bash\nuv venv --python 3.12.15 /var/tmp/explorer-export57\n'
+        'uv pip install --python /var/tmp/explorer-export57/bin/python --require-hashes -r requirements-export.lock\n'
+        '/var/tmp/explorer-export57/bin/python -m playwright install chromium\n'
+        '/var/tmp/explorer-export57/bin/python scripts/export_report.py --build\n'
+        '/var/tmp/explorer-export57/bin/python scripts/export_report.py --check-pdf\n'
+        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration57_exports.json\n```\n\n'
         'The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. '
         'Source links in the exports point to the frozen evidence revision on GitHub; following them requires repository access. '
         'The archive checks and selected replay use the installed project dependencies and full Git history. '
@@ -92,7 +112,11 @@ def documents():
         'it reports saved PDF-coverage counts without re-extracting text. '
         '`--check-pdf` re-extracts source text and checks complete table rows in order. '
         'Use the project-environment command above for the five selected scientific replays. '
-        'Neither command claims a fresh scientific dependency installation or full-portfolio raw replication.')
+        'The separate iteration-57 runner downloads and installs both environments and Chromium anew to reproduce '
+        'the fixed iteration-56 handoff; its receipt-only check does not rerun installation or validate later checkout edits. '
+        'It consumes the complete hash-locked export requirements. To rerun without replacing the committed receipt, use '
+        '`uv run --frozen python scripts/iteration57_fresh_install.py run --out /var/tmp/explorer-fresh-receipt.json`. '
+        'No full-portfolio raw replication is claimed.')
     return {'REPORT.md': report, 'README.md': replace_once(readme, entry, replacement)}
 
 
@@ -126,13 +150,15 @@ def verify_sources():
     reconstructed = products()
     require(reconstructed['results/iteration54_brief.md'] == (ROOT / 'results/iteration54_brief.md').read_bytes(),
             'Archived brief differs from saved-field/raw-opportunity reconstruction')
+    from scripts.iteration57_fresh_install import check
+    check()
     return {'protected_files': protected, 'pilot_rows': result['pilot_entries'],
             'numeric_bindings': result['numeric_tokens_checked'], 'metadata_checks': result['metadata_checks']}
 
 
 def sources():
     brief = (ROOT / 'results/iteration54_brief.md').read_text()
-    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 56 ·')
+    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 57 ·')
     require(brief.count('**Offline verification of this handoff:**') == 1, 'Brief verification block moved')
     brief = brief.split('**Offline verification of this handoff:**', 1)[0]
     brief += ('**Current offline verification:**\n\n```bash\n' + COMMAND + '\n```\n\n'
@@ -324,11 +350,12 @@ def render():
         browser.close()
     require(not blocked, 'Unexpected browser network request')
     record = {'scope': 'Presentation only; source-fragment coverage is not raw scientific validation.',
+        'reader_iteration': 57, 'fresh_install_target_revision': 'e6b0c02bb189923b3fd039fe67db153826ee3aff',
         'source_revision': BASELINE, 'export_environment': EXPORT_ENV, 'chromium_version': browser_version,
         'network_requests_blocked': blocked, 'chart_rows': rows, 'pdf_text_coverage': checks,
-        'files': {n: sha((ROOT / n).read_bytes()) for n in ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']},
-        'source_hashes': {n: sha((ROOT / n).read_bytes()) for n in ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md']}}
-    (ROOT / 'logs/iteration56_exports.json').write_text(json.dumps(record, indent=2) + '\n')
+        'files': {n: sha((ROOT / n).read_bytes()) for n in EXPORT_FILES},
+        'source_hashes': {n: sha((ROOT / n).read_bytes()) for n in EXPORT_SOURCES}}
+    (ROOT / EXPORT_RECEIPT).write_text(json.dumps(record, indent=2) + '\n')
     return record
 
 
@@ -343,14 +370,15 @@ def main():
     if args.build:
         preservation()
         for name, value in documents().items():
-            require((ROOT / name).read_bytes() in [old(name), value.encode()], 'Intervening editorial change: ' + name)
+            require((ROOT / name).read_bytes() in [old(name), audit.git('show', 'e6b0c02:' + name), value.encode()], 'Intervening editorial change: ' + name)
         for name, value in documents().items():
             (ROOT / name).write_text(value)
         checked = verify_sources()
         render()
     else:
         checked = verify_sources()
-    record = json.loads((ROOT / 'logs/iteration56_exports.json').read_text())
+    record = json.loads((ROOT / EXPORT_RECEIPT).read_text())
+    check_coverage(record)
     for name, expected in {**record['files'], **record['source_hashes']}.items():
         require(sha((ROOT / name).read_bytes()) == expected, 'Export/source hash differs: ' + name)
     if args.check_pdf:

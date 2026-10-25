@@ -1,0 +1,462 @@
+{
+  "passed": false,
+  "target_revision": "e6b0c02bb189923b3fd039fe67db153826ee3aff",
+  "clone_source": "origin",
+  "started_utc": "2026-10-25T13:39:32.805544+00:00",
+  "runner_sha256": "865a2507e8815fd912b009ba99d3ddbe09574450c76f38d60fea5ebb039d29e2",
+  "commands": [
+    {
+      "stage": "clone",
+      "command": [
+        "git",
+        "clone",
+        "--quiet",
+        "gh-csr:DennisToma/collusion-serendipity.git",
+        "/var/tmp/iteration57_fresh_fh_x3n3p/repo"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "stage": "checkout",
+      "command": [
+        "git",
+        "checkout",
+        "--quiet",
+        "--detach",
+        "e6b0c02bb189923b3fd039fe67db153826ee3aff"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "stage": "project-install",
+      "command": [
+        "uv",
+        "sync",
+        "--frozen",
+        "--python",
+        "/home/factory/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "Using CPython 3.12.15 interpreter at: /home/factory/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12\nCreating virtual environment at: /var/tmp/iteration57_fresh_fh_x3n3p/project-env\nDownloading scikit-learn (8.7MiB)\nDownloading pillow (6.8MiB)\nDownloading fonttools (5.2MiB)\nDownloading scipy (33.7MiB)\nDownloading pandas (11.5MiB)\nDownloading kiwisolver (1.4MiB)\nDownloading matplotlib (9.4MiB)\nDownloading numpy (16.0MiB)\n Downloaded kiwisolver\n Downloaded fonttools\n Downloaded pillow\n Downloaded matplotlib\n Downloaded scikit-learn\n Downloaded pandas\n Downloaded numpy\n Downloaded scipy\nPrepared 19 packages in 806ms\nInstalled 19 packages in 51ms\n + cloudpickle==3.1.2\n + contourpy==1.4.0\n + cycler==0.12.1\n + fonttools==4.67.0\n + joblib==1.6.0\n + kiwisolver==1.5.1\n + matplotlib==3.11.2\n + narwhals==2.27.1\n + numpy==2.5.4\n + packaging==26.3\n + pandas==3.1.0\n + pillow==13.0.0\n + pyparsing==3.3.3\n + python-dateutil==3.0.0\n + scikit-learn==1.9.1\n + scipy==1.18.1\n + six==1.17.0\n + threadpoolctl==3.7.0\n + tzdata==2026.5\n"
+    },
+    {
+      "stage": "project-inventory",
+      "command": [
+        "/var/tmp/iteration57_fresh_fh_x3n3p/project-env/bin/python",
+        "-c",
+        "import importlib.metadata as m,json,sys\nfrom pathlib import Path\np=Path(sys.prefix).resolve()\ndef inside(x):return Path(x).resolve().is_relative_to(p)\nprint(json.dumps(dict(prefix=str(p),base_prefix=sys.base_prefix,python=sys.version,\n external_site_paths=[s for s in sys.path if ('site-packages' in s or 'dist-packages' in s) and not inside(s)],\n packages=sorted([dict(name=d.metadata['Name'],version=d.version,inside_prefix=inside(d.locate_file(''))) for d in m.distributions()],key=lambda d:d['name'].lower()))))\n"
+      ],
+      "exit": 0,
+      "stdout": "{\"prefix\": \"/var/tmp/iteration57_fresh_fh_x3n3p/project-env\", \"base_prefix\": \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu\", \"python\": \"3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]\", \"external_site_paths\": [], \"packages\": [{\"name\": \"cloudpickle\", \"version\": \"3.1.2\", \"inside_prefix\": true}, {\"name\": \"contourpy\", \"version\": \"1.4.0\", \"inside_prefix\": true}, {\"name\": \"cycler\", \"version\": \"0.12.1\", \"inside_prefix\": true}, {\"name\": \"fonttools\", \"version\": \"4.67.0\", \"inside_prefix\": true}, {\"name\": \"joblib\", \"version\": \"1.6.0\", \"inside_prefix\": true}, {\"name\": \"kiwisolver\", \"version\": \"1.5.1\", \"inside_prefix\": true}, {\"name\": \"matplotlib\", \"version\": \"3.11.2\", \"inside_prefix\": true}, {\"name\": \"narwhals\", \"version\": \"2.27.1\", \"inside_prefix\": true}, {\"name\": \"numpy\", \"version\": \"2.5.4\", \"inside_prefix\": true}, {\"name\": \"packaging\", \"version\": \"26.3\", \"inside_prefix\": true}, {\"name\": \"pandas\", \"version\": \"3.1.0\", \"inside_prefix\": true}, {\"name\": \"pillow\", \"version\": \"13.0.0\", \"inside_prefix\": true}, {\"name\": \"pyparsing\", \"version\": \"3.3.3\", \"inside_prefix\": true}, {\"name\": \"python-dateutil\", \"version\": \"3.0.0\", \"inside_prefix\": true}, {\"name\": \"scikit-learn\", \"version\": \"1.9.1\", \"inside_prefix\": true}, {\"name\": \"scipy\", \"version\": \"1.18.1\", \"inside_prefix\": true}, {\"name\": \"six\", \"version\": \"1.17.0\", \"inside_prefix\": true}, {\"name\": \"threadpoolctl\", \"version\": \"3.7.0\", \"inside_prefix\": true}, {\"name\": \"tzdata\", \"version\": \"2026.5\", \"inside_prefix\": true}]}\n",
+      "stderr": ""
+    },
+    {
+      "stage": "selected-replay",
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "exit": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 176, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "stage": "canonical-tests",
+      "command": [
+        "uv",
+        "run",
+        "--frozen",
+        "python",
+        "scripts/s65_tests.py",
+        "--out",
+        "/var/tmp/iteration57_fresh_fh_x3n3p/canonical.json"
+      ],
+      "exit": 0,
+      "stdout": "s07_24080_legality complete 36 calls\ns07_24080_legality complete 6 calls\ns09_24080_retain complete 18 calls\ns09_24080_erase complete 18 calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nCompleted archive validated; zero model calls\ns32_24600_compute complete 20 calls\ns35_24720_symmetric complete 20 calls\ns36_24760_gross complete 20 calls\ns37_24800_payroll complete 20 calls\ns38_24840_hidden complete 20 calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\ns41_24880_coarse complete 20 calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nCompleted archive validated; zero model calls\nComplete:20 cached decision responses\nComplete:30 cached decision responses\nCompleted archive validated; zero model calls\nComplete:30 cached decision responses\nCompleted archive validated; zero model calls\nComplete:30 cached decision responses\nComplete:30 cached decision responses\nCompleted archive validated; zero model calls\nComplete:30 cached decision responses\nCompleted archive validated; zero model calls\nComplete:30 cached decision responses\nComplete:30 cached auditor responses\nCompleted archive validated; zero model calls\nComplete:30 cached auditor responses\nComplete:30 cached auditor responses\nComplete:30 cached auditor responses\nCompleted archive validated; zero model calls\nCompleted archive validated; zero model calls\ns31_24560_shared complete 20 calls\n{\n  \"passed\": true,\n  \"tests\": 926,\n  \"failures\": 0,\n  \"errors\": 0,\n  \"group_counts\": {\n    \"ordinary\": 886,\n    \"s21\": 14,\n    \"s31\": 12,\n    \"s33\": 13,\n    \"s54_direct_entry\": 1\n  },\n  \"legacy_synthetic_fixtures\": {\n    \"s21_deadline\": \"2099-01-01T00:00:00+00:00\",\n    \"s31_now\": \"2026-10-24T23:29:00+00:00\",\n    \"s33_now\": \"2026-10-25T00:20:00+00:00\"\n  },\n  \"real_archive_deadlines_and_sources_unchanged\": true,\n  \"s54_direct_entry_fixture\": \"One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched\"\n}\n",
+      "stderr": "......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................\n----------------------------------------------------------------------\nRan 886 tests in 197.432s\n\nOK\n..............\n----------------------------------------------------------------------\nRan 14 tests in 1.580s\n\nOK\n............\n----------------------------------------------------------------------\nRan 12 tests in 0.101s\n\nOK\n.............\n----------------------------------------------------------------------\nRan 13 tests in 2.314s\n\nOK\n.\n----------------------------------------------------------------------\nRan 1 test in 0.002s\n\nOK\n"
+    },
+    {
+      "stage": "export-venv",
+      "command": [
+        "uv",
+        "venv",
+        "--python",
+        "/home/factory/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12",
+        "/var/tmp/iteration57_fresh_fh_x3n3p/export-env"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "Using CPython 3.12.15 interpreter at: /home/factory/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12\nCreating virtual environment at: /var/tmp/iteration57_fresh_fh_x3n3p/export-env\nActivate with: source /var/tmp/iteration57_fresh_fh_x3n3p/export-env/bin/activate\n"
+    },
+    {
+      "stage": "export-install",
+      "command": [
+        "uv",
+        "pip",
+        "install",
+        "--python",
+        "/var/tmp/iteration57_fresh_fh_x3n3p/export-env/bin/python",
+        "--require-hashes",
+        "-r",
+        "/home/factory/collusion/collusion-serendipity/requirements-export.lock"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "Using Python 3.12.15 environment at: /var/tmp/iteration57_fresh_fh_x3n3p/export-env\nResolved 19 packages in 247ms\nDownloading playwright (46.2MiB)\n Downloaded playwright\nPrepared 7 packages in 302ms\nInstalled 19 packages in 23ms\n + contourpy==1.4.0\n + cycler==0.12.1\n + fonttools==4.67.0\n + greenlet==3.5.6\n + kiwisolver==1.5.1\n + markdown-it-py==4.2.0\n + matplotlib==3.11.2\n + mdurl==0.1.2\n + numpy==2.5.4\n + packaging==26.3\n + pillow==13.0.0\n + playwright==1.64.1\n + pyee==14.0.0\n + pyparsing==3.3.3\n + pypdf==6.21.2\n + python-dateutil==3.0.0\n + six==1.17.0\n + typing-extensions==4.16.0\n + tzdata==2026.5\n"
+    },
+    {
+      "stage": "export-inventory",
+      "command": [
+        "/var/tmp/iteration57_fresh_fh_x3n3p/export-env/bin/python",
+        "-c",
+        "import importlib.metadata as m,json,sys\nfrom pathlib import Path\np=Path(sys.prefix).resolve()\ndef inside(x):return Path(x).resolve().is_relative_to(p)\nprint(json.dumps(dict(prefix=str(p),base_prefix=sys.base_prefix,python=sys.version,\n external_site_paths=[s for s in sys.path if ('site-packages' in s or 'dist-packages' in s) and not inside(s)],\n packages=sorted([dict(name=d.metadata['Name'],version=d.version,inside_prefix=inside(d.locate_file(''))) for d in m.distributions()],key=lambda d:d['name'].lower()))))\n"
+      ],
+      "exit": 0,
+      "stdout": "{\"prefix\": \"/var/tmp/iteration57_fresh_fh_x3n3p/export-env\", \"base_prefix\": \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu\", \"python\": \"3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]\", \"external_site_paths\": [], \"packages\": [{\"name\": \"contourpy\", \"version\": \"1.4.0\", \"inside_prefix\": true}, {\"name\": \"cycler\", \"version\": \"0.12.1\", \"inside_prefix\": true}, {\"name\": \"fonttools\", \"version\": \"4.67.0\", \"inside_prefix\": true}, {\"name\": \"greenlet\", \"version\": \"3.5.6\", \"inside_prefix\": true}, {\"name\": \"kiwisolver\", \"version\": \"1.5.1\", \"inside_prefix\": true}, {\"name\": \"markdown-it-py\", \"version\": \"4.2.0\", \"inside_prefix\": true}, {\"name\": \"matplotlib\", \"version\": \"3.11.2\", \"inside_prefix\": true}, {\"name\": \"mdurl\", \"version\": \"0.1.2\", \"inside_prefix\": true}, {\"name\": \"numpy\", \"version\": \"2.5.4\", \"inside_prefix\": true}, {\"name\": \"packaging\", \"version\": \"26.3\", \"inside_prefix\": true}, {\"name\": \"pillow\", \"version\": \"13.0.0\", \"inside_prefix\": true}, {\"name\": \"playwright\", \"version\": \"1.64.1\", \"inside_prefix\": true}, {\"name\": \"pyee\", \"version\": \"14.0.0\", \"inside_prefix\": true}, {\"name\": \"pyparsing\", \"version\": \"3.3.3\", \"inside_prefix\": true}, {\"name\": \"pypdf\", \"version\": \"6.21.2\", \"inside_prefix\": true}, {\"name\": \"python-dateutil\", \"version\": \"3.0.0\", \"inside_prefix\": true}, {\"name\": \"six\", \"version\": \"1.17.0\", \"inside_prefix\": true}, {\"name\": \"typing_extensions\", \"version\": \"4.16.0\", \"inside_prefix\": true}, {\"name\": \"tzdata\", \"version\": \"2026.5\", \"inside_prefix\": true}]}\n",
+      "stderr": ""
+    },
+    {
+      "stage": "browser-install",
+      "command": [
+        "/var/tmp/iteration57_fresh_fh_x3n3p/export-env/bin/python",
+        "-m",
+        "playwright",
+        "install",
+        "chromium"
+      ],
+      "exit": 0,
+      "stdout": "Downloading Chrome for Testing 156.0.8078.4 (playwright chromium v1248)\u001b[2m from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-linux64.zip\u001b[22m\n|                                                                                |   0% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                        |  10% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                |  20% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                        |  30% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                |  40% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                        |  50% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                |  60% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                        |  70% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                |  80% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0        |  90% of 191.1 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0| 100% of 191.1 MiB\nChrome for Testing 156.0.8078.4 (playwright chromium v1248) downloaded to /var/tmp/iteration57_fresh_fh_x3n3p/browsers/chromium-1248\nDownloading FFmpeg (playwright ffmpeg v1013)\u001b[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1013/ffmpeg-linux.zip\u001b[22m\n|                                                                                |   0% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                        |  10% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                |  20% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                        |  30% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                |  40% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                        |  50% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                |  60% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                        |  70% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                |  80% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0        |  90% of 2.2 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0| 100% of 2.2 MiB\nFFmpeg (playwright ffmpeg v1013) downloaded to /var/tmp/iteration57_fresh_fh_x3n3p/browsers/ffmpeg-1013\nDownloading Chrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248)\u001b[2m from https://cdn.playwright.dev/builds/cft/156.0.8078.4/linux64/chrome-headless-shell-linux64.zip\u001b[22m\n|                                                                                |   0% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                        |  10% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                                |  20% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                        |  30% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                                |  40% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                        |  50% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                                |  60% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                        |  70% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0                |  80% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0        |  90% of 120 MiB\n|\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0| 100% of 120 MiB\nChrome Headless Shell 156.0.8078.4 (playwright chromium-headless-shell v1248) downloaded to /var/tmp/iteration57_fresh_fh_x3n3p/browsers/chromium_headless_shell-1248\n",
+      "stderr": ""
+    },
+    {
+      "stage": "export-build",
+      "command": [
+        "/var/tmp/iteration57_fresh_fh_x3n3p/export-env/bin/python",
+        "scripts/export_report.py",
+        "--build",
+        "--check-pdf"
+      ],
+      "exit": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 176, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "environments": {
+    "project": {
+      "prefix": "/var/tmp/iteration57_fresh_fh_x3n3p/project-env",
+      "base_prefix": "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu",
+      "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+      "external_site_paths": [],
+      "packages": [
+        {
+          "name": "cloudpickle",
+          "version": "3.1.2",
+          "inside_prefix": true
+        },
+        {
+          "name": "contourpy",
+          "version": "1.4.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "cycler",
+          "version": "0.12.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "fonttools",
+          "version": "4.67.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "joblib",
+          "version": "1.6.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "kiwisolver",
+          "version": "1.5.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "matplotlib",
+          "version": "3.11.2",
+          "inside_prefix": true
+        },
+        {
+          "name": "narwhals",
+          "version": "2.27.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "numpy",
+          "version": "2.5.4",
+          "inside_prefix": true
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "inside_prefix": true
+        },
+        {
+          "name": "pandas",
+          "version": "3.1.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "pillow",
+          "version": "13.0.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "pyparsing",
+          "version": "3.3.3",
+          "inside_prefix": true
+        },
+        {
+          "name": "python-dateutil",
+          "version": "3.0.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "scikit-learn",
+          "version": "1.9.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "scipy",
+          "version": "1.18.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "threadpoolctl",
+          "version": "3.7.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "tzdata",
+          "version": "2026.5",
+          "inside_prefix": true
+        }
+      ]
+    },
+    "export": {
+      "prefix": "/var/tmp/iteration57_fresh_fh_x3n3p/export-env",
+      "base_prefix": "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu",
+      "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+      "external_site_paths": [],
+      "packages": [
+        {
+          "name": "contourpy",
+          "version": "1.4.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "cycler",
+          "version": "0.12.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "fonttools",
+          "version": "4.67.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "greenlet",
+          "version": "3.5.6",
+          "inside_prefix": true
+        },
+        {
+          "name": "kiwisolver",
+          "version": "1.5.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "markdown-it-py",
+          "version": "4.2.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "matplotlib",
+          "version": "3.11.2",
+          "inside_prefix": true
+        },
+        {
+          "name": "mdurl",
+          "version": "0.1.2",
+          "inside_prefix": true
+        },
+        {
+          "name": "numpy",
+          "version": "2.5.4",
+          "inside_prefix": true
+        },
+        {
+          "name": "packaging",
+          "version": "26.3",
+          "inside_prefix": true
+        },
+        {
+          "name": "pillow",
+          "version": "13.0.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "playwright",
+          "version": "1.64.1",
+          "inside_prefix": true
+        },
+        {
+          "name": "pyee",
+          "version": "14.0.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "pyparsing",
+          "version": "3.3.3",
+          "inside_prefix": true
+        },
+        {
+          "name": "pypdf",
+          "version": "6.21.2",
+          "inside_prefix": true
+        },
+        {
+          "name": "python-dateutil",
+          "version": "3.0.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "six",
+          "version": "1.17.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "typing_extensions",
+          "version": "4.16.0",
+          "inside_prefix": true
+        },
+        {
+          "name": "tzdata",
+          "version": "2026.5",
+          "inside_prefix": true
+        }
+      ]
+    }
+  },
+  "scope": "Fresh Python package environments, initially empty uv/browser caches; selected scientific replay and canonical historical synthetic fixtures. Reuses host OS, system libraries/fonts, uv and base Python. Not network-isolated, cross-platform or full-portfolio raw replication.",
+  "project_lock_sha256": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+  "export_lock_sha256": "6827db72b279258a932e673babe6b8f77ec355a22fdfbbe6ed0094fe08a5c7c7",
+  "uv_config_disabled": true,
+  "default_index": "https://pypi.org/simple",
+  "initial_empty_paths": [
+    "uv-cache",
+    "browsers",
+    "project-env",
+    "export-env"
+  ],
+  "host": {
+    "base_python": "/home/factory/.local/share/uv/python/cpython-3.12-linux-x86_64-gnu/bin/python3.12",
+    "python": "3.12.15 (main, Oct 21 2026, 17:47:06) [Clang 23.1.3 ]",
+    "uv": "uv 0.13.5 (x86_64-unknown-linux-gnu)",
+    "platform": "linux"
+  },
+  "actual_clone_revision": "e6b0c02bb189923b3fd039fe67db153826ee3aff",
+  "selected_replay": {
+    "protected_files": 3060,
+    "pilot_rows": 54,
+    "numeric_bindings": 307,
+    "metadata_checks": 144,
+    "selected_replays": 5,
+    "pdf_coverage_reextracted": false,
+    "saved_pdf_coverage": {
+      "BRIEF": {
+        "pages": 2,
+        "source_fragments_checked": 58,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 13,
+        "portable_relative_links": 1
+      },
+      "REPORT": {
+        "pages": 3,
+        "source_fragments_checked": 176,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 55,
+        "portable_relative_links": 4
+      }
+    },
+    "passed": true
+  },
+  "canonical_tests": {
+    "passed": true,
+    "tests": 926,
+    "failures": 0,
+    "errors": 0,
+    "group_counts": {
+      "ordinary": 886,
+      "s21": 14,
+      "s31": 12,
+      "s33": 13,
+      "s54_direct_entry": 1
+    },
+    "legacy_synthetic_fixtures": {
+      "s21_deadline": "2099-01-01T00:00:00+00:00",
+      "s31_now": "2026-10-24T23:29:00+00:00",
+      "s33_now": "2026-10-25T00:20:00+00:00"
+    },
+    "real_archive_deadlines_and_sources_unchanged": true,
+    "s54_direct_entry_fixture": "One frozen new-launch rejection test runs in an empty external cwd;real completed archive untouched"
+  },
+  "export_check": {
+    "protected_files": 3060,
+    "pilot_rows": 54,
+    "numeric_bindings": 307,
+    "metadata_checks": 144,
+    "pdf_coverage_reextracted": true,
+    "saved_pdf_coverage": {
+      "BRIEF": {
+        "pages": 2,
+        "source_fragments_checked": 58,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 13,
+        "portable_relative_links": 1
+      },
+      "REPORT": {
+        "pages": 3,
+        "source_fragments_checked": 176,
+        "missing_fragments": 0,
+        "complete_table_rows_in_order": 55,
+        "portable_relative_links": 4
+      }
+    },
+    "passed": true
+  },
+  "byte_identical_artifacts": {
+    "BRIEF.html": "d874c4ed3bab5fccd4732fc8892cdac222ee3315f37298dea3fd6ec02e3e4ab2",
+    "BRIEF.pdf": "9365e7a6f8fe3f96cc265035a87e818a0b99400d583a703a7bbad80ef35ada6c",
+    "REPORT.html": "f681d391008316d8d02c8b33c7d06101fd776b8c156215ddf6792d015774688a",
+    "REPORT.pdf": "1f3724e533ca2e4b76e352a92de74a4fd801e12d1b12fecf6d29da4f0b9528b8",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration56_exports.json": "0f2f279853a08d3b0517be98aabf0b647d94d737f68e6d02003e8dc2154c26e2",
+    "REPORT.md": "d23b0d525bd4aee59ece1c9879eba3f720a466d0dd4075ccef6f44994fde063f",
+    "README.md": "558b8670a313acffb89597bb56422069b2065ce44bed488802adfce3132b4213"
+  },
+  "clone_clean": true,
+  "error": "Runner changed",
+  "finished_utc": "2026-10-25T13:43:35.117028+00:00"
+}

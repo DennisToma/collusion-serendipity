@@ -1,0 +1,12 @@
+[
+  {
+    "critic": "codex",
+    "exit": 0,
+    "scope": "Read-only repository; actual executed checks described in review."
+  },
+  {
+    "critic": "opus",
+    "exit": 0,
+    "scope": "Supplied text only."
+  }
+]

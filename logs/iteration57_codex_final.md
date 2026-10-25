@@ -1,0 +1,9 @@
+No high issues found. Two medium consistency gaps remain:
+
+1. **Fresh-receipt validation accepts contradictory command evidence.** [iteration57_fresh_install.py:52](/home/factory/collusion/collusion-serendipity/scripts/iteration57_fresh_install.py:52) checks stage names and exits but does not bind command arguments or captured output to the recorded summaries. Read-only, in-memory probes confirmed acceptance of a different checkout revision, replay stdout reporting failure, and deleted command/stdout/stderr fields. Require these fields, validate command templates, and cross-check parsed outputs. This concerns internal consistency, independently of external attestation.
+
+2. **Current export verification does not enforce complete hash coverage.** [export_report.py:368](/home/factory/collusion/collusion-serendipity/scripts/export_report.py:368) verifies whichever entries appear in the receipt, without requiring exact artifact/source key sets. Removing the `REPORT.pdf` entry would leave that PDF unchecked by plain `--check`. Require the complete expected key sets before comparing bytes.
+
+The supplied records show no hash mismatch: all eight archived artifact hashes, the project lock, and all current export/source hashes matched. The recorded canonical groups total 926; selected replay implementation covers S29/S62/S69/S70 and historical S72. The documented isolation and scientific-scope limits are appropriately qualified. Ordinary caught failures write `passed: false`; timeouts omit the failing stage and captured diagnostics because stage recording occurs after subprocess completion.
+
+No edits, installations, installation reruns, scientific model calls, or subagents were used.

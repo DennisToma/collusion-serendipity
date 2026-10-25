@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "commands": [
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/iteration57_fresh_install.py",
+        "check"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\": true, \"target_revision\": \"e6b0c02bb189923b3fd039fe67db153826ee3aff\", \"selected_replays\": 5, \"canonical_tests\": 926, \"byte_identical_artifacts\": 8}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/iteration57_release.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\": true, \"unchanged_prior_files\": 3083, \"original_pilot_rows\": 54, \"fresh_receipt_check\": {\"passed\": true, \"target_revision\": \"e6b0c02bb189923b3fd039fe67db153826ee3aff\", \"selected_replays\": 5, \"canonical_tests\": 926, \"byte_identical_artifacts\": 8}, \"rejected_in_memory_probes\": {\"failed_run\": \"rejected\", \"target_revision\": \"rejected\", \"artifact_hash\": \"rejected\", \"failed_stage\": \"rejected\", \"missing_stage\": \"rejected\", \"installed_version\": \"rejected\", \"canonical_count\": \"rejected\", \"external_site\": \"rejected\", \"external_package\": \"rejected\", \"dirty_clone\": \"rejected\", \"lock_hash\": \"rejected\", \"replay_count\": \"rejected\", \"checkout_arguments\": \"rejected\", \"contradictory_stdout\": \"rejected\", \"missing_stdout\": \"rejected\", \"missing_export_files\": \"rejected\", \"missing_export_source_hashes\": \"rejected\"}, \"scope\": \"Current-tree preservation and receipt consistency, not fresh execution or external attestation.\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "exit": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 177, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "-m",
+        "unittest",
+        "scripts.test_s45",
+        "-v"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_abort_and_logical_admission_serialized (scripts.test_s45.Tests.test_abort_and_logical_admission_serialized) ... ok\ntest_active_team_and_simultaneous_visibility (scripts.test_s45.Tests.test_active_team_and_simultaneous_visibility) ... ok\ntest_alternating_calls_fail_overlap_gate (scripts.test_s45.Tests.test_alternating_calls_fail_overlap_gate) ... ok\ntest_backend_invocation_uses_empty_external_directory (scripts.test_s45.Tests.test_backend_invocation_uses_empty_external_directory) ... ok\ntest_cache_fail_closed_and_transport_abort (scripts.test_s45.Tests.test_cache_fail_closed_and_transport_abort) ... ok\ntest_closure_baseline_cannot_be_changed_through_config (scripts.test_s45.Tests.test_closure_baseline_cannot_be_changed_through_config) ... ok\ntest_completion_rechecks_runtime (scripts.test_s45.Tests.test_completion_rechecks_runtime) ... ok\ntest_deadline_cache_only_and_recheck (scripts.test_s45.Tests.test_deadline_cache_only_and_recheck) ... ok\ntest_deep_json_rejected (scripts.test_s45.Tests.test_deep_json_rejected) ... ok\ntest_exact_screen (scripts.test_s45.Tests.test_exact_screen) ... ok\ntest_exhaustive_economics (scripts.test_s45.Tests.test_exhaustive_economics) ... ok\ntest_failure_exhaustion (scripts.test_s45.Tests.test_failure_exhaustion) ... ok\ntest_full_dry_independent_and_mutation_guards (scripts.test_s45.Tests.test_full_dry_independent_and_mutation_guards) ... ok\ntest_independent_duplicate_raw_rejected (scripts.test_s45.Tests.test_independent_duplicate_raw_rejected) ... ok\ntest_matched_pair_and_balanced_types (scripts.test_s45.Tests.test_matched_pair_and_balanced_types) ... ok\ntest_mocked_live_complete_archive (scripts.test_s45.Tests.test_mocked_live_complete_archive) ... ok\ntest_only_readability_sentence_changes_at_empty_history (scripts.test_s45.Tests.test_only_readability_sentence_changes_at_empty_history) ... ok\ntest_parser_schema (scripts.test_s45.Tests.test_parser_schema) ... ok\ntest_registered_environment_rejected_before_dataset_creation (scripts.test_s45.Tests.test_registered_environment_rejected_before_dataset_creation) ... ok\ntest_renderer_idempotent_synthetic (scripts.test_s45.Tests.test_renderer_idempotent_synthetic) ... ok\ntest_unique_stage_equilibria_and_temptation (scripts.test_s45.Tests.test_unique_stage_equilibria_and_temptation) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 11.634s\n\nOK\n"
+    }
+  ],
+  "focused_tests": 21,
+  "repeat_byte_identical": true
+}

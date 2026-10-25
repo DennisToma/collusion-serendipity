@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "probe": "Missing origin replaces stale success with passed:false before clone/install; scratch receipt only.",
+  "missing_out_probe": "rejected before install; committed receipt byte-identical"
+}

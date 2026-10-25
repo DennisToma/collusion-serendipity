@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "unchanged_prior_files": 3083,
+  "original_pilot_rows": 54,
+  "fresh_receipt_check": {
+    "passed": true,
+    "target_revision": "e6b0c02bb189923b3fd039fe67db153826ee3aff",
+    "selected_replays": 5,
+    "canonical_tests": 926,
+    "byte_identical_artifacts": 8
+  },
+  "rejected_in_memory_probes": {
+    "failed_run": "rejected",
+    "target_revision": "rejected",
+    "artifact_hash": "rejected",
+    "failed_stage": "rejected",
+    "missing_stage": "rejected",
+    "installed_version": "rejected",
+    "canonical_count": "rejected",
+    "external_site": "rejected",
+    "external_package": "rejected",
+    "dirty_clone": "rejected",
+    "lock_hash": "rejected",
+    "replay_count": "rejected",
+    "checkout_arguments": "rejected",
+    "contradictory_stdout": "rejected",
+    "missing_stdout": "rejected",
+    "missing_export_files": "rejected",
+    "missing_export_source_hashes": "rejected"
+  },
+  "scope": "Current-tree preservation and receipt consistency, not fresh execution or external attestation."
+}

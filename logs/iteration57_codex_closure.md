@@ -1,0 +1,8 @@
+No high-severity issue found. Two medium concerns remain:
+
+- **Interrupted runs can leave stale passing evidence.** The runner writes its receipt only in `finally`; SIGTERM/process loss can leave an older successful output untouched. Timeouts also bypass command-record insertion, losing the failing stage’s captured streams. This limits the unconditional failure/cleanup claim in [reproduction instructions](/home/factory/collusion/collusion-serendipity/results/iteration57_reproduction.md:57). Persist an initial nonpassing receipt and retain timeout evidence. See [failure handling](/home/factory/collusion/collusion-serendipity/scripts/iteration57_fresh_install.py:167).
+- **Git binding is still pending in this checkout.** Both iteration57 receipts are currently untracked. Commit the reviewed runner, lock, receipts, instructions, and exports together before describing them as Git-committed consistency evidence.
+
+Otherwise, fresh dependency isolation, pinned revision/source binding, eight artifact byte comparisons, canonical-suite scope, and five selected replays support the stated bounded claims. Archived versus current exports and the known methodological limits are clearly distinguished.
+
+Validation: receipt consistency passed; all current export/source hashes matched; a mocked preflight failure emitted `passed: false`. No edits, installation, scientific replay, or model calls were performed.

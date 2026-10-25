@@ -1,18 +1,25 @@
 # Collusion Serendipity Explorer
 
-**Reader exports — iteration 56:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+**Reader exports — iteration 57:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+
+**Fresh dependency reproduction — iteration 57:** Archived handoff `e6b0c02` reproduced from new project/export environments and initially empty uv/browser caches: five selected scientific replays, 926 canonical checks (including historical synthetic fixtures) and eight byte-identical artifacts. Host Python, uv, OS libraries and fonts were reused. This is selected same-host reproduction, not cross-platform or full-portfolio validation. The current iteration-57 exports were built separately and use the current export check. Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. Instructions and scope: `results/iteration57_reproduction.md`.
 
 **Judge / handoff entry:** [concise evidence brief](results/iteration54_brief.md) · [complete pilot log](REPORT.md) · [complete table field audit](results/iteration55_claim_audit.json). Verify the current handoff offline with `uv run --frozen python scripts/export_report.py --check --replay-selected`. This checks all highlighted table values against saved fields or documented fixed scalings, preserves every original row and prior scientific file, and runs five selected scientific reanalyses with their separate checkers. It makes no full-portfolio raw-reproduction claim. The command in the archived iteration-54 brief rebuilds its exact full documents at revision `88550b12fb796fe4292dd49bc8a05f7dc5adc245`; use the current command for this checkout. Use a full-history clone: both the audit baseline and selected S72 replay need historical commits. Existing installed pinned dependencies are reused. The selected scientific call entry is guarded; this is not network isolation.
 
 Render with a separate pinned environment (project dependencies and `uv.lock` stay unchanged):
 
+The Git diff command below checks byte identity on the recording host. On another host, use the PDF content checks and report any byte differences.
+
 ```bash
-uv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 --with pypdf==6.21.2 --with matplotlib==3.11.2 playwright install chromium
-uv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 --with pypdf==6.21.2 --with matplotlib==3.11.2 python scripts/export_report.py --build
-uv run --no-project --with markdown-it-py==4.2.0 --with playwright==1.64.1 --with pypdf==6.21.2 --with matplotlib==3.11.2 python scripts/export_report.py --check-pdf
+uv venv --python 3.12.15 /var/tmp/explorer-export57
+uv pip install --python /var/tmp/explorer-export57/bin/python --require-hashes -r requirements-export.lock
+/var/tmp/explorer-export57/bin/python -m playwright install chromium
+/var/tmp/explorer-export57/bin/python scripts/export_report.py --build
+/var/tmp/explorer-export57/bin/python scripts/export_report.py --check-pdf
+git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration57_exports.json
 ```
 
-The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. Source links in the exports point to the frozen evidence revision on GitHub; following them requires repository access. The archive checks and selected replay use the installed project dependencies and full Git history. For independent PDF-content checking use the pinned export command with `--check-pdf`. Plain `--check` verifies consistency with the source/export hashes in the committed receipt; it reports saved PDF-coverage counts without re-extracting text. `--check-pdf` re-extracts source text and checks complete table rows in order. Use the project-environment command above for the five selected scientific replays. Neither command claims a fresh scientific dependency installation or full-portfolio raw replication.
+The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. Source links in the exports point to the frozen evidence revision on GitHub; following them requires repository access. The archive checks and selected replay use the installed project dependencies and full Git history. For independent PDF-content checking use the pinned export command with `--check-pdf`. Plain `--check` verifies consistency with the source/export hashes in the committed receipt; it reports saved PDF-coverage counts without re-extracting text. `--check-pdf` re-extracts source text and checks complete table rows in order. Use the project-environment command above for the five selected scientific replays. The separate iteration-57 runner downloads and installs both environments and Chromium anew to reproduce the fixed iteration-56 handoff; its receipt-only check does not rerun installation or validate later checkout edits. It consumes the complete hash-locked export requirements. To rerun without replacing the committed receipt, use `uv run --frozen python scripts/iteration57_fresh_install.py run --out /var/tmp/explorer-fresh-receipt.json`. No full-portfolio raw replication is claimed.
 
 Discovery pilots for the Apart AI Collusion Sprint. Read [REPORT.md](REPORT.md)
 for results, [DESIGN.md](DESIGN.md) for frozen choices and amendments, and
