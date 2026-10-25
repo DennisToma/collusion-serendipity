@@ -1,0 +1,13 @@
+======================================================================
+FAIL: test_full_dry_independent_and_mutation_guards (scripts.test_s66.Tests.test_full_dry_independent_and_mutation_guards)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s66.py", line 175, in test_full_dry_independent_and_mutation_guards
+    with self.assertRaisesRegex(AssertionError,'bonus gate'):verify(root,out)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.990s
+
+FAILED (failures=1)

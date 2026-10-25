@@ -1,18 +1,15 @@
 # STATUS
 
-## Current state (2026-10-25T10:35:23.933842+00:00; Phase2, iteration48 COMPLETE)
-- S67/E:posthoc all10 S65games/5blocks;zero newgames/scientific calls.
-- Costly Y approvals9→0;pooled20/40 Y rejections each forgo+2 stage bonus.
-- Stage regret18→40;gap+.550[-.300,1.200]/round;t[-.620,1.720].
-- Pair shortfall124→80;orgloss90→200;all8 related measures reported.
-- Both arms9/40 both-Y rounds;individual strict Pareto0/9;pooled impossible.
-- S65 stays UNRESOLVED/ODD;S67 fixed ODD/context-only;no promoted HIT.
-- Full80rounds/80cells/24bootstrap+t/200rawbindings/32profiles verified.
-- 839canonical/16focused tests,eight verifier mutations,release guards PASS.
-- Codex raw/statistical review PASS;Opus supplied-text review+addendum retained.
-- 50source/input entries,1371older paths/1384unique frozen paths unchanged.
-- Fresh origin15b3189:five artifacts byte-identical,16checks,clone clean.
-- Next different-axis pilot;own S66,S63,S57,S52,S49queued. Risks:n5,posthoc,related metrics,continuation,provider.
+## Current state (2026-10-25T10:40:59.049475+00:00; Phase2, iteration49 RUNNING)
+- Selected own/S66 after E/S67: equivalent pooled-payoff paragraph order.
+- Ten fresh games/five blocks25380..25384;T10,r3-10;200planned decisions.
+- Both arms Yapproval gives+2 each;only accounting/table paragraphs swap.
+- Directional .25representation screen;zero scientific calls/tuning so far.
+- Sixteen focused checks and853 earlier canonical checks PASS;design critics complete.
+- S65 UNRESOLVED/ODD and S67 context-only remain unchanged.
+- Next freeze/push sources,run once,replay/independently verify,publish.
+- New own S68 action-polarity idea queued before outcomes;no second pilot.
+- Risks:n5,many pilots,endogenous histories,provider attestation,no mechanism claim.
 
 ## Log
 
@@ -672,3 +669,9 @@
 
 
 - 2026-10-25T10:35:23.933842+00:00: iteration48 COMPLETE. Registration03aebc9/results15b318959aa08eccd2b7d0b19768f6dde539352f committed/pushed. Fresh full-history origin clone of the results revision reproduces all5core artifacts byte-identically,16focused checks and clean gitstatus;existing pinned venv reused,no fresh-install claim. Receipt logs/s67_remote_clean_clone.json and full command output logs/s67_origin_clone_run.log. Ledger result reference points to this exact reproduced revision. All839 canonical checks had passed;registered scientific source/result bytes and older paths remain unchanged. REPORT49pilots,HITS explicitly unpromoted,opportunity display only. Final STATUS/receipt/ledger commit next. No remaining simulation/review process,newgame/call,tuning,exclusion,HIT,sibling write or headline change;no direction deviation.
+
+
+- 2026-10-25T10:40:59.049475+00:00: iteration49 read CLAUDE/PLAN/STATUS/DIRECTION/ledger and both sibling summaries read-only. Selected queued own/S66 after E/S67: fresh equivalent pooled-payoff paragraph-order comparison. Same facts/payoffs/notes/history access in both arms;ten fresh games/five blocks planned. All14 focused preflight checks PASS after mutation test exposed a missing exported-bonus-gate assertion in new independent checker;fixed before calls,initial failure retained. Canonical suite and Codex/compact Opus design critics running. Prospective split entry appended;older scientific files otherwise preserved. OwnS68 Boolean-action-polarity idea queued before outcomes. No new scientific calls,sibling writes or DIRECTION deviation.
+
+
+- 2026-10-25T10:45:48.682655+00:00: S66 pre-call review complete:initial and refined Codex+compact Opus all exit0;Codex refined16economicprofiles/100prompt comparisons/243sign-boundary checks PASS. Resolved shared-tail semantic ambiguity and document-overwrite risk before calls;16focused checks PASS,earlier853canonical PASS. Conditional compact-critic units concern contradicted by full implementation and independent reconstruction,no statistical change. Added order-package(org-loss recency/charge references),ceiling and DUD-scope caveats;declined unsupported repeated-game dominance extension. Scientific source freeze and registration push next;zero scientific calls.

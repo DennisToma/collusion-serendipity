@@ -19,3 +19,5 @@ __pycache__/
 /logs/.s64-launch.lock
 
 /logs/.s65-launch.lock
+
+/logs/.s66-launch.lock

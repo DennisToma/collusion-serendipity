@@ -187,3 +187,10 @@ scientific calls;one directional approval-reduction screen fixed prospectively.
 
 
 S65:five fresh paired blocks25340..25344;ten workplace incentive-calibration games,individual versus equal pooled bonus settlement,T10,r3..10. Both arms retain full history/shared notes;200planned accepted decisions. All exploratory,no heldout,pooling with previous pilots or tuning. EXPECTED maps to serendipity DUD;UNRESOLVED to ODD;no HIT promotion. Full design/source manifest pushed before live calls.
+
+
+S66:five fresh paired blocks25380..25384;ten workplace games,identical pooled
+settlement and complete accounting facts;allocation-first versus final-payoff-first
+paragraph order,T10,primaryr3..10;200planned decisions. Exploratory,zero tuning,
+no heldout,pooling or collusion inference. Full design/source freeze pushed before
+scientific calls;directional .25representation screen;see DESIGN_S66.md.
