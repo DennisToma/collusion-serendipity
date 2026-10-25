@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 41.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 42.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -595,3 +595,16 @@ Selection uses task statuses only,not actions or notes. Earlier replay results m
 
 For both siblings:no confirmation trigger or headline change. No channel-formation or reciprocity claim follows from one late focal decision.
 <!-- S58 handoff end -->
+
+<!-- S59 handoff start -->
+## S59 — Unpromoted lossless-history representation pilot
+
+**Latest — S59:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with original public history **4/10**,lossless compact table **1/10**; original−compact **+0.300 [+0.000, +0.700]**, paired t95% [-0.255, +0.855],upper sign-flip p=0.25000. **ODD for the .25 reduction screen.**
+All nine historical fields survive exact roundtrip;only their JSON representation changes. Length,field repetition,shape and reading burden change together;lossless external reconstruction does not establish equal model comprehension. These reused histories supply no independent S29 replication or mechanism claim. [Full results and limits](results/s59_summary.md) · [All returned text](results/s59_action_text.md).
+
+Five paired differences: [0.0, 1.0, 0.5, 0.0, 0.0];upper sign-flip p=0.25000,lower=1.00000,two-sided=0.50000.
+
+Selection uses task statuses only,not actions or notes. Earlier outcomes motivated the question;these are reused late histories. Twenty fresh boolean reviews;zero new games/tuning. Five source blocks,descriptive small-n uncertainty,no held-out/multiplicity/equivalence claim. Only focal decisions rerun;no realized current payoff or partner adaptation. Source runtime equality,served identity,effective settings and tool non-use unattested. [Design](DESIGN_S59.md) · [Separate raw/statistical verification](logs/s59_independent.json) · [Figure](figures/s59_history.png). Reservation/receipt files fsynced,parent directories not fsynced;process-level persistence,not verified power-loss durability.
+
+For both siblings:this pilot screens for representation sensitivity at unchanged recorded economic information. No agreement,intent or collusion claim. No confirmation trigger or sibling headline change.
+<!-- S59 handoff end -->

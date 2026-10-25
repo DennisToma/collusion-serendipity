@@ -1,11 +1,11 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 41 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 42 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
-<!-- S58 summary start -->
-**Latest — S58:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with public history retained **6/10**,erased **2/10**; retain−erase **+0.400 [+0.200, +0.500]**, paired t95% [+0.122, +0.678],upper sign-flip p=0.06250. **ODD for the .25 reduction screen;no promoted hit.**
-Block24483 ties;the frozen HIT gate requires all five positive,so positive bootstrap/t bounds alone do not promote it. Only the completed-public-round list becomes empty;current round,statuses and notes remain. Notes retain historical information. Missing-history cues,length and past actions/rewards change together;no reciprocity or reputation mechanism is identified. [Full results and limits](results/s58_summary.md) · [All returned text](results/s58_action_text.md).
-<!-- S58 summary end -->
+<!-- S59 summary start -->
+**Latest — S59:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with original public history **4/10**,lossless compact table **1/10**; original−compact **+0.300 [+0.000, +0.700]**, paired t95% [-0.255, +0.855],upper sign-flip p=0.25000. **ODD for the .25 reduction screen.**
+All nine historical fields survive exact roundtrip;only their JSON representation changes. Length,field repetition,shape and reading burden change together;lossless external reconstruction does not establish equal model comprehension. These reused histories supply no independent S29 replication or mechanism claim. [Full results and limits](results/s59_summary.md) · [All returned text](results/s59_action_text.md).
+<!-- S59 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -51,6 +51,7 @@ Block24483 ties;the frozen HIT gate requires all five positive,so positive boots
 | S56 · A1, tender coalition audit | All10 original S14 games/5blocks;no new calls. Counts/45 rounds (none→private): above-Nash **9→18**,fixed-pair stable rounds **29→19**,strict-both gain available **14→19**. Stable fraction contrast **-0.222 [-0.733, +0.378]**;[all8 metrics](results/s56_summary.md). | **ODD / context-only**, post hoc |
 | S55 · own, own-status visibility | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval visible **0.600**, masked **0.100**; visible−masked **+0.500 [+0.200, +0.800]**. | **ODD** for .25 reduction screen |
 | S58 · C, public-history erasure | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval retain **0.600**, erase **0.200**; retain−erase **+0.400 [+0.200, +0.500]**. | **ODD** for .25 reduction screen |
+| S59 · own, lossless public-history table | Ten S29 TYPE-Y histories /5 blocks;20 fresh decisions. Approval original **0.400**, compact **0.100**; original−compact **+0.300 [+0.000, +0.700]**. | **ODD** for .25 reduction screen |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -58,7 +59,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** fresh different-axis B/F/own pilot;S57,S59,S52,S49 remain queued. No sibling headline change.
+**Next:** fresh different-axis B/F/A pilot;S57,S52,S49 remain queued. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->
@@ -66,3 +67,5 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 <!-- S45 summary start --><!-- S45 summary end -->
 <!-- S47 summary start --><!-- S47 summary end -->
 <!-- S48 summary start --><!-- S48 summary end -->
+
+<!-- S58 summary start --><!-- S58 summary end -->

@@ -52,7 +52,7 @@ def publish():
              'Reservation/receipt files fsynced,parent directories not fsynced;process-level persistence,not verified power-loss durability.')
     replace_block('REPORT_DETAILS.md','<!-- S59 details start -->','<!-- S59 details end -->',details)
     handoff=('## S59 — '+('Exploratory HIT: lossless public-history table' if v=='HIT' else 'Unpromoted lossless-history representation pilot')+'\n\n'+details+
-             '\n\nFor both siblings:representation sensitivity can affect action observations without changing economic information. No agreement,intent or collusion claim. '+
+             '\n\nFor both siblings:this pilot screens for representation sensitivity at unchanged recorded economic information. No agreement,intent or collusion claim. '+
              ('Suggested confirmation:fresh registered source blocks,matched sampling and a separate length/format control before interpreting a mechanism. Run `uv run --frozen python scripts/s59_replay.py --analyze`.' if v=='HIT' else 'No confirmation trigger or sibling headline change.'))
     replace_block('HITS.md','<!-- S59 handoff start -->','<!-- S59 handoff end -->',handoff)
     p=Path('HITS.md');text=p.read_text();text=re.sub(r'No promoted hits after iteration \d+', 'No promoted hits after iteration 42',text,count=1)

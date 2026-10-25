@@ -1354,3 +1354,21 @@ uv run --frozen python scripts/s58_release.py --clean-clone
 
 Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses installed frozen dependencies,not a fresh installation. Main replay binds all raw requests,replies,source/runtime/registration/time/schedule records;the separate checker rebuilds20raw approvals,exact public-history erasure,15blockcells,3125bootstrap draws/32signflips per summary. This integrator is outside the frozen scientific manifest;all older pilot rows are preserved.
 <!-- S58 reproduction end -->
+
+<!-- S59 reproduction start -->
+S59(iteration42):lossless original-record versus column-table public history at ten observed S29 histories/five blocks;20fresh decisions,zero games/tuning.
+
+[Design](DESIGN_S59.md) · [Full results](results/s59_summary.md) · [All returned text](results/s59_action_text.md).
+
+```bash
+uv run --frozen python scripts/s59_replay.py --analyze
+uv run --frozen python scripts/s59_independent.py
+uv run --frozen python scripts/s59_present.py
+uv run --frozen python scripts/s59_action_text.py
+uv run --frozen python scripts/s59_release.py
+uv run --frozen python -m unittest scripts.test_s59
+uv run --frozen python scripts/s59_release.py --clean-clone
+```
+
+Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses installed frozen dependencies,not a fresh installation. Main replay binds raw requests,replies,source/runtime/registration/time/schedule records;the separate checker rebuilds20raw approvals,lossless table encoding,15blockcells,3125bootstrap draws/32signflips per summary. This integrator is outside the frozen scientific manifest;all older pilot rows are preserved.
+<!-- S59 reproduction end -->

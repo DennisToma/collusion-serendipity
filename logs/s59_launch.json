@@ -1,0 +1,23 @@
+{
+  "commit": "e670b4322240137df93ea078edd3a186fe50303f",
+  "remote": "e670b4322240137df93ea078edd3a186fe50303f",
+  "observed_utc": "2026-10-25T07:47:37.694469+00:00",
+  "server_time_attested": false,
+  "source_sha256": {
+    "DESIGN_S59.md": "5441802406f00c611372f10daefb52ce5978bb4fba4e25ff075750846b051752",
+    "scripts/s59_replay.py": "62c623d79dabcab590f15473eed9e1b713eda9d5821ac603300d4a12e4a9c009",
+    "scripts/s59_independent.py": "f6695606b1042058bf9017dae007d29c95e01f839ad12cd66bf66122131e8768",
+    "scripts/s59_present.py": "e07a59516a9c6a4747ab4dc45ea2c178cd38d64c9488b8ad7fc3e24f331014a1",
+    "scripts/s59_release.py": "92c45acc837b59a754e048195038e414f98168d32b5d39c30f333d386918e22b",
+    "scripts/test_s59.py": "5e037d004cba419f0edf12b7814e2a087786b28564810312920b550dbc2664bf",
+    "scripts/s59_action_text.py": "86f9a03cc88b8e41a8441b6d52864a598ddde4a5cd7d933a8850d8305653725f",
+    "scripts/s59_reviews.py": "ca5d39f381c11bbaf0137e9023374a389da189e93434f74b7cfe4c1dc999fe34",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa"
+}
