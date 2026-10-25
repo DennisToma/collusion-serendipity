@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T07:49:40.361326+00:00; Phase2, iteration42 RELEASE)
+## Current state (2026-10-25T07:54:00.175781+00:00; Phase2, iteration42 COMPLETE)
 - S59:20 fresh decisions/10 S29 histories/5 source blocks;lossless public-history table.
 - Approvals original4/10,compact1/10;contrast+.300[.000,.700] bootstrap95%.
 - Paired t95%[-.255289,+.855289];upper p=.25;blocks[0,1,.5,0,0].
 - Frozen ODD;no HIT or sibling headline change;zero new games/tuning.
 - Full source/request/response/runtime/registration/time/schedule replay PASS.
 - Separate20 raw bindings/15 cells/3 exact bootstrap+t/all32 sign summaries PASS.
-- Actual figure inspected;call-forbidden artifact regeneration byte-identical;202links PASS.
-- Both design/final critics exit0;721pre/post canonical tests and20scoped checks PASS.
+- Both design/final critics exit0;raw Codex versus supplied-text Opus scopes recorded.
+- 721pre/post canonical tests and20scoped checks PASS;initial failure retained.
+- Fresh origin7fc62c1 PASS:7artifacts byte-identical,20checks,clone clean;existing venv reused.
 - All14 scientific/27 input hashes unchanged;42 older rows preserved;REPORT43pilots.
-- Registratione670b43 pushed before calls;next results push and fresh origin-clone proof.
-- Risks:reusedn5,multiplicity,length/repetition/shape/reading burden bundled;no mechanism.
+- Registratione670b43/results7fc62c1 pushed;next different-axis B/F/A;S57/S52/S49 queued.
+- Risks:reusedn5,multiplicity;length/repetition/shape/reading burden bundled;no mechanism.
 
 ## Log
 
@@ -596,3 +597,5 @@
 - 2026-10-25T07:49:40.361326+00:00: S59 sole run complete20accepted responses,zero retries/transport/parser/route/source/runtime failures. Original4/10 versus compact1/10;difference+.300[.000,.700],pairedt[-0.2552890210395586,0.8552890210395585],upperp.25,lowerp1,two-sidedp.5;blocks[0,1,.5,0,0]. Frozen ODD,not promoted. Full main provenance replay and separate20bindings/15cells/3exactbootstrap+t/all32sign summaries PASS. Actualfigure inspected;call-forbidden regeneration byte-identical;202links PASS. All14scientific/27input hashes unchanged;all42priorpilotrows preserved,REPORT43pilots. Finalcritics and721postlive canonical suite running. No extra calls,games,tuning,subgroups,mechanism claim,sibling writes or DIRECTION deviation.
 
 - 2026-10-25T07:52:16.357250+00:00: Both final critics exit0,confirm frozen S59ODD and all displayed numbers. Codex independently reconstructs20raw approvals,15cells,3complete3125bootstrap+t/all32sign summaries,and729typed history cells;full read-only provenance/reanalysis PASS. Opus supplied-code/parsed-case arithmetic only,not rawarchive.721postlive canonical tests PASS. No executable result-invalidating defect. Declined subgroup attribution/cross-pilot noise calibration. All14scientific/27input hashes and resultSHA8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385 unchanged. Scientific results/docs commit+push then fresh originclone proof.
+
+- 2026-10-25T07:54:00.175781+00:00: iteration42 COMPLETE. Registratione670b4322240137df93ea078edd3a186fe50303f/scientific+document results7fc62c12111908343db174d44bd5cb19e75ad73a committed/pushed. Fresh full-history ORIGIN clone at resultscommit PASS:all7release artifacts byte-identical,20scoped checks,full main provenance replay plus separate20rawapproval/requestbindings/15blockcells/3exactbootstrap+t/all32sign summaries;clone gitstatus clean. Receipt logs/s59_remote_clean_clone.json,commands in logs/s59_origin_clone_run.log. Existing installed frozen venv reused,no fresh dependency installation. All14registered scientificsources/27sourceinputs and7archivefiles unchanged,resultSHA8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385. Both design/final critics exit0;Codex raw/source reconstruction versus Opus supplied-code/parsed-case arithmetic-only scopes recorded.721pre/post canonical tests and20S59checks PASS;initial inherited variable-shadowing failure retained,corrected before live. S59original4/10,compact1/10;difference+.300[.000,.700],pairedt[-0.2552890210395586,0.8552890210395585],upperp.25,lowerp1,two-sidedp.5;blocks[0,1,.5,0,0]. Frozen ODD,no HIT or sibling headline change. Exact roundtrip preserves729typed historical primitives;construction history bytes1072..1610→383..507,not an independent endpoint. All42priorpilotrows preserved;43pilotfrontlog current. Length,repetition,JSON shape and reading burden bundled;lossless external decode does not prove equal model comprehension. Reused late histories and retained notes limit inference. No mechanism,agreement,intent,collusion,equivalence,subgroup attribution,cross-pilot noise calibration or independent S29replication claim. No extra scientificcalls,newgames,tuning,case replacement,pooling,exclusions,reverse/secondary promotion,siblingwrites,DIRECTION deviation or active generation/review. Next fresh different-axis B/F/A;own S57/S52/S49 remain queued. Closing proof/ledger/handoff commit+push follows.

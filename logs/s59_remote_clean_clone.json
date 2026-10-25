@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "commit": "7fc62c12111908343db174d44bd5cb19e75ad73a",
+  "clone_source": "origin remote",
+  "dependency_environment": "Existing venv with frozen dependencies;not fresh install",
+  "commands": [
+    [
+      "scripts/s59_replay.py",
+      "--analyze"
+    ],
+    [
+      "scripts/s59_independent.py"
+    ],
+    [
+      "scripts/s59_present.py"
+    ],
+    [
+      "scripts/s59_action_text.py"
+    ],
+    [
+      "scripts/s59_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s59"
+    ]
+  ],
+  "byte_identical_artifacts": {
+    "results/s59_history.json": "8887b74b4f208f883f8636218e57af47d816389601720d11e7a214d8094f5385",
+    "results/s59_summary.md": "bdf5dfb3d007f5cfb7f70e364ec67b14e76d43d3a3d3bb72fd25b2cd3bd3c224",
+    "figures/s59_history.png": "8769839f60c7637709e862d1d38fbc34658290789065f2006855509b05d80b21",
+    "logs/s59_independent.json": "f5cf074932bec370ef8a1f03a3217b85fb77bbde100048444d5bef41cec0222a",
+    "logs/s59_release.json": "ababa546fb26d6cb7cfd6ca02a76e9a34e2085e7f5ec79cff3442b4c1153c7e6",
+    "results/s59_action_text.md": "4f081a2289a462696cbdc804672479cf94a3b534cd52a3f109eb6c96540974ec",
+    "REPORT.md": "ea98d173acc954fcd281411f803c5f64504dd16b97a4f90d8f34c5f57eea7e64"
+  }
+}
