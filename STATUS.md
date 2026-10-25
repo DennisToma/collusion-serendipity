@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T11:07:14.445555+00:00; Phase2, iteration50 PREFLIGHT)
-- S69D:10fresh games/5blocks planned;pooled Ypayoff+2versus-3 via charge3to13.
-- Single new incentive calibration;no HIT rule,collusion claim or outcome pooling.
-- Main+independent synthetic replay and16focused tests PASS.
-- Both Codex and compact supplied-text Opus design critics exit0;dispositions retained.
-- Prior S66 directional DUD remains unchanged;REPORT currently50pilots.
-- All older scientific artifacts preserved;prospective split entry appended.
-- Canonical870checks PASS;19sources frozen;registration push precedes calls.
-- No scientific calls yet;requested codex/gpt-6-luna,max2simulator calls.
-- Cutoff13:30UTC,60min launch/first-admission headroom;pilots stop14:30.
-- Risks:n5,exploratory multiplicity,provider settings,whole-pilot quota/transport abort.
+## Current state (2026-10-25T11:15:16.188061+00:00; Phase2, iteration50 REPRODUCTION)
+- S69D:10fresh games/5blocks;pooled Ypayoff+2versus-3 via charge3to13.
+- Yapprovals31/40versus4/40;low-high+.675[+.450,+.875],t[+.335,+1.015].
+- Upper sign-flipp=.03125;all5positive;EXPECTED calibration maps to DUD.
+- No HIT,collusion,mechanism,absence or cross-pilot pooling claim.
+- Sole200responses,zero retries/failures;19frozen sources unchanged.
+- Mainraw replay+separate50cells/15bootstrap+t/all32signs/200bindings PASS.
+- Ten verifier mutations and three prewrite editorial mutations reject.
+- Full call-forbidden result/figure/docs reproduction PASS;1422older paths unchanged.
+- REPORT51pilots,HITS unpromoted;both final critics exit0;871canonical checks PASS.
+- Next results commit+push,clean-origin reproduction,closing proof/ledger commit.
+- OwnS70endowment idea queued;next different-axis A/C/F or own;pilots stop14:30UTC.
+- Risks:n5,exploratory multiplicity,provider settings,incentive+wording package.
 
 ## Log
 
@@ -697,3 +699,11 @@
 - 2026-10-25T11:07:14.445555+00:00: S69 preflight main+separate raw/stat replay and16focused checks PASS. Both independent methodology critics exit0;accepted explicit ODD/calibration criterion framing and latency/deadline context. Numeric-only penalty system substitution and all16stage profiles verified. No scientific calls;canonical suite finishing before registration.
 
 - 2026-10-25T11:08:09.385424+00:00: S69 registration ready:all870canonical checks PASS with existing historical synthetic fixtures,16final focused checks PASS,19frozen source hashes and1422older scientific artifact hashes verified. Both design critics exit0;no scientific outcomes/calls. Commit+push registration then one-shot launch.
+
+- 2026-10-25T11:08:44.613765+00:00: S69 registration754ed1b observed on origin at2026-10-25T11:08:15.500991+00:00 before scientific admission. One-shot ten-game run active,max2calls and seed-block barriers;metadata-only progress,no partial-arm estimation.
+
+- 2026-10-25T11:10:40.367791+00:00: queued new ownS70 fixed bonus-endowment translation idea from S69 negative-score accounting before complete outcomes. No second pilot or scientific calls for this idea;current sole S69run continues.
+
+- 2026-10-25T11:15:16.188061+00:00: S69 sole live run COMPLETE:all10games/200returned and accepted responses,zero retries/failures. Charge3=31/40,charge13=4/40;low-minus-high+0.675[0.45, 0.875];pairedt[0.33495630967087225, 1.0150436903291278];upperp0.03125;blocks[0.25, 1.0, 0.625, 0.75, 0.75];EXPECTED/DUD;200responses/zero retries/failures;zero tuning. Main full provenance/raw replay and separate50metriccells/15exactbootstrap+t summaries/all32signpatterns/200action-note-reason bindings PASS;ten result corruptions and three isolated prewrite document mutations reject. Source19hashes and1422older sciencepaths/exact prospective split append unchanged;REPORT51contiguouspilotrows/50priorrows preserved;figure visually checked. Call-forbidden reanalysis/replay/figure/docs byte-identical. Final critics and final canonical suite running. Communication-only correction:initial progress update misread net27approval difference as27versus0;actual31versus4has always been correct in all scientific/presentation artifacts. No scientific source,estimate,screen or result changed. No extra scientific calls,games,tuning,pooling,exclusions,HIT,sibling writes or direction deviation.
+
+- 2026-10-25T11:17:52.817701+00:00: Both final critics exit0 confirm frozen S69EXPECTED→DUD and every displayed number. Codex independently reproduces raw50cells/15bootstrap+t/15tailprobabilities/200bindings and all19source+1422older artifact hashes;four pure checks pass,write-producing release not run in read-only critic environment(matplotlib cache failure retained). Compact Opus is supplied-text hand-arithmetic only,not raw/timing/cache audit. All871final canonical checks PASS with existing historical synthetic fixtures;16S69checks included. Final release/postcheck PASS,unchanged scientific resultSHA5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143. Generic unused-branch wording retained;sign_tests15 clarified as5contrasts×3tails,not per-arm tests. No scientific change,extra scientific call,promotion or sibling write. Results commit+push and clean-origin reproduction next.

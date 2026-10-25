@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 47.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 50.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -668,3 +668,10 @@ TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−alloc
 Same pooled economics and information; no collusion inference. [Full results and reproduction](results/s66_summary.md).
 
 Unpromoted; no confirmatory request or sibling headline change.
+
+
+## S69 — Pooled enforcement sign calibration
+
+TYPE-Y approvals low charge **31/40**, high charge **4/40**; low−high **+0.675 [+0.450, +0.875]**, paired t95% [+0.335, +1.015], upper sign-flip p=0.03125. **EXPECTED / DUD** for the registered incentive calibration.
+
+Expected-incentive calibration only;no HIT promotion or sibling headline change. [Full results and reproduction](results/s69_summary.md).

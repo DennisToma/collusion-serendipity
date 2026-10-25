@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "verifier_mutations_rejected": [
+    "mean",
+    "bootstrap_endpoint",
+    "exact_bootstrap_endpoint",
+    "sign_probability",
+    "t_endpoint",
+    "calibration",
+    "verdict",
+    "forbidden_bonus_gate",
+    "missing_metric",
+    "notes"
+  ],
+  "prewrite_document_mutations_rejected": [
+    "REPORT.md",
+    "HITS.md",
+    "README.md"
+  ],
+  "scope": "Isolated nonconcurrent corruption tests only;no atomic transaction or concurrent-writer safety claim"
+}

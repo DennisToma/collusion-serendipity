@@ -1,0 +1,10 @@
+[
+  {
+    "critic": "codex",
+    "exit": 0
+  },
+  {
+    "critic": "opus_supplied_text",
+    "exit": 0
+  }
+]

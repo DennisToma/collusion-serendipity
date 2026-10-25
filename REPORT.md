@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 49 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 50 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 
@@ -18,10 +18,12 @@
 
 **S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
 
-<!-- S66 summary start -->
-**Latest — S66:** TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−allocated **-0.250 [-0.500, 0.100]**, paired t95% [-0.728, 0.228], upper sign-flip p=0.93750. **DUD** for the registered .25 directional screen.
-Identical pooled incentives and facts; only paragraph order changes. [Full outcomes and limits](results/s66_summary.md).
-<!-- S66 summary end -->
+<!-- S66 summary start --><!-- S66 summary end -->
+
+<!-- S69 summary start -->
+**Latest — S69:** TYPE-Y approvals low charge **31/40**, high charge **4/40**; low−high **+0.675 [+0.450, +0.875]**, paired t95% [+0.335, +1.015], upper sign-flip p=0.03125. **EXPECTED / DUD** for the registered incentive calibration.
+A fresh penalty intervention crosses pooled personal Yapproval payoff from+2to−3. [All outcomes and limits](results/s69_summary.md).
+<!-- S69 summary end -->
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -75,6 +77,7 @@ Identical pooled incentives and facts; only paragraph order changes. [Full outco
 | S65 · B, equal bonus pooling | 10 fresh games /5 blocks. TYPE-Y approvals individual **9/40**, pooled **20/40**; pooled−individual **+0.275 [0.000, 0.475]**. | **ODD / UNRESOLVED calibration**, no HIT rule |
 | S67 · E, settlement-aware incentive audit | All10 S65 games /5 original blocks;zero new calls. Costly Y approvals individual **9**, pooled **0**; pooled Y rejections forgoing +2 **20/40**. Stage-regret difference **+0.550 [-0.300, +1.200]** final bonus points/round; [all8 metrics](results/s67_summary.md). | **ODD / context-only**, post hoc |
 | S66 · own, equivalent payoff order | 10 fresh games/5blocks. Y approvals allocated **23/40**, final **13/40**; final−allocated **-0.250 [-0.500, 0.100]**. | **DUD**, .25 directional screen |
+| S69 · D, pooled enforcement | 10 fresh games/5blocks. Y approvals charge3 **31/40**,charge13 **4/40**;low−high **+0.675 [+0.450, +0.875]**. | **DUD / EXPECTED**, incentive calibration |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -82,7 +85,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** different-axis A/C/D/F pilot; own S68,S63,S57,S52,S49 queued. No sibling headline change.
+**Next:** different-axis A/C/F or queued own S68/S63/S57/S52/S49; pilots stop14:30UTC. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

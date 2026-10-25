@@ -1481,3 +1481,10 @@ TYPE-Y approvals allocated-first **23/40**, final-first **13/40**; final−alloc
 Same pooled economics and information; no collusion inference. [Full results and reproduction](results/s66_summary.md).
 
 S66 reproduction: `uv run python scripts/s66_release_final.py`; focused checks: `uv run python -m unittest scripts.test_s66 -q`. The additive publication helper clarifies sign-flip terminology while preserving all frozen scientific sources, data and estimates.
+
+
+## S69 — Pooled enforcement sign calibration
+
+TYPE-Y approvals low charge **31/40**, high charge **4/40**; low−high **+0.675 [+0.450, +0.875]**, paired t95% [+0.335, +1.015], upper sign-flip p=0.03125. **EXPECTED / DUD** for the registered incentive calibration.
+
+Expected-incentive calibration only;no HIT promotion or sibling headline change. [Full results and reproduction](results/s69_summary.md).

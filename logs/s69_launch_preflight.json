@@ -1,0 +1,34 @@
+{
+  "registration_commit": "754ed1b8a840cf4e4faed68529fe8d2b2d8e5449",
+  "commit_time_client": "2026-10-25T11:08:09Z",
+  "observed_remote_head": "754ed1b8a840cf4e4faed68529fe8d2b2d8e5449",
+  "observed_utc": "2026-10-25T11:08:15.500991+00:00",
+  "server_time_attested": false,
+  "runtime_precheck": {
+    "required_seconds": 3600,
+    "remaining_seconds": 8505.641632,
+    "passed": true,
+    "runtime_bound_attested": false
+  },
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/pooled_enforcement.py": "c4700c4d76f9a01f9c38756f894272e3723063d7a5a16e9cfc1f14c6de7cbb2d",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/common_memory.py": "8632ee8473bd7cbb317a665c1b46d0450840b920227356dab175e2a776acf456",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S69.md": "eb9a7d0c6f39b34cbd265d1b8e007ba9980d9c56d49ba887a1447e1cd790e478",
+    "scripts/s69_analyze.py": "6f9392a2fe681a88f514c556e27b13e94432c2338f48160d4de74e3fcba6e311",
+    "scripts/test_s69.py": "53a484c4daa934fa3f0646bc33e157c03ab73d40403967027d4d9a7f78380192",
+    "scripts/s69_launch.py": "597b0699ff2362513b13facab1d29ba14eb3a53f6c7b76d3290d3663ad261f39",
+    "scripts/s69_independent.py": "d2cd539913a926a00112ccfc52cb55680228171e73ce8282fea581a29b30c0b8",
+    "scripts/s69_present.py": "d801da633a5f5e14368fd3632aaf1ddaee90faea92a38587e80fc592fdc28c74",
+    "scripts/s69_release.py": "382401ab5548984191abb6b9feee3db03e60b6b87b2dd3989dfd64dcef116883",
+    "scripts/s69_reviews.py": "c90ccddc97b1a495ec65e740fe819301de5a20f788ce9daafbe9a63116ab33fa",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  }
+}
