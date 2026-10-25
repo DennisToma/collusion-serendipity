@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "result_revision": "e478210c669eeeb637d46301ee053b683246c9a8",
+  "clone_source": "origin",
+  "full_history": true,
+  "scope": "Current editorial overlay and receipt consistency; reuses installed environments and Chromium. Separate fresh-install receipt targets the archived handoff.",
+  "clone_clean": true,
+  "commands": [
+    {
+      "command": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--build",
+        "--check-pdf"
+      ],
+      "exit": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"pdf_coverage_reextracted\": true, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 177, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/export_report.py",
+        "--check",
+        "--replay-selected"
+      ],
+      "exit": 0,
+      "stdout": "{\"protected_files\": 3060, \"pilot_rows\": 54, \"numeric_bindings\": 307, \"metadata_checks\": 144, \"selected_replays\": 5, \"pdf_coverage_reextracted\": false, \"saved_pdf_coverage\": {\"BRIEF\": {\"pages\": 2, \"source_fragments_checked\": 58, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 13, \"portable_relative_links\": 1}, \"REPORT\": {\"pages\": 3, \"source_fragments_checked\": 177, \"missing_fragments\": 0, \"complete_table_rows_in_order\": 55, \"portable_relative_links\": 4}}, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/iteration57_fresh_install.py",
+        "check"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\": true, \"target_revision\": \"e6b0c02bb189923b3fd039fe67db153826ee3aff\", \"selected_replays\": 5, \"canonical_tests\": 926, \"byte_identical_artifacts\": 8}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/factory/collusion/collusion-serendipity/.venv/bin/python",
+        "scripts/iteration57_release.py"
+      ],
+      "exit": 0,
+      "stdout": "{\"passed\": true, \"unchanged_prior_files\": 3083, \"original_pilot_rows\": 54, \"fresh_receipt_check\": {\"passed\": true, \"target_revision\": \"e6b0c02bb189923b3fd039fe67db153826ee3aff\", \"selected_replays\": 5, \"canonical_tests\": 926, \"byte_identical_artifacts\": 8}, \"rejected_in_memory_probes\": {\"failed_run\": \"rejected\", \"target_revision\": \"rejected\", \"artifact_hash\": \"rejected\", \"failed_stage\": \"rejected\", \"missing_stage\": \"rejected\", \"installed_version\": \"rejected\", \"canonical_count\": \"rejected\", \"external_site\": \"rejected\", \"external_package\": \"rejected\", \"dirty_clone\": \"rejected\", \"lock_hash\": \"rejected\", \"replay_count\": \"rejected\", \"checkout_arguments\": \"rejected\", \"contradictory_stdout\": \"rejected\", \"missing_stdout\": \"rejected\", \"missing_export_files\": \"rejected\", \"missing_export_source_hashes\": \"rejected\"}, \"scope\": \"Current-tree preservation and receipt consistency, not fresh execution or external attestation.\"}\n",
+      "stderr": ""
+    }
+  ],
+  "byte_identical_artifacts": {
+    "BRIEF.html": "b039aa4bfb4c0e73b5a3473ee422056bcd00b6270a2e6b8951db4169efcc0d15",
+    "BRIEF.pdf": "f11dcfdc9dda56036f6fdb7e2993408d3c46e8c32f259f1543f2c083af23ed1c",
+    "REPORT.html": "42cd24e16e5907c6b859fa89fe18f32fb88f0c0bf14abfdf00f5e84676ecb6aa",
+    "REPORT.pdf": "9c97b49b63e5cb05be047f520dd18142b8938083e019c70fc91aa36b6b9b21f7",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration57_exports.json": "5b125e678cc8c555a8d1231f53821e19f5932c600fb14a0597d07c5cbf672402",
+    "REPORT.md": "957fee04554fb28a9b5ceba457615e2c27923c5bc36994c23ccba9253b0c22f6",
+    "README.md": "09f32d659b99215b9abdadd6aec46fab1074eae6ad90971ca2f12720b2c20d42",
+    "logs/iteration57_release.json": "7573456ec0a06269d965f6f051b86da3c5e506f757686c504a758f49d546d8e1",
+    "logs/iteration57_fresh_install.json": "ad60cfc24180cdb00b7aaf81d04c2faf5a6afef3e725240b0bda52a423bd8391"
+  }
+}
