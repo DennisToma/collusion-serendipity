@@ -1,0 +1,77 @@
+{
+  "verdict": "DUD",
+  "contrast": {
+    "mean": 0.0,
+    "mean_exact": "0",
+    "ci95": [
+      -0.3,
+      0.3
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "3/10"
+    ],
+    "t95": [
+      -0.4389945165425414,
+      0.4389945165425414
+    ],
+    "upper_signflip_p": 0.75,
+    "lower_signflip_p": 0.75,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      -0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  "approval_counts": {
+    "baseline": 5,
+    "strong": 5
+  }
+}
+{
+  "passed": true,
+  "raw_approvals": 20,
+  "case_prompt_bindings": 20,
+  "block_cells": 15,
+  "bootstrap_draws_per_summary": 3125,
+  "summaries": 3,
+  "sign_flips_per_summary": 32,
+  "result_sha256": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77"
+}
+{
+  "passed": true,
+  "rows": 20,
+  "out": "results/s51_action_text.md",
+  "sha256": "8383be0a9b1f0621b0aca5c0d0934e032c6a78387642fc489c47a2f4e6061400"
+}
+{
+  "passed": true,
+  "raw_archive_files": 7,
+  "model_calls_forbidden": true,
+  "scientific_and_rendered_artifacts_byte_identical": true,
+  "local_links_checked": 165,
+  "independent": {
+    "passed": true,
+    "raw_approvals": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "1ac3e51f13200985ddbe35c77549bd347357a2fbdfdc6fb872b14a4472e76a77"
+  }
+}
+.Complete:20 cached decision responses
+......Completed archive validated; zero model calls
+Complete:20 cached decision responses
+....Completed archive validated; zero model calls
+Complete:20 cached decision responses
+........
+----------------------------------------------------------------------
+Ran 19 tests in 3.805s
+
+OK
+PASS remote clean clone bf42c4e7a7598291d65bd482d2420ee9f0511bca
