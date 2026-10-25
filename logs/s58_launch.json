@@ -1,0 +1,23 @@
+{
+  "commit": "35fbc2aa1b0fb54ed5812bf66eff7945edfc0935",
+  "remote": "35fbc2aa1b0fb54ed5812bf66eff7945edfc0935",
+  "observed_utc": "2026-10-25T07:34:48.616658+00:00",
+  "server_time_attested": false,
+  "source_sha256": {
+    "DESIGN_S58.md": "79cc593414ce7ddc8d43623060a539663c9447a285126548e6bb8c8a7d65c11c",
+    "scripts/s58_replay.py": "920dcd509dfb72c68c1616a440f32d2b4d4db0188090277329f06e57e3ffe485",
+    "scripts/s58_independent.py": "ee2577ce20314cec7b00e3c49f27224fc40333648b13fbdc5d8d0306a1284a39",
+    "scripts/s58_present.py": "1134e3e020cc5b3c219cfd401e101be5255f2871787f7cd85e0f1c23773da86a",
+    "scripts/s58_release.py": "a0838723519708ed80a7436e20f7a11d06bac9ff4d712672908b2b5478107b47",
+    "scripts/test_s58.py": "aea6d7077ce1845a40884c9ed49ccb932cf1a74916d4c8ad71138551a6ce3474",
+    "scripts/s58_action_text.py": "7610310dc5393e81398ee3e933b609e4f7c253386a4730335acd3533034ec3b5",
+    "scripts/s58_reviews.py": "0a8c073a7cfe2abe5ef3fba04c244e15c9d514a49a2a51d1fce23090ecb188ab",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "cases_sha256": "4d8c36fcc3fd0e9ae00f21740a882244e1f7aca984d3454472bb390ea25166fa"
+}

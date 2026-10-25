@@ -1,0 +1,226 @@
+{
+  "pilot": "S58",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 20,
+  "tuning_attempts": 0,
+  "source_cli_version": "not recorded",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": null,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "ODD",
+  "primary": "retain_minus_erase_adverse_approval",
+  "metrics": {
+    "retain": {
+      "mean": 0.6,
+      "mean_exact": "3/5",
+      "ci95": [
+        0.3,
+        0.9
+      ],
+      "ci95_exact": [
+        "3/10",
+        "9/10"
+      ],
+      "t95": [
+        0.08057468315821614,
+        1.1194253168417838
+      ],
+      "upper_signflip_p": 0.0625,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.125,
+      "block_values": [
+        0.5,
+        1.0,
+        1.0,
+        0.0,
+        0.5
+      ]
+    },
+    "erase": {
+      "mean": 0.2,
+      "mean_exact": "1/5",
+      "ci95": [
+        0.0,
+        0.4
+      ],
+      "ci95_exact": [
+        "0",
+        "2/5"
+      ],
+      "t95": [
+        -0.14004369032912783,
+        0.5400436903291279
+      ],
+      "upper_signflip_p": 0.25,
+      "lower_signflip_p": 1.0,
+      "two_sided_signflip_p": 0.5,
+      "block_values": [
+        0.0,
+        0.5,
+        0.5,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "contrast": {
+    "mean": 0.4,
+    "mean_exact": "2/5",
+    "ci95": [
+      0.2,
+      0.5
+    ],
+    "ci95_exact": [
+      "1/5",
+      "1/2"
+    ],
+    "t95": [
+      0.12235548948022074,
+      0.6776445105197793
+    ],
+    "upper_signflip_p": 0.0625,
+    "lower_signflip_p": 1.0,
+    "two_sided_signflip_p": 0.125,
+    "block_values": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.5
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s29_24480_shared_B",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24480_shared_C",
+      "seed": 24480,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24481_shared_A",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24481_shared_C",
+      "seed": 24481,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24482_shared_A",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 6,
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24482_shared_B",
+      "seed": 24482,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": true,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": true
+      }
+    },
+    {
+      "case_id": "s29_24483_shared_B",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24483_shared_C",
+      "seed": 24483,
+      "condition": "shared",
+      "turn": 9,
+      "archived_approval": false,
+      "own_status": "TYPE-Y",
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24484_shared_A",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 7,
+      "archived_approval": false,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": true,
+        "erase": false
+      }
+    },
+    {
+      "case_id": "s29_24484_shared_B",
+      "seed": 24484,
+      "condition": "shared",
+      "turn": 8,
+      "archived_approval": false,
+      "own_status": "TYPE-X",
+      "approvals": {
+        "retain": false,
+        "erase": false
+      }
+    }
+  ],
+  "approval_counts": {
+    "retain": 6,
+    "erase": 2
+  },
+  "archived_match_counts": {
+    "retain": 9,
+    "erase": 7
+  }
+}

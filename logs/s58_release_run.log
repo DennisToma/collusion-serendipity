@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "raw_archive_files": 7,
+  "model_calls_forbidden": true,
+  "scientific_and_rendered_artifacts_byte_identical": true,
+  "local_links_checked": 194,
+  "independent": {
+    "passed": true,
+    "raw_approvals": 20,
+    "case_prompt_bindings": 20,
+    "block_cells": 15,
+    "bootstrap_draws_per_summary": 3125,
+    "summaries": 3,
+    "sign_flips_per_summary": 32,
+    "result_sha256": "70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540"
+  }
+}

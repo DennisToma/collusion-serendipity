@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T07:34:38.618596+00:00; Phase2, iteration41 preflight COMPLETE)
-- Selected C/S58 after own/S55:completed-public-history erasure at fixed S29 prompts.
-- Ten task-status-selected histories/five blocks;20planned fresh decisions,no games/tuning.
-- Exact public-list→[] only;system,current round,statuses,all notes and payoffs retained.
-- Directional .25 approval-reduction screen frozen;no mechanism or replication claim.
-- Both initial/fixed Codex+Opus design critics exit0;earlier checker-prefix bug corrected.
-- 701canonical tests,19scoped checks,full20decision synthetic/separate replay PASS.
-- Initial scoped failures and obsolete-runner failures preserved;canonical fixtures documented.
-- All14scientific/27input hashes frozen;41older pilot rows will be preserved.
-- Register/push then sole one-shot run;uncached cutoff09:00UTC,20min launch headroom.
-- Risks:reusedn5,floor,notes retain history,inconsistency/length/action-reward bundle.
-- Next:full provenance/statistical replay,final critics,REPORT,originclone,commit/push.
+## Current state (2026-10-25T07:37:04.929765+00:00; Phase2, iteration41 S58 RESULTS)
+- C/S58:20fresh decisions/10S29histories/5blocks;public record retained versus erased.
+- TYPE-Y approvals retain6/10,erase2/10;contrast+.400[+.200,+.500]bootstrap95%.
+- Pairedt95%[+.122355,+.677645];upperp=.0625;blocks[.5,.5,.5,0,.5].
+- Frozen ODD:24483ties;no HIT or sibling headline change;zero tuning/newgames.
+- Full source/request/response/runtime/registration/time/schedule replay PASS.
+- Separate20rawbindings/15cells/3exactbootstrap+t/all32sign summaries PASS.
+- 701pre/post canonical/19scoped checks PASS;initial legacy/checker failures retained.
+- All14scientific/27input hashes unchanged;41older pilot rows preserved;REPORT42pilots.
+- Both final critics exit0;full raw Codex versus supplied-text-only Opus scopes recorded.
+- Registration35fbc2a pushed;resultscommit/push,originclone and closing proof next.
+- Risks:reusedn5,floor,notes retain history,length/inconsistency/action-reward bundle.
+- Next fresh different-axis B/F/own;S57,S59,S52,S49 remain queued.
 
 ## Log
 
@@ -578,3 +579,9 @@
 - 2026-10-25T07:28:39.733331+00:00: iteration41 read CLAUDE/PLAN/STATUS/DIRECTION,ledger and both sibling report/state summaries. Selected C/S58 after own/S55:exact completed-public-history erasure at ten outcome-independent S29 histories,twenty fresh decisions. Current statuses and notes retained. New own/S59 representation proposal queued only. Preflight and independent design critics next;no scientific calls yet,no sibling writes or DIRECTION deviation.
 
 - 2026-10-25T07:34:38.618596+00:00: S58 preflight COMPLETE:701canonical repository tests,19scoped checks,20decision synthetic main+separate20rawbindings/15cells/3bootstrap+t/all32sign summaries PASS. Both initial/fixed design critics exit0;fixed checker/test Round N prefix before live,retained failures. Legacy run_tests invoked twice before canonical entry discovery;its missing S54 fixture failure retained without frozen-source edits. Source census200requests/200responses/allattempt0. All14scientific/27input hashes frozen,41priorrows recorded. No scientific calls yet. Registration commit/push then sole20decision run;no DIRECTION deviation or sibling writes.
+
+- 2026-10-25T07:35:03.965186+00:00: S58 registration35fbc2aa1b0fb54ed5812bf66eff7945edfc0935 observed on origin main at2026-10-25T07:34:48.616658+00:00 before scientific admission;sole20decision run active,max2calls,sourceblock barriers. Metadata only;no partial treatment effects inspected.
+
+- 2026-10-25T07:37:04.929765+00:00: S58 sole scientific run completed20responses/20accepted/zero retry or failure. Registration35fbc2aa1b0fb54ed5812bf66eff7945edfc0935 observed remotely before calls. Retain6/10,erase2/10;contrast+.400[.2,.5],pairedt[0.12235548948022074, 0.6776445105197793],upperp.0625,lowerp1,two-sidedp.125;blocks[0.5, 0.5, 0.5, 0.0, 0.5]. Frozen ODD due24483tie. Full provenance/runtime/registration/time/schedule replay and separate20rawbindings/15cells/3bootstrap+t/all32sign summaries PASS. Call-forbidden regeneration byte-identical,figure inspected. All14scientific/27input hashes unchanged,41priorrows preserved;REPORT42pilots. Presentation-only integrator adds explicit tied-block gate explanation;scientific bytes unchanged. Both final critics and701post-live canonical tests running. No extra scientificcalls,newgames,tuning,subgroup/reverse promotion,sibling writes or DIRECTION deviation.
+
+- 2026-10-25T07:39:32.727234+00:00: Both final critics exit0,confirm unchanged S58 ODD and all displayed numbers. Codex independently rebuilds20raw approvals,15cells,3complete3125bootstrap+t/all32sign summaries and runs full provenance validator;Opus supplied-code/parsed-case arithmetic only,not raw archive. 701post-live canonical tests PASS. No result-invalidating executable defects. Declined subgroup/reciprocity/task-structure attribution and cross-pilot noise calibration. All14scientific/27input hashes,resultSHA70b0033f73ef1e207abe8e326a4b006434506f446dbdbb475d60f3fa95e6a540 unchanged;call-forbidden release byte-identical. Scientific results/docs commit+push then fresh originclone proof next.

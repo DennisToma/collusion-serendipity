@@ -1336,3 +1336,21 @@ uv run --frozen python scripts/s55_release.py --clean-clone
 
 Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses the installed frozen venv,not a fresh dependency installation. The primary replay binds all requests,raw replies,source/runtime/registration/time/schedule records;the separate checker rebuilds raw approvals,prompt deletion,15blockcells,all3125bootstrap draws/32signflips. This documentation integrator is outside the frozen scientific manifest;all earlier pilot rows are preserved.
 <!-- S55 reproduction end -->
+
+<!-- S58 reproduction start -->
+S58(iteration41):completed public history retained versus erased at ten observed S29 histories/five blocks;20fresh decisions,zero games/tuning.
+
+[Design](DESIGN_S58.md) · [Full results](results/s58_summary.md) · [All returned text](results/s58_action_text.md).
+
+```bash
+uv run --frozen python scripts/s58_replay.py --analyze
+uv run --frozen python scripts/s58_independent.py
+uv run --frozen python scripts/s58_present.py
+uv run --frozen python scripts/s58_action_text.py
+uv run --frozen python scripts/s58_release.py
+uv run --frozen python -m unittest scripts.test_s58
+uv run --frozen python scripts/s58_release.py --clean-clone
+```
+
+Completed archives replay with scientific model calls forbidden;interrupted runs cannot resume. The origin-clone proof reuses installed frozen dependencies,not a fresh installation. Main replay binds all raw requests,replies,source/runtime/registration/time/schedule records;the separate checker rebuilds20raw approvals,exact public-history erasure,15blockcells,3125bootstrap draws/32signflips per summary. This integrator is outside the frozen scientific manifest;all older pilot rows are preserved.
+<!-- S58 reproduction end -->

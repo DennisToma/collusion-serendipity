@@ -1232,3 +1232,12 @@ Five paired differences: [0.5, 1.0, 0.5, 0.0, 0.5];upper sign-flip p=0.06250,low
 
 Same outcome-independent source selection as S51,not an independent S29 replication. Twenty fresh boolean reviews;zero new games or tuning. Visible is the exact source prompt;archived actions are context only. Five blocks,descriptive small-n uncertainty,no held-out/multiplicity/equivalence claim. Source runtime equality,served identity,effective settings and tool non-use unattested. [Design](DESIGN_S55.md) · [Separate raw/statistical verification](logs/s55_independent.json) · [Figure](figures/s55_visibility.png). Reservation and receipt files were fsynced;parent directories were not fsynced. This supplies process-level persistence,not verified power-loss durability.
 <!-- S55 details end -->
+
+<!-- S58 details start -->
+**Latest — S58:** twenty fresh decisions on ten S29 histories/five source blocks. TYPE-Y partner approvals with public history retained **6/10**,erased **2/10**; retain−erase **+0.400 [+0.200, +0.500]**, paired t95% [+0.122, +0.678],upper sign-flip p=0.06250. **ODD for the .25 reduction screen;no promoted hit.**
+Block24483 ties;the frozen HIT gate requires all five positive,so positive bootstrap/t bounds alone do not promote it. Only the completed-public-round list becomes empty;current round,statuses and notes remain. Notes retain historical information. Missing-history cues,length and past actions/rewards change together;no reciprocity or reputation mechanism is identified. [Full results and limits](results/s58_summary.md) · [All returned text](results/s58_action_text.md).
+
+Five paired differences: [0.5, 0.5, 0.5, 0.0, 0.5];upper sign-flip p=0.06250,lower=1.00000,two-sided=0.12500.
+
+Selection uses task statuses only,not actions or notes. Earlier replay results motivated the question;the same histories are reused,not independent S29 replication. Twenty fresh boolean reviews;zero new games/tuning. Five source blocks,descriptive small-n uncertainty,no held-out/multiplicity/equivalence claim. Only focal decisions rerun;no realized current payoff or partner adaptation. Source runtime equality,served identity,effective settings and tool non-use unattested. [Design](DESIGN_S58.md) · [Separate raw/statistical verification](logs/s58_independent.json) · [Figure](figures/s58_history.png). Reservation/receipt files fsynced,parent directories not fsynced;process-level persistence,not verified power-loss durability.
+<!-- S58 details end -->

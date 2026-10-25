@@ -29,7 +29,7 @@ def publish():
             f"TYPE-Y partner approvals with public history retained **{retained}/10**,erased **{erased}/10**; "
             f"retain−erase **{d['mean']:+.3f} [{d['ci95'][0]:+.3f}, {d['ci95'][1]:+.3f}]**, "
             f"paired t95% [{d['t95'][0]:+.3f}, {d['t95'][1]:+.3f}],upper sign-flip p={d['upper_signflip_p']:.5f}. **{v} for the .25 reduction screen;no promoted hit.**\n"
-            "Only the completed-public-round list becomes empty;current round,statuses and notes remain. Notes retain historical information. "
+            "Block24483 ties;the frozen HIT gate requires all five positive,so positive bootstrap/t bounds alone do not promote it. Only the completed-public-round list becomes empty;current round,statuses and notes remain. Notes retain historical information. "
             "Missing-history cues,length and past actions/rewards change together;no reciprocity or reputation mechanism is identified. "
             "[Full results and limits](results/s58_summary.md) · [All returned text](results/s58_action_text.md).")
     p=Path('REPORT.md');text=p.read_text();old_rows=[l for l in text.splitlines() if l.startswith('| S') and not l.startswith('| S58 ')]

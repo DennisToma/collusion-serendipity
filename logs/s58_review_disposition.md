@@ -42,3 +42,18 @@ S58 reservation/launch evidence will be included in the results commit. Shared
 source freeze and runtime-abort risks retained rather than weakening guards.
 
 Correct canonical preflight PASS:701tests,0failures,0errors;scoped19checks and full synthetic20decision raw/stat reconstruction PASS. Both earlier legacy-runner failure logs retained. No frozen historical source edits.
+
+Final Opus critic exited0:correct ODD and all primary numbers;scope is supplied
+code,manifest,parsed20case outcomes and summary JSON only,not raw returned texts
+or filesystem verification. It reconstructed15blockcells and all three bootstrap/
+t/sign summaries. Clean-clone prerequisites will be committed;writer lock is
+already ignored. Source CLI comparison is explicitly unknown,not attested.
+Declined suggested posthoc attribution of the24483tie to task structure:neither
+archived rejections nor own-TYPE-Y status logically forces fresh rejection.
+Declined noise calibration from earlier baseline means:earlier interventions
+and sampled outputs are not repeated controlled noise measurements. No posthoc
+own-type/note-content subgroup analysis or promotion added. Existing text states
+the inclusive upper-p gate and its equivalent all-five-positive implication;
+that equivalence is mathematical,not an additional scientific endpoint.
+
+Final Codex critic exited0,no result-invalidating defect. Raw/archive/source scope:20raw approvals,15blockcells,all3exact bootstrap+t/sign summaries reconstructed,full provenance validator PASS. No critic model calls or edits. 701post-live canonical tests PASS;all14registered scientific and27source-input hashes unchanged. No frozen scientific changes or extra endpoints/calls.
