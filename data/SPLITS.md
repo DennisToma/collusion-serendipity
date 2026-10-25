@@ -207,3 +207,10 @@ Ten outcome-independently selected S29 shared-note contexts,five reused blocks24
 Anchor/identical-repeat/inverted output encoding;30fresh choices,zero newgames.
 No heldout,tuning,pooling or independent S29 replication. See DESIGN_S68.md.
 Full source/case registration pushed before scientific calls.
+
+
+## S72 — Fixed temporal payoff aggregation (post hoc)
+All ten original S29 games/five reused blocks24480..24484,self/shared.
+Primaryr3..10;fixed single-round,pairs3-4/5-6/7-8/9-10,and full-window comparators.
+Zero newgames/scientificcalls,tuning,heldout,pooling or independent replication.
+Seven equally reported descriptive metrics;ODD/context-only,no promotion. See DESIGN_S72.md.
