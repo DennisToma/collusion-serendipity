@@ -1,0 +1,19 @@
+{
+  "reviews": [
+    {
+      "critic": "codex",
+      "exit": 0,
+      "scope": "repository read-only"
+    },
+    {
+      "critic": "opus",
+      "exit": 0,
+      "scope": "supplied text only"
+    }
+  ],
+  "captured_source_hashes_at_completion": {
+    "HITS.md": "1c6370e7f6f2dfbf3bc4620dba7456fa3dd35efe9adaf5f5e907ae101cdc8e82"
+  },
+  "actual_supplied_prompt_sha256": "43de2a8602599933336578f175e44a0b9869df7a15eaef7d4d253b7551f81ef4",
+  "scope_note": "Design critics received the unshipped HITS prefix preserved in the prompt. HITS was restored while reviews ran; completion-time HITS hash is not a binding of that draft. These are preliminary design critiques, not review of the shipped release."
+}

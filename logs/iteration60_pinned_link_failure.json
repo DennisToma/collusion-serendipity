@@ -1,0 +1,29 @@
+{
+  "passed": false,
+  "time_utc": "2026-10-25T15:14:04.272542+00:00",
+  "commands": [
+    {
+      "argv": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--build",
+        "--check-pdf"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 554, in <module>\n    main()\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 534, in main\n    render()\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 482, in render\n    (ROOT / (name + '.html')).write_text(page(name, source))\n                                         ^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 386, in page\n    markup = re.sub(r'href=\"([^\"]+)\"', link, markup)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/re/__init__.py\", line 186, in sub\n    return _compile(pattern, flags).sub(repl, string, count)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 377, in link\n    require((ROOT / path).is_file(), 'Missing source link: ' + path)\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 186, in require\n    raise ValueError(message)\nValueError: Missing source link: results/https://github.com/DennisToma/collusion-serendipity/blob/573f97310771f76fefb67e8d57f666539ad919cb/results/iteration54_brief.md\n"
+    }
+  ],
+  "repeat_byte_identical": true,
+  "artifact_hashes": {
+    "BRIEF.html": "a7bae809906dbfcf79506f3dff2332a81572674d80e1ecc65cb6436b9616c770",
+    "BRIEF.pdf": "80faf31ae54f21c9ec150593cd8ad324d51abc45fdf1f215f2dad5543e650e83",
+    "REPORT.html": "5759d824a74c908bed5f6441de52a0202c4e4d8bc21dd491891e88ededa1684c",
+    "REPORT.pdf": "44270c3292b598dd5870db725a4ec9c16ba1fce776a72c38e2f9d8cd4d6af140",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration60_exports.json": "98d2a44056d7352072d1040497d93af386ac436996fc170e0a3f589a6c2e0c66",
+    "REPORT.md": "0104fd1839d1554f46306a7fbb42c301ee8a96579d124008a99be5f4bac7c5eb",
+    "README.md": "20dd2677635ef9aec0b5c4cf21ef7b8067880d6f93fe15ee64189ea62886a792"
+  },
+  "scope": "Actual final build/PDF extraction and five selected scientific reruns on the current checkout. Existing installed project/export dependencies and Chromium reused; saved 54-result receipt checked, not all 54 rerun. No new experiment or estimate."
+}

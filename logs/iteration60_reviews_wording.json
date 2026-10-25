@@ -1,0 +1,21 @@
+{
+  "reviews": [
+    {
+      "critic": "codex",
+      "exit": 0,
+      "scope": "repository read-only"
+    },
+    {
+      "critic": "opus",
+      "exit": 0,
+      "scope": "supplied text only"
+    }
+  ],
+  "source_hashes_at_launch": {
+    "scripts/export_report.py": "b481395c6e4875ce8afeff110a6bf7d094ecf2562570ef914de4d27d8fbd5e9a",
+    "REPORT.md": "6110599a398c154cffd29f7db177ace21a89bf3c241ae29e76db9692e089c00c",
+    "README.md": "61ea09cc85911fa82a563bf7a32de7430bde1254d5e3b73f1a5fc0b541847500",
+    "logs/iteration60_exports.json": "98d2a44056d7352072d1040497d93af386ac436996fc170e0a3f589a6c2e0c66"
+  },
+  "sources_unchanged_during_review": true
+}

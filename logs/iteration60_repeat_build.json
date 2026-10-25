@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "byte_identical_files": {
+    "BRIEF.html": "fccc77269762adc4f0e75cf783208ecd25c3427730c43594f2a08b59dcbc8e81",
+    "BRIEF.pdf": "7823195a0b2505b00b43479df312684ee0956415a79e1276723ef31b7712e6f1",
+    "REPORT.html": "5e4b86297f42566e49fbf52bb3e8aab49b41e5f63a3f17f6ae3d04ddb596cdc1",
+    "REPORT.pdf": "bf9039d494201d34e01d2bbf19eb4d07a8378882c05c1f2d16dbd91c6b83829a",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration60_exports.json": "0bf2b62e1ff857bacc382005a5d2c9e16eb91abe00b9a3db132662c4c9b69e78",
+    "REPORT.md": "0104fd1839d1554f46306a7fbb42c301ee8a96579d124008a99be5f4bac7c5eb",
+    "README.md": "20dd2677635ef9aec0b5c4cf21ef7b8067880d6f93fe15ee64189ea62886a792"
+  },
+  "scope": "Final same-host repeat export build; existing dependencies and Chromium reused."
+}

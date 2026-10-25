@@ -1,0 +1,29 @@
+{
+  "passed": false,
+  "time_utc": "2026-10-25T15:11:01.413441+00:00",
+  "commands": [
+    {
+      "argv": [
+        "/var/tmp/explorer-export57/bin/python",
+        "scripts/export_report.py",
+        "--build",
+        "--check-pdf"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 550, in <module>\n    main()\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 525, in main\n    for name, value in documents().items():\n                       ^^^^^^^^^^^\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 252, in documents\n    return {'REPORT.md': report, 'README.md': replace_once(readme, entry, replacement)}\n                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 202, in replace_once\n    require(text.count(before) == 1, 'Editorial substitution target changed: ' + before[:80])\n  File \"/home/factory/collusion/collusion-serendipity/scripts/export_report.py\", line 185, in require\n    raise ValueError(message)\nValueError: Editorial substitution target changed: **Judge / handoff entry:** [archived evidence brief](results/iteration54_brief.m\n"
+    }
+  ],
+  "repeat_byte_identical": true,
+  "artifact_hashes": {
+    "BRIEF.html": "eb591d8f798cb6fb634149139ce9064ded46bc020423b49410c3137396211f3a",
+    "BRIEF.pdf": "7e6d79ca5c89cc003b45ff382877a0c51dc78c10d0b0216077ebeca67073cc52",
+    "REPORT.html": "ff1936398ba8313d4339cb624667059c0ba4209c2987981e1b1a1d6d44f4f805",
+    "REPORT.pdf": "07cc46e59aea4400dd893b888f03779999a2854e3871e2ab38c1970af1a2e329",
+    "figures/explorer_handoff.png": "684dedb8f5dad171647cd3bdc5ab447db53d19f91899602b5eb6d309fb9d6acd",
+    "logs/iteration60_exports.json": "337f73d783929960e61f40f410aac80e4bea31712c466f28e9d4149c94300256",
+    "REPORT.md": "d1f049997b634419d0a44e8c48e71d1e5acf52a608c8225147e51eda46771094",
+    "README.md": "4791b879ab77e5468035ab2947d2486544775b234d28607854bd278618ad92f2"
+  },
+  "scope": "Actual final build/PDF extraction and five selected scientific reruns on the current checkout. Existing installed project/export dependencies and Chromium reused; saved 54-result receipt checked, not all 54 rerun. No new experiment or estimate."
+}

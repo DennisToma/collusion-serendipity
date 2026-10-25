@@ -1,0 +1,7 @@
+{
+  "orchestrator_exit": 143,
+  "critic_exit_codes": "unavailable because orchestrator terminated",
+  "codex_output_present": true,
+  "opus_output_present": true,
+  "scope": "Both completed critique texts retained. Do not infer per-critic zero exits or use this interrupted collection as final release approval. Its substantive brief/report inconsistency is accepted and corrected."
+}

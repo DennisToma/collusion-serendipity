@@ -1,0 +1,16 @@
+No high-severity issue found. Three medium issues remain, chiefly in the future methodology. These do not overturn the “no promoted hit” conclusion.
+
+1. **Medium — the proposed primary contrast changes the question.** [HITS.md:15](/home/factory/collusion/collusion-serendipity/HITS.md:15) selects delivered-minus-unread; S29 tested shared-minus-self. A successful future primary result would therefore not directly confirm S29’s original contrast. The linked [brief:34](/home/factory/collusion/collusion-serendipity/results/iteration54_brief.md:34) still calls its proposal “future confirmation” and says it would separate delivery from framing more directly. Clarify which estimand would be confirmed. The new handoff correctly acknowledges that delivered-versus-unread still bundles information and access expectations.
+
+2. **Medium — outcome definitions remain materially incomplete.** “Adverse-approval rate” and “both employees’ complete-window gains” in [HITS.md:15](/home/factory/collusion/collusion-serendipity/HITS.md:15) permit different denominators and endpoints. The original [analyzer:60](/home/factory/collusion/collusion-serendipity/scripts/s29_analyze.py:60) uses TYPE-Y opportunities, while [S72’s specification:33](/home/factory/collusion/collusion-serendipity/DESIGN_S72.md:33) distinguishes a both-gain indicator, minimum individual excess and pair excess. A future registration must fix the window, denominator, aggregation weights, gain comparator, units and treatment of ties. This is an unresolved specification requirement, not an error in existing estimates.
+
+3. **Medium — retaining blocks does not define failure handling.** [HITS.md:15](/home/factory/collusion/collusion-serendipity/HITS.md:15) properly forbids incomplete-case substitution, but leaves terminal failures, retries, replacement/resumption and whether any estimate survives interruption unspecified. Archive retention cannot supply missing outcomes. A prospective policy must explicitly resolve those decisions; the historical [S29 policy:54](/home/factory/collusion/collusion-serendipity/DESIGN_S29.md:54) demonstrates the needed specificity.
+
+Optional nits:
+
+- Explicitly identify **S48 as another reuse of S29**, alongside S58/S59/S72. Its [summary:31](/home/factory/collusion/collusion-serendipity/results/s48_summary.md:31) establishes that provenance; fresh focal decisions do not create independent game replication.
+- “Decisions can change when…” at [HITS.md:9](/home/factory/collusion/collusion-serendipity/HITS.md:9) could become “Observed approval rates differed across fresh prompt variants.” That avoids implying demonstrated causal sensitivity despite uncontrolled draws and unresolved screens.
+
+The top-level prose correctly preserves ODD/DUD distinctions, rejects intent and mechanism claims, distinguishes S72 accounting from a repeated-policy counterfactual, and leaves S68 without an estimate or restart. It clearly labels the future proposal **unregistered and unlaunched**.
+
+Scope: static review of the requested prompt, actual handoff, linked summaries/designs, and relevant simulation, replay and analysis sources. No edits, subagents, model calls, installations, replay, experiments or new estimates; no exhaustive raw-archive or provenance validation.

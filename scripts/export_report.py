@@ -24,18 +24,20 @@ from scripts import iteration55_claims as audit
 BASELINE = '573f97310771f76fefb67e8d57f666539ad919cb'
 REPO_URL = 'https://github.com/DennisToma/collusion-serendipity'
 COMMAND = 'uv run --frozen python scripts/export_report.py --check --replay-selected'
-EXPORT_RECEIPT = 'logs/iteration59_exports.json'
-PREVIOUS_READER_REVISION = 'f5fd3dfea8c62bba16f59bc8a0e5d946a60a4c1c'
-PRESERVATION_BASELINE = '3f264b3cae7acd81d802ffe4fc5dd6d89b9dfec6'
+EXPORT_RECEIPT = 'logs/iteration60_exports.json'
+PREVIOUS_READER_REVISION = '9777a99aa03e00e9921ae4e1aadd953b146b54c6'
+PRESERVATION_BASELINE = '11aaf729538894adcc828ab20145d437a5131c3e'
 REPLAY_SOURCE_REVISION = 'cd3505ce141d190d92ecda420430ff74caccf70d'
 EXPORT_FILES = ['BRIEF.html', 'BRIEF.pdf', 'REPORT.html', 'REPORT.pdf', 'figures/explorer_handoff.png']
 EXPORT_SOURCES = ['scripts/export_report.py', 'REPORT.md', 'README.md', 'results/iteration54_brief.md',
     'scripts/iteration57_fresh_install.py', 'logs/iteration57_fresh_install.json', 'requirements-export.lock',
     'results/iteration57_reproduction.md', 'scripts/portfolio_replay.py',
     'logs/iteration58_portfolio_replay.json', 'results/iteration58_reproduction.md',
-    'results/s29_notepad.json', 'results/s62_notepad_qwen.json', 'results/iteration54_portfolio.json']
+    'results/s29_notepad.json', 'results/s62_notepad_qwen.json', 'results/iteration54_portfolio.json',
+    'results/s48_summary.md', 'results/s58_summary.md', 'results/s59_summary.md', 'results/s72_summary.md',
+    'results/s18_summary.md', 'results/s31_summary.md', 'results/s45_summary.md']
 EXPORT_ENV = {'markdown-it-py': '4.2.0', 'playwright': '1.64.1', 'pypdf': '6.21.2', 'matplotlib': '3.11.2'}
-NOTICE = ('**Reader exports — iteration 59:** [Concise brief (PDF)](BRIEF.pdf) · '
+NOTICE = ('**Reader exports — iteration 60:** [Concise brief (PDF)](BRIEF.pdf) · '
           '[Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). '
           'Exports preserve the saved evidence and original pilot rows. Current verification: '
           f'`{COMMAND}`. The iteration-54/55 full-document commands require their archived revisions.\n\n')
@@ -53,6 +55,28 @@ PORTFOLIO_NOTICE = ('**Archived primary-result replay — iteration 58:** All **
     'reruns only five selected analyses/checkers. Fifty-one entries use the frozen baseline and three use '
     'their historical result revisions. Validation depth varies by pilot. '
     '[Coverage, limits and run commands](results/iteration58_reproduction.md).\n\n')
+FUTURE_WORK = (
+    '**Possible follow-up, not registered or launched:** Delivered-minus-undelivered partner-addressed '
+    'notes could be a new primary contrast, holding addressing fixed while varying delivery together '
+    'with truthful access expectations. A three-arm block would also include self-only notes; '
+    'shared-minus-self and individual-gain measures would be secondary. Direct S29 replication would '
+    'require matching its prompts and model/settings. Each new seed block would contain one game '
+    'per arm, with randomized execution order and counterbalanced identities; no observed seeds or '
+    'histories would be reused. Payoffs, task schedules, public-history format and own-note persistence '
+    'would be matched. The primary outcome would be each game’s TYPE-Y approvals divided by eligible '
+    'TYPE-Y reviews across both employees in a fixed window; paired block differences supply uncertainty. '
+    'In the primary contrast, access expectations, writer content, self-memory content and later histories '
+    'still differ; the self-only comparison also changes addressing. Writer and reader effects, content '
+    'and beliefs remain bundled. Before calls, fix model/backend/settings, sample size, window, test '
+    'direction and decision rule, multiplicity, gain endpoint/comparator and retry limits; S29’s '
+    'selected effect does not estimate the new contrast. Any block incomplete after the frozen retry '
+    'limit should fail the entire study without an effect estimate, restart or replacement; report '
+    'failures by arm. This replaces [the archived future suggestion]'
+    f'({REPO_URL}/blob/{BASELINE}/results/iteration54_brief.md), changes control and endpoint '
+    'priorities, and remains an unfinished proposal.')
+
+
+
 SCIENCE_LEAD = (
     '**Research takeaway:** The explorer tested channels, incentives and interfaces beyond the sibling '
     'price-market studies. No hit was promoted. Workplace review supplies an unresolved lead: '
@@ -69,13 +93,24 @@ SCIENCE_LEAD = (
     'misses the 0.05 screen. S62 ({s62_model}), ten fresh games in five blocks, gives '
     '**{s62_self}/40 versus {s62_shared}/40**, contrast **{s62_mean:+.3f} '
     '[{s62_lo:+.3f}, {s62_hi:+.3f}]** (bootstrap 95% CI). '
-    'Both pilots remain ODD. [Source-checked brief, payoff accounting and all intervals]'
-    '(results/iteration54_brief.md).\n\n'
-    '**Interpretation and next step:** An adverse approval does not verify agreement '
-    'or reciprocal intent. Incentive calibration and the choice of payoff window change its '
-    'interpretation. Future confirmation should use a larger sample of fresh registered blocks, self/shared/unread '
-    'notepad controls, counterbalanced identities and both employees’ complete-window gains. '
-    'This experiment has not been launched.\n\n'
+    'Both pilots remain ODD. [Current evidence brief, payoff accounting and all intervals]'
+    '(BRIEF.pdf).\n\n'
+    '**Interpretation:** An adverse approval does not verify agreement or reciprocal intent. '
+    'Incentive calibration and the choice of payoff window change its interpretation. '
+    'This lead was selected post hoc: [S18](results/s18_summary.md), '
+    '[S31](results/s31_summary.md) and [S45](results/s45_summary.md) tested shared versus self-only '
+    'notes in different settings and all remain DUD.\n\n'
+    '**Why the replay probes do not settle the lead:** '
+    '[Partner-note deletion (S48)](results/s48_summary.md) gave equal observed approval rates with wide bounds; '
+    'own notes and public history survived. Observed approval rates differed under '
+    '[public-history deletion (S58)](results/s58_summary.md) and '
+    '[lossless reformatting (S59)](results/s59_summary.md), but both remain ODD. '
+    'Even identical retained prompts produced different aggregate baselines across probes. '
+    'These probes reuse the same selected S29 source blocks with fresh focal draws; '
+    '[S72](results/s72_summary.md) reuses the original trajectories. They add no independent '
+    'trajectory replication. Single fresh draws per arm/context and surviving history do not '
+    'identify note mediation, reciprocity or a long-run effect.\n\n'
+    '{future_work}\n\n'
     '**Portfolio:** **{entries} entries: {duds} DUD, {odds} ODD/context-only, two failed/unclassified.** '
     'Entries include fresh games, reused-history decisions and reanalyses; they are not independent '
     'replications. Examples above were selected post hoc. DUD/ODD are prioritization labels; '
@@ -85,7 +120,7 @@ SCIENCE_LEAD = (
 
 def scientific_lead():
     """Format the selected summary directly from protected saved result fields."""
-    values = {}
+    values = {'future_work': FUTURE_WORK}
     for pilot, path in [('s29', 'results/s29_notepad.json'), ('s62', 'results/s62_notepad_qwen.json')]:
         obj = json.loads((ROOT / path).read_text())
         require(obj['n_games'] == 10 and obj['n_seed_blocks'] == 5 and obj['primary_rounds'] == '3..10',
@@ -174,7 +209,7 @@ def documents():
     table_marker = '| Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |'
     require(original.count(table_marker) == 1, 'Original table marker changed')
     report = ('# Serendipity log — Beyond Words\n\n'
-        '2026-10-25 · Iteration 59 · **No hits promoted.** Exploratory pilots; zero game-outcome tuning attempts.\n\n'
+        '2026-10-25 · Iteration 60 · **No hits promoted.** Exploratory pilots; no tuning within registered analyses; outcome-informed follow-ups.\n\n'
         + scientific_lead() + NOTICE + original[original.index(table_marker):])
     report = replace_once(report, '**Next:** different-axis pilot only if valuable before14:30UTC;then polish.',
                           '**Next:** preserve the frozen evidence and polish the final handoff.')
@@ -188,7 +223,8 @@ def documents():
     readme = old('README.md').decode()
     entry = readme.split('\n\n')[1]
     require(entry.startswith('**Judge / handoff entry:**'), 'README entry moved')
-    replacement = scientific_lead() + NOTICE + replace_once(entry,
+    display_entry = replace_once(entry, '[concise evidence brief]', '[archived evidence brief]')
+    replacement = scientific_lead() + NOTICE + replace_once(display_entry,
         'uv run --frozen python scripts/iteration55_claims.py --check --replay-selected', COMMAND)
     replacement += '\n\n' + verification_note() + FRESH_NOTICE
     replacement += ('\n\nRender with a separate pinned environment (project dependencies and `uv.lock` stay unchanged):\n\n'
@@ -199,7 +235,7 @@ def documents():
         '/var/tmp/explorer-export57/bin/python -m playwright install chromium\n'
         '/var/tmp/explorer-export57/bin/python scripts/export_report.py --build\n'
         '/var/tmp/explorer-export57/bin/python scripts/export_report.py --check-pdf\n'
-        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration59_exports.json\n```\n\n'
+        'git diff --exit-code -- BRIEF.html BRIEF.pdf REPORT.html REPORT.pdf figures/explorer_handoff.png logs/iteration60_exports.json\n```\n\n'
         'The build uses installed Chromium, embeds the interval figure, and blocks browser network requests. '
         'Source links in the exports pin historical evidence and reproduction revisions on GitHub; '
         'following them requires repository access. Brief/report links point to the portable local exports. '
@@ -245,6 +281,9 @@ def verify_sources():
     require(saved == result, 'Saved table receipt differs from current field audit')
     for name, expected in documents().items():
         require((ROOT / name).read_text() == expected, 'Presentation overlay drift: ' + name)
+    require(audit.git('show', BASELINE + ':results/iteration54_brief.md') ==
+            (ROOT / 'results/iteration54_brief.md').read_bytes(),
+            'Pinned archived future-suggestion link differs from source')
     from scripts.iteration54_handoff import products
     reconstructed = products()
     require(reconstructed['results/iteration54_brief.md'] == (ROOT / 'results/iteration54_brief.md').read_bytes(),
@@ -265,7 +304,11 @@ def verify_sources():
 
 def sources():
     brief = (ROOT / 'results/iteration54_brief.md').read_text()
-    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 59 ·')
+    brief = replace_once(brief, 'Iteration 54 ·', 'Reader edition · Iteration 60 ·')
+    start = '**Suggested future confirmation, not launched:**'
+    require(brief.count(start) == 1, 'Archived future suggestion moved')
+    archived_future = start + brief.split(start, 1)[1].split('\n\n', 1)[0]
+    brief = replace_once(brief, archived_future, FUTURE_WORK)
     require(brief.count('**Offline verification of this handoff:**') == 1, 'Brief verification block moved')
     brief = brief.split('**Offline verification of this handoff:**', 1)[0]
     brief += ('**Current offline verification:**\n\n```bash\n' + COMMAND + '\n```\n\n'
@@ -276,6 +319,7 @@ def sources():
         'Archived presentation commands require their own revisions.\n')
     # The brief lives at the repository root in the export, unlike its source.
     brief = re.sub(r'\]\(([^)]+)\)', lambda m: '](' + (
+        m[1] if urlsplit(m[1]).scheme or m[1].startswith('#') else
         m[1][3:] if m[1].startswith('../') else 'results/' + m[1]) + ')', brief)
     brief += '\n' + PORTFOLIO_NOTICE
     return {'BRIEF': brief, 'REPORT': documents()['REPORT.md']}
@@ -462,7 +506,7 @@ def render():
         browser.close()
     require(not blocked, 'Unexpected browser network request')
     record = {'scope': 'Presentation only; source-fragment coverage is not raw scientific validation.',
-        'reader_iteration': 59, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
+        'reader_iteration': 60, 'primary_replay_revision': REPLAY_SOURCE_REVISION,
         'fresh_install_target_revision': 'e6b0c02bb189923b3fd039fe67db153826ee3aff',
         'source_revision': BASELINE, 'preservation_baseline': PRESERVATION_BASELINE,
         'export_environment': EXPORT_ENV, 'chromium_version': browser_version,
