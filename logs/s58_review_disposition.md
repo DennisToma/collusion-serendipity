@@ -57,3 +57,5 @@ the inclusive upper-p gate and its equivalent all-five-positive implication;
 that equivalence is mathematical,not an additional scientific endpoint.
 
 Final Codex critic exited0,no result-invalidating defect. Raw/archive/source scope:20raw approvals,15blockcells,all3exact bootstrap+t/sign summaries reconstructed,full provenance validator PASS. No critic model calls or edits. 701post-live canonical tests PASS;all14registered scientific and27source-input hashes unchanged. No frozen scientific changes or extra endpoints/calls.
+
+Final release and origin proof PASS at resultscaf05bd534564b36b20ae935b14c884fe8d40fec:7byte-identical artifacts,19scoped tests,main provenance plus separate raw/statistical reconstruction,clean clone. Installed frozenvenv reused,not a fresh dependency installation. All41older pilot rows preserved,scientific14/input27hashes unchanged. No additional scientific calls,tuning or subgroup promotion.
