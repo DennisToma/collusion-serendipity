@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T05:58:04.500526+00:00; Phase2, iteration37 REGISTERING)
-- S53(E):posthoc zero-call full-game static-incentive audit of S29;new decomposition not yet computed.
-- All10originalgames/5blocks/80primary rounds retained;zero newgames/scientificcalls/tuning.
-- Six fixed diagnostic metrics contain3independent quantities;Pareto=mutual-Y mechanically.
-- Both initial and patch Codex/Opus critics exit0;dispositions in logs/s53_review_disposition.md.
-- All611canonical and11scoped synthetic tests PASS;real archived clocks/sources unchanged.
-- Frozen manifest covers55source/input files,including complete S29 replay/runtime dependencies.
-- Next:commit/push/remote receipt before new decomposition;thenfull replay,independent stats,finalcritics/release/clone.
-- Fixed ODD/context-only,no HIT screen;original S29ODD and all original science unchanged.
-- Sciencequeue:freshdifferent axis after E/S53;own/S52proposed,S46/S39/S49queued,S32unconfirmed,S30unrun.
-- Risks:posthoc selection,n5,synthetic types,one family,draws/interference,source runtime unattested.
+## Current state (2026-10-25T06:01:38.042041+00:00; Phase2, iteration37 RELEASING)
+- S53(E):posthoc full S29audit,10originalgames/5blocks;zero newgames/scientificcalls/tuning.
+- Adverse approvals self2/40,shared15/40;mutual-Y0/9both-Y opportunities/arm (0/40rounds).
+- No missed-X or same-round strict Pareto gains;regret4→30,pairNash-excess8→60points.
+- Regret/pair excess are2x/4xoriginalS29rate contrast;no independent extra evidence.
+- Pair excess difference+1.3/round,bootstrap[+.4,+2.3],t[-.195,+2.795];static/posthoc only.
+- Full200-key source replay;separate80rounds/60cells/18bootstrap+t/16profiles/32deviations PASS.
+- Both finalcritics exit0;Codex original raw/source reconstruction,Opus supplied-text scope.
+- All611pre/post canonical and11scoped tests PASS;figure viewed;secondrelease byte-identical.
+- All55registered source/input files unchanged;registrationa94bb0e pushed/observed pre-decomposition.
+- Fixed ODD/context-only;no HIT or S29label/siblingheadline change;no active science/review.
+- Next:results push,fresh origin clone;then fresh different axis,own/S54 andS52 proposals.
+- Risks:posthoc,n5,degenerate bounds,static comparator;delayed/cross-round mutual gains not excluded.
 
 ## Log
 
@@ -521,3 +523,9 @@
 - 2026-10-25T05:56:37.224459+00:00: iteration37 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling summaries. Selected E/S53 zero-call posthoc full-game incentive audit after D/S51,avoiding another perturbation of the same ten focal histories. New decomposition fixed before computation;all10S29games retained;no newgames/scientificcalls/tuning. Both initial and patch methodology critics exit0;accepted payoff-metric redundancy,complete source/input freeze,specific pushed-registration evidence,all-six figure,standalone debug guard,matched schedules,staged publication and exact verifier schema/coverage.11scoped synthetic tests PASS;final canonical preflight running. Original S29label and all source/data bytes unchanged;no sibling writes or DIRECTION deviation.
 
 - 2026-10-25T05:58:04.500526+00:00: S53 finalpreflight PASS:611canonical tests,11scoped tests,allsource/input manifest ready,allnew aggregate calculations still unrun. Accepted both methodology review rounds;no outcome-dependent rule,sourceS29change,new scientificcalls or siblingwrites. Registration commit/push then remote observation required before decomposition.
+
+- 2026-10-25T05:58:15.620590+00:00: S53 complete;Mutual-Y rounds self0/40,shared0/40;shared-minus-self+0.000[0.0, 0.0];pairedt[0.0, 0.0];Y approvals self2/40,shared15/40Y opportunities;All six fixed diagnostic metrics reported with descriptive block-bootstrap/t intervals. Full original200-key replay and separate200bindings/80rounds/60gamecells/18summaries/16stageprofiles/32deviations PASS. Staged source-checked release verified before publication. No newgames/scientificcalls,tuning,HIT,pooling,labels,sourceS29edits,siblingwrites or DIRECTION deviation. Final independent critics,canonical suite,figure/release and fresh origin clone next.
+
+- 2026-10-25T06:00:18.981763+00:00: queued new own/S54 opportunity-correlation proposal from S53 stage-table result: synchronized versus alternating balanced task types at unchanged marginal schedules and review payoffs. Fresh design required;no second pilot or source subgroup analysis. Zero observed same-round Pareto improvements does not exclude both employees gaining across multiple rounds;current claims remain explicitly one-round comparisons.
+
+- 2026-10-25T06:01:38.042041+00:00: Both finalcritics exit0;Codex independently reconstructs200rawbindings/80rounds/60cells/18bootstrap+t summaries/16profiles/32deviations and verifies55source/input hashes/fullreplay. Opus supplied80record/code-only scope reproducescounts/intervals.611postanalysis canonical tests PASS;actualsixpanel figure inspected;secondrelease byte-identical. Accepted postoutcome presentation supplement:allsixREPORTcounts,conditional0/9/unconditional0/40,degenerate-bound caveat,rescaledS29-not-independent disclosure,andboth pair-excess bootstrap/t bounds. No scientific-source/result edits or newcalls. Receipt included at results commit;fresh origin-clone next.

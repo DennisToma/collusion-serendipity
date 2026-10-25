@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_input_hashes": 55,
+  "local_document_links": 324,
+  "result_sha256": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+  "figure_visually_inspected": true,
+  "scientific_model_calls": 0,
+  "all_six_reported": true,
+  "same_author_independent_implementation": true,
+  "independent_critic_count": 2
+}

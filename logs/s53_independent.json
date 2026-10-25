@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "raw_action_bindings": 200,
+  "primary_rounds": 80,
+  "game_metric_cells": 60,
+  "bootstrap_and_t_intervals": 18,
+  "stage_profiles": 16,
+  "unilateral_deviations": 32,
+  "authorship": "same manager; separate implementation, not independent authorship"
+}

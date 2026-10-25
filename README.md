@@ -1249,3 +1249,15 @@ uv run --frozen python -m unittest scripts.test_s51
 ```
 
 The release forbids calls to the scientific model entry point and requires byte-identical results,summary,figure and verbatim-output appendix. `scripts/s51_context_audit.py` reproduces the pre-outcome historical-policy census. `scripts/repository_tests.py --out /var/tmp/serendipity_tests.json` runs canonical offline checks with scoped legacy synthetic clocks;real experiment deadlines stay fixed.
+
+S53 (iteration37): static incentive audit of all S29 workplace games.
+
+[Design](DESIGN_S53.md),[all six metrics,ten game cells and figure](results/s53_summary.md),[all80 round records and stage profiles](results/s53_payoffs.json). POST-HOC,zero new games or scientific calls;does not alter original S29 results or verify agreements.
+
+```bash
+uv run --frozen python scripts/s53_payoffs.py --release
+uv run --frozen python scripts/s53_independent.py
+uv run --frozen python -m unittest scripts.test_s53
+```
+
+The release checks the required inputs and both generations of analysis code against the pushed registration commit,reruns all200 original raw bindings,and separately reconstructs80rounds/60gamecells/18bootstrap+t intervals. A second release stages and compares byte-identical JSON/summary/figure with the scientific llm.chat entry point patched to raise;this is not OS network/process isolation. Clean-clone reproduction may reuse the installed frozen venv,which is not a fresh dependency installation.

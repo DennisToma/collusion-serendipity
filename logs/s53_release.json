@@ -1,0 +1,19 @@
+{
+  "artifacts": {
+    "figures/s53_payoffs.png": "7c998cc0a5a4a1826af4356b381f3af6ccdc933b99852e032e195fdde0483d20",
+    "results/s53_payoffs.json": "32e310ea51f017c0e8b0ec3513ea68257c43e12d8c42e82dc674543561a52ea8",
+    "results/s53_summary.md": "30e28610b01d7e4d7836ebb25b1ce31b278e0206407e11369c084c808b93938e"
+  },
+  "byte_identical": true,
+  "independent": {
+    "authorship": "same manager; separate implementation, not independent authorship",
+    "bootstrap_and_t_intervals": 18,
+    "game_metric_cells": 60,
+    "passed": true,
+    "primary_rounds": 80,
+    "raw_action_bindings": 200,
+    "stage_profiles": 16,
+    "unilateral_deviations": 32
+  },
+  "passed": true
+}
