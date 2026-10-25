@@ -428,3 +428,18 @@ comparison or sibling headline change. Both siblings:quote coordinates and
 economic wages differ;self-only low wages alone do not establish coordination.
 [Design](DESIGN_S37.md),[all outcomes/figure](results/s37_summary.md).
 Reproduce:`uv run python scripts/s37_release.py`.
+
+
+**S40: unpromoted DUD,private-note erasure at fixed labor histories (E).**
+Ten selected S37final-round contexts/fiveblocks,20fresh decisions,zero newgames.
+Normalized offer retain0.000/erase0.000;erase−retain+0.000 [+0.000, +0.000],
+t[+0.000, +0.000],upperp1.00000. Floor counts/10:{'retain': 10, 'erase': 10}.
+Offers are not worker payments;public history still exposes prior wages.
+No memory-irrelevance,mechanism,agreement,coordination or sibling-headline claim;
+descriptive/possibly degenerate bounds do not establish equivalence.
+[Design](DESIGN_S40.md),[all offers/figure](results/s40_summary.md).
+Reproduce:`uv run python scripts/s40_release.py`.
+
+S40 uncertainty: observed block SD=0 makes both bootstrap bounds and the t
+formula output[0,0] degenerate;they are not population-equivalence or calibrated
+zero-risk intervals. Archived-match and minimum-quote counts coincide here.

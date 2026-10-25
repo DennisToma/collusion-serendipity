@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "byte_identical_artifacts": {
+    "results/s40_memory.json": "903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace",
+    "results/s40_summary.md": "20788df20cb2dbd63cc44fd6c6248e4c04d1eb8fae5306a63c8b54019e6e61a7",
+    "figures/s40_memory.png": "64f357d99360319e612a741b8452ea45ad700fbf4e0e5d9274210f709c51556d",
+    "REPORT.md": "51fcccbbc76a299429eabfcabb607878d98091445548be68fbd32147eacde14c",
+    "logs/s40_independent.json": "eb30fddc0ea7c3d42b1de61e9e77a036374a25352a7cb30d822befec344f0b86",
+    "logs/s40_release.json": "1c6b28c2a771975456e7b77e284fd7e8fd9985d09fec4dac79557b7fc66aad50"
+  },
+  "archive_files_unchanged": 7,
+  "scientific_sources_unchanged": 13,
+  "selected_source_files_unchanged": 14,
+  "live_model_calls_forbidden": true
+}

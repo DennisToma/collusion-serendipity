@@ -30,14 +30,14 @@
 | S35 · B, productivity asymmetry | 10 games /5 blocks. Paid wage r3–10: symmetric **11.800**, asymmetric **19.450**; asymmetric−symmetric **7.650 [3.825, 9.825]**. | **ODD** for four-unit wage screen |
 | S36 · own, gross/net quotation | 10 games /5 blocks. Worker take-home r3–10: NET **8.000**, GROSS **1.800**; NET−GROSS **+6.200 [+2.200, +10.000]**. | **ODD** for two-unit reduction screen |
 | S38 · F, final-round disclosure | 10 games /5 blocks. Paid wage r3–10: hidden **8.000**, known **8.000**; known−hidden **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
-| S40 · E, private-note erasure | Registered: 20 fresh decisions at ten observed S37 final-round histories; erase versus retain, normalized focal offer. No scientific calls yet. | **PENDING** |
 | S37 · own, payroll wording | 10 games /5 blocks. Take-home wage r3–10: coded **0.000**, payroll **0.000**; coded−payroll **+0.000 [+0.000, +0.000]** (degenerate); both at allowed minimum. | **DUD** for two-unit increase screen |
+| S40 · E, private-note erasure | Ten observed S37 histories /5 blocks;20 fresh decisions. Normalized offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**. | **DUD** for two-unit increase screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
-<!-- S37 summary start -->
-**S37:** with the same quote grid10–30 and minus10 payoff map, coded and payroll wording both produced **zero take-home wages throughout the primary window**. The observed minimum quote10 gives take-home0 and maximizes combined firm profit here,while mean one-shot regret is9 in both arms. All five coded−payroll block differences are0;bootstrap/t95% **[0,0]**,upper sign-flip **p=1**;frozen **DUD**,no HIT. The bounds are degenerate and do not establish population equivalence. Both arms use self-only notes;no agreement or coordination is verified. Labels,wording and length change together. This fresh comparison does not identify S36's mechanism or explain its earlier gap. [All outcomes and figure](results/s37_summary.md).
-<!-- S37 summary end -->
+<!-- S40 summary start -->
+**S40:** ten fixed S37 final-round histories, twenty fresh stateless decisions. Normalized focal offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**, paired t formula **[0, 0]** (degenerate; observed SD=0), upper sign-flip **p=1.00000**; frozen **DUD**. Both fresh arms reproduced the minimum quote10 in all ten cases. The rival is not replayed, so these are offers, not worker payments. Public history still reveals earlier wages; this does not establish memory irrelevance or explain the original trajectory. Degenerate bounds are not population equivalence. [All quotes and figure](results/s40_summary.md).
+<!-- S40 summary end -->
 
 
 Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
@@ -50,4 +50,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis question after own/S37; no secondary-driven promotion. S39 is queued only, S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis question after E/S40; prefer a new world or market structure. S39/S41 queued only, S32 unconfirmed and S30 unrun.

@@ -44,3 +44,21 @@ a real flock contention test proves the losing invocation leaves the archive
 unchanged. The integer grid is every integer10..30;range/type parsing matches
 that grid. Closing-marker uniqueness is now checked. Receipt must be included
 in the results commit and the origin clone verifies it. No paid outcomes seen.
+
+## Final outcomes review
+
+Final Codex/Opus critics and their parent process exit0. Codex independently
+parsed20raw responses,rebuilt15blockcells/3sets3125bootstrap/32signflip results
+and checked full archive/source/immutable-registration chronology. Opus rebuilt
+from supplied result-case lists,not raw responses;scope is explicitly limited.
+Both confirm DUD and no outcome-changing bug.
+
+Clarified the degenerate t formula at observed SD=0 in REPORT/DETAILS/README/HITS
+without changing frozen estimates or sources. The generated summary already
+warns degenerate bounds are not population equivalence. Exact archived matches
+are redundant with floor counts in this challenge,not independent evidence.
+.writer.lock is gitignored;receipt and archive
+are included in the results milestone before the origin clone. Codex correctly
+reported publication/remote reproduction as unfinished at its snapshot;those
+are the remaining release steps,not evidence of completed verification.
+No mechanism or memory-irrelevance claim;no source/estimator/threshold changes.

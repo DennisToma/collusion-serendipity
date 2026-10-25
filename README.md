@@ -1019,3 +1019,29 @@ primary artifacts;clone remains clean. Receipts:logs/s37_remote_clean_clone.json
 and logs/s37_remote_exit.json. The clone reuses the installed frozen venv rather
 than installing dependencies afresh. All414repository tests passed locally with
 durable childexit0;all22frozen source hashes/scientificSHA9c9ad480 remain unchanged.
+
+
+S40 fixed-history private-note erasure completed: **DUD**. Twenty fresh
+decisions at ten observed S37round10histories/five source blocks;zero new games.
+Normalized focal offer retain0.000/erase0.000,erase−retain+0.000 [+0.000, +0.000];
+paired t[+0.000, +0.000],upperp1.00000. No realized-worker-pay,
+coordination or memory-irrelevance claim. [Design](DESIGN_S40.md),
+[all twenty quotes and figure](results/s40_summary.md).
+
+```sh
+uv run python scripts/s40_replay.py --analyze
+uv run python scripts/s40_independent.py
+uv run python scripts/s40_present.py
+uv run python scripts/s40_release.py
+uv run python -m unittest scripts.test_s40
+```
+
+`uv run python scripts/s40_release.py --clean-clone` checks an origin clone
+with the installed frozen venv,not a fresh dependency installation.
+Future shared-source changes require a registered/result checkout in a separate
+worktree;do not weaken source-hash guards. Receipt logs/s40_launch.json must be
+committed with results; .writer.lock is already gitignored.
+
+S40 uncertainty: observed block SD=0 makes both bootstrap bounds and the t
+formula output[0,0] degenerate;they are not population-equivalence or calibrated
+zero-risk intervals. Archived-match and minimum-quote counts coincide here.

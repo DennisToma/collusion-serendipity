@@ -1,0 +1,112 @@
+{
+  "pilot": "S40",
+  "dry": false,
+  "deadline": "2026-10-25T03:30:00+00:00",
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "sources": {
+    "DESIGN_S40.md": "3f0c7bb6c2de9f7e57b783c5d09bffc13036c61e3e9b22c6aa36201af0db6891",
+    "scripts/s40_replay.py": "d40405648f4c8ac7b48ede712d98d9a7577101ffc7064665f0069275bb04c875",
+    "scripts/s40_independent.py": "26a2dc2259fde5c2b661b76b66795ad08405afb6dc64f5420c7b9151a143ac21",
+    "scripts/s40_present.py": "4097d64abb8e577e96da2e987d27b36884f6f04650eae7ac22ed96af8830d5cb",
+    "scripts/s40_release.py": "823322c4403b696bf0ba2c29c0c90ad5259fe795051ce1db931becc35ce188f7",
+    "scripts/test_s40.py": "1d8c8ef8dc0120523d35a3b1a69d1b5b6be7ecc1b97165a903655cc09f3c0228",
+    "scripts/s40_reviews.py": "f12739be783980d01a54231a79cd4f1ca849d5e64960c79564d6961f9db64a83",
+    "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+    "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+  },
+  "environment": {
+    "python": "3.12.15",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "cases_sha256": "f549c0a64adf144dda8146bbc4ec3a12a573026e592f9d0d7f564d5ce4848aa9",
+  "registration": {
+    "commit": "cc0652a1a43614fe3b1b7dd464972e589c6e37e8",
+    "remote": "cc0652a1a43614fe3b1b7dd464972e589c6e37e8",
+    "observed_utc": "2026-10-25T02:47:16.953247+00:00",
+    "server_time_attested": false,
+    "source_sha256": {
+      "DESIGN_S40.md": "3f0c7bb6c2de9f7e57b783c5d09bffc13036c61e3e9b22c6aa36201af0db6891",
+      "scripts/s40_replay.py": "d40405648f4c8ac7b48ede712d98d9a7577101ffc7064665f0069275bb04c875",
+      "scripts/s40_independent.py": "26a2dc2259fde5c2b661b76b66795ad08405afb6dc64f5420c7b9151a143ac21",
+      "scripts/s40_present.py": "4097d64abb8e577e96da2e987d27b36884f6f04650eae7ac22ed96af8830d5cb",
+      "scripts/s40_release.py": "823322c4403b696bf0ba2c29c0c90ad5259fe795051ce1db931becc35ce188f7",
+      "scripts/test_s40.py": "1d8c8ef8dc0120523d35a3b1a69d1b5b6be7ecc1b97165a903655cc09f3c0228",
+      "scripts/s40_reviews.py": "f12739be783980d01a54231a79cd4f1ca849d5e64960c79564d6961f9db64a83",
+      "scripts/s37_runtime.py": "174f25a8fcea689117fd84991c5005b5538696deb0fdfe4065d7799ea52d5183",
+      "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+      "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+      "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+      "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030",
+      "CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883"
+    },
+    "cases_sha256": "f549c0a64adf144dda8146bbc4ec3a12a573026e592f9d0d7f564d5ce4848aa9"
+  },
+  "runtime": {
+    "fingerprint": {
+      "referenced_inputs": {
+        "named_references": {
+          "CODEX_MANAGED_CONFIG": null,
+          "CODEX_MANAGED_CONFIG_FILE": null,
+          "NODE_EXTRA_CA_CERTS": null,
+          "SSL_CERT_FILE": null,
+          "SSL_CERT_DIR": null
+        },
+        "ancestor_instructions": {
+          "/home/factory/collusion/collusion-serendipity/AGENTS.md": null,
+          "/home/factory/collusion/collusion-serendipity/CLAUDE.md": "500c66ce6072c9fb3b9737b1c9db8df365bd46704decb5042ddbf1c5c87d8883",
+          "/home/factory/collusion/AGENTS.md": null,
+          "/home/factory/collusion/CLAUDE.md": null,
+          "/home/factory/AGENTS.md": null,
+          "/home/factory/CLAUDE.md": null,
+          "/home/AGENTS.md": null,
+          "/home/CLAUDE.md": null,
+          "/AGENTS.md": null,
+          "/CLAUDE.md": null,
+          "/tmp/AGENTS.md": null,
+          "/tmp/CLAUDE.md": null
+        }
+      },
+      "files": {
+        "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/bin/codex.js": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70",
+        "/home/factory/.nvm/versions/node/v24.22.0/bin/node": "67ca5783febb8bf85736c79fcdd92c8d6d465a0eb2a082672bcdfa76a506751c",
+        "/home/factory/.nvm/versions/node/v24.22.0/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex": "399ff69c431c066e40de318fba45c2b07f45a76b19939d247ee4828fc70c4215",
+        "/home/factory/.codex/config.toml": "cf0ea790b1028a5a11e08ea5250e2567e0d647e45d39ef21c6c4d72ad6531e5b",
+        "/home/factory/.codex/AGENTS.md": null,
+        "/etc/codex/config.toml": null,
+        "/etc/codex/managed_config.toml": null,
+        "/home/factory/.codex/auth.json": "21609fee43259055fda53be60b3fff3abdbb78c96748bd2133fa5a7cbe0d5c0b"
+      },
+      "environment_sha256": {
+        "PATH": "65f3936e7877c015e875fba620a4b8588f0df63bd9165dbe310602572ee15a4c",
+        "CODEX_HOME": null,
+        "OPENAI_BASE_URL": null,
+        "OPENAI_API_KEY": null,
+        "OPENAI_ORG_ID": null,
+        "OPENAI_PROJECT_ID": null,
+        "CODEX_API_KEY": null,
+        "CODEX_MANAGED_CONFIG": null,
+        "CODEX_MANAGED_CONFIG_FILE": null,
+        "TMPDIR": null,
+        "HOME": "4f9c067d619da894a96e9cb073407bd91a28d2b9f63e9af68828cdeb7db58c2d",
+        "NODE_OPTIONS": null,
+        "HTTP_PROXY": null,
+        "HTTPS_PROXY": null,
+        "ALL_PROXY": null,
+        "NO_PROXY": null,
+        "NODE_EXTRA_CA_CERTS": null,
+        "SSL_CERT_FILE": null,
+        "SSL_CERT_DIR": null
+      },
+      "scope": "Known local launcher/node/native/config/routing inputs only; no provider attestation or complete effective-configuration reconstruction"
+    },
+    "version": "codex-cli 0.163.0"
+  },
+  "source_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": false
+}

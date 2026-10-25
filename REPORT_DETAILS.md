@@ -505,7 +505,7 @@ new outcome,exclusion or mechanism claim. [Appendix](results/s29_action_text.md)
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
 <!-- S25 summary start -->
-**S25:** paired t95% **[+0.000, +0.000]**, upper sign-flip **p=1.00000**. Actual order compliance **10/10** action-first, **10/10** reason-first. Selected fixed histories; this tests requested output order, not hidden reasoning or collusion. [All decisions and figure](results/s25_summary.md).
+**S25:** paired t formula **[0, 0]** (degenerate; observed SD=0), upper sign-flip **p=1.00000**. Actual order compliance **10/10** action-first, **10/10** reason-first. Selected fixed histories; this tests requested output order, not hidden reasoning or collusion. [All decisions and figure](results/s25_summary.md).
 S25 backend tools were instruction-restricted but not disabled; tool-use transcripts were not retained. Prompt isolation is verified, actual tool non-use is unverified.
 <!-- S25 summary end -->
 
@@ -926,3 +926,48 @@ and referenced MCP/plugin executables,other effective settings,and transient
 changes reverted between checks. No complete attestation is claimed. Admission
 hashing is serialized;recorded local invocation overlap passed,without provider
 scheduling attestation. These limitations do not change the frozen screen.
+
+
+## S40 — Fixed-history private-note erasure (E)
+
+**S40:** ten fixed S37 final-round histories,twenty fresh stateless decisions. Normalized focal offer retain **0.000**, erase **0.000**; erase−retain **+0.000 [+0.000, +0.000]**, paired t formula **[0, 0]** (degenerate; observed SD=0), upper sign-flip **p=1.00000**; frozen **DUD**. Both fresh arms reproduced the minimum quote10 in all ten cases. The rival is not replayed,so these are offers,not worker payments. Public history still reveals earlier wages;this does not establish memory irrelevance or explain the original trajectory. Degenerate bounds are not population equivalence. [All quotes and figure](results/s40_summary.md).
+
+All ten S37 games contribute round10 for the first active-roster firm;five
+source seeds each average the coded/payroll case. Selection followed observed
+S37 floor behavior,but did not search actions or note semantics within games.
+Both outcome arms use fresh calls;archived actions serve only as context.
+Retain uses the exact source system/user request;erase empties only the private
+notepad array. Full public history and wage incentives remain fixed. Zero new
+games,zero tuning,no held-out or independent-replication claim.
+
+All20responses passed the strict contract without redraw or fallback. The
+complete archive validates source/case/request/response hashes,all prompt
+bindings,UTC chronology,schedule/concurrency,registered immutable Git baselines
+and prospective local-runtime guards. A separate implementation reconstructs
+20raw quotes/15blockcells/3sets3125bootstrap draws and32inclusive sign flips.
+Both source and replay CLI versions are0.163.0;the prospective known-input
+fingerprint differs only in PATH hash. Model identity/effective settings,actual
+tool non-use and transient reverted changes remain unattested.
+
+The2unit directional screen was fixed before calls;no subgroup,reverse or
+secondary promotion. Empty private notes alter length,availability and
+consistency with the complete-notepad promise together. Public history retains
+earlier actions,so this is a narrow request intervention,not a full memory
+erasure. One selected roster position per game and five source blocks limit
+transfer. Shared-helper accounting errors can lose text before wrapper return;
+such failures abort with no estimate. All20successful returned outputs are
+archived. Source S37 scientific files and archives remain unchanged.
+
+[Design](DESIGN_S40.md) · [Results](results/s40_memory.json) ·
+[All offers and figure](results/s40_summary.md). Reproduce with
+`uv run python scripts/s40_replay.py --analyze`,
+`uv run python scripts/s40_independent.py`,
+`uv run python scripts/s40_present.py`,
+`uv run python scripts/s40_release.py`.
+
+S40 final reviews: Codex independently parsed all20raw responses and checked
+source/registration/archive integrity;Opus had supplied text/results only. Both
+confirmed the frozen DUD. At observed block SD=0,the t formula collapses to[0,0];
+this is not a calibrated population t interval. Both bootstrap and t outputs
+are degenerate. Archived-match counts duplicate floor counts here because every
+archived selected quote is10. Local .writer.lock is already ignored by Git.

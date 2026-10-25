@@ -1,0 +1,200 @@
+{
+  "pilot": "S40",
+  "dry": false,
+  "n_cases": 10,
+  "n_source_blocks": 5,
+  "n_new_games": 0,
+  "n_fresh_decisions": 20,
+  "tuning_attempts": 0,
+  "source_cli_version": "codex-cli 0.163.0",
+  "replay_cli_version": "codex-cli 0.163.0",
+  "source_fingerprint_matches": false,
+  "model": "gpt-6-luna",
+  "backend": "codex",
+  "verdict": "DUD",
+  "primary": "erase_minus_retain_normalized_offer",
+  "metrics": {
+    "retain": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "erase": {
+      "mean": 0.0,
+      "mean_exact": "0",
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "ci95_exact": [
+        "0",
+        "0"
+      ],
+      "t95": [
+        0.0,
+        0.0
+      ],
+      "upper_signflip_p": 1.0,
+      "block_values": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "contrast": {
+    "mean": 0.0,
+    "mean_exact": "0",
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "ci95_exact": [
+      "0",
+      "0"
+    ],
+    "t95": [
+      0.0,
+      0.0
+    ],
+    "upper_signflip_p": 1.0,
+    "block_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "s37_24800_coded_B",
+      "seed": 24800,
+      "condition": "coded",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24800_payroll_B",
+      "seed": 24800,
+      "condition": "payroll",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24801_coded_A",
+      "seed": 24801,
+      "condition": "coded",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24801_payroll_A",
+      "seed": 24801,
+      "condition": "payroll",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24802_coded_A",
+      "seed": 24802,
+      "condition": "coded",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24802_payroll_A",
+      "seed": 24802,
+      "condition": "payroll",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24803_coded_A",
+      "seed": 24803,
+      "condition": "coded",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24803_payroll_A",
+      "seed": 24803,
+      "condition": "payroll",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24804_coded_B",
+      "seed": 24804,
+      "condition": "coded",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    },
+    {
+      "case_id": "s37_24804_payroll_B",
+      "seed": 24804,
+      "condition": "payroll",
+      "archived_quote": 10,
+      "quotes": {
+        "retain": 10,
+        "erase": 10
+      }
+    }
+  ],
+  "floor_counts": {
+    "retain": 10,
+    "erase": 10
+  },
+  "archived_match_counts": {
+    "retain": 10,
+    "erase": 10
+  }
+}

@@ -1,18 +1,17 @@
 # STATUS
 
-## Current state (2026-10-25T02:39:39.808981+00:00; Phase2, iteration27 IN PROGRESS)
-- Selected E/S40 after own/S37: fixed-history private-note erasure.
-- Ten S37 final-round cases/five source blocks;20fresh decisions planned,zero new games.
-- Primary normalized focal offer erase−retain;2unit screen frozen before calls.
-- Fresh retain controls;source archived actions are never comparison outcomes.
-- Exact public history/system preserved;empty note array is sole request difference.
-- Source S37 full replay/result exact;scientific sources/archives untouched.
-- Final12scoped/426canonical repository tests PASS;full dry20request replay PASS.
-- Original Codex/Opus design critics exit0;verifier/live-path fixes applied.
-- Separate raw-rate/15cell/3125bootstrap/32signflip synthetic verification PASS.
-- No live S40 calls,outcomes,tuning,pooling or sibling writes.
-- Critics completed;registered-source/setup/lock races fixed and tested.
-- Next:registration push,sole20decision launch;no paid S40outputs yet.
+## Current state (2026-10-25T02:48:43.586771+00:00; Phase2, iteration27 REVIEWED)
+- E/S40 complete:20fresh decisions/10fixed histories/5sourceblocks,zero new games.
+- Normalized focal offer retain0.000/erase0.000;difference+0.000 [+0.000, +0.000];frozenDUD.
+- Pairedt[+0.000, +0.000],upperp1.00000;block differences[0.0, 0.0, 0.0, 0.0, 0.0].
+- Floor counts/10:{'retain': 10, 'erase': 10};zero retries/failures.
+- Offer,not realized worker pay;public history retained;no memory-irrelevance claim.
+- Full20request/prompt/source/registration/runtime/UTC/schedule replay PASS.
+- Separate20quotes/15cells/3bootstrap+t/sign summaries PASS.
+- ScientificSHA903bdfcab56f;13registered sources unchanged.
+- Source S37 scientific files/archives unchanged;no pooling/tuning/sibling writes.
+- Post-live426tests childexit0;both final critics/parent exit0;cache-only release PASS.
+- Next:results push/origin clone,then fresh different axis;S39/S41 queued only.
 
 ## Log
 
@@ -383,3 +382,13 @@
 - 2026-10-25T02:39:39.808981+00:00: iteration27 read CLAUDE/PLAN/STATUS/DIRECTION/ledgers and both sibling report/state summaries. Selected E/S40 fixed-history private-note erasure after own/S37;20fresh decisions at10S37round10contexts/fiveblocks,zero new games. Retain uses exact source prompt;erase empties only private-note array. Registered primary is normalized focal offer,not realized wage;2unit directional screen,zero tuning. New own/S41 tick-size proposal queued only. Source S37 full replay/canonical result PASS. Original critics Codex/Opus exit0;fixed incomplete independent published-case verification,UTC/headroom replay,added mocked live/one-shot/runtime-drift coverage and explicit accounting-loss limitation. Initial7test missing-journal fixture error preserved and fixed;9scoped tests/423canonical tests PASS before final refinements. Patched critics/final synthetic replay in progress;no paid S40calls,outcomes or direction deviation.
 
 - 2026-10-25T02:47:05.974534+00:00: S40 final pre-live12protocol/426canonical tests PASS,childexit0. All13frozen source hashes match final synthetic archive;20requests/15raw blockcells/3sets3125bootstrap/32signflips independently reconstructed. Figure preview inspected. Original/patch/final Codex+Opus critics exit0;targeted Codex identified lost-writer failure-marker race,now fixed by owned-lock journaling and direct flock contention test. Registered source baselines use immutable Git objects;source-mismatch and lost-headroom tests prove zero paid calls. Runtime10check benchmark median.571s,max.594s;40checks estimate23.76s. Source/replay CLI both0.163.0;known fingerprint differs only PATH hash,not full provider identity. Auth-refresh/strict-parser/deadline abort risks accepted prospectively. No paid outcomes,tuning,pooling or sibling writes. Registration freeze/push and sole launch next.
+
+- 2026-10-25T02:47:35.751570+00:00: S40 registrationcc0652a1a43614fe3b1b7dd464972e589c6e37e8 pushed and observed remotely at2026-10-25T02:47:16.953247+00:00,before the sole foreground runner. All13source baselines bound to immutable registered Git objects;two case workers,source-block barriers,03:30UTC admission cutoff and20minute launch/first-admission gate. External exclusive launch receipt present;ledger registration reference finalized. No partial actions/notes/treatment effects inspected;no source edits or second pilot.
+
+- 2026-10-25T02:48:43.586771+00:00: S40 sole runner childexit0;20fresh decisions at10fixedcontexts/fiveblocks,zero new games/retries/failures. Retain0.000/erase0.000,difference+0.000 [+0.000, +0.000],t[+0.000, +0.000],upperp1.00000;frozenDUD. Full20request/prompt/source/registration/runtime/UTC/schedule/concurrency replay PASS. Separate20rawquotes/15blockcells/3sets3125bootstrap+t/32signflips PASS. All13registered sources and selected S37source files unchanged. No memory-irrelevance,mechanism,agreement,coordination,realized-wage or sibling-headline claim;no pooling/tuning/secondary promotion. Reports/HITS/README updated;final critics,post-live suite,figure,cache-only release and origin clone next.
+
+- 2026-10-25T02:49:59.676473+00:00: S40 figure inspected:all20fresh quotes10,all five paired differences0. Cache-only full release PASS;123local links resolve;main scientific result,summary,figure,REPORT byte-identical with model calls forbidden;seven archive files unchanged. All13frozen sources/all14selected source files unchanged;actual archived source/replay fingerprint differs only PATH hash. ScientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace. Final critics/post-live426suite running;no new science or source edits.
+
+- 2026-10-25T02:51:53.736397+00:00: S40 final critics Codex/Opus and parent exit0. Codex independently reconstructs20rawquotes/15blockcells/3sets3125bootstrap/32signflips and full archive integrity;Opus supplied-text/result-list scope explicit. Both confirm frozenDUD,not memory-irrelevance. Clarified degenerate t formula at SD0 and redundant archived-match/floor counts in nonfrozen reports without changing sources/results. Durable post-live426-test suite childexit0. Source/fingerprint/journal/provider limitations remain explicit. No scientific calls,tuning,pooling,secondary promotion,HIT,sibling writes or active generation/review. Final model-call-forbidden regeneration,results push and fresh origin clone next.
+
+- 2026-10-25T02:52:55.873643+00:00: S40 final call-forbidden regeneration PASS:all six primary artifacts byte-identical,seven archive files/13frozen scientific sources/14selected S37source files unchanged. ScientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace;123local links/cache-only release PASS. Post-live426tests childexit0;both final critics/parent exit0. No active generation/review or further scientific calls. git diff --check PASS. Results milestone commit/push then fresh origin clone next.
