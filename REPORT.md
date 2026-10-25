@@ -50,4 +50,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh own/other-world question after D; S34 inert-report schema salience is queued. S32 remains unconfirmed; S30 remains unrun.
+**Next:** S34 plain-versus-inert-report option is registered on fresh seeds; sources frozen before calls. S32 remains unconfirmed; S30 remains unrun.

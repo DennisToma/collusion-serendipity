@@ -1,19 +1,15 @@
 # STATUS
 
-## Current state (2026-10-25T00:32:03.355409+00:00; Phase2, iteration21 COMPLETE)
-- S33 reporting/amnesty:10games/5blocks,200valid decisions,zero retries/failures.
-- Baseline10/40 versus amnesty12/40 Y approvals;reduction-.050[-.175,.050].
-- Paired t[-.226964,.126964],upperp.875;frozen DUD,no HIT/backfire/causal-null claim.
-- Primary flags0vs29,no extra/waived charges;warmup1qualifying report enters history.
-- Exposure diagnostic POST-OUTCOME;no mechanism/intent/secondary promotion.
-- All200-key replay/20-source registration/export/timing/runtime checks PASS.
-- Separate70cells/21exact summaries/21sign tails/200action+note+reason bindings PASS.
-- Codex+Opus final critics exit0;all raw statistics/128stage cases externally checked.
-- Final289tests PASS;synthetic S21/S31/S33 clocks scoped,real archives unchanged.
-- Remotef9ac7f7:full289suite/seven artifacts byte-identical/clone clean.
-- Registrationad3cfff/results3c2e342 pushed;scientific SHA bf766e19 unchanged.
-- No active generation/review,HIT,tuning,pooling or sibling writes.
-- Next:fresh own/other-world;S34 inert-report salience queued,S30 unrun;risks n5/bundling.
+## Current state (2026-10-25T00:34:05.490996+00:00; Phase2, iteration22 IN PROGRESS)
+- S34 own-axis pilot registered:plain versus payoff-inert report wording/field.
+- Ten planned games/five fresh blocks24680..24684,T10,r3-10;no live calls yet.
+- Same stage payoffs/shared notes both arms;no schema-only or mechanism claim.
+- Primary plain-minus-flag Y approval rate;fixed .25/bootstrap/sign screen.
+- S33 remains DUD:10/40vs12/40,reduction-.050[-.175,.050],upperp.875.
+- All304tests/final dry200-key replay/50cells/15summary+sign checks PASS.
+- Codex+Opus design/patch critics disposed;20 sources ready to freeze/push.
+- Next:one-shot live run;no partial outcome inspection.
+- Risks:n5,uncontrolled model draws,salience bundle,possible fresh-control floor.
 
 ## Log
 
@@ -300,3 +296,7 @@
 - 2026-10-25T00:30:41.956929+00:00: original results3c2e342 remote clone passes all seven byte-identical artifacts/clean status. Found future mocked S33 fixture expiry;reproduced one expected deadline failure with zero calls,added runner-only scoped clock override and future13/13 pass. No registered source/test/deadline changes. Full post-polish suite caught one S25 presentation-anchor regression after prose move;restored the required paragraph,focused regression and corrected full289-test suite PASS. Original failed full-suite log retained as s33_final_suite_initial.log. Real S33 release with original clocks PASS;resultSHA unchanged. Revised remote coordinator will run complete289-test suite plus all reconstruction/diagnostic/render/release commands.
 
 - 2026-10-25T00:32:03.355409+00:00: revised origin-remote clone off9ac7f7b4263d1fe1a9c62a9f116eac744e0c300 PASS:full289-test canonical suite plus frozen analysis,separate reconstruction,figure/report rendering,post-outcome diagnostic and cache-only release. All seven published artifacts byte-identical;clone clean. Existing frozen dependency environment reused,not fresh installation. All20 registered source/test files and scientific resultSHA bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb unchanged. S33 source/result/negative-diagnostic ledgers complete;no promoted HIT or sibling writes. Iteration21 complete;publication receipts committed/pushed next.
+
+- 2026-10-25T00:34:05.490996+00:00: iteration22 read rules/plan/state/direction/ledger and both sibling summaries read-only. Selected queued own/S34 after D/S33;fresh ten-game inert-report option comparison registered before calls,unchanged stage economics,shared notes,strict condition-specific schemas. No S33 pooling,mechanism,HIT or direction deviation. Pre-live verification and methodology critics next.
+
+- 2026-10-25T00:39:42.552000+00:00: S34 both methodology critics exit0,patch Codex exit0. Accepted actual-transport pairing,strict positive overlap,timestamped exact preflight chronology/first-admission headroom,isolated mutation and persistent rejection tests;prospective new synthetic fixture clock fixed. Final15 scoped/full304 tests and dry200-key replay/independent50cells+15bootstrap+t summaries+15sign tails/all200action+note+reason bindings PASS. All20 sources recorded in readiness before outcomes;stage payoffs unchanged. Source freeze/push and one-shot run next. No live calls,tuning,pooling or sibling write.

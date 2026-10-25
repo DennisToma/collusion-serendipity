@@ -96,3 +96,8 @@ S33: five fresh paired blocks24640..24644;ten two-person shared-note workplace
 games,inert versus active private report flag with contingent sanctions/amnesty.
 T10,r3..10,200 planned decisions;exploratory,zero tuning,no held-out claim or
 pooling. Full design/source manifest committed/pushed before live outcomes.
+
+S34:five fresh paired blocks24680..24684;ten two-person shared-note workplace
+games,plain schema versus added payoff-inert report wording/boolean field.
+T10,r3..10,200planned decisions;exploratory,zero tuning,no held-out or pooling
+claim. Full design/source manifest frozen before live outcomes.

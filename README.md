@@ -824,3 +824,24 @@ Final origin-remote reproduction of f9ac7f7 passes the full289-test suite and
 all S33 reconstruction/render/diagnostic/release commands:seven published
 artifacts byte-identical,clone clean. Receipt:`logs/s33_remote_clean_clone.json`.
 Existing frozen dependency environment reused;not a new dependency install.
+
+## S34: payoff-inert report option (iteration22)
+
+Prospective exploratory plain-versus-inert-report comparison:
+[design](DESIGN_S34.md),five fresh blocks24680..24684,ten games,T10,r3..10.
+Both arms have identical stage payoffs and shared notes. The added report wording
+and boolean output field are bundled;there is no enforcement or isolated-schema
+mechanism claim. Internal plain report=False is structural,not an agent choice.
+
+Synthetic validation (temporary fixtures only):
+`uv run python -m unittest scripts.test_s34`.
+Freeze/commit/push sources before the one-shot launch:
+`uv run python scripts/s34_launch.py`.
+Finished archives only: `uv run python scripts/s34_analyze.py`,
+`uv run python scripts/s34_independent.py`,
+`uv run python scripts/s34_present.py`,
+`uv run python scripts/s34_release.py`.
+After pushing results: `uv run python scripts/s34_release.py --clean-clone`.
+The clean clone reuses the installed frozen dependency environment.
+Independent reconstruction is a separate arithmetic implementation adapted by the
+manager,not independent authorship or replication;critic review scopes are logged.
