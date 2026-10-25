@@ -1,13 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T05:09:46.267851+00:00; Phase2, iteration34 IN PROGRESS)
-- Selected own/S47 after C/S48:syntax-example rate0 versus20 at ten fixed S42histories.
-- Twenty fresh decisions/five sourceblocks;no newgames/tuning/pooling;registered2unit directional screen.
-- Same exact payoff table/history/warnings;only example numeral differs;outcome is focal offer.
-- Final20protocol/565canonical tests PASS;both design critics exit0;zero scientific calls.
-- New own/S49serialization idea queued;no direction deviation.
-- S48DUD:retain4/10,erase4/10;difference0[-.3,.3];n5/no equivalence.
-- Open limits:observed contexts,uncontrolled draws,service interference,effective settings unattested.
+## Current state (2026-10-25T05:14:52.716215+00:00; Phase2, iteration34 PUBLISHING)
+- S47(own):20fresh decisions/10observed S42contexts/5sourceblocks;zero newgames/tuning/retries/failures.
+- Example rate0 offer10.100/rate20 offer10.000;high-minus-low−.100[−.300,0] descriptive bootstrap.
+- Pairedt[−.377645,+.177645];upperp1/lowerp.5/two-sidedp1;frozen DUD,no HIT.
+- Four block ties/one−.5;archived quote matches9/10low,10/10high;not an outcome arm.
+- Only example numeral changes;identical table/history/warning;no mechanism/equivalence/wage claim.
+- Full source/registration/runtime/archive replay and separate20bindings/15cells/3statistics PASS.
+- Both design/final critics/parents exit0;565pre/post-live canonical tests PASS.
+- Registratione486abf pushed before calls;scientific sources frozen;no active generation.
+- Actual figure/release PASS;origin clone pending;source known local PATH hash differs.
+- Next:fresh different axis;S46/S39/S49proposals,S32unconfirmed,S30unrun;risks n5/draws/interference.
 
 ## Log
 
@@ -484,3 +487,9 @@
 - 2026-10-25T05:09:46.267851+00:00: iteration34 read CLAUDE/PLAN/STATUS/DIRECTION/experiment ledger and both sibling report/state summaries. Selected queued own/S47 JSON syntax-example values after C/S48;twenty fresh decisions at existing ten S42histories,no newgames. Two-unit directional rule fixed before calls;new own/S49one-hot serialization proposal logged. Initial20protocol tests PASS;Codex/Opus design reviews running. No DIRECTION deviation.
 
 - 2026-10-25T05:13:01.620866+00:00: S47 both methodology critics/parent exit0;source225key replay/result bytes and separate arithmetic PASS;all20protocol and565canonical tests PASS. Raw discovery had8failures/1error confined to known expired S21/S31/S33synthetic clocks;canonical runner uses established fixture-only overrides,real deadlines/sources unchanged. Corrected copied labels before final preflight;Codex raw/context/table review versus Opus supplied-text scope recorded. All13scientific sources and case manifest match final dry replay;no scientific outputs. Registration push then sole launch next.
+
+- 2026-10-25T05:13:25.475661+00:00: S47 registratione486abf8f645b24ff173fe1ca97c5d90fd25ee8a committed/pushed;sole one-shot runner started with2case workers and5block barriers. Scientific-source/case hashes frozen;no partial effect inspection.
+
+- 2026-10-25T05:14:52.716215+00:00: S47 sole runner finished20accepted decisions,zero retries/transport/parser/source/route/runtime failures. Low example10.100/high example10.000;high-minus-low-0.100[-0.3, 0.0];pairedt[-0.3776445105197793, 0.17764451051977934];upperp1.0;DUD;frozen DUD. All20raw bindings/15blockcells/3exact-bootstrap+t/all sign tails reproduced separately;full source/request/runtime/registration/time/schedule replay and supplemental publication audit PASS. Four block ties,one−.5;allcases shown. No scientific-source/threshold edits,tuning,pooling,secondary/reverse promotion or sibling writes. Reports/ledgers updated;final critics/post-live tests/figure/release next.
+
+- 2026-10-25T05:17:20.498468+00:00: S47 both final critics and parent exit0;Codex independent20rawbindings/15cells/3bootstrap+t/all sign tails/full-source/registration/schedule replay;Opus supplied-cell/code/text-only scope.565post-live canonical tests PASS with real scientific clocks unchanged. Actual figure inspected;model-call-forbidden regeneration byte-identical. Accepted REPORT fingerprint disclosure;only covered PATH hash differs,not provider attestation. No power/equivalence/mechanism inference or scientific-source edit. Results milestone push and fresh origin clone next.

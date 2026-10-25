@@ -1053,3 +1053,9 @@ resolution plus all-positive sign gate is stricter than the nominal magnitude
 threshold. Source/fresh exact-prompt disagreements do not separate stochastic
 draw variation,runtime drift or shared-service interference. Codex independently
 reconstructed the raw archive;Opus reviewed supplied result cells/code only.
+
+## Iteration34 — S47 output syntax examples
+
+| S47 · own, output example | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer low example **10.100**, high example **10.000**; high−low example **-0.100 [-0.300, +0.000]**. | **DUD** for two-unit increase screen |
+
+[Registered design](DESIGN_S47.md), [all cases/block results](results/s47_summary.md), [figure](figures/s47_example.png). Ten observed S42 histories across five source blocks, twenty fresh decisions, zero new games/tuning/pooling. Only the rate numeral in a valid syntax example changes; both arms have the same full ascending table and non-recommendation warning. Outcome is focal offer, not worker earnings. All original source quotes are context only. Source/replay known local fingerprints differ; full effective serving settings remain unattested. No mechanism, agreement, collusion, equivalence or population-prevalence claim. The main report retains the directional screen and limitations; arm-level generic sign-flip fields do not test the intervention.

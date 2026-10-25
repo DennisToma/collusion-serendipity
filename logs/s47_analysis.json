@@ -1,0 +1,33 @@
+{
+  "verdict": "DUD",
+  "contrast": {
+    "mean": -0.1,
+    "mean_exact": "-1/10",
+    "ci95": [
+      -0.3,
+      0.0
+    ],
+    "ci95_exact": [
+      "-3/10",
+      "0"
+    ],
+    "t95": [
+      -0.3776445105197793,
+      0.17764451051977934
+    ],
+    "upper_signflip_p": 1.0,
+    "lower_signflip_p": 0.5,
+    "two_sided_signflip_p": 1.0,
+    "block_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.5
+    ]
+  },
+  "floor_counts": {
+    "low_example": 0,
+    "high_example": 0
+  }
+}

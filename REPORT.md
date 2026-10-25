@@ -38,6 +38,7 @@
 | S45 · A5, marketplace reviews | 10 games /5 blocks. Unsupported recommendation rate r3–10: self **0.025**, shared **0.000**; difference **-0.025 [-0.075, 0.000]**. | **DUD** for directional screen |
 | S44 · own, payoff-row order | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer ascending **10.300**, descending **10.200**; descending−ascending **-0.100 [-0.300, +0.000]**. | **DUD** for one-unit increase screen |
 | S48 · C, partner-note deletion | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval retain **0.400**, erase **0.400**; retain−erase **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
+| S47 · own, output example | Ten S42 histories /5 blocks;20 fresh decisions. Focal offer low example **10.100**, high example **10.000**; high−low example **-0.100 [-0.300, +0.000]**. | **DUD** for two-unit increase screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -53,7 +54,6 @@ S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary co
 **S41:** Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375). Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested. [All outcomes and figure](results/s41_summary.md).
 <!-- S41 summary end -->
 
-
 Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
 
 Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible. Labor: initially two employers,value20,wages0..20,one passive divisible unit allocated to the highest wage. Integer-wage duopoly/control pure-Nash wages18–20;S41 half-unit pure-Nash wages19–20;S42 adds a third employer fromr6 in the entry arm,whose pure-Nash wages are19–20.
@@ -64,7 +64,7 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis pilot after C/S48. S46/S39/S47 are proposals; S32 unconfirmed and S30 unrun.
+**Next:** Fresh different-axis pilot after own/S47. S46/S39/S49 are proposals; S32 unconfirmed and S30 unrun.
 
 <!-- S44 summary start -->
 **S44:** paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Block differences: +0.00, -0.50, +0.00, +0.00, +0.00. Identical headers and payoff rows; only row sequence reverses. Focal offers, not realized worker pay; observed histories, uncontrolled model draws, n5. The directional screen does not exclude smaller or reverse effects and does not identify a mechanism. [Methods, all outcomes and figure](results/s44_summary.md).
@@ -76,4 +76,7 @@ Only the paired contrast sign-flip is a registered hypothesis; arm-level sign-fl
 Only the paired contrast is the registered hypothesis; generic arm-level sign-flip fields test against zero and carry no deletion-effect claim.
 <!-- S48 summary end -->
 
-**In progress:** S47 tests JSON syntax-example rate0 versus20 with otherwise identical prompts and payoff tables. Registered two-unit directional focal-offer screen;scientific outcomes pending.
+<!-- S47 summary start -->
+**S47:** A JSON syntax example with rate 0 versus 20 gave a high-minus-low focal-offer difference of **-0.100 [-0.300, +0.000]**; paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Both arms had the same payoff table, history and explicit non-recommendation warning. Four blocks tie; one differs by −0.5. The registered two-unit screen is DUD, with no equivalence, mechanism or realized-wage claim. Five observed source blocks and uncontrolled draws limit transfer. Known source/replay local fingerprints differ;both fresh arms share one frozen local runtime,with provider execution unattested. [All cases, methods and figure](results/s47_summary.md).
+Only the paired contrast is a registered hypothesis; generic arm-level sign-flip fields test against zero.
+<!-- S47 summary end -->

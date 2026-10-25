@@ -1195,7 +1195,7 @@ so equality of source and replay runtime cannot be established.
 Twenty fresh focal offers at ten observed S42 histories,example rate0 versus20;
 identical ascending payoff table and explicit non-recommendation warning.
 No new games,tuning,pooling or realized-worker-pay claim.
-[Design](DESIGN_S47.md). Registered before scientific calls.
+[Design](DESIGN_S47.md), [results](results/s47_summary.md), [figure](figures/s47_example.png). Registration `e486abf` pushed before scientific calls. Completed twenty decisions with zero retries/failures; frozen DUD for the two-unit screen.
 
 ```bash
 uv run --frozen python scripts/s47_replay.py --analyze

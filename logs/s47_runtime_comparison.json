@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "source": "S42 known local fingerprint",
+  "replay": "S47 frozen known local fingerprint",
+  "equal": false,
+  "differing_fields": {
+    "environment_sha256": [
+      "PATH"
+    ]
+  },
+  "note": "Only named covered local inputs;not proof of same provider behavior or full effective settings."
+}
