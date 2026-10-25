@@ -37,3 +37,26 @@ inspect archives. Their exact reviews are preserved next to this file.
 
 No live outcomes, tuning, threshold changes, pooling, exclusions or secondary
 promotion occurred during these changes. Historical frozen files were preserved.
+
+## Final claim reviews
+
+Both final critics exited0;no result-changing bug or scientific source edit.
+Codex independently reconstructed80raw metriccells,24exact-bootstrap/t summaries
+and all sign contrasts,then reproduced the full saved archive/result. It read
+no other final review. Opus checked supplied per-game result cells and code by
+hand;it did not see raw choices or run scripts. Scope is explicit in its review.
+
+- Fixed Codex's low-severity REPORT economics description: control/pre-entry
+  two-employer pure-Nash wages18–20;post-entry three-employer wages19–20.
+- Clarified Opus's weak advance-cue concern: “currently active” appears in both
+  arms,but no explicit entrant/round6 announcement occurs before entry.
+- Named additional known local-input coverage gaps in README. Kept the frozen
+  fingerprint and scientific source bytes unchanged.
+- Retained the prespecified aggregate offered-wage/regret tables rather than
+  adding a posthoc role-selection analysis. Their changing population is explicit;
+  paid-wage equality is not an all-action or all-behavior invariance claim.
+- Kept source/template-sharing,launch contention,auth refresh,strict parser,
+  crash-accounting,small-n,degenerate-bound and provider/tool-use limitations.
+
+Frozen DUD and every numerical result unchanged. No secondary promotion,HIT,
+new model calls,games,tuning,pooling,exclusions or sibling writes.

@@ -1,0 +1,14 @@
+S42’s **DUD verdict is correct**. I found no result-changing arithmetic, implementation, or screening bug. No edits or live model calls were made; I reconstructed arithmetic before reading verification logs and read no final critic reviews.
+
+- Independently rebuilt all **80 metric cells** from raw rate choices using rational two-/three-way tie shares; checked all **3,125 bootstrap resamples per summary**, exact interpolated bounds, paired-t formulas, and **32 sign flips per contrast**.
+- Primary r7–10 wages are **10 in both arms**, with five entry-minus-control differences of **0**. Bootstrap bounds **[0,0]**, upper sign-flip **p=1**.
+- Terminal wages and pre-entry r1–5 means are also 10 in both arms; difference-in-differences is zero. These remain descriptive diagnostics.
+- Confirmed entry at round6, no advance announcement, currently active rival visibility, entrant access to completed public history and an empty notepad. Both arms use identical strict parsing and self-only notes. Current-round actions/notes are withheld until all choices are collected, providing informational simultaneity despite sequential calls.
+- Full read-only replay reproduced the saved result, including request/response/admission hashes, source registration, environment, schedule, receipts, and canonical exports. Prospective guards compare a copied CLI baseline before admission and after responses, with completion checks. Interrupted or failed runs are barred from publication.
+- Economics enumeration confirms **3 duopoly** and **62 three-firm** pure Nash profiles. The frozen HIT rule and entry-minus-control direction are implemented correctly; no diagnostic is promoted.
+
+**Remaining defect — low severity:** [REPORT.md:46](/home/factory/collusion/collusion-serendipity/REPORT.md:46) describes labor games generically as two firms with Nash wages18–20. That description omits S42’s post-entry market. Remedy: explicitly distinguish control/pre-entry duopoly wages18–20 from post-entry three-firm wages19–20. The S42-specific paragraph and verdict are correct.
+
+**Acknowledged limitations:** Five blocks and zero observed variation do not establish population equivalence. Entry bundles competition, identities, prompt length, and subsequent histories. Sign-flip calibration requires assumptions beyond enumeration; low wages do not establish collusion. Profit complements wage, and per-firm diagnostics change population after entry.
+
+Provider execution/settings, actual tool non-use, complete effective configuration, and server-attested registration remain unverified. I inspected the tests but did not execute their filesystem-writing suite.

@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T02:59:10.427162+00:00; Phase2, iteration28 IN PROGRESS)
-- Selected B2/S42 surprise third-employer entry after E/S40;fresh10games/5blocks.
-- Entry fromr6 versus persistent duopoly;primary paid wage r7–10,entry−control.
-- Registered four-unit directional screen;225planned decisions,zero tuning.
-- Thirteen scoped tests/full225-key synthetic replay PASS;no live calls yet.
-- Exact arithmetic supports three-way ties;all80metriccells/24summaries checked.
-- Codex/Opus design critics exit0;fixes applied before calls,final source freeze ready.
-- S40 remains frozenDUD:20freshquotes10;no offer response to private-note erasure.
-- Existing scientific sources preserved;no pooling,held-out or coordination claim.
-- S42 risks:smalln,stochastic histories,identity/prompt-size/competition bundle.
-- Known CLI fingerprints only;provider/settings/tool use remain unattested.
-- Next:registrationpush,one live launch,fullreplay,report,commit/push.
+## Current state (2026-10-25T03:13:07.261365+00:00; Phase2, iteration28 RESULTS)
+- B2/S42 complete:10fresh games/5blocks;third employer joinsr6,control staysduopoly.
+- Paid wage r7–10:entry10.000/control10.000;difference+0.000 [+0.000, +0.000];upperp1.00000.
+- FrozenDUD;pairedt[+0.000,+0.000];zero tuning,pooling or verifiedcoordination.
+- Pre-entry means10.000/10.000;descriptiveDID+0.000[+0.000,+0.000].
+- 225cached responses;retries{'control': 0, 'entry': 0};no failures.
+- Full225decision replay/source/runtime/UTC/schedule/export validation PASS.
+- Separate80raw metriccells/24exactbootstrap+t summaries/24sign tails PASS.
+- Registrationbccab9f pushed;all22frozen sources preserved;no sibling writes.
+- Both finalcritics exit0;439post-live tests PASS;frozen DUD unchanged.
+- Risks:smalln,stochastic prehistories,entry/identities/prompt-length bundle.
+- Provider/effective settings/tool non-use unattested;no causalmechanism claim.
+- Next:final forbidden-call regeneration,results push,origin clone/handoff.
 
 ## Log
 
@@ -400,3 +401,11 @@
 - 2026-10-25T03:02:55.318418+00:00: S42 initial Codex/Opus methodology critics exit0. Fixed synthetic test expiry,added full mocked-live225-call eligibility/publication and atomic failure tests (13scoped PASS),highest-offer wording and parsed-UTC earliest start. Accepted prospective pre-entryr1–5 wage and post-minus-pre descriptive diagnostics;primaryr7–10/four-unit screen unchanged. Exact denominator720,independent80raw metriccells/24exactbootstrap+t summaries/24sign tails. Retained fail-closed auth-refresh/parser/one-shot policies with explicit operational/privacy/accounting limitations. Initial raw discovery435tests had8failures/1error solely from known expired historical fixtures;documented canonical runner439tests PASS,final amended fullsuite/dryarchive in progress. No scientific calls,source mutations to historical pilots,tuning,pooling or direction deviation.
 
 - 2026-10-25T03:03:43.323523+00:00: final S42 prechecks PASS with childexit0:439canonical repository tests,13scoped entry tests,complete225-key synthetic archive,all80independent raw metriccells/24exactbootstrap+t summaries/24sign tails,byte-identical repeated analysis,figure preview. All22registered source hashes match final precheck manifest. Runtimegate requires1175.459895seconds using conservative historical30calls/game;current headroom passes. Both design critics exit0,review disposition recorded;no live calls/outcomes. Registration commit/push and sole live launch next.
+
+- 2026-10-25T03:04:21.910393+00:00: S42 registrationbccab9f37e59a897b259a05048609a3907427a37 pushed and sole foreground live launcher started. Ledger registration reference finalized without editing any scientific source. Remote-registration observation and launch/first-admission headroom enforced by runner. Two gameworkers,per-seed barrier,04:15UTC admission cutoff. No partial actions,notes or treatment-effect inspection;no scientific source/threshold changes or second launch.
+
+- 2026-10-25T03:13:07.261365+00:00: S42 sole runner childexit0;all10games/225valid decisions complete with225cached responses,retries{'control': 0, 'entry': 0}. Full source/environment/registration/runtime/UTC/schedule/export/request/response replay PASS;independent80raw metriccells/24exactbootstrap+t summaries/24sign tails PASS. FrozenDUD:entry10.000/control10.000,difference+0.000 [+0.000, +0.000],pairedt[+0.000,+0.000],upperp1.00000. Registered pre-entry means10.000/10.000,descriptiveDID+0.000[+0.000,+0.000];no secondary promotion. Reports/HITS/README updated from frozen result. No source/threshold edits,new games,tuning,pooling,exclusions,verifiedcoordination,sibling writes or direction deviation. Finalcritics/post-live tests/figure/release next.
+
+- 2026-10-25T03:14:43.065672+00:00: S42 figure inspected:allfive paired paid-wage means overlay at10;no population-equivalence inference. Durable post-live439canonical tests childexit0;all20archivefiles/22frozen sources unchanged. Cache-only release PASS,all125local links resolve;explicit call-forbidden regeneration preserves allsix primary artifacts byte-for-byte,including canonical result56856f0c41ab8a534c8d673e82ff2f1c2d96f223b436287fb5c007ea9af119d4. Both finalcritics running. FrozenDUD,no HIT,tuning,pooling,secondary promotion or source edits;no active generation. Results push and fresh origin clone follow final reviews.
+
+- 2026-10-25T03:16:51.489462+00:00: S42 final Codex/Opus critics and parent exit0. Codex independently reconstructs80raw metriccells/all24exactbootstrap+t summaries/32signflips per contrast and complete archive/result;Opus explicitly supplied-per-game/code hand-check scope,no raw choices or code execution. Both confirm frozenDUD,no result-changing bug. Fixed generic REPORT economics to distinguish two-employer Nash18–20 from post-entry three-employer19–20;clarified “currently active” wording in both arms and local-input gaps. Prespecified aggregate secondary tables remain descriptive;no all-action-invariance,mechanism,coordination or population-equivalence claim. No scientific source/results edits or active generation/review. Final regeneration,results push and fresh origin clone next.

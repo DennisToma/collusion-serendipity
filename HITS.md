@@ -443,3 +443,20 @@ Reproduce:`uv run python scripts/s40_release.py`.
 S40 uncertainty: observed block SD=0 makes both bootstrap bounds and the t
 formula output[0,0] degenerate;they are not population-equivalence or calibrated
 zero-risk intervals. Archived-match and minimum-quote counts coincide here.
+
+
+**S42: unpromoted DUD, surprise employer entry (B2).**
+Ten fresh labor games/five paired blocks. Third employer joins at round6;
+primaryr7–10 entry10.000/duopoly10.000,
+entry−control+0.000 [+0.000, +0.000];pairedt[+0.000,+0.000],upperp1.00000.
+Pre-entry means10.000/10.000;registered descriptive
+DID+0.000[+0.000,+0.000].
+All five differences:[0.0, 0.0, 0.0, 0.0, 0.0];zero tuning/no pooling.
+Entry changes legitimate competition and prompt roster;no verified agreement,
+coordination,isolated mechanism or sibling headline change. Both siblings:
+market structure can test a level screen's specificity;this pilot alone cannot
+label collusion. Small-n/bootstrap/t/sign limitations remain.
+[Design](DESIGN_S42.md), [all eight outcomes/figure](results/s42_summary.md).
+Reproduce: `uv run python scripts/s42_analyze.py`;
+`uv run python scripts/s42_independent.py`; `uv run python scripts/s42_present.py`;
+`uv run python scripts/s42_release.py`.

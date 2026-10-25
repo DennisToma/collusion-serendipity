@@ -1053,3 +1053,30 @@ and logs/s40_remote_exit.json. The clone reuses the installed frozen venv.
 Local post-live426tests childexit0,both final critics exit0;Codex independently
 read raw archives,Opus used supplied result lists/text only. Scientific result
 SHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace unchanged.
+
+
+S42 surprise employer entry completed: **DUD**. Ten fresh games/five
+blocks;entry fromr6 versus persistent duopoly. Primary paid wage r7–10:
+entry10.000/control10.000,difference+0.000 [+0.000, +0.000],
+pairedt[+0.000,+0.000],upperp1.00000. No coordination or isolated
+mechanism claim;pre-entry and DID diagnostics stay descriptive.
+
+```sh
+uv run python scripts/s42_analyze.py
+uv run python scripts/s42_independent.py
+uv run python scripts/s42_present.py
+uv run python scripts/s42_release.py
+uv run python -m unittest scripts.test_s42
+uv run python scripts/run_tests.py
+```
+
+`uv run python scripts/s42_release.py --clean-clone` checks a fresh origin clone
+using the installed frozen venv. Frozen scientific sources require their original
+checkout if shared dependencies later change. No interrupted resume or new calls.
+
+S42 local-input fingerprints do not cover every profile,prompt,skill,override or
+referenced configuration file under CODEX_HOME. No complete effective-settings
+or provider/tool-use attestation. The “currently active” phrase occurs in both
+arms before entry;the round6 addition is not explicitly preannounced. Offered-wage
+and regret diagnostics average different actor populations;paid-wage equality
+does not mean every submitted quote or behavior is unchanged.

@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-25T03:13:14.416733+00:00",
+  "ended_utc": "2026-10-25T03:14:17.090804+00:00",
+  "child_exit_code": 0,
+  "summary": {
+    "passed": true,
+    "tests": 439,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "legacy_s31_synthetic_clock": {
+      "modules": [
+        "test_s31"
+      ],
+      "tests": 12,
+      "now": "2026-10-24T23:29:00+00:00",
+      "source_files_modified": false
+    },
+    "s33_synthetic_clock": {
+      "modules": [
+        "test_s33"
+      ],
+      "tests": 13,
+      "now": "2026-10-25T00:20:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "archive_files_unchanged": 20,
+  "scientific_sources_unchanged": 22,
+  "log": "/var/tmp/s42_postlive_tests.log"
+}

@@ -971,3 +971,15 @@ confirmed the frozen DUD. At observed block SD=0,the t formula collapses to[0,0]
 this is not a calibrated population t interval. Both bootstrap and t outputs
 are degenerate. Archived-match counts duplicate floor counts here because every
 archived selected quote is10. Local .writer.lock is already ignored by Git.
+
+
+## S42 — Surprise employer entry
+
+Frozen DUD;entry−control paid wage r7–10 +0.000 [+0.000, +0.000];pairedt[+0.000,+0.000];upperp1.00000.
+
+[Design](DESIGN_S42.md), [all eight outcomes/figure](results/s42_summary.md).
+Reproduce: `uv run python scripts/s42_analyze.py`;
+`uv run python scripts/s42_independent.py`; `uv run python scripts/s42_present.py`;
+`uv run python scripts/s42_release.py`.
+
+Pre-entry wage and difference-in-differences are registered descriptive checks;no secondary promotion.
