@@ -1,0 +1,5805 @@
+{
+  "counts": {
+    "individual": {
+      "both_y": 9,
+      "costly_y_approvals": 9,
+      "missed_x": 0,
+      "organization_loss": 90,
+      "pair_shortfall": 124.0,
+      "profitable_y_rejections": 0,
+      "stage_regret": 18.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 40,
+      "y_approvals": 9,
+      "y_opportunities": 40
+    },
+    "pooled": {
+      "both_y": 9,
+      "costly_y_approvals": 0,
+      "missed_x": 0,
+      "organization_loss": 200,
+      "pair_shortfall": 80.0,
+      "profitable_y_rejections": 20,
+      "stage_regret": 40.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 40,
+      "y_approvals": 20,
+      "y_opportunities": 40
+    }
+  },
+  "games": [
+    {
+      "condition": "individual",
+      "opportunities": {
+        "both_y": 1,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25340,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 0,
+        "pair_shortfall": 32.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 0.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 0
+      }
+    },
+    {
+      "condition": "pooled",
+      "opportunities": {
+        "both_y": 1,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25340,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 40,
+        "pair_shortfall": 16.0,
+        "profitable_y_rejections": 4,
+        "stage_regret": 8.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 4
+      }
+    },
+    {
+      "condition": "individual",
+      "opportunities": {
+        "both_y": 1,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25341,
+      "totals": {
+        "costly_y_approvals": 4,
+        "missed_x": 0,
+        "organization_loss": 40,
+        "pair_shortfall": 16.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 8.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 4
+      }
+    },
+    {
+      "condition": "pooled",
+      "opportunities": {
+        "both_y": 1,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25341,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 80,
+        "pair_shortfall": 0.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 0.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 8
+      }
+    },
+    {
+      "condition": "individual",
+      "opportunities": {
+        "both_y": 2,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25342,
+      "totals": {
+        "costly_y_approvals": 2,
+        "missed_x": 0,
+        "organization_loss": 20,
+        "pair_shortfall": 24.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 4.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 2
+      }
+    },
+    {
+      "condition": "pooled",
+      "opportunities": {
+        "both_y": 2,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25342,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 40,
+        "pair_shortfall": 16.0,
+        "profitable_y_rejections": 4,
+        "stage_regret": 8.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 4
+      }
+    },
+    {
+      "condition": "individual",
+      "opportunities": {
+        "both_y": 3,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25343,
+      "totals": {
+        "costly_y_approvals": 2,
+        "missed_x": 0,
+        "organization_loss": 20,
+        "pair_shortfall": 24.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 4.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 2
+      }
+    },
+    {
+      "condition": "pooled",
+      "opportunities": {
+        "both_y": 3,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25343,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 0,
+        "pair_shortfall": 32.0,
+        "profitable_y_rejections": 8,
+        "stage_regret": 16.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 0
+      }
+    },
+    {
+      "condition": "individual",
+      "opportunities": {
+        "both_y": 2,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25344,
+      "totals": {
+        "costly_y_approvals": 1,
+        "missed_x": 0,
+        "organization_loss": 10,
+        "pair_shortfall": 28.0,
+        "profitable_y_rejections": 0,
+        "stage_regret": 2.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 1
+      }
+    },
+    {
+      "condition": "pooled",
+      "opportunities": {
+        "both_y": 2,
+        "x_opportunities": 8,
+        "y_opportunities": 8
+      },
+      "seed": 25344,
+      "totals": {
+        "costly_y_approvals": 0,
+        "missed_x": 0,
+        "organization_loss": 40,
+        "pair_shortfall": 16.0,
+        "profitable_y_rejections": 4,
+        "stage_regret": 8.0,
+        "strict_pareto_rounds": 0,
+        "y_approvals": 4
+      }
+    }
+  ],
+  "id": "S67",
+  "metrics": {
+    "costly_y_approvals": {
+      "difference": {
+        "block_values": [
+          0.0,
+          -0.5,
+          -0.25,
+          -0.25,
+          -0.125
+        ],
+        "ci95": [
+          -0.375,
+          -0.1
+        ],
+        "ci95_exact": [
+          "-3/8",
+          "-1/10"
+        ],
+        "mean": -0.225,
+        "mean_exact": "-9/40",
+        "t95": [
+          -0.4552106666239977,
+          0.0052106666239976895
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          0.5,
+          0.25,
+          0.25,
+          0.125
+        ],
+        "ci95": [
+          0.1,
+          0.375
+        ],
+        "ci95_exact": [
+          "1/10",
+          "3/8"
+        ],
+        "mean": 0.225,
+        "mean_exact": "9/40",
+        "t95": [
+          -0.0052106666239976895,
+          0.4552106666239977
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "missed_x": {
+      "difference": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "organization_loss": {
+      "difference": {
+        "block_values": [
+          5.0,
+          5.0,
+          2.5,
+          -2.5,
+          3.75
+        ],
+        "ci95": [
+          0.0,
+          4.75
+        ],
+        "ci95_exact": [
+          "0",
+          "19/4"
+        ],
+        "mean": 2.75,
+        "mean_exact": "11/4",
+        "t95": [
+          -1.114648028018531,
+          6.6146480280185305
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          5.0,
+          2.5,
+          2.5,
+          1.25
+        ],
+        "ci95": [
+          1.0,
+          3.75
+        ],
+        "ci95_exact": [
+          "1",
+          "15/4"
+        ],
+        "mean": 2.25,
+        "mean_exact": "9/4",
+        "t95": [
+          -0.05210666623997673,
+          4.552106666239977
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          5.0,
+          10.0,
+          5.0,
+          0.0,
+          5.0
+        ],
+        "ci95": [
+          2.0,
+          8.0
+        ],
+        "ci95_exact": [
+          "2",
+          "8"
+        ],
+        "mean": 5.0,
+        "mean_exact": "5",
+        "t95": [
+          0.6100548345745862,
+          9.389945165425413
+        ]
+      }
+    },
+    "pair_shortfall": {
+      "difference": {
+        "block_values": [
+          -2.0,
+          -2.0,
+          -1.0,
+          1.0,
+          -1.5
+        ],
+        "ci95": [
+          -1.9,
+          0.0
+        ],
+        "ci95_exact": [
+          "-19/10",
+          "0"
+        ],
+        "mean": -1.1,
+        "mean_exact": "-11/10",
+        "t95": [
+          -2.6458592112074126,
+          0.44585921120741245
+        ]
+      },
+      "individual": {
+        "block_values": [
+          4.0,
+          2.0,
+          3.0,
+          3.0,
+          3.5
+        ],
+        "ci95": [
+          2.5,
+          3.6
+        ],
+        "ci95_exact": [
+          "5/2",
+          "18/5"
+        ],
+        "mean": 3.1,
+        "mean_exact": "31/10",
+        "t95": [
+          2.1791573335040093,
+          4.020842666495991
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          2.0,
+          0.0,
+          2.0,
+          4.0,
+          2.0
+        ],
+        "ci95": [
+          0.8,
+          3.2
+        ],
+        "ci95_exact": [
+          "4/5",
+          "16/5"
+        ],
+        "mean": 2.0,
+        "mean_exact": "2",
+        "t95": [
+          0.2440219338298344,
+          3.7559780661701656
+        ]
+      }
+    },
+    "profitable_y_rejections": {
+      "difference": {
+        "block_values": [
+          0.5,
+          0.0,
+          0.5,
+          1.0,
+          0.5
+        ],
+        "ci95": [
+          0.2,
+          0.8
+        ],
+        "ci95_exact": [
+          "1/5",
+          "4/5"
+        ],
+        "mean": 0.5,
+        "mean_exact": "1/2",
+        "t95": [
+          0.0610054834574586,
+          0.9389945165425414
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          0.5,
+          0.0,
+          0.5,
+          1.0,
+          0.5
+        ],
+        "ci95": [
+          0.2,
+          0.8
+        ],
+        "ci95_exact": [
+          "1/5",
+          "4/5"
+        ],
+        "mean": 0.5,
+        "mean_exact": "1/2",
+        "t95": [
+          0.0610054834574586,
+          0.9389945165425414
+        ]
+      }
+    },
+    "stage_regret": {
+      "difference": {
+        "block_values": [
+          1.0,
+          -1.0,
+          0.5,
+          1.5,
+          0.75
+        ],
+        "ci95": [
+          -0.3,
+          1.2
+        ],
+        "ci95_exact": [
+          "-3/10",
+          "6/5"
+        ],
+        "mean": 0.55,
+        "mean_exact": "11/20",
+        "t95": [
+          -0.6197371146699497,
+          1.7197371146699498
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          1.0,
+          0.5,
+          0.5,
+          0.25
+        ],
+        "ci95": [
+          0.2,
+          0.75
+        ],
+        "ci95_exact": [
+          "1/5",
+          "3/4"
+        ],
+        "mean": 0.45,
+        "mean_exact": "9/20",
+        "t95": [
+          -0.010421333247995379,
+          0.9104213332479953
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          1.0,
+          0.0,
+          1.0,
+          2.0,
+          1.0
+        ],
+        "ci95": [
+          0.4,
+          1.6
+        ],
+        "ci95_exact": [
+          "2/5",
+          "8/5"
+        ],
+        "mean": 1.0,
+        "mean_exact": "1",
+        "t95": [
+          0.1220109669149172,
+          1.8779890330850828
+        ]
+      }
+    },
+    "strict_pareto_rounds": {
+      "difference": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "ci95_exact": [
+          "0",
+          "0"
+        ],
+        "mean": 0.0,
+        "mean_exact": "0",
+        "t95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "y_approvals": {
+      "difference": {
+        "block_values": [
+          0.5,
+          0.5,
+          0.25,
+          -0.25,
+          0.375
+        ],
+        "ci95": [
+          0.0,
+          0.475
+        ],
+        "ci95_exact": [
+          "0",
+          "19/40"
+        ],
+        "mean": 0.275,
+        "mean_exact": "11/40",
+        "t95": [
+          -0.11146480280185311,
+          0.6614648028018532
+        ]
+      },
+      "individual": {
+        "block_values": [
+          0.0,
+          0.5,
+          0.25,
+          0.25,
+          0.125
+        ],
+        "ci95": [
+          0.1,
+          0.375
+        ],
+        "ci95_exact": [
+          "1/10",
+          "3/8"
+        ],
+        "mean": 0.225,
+        "mean_exact": "9/40",
+        "t95": [
+          -0.0052106666239976895,
+          0.4552106666239977
+        ]
+      },
+      "pooled": {
+        "block_values": [
+          0.5,
+          1.0,
+          0.5,
+          0.0,
+          0.5
+        ],
+        "ci95": [
+          0.2,
+          0.8
+        ],
+        "ci95_exact": [
+          "1/5",
+          "4/5"
+        ],
+        "mean": 0.5,
+        "mean_exact": "1/2",
+        "t95": [
+          0.0610054834574586,
+          0.9389945165425414
+        ]
+      }
+    }
+  },
+  "n_blocks": 5,
+  "new_games": 0,
+  "posthoc": true,
+  "primary_rounds": "3..10",
+  "registration_receipt": {
+    "commit": "03aebc9d9ff2079d37c73b2d9799fe001e8491a0",
+    "observed_utc": "2026-10-25T10:25:30.537060+00:00",
+    "remote_main": "03aebc9d9ff2079d37c73b2d9799fe001e8491a0",
+    "server_time_attested": false
+  },
+  "registration_sha256": "d201e527cdf899048edc78dff3a2d62ebe6d4ee77d56fba04c35e49f814ec58b",
+  "rounds": [
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 3,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": true
+      },
+      "allocated": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 4,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 5,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 6,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": true
+      },
+      "allocated": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 7,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": true
+      },
+      "allocated": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 8,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": false
+      },
+      "allocated": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 9,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 10,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 3.5,
+        "C": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 2.0
+      },
+      "round": 3,
+      "seed": 25340,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 4,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 3.5,
+        "C": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 2.0
+      },
+      "round": 5,
+      "seed": 25340,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 6,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 7,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 8,
+      "seed": 25340,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": -2.0,
+        "C": 6.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 2.0,
+        "C": 2.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 4.0,
+        "C": 4.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 2.0
+      },
+      "round": 9,
+      "seed": 25340,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 3.5,
+        "C": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 2.0
+      },
+      "round": 10,
+      "seed": 25340,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "round": 3,
+      "seed": 25341,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 4,
+      "seed": 25341,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 6,
+      "seed": 25341,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 8,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 9,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 10,
+      "seed": 25341,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 3,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 4,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 6,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 20,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 8,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 2,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 9,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 10,
+      "seed": 25341,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 3,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 4,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25342,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 6,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25342,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 8,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 9,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 10,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "round": 3,
+      "seed": 25342,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 4,
+      "seed": 25342,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 6,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 8,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 9,
+      "seed": 25342,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 10,
+      "seed": 25342,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 3,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 4,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 6,
+      "seed": 25343,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25343,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 8,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 9,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 10,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 3,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "round": 4,
+      "seed": 25343,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 5,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "round": 6,
+      "seed": 25343,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "round": 7,
+      "seed": 25343,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "round": 8,
+      "seed": 25343,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "round": 9,
+      "seed": 25343,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "round": 10,
+      "seed": 25343,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": true
+      },
+      "allocated": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 3,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 4,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 5,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 6.0,
+        "C": 1.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 2.0,
+        "C": 0.0
+      },
+      "round": 6,
+      "seed": 25344,
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 7,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": false
+      },
+      "allocated": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 8,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": false
+      },
+      "allocated": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "nash_actions": {
+        "B": false,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 9,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": false
+      },
+      "allocated": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 1.0,
+        "C": 6.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 10,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 3,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 4,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 5,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 4.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 6,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 7.0,
+        "C": 7.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": true,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 7,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": false
+      },
+      "allocated": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 4.0,
+        "C": 4.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "B": 2.0,
+        "C": 2.0
+      },
+      "round": 8,
+      "seed": 25344,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": false,
+        "C": false
+      },
+      "allocated": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 4.0,
+        "C": 4.0
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "B": false,
+        "C": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "B": 2.0,
+        "C": 2.0
+      },
+      "round": 9,
+      "seed": 25344,
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "B": true,
+        "C": true
+      },
+      "allocated": {
+        "B": 7.0,
+        "C": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "B": 5.5,
+        "C": 5.5
+      },
+      "nash_actions": {
+        "B": true,
+        "C": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "B": false,
+        "C": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "B": 0.0,
+        "C": 0.0
+      },
+      "round": 10,
+      "seed": 25344,
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    }
+  ],
+  "scientific_model_calls": 0,
+  "source_calibration": "UNRESOLVED",
+  "source_validation": {
+    "bootstrap_intervals": 15,
+    "checked_initial_prompts": 20,
+    "constant_system_groups": 20,
+    "note_snapshots": 200,
+    "passed": true,
+    "raw_auxiliary_bindings": 200,
+    "raw_metric_cells": 50,
+    "rejections": {
+      "individual": 0,
+      "pooled": 0
+    },
+    "saved_request_histories": 200,
+    "sign_tests": 15,
+    "t_intervals": 15,
+    "verdict": "ODD"
+  },
+  "stage_table": [
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "both_y": 1,
+      "condition": "individual",
+      "costly_y_approvals": 2,
+      "final": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": false
+      },
+      "organization_loss": 20,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 1,
+      "x_opportunities": 0,
+      "y_approvals": 2,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 11.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "stage_regret": 1.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 1.0,
+        "B": 2.0
+      },
+      "stage_regret": 3.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": false
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 11.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 1.0
+      },
+      "stage_regret": 1.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 1.0
+      },
+      "stage_regret": 3.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 1,
+      "final": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "nash_actions": {
+        "A": false,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 2,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 14.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 1.0,
+        "B": 1.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 1.0,
+        "B": 0.0
+      },
+      "stage_regret": 1.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 1.0
+      },
+      "stage_regret": 1.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "individual",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 8.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 2,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "stage_regret": 4.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 0,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 1,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "both_y": 1,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 4.0,
+        "B": 4.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 20,
+      "pair_max_bonus": 8.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 0,
+      "y_approvals": 2,
+      "y_opportunities": 2
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 11.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 3.5,
+        "B": 2.0
+      },
+      "stage_regret": 5.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": -2.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 3.5,
+        "B": 0.0
+      },
+      "stage_regret": 3.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 2.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 4.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": false,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 11.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 3.5
+      },
+      "stage_regret": 5.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 4.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 1,
+      "regret_by_agent": {
+        "A": 2.0,
+        "B": 0.0
+      },
+      "stage_regret": 2.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 0,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": -2.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 2.0,
+        "B": 2.0
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 3.5
+      },
+      "stage_regret": 3.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 4.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 5.5,
+        "B": 5.5
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 10,
+      "pair_max_bonus": 11.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": false
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 1,
+      "y_approvals": 1,
+      "y_opportunities": 1
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": false
+      },
+      "allocated": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "missed_x": 2,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 14.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "stage_regret": 7.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": false,
+        "B": true
+      },
+      "allocated": {
+        "A": 6.0,
+        "B": 1.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 3.5,
+        "B": 0.0
+      },
+      "stage_regret": 3.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": false
+      },
+      "allocated": {
+        "A": 1.0,
+        "B": 6.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 3.5,
+        "B": 3.5
+      },
+      "missed_x": 1,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 7.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 3.5
+      },
+      "stage_regret": 3.5,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    },
+    {
+      "actions": {
+        "A": true,
+        "B": true
+      },
+      "allocated": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "both_y": 0,
+      "condition": "pooled",
+      "costly_y_approvals": 0,
+      "final": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "missed_x": 0,
+      "nash": {
+        "A": 7.0,
+        "B": 7.0
+      },
+      "nash_actions": {
+        "A": true,
+        "B": true
+      },
+      "organization_loss": 0,
+      "pair_max_bonus": 14.0,
+      "pair_shortfall": 0.0,
+      "passed": {
+        "A": true,
+        "B": true
+      },
+      "profitable_y_rejections": 0,
+      "regret_by_agent": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "stage_regret": 0.0,
+      "strict_pareto_rounds": 0,
+      "x_opportunities": 2,
+      "y_approvals": 0,
+      "y_opportunities": 0
+    }
+  ],
+  "tuning_attempts": 0,
+  "verdict": "ODD/context-only"
+}

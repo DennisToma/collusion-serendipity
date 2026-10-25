@@ -1,0 +1,10 @@
+{
+  "authorship": "Separate implementation by same manager; independent critics recorded separately",
+  "bootstrap_and_t_summaries": 24,
+  "game_metric_cells": 80,
+  "passed": true,
+  "primary_rounds": 80,
+  "raw_action_note_reason_bindings": 200,
+  "stage_profiles": 32,
+  "unilateral_deviations": 64
+}

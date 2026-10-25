@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "files": [
+    "REPORT.md",
+    "REPORT_DETAILS.md",
+    "HITS.md",
+    "README.md",
+    "results/s67_summary.md",
+    "results/s67_opportunity_context.md"
+  ],
+  "local_links_checked": 465
+}

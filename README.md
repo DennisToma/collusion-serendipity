@@ -1452,3 +1452,23 @@ uv run python scripts/s65_focused_tests.py
 The release forbids model calls, reconstructs every request/action and all outcomes, verifies byte-identical results and rendered claims. Use the results commit for exact document reproduction; existing pinned venv required.
 
 Current publication canonical suite: `uv run python scripts/s65_tests.py`. Named historical synthetic fixtures are scoped to tests; actual archive checks are unpatched.
+
+## S67: archived S65 stage-incentive accounting
+
+[Design](DESIGN_S67.md) · [All eight measures and limits](results/s67_summary.md) · [Figure](figures/s67_incentives.png).
+
+POST-HOC descriptive audit; zero new seller/auditor trajectories. Uses all ten original S65 games. The release validates pushed registration/source hashes, preserves older scientific artifacts, replays S65, and verifies separate raw/statistical reconstruction before publishing deterministic outputs. The actual replay llm.chat transport is patched; this is not OS network/process isolation. The existing pinned environment is reused; no fresh-install claim.
+
+```bash
+uv run --frozen python scripts/s67_audit.py release
+uv run --frozen python scripts/s67_independent.py
+uv run --frozen python -m unittest scripts.test_s67
+uv run --frozen python scripts/s67_integrity.py
+uv run --frozen python scripts/s67_documents.py --check
+```
+
+`scripts/s67_clone.py` additionally reproduces a pushed result revision in a fresh full-history origin clone. The freeze/register-remote commands are one-time registration steps and must not be repeated.
+
+S67 post-review opportunity display: [counts and limits](results/s67_opportunity_context.md). Check with `uv run --frozen python scripts/s67_context.py --check`. Core registered analysis and result bytes remain unchanged.
+
+S67 actual verifier mutation and exact older-row checks: `uv run --frozen python scripts/s67_postreview_check.py`. Its eight scientific-record mutations stay in memory.

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "actual_verifier_rejected": [
+    "round_bonus",
+    "game_total",
+    "exact_endpoint",
+    "aggregate_loss",
+    "missing_metric",
+    "stage_regret",
+    "opportunity",
+    "pareto_count"
+  ],
+  "mutations_in_memory_only": true,
+  "original_scientific_bytes_unchanged": true,
+  "prior_pilot_rows_exact_line_match": 48,
+  "extended_older_row_rejected": true,
+  "source_input_hashes_checked": 50,
+  "older_scientific_paths_checked": 1371,
+  "unique_frozen_paths": 1384
+}

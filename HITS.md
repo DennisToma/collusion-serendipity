@@ -649,3 +649,13 @@ For both siblings: no confirmation trigger or headline change unless a frozen HI
 TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
 
 Equal pooling makes TYPE-Y approval profitable to each reviewer. Economic calibration only, not agreement/intent/collusion evidence; no confirmation request or sibling headline change. [Details and reproduction](results/s65_summary.md).
+
+## S67 — Unpromoted settlement-aware accounting
+
+**Latest — S67 (post hoc):** Of S65's Y approvals, individual settlement has **9** that each cost the reviewer2 at that stage; pooling has **20** that each add2. The pooled arm also rejects **20/40** profitable Y opportunities. This accounting audit adds no replication or collusion label; S65 stays UNRESOLVED/ODD. [All eight measures, uncertainty, stage profiles and caveats](results/s67_summary.md).
+
+Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pairedt[-0.6197371146699497, 1.7197371146699498];pair shortfall124/80;orgloss90/200
+
+For both siblings: organization-harming approvals need incentive-aware interpretation. Pooled Y approvals are individually profitable; individual Y approvals cost the reviewer at that stage. Neither verifies agreement. These are related posthoc bookkeeping measures on S65, not independent confirmation. S65 UNRESOLVED/ODD unchanged; no confirmation request or headline change. Reproduce `uv run --frozen python scripts/s67_audit.py release`.
+
+**S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).

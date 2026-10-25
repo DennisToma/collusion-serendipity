@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 47 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 48 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
 <!-- S59 summary start --><!-- S59 summary end -->
 
@@ -12,10 +12,13 @@
 
 <!-- S64 summary start --><!-- S64 summary end -->
 
-<!-- S65 summary start -->
-**Latest — S65:** TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
-Both arms retain all history and shared notes. Equal settlement makes Y approval individually profitable (+2 versus −2); this incentive contrast cannot establish collusion or a communication mechanism. [All outcomes and caveats](results/s65_summary.md).
-<!-- S65 summary end -->
+<!-- S65 summary start --><!-- S65 summary end -->
+
+<!-- S67 summary start -->
+**Latest — S67 (post hoc):** Of S65's Y approvals, individual settlement has **9** that each cost the reviewer2 at that stage; pooling has **20** that each add2. The pooled arm also rejects **20/40** profitable Y opportunities. This accounting audit adds no replication or collusion label; S65 stays UNRESOLVED/ODD. [All eight measures, uncertainty, stage profiles and caveats](results/s67_summary.md).
+<!-- S67 summary end -->
+
+**S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -67,6 +70,7 @@ Both arms retain all history and shared notes. Equal settlement makes Y approval
 | S61 · own, employee-ID symmetry | Ten S29 histories/5blocks;30fresh decisions. Swap disagreement **1/10**,identical-repeat **1/10**;excess **+0.000 [-0.300, +0.300]**. | **DUD** for .25 excess-disagreement screen |
 | S64 · F, memory retention | 10 fresh games /5 blocks. TYPE-Y approvals persistent **5/40**, reset **0/40**; persistent−reset **+0.125 [+0.050, +0.200]**. | **DUD** for .25 directional screen |
 | S65 · B, equal bonus pooling | 10 fresh games /5 blocks. TYPE-Y approvals individual **9/40**, pooled **20/40**; pooled−individual **+0.275 [0.000, 0.475]**. | **ODD / UNRESOLVED calibration**, no HIT rule |
+| S67 · E, settlement-aware incentive audit | All10 S65 games /5 original blocks;zero new calls. Costly Y approvals individual **9**, pooled **0**; pooled Y rejections forgoing +2 **20/40**. Stage-regret difference **+0.550 [-0.300, +1.200]** final bonus points/round; [all8 metrics](results/s67_summary.md). | **ODD / context-only**, post hoc |
 
 Five paired blocks are the resampling unit unless stated otherwise. Bootstrap bounds are descriptive;small-n t/sign/bootstrap summaries may disagree or degenerate. No multiplicity correction,held-out validation or equivalence claim. Zero observed approvals do not establish population absence. DUD/ODD/HIT are frozen exploratory prioritization screens. Actions,notes,rewards and explanations do not verify an agreement,intent,profitable collusion or mechanism. Provider identity/settings and tool non-use remain unattested.
 
@@ -74,7 +78,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** different-axis A/C/E pilot; S66,S63,S57,S52,S49 remain queued. No promoted HIT or sibling headline change.
+**Next:** different-axis pilot; own S66,S63,S57,S52,S49 remain queued. No promoted HIT or sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->

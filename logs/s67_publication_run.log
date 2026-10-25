@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "llm_chat_entrypoint_blocked": true,
+  "guard_scope": "Actual replay transport uses llm.chat; no OS network/process isolation",
+  "artifacts": {
+    "results/s67_incentives.json": "fa0bb529b46b05b3cc0c241b984d865919cd5f545b906f9d288738b65e211f36",
+    "results/s67_summary.md": "b0c7b30fd678df8fcf99c98e405c5a2926f3e39e9075e3011ff643e35d80370a",
+    "figures/s67_incentives.png": "86a2ced57a73e67fde507ee7ac5f62b97283692fb5048fc9ef69ae9e68e33392",
+    "logs/s67_independent.json": "3762a430e12a70c6c5a047ebda54313e00323c69e3b60fc27f6a9072e364dec7"
+  },
+  "independent": {
+    "passed": true,
+    "raw_action_note_reason_bindings": 200,
+    "primary_rounds": 80,
+    "game_metric_cells": 80,
+    "bootstrap_and_t_summaries": 24,
+    "stage_profiles": 32,
+    "unilateral_deviations": 64,
+    "authorship": "Separate implementation by same manager; independent critics recorded separately"
+  }
+}
+{
+  "passed": true,
+  "prior_pilot_rows_preserved": 48,
+  "current_pilot_rows": 49,
+  "generated_claims_checked": true
+}

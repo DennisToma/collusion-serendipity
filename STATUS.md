@@ -1,14 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T10:25:18.977815+00:00; Phase2, iteration48 IN PROGRESS)
-- Selected S67/E: posthoc settlement-aware incentive audit of all10 S65 games.
-- Zero new games/scientific calls;original S65 UNRESOLVED/ODD unchanged.
-- Eight bookkeeping metrics fixed;32 stage profiles/64 unilateral deviations.
-- Methodology Codex+Opus complete;exact-endpoint verification gap corrected.
-- 838 preanalysis repository tests and16 final focused tests PASS.
-- Next push source/input freeze,then compute/reconstruct all80 primary rounds.
-- Fixed ODD/context-only;no HIT screen,replication or mechanism claim.
-- Risks:n5,posthoc selection,related metrics,different regret schedules,provider.
+## Current state (2026-10-25T10:33:59.816071+00:00; Phase2, iteration48 RESULTS VERIFIED)
+- S67/E:posthoc accounting of all10 S65 games/5blocks;zero newgames/scientific calls.
+- Individually costly Y approvals9→0;pooled20/40 Y rejections forgo+2 each.
+- Stage regret18→40;per-round gap+.550[-.300,1.200];pairedt[-.620,1.720].
+- Pair shortfall124→80;orgloss90→200;all8 related measures reported equally.
+- Both arms9/40 both-Y rounds;strict Pareto0/9 individual,impossible pooled.
+- Original S65 UNRESOLVED/ODD unchanged;S67 fixed ODD/context-only,no HIT.
+- All80rounds/80gamecells/24bootstrap+t summaries/200rawbindings PASS.
+- 839canonical/16focused checks,eight verifier corruptions and release guards PASS.
+- Codex raw/statistical final PASS;Opus supplied-text final+addendum scopes retained.
+- 50source/input entries,1371older scientific paths/1384unique paths unchanged.
+- Next fresh-origin core reproduction,then different-axis pilot;own S66queued.
+- Risks:n5,posthoc/related measures,different regret schedules,continuation,provider.
 
 ## Log
 
@@ -662,3 +666,6 @@
 
 
 - 2026-10-25T10:25:18.977815+00:00: iteration48 read rules/PLAN/STATUS/DIRECTION/ledger and both sibling summaries read-only. Chose different-axis E/S67 after B/S65: zero-call all-game final-settlement accounting rather than more reused-context seller calls. Both independent methodology critics confirm arithmetic/comparators;accepted exact-rational endpoint checks,explicit structural-zero/unit/guard limits and source indexing assertions. All838 initial repository tests and16 final focused checks PASS;no new archived aggregates computed. Freeze/push next;original S65 remains UNRESOLVED/ODD. No direction deviation or sibling change.
+
+
+- 2026-10-25T10:33:59.816071+00:00: S67 completes frozen posthoc all-game audit after pushed registration03aebc9d9ff2079d37c73b2d9799fe001e8491a0. Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pairedt[-0.6197371146699497, 1.7197371146699498];pair shortfall124/80;orgloss90/200. All80primary rounds,80game-metric cells,24exact-bootstrap/t summaries,32profiles/64deviations and200raw action-note-reason bindings match separate reconstruction. Final Codex raw/statistical critic confirms every number;Opus supplied-text arithmetic review+addendum resolve all medium points,low exact-row/mutation/README points fixed via separate helpers. Existing9/40 both-Y counts displayed without a new metric. Scientific sources/results/verdict unchanged. All839 canonical+16focused checks PASS;all8in-memory verifier corruptions reject,465local links resolve,figure inspected. Sequential release/integrity checks PASS;initial overlapped logs retained but not verification basis. All50source/input entries and1371older scientific paths/1384unique frozen paths unchanged. Scientific milestone push and clean-origin proof next;no newgames/calls,tuning,HIT or sibling headline change.

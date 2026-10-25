@@ -1293,3 +1293,15 @@ Five block differences [0.0, 0.125, 0.125, 0.125, 0.25]; lower sign p=1.00000, t
 TYPE-Y approvals individual **9/40**, equal pooled bonuses **20/40**; pooled−individual **+0.275 [0.000, 0.475]**, paired t95% [-0.111, 0.661], upper sign-flip p=0.09375. **UNRESOLVED calibration; ODD for serendipity.**
 
 Expected response to changed final incentives; no collusion HIT. Both arms retain history and shared notes. [Full setup, all outcomes, figure and limitations](results/s65_summary.md).
+
+## Iteration48 — S67 settlement-aware incentive audit
+
+**Latest — S67 (post hoc):** Of S65's Y approvals, individual settlement has **9** that each cost the reviewer2 at that stage; pooling has **20** that each add2. The pooled arm also rejects **20/40** profitable Y opportunities. This accounting audit adds no replication or collusion label; S65 stays UNRESOLVED/ODD. [All eight measures, uncertainty, stage profiles and caveats](results/s67_summary.md).
+
+| S67 · E, settlement-aware incentive audit | All10 S65 games /5 original blocks;zero new calls. Costly Y approvals individual **9**, pooled **0**; pooled Y rejections forgoing +2 **20/40**. Stage-regret difference **+0.550 [-0.300, +1.200]** final bonus points/round; [all8 metrics](results/s67_summary.md). | **ODD / context-only**, post hoc |
+
+Stage regret individual18/pooled40;pooled-minus-individual+0.550[-0.3, 1.2];pairedt[-0.6197371146699497, 1.7197371146699498];pair shortfall124/80;orgloss90/200
+
+All32 settlement/status/action profiles and64 unilateral deviations are enumerated; all80 primary rounds and200 raw action/note/reason bindings are retained. Eight related measures are all reported. The regret contrast uses different settlement-specific incentive schedules and cannot rank optimization quality. Five-block descriptive bootstrap/t intervals; no new test, promotion, replication or mechanism claim. [Design](DESIGN_S67.md) · [Full audit](results/s67_summary.md) · [Figure](figures/s67_incentives.png).
+
+**S67 opportunity context:** Both arms have **9/40** both-Y rounds. Individual-arm strict Pareto improvement occurs in **0/9** such opportunities; pooled-arm strict improvement is impossible by its benchmark. [Opportunity counts and limits](results/s67_opportunity_context.md).

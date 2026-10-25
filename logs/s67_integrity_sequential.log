@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "corrupt_result_rejected_without_rewrite": true,
+  "added_archive_file_rejected": true,
+  "incorrect_exact_endpoint_rejected": true,
+  "optimized_python_rejected": true,
+  "all_mutations_restored": true
+}
