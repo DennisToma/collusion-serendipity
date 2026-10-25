@@ -24,3 +24,5 @@ Actual figure inspected.565post-live canonical tests PASS;historical synthetic
 clock overrides only,real cutoffs/scientific sources unchanged. Cache-only release
 forbids model calls and regenerates scientific/summary/figure/REPORT byte-identically.
 Results commit/push and origin-clone reproduction remain final publication steps.
+
+Publication closure 2026-10-25T05:18:25.306930+00:00:results6c7e0ca080291fed93ca26873096a8c3dd1d3b72 pushed;fresh full-history origin clone passes all five reproduction commands,all20protocol tests and six byte-identical artifacts;clone clean. Installed frozen dependencies reused,not a fresh installation. Both final critic publication gaps closed.
