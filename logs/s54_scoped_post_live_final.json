@@ -1,0 +1,10 @@
+{
+  "verified_registered_sources": 22,
+  "verified_archive_files": 20,
+  "passed": true,
+  "tests": 23,
+  "failures": 0,
+  "errors": 0,
+  "isolated_synthetic_test": "test_direct_live_entries_rejected_without_bootstrap",
+  "real_archive_and_frozen_sources_unchanged": true
+}

@@ -91,3 +91,56 @@ The manager's writable canonical suite passed all634tests,including all23S54
 scoped tests. No completed scientific S54 archive existed during these reviews.
 The final dry receipt matches all22registered sources and has no live-eligibility
 claim. All corrections preceded registration and scientific calls.
+
+## Final scientific claim reviews
+
+Both final critics exited0 and confirm DUD for the predicted increase. Codex
+reconstructed all200raw decisions and allfive metrics’15bootstrap/t summaries and
+every sign tail;it ran the full original archive analyzer with model calls
+forbidden and reproduced the canonical result byte-for-byte. Opus received text
+only,reconstructed supplied per-game counts/statistics,and did not access raw
+files or run tests. Do not equate these evidence scopes.
+
+Accepted explicit naming clarification in ordinary docs:the frozen identifier
+“alternating” means cross-employee complementary types,not temporal alternation.
+Full realized task schedules remain in the ten game files/trajectories. The
+separate prompt checker copies the template;independence applies to separately
+implemented raw binding/payoff/statistic reconstruction. Original S29 prompt
+identity is additionally checked in the primary analyzer against frozen S29.
+
+Opus could not confirm tracked review/release files from its supplied context;
+the review-disposition file was already committed at registration and default
+release passes locally. Fresh origin proof is pending and will be completed
+before the manager's handoff. Controlled UTC-format and provider/tool limitations
+remain explicit. Its “fourth failed parse” wording is inaccurate:three invalid
+attempts exhaust the registered parser contract;there is no fourth call.
+
+Codex's two operational risks (upstream response loss if cost accounting fails
+before return,and non-fsynced transport-failure journal) were already disclosed
+and neither occurred here. No frozen helper/source changes or new scientific
+calls were made to address them post-outcome.
+
+## Post-run fixture correction outside scientific freeze
+
+The first post-live suite ran634tests with one failure:the negative NEW-launch
+test expected the default data path to be empty,but the real scientific archive
+was now complete and correctly resumed offline. The failure is retained in
+logs/s54_canonical_post_live.json. All23S54tests pass with only that test placed
+in an empty external cwd containing a symlink to the same frozen launch source.
+The other22tests use ordinary execution. No scientific/test source or real data
+bytes are altered. New wrappers s54_fixtures.py/s54_tests.py and the canonical
+driver scope the fixture;this is no outcome/threshold change.
+
+The frozen legacy release --clean-clone invokes the destination-dependent test
+directly. Its replacement s54_clone.py uses the corrected external fixture,checks
+all22registered sources and20archive files against committed snapshot hashes,
+forbids scientific calls in every child,and requires byte-identical artifacts
+and a clean full-history origin checkout. Default s54_release.py remains
+unchanged and passes full archive/result/cache-only validation.
+
+Independent implementation-agent read-only review of the post-run compatibility
+helpers found no remaining scientific blocker and separately checked all22source/
+20archive hashes,configuration,launch byte maps and original registration bytes.
+Its evidence-scope nit was accepted:the scoped test driver now actually hashes
+all22source/20archive files before and after its tests,rather than merely asserting
+an unchanged flag in the receipt. No real scientific calls or source edits.

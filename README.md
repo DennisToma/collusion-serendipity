@@ -1263,3 +1263,31 @@ uv run --frozen python -m unittest scripts.test_s53
 The release checks the required inputs and both generations of analysis code against the pushed registration commit,reruns all200 original raw bindings,and separately reconstructs80rounds/60gamecells/18bootstrap+t intervals. A second release stages and compares byte-identical JSON/summary/figure with the scientific llm.chat entry point patched to raise;this is not OS network/process isolation. Clean-clone reproduction may reuse the installed frozen venv,which is not a fresh dependency installation.
 
 S53 clean origin reproduction: `uv run --frozen python scripts/s53_clone.py` after pushing a results commit. [Recorded commands and hashes](logs/s53_remote_clean_clone.json). [Post-outcome report presentation supplement](scripts/s53_report_refine.py) displays all six counts equally and the scaled-payoff caveat without changing frozen scientific artifacts.
+
+<!-- S54 reproduction start -->
+**S54 reproduction**
+
+TYPE-Y approvals alternating **10/40**, synchronized **0/40**; synchronized−alternating **-0.250 [-0.375, -0.150]**; pairedt95% [-0.440, -0.060], upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen.
+
+Ten fresh workplace games/five paired blocks25040..25044,T10,r3–10,200 accepted decisions,codex/gpt-6-luna;zero tuning or pooling. Both arms have shared notepads and four X/four Y tasks per employee in the primary window. Synchronized versus complementary schedules change joint opportunities,public status composition and downstream histories together. First-employee assignments match;second-employee per-round assignments differ. This is no replication of S29’s channel effect or isolated coordination mechanism. Actions do not verify agreement,reciprocal intent or collusion. Small-n intervals are descriptive;degenerate bounds do not prove equivalence. Requested backend/model labels/local fingerprints do not attest served identity,settings,routing or tool non-use.
+
+Five block differences: [-0.125, -0.25, -0.5, -0.25, -0.125].
+
+[Design](DESIGN_S54.md) · [All outcomes/figure](results/s54_summary.md) · [All adverse texts](results/s54_action_text.md) · [Independent checks](logs/s54_independent.json).
+
+```sh
+uv run python scripts/s54_analyze.py
+uv run python scripts/s54_independent.py
+uv run python scripts/s54_present.py
+uv run python scripts/s54_release.py
+uv run python scripts/s54_tests.py
+```
+
+`uv run python scripts/s54_clone.py` verifies a fresh full-history origin clone using the installed frozen venv,not a fresh dependency install. Interrupted live continuation and new scientific calls are forbidden. This documentation integrator is outside the frozen scientific manifest.
+
+All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. Frozen DUD means the predicted increase failed;the reverse pattern is descriptive,not a promoted discovery. Zero synchronized approvals do not establish population absence or equivalence.
+
+“Alternating” is the frozen condition identifier for cross-employee complementary types;it does not mean temporal X/Y alternation. Full realized schedules are in all ten game files and trajectories. The separate checker independently reconstructs actions/payoffs/statistics but copies the prompt template;the original S29 prompt-identity reference is checked by the primary analyzer.
+
+The post-run test driver gives only the frozen new-launch rejection test its intended empty external directory;all experiment/test source bytes and real archives remain unchanged. The frozen legacy `s54_release.py --clean-clone` directly runs that destination-dependent test;use `s54_clone.py` for origin-clone verification with the isolated fixture. The initial post-live test failure and corrected scoped/canonical receipts are retained in logs.
+<!-- S54 reproduction end -->

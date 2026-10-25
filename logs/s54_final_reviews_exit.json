@@ -1,0 +1,7 @@
+{
+  "codex_exit": 0,
+  "opus_exit": 0,
+  "parent_exit": 0,
+  "codex_scope": "Raw archive/source reconstruction and frozen canonical analyzer;read-only tests only",
+  "opus_scope": "Supplied code/result per-game cells/text only;no raw-file access or executed tests"
+}

@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T06:20:26.472462+00:00; Phase2, iteration38 READY)
-- Own/S54:10fresh workplacegames/5blocks planned;shared notes both arms.
-- Synchronized/complementary types;fixed marginalcounts/payoffs,changed jointstates.
-- No scientificcalls,outcomes,tuning,pooling,siblingwrites or directiondeviation.
-- All634canonical/23scoped tests PASS;22source dry hash/replay checks PASS.
-- Both initial+patch methodology critics exit0;focused Codex releasefix exit0.
-- Byte-bound registered-source loader and completed-only offline replay verified.
-- All200synthetic S29promptbindings and separate50cells/15bootstrap+t PASS.
-- Remaining known risks:n5,bundled jointstatus/history,provider/toolnonuse unattested.
-- Next:commit/push registration,observe remote,sole live bootstrap launch.
-- Original S29ODD/S53context-only unchanged;no HIT or siblingheadline change.
+## Current state (2026-10-25T06:38:22.004922+00:00; Phase2, iteration38 VERIFIED)
+- S54:10freshgames/5blocks,200decisions,zero retries/failures/tuning.
+- Y approvals complementary10/40,synchronized0/40;sync−control−.250[−.375,−.150].
+- Pairedt[−.440090,−.059910],upperp1;all5differencesnegative;DUD for predictedincrease.
+- Reverse descriptive/unpromoted;no HIT,S29channel replication or coordination claim.
+- Full22source/registration/runtime/UTC/200request S29identity+cache replay PASS.
+- Separate50cells/15bootstrap+t/alltails/200rawbindings PASS;both finalcritics exit0.
+- All634post-live canonical/23scoped tests PASS with one empty-destination fixture.
+- Initial default-destination test failure retained;all frozen test/source bytes unchanged.
+- Figure inspected;11artifact call-forbidden regeneration byte-identical;20archive files unchanged.
+- Registrationd1386e1 pushed;results commit/push and fresh origin-clone proof next.
+- Risks:n5,synchronized floor,bundled ownstatus/history,provider/toolnonuse unattested.
+- Next:fresh different axis A/B;ownS55/S52/S49/S46/S39proposals remain queued.
 
 ## Log
 
@@ -535,3 +537,13 @@
 - 2026-10-25T06:10:30.755222+00:00: S54 initial methodology critics both exit0;Codex synthetic/source review and Opus supplied-text-only review. Accepted registered-byte import binding,normalized-output/checker-scope disclosure,and all200context S29prompt-identity coverage.631initial canonical and20scoped tests PASS;new bootstrap tests and patchreview pending. No scientific calls;all changes pre-outcome.
 
 - 2026-10-25T06:20:26.472462+00:00: S54 final preflight PASS:634canonical tests,23scoped tests,current22source dry full replay and independent raw/stat reconstruction. Both initial+patch methodology critics exit0;focused Codex releasefix critic exit0,no remaining executable blocker (12readonly tests passed/11fixture tests unavailable there;all23passed manager suite). All200production S29promptidentity and fresh-process real import-chain checks included. Newlive only requires registered-byte bootstrap;completed-only offline replay verified without bootstrap/current credentials. No scientific calls,outcomes,source S29edits,tuning or siblingwrites. Full freeze registration/push then remote observation required before sole scientific launch.
+
+- 2026-10-25T06:20:55.155524+00:00: S54 registrationd1386e1f24b4d8d81585eb32a10f6119939a3dc5 committed/pushed and observed remotely at2026-10-25T06:20:42.240649+00:00 before sole bootstrap launch.22source bytes captured from matching originHEAD;two gameworkers,randomized within-block arm order,blockbarriers,07:15uncached admission cutoff. No partial scientific responses/effects inspected;all frozen sources unchanged.
+
+- 2026-10-25T06:24:28.048148+00:00: S54 metadata-only checkpoint:4/10games complete,94returned responses,no failure markers,all22frozen scientific source hashes unchanged. No partial decisions/text or treatment effects inspected;sole registered run continues.
+
+- 2026-10-25T06:29:05.180857+00:00: S54 sole run complete;alternating10/40,synchronized0/40;difference-0.250[-0.375, -0.15];pairedt[-0.4400902017239544, -0.05990979827604559];upperp1.0;frozenDUD. Full source/archive/registration/runtime/UTC/schedule/request/response replay and independent50rawcells/15bootstrap+t/all sign tails/200bindings PASS. Allscientificsources frozen,no extra games/tuning/pooling/exclusions/siblingwrites/DIRECTIONdeviation. Reports/ledgers updated;finalcritics/post-live suite/figure/release/originclone next.
+
+- 2026-10-25T06:31:22.217141+00:00: Actual two-panel S54figure inspected. Full predeclared adverse-text appendix retains every warmup/primary returned action explanation and note;no agreement,intent or mechanism labels. New own/S55own-current-type visibility proposal queued from role-attribution statements in this transparency census;not run,no new endpoint,subgroup analysis or secondpilot. Allfrozen sources and original DUD unchanged.
+
+- 2026-10-25T06:38:22.004922+00:00: Both final scientific critics/parent exit0;Codex raw/source reconstruction and Opus supplied-code/cells-only scope confirm frozen DUD and all primarynumbers.634post-live canonical tests now PASS after isolating only the frozen NEW-launch-negative test in an empty external cwd;initial1failure retained in logs/s54_canonical_post_live.json,real completed archive correctly resumed. All23S54tests pass;updated driver measures22source/20archive hashes before/after. Scientific/test bytes unchanged;no extra modelcalls,tuning,exclusions,reverse/secondary promotion or siblingwrites. Actualfigure inspected;11artifact call-forbidden regeneration byte-identical;all22registeredsource/20archive hashes match snapshot/resultSHA7f1d9114cc541fc1070b008a49a5c4d84ba35030aa07b0b6c92f993cd5f3ceb6. Ordinarydocs clarify complementary condition identifier,partially independent prompt-copy scope,and replacement s54_clone.py origin command. Results commit/push then fresh originclone proof next.

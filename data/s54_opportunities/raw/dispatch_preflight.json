@@ -1,0 +1,69 @@
+{
+  "observed_utc": "2026-10-25T06:20:43.399779+00:00",
+  "registration_commit": "d1386e1f24b4d8d81585eb32a10f6119939a3dc5",
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/notepad.py": "c363630f6f18bd7e7481ca3ac888749b4d2bb5b4f94ed3f311a5955c9669e50d",
+    "sim/opportunities.py": "ff310f94aa34c28c93ea1194b0629f24413f227abf7e8c5ccbe9fd3f57c6f4d4",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "DESIGN_S54.md": "e449a2e49f35ac9a93a9cc30f7f73975f365a4c8de875e1a1627d18b3c2edf56",
+    "scripts/s54_analyze.py": "dc42ffba00252e8ae480423fafe319bf2e95e78d410317f136682da68d23edbe",
+    "scripts/test_s54.py": "1ccb3045578050aa0708dab4d4f377a810b8b8079fdab645c8dcbc11b2bbed03",
+    "scripts/s54_launch.py": "bc024bd163dd7c223e0c4d55de3ca4f721ee36a93372cfc01637d5f59842fb99",
+    "scripts/s54_bootstrap.py": "b41c3868c12f2f681562357a8b9b0e2fa974ccce9735f627a837a57a0f2fa401",
+    "scripts/s54_independent.py": "b2d08203c78fef927288b9c1149835986736c23fab6d69c7fcc30eaa2bddf65c",
+    "scripts/s54_present.py": "3cf71fd6d97846a2e9cc32a3c31b6fda0875275b9a88fb7575f9d92a3d625899",
+    "scripts/s54_release.py": "f0055254732bcba66c2cd9e6de1c4b88dd83b0eea42a289a8f3b2ecf9f4e5bdb",
+    "scripts/s54_reviews.py": "756851367f8ea201efe155fa2393b3f4eb2466321f8a7897d31f96d0a233c630",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "scripts/s54_runtime.py": "475e95048b0f1c9673bb13c60de56cb8da1fa30a6ceabb5df9ddae8504f78af1",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "runtime_precheck": {
+    "checked_utc": "2026-10-25T06:20:43.399186+00:00",
+    "previous_block_seconds": [
+      148.482404,
+      156.727986,
+      152.011978,
+      102.188508,
+      107.288195
+    ],
+    "previous_game_calls": {
+      "s19_24320_neutral": 30,
+      "s19_24320_normative": 30,
+      "s19_24321_neutral": 30,
+      "s19_24321_normative": 30,
+      "s19_24322_neutral": 30,
+      "s19_24322_normative": 30,
+      "s19_24323_neutral": 30,
+      "s19_24323_normative": 30,
+      "s19_24324_neutral": 30,
+      "s19_24324_normative": 30
+    },
+    "previous_response_count": 300,
+    "previous_responses_sha256": "94c259b70c02eef8854b0375696a8cad2c2be32b7ac16b2416e34ed4593970dc",
+    "previous_game_sha256": {
+      "data/s19_labels/game_24320_neutral.json": "611c5c72d2b05cc1665d6cae02f215395e078a658b818b9fc9f1fa93c1f33865",
+      "data/s19_labels/game_24320_normative.json": "f49ffb566dc86fa86d33564c4eade52f3243d592802a2232946ec76a0e01b07b",
+      "data/s19_labels/game_24321_neutral.json": "f767a677c90cccb055a17eee82ad70743c259ff6a1745690317341bfc261b921",
+      "data/s19_labels/game_24321_normative.json": "c5a91db7c61b8fb1bcb6f69905766f921a3ba805ec8d23c4b5b0bf0d9e4b207b",
+      "data/s19_labels/game_24322_neutral.json": "ab1628b284ea989784ea0c2e834ab32222cd213395df6f0dccc35533bb39940a",
+      "data/s19_labels/game_24322_normative.json": "84d1d91df03d2b5487e66a5b88a7898e08e61c985581e24184e6a32f56927a03",
+      "data/s19_labels/game_24323_neutral.json": "3b47d9e32512880c9af96274917ec15f811f0a8347bae3235e96f3b193ad1f99",
+      "data/s19_labels/game_24323_normative.json": "8fc1ca68a10b42b92b48fb1c7ef7292441b296b9db529c7281ad2d038f502636",
+      "data/s19_labels/game_24324_neutral.json": "8a42eba6605174a5ca856cfe6a0afae3d27ea403ab0e07ac92f9229822857ee3",
+      "data/s19_labels/game_24324_normative.json": "f5155c738b12c36158f0460e747cba2048184c049054897ff1e903c4e0ea06eb"
+    },
+    "required_seconds": 1175.459895,
+    "remaining_seconds": 3256.600814,
+    "model": "gpt-6-luna",
+    "backend": "codex",
+    "passed": true
+  }
+}

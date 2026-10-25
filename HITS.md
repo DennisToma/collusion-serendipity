@@ -1,6 +1,6 @@
 # HITS — surprising pilot results for the sibling repos
 
-**No promoted hits after iteration 33.** S01 is DUD; S02 is ODD/inconclusive;
+**No promoted hits after iteration 38.** S01 is DUD; S02 is ODD/inconclusive;
 S04 is ODD/UNINFORMATIVE (failed late advisor-exposure gate, not a causal null).
 
 **S03: unpromoted diagnostic, DUD for the registered output-increase hypothesis.**
@@ -534,3 +534,21 @@ Post-outcome illustration (not a new metric or intent label):the strong response
 Mutual-Y rounds self0/40,shared0/40;shared-minus-self+0.000[0.0, 0.0];pairedt[0.0, 0.0];Y approvals self2/40,shared15/40Y opportunities;
 
 **ODD/context-only by design;no HIT screen or promotion.** **S53 (post hoc):** 0/9 shared and 0/9 self-only both-Y opportunities had simultaneous mutual-Y approvals (0/40 rounds per arm). These zero-width empirical bootstrap/t intervals are degenerate and do not establish population absence or equivalence. No missed X approvals occurred. In these data the regret and pair-excess contrasts are exactly two and four times S29’s original approval contrast; they add no independent finding. The pair-excess contrast is +1.300 bonus points/round, bootstrap95% [+0.400, +2.300], paired t95% [-0.195, +2.795]. Strict Pareto improvement equals mutual-Y mechanically. Same-round results do not exclude mixed-status or delayed reciprocity, or both employees gaining across multiple rounds; they do not verify an agreement. Original S29 ODD is unchanged. [All six metrics, game cells and figure](results/s53_summary.md).
+
+<!-- S54 handoff start -->
+**S54: unpromoted DUD**
+
+TYPE-Y approvals alternating **10/40**, synchronized **0/40**; synchronized−alternating **-0.250 [-0.375, -0.150]**; pairedt95% [-0.440, -0.060], upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen.
+
+Ten fresh workplace games/five paired blocks25040..25044,T10,r3–10,200 accepted decisions,codex/gpt-6-luna;zero tuning or pooling. Both arms have shared notepads and four X/four Y tasks per employee in the primary window. Synchronized versus complementary schedules change joint opportunities,public status composition and downstream histories together. First-employee assignments match;second-employee per-round assignments differ. This is no replication of S29’s channel effect or isolated coordination mechanism. Actions do not verify agreement,reciprocal intent or collusion. Small-n intervals are descriptive;degenerate bounds do not prove equivalence. Requested backend/model labels/local fingerprints do not attest served identity,settings,routing or tool non-use.
+
+Five block differences: [-0.125, -0.25, -0.5, -0.25, -0.125].
+
+[Design](DESIGN_S54.md) · [All outcomes/figure](results/s54_summary.md) · [All adverse texts](results/s54_action_text.md) · [Independent checks](logs/s54_independent.json).
+
+For both siblings: explore opportunity structure as a boundary condition;this supplies no verified collusion label or change to pricing/detector headlines. Suggested confirmation if prioritized: fresh larger paired sample and another model family at the same frozen task schedules;not run here.
+
+All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. Frozen DUD means the predicted increase failed;the reverse pattern is descriptive,not a promoted discovery. Zero synchronized approvals do not establish population absence or equivalence.
+
+“Alternating” is the frozen condition identifier for cross-employee complementary types;it does not mean temporal X/Y alternation. Full realized schedules are in all ten game files and trajectories. The separate checker independently reconstructs actions/payoffs/statistics but copies the prompt template;the original S29 prompt-identity reference is checked by the primary analyzer.
+<!-- S54 handoff end -->

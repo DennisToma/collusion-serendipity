@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 38 (S54 registered; live results pending) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 38 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -42,6 +42,7 @@
 | S50 · F, final-round disclosure | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval hidden **0.400**, final **0.300**; hidden−final **+0.100 [-0.300, +0.600]**. | **ODD** for .25 reduction screen |
 | S51 · D, reviewer penalty | Ten S29 TYPE-Y review histories /5 blocks;20 fresh decisions. Approval charge3 **0.500**, charge9 **0.500**; baseline−strong **+0.000 [-0.300, +0.300]**. | **DUD** for .25 reduction screen |
 | S53 · E, static incentive audit | All10 original S29 games /5 blocks; no new calls. Totals over40 rounds/arm (self→shared): Y approvals **2→15**; missed X **0→0**; mutual-Y **0→0**; strict Pareto **0→0**; stage regret **4→30**; pair excess **8→60** bonus points. [All six bootstrap/t intervals](results/s53_summary.md). | **ODD / context-only**, post hoc |
+| S54 · own, task correlation | 10 fresh games /5 blocks. TYPE-Y approval rate r3–10: alternating **0.250**, synchronized **0.000**; difference **-0.250 [-0.375, -0.150]**. | **DUD for predicted increase** |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -67,7 +68,7 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh different-axis pilot after E/S53; own/S54 opportunity-correlation idea and own/S52 framing remain proposed. S46/S39/S49 queued, S32 unconfirmed and S30 unrun. Avoid reusing the same ten focal histories without a new scientific reason.
+**Next:** Fresh different-axis pilot after own/S54; prefer a new A/B question over archived-history perturbations. S52/S49/S46/S39 remain proposed, S32 unconfirmed and S30 unrun. Avoid repeated perturbations of the same archived focal histories.
 
 <!-- S44 summary start -->
 **S44:** paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Block differences: +0.00, -0.50, +0.00, +0.00, +0.00. Identical headers and payoff rows; only row sequence reverses. Focal offers, not realized worker pay; observed histories, uncontrolled model draws, n5. The directional screen does not exclude smaller or reverse effects and does not identify a mechanism. [Methods, all outcomes and figure](results/s44_summary.md).
@@ -94,3 +95,9 @@ S50 response backend/model checks verify requested labels only;they do not attes
 **S53 (post hoc):** 0/9 shared and 0/9 self-only both-Y opportunities had simultaneous mutual-Y approvals (0/40 rounds per arm). These zero-width empirical bootstrap/t intervals are degenerate and do not establish population absence or equivalence. No missed X approvals occurred. In these data the regret and pair-excess contrasts are exactly two and four times S29’s original approval contrast; they add no independent finding. The pair-excess contrast is +1.300 bonus points/round, bootstrap95% [+0.400, +2.300], paired t95% [-0.195, +2.795]. Strict Pareto improvement equals mutual-Y mechanically. Same-round results do not exclude mixed-status or delayed reciprocity, or both employees gaining across multiple rounds; they do not verify an agreement. Original S29 ODD is unchanged. [All six metrics, game cells and figure](results/s53_summary.md).
 
 S53 release: both critics and all611canonical checks pass;[fresh origin-clone proof](logs/s53_remote_clean_clone.json) reproduces seven artifacts byte-for-byte from results commit `5ed960c` using the installed frozen venv (no fresh dependency install).
+
+<!-- S54 summary start -->
+**S54:** TYPE-Y approvals alternating **10/40**, synchronized **0/40**; synchronized−alternating **-0.250 [-0.375, -0.150]**; pairedt95% [-0.440, -0.060], upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen. Five block differences [-0.125, -0.25, -0.5, -0.25, -0.125]. Shared notes and marginal task counts fixed; joint statuses and downstream histories change together. This does not verify coordination or replicate S29’s channel contrast. [All outcomes, caveats and figure](results/s54_summary.md) · [All adverse returned text](results/s54_action_text.md).
+All five block differences are negative. The original increase hypothesis failed;the signed reverse pattern is descriptive and unpromoted. Zero synchronized approvals do not establish population absence or equivalence.
+“Alternating” means complementary employee types within a round,not alternation over time;the full schedules are retained in the game files.
+<!-- S54 summary end -->

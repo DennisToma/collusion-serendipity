@@ -1093,3 +1093,19 @@ S51 final review:both critics confirm the frozen DUD and all numbers;Codex raw/s
 Mutual-Y rounds self0/40,shared0/40;shared-minus-self+0.000[0.0, 0.0];pairedt[0.0, 0.0];Y approvals self2/40,shared15/40Y opportunities;
 
 All six metrics were frozen before this decomposition,after S29 and replay outcomes were known. This is a post-hoc diagnostic with no hypothesis threshold,p-values,HIT promotion or independent replication. Regret fixes incoming actions; Nash-relative excess changes both actions. Original full200-key replay and separate original checker pass. New separate same-author implementation checks200rawbindings/80rounds/60gamecells/18bootstrap+t intervals/16stage profiles/32unilateral deviations. Independent critics and their exact scope are recorded in logs/s53_review_disposition.md.
+
+<!-- S54 details start -->
+**S54 — Correlated task opportunities**
+
+TYPE-Y approvals alternating **10/40**, synchronized **0/40**; synchronized−alternating **-0.250 [-0.375, -0.150]**; pairedt95% [-0.440, -0.060], upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen.
+
+Ten fresh workplace games/five paired blocks25040..25044,T10,r3–10,200 accepted decisions,codex/gpt-6-luna;zero tuning or pooling. Both arms have shared notepads and four X/four Y tasks per employee in the primary window. Synchronized versus complementary schedules change joint opportunities,public status composition and downstream histories together. First-employee assignments match;second-employee per-round assignments differ. This is no replication of S29’s channel effect or isolated coordination mechanism. Actions do not verify agreement,reciprocal intent or collusion. Small-n intervals are descriptive;degenerate bounds do not prove equivalence. Requested backend/model labels/local fingerprints do not attest served identity,settings,routing or tool non-use.
+
+Five block differences: [-0.125, -0.25, -0.5, -0.25, -0.125].
+
+[Design](DESIGN_S54.md) · [All outcomes/figure](results/s54_summary.md) · [All adverse texts](results/s54_action_text.md) · [Independent checks](logs/s54_independent.json).
+
+All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. Frozen DUD means the predicted increase failed;the reverse pattern is descriptive,not a promoted discovery. Zero synchronized approvals do not establish population absence or equivalence.
+
+“Alternating” is the frozen condition identifier for cross-employee complementary types;it does not mean temporal X/Y alternation. Full realized schedules are in all ten game files and trajectories. The separate checker independently reconstructs actions/payoffs/statistics but copies the prompt template;the original S29 prompt-identity reference is checked by the primary analyzer.
+<!-- S54 details end -->
