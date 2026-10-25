@@ -1,18 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T10:53:43.198649+00:00; Phase2, iteration49 ORIGIN PROOF PENDING)
-- S66/own:10fresh pooled-payoff-order games/5blocks;200responses,zero retries/failures.
-- Yapprovals allocated23/40,final13/40;gap-.250[-.500,+.100].
-- Pairedt[-.728,+.228];upperp.9375;blocks[-.5,.375,-.5,-.125,-.5].
-- Frozen DUD for .25increase screen;no reverse promotion/equivalence/collusion claim.
-- All5metrics reported;Xapprovals40/40 each;bonuses/loss mechanically related.
-- Complete raw replay;50cells/15bootstrap+t/32signpatterns/200rawbindings PASS.
-- Nine verifier mutations reject;49prior report rows preserved,50total contiguous.
-- All19registered sources/1385older scientific paths and prospective split append PASS.
-- Sixteen focused/855canonical checks PASS;both final scientific critics PASS.
-- Figure inspected;corrected offline release/468links+3editorial guards PASS;origin proof next.
-- No HIT/sibling headline change;ownS68queued before outcomes.
-- Next different-axis A/C/D/F;risks:n5,manypilots,position package,provider.
+## Current state (2026-10-25T11:01:41.788309+00:00; Phase2, iteration49 COMPLETE)
+- S66 (own):10fresh games/5blocks,identical pooled payoffs;200responses,no retries/failures.
+- Y approvals allocated-first23/40,final-first13/40;difference-.250[-.500,+.100].
+- Pairedt[-.728,+.228];upper sign-flip p=.9375;frozen directional DUD.
+- No reverse promotion,equivalence,comprehension,agreement or collusion claim.
+- Raw replay and independent50cells/15bootstrap+t/32signpatterns/200bindings PASS.
+- All855canonical+16focused checks PASS;nine verifier/three editorial mutations reject.
+- Codex raw/statistical and Opus supplied-text final reviews PASS;scopes retained.
+- All19frozen sources/1385older sciencepaths and prospective split append verified.
+- Origin78f108c:9artifacts byte-identical,16tests,clean clone;existing venv reused.
+- REPORT50pilots,HITS unpromoted;no active scientific run/review or sibling change.
+- Next different-axis A/C/D/F;own S68,S63,S57,S52,S49queued.
+- Risks:n5,many pilots,paragraph-position package,provider settings;edit guard is not atomic.
 
 ## Log
 
@@ -690,3 +690,6 @@
 
 
 - 2026-10-25T11:00:07.745549+00:00: Focused final publication Codex exit0 confirms corrected labels,independently enumeratedp.93750,all19source/result/release hashes,pre-existing-edit rejection and new reproduction/clone entry points. Accepted P2 by narrowing guarantee: pre-validation unexpected-byte guards require exclusive writer access;no atomic concurrent-writer protection is claimed. Only additive-helper comment changed,no executable or scientific change. Final scientific result/figure/allmetric estimates unchanged;corrected release PASS,855canonical/16focused PASS. Scientific milestone commit+push then actual fresh-origin proof next;not claimed in advance.
+
+
+- 2026-10-25T11:01:41.788309+00:00: iteration49 COMPLETE. Registration53c104deda5f20f7ca290e39f09d37da04ed09ae/scientific+document results78f108c57d4e7c4137e92e033801fb6f5f29b5f2 committed and pushed. Actual fresh full-history ORIGIN clone at exact resultsrevision reproduces all9checked artifacts byte-identically,all16focused checks and clean gitstatus;existing pinned installed venv reused,no fresh-install claim. Receipt logs/s66_remote_clean_clone.json;full command output logs/s66_origin_clone_run.log. Ledger result reference now points to that exact reproduced revision. Corrected release entry scripts/s66_release_final.py uses additive terminology overlay;frozen19sources and scientific result unchanged. All855canonical checks PASS using pre-existing historical synthetic fixtures,actual archive audits unpatched;50rawmetriccells/15exactbootstrap+t summaries/all32signpatterns per contrast/200raw action-note-reason and prompt/history bindings independently reproduced. Nine verifier mutations and three isolated pre-validation editorial mutations reject;19source hashes/1385older sciencepaths/exact prospective split-index append/49priorreportrows/50contiguous currentrows/468links verified. Both final scientific critics exit0(Codex raw/statistical versus compact Opus supplied-text arithmetic),focused publication critic confirms hashes/wiring/terminology;its concurrency finding accepted by narrowing guard scope,no concurrent-writer atomicity claim. Yapproval23/40 versus13/40,final-minus-allocated-.250[-.500,+.100],pairedt[-.728383183594358,.22838318359435805],upper/lower/two-sided sign-flipp.9375/.09375/.1875;blocks[-.5,.375,-.5,-.125,-.5]. Frozen DUD through negative mean and bootstrapupper.100<.25;no reverse/secondary/subgroup promotion,extra scientific calls,games,tuning,pooling,exclusions,HIT,sibling writes or headline change. No DIRECTION deviation. New ownS68queued before outcomes;next axis should differ from own. No active generation or review. Closing proof/status/ledger commit+push follows.

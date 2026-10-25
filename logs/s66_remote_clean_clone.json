@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "commit": "78f108c57d4e7c4137e92e033801fb6f5f29b5f2",
+  "clone_source": "origin",
+  "full_history": true,
+  "clone_clean": true,
+  "commands": [
+    [
+      "scripts/s66_release_final.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s66",
+      "-q"
+    ],
+    [
+      "scripts/s66_independent.py"
+    ]
+  ],
+  "focused_tests": 16,
+  "dependency_environment": "Existing pinned installed venv; no fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s66_payoff_order.json": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+    "results/s66_summary.md": "306cdb3545297ff35562f4dc3f0187e5f7c3fd33727f5a1a4007571964667a6d",
+    "figures/s66_payoff_order.png": "9bbb16e6948c621d7673472ed90bc682832d63e4cfb7a616442503e98fd8d4b9",
+    "logs/s66_independent.json": "2382b0877045e01d3a2dd9a5563bcc566db6c67f5eed1a7f15d755c4da3c36a3",
+    "REPORT.md": "a1874af68240fa9c6931a13be90a104b10ac6dd3c075e47d0b6b8a0e96af66bf",
+    "REPORT_DETAILS.md": "22ba04336d1aaefc227636a51c193a49b2c19243803161d3973116f806421aab",
+    "HITS.md": "6cb1e49645f9b3d8f3a91da7f38ca5dbc307a7545eed4df9030759e80316bf43",
+    "README.md": "161b9275c040dd0cdc2c47f2f5e4308c5f48fe011b828541fc13a6c65b850cd2",
+    "logs/s66_release.json": "91ded55d7aaa12734bdf955a9a16fbb9254dd3845ee87bc9505f7fc1e4e31c2a"
+  }
+}

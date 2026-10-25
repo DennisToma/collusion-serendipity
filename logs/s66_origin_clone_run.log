@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "calls_forbidden": true,
+  "raw_unchanged": true,
+  "independent": {
+    "passed": true,
+    "raw_metric_cells": 50,
+    "bootstrap_intervals": 15,
+    "t_intervals": 15,
+    "sign_tests": 15,
+    "saved_request_histories": 200,
+    "note_snapshots": 200,
+    "raw_auxiliary_bindings": 200,
+    "constant_system_groups": 20,
+    "checked_initial_prompts": 20,
+    "rejections": {
+      "allocated_first": 0,
+      "final_first": 0
+    },
+    "verdict": "DUD"
+  },
+  "older_science_paths_unchanged": 1385,
+  "prospective_split_append_verified": true,
+  "local_links": 468,
+  "checked_sha256": {
+    "results/s66_payoff_order.json": "70f8a566063bf9387e870e5e6711dde367b3c363fde0639171276bd81f915802",
+    "results/s66_summary.md": "306cdb3545297ff35562f4dc3f0187e5f7c3fd33727f5a1a4007571964667a6d",
+    "figures/s66_payoff_order.png": "9bbb16e6948c621d7673472ed90bc682832d63e4cfb7a616442503e98fd8d4b9",
+    "logs/s66_independent.json": "2382b0877045e01d3a2dd9a5563bcc566db6c67f5eed1a7f15d755c4da3c36a3",
+    "REPORT.md": "a1874af68240fa9c6931a13be90a104b10ac6dd3c075e47d0b6b8a0e96af66bf",
+    "REPORT_DETAILS.md": "22ba04336d1aaefc227636a51c193a49b2c19243803161d3973116f806421aab",
+    "HITS.md": "6cb1e49645f9b3d8f3a91da7f38ca5dbc307a7545eed4df9030759e80316bf43",
+    "README.md": "161b9275c040dd0cdc2c47f2f5e4308c5f48fe011b828541fc13a6c65b850cd2"
+  }
+}
+----------------------------------------------------------------------
+Ran 16 tests in 1.759s
+
+OK
+{
+  "passed": true,
+  "raw_metric_cells": 50,
+  "bootstrap_intervals": 15,
+  "t_intervals": 15,
+  "sign_tests": 15,
+  "saved_request_histories": 200,
+  "note_snapshots": 200,
+  "raw_auxiliary_bindings": 200,
+  "constant_system_groups": 20,
+  "checked_initial_prompts": 20,
+  "rejections": {
+    "allocated_first": 0,
+    "final_first": 0
+  },
+  "verdict": "DUD"
+}
+PASS clean origin clone 78f108c57d4e7c4137e92e033801fb6f5f29b5f2
