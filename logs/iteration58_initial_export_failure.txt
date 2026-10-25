@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 412, in <module>
+    main()
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 392, in main
+    render()
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 341, in render
+    (ROOT / (name + '.html')).write_text(page(name, source))
+                                         ^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 245, in page
+    markup = re.sub(r'href="([^"]+)"', link, markup)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/re/__init__.py", line 186, in sub
+    return _compile(pattern, flags).sub(repl, string, count)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 243, in link
+    require(audit.git('show', revision + ':' + path) == (ROOT/path).read_bytes(), 'Pinned source link changed: ' + path)
+  File "/home/factory/collusion/collusion-serendipity/scripts/export_report.py", line 74, in require
+    raise ValueError(message)
+ValueError: Pinned source link changed: README.md

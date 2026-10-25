@@ -1,12 +1,14 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 57 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
+2026-10-25 · Iteration 58 · **No hits promoted.** Exploratory pilots;zero game-outcome tuning attempts.
 
-**Reader exports — iteration 57:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
+**Reader exports — iteration 58:** [Concise brief (PDF)](BRIEF.pdf) · [Brief (HTML)](BRIEF.html) · [Complete log (PDF)](REPORT.pdf) · [Complete log (HTML)](REPORT.html). Exports preserve the saved evidence and original pilot rows. Current verification: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The iteration-54/55 full-document commands require their archived revisions.
 
-**Fresh dependency reproduction — iteration 57:** Archived handoff `e6b0c02` reproduced from new project/export environments and initially empty uv/browser caches: five selected scientific replays, 926 canonical checks (including historical synthetic fixtures) and eight byte-identical artifacts. Host Python, uv, OS libraries and fonts were reused. This is selected same-host reproduction, not cross-platform or full-portfolio validation. The current iteration-57 exports were built separately and use the current export check. Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. Instructions and scope: `results/iteration57_reproduction.md`.
+**Primary-result replay — iteration 58:** All **54 primary result objects** reproduce at pinned revisions: 52 completed analyses and two failure audits; **50 existing checkers** also run. Fifty-one entries use the frozen baseline and three use their historical result revisions. Validation depth varies by pilot. [Coverage, limits and run commands](results/iteration58_reproduction.md).
 
-**Reading guide — iteration 57:** 54 recorded pilot entries; **no promoted hits**. Start with the [concise evidence handoff](results/iteration54_brief.md) for the workplace lead, its Qwen follow-up, incentive calibration, payoff-accounting limits and a single offline verification command. Examples are selected post hoc; the complete original pilot table below is retained.
+**Fresh dependency reproduction — iteration 57:** Archived handoff `e6b0c02` reproduced from new project/export environments and initially empty uv/browser caches: five selected scientific replays, 926 canonical checks (including historical synthetic fixtures) and eight byte-identical artifacts. Host Python, uv, OS libraries and fonts were reused. This is selected same-host reproduction, not cross-platform or full-portfolio validation. Iteration-57 exports were built separately; the current exports use the current export check. Receipt consistency: `uv run --frozen python scripts/iteration57_fresh_install.py check`. Instructions and scope: `results/iteration57_reproduction.md`.
+
+**Reading guide — iteration 58:** 54 recorded pilot entries; **no promoted hits**. Start with the [concise evidence handoff](results/iteration54_brief.md) for the workplace lead, its Qwen follow-up, incentive calibration, payoff-accounting limits and a single offline verification command. Examples are selected post hoc; the complete original pilot table below is retained.
 
 **Complete table audit:** All 54 rows retain their original text and labels; 307 highlighted numerical values and failure counts match saved JSON fields or documented fixed scalings, with 144 sample/window metadata checks. [Field-by-field receipt](results/iteration55_claim_audit.json). This verifies reporting fidelity, not all raw trajectories or scientific validity. Current offline command: `uv run --frozen python scripts/export_report.py --check --replay-selected`. The selected replays cover five pilots; use a full-history clone and existing pinned dependencies. Their scientific call entry is guarded; no network isolation is claimed. The archived iteration-54 full-document command requires its pinned revision.
 
@@ -102,7 +104,7 @@ S29 remains ODD because one block ties;its bootstrap-positive bound alone does n
 
 [All methods,per-pilot caveats,uncertainty and figures](REPORT_DETAILS.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** different-axis pilot only if valuable before14:30UTC;then polish. S68 remains interrupted with no restart. No sibling headline change.
+**Next:** preserve the frozen evidence and polish the final handoff. S68 remains interrupted with no restart. No sibling headline change.
 
 <!-- Historical presentation anchors;full prose archived in REPORT_DETAILS.md. -->
 <!-- S41 summary start --><!-- S41 summary end -->
