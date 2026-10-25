@@ -1,19 +1,13 @@
 # STATUS
 
-## Current state (2026-10-25T00:53:05.960879+00:00; Phase2, iteration22 COMPLETE)
-- S34 inert-report option:10games/5blocks,200valid decisions,zero retries/failures.
-- Plain8/40vsflag7/40 Y approvals;reduction+.025[-.100,.150],upperp.5.
-- Paired t[-.177366,.227366];frozen DUD,both clauses,no HIT/equivalence claim.
-- Plain baseline.20 below.25 reduction screen;all80 primary reports=false.
-- Same stage payoffs/shared notes;wording+field bundle,no isolated mechanism.
-- Full200-key replay/20-source registration/runtime/UTC/export/actual overlap PASS.
-- Separate50cells/15bootstrap+t summaries/15sign tails/200bindings PASS.
-- Both final critics exit0;Codex raw reconstruction,Opus supplied-text-only.
-- Post-live304tests/local release PASS;figure inspected;sources/scientific SHA stable.
-- Registration7427939/results830a62d pushed;origin clone15tests/six artifacts exact.
-- Clone clean;frozen installed venv reused;result SHA31d37a09 unchanged.
-- No active generation/review,tuning,pooling,HIT or sibling writes.
-- Next:fresh other-world/structure after own;S30 unrun;risks n5/baseline/salience.
+## Current state (2026-10-25T00:56:58.343416+00:00; Phase2, iteration23 IN PROGRESS)
+- Selected S35,B: fresh employer productivity20/30 versus20/20;self-only notes.
+- Ten games/five fresh blocks24720..24724;T10,r3-10;zero tuning/pooling.
+- Primary asymmetric-minus-symmetric paid wage;fixed4-unit directional screen.
+- Final23 scoped/327 full tests and full mocked LIVE pipeline PASS;no live calls.
+- S34 remains frozen DUD;no hits promoted or sibling headline changes.
+- Both design critics/patch critic exit0;21-source freeze/push then one-shot pilot.
+- Risks:n5,uncontrolled draws,cap20 binds high firm,legitimate incentive effects.
 
 ## Log
 
@@ -314,3 +308,9 @@
 - 2026-10-25T00:51:56.086321+00:00: S34 final cache-only regeneration under forbidden model calls leaves six artifacts byte-identical(scientific result,summary,figure,REPORT,independent/release receipts). All20source hashes and canonical scientificSHA31d37a09 unchanged. Both critic dispositions complete except release gap being closed by upcoming results push and origin clean clone;post-live304suite PASS. No new scientific calls/metrics,source mutation,tuning,pooling,HIT or sibling write. Results milestone next.
 
 - 2026-10-25T00:53:05.960879+00:00: iteration22 COMPLETE. S34 registration7427939 and results830a62d1e44a459711b68a25af8328473545e18f committed/pushed. Fresh full-history ORIGIN REMOTE clone of results commit passes complete cache-only release,15 S34 protocol tests,independent raw reconstruction and six byte-identical artifacts(scientific result,summary,figure,REPORT,independent/release receipts);clone git status clean. logs/s34_clean_clone.json records commands/hashes and installed frozen-venv reuse,not a fresh dependency installation. Post-live304 canonical repository tests passed locally,with scoped historical clocks and prospectively fixed S34 temporary/mock clock;real scientific timestamps/cutoff unchanged. All20 frozen sources/canonical scientificSHA31d37a09 unchanged. Both final critic release gaps closed;Opus supplied-text scope and corrected positive-block count explicit. Ledger result reference points to results commit. REPORT/HITS/README/DETAILS current,earlier context retained in DETAILS. No extra scientific call,second pilot,new metric,semantic classifier,exclusion,tuning,pooling,reverse/secondary promotion,HIT,sibling write,direction deviation or active generation/review. Next different axis,fresh other-world/structure question;S30 remains unrun,S32 unconfirmed.
+
+- 2026-10-25T00:56:58.343416+00:00: iteration23 read rules/plan/state/direction/ledger and both sibling report/state summaries read-only. Selected fresh B/S35 productivity asymmetry after own/S34;registered five paired blocks and four-unit primary screen. Only one public productivity-map entry differs between arms;self-only human-labor prompts,rate cap,allocation and notes fixed. No direction deviation,new outcomes,pooling or sibling writes.
+
+- 2026-10-25T01:02:50.563501+00:00: S35 original Codex/Opus methodology critics both exit0,parent0. Accepted malformed-JSON recursion rejection and full mocked LIVE-path test in temporary git repo;23 scoped tests PASS including200 synthetic non-dry responses,launch/main/receipts/analyze/independent/exact/render/resume and terminal refusal. No paid calls. Original325-test suite PASS before added fixes;fresh final-source dry200-key replay/50cells/15bootstrap+t/15sign tails/15exact summaries PASS. Archived S31–S34 validity census800/800valid,zero rejects;retained unchanged strict schema/3-attempt rule. Independent patch critic running. Queued own/S36 gross/net wage-translation idea;no second pilot or outcomes.
+
+- 2026-10-25T01:04:04.350141+00:00: S35 patch Codex exits0,no blocker;13 read-only-compatible tests pass,its10 temp/cache sandbox errors explicitly outside the successful manager23-test run. Final327-test canonical suite PASS. Final21-source dry cache-only resume leaves every artifact unchanged;full replay/50raw cells/15bootstrap+t/15sign tails/15exact rational summaries PASS. Readiness hashes recorded before any paid outcomes. Strict schema/3-attempt and four-unit screen unchanged. Next source freeze/push then sole live launch.

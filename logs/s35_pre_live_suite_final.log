@@ -1,0 +1,73 @@
+....................................s07_24080_legality complete 36 calls
+..s07_24080_legality complete 6 calls
+.........s09_24080_retain complete 18 calls
+s09_24080_erase complete 18 calls
+.............................................................................................................................Complete:20 cached decision responses
+..Complete:20 cached decision responses
+..Complete:20 cached decision responses
+.Completed archive validated; zero model calls
+Complete:20 cached decision responses
+..........................................................Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s32_24600_compute complete 20 calls
+....................................s35_24720_symmetric complete 20 calls
+.................
+----------------------------------------------------------------------
+Ran 288 tests in 32.118s
+
+OK
+.Complete:30 cached auditor responses
+....Completed archive validated; zero model calls
+Complete:30 cached auditor responses
+..Complete:30 cached auditor responses
+......Complete:30 cached auditor responses
+.
+----------------------------------------------------------------------
+Ran 14 tests in 1.622s
+
+OK
+.Completed archive validated; zero model calls
+Completed archive validated; zero model calls
+s31_24560_shared complete 20 calls
+...........
+----------------------------------------------------------------------
+Ran 12 tests in 0.099s
+
+OK
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 2.361s
+
+OK
+{
+  "passed": true,
+  "tests": 327,
+  "failures": 0,
+  "errors": 0,
+  "legacy_synthetic_cutoff_override": {
+    "modules": [
+      "test_s21",
+      "test_s21_release"
+    ],
+    "tests": 14,
+    "deadline": "2099-01-01T00:00:00+00:00",
+    "source_files_modified": false
+  },
+  "legacy_s31_synthetic_clock": {
+    "modules": [
+      "test_s31"
+    ],
+    "tests": 12,
+    "now": "2026-10-24T23:29:00+00:00",
+    "source_files_modified": false
+  },
+  "s33_synthetic_clock": {
+    "modules": [
+      "test_s33"
+    ],
+    "tests": 13,
+    "now": "2026-10-25T00:20:00+00:00",
+    "source_files_modified": false
+  },
+  "real_archive_deadlines_unchanged": true
+}

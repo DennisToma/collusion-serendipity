@@ -1,0 +1,66 @@
+{
+  "ready_utc": "2026-10-25T01:04:04.350141+00:00",
+  "sources": {
+    "sim/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sim/asymmetry.py": "715dadfc0fbfd5c657dc87c8756454e3ebae64bad56ee849b80ecba8c051564c",
+    "sim/resource_cache.py": "2038d30254e8e246a25db109f999bcacfd3f63db713099f3e94a7cce2b00e97a",
+    "sim/advisor.py": "d8af786bcf6535a75a306d8aef87ca150977c61d2a1481af78ec1d27af9e75cf",
+    "sim/cournot.py": "29521f8fcabc4014351494a652d54fab20e6c3f89260a07b40f616ccd73be317",
+    "sim/common.py": "13eaf0b5898bbf9703c6775872dbdd7839675ca8cf275fe6259bdfe9b0fae0a4",
+    "sim/legality.py": "9a05839bd8fdeab29ba558d79270be27c4c8a415987dcd062707c41bbed6a8df",
+    "llm.py": "dc632f8b15f53b8ea834b378bba7db441efa779770da7292fd21557d7d179a57",
+    "scripts/s35_runtime.py": "ef668a4a9f4faf3404bae2e0850ab22489e85f328142374e2ee8233ef627087b",
+    "DESIGN_S35.md": "f6b46dc5da726c8b23717d5cebc218381e9395756d2b738e32a8bdf8804ee714",
+    "scripts/s35_analyze.py": "8959a6f3083f3ad25a3acbd1227dba062c860f354b9ff75b5afd6193ad75e709",
+    "scripts/test_s35.py": "2b382cb511849e417ebb05bbb66f92376a2ecfdf937aed9e0bdd0291077169d8",
+    "scripts/s35_launch.py": "a4efc42f60aba2dd95abdb978f0222f37a1085e7049f49c467c23ab4c6bff00e",
+    "scripts/s35_independent.py": "d90fecd9a557d32de491a97877cc17afd28b42f34dbf61eb69119fba890382b2",
+    "scripts/s35_present.py": "5fe4dac44557a2323251786c3806e8475f06ae5ad737d18a353eaf59f835d631",
+    "scripts/s35_reviews.py": "b643b7e9af8d6f49bc98a81c0edf5422573e4ede51698127c2b1cf2650979ffe",
+    "scripts/s35_exact_check.py": "a38a2d28a13878498e2d59128769e659d24fee4c9135b4701b1a8278502aa98c",
+    "scripts/s35_release.py": "c9da2c26a35b8d1332c145c87932f13fc780d658111390856465d658168e9159",
+    "scripts/s16_reviews.py": "6b3f64fb67096b5dd7a048334b487981ac6abb1c1564b8c0132d339088480a7c",
+    "pyproject.toml": "ff337e5d85f82c99af1e6fe21486378d4a16766d6ebc4eeca2b5aabefed6ca0d",
+    "uv.lock": "1805565c446f5462a3f6bff4cd1ff27d57f49a312fb6e180cfe0ca15ead09030"
+  },
+  "paid_scientific_calls": 0,
+  "protocol_tests": 23,
+  "full_suite": {
+    "passed": true,
+    "tests": 327,
+    "failures": 0,
+    "errors": 0,
+    "legacy_synthetic_cutoff_override": {
+      "modules": [
+        "test_s21",
+        "test_s21_release"
+      ],
+      "tests": 14,
+      "deadline": "2099-01-01T00:00:00+00:00",
+      "source_files_modified": false
+    },
+    "legacy_s31_synthetic_clock": {
+      "modules": [
+        "test_s31"
+      ],
+      "tests": 12,
+      "now": "2026-10-24T23:29:00+00:00",
+      "source_files_modified": false
+    },
+    "s33_synthetic_clock": {
+      "modules": [
+        "test_s33"
+      ],
+      "tests": 13,
+      "now": "2026-10-25T00:20:00+00:00",
+      "source_files_modified": false
+    },
+    "real_archive_deadlines_unchanged": true
+  },
+  "methodology_codex_exit": 0,
+  "methodology_opus_exit": 0,
+  "patch_codex_exit": 0,
+  "full_mocked_live_pipeline": true,
+  "final_dry_replay": "logs/s35_dry_replay.json",
+  "historical_validity": "logs/s35_historical_validity.json"
+}

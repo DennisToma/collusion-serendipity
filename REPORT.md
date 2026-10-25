@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-25 · Iteration 22 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-25 · Iteration 23 (in progress) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -27,6 +27,7 @@
 | S32 · own, resource identity | 10 games /5 blocks. Paid rate r3–10: human **17.525**, compute **13.725**; human−compute **+3.800 [-0.250, 7.875]**. | **ODD** for directional framing screen |
 | S33 · D, reporting/amnesty | 10 games /5 blocks. Partner Y approval rate r3–10: baseline **0.250**, amnesty **0.300**; reduction **-0.050 [-0.175, 0.050]**. | **DUD** for reduction screen |
 | S34 · own, inert report field | 10 games /5 blocks. Partner Y approval rate r3–10: plain **0.200**, flag **0.175**; reduction **0.025 [-0.100, 0.150]**. | **DUD** for reduction screen |
+| S35 · B, productivity asymmetry | Registered: ten fresh labor games, productivity20/30 versus20/20; self-only notes. No live outcomes yet. | **PENDING** |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
 
@@ -50,4 +51,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** Fresh other-world/structure question after own/S34; avoid further workplace nuisance controls without a stronger reason. S32 remains unconfirmed; S30 remains unrun.
+**Next:** Complete S35 productivity-asymmetry pilot with frozen four-unit wage screen; S32 remains unconfirmed and S30 unrun.
