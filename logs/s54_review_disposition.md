@@ -144,3 +144,12 @@ helpers found no remaining scientific blocker and separately checked all22source
 Its evidence-scope nit was accepted:the scoped test driver now actually hashes
 all22source/20archive files before and after its tests,rather than merely asserting
 an unchanged flag in the receipt. No real scientific calls or source edits.
+
+## Final compact-report review
+
+Codex exited0 and independently checked all39pilot rows plus header/separator
+byte-identical to scientific-results commit19fb595. It verified all S54 headline
+counts/bounds/t/sign fields against frozen results and confirmed the complete
+former post-table prose preserved verbatim,with prior details unchanged. No new
+scientific overclaim;predicted increase DUD/reverse unpromoted and all scope
+caveats retained. Scientific sources/data/result are unchanged.

@@ -1,6 +1,6 @@
 # STATUS
 
-## Current state (2026-10-25T06:38:22.004922+00:00; Phase2, iteration38 VERIFIED)
+## Current state (2026-10-25T06:38:22.004922+00:00; Phase2, iteration38 PUBLICATION)
 - S54:10freshgames/5blocks,200decisions,zero retries/failures/tuning.
 - Y approvals complementary10/40,synchronized0/40;sync−control−.250[−.375,−.150].
 - Pairedt[−.440090,−.059910],upperp1;all5differencesnegative;DUD for predictedincrease.
@@ -10,7 +10,7 @@
 - All634post-live canonical/23scoped tests PASS with one empty-destination fixture.
 - Initial default-destination test failure retained;all frozen test/source bytes unchanged.
 - Figure inspected;11artifact call-forbidden regeneration byte-identical;20archive files unchanged.
-- Registrationd1386e1 pushed;results commit/push and fresh origin-clone proof next.
+- Registrationd1386e1/results19fb595 pushed;origin clone PASS11artifacts/23tests.
 - Risks:n5,synchronized floor,bundled ownstatus/history,provider/toolnonuse unattested.
 - Next:fresh different axis A/B;ownS55/S52/S49/S46/S39proposals remain queued.
 
@@ -547,3 +547,7 @@
 - 2026-10-25T06:31:22.217141+00:00: Actual two-panel S54figure inspected. Full predeclared adverse-text appendix retains every warmup/primary returned action explanation and note;no agreement,intent or mechanism labels. New own/S55own-current-type visibility proposal queued from role-attribution statements in this transparency census;not run,no new endpoint,subgroup analysis or secondpilot. Allfrozen sources and original DUD unchanged.
 
 - 2026-10-25T06:38:22.004922+00:00: Both final scientific critics/parent exit0;Codex raw/source reconstruction and Opus supplied-code/cells-only scope confirm frozen DUD and all primarynumbers.634post-live canonical tests now PASS after isolating only the frozen NEW-launch-negative test in an empty external cwd;initial1failure retained in logs/s54_canonical_post_live.json,real completed archive correctly resumed. All23S54tests pass;updated driver measures22source/20archive hashes before/after. Scientific/test bytes unchanged;no extra modelcalls,tuning,exclusions,reverse/secondary promotion or siblingwrites. Actualfigure inspected;11artifact call-forbidden regeneration byte-identical;all22registeredsource/20archive hashes match snapshot/resultSHA7f1d9114cc541fc1070b008a49a5c4d84ba35030aa07b0b6c92f993cd5f3ceb6. Ordinarydocs clarify complementary condition identifier,partially independent prompt-copy scope,and replacement s54_clone.py origin command. Results commit/push then fresh originclone proof next.
+
+- 2026-10-25T06:43:20.968754+00:00: Fresh full-history origin clone at results19fb595a5ac09f5a7f9fffe91624b4bb5aea4282 PASS:11artifacts byte-identical,23scoped tests,22scientificsources/20archive files unchanged,clone gitstatus clean;science calls forbidden,installed frozen venv reused (no fresh install). Receipt preserved as logs/s54_remote_clean_clone_science.json. To honor PLAN front-report format,compacted REPORT fromlong duplicated prose to65line log preserving ALL39pilot rows byte-for-byte and archiving former prose verbatim in REPORT_DETAILS;idempotence PASS. No scientific numbers/source/data changed;defaultrelease passes172local links. Focused final editorial critic and refreshed pushed-document originclone next.
+
+- 2026-10-25T06:45:05.684399+00:00: Focused final compact-report Codex critic exit0:all39pilot rows and header byte-identical to results19fb595;entire former prose preserved verbatim,prior details unchanged,new S54headline matches frozen JSON,no new overclaim. Refreshed11artifact model-call-forbidden regeneration byte-identical with compact reports;all22source/20archive hashes and resultSHA unchanged. Document/proof milestone push then final origin checkout proof next;no new science or endpoint changes.

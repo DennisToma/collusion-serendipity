@@ -1109,3 +1109,70 @@ All five block differences are negative: [-0.125, -0.25, -0.5, -0.25, -0.125]. F
 
 “Alternating” is the frozen condition identifier for cross-employee complementary types;it does not mean temporal X/Y alternation. Full realized schedules are in all ten game files and trajectories. The separate checker independently reconstructs actions/payoffs/statistics but copies the prompt template;the original S29 prompt-identity reference is checked by the primary analyzer.
 <!-- S54 details end -->
+
+
+<!-- Iteration38 front-report prose archive start -->
+## Front-report caveats preserved during iteration38 compaction
+
+The following is the full former front-report prose,archived verbatim when the
+front page was shortened. Methods/results above remain the substantive record;
+prospective queue statements below are a historical snapshot.
+
+S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S45 summary start -->
+**S45:** paired t95% **[-0.094, 0.044]**, upper sign-flip **p=1.00000**. Shared versus self-only notepads in fixed two-seller markets. Delivery and stated readability bundled; public actions visible in both arms; approvals do not verify agreement. [All outcomes and figure](results/s45_summary.md).
+<!-- S45 summary end -->
+
+[Post-outcome S45 transparency appendix](results/s45_action_text.md) lists every unsupported recommendation with exact returned text;it assigns no agreement,intent or mechanism label.
+
+S45 has a near-floor self-only baseline (1/40 versus shared0/40). Its primary contrast comes from one block (24964);a missed supported recommendation occurs in a different block (24960). The DUD classification is the registered directional screen,not evidence that private notes never matter. Local wrapper timing and requested-route metadata do not attest provider execution. The registered failure-record survival language is broader than implemented durability:transport-failure records are flushed but not fsynced;durable admissions still reject interrupted continuation. No transport failure occurred in this completed archive.
+
+<!-- S41 summary start -->
+**S41:** Paid wage r3–10: fine **10.188**, coarse **9.225**; fine−coarse **+0.963 [+0.000, +2.688]**; paired t95% [-1.378, +3.303], inclusive upper sign-flip **p=0.25000**. Frozen **ODD** for the two-unit screen. 2 of 5 block differences are positive; 3 tie. The largest block gap is +4.3125 (coarse 6.1250, fine 10.4375). Ten fresh games/five paired blocks; zero tuning or pooling. The half-unit grid changes feasible deviations, equilibria and numerical salience together. This does not isolate representation, competition or anchoring, and low wages do not verify coordination. The same payoff formula gives coarse pure-Nash wages18–20 and fine pure-Nash wages19–20. Bounds are descriptive; small-n/sign-calibration limits apply, and any degenerate interval is not population equivalence. Regret uses each arm's own feasible grid, so its contrast mixes the changed opportunity set with behavior. The local Codex wrapper requests low reasoning effort; served settings remain unattested. [All outcomes and figure](results/s41_summary.md).
+<!-- S41 summary end -->
+
+Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs but its mutable expected-baseline field leaves transient coordinated drift unexcluded. S33–S36 use immutable closure baselines plus completion checks; complete effective configuration and provider execution remain unattested. S36 hashes selected environment values without referenced-file content coverage. S38 adds named referenced-file contents and repo/temp-root instruction ancestors;complete effective settings and provider execution remain unattested.
+
+Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible. Labor: initially two employers,value20,wages0..20,one passive divisible unit allocated to the highest wage. Integer-wage duopoly/control pure-Nash wages18–20;S41 half-unit pure-Nash wages19–20;S42 adds a third employer fromr6 in the entry arm,whose pure-Nash wages are19–20.
+
+**Earlier caveats:** S01 digits cannot identify coding; S02 echoed own notes; S04 fails its exposure gate; S03/S11 dynamics depend on timing/window phase; S07 is driven by one block; S09 removes incoming information as well as memory; S16 is an operational failure with no effect estimate. S19 adverse JSON actions can contradict explanations; S21's action-aware auditor correctly reads the selected challenge cases. No sibling headline change.
+
+S29 remains ODD because one of five blocks ties;the bootstrap-positive interval alone does not satisfy the registered screen. [Post-outcome transparency appendix](results/s29_action_text.md) lists all adverse decisions and infers no intent.
+
+[All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
+
+**Next:** Fresh different-axis pilot after own/S54; prefer a new A/B question over archived-history perturbations. S52/S49/S46/S39 remain proposed, S32 unconfirmed and S30 unrun. Avoid repeated perturbations of the same archived focal histories.
+
+<!-- S44 summary start -->
+**S44:** paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Block differences: +0.00, -0.50, +0.00, +0.00, +0.00. Identical headers and payoff rows; only row sequence reverses. Focal offers, not realized worker pay; observed histories, uncontrolled model draws, n5. The directional screen does not exclude smaller or reverse effects and does not identify a mechanism. [Methods, all outcomes and figure](results/s44_summary.md).
+Only the paired contrast sign-flip is a registered hypothesis; arm-level sign-flip fields in JSON are generic tests against zero and carry no row-order claim.
+<!-- S44 summary end -->
+
+<!-- S48 summary start -->
+**S48:** immediate TYPE-Y review after partner-note deletion. Retain 4/10, erase 4/10; paired t95% [-0.439, +0.439], inclusive upper sign-flip p=0.75000. Five source-block differences [0.5, 0.0, -0.5, 0.0, 0.0]. Retain is the exact archived prompt; erase removes only partner records. Own notes and public history preserve indirect communication, so this is no mediation or long-run channel estimate. Observed histories, uncontrolled fresh draws and n5 limit transfer. DUD is triggered by the mean≤.05 rule; the bounds include the .25 directional target, so they do not exclude that effect. Source S29 CLI inputs were not fingerprinted. [All cases, methods and figure](results/s48_summary.md).
+Only the paired contrast is the registered hypothesis; generic arm-level sign-flip fields test against zero and carry no deletion-effect claim.
+<!-- S48 summary end -->
+
+<!-- S47 summary start -->
+**S47:** A JSON syntax example with rate 0 versus 20 gave a high-minus-low focal-offer difference of **-0.100 [-0.300, +0.000]**; paired t95% [-0.378, +0.178], upper sign-flip p=1.00000. Both arms had the same payoff table, history and explicit non-recommendation warning. Four blocks tie; one differs by −0.5. The registered two-unit screen is DUD, with no equivalence, mechanism or realized-wage claim. Five observed source blocks and uncontrolled draws limit transfer. Known source/replay local fingerprints differ;both fresh arms share one frozen local runtime,with provider execution unattested. [All cases, methods and figure](results/s47_summary.md).
+Only the paired contrast is a registered hypothesis; generic arm-level sign-flip fields test against zero.
+<!-- S47 summary end -->
+
+
+**S50:** paired t95% [-0.580, +0.780], upper sign-flip p=0.50000;block differences [0.0, 0.0, 1.0, 0.0, -0.5]. Final-round disclosure leaves 3/10 adverse approvals;this does not verify an agreement,strategic foresight or a completed terminal game. The .25 reduction remains unresolved. Only focal agents are rerun,and generic future-note rules/historical continuation cues survive. [All outcomes and figure](results/s50_summary.md).
+
+S50 response backend/model checks verify requested labels only;they do not attest served identity or routing.
+
+**S51:** reviewer charge3→9 (net−2→−8): 5/10 versus 5/10 adverse approvals; paired t95% [-0.439, +0.439], upper sign-flip p=0.75000; block differences [-0.5, 0.0, 0.5, 0.0, 0.0]. The .25 reduction remains unresolved. Both arms add the same current-policy notice. All user history and notes stay fixed, including dated old-policy cues. Only focal decisions are rerun; this does not measure long-run enforcement or verify coordination. [All outcomes and figure](results/s51_summary.md) · [All returned text](results/s51_action_text.md).
+
+**S53 (post hoc):** 0/9 shared and 0/9 self-only both-Y opportunities had simultaneous mutual-Y approvals (0/40 rounds per arm). These zero-width empirical bootstrap/t intervals are degenerate and do not establish population absence or equivalence. No missed X approvals occurred. In these data the regret and pair-excess contrasts are exactly two and four times S29’s original approval contrast; they add no independent finding. The pair-excess contrast is +1.300 bonus points/round, bootstrap95% [+0.400, +2.300], paired t95% [-0.195, +2.795]. Strict Pareto improvement equals mutual-Y mechanically. Same-round results do not exclude mixed-status or delayed reciprocity, or both employees gaining across multiple rounds; they do not verify an agreement. Original S29 ODD is unchanged. [All six metrics, game cells and figure](results/s53_summary.md).
+
+S53 release: both critics and all611canonical checks pass;[fresh origin-clone proof](logs/s53_remote_clean_clone.json) reproduces seven artifacts byte-for-byte from results commit `5ed960c` using the installed frozen venv (no fresh dependency install).
+
+<!-- S54 summary start -->
+**S54:** TYPE-Y approvals alternating **10/40**, synchronized **0/40**; synchronized−alternating **-0.250 [-0.375, -0.150]**; pairedt95% [-0.440, -0.060], upper sign-flip **p=1.00000**. Frozen **DUD** for the .25 directional screen. Five block differences [-0.125, -0.25, -0.5, -0.25, -0.125]. Shared notes and marginal task counts fixed; joint statuses and downstream histories change together. This does not verify coordination or replicate S29’s channel contrast. [All outcomes, caveats and figure](results/s54_summary.md) · [All adverse returned text](results/s54_action_text.md).
+All five block differences are negative. The original increase hypothesis failed;the signed reverse pattern is descriptive and unpromoted. Zero synchronized approvals do not establish population absence or equivalence.
+“Alternating” means complementary employee types within a round,not alternation over time;the full schedules are retained in the game files.
+<!-- S54 summary end -->
+<!-- Iteration38 front-report prose archive end -->
