@@ -214,3 +214,7 @@ All ten original S29 games/five reused blocks24480..24484,self/shared.
 Primaryr3..10;fixed single-round,pairs3-4/5-6/7-8/9-10,and full-window comparators.
 Zero newgames/scientificcalls,tuning,heldout,pooling or independent replication.
 Seven equally reported descriptive metrics;ODD/context-only,no promotion. See DESIGN_S72.md.
+
+S70: five fresh paired seeds25460..25464;ten exploratory games,T10,r3..10.
+Endowment0versus10 with charge13both;all unilateral increments identical.
+No heldout,tuning,pooling or S69replication claim;any confirmation needs fresh seeds.

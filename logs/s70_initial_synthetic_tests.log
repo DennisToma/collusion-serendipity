@@ -1,0 +1,49 @@
+======================================================================
+ERROR: test_full_dry_independent_and_mutation_guards (scripts.test_s70.Tests.test_full_dry_independent_and_mutation_guards)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s70.py", line 171, in test_full_dry_independent_and_mutation_guards
+    with patch.object(sys,'argv',['sim.bonus_endowment','--dry','--out',str(root)]),contextlib.redirect_stdout(io.StringIO()):main()
+                                                                                                                              ^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/bonus_endowment.py", line 375, in main
+    sources = {s: hashlib.sha256(Path(s).read_bytes()).hexdigest() for s in SOURCES}
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'DESIGN_S70.md'
+
+======================================================================
+ERROR: test_independent_raw_charge_sign_schema_source_and_request_mutations (scripts.test_s70.Tests.test_independent_raw_charge_sign_schema_source_and_request_mutations)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s70.py", line 206, in test_independent_raw_charge_sign_schema_source_and_request_mutations
+    with patch.object(sys,'argv',['sim.bonus_endowment','--dry','--out',str(root)]),contextlib.redirect_stdout(io.StringIO()):main()
+                                                                                                                              ^^^^^^
+  File "/home/factory/collusion/collusion-serendipity/sim/bonus_endowment.py", line 375, in main
+    sources = {s: hashlib.sha256(Path(s).read_bytes()).hexdigest() for s in SOURCES}
+                                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/factory/.local/share/uv/python/cpython-3.12.15-linux-x86_64-gnu/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'DESIGN_S70.md'
+
+======================================================================
+FAIL: test_deadline_cache_only_and_recheck (scripts.test_s70.Tests.test_deadline_cache_only_and_recheck)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/factory/collusion/collusion-serendipity/scripts/test_s70.py", line 162, in test_deadline_cache_only_and_recheck
+    with self.assertRaisesRegex(RuntimeError,'after preflight'):c.call('s','u','cheap','codex','r',0,'A',0,'gpt-6-luna')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 14 tests in 3.961s
+
+FAILED (failures=1, errors=2)

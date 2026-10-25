@@ -1,18 +1,16 @@
 # STATUS
 
-## Current state (2026-10-25T12:09:45.521369+00:00; Phase2, iteration52 COMPLETE)
-- S72(E):posthoc temporal payoff audit;all10originalS29games/5blocks;zero newgames/scientificcalls/tuning.
-- Both gain over r3..10:self0/5,shared2/5;difference+.400[.000,.800];t[-.280,1.080].
-- Single-round bothgain0/40each;fixedtwo-round0/20versus2/20;three sharedgames harm oneemployee.
-- Seven dependent metrics;ODD/context-only,no HIT/replication/agreement/intent/causalprofit inference.
-- Separate200raw action-note-reason/80rounds/40fixedpairs/10fullwindows/70cells/21interval checks PASS.
-- All1531older science/64source-input paths/split append unchanged;52priorrows/53contiguous;489links.
-- Eight result/source and four prewrite-document corruptions reject;byte-identical release/figure checked.
-- Supervised912canonical checks PASS,terminalexit0;earlier offline143/incomplete cause unknown.
-- Both final critics exit0:Codex raw/statistics versus Opus supplied-text arithmetic scopes.
-- Origin793a641:12artifacts byte-identical,17focused tests,clean clone;existing pinned venv reused.
-- Results pushed,HITS unpromoted;S29/S53 unchanged;S68interrupted,no estimate/restart.
-- Next:different-axis freshpilot before14:30UTC if valuable;no further S29reuse without newreason.
+## Current state (2026-10-25T12:14:55.526683+00:00; Phase2, iteration53 IN PROGRESS)
+- S70(own):fresh fixed-endowment pilot after E/S72;registration/design only,zero scientificcalls.
+- Endowment0versus10;charge13/equal-pooling both;Xincrement+3.5,Yincrement-3 unchanged.
+- Ten games/five fresh blocks25460..25464,T10,r3..10;primary endowed-minus-baseline Yapproval.
+- Frozen .25 directional screen;no bonus gate,HIT only endowment sensitivity,not collusion.
+- All16stage profiles/unilateral deviations and14focused checks PASS;initial synthetic setup failures retained.
+- Main+separate full synthetic replay/50cells/15intervals/200bindings PASS;no historical science edits.
+- Both methodology critics exit 0; 926 canonical checks pass; pushing freeze before calls.
+- S68 remains interrupted,no effect/restart;S72 unchanged,no promoted HIT or sibling headline change.
+- Deadline:admit until14:20UTC with60min launch headroom,pilots stop14:30;then polish.
+- Queued ownS73timing proposal;no secondpilot or direction deviation.
 
 ## Log
 
@@ -731,3 +729,9 @@
 - 2026-10-25T12:08:11.192862+00:00: Both final critics exit0:no numerical/comparator bug. Codex independently reconstructs200raw action/note/reason bindings,all80/40/10records,all21exact-bootstrap+t summaries and1531older science/64source-input hashes;Opus supplied-text arithmetic only. Three sharedgames harm oneemployee;unconditional policies could produce mutual gains,so agreement/reciprocalintent/causalprofit remain unidentified. Final912canonical checks PASS with actual supervised terminalexit0;initial offline session29242 exit143/incomplete receipt preserved,no terminationcause inference. Seventeen focused tests/eight result-source/fourprewrite-document probes/489links and byte-identical call-forbidden release PASS. Earlier ledger prefixes,append-only historical STATUS log and DIRECTION unchanged;repo93MB excludinggit/venv. Frozen scientific/presentation bytes unchanged after outcomes. Ready for resultcommit/push and actual fresh-origin reproduction;not claimed in advance. No newscientificcalls,games,tuning,pooling,exclusions,HIT,siblingwrite or directiondeviation.
 
 - 2026-10-25T12:09:45.521369+00:00: iteration52 COMPLETE. Registrationb2e3aee/scientific+document result793a6411f6d7b646b1897d964b531cbaa7116cc0 committed and pushed. Actual fresh full-history ORIGIN clone at exact result revision reproduces all12checked scientific/registration/release/postcheck/document artifacts byte-identically,passes17focused tests and has clean gitstatus;existing pinned installed venv reused,no fresh-install claim. Receipt logs/s72_remote_clean_clone.json contains every command/output/hash. Ledger S72-result now pins this exact reproduced revision. All912supervised canonical checks PASS with actual terminalexit0;earlier incomplete offline exit143 preserved with unknowncause,no scientific effects. Both final critics exit0(Codex complete raw/window/statistical reconstruction versus Opus supplied-text arithmetic). New decomposition:both-person strict Nash-relative gains self0/5 versusshared2/5 over fixedr3..10,shared-minus-self+.400[.000,.800],pairedt[-.28008738065825567,1.0800873806582558];single rounds0/40each,fixedtwo-round0/20versus2/20. Individual gains+8/+8and+12/+12 in two sharedgames;other three sharedgames harm oneemployee. Seven dependent measures/all21descriptive intervals,no p-values/HIT rule,promotion,agreement,reciprocalintent,causalprofit,independentreplication or long-run claim. All1531older sciencepaths/64source-input hashes/exact split append preserved,all52priorrows/53contiguous and489links;8result-source/fourprewrite-document probes reject with archivebytes untouched. Frozen resultSHAf6d7ecca7edf072d92b9c5ea968769a9fe79d2ba03b0e00068fa8e8cea8ed049. No extra scientificcalls,games,tuning,pooling,exclusions,secondpilot,siblingwrite,headlinechange or DIRECTION deviation. S29/S53 unchanged;S68remainsFAILED_INTERRUPTED with no effect estimate or restart. No active S72simulation/test/review process. Nextdifferentaxis,freshcontexts if a valuablepilot canfinish before14:30UTC. Closing proof/status/ledger commit+push follows.
+
+- 2026-10-25T12:14:55.526683+00:00: iteration53 read rule/state/direction/ledger and sibling summaries. Selected queued ownS70 after E/S72:fixed noncontingent per-round income changes while every action increment stays identical. Fresh ten-game/five-block exploratory design;all16stage profiles/unilateral increments and14focused checks PASS,including full synthetic main+independent reconstruction. Initial dry tests lacked the not-yet-written design and a copied deadline fixture;fixed before any scientific call and retained outputs under /var/tmp. Registered S73timing idea,not run. Methodology reviews/canonical preflight next;no scientificcalls,outcome tuning,historical science edits,siblingwrites or direction deviation.
+
+- 2026-10-25T12:18:06.948948+00:00: S70 both methodology critics exit0. Codex independently checks16profiles/32unilateral flips,prompt substitution,schedules and statistical boundaries;no high/medium issue. Supplied-text Opus arithmetic correct;accepted exact-summary unit guard,explicit+10history-score treatment and reverse/two-sided descriptive tails. Fourteen refined focused checks PASS;source manifest and1543older artifact hashes match. Canonical preflight active;zero scientificcalls. No scientific screen change or direction deviation.
+
+- 2026-10-25T12:18:23.132165+00:00: S70 registration ready:926canonical tests PASS,terminalexit0;14refined focused checks PASS,both methodology critics exit0,19frozen sources and1543older scientific artifact hashes verified. No scientificcalls or outcomes;registration commit+push then sole live launch.
