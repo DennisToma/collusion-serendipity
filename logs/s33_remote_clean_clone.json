@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "commit": "3c2e342c215f50513ef73b92d8d6e2a158112dc4",
+  "commit": "f9ac7f7b4263d1fe1a9c62a9f116eac744e0c300",
   "clone_source": "origin remote",
   "commands": [
     [
@@ -19,9 +19,7 @@
       "scripts/s33_release.py"
     ],
     [
-      "-m",
-      "unittest",
-      "scripts.test_s33"
+      "scripts/run_tests.py"
     ]
   ],
   "dependency_environment": "Existing frozen venv reused; no fresh dependency installation",
@@ -32,6 +30,6 @@
     "logs/s33_independent.json": "ed0800422e920db0845b4570b56e626d413d0536ee9d7d327625afdd74f54751",
     "logs/s33_release.json": "2570d6a9b5693bb64e7a2d460249856d8cccf52bc05207b2c40d8e59b17e8619",
     "figures/s33_leniency.png": "26576f291d426862077501a14363ceea2b5d0446def15387d89d9493958f345d",
-    "REPORT.md": "94edd9e808f2671e4936dbef81af7512b0ae4131cbaf029c7d9134fcf3804a22"
+    "REPORT.md": "93996e7d9717e8e82269a2b0ba3d12a2f157abc92d9584f5df1eddea797d6429"
   }
 }

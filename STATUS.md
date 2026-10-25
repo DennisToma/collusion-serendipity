@@ -1,19 +1,19 @@
 # STATUS
 
-## Current state (2026-10-25T00:24:59.156724+00:00; Phase2, iteration21 PUBLICATION CHECKS)
-- S33 reporting/amnesty complete:10games/5blocks,200valid decisions,no retries/failures.
+## Current state (2026-10-25T00:32:03.355409+00:00; Phase2, iteration21 COMPLETE)
+- S33 reporting/amnesty:10games/5blocks,200valid decisions,zero retries/failures.
 - Baseline10/40 versus amnesty12/40 Y approvals;reduction-.050[-.175,.050].
-- Paired t[-.226964,.126964],upperp.875;frozen DUD,no HIT or backfire claim.
+- Paired t[-.226964,.126964],upperp.875;frozen DUD,no HIT/backfire/causal-null claim.
+- Primary flags0vs29,no extra/waived charges;warmup1qualifying report enters history.
+- Exposure diagnostic POST-OUTCOME;no mechanism/intent/secondary promotion.
 - All200-key replay/20-source registration/export/timing/runtime checks PASS.
-- Independent70cells/21exact summaries/21sign sets/200action+note+reason bindings PASS.
-- Cache-only resume leaves data/result byte-identical;figure generated.
-- Primary report flags0vs29;no primary extra/waived charges;warmup1qualifying report.
-- Reporting exposure companion is POST-OUTCOME,no mechanism/secondary promotion.
-- Final289tests PASS,synthetic S21/S31/S33 clocks scoped;20scientific sources unchanged.
-- Codex+Opus final critics exit0,agree DUD;Codex independently reproduces every metric.
-- Results3c2e342 pushed;original remote clone7artifacts PASS;runner/docs fix verified.
-- Next:push publication fixes,complete revised remote clone,final receipts.
-- Risks:n5,bundled intervention,no primary realized enforcement,unattested provider.
+- Separate70cells/21exact summaries/21sign tails/200action+note+reason bindings PASS.
+- Codex+Opus final critics exit0;all raw statistics/128stage cases externally checked.
+- Final289tests PASS;synthetic S21/S31/S33 clocks scoped,real archives unchanged.
+- Remotef9ac7f7:full289suite/seven artifacts byte-identical/clone clean.
+- Registrationad3cfff/results3c2e342 pushed;scientific SHA bf766e19 unchanged.
+- No active generation/review,HIT,tuning,pooling or sibling writes.
+- Next:fresh own/other-world;S34 inert-report salience queued,S30 unrun;risks n5/bundling.
 
 ## Log
 
@@ -298,3 +298,5 @@
 - 2026-10-25T00:27:42.546766+00:00: final independent Codex and Opus critics both exit0;review parent exit0 explicitly verified. Codex independently recalculates all70cells/21bootstrap+t intervals/21sign tails,128stage cases,all observable report exclusions and diagnosticJSON;Opus independently hand-verifies primary/t/sign/verdict and qualifies its unchecked raw/bootstrap scope. Accepted wording/provenance/warmup-history clarifications;no scientific source/result changes. All20 registered sources unchanged,resultSHA256bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb. Complete offline release PASS;figure visually checked. Results ready for milestone commit/push and remote-clone check.
 
 - 2026-10-25T00:30:41.956929+00:00: original results3c2e342 remote clone passes all seven byte-identical artifacts/clean status. Found future mocked S33 fixture expiry;reproduced one expected deadline failure with zero calls,added runner-only scoped clock override and future13/13 pass. No registered source/test/deadline changes. Full post-polish suite caught one S25 presentation-anchor regression after prose move;restored the required paragraph,focused regression and corrected full289-test suite PASS. Original failed full-suite log retained as s33_final_suite_initial.log. Real S33 release with original clocks PASS;resultSHA unchanged. Revised remote coordinator will run complete289-test suite plus all reconstruction/diagnostic/render/release commands.
+
+- 2026-10-25T00:32:03.355409+00:00: revised origin-remote clone off9ac7f7b4263d1fe1a9c62a9f116eac744e0c300 PASS:full289-test canonical suite plus frozen analysis,separate reconstruction,figure/report rendering,post-outcome diagnostic and cache-only release. All seven published artifacts byte-identical;clone clean. Existing frozen dependency environment reused,not fresh installation. All20 registered source/test files and scientific resultSHA bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb unchanged. S33 source/result/negative-diagnostic ledgers complete;no promoted HIT or sibling writes. Iteration21 complete;publication receipts committed/pushed next.

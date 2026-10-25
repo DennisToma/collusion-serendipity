@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "observed_utc": "2026-10-25T00:30:41.956929+00:00",
+  "observed_utc": "2026-10-25T00:32:03.355409+00:00",
   "scientific_registration": "ad3cfff2e9537671a132924d06fab5b973624dc8",
   "scientific_sources_unchanged": 20,
   "result_sha256": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
@@ -18,7 +18,41 @@
     "opus_exit": 0,
     "parent_exit": 0
   },
-  "remote_clone": "original results3c2e342 passed; revised complete workflow pending push/clone",
+  "remote_clone": {
+    "passed": true,
+    "commit": "f9ac7f7b4263d1fe1a9c62a9f116eac744e0c300",
+    "clone_source": "origin remote",
+    "commands": [
+      [
+        "scripts/s33_analyze.py"
+      ],
+      [
+        "scripts/s33_independent.py"
+      ],
+      [
+        "scripts/s33_present.py"
+      ],
+      [
+        "scripts/s33_reporting_diagnostic.py"
+      ],
+      [
+        "scripts/s33_release.py"
+      ],
+      [
+        "scripts/run_tests.py"
+      ]
+    ],
+    "dependency_environment": "Existing frozen venv reused; no fresh dependency installation",
+    "byte_identical_artifacts": {
+      "results/s33_leniency.json": "bf766e197e38bf0fbdbe09d61dc31851769288183a6b6267fa865974af69a3bb",
+      "results/s33_summary.md": "9e6b0e562f97f4d08a235fd34558abf411775ffd4f4007c0b723ebbb150b74c3",
+      "results/s33_reporting_diagnostic.json": "569c79225a6b9ad18ba50354e5d63764e66b35e9d183960626ebdf5919c1adf4",
+      "logs/s33_independent.json": "ed0800422e920db0845b4570b56e626d413d0536ee9d7d327625afdd74f54751",
+      "logs/s33_release.json": "2570d6a9b5693bb64e7a2d460249856d8cccf52bc05207b2c40d8e59b17e8619",
+      "figures/s33_leniency.png": "26576f291d426862077501a14363ceea2b5d0446def15387d89d9493958f345d",
+      "REPORT.md": "93996e7d9717e8e82269a2b0ba3d12a2f157abc92d9584f5df1eddea797d6429"
+    }
+  },
   "final_repository_tests": {
     "passed": true,
     "tests": 289,
@@ -60,5 +94,8 @@
     "frozen_scientific_and_test_sources_unchanged": 20,
     "real_S33_archive_release_original_clocks_passed": true,
     "scientific_result_unchanged": true
-  }
+  },
+  "work_complete": true,
+  "scientific_result_unchanged": true,
+  "active_scientific_generation_or_review": false
 }

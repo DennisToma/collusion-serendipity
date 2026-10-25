@@ -95,3 +95,8 @@ requires its root-report scope paragraph as an anchor. Restored that existing
 paragraph after moving older caveats to REPORT_DETAILS;no frozen renderer or
 scientific data changed. The initial post-polish289-test run had one error;the
 corrected complete suite is rerun and both outcomes are retained honestly.
+
+Final publication reproduction PASS:origin-remote clone off9ac7f7b4263d1fe1a9c62a9f116eac744e0c300
+runs the complete canonical289-test suite and all reconstruction/render/
+diagnostic/release commands. Seven artifacts byte-identical and clone clean.
+All20 registered scientific/test files and original result bytes unchanged.
