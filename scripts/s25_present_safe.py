@@ -23,7 +23,10 @@ CAVEAT=('Neither fresh arm reproduced any of the four archived adverse approvals
 def present():
     report_path=Path('REPORT.md');original=report_path.read_text()
     report=original
-    if not any(x.startswith('S24 observed ') for x in report.splitlines()):
+    compact=not any(x.startswith(('S24 observed ','S25 uses a deliberately enriched ')) for x in report.splitlines())
+    if compact:
+        report+='\n'+ANCHOR+'\n'
+    elif not any(x.startswith('S24 observed ') for x in report.splitlines()):
         line=next(x for x in report.splitlines() if x.startswith('S25 uses a deliberately enriched '))
         report=report.replace(line,ANCHOR)
     report_path.write_text(report)
@@ -36,7 +39,9 @@ def present():
     report=report.replace('<!-- S25 summary end -->',
         'S25 backend tools were instruction-restricted but not disabled; tool-use transcripts were not retained. '
         'Prompt isolation is verified, actual tool non-use is unverified.\n<!-- S25 summary end -->')
-    report_path.write_text(report)
+    # A compact front log has no historical prose anchors. Render the standalone
+    # summary through a temporary anchor, preserving that front log byte-for-byte.
+    report_path.write_text(original if compact else report)
     summary=Path('results/s25_summary.md');text=summary.read_text()
     text=text.replace('scripts/s25_present.py','scripts/s25_present_safe.py')
     text=text.replace('The inclusive n5 sign-flip HIT gate',CAVEAT+'\n\nThe inclusive n5 sign-flip HIT gate')

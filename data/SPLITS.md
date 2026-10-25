@@ -171,3 +171,9 @@ Each employee fourX/fourY primary;first employee assignments matched,second
 complemented between arms.200planned decisions,.25directional screen. Exploratory,
 zero tuning,no heldout,pooling or S29replication. Full design/source manifest
 committed,pushed and observed remotely before scientific calls.
+
+S56:POST-HOC zero-call coalition-deviation audit of all10original S14 games,
+5sourceblocks24200..24204,all90primaryrounds4..12. No newgames,heldout split,
+tuning,replication or promotion screen. Eight metrics fixed before decomposition,
+after original outcomes known. Full source/input freeze pushed and remotely
+observed before computing the new decomposition;original S14 ODD unchanged.

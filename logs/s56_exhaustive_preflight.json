@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "all_profiles": 3375,
+  "metric_cells": 27000,
+  "individual_deviations_per_profile": 45,
+  "pair_deviations_per_profile": 225
+}

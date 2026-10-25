@@ -15,6 +15,8 @@ class Presentation(unittest.TestCase):
             target=Path(td);(target/'results').mkdir();(target/'figures').mkdir()
             for f in ['REPORT.md','results/s25_order.json']:shutil.copyfile(root/f,target/f)
             result_before=(target/'results/s25_order.json').read_bytes()
+            report_before=(target/'REPORT.md').read_bytes()
+            compact=not any(x.startswith(('S24 observed ','S25 uses a deliberately enriched ')) for x in report_before.decode().splitlines())
             old=os.getcwd()
             try:
                 os.chdir(target);present()
@@ -22,7 +24,8 @@ class Presentation(unittest.TestCase):
                 first={f:hashlib.sha256(Path(f).read_bytes()).hexdigest() for f in files}
                 present();self.assertEqual(first,{f:hashlib.sha256(Path(f).read_bytes()).hexdigest() for f in files})
                 self.assertEqual(Path('results/s25_order.json').read_bytes(),result_before)
-                self.assertEqual(Path('REPORT.md').read_text().count(CAVEAT),1)
+                self.assertEqual(Path('REPORT.md').read_text().count(CAVEAT),0 if compact else 1)
+                if compact:self.assertEqual(Path('REPORT.md').read_bytes(),report_before)
                 self.assertEqual(Path('results/s25_summary.md').read_text().count(CAVEAT),1)
             finally:os.chdir(old)
 
