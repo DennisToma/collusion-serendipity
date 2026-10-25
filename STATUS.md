@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T02:48:43.586771+00:00; Phase2, iteration27 REVIEWED)
-- E/S40 complete:20fresh decisions/10fixed histories/5sourceblocks,zero new games.
-- Normalized focal offer retain0.000/erase0.000;difference+0.000 [+0.000, +0.000];frozenDUD.
-- Pairedt[+0.000, +0.000],upperp1.00000;block differences[0.0, 0.0, 0.0, 0.0, 0.0].
-- Floor counts/10:{'retain': 10, 'erase': 10};zero retries/failures.
-- Offer,not realized worker pay;public history retained;no memory-irrelevance claim.
-- Full20request/prompt/source/registration/runtime/UTC/schedule replay PASS.
-- Separate20quotes/15cells/3bootstrap+t/sign summaries PASS.
-- ScientificSHA903bdfcab56f;13registered sources unchanged.
-- Source S37 scientific files/archives unchanged;no pooling/tuning/sibling writes.
-- Post-live426tests childexit0;both final critics/parent exit0;cache-only release PASS.
-- Next:results push/origin clone,then fresh different axis;S39/S41 queued only.
+## Current state (2026-10-25T02:54:22.298124+00:00; Phase2, iteration27 COMPLETE)
+- E/S40:20fresh decisions/10observed histories/5sourceblocks;zero new games.
+- Retain/erase normalized offers0each;difference0[0,0],upperp1;frozenDUD,noHIT.
+- All20quotes10 minimum;five paired ties;SD0/bounds degenerate,no equivalence.
+- Offer,not worker pay;public history retained;no memory-irrelevance/coordination claim.
+- Full20prompt/registration/runtime/UTC/schedule replay and separate15cells/3summaries PASS.
+- Post-live426tests childexit0;Codex raw-archive/Opus supplied-text critics exit0.
+- Call-forbidden regeneration:six artifacts/seven archivefiles/13sources/14inputs unchanged.
+- Fresh origin clone at40764a2:full release/12protocol tests/six exact artifacts,clean.
+- Registrationcc0652a/results40764a2 pushed;ledger references finalized.
+- ScientificSHA903bdfcab56f;no active generation/review,tuning,pooling or sibling writes.
+- Risk:known fingerprints only;source/replay PATH hash differs;provider/tool use unattested.
+- Next:fresh different axis,new world/market structure;S39/S41 queued,S32unconfirmed,S30unrun.
 
 ## Log
 
@@ -392,3 +393,5 @@
 - 2026-10-25T02:51:53.736397+00:00: S40 final critics Codex/Opus and parent exit0. Codex independently reconstructs20rawquotes/15blockcells/3sets3125bootstrap/32signflips and full archive integrity;Opus supplied-text/result-list scope explicit. Both confirm frozenDUD,not memory-irrelevance. Clarified degenerate t formula at SD0 and redundant archived-match/floor counts in nonfrozen reports without changing sources/results. Durable post-live426-test suite childexit0. Source/fingerprint/journal/provider limitations remain explicit. No scientific calls,tuning,pooling,secondary promotion,HIT,sibling writes or active generation/review. Final model-call-forbidden regeneration,results push and fresh origin clone next.
 
 - 2026-10-25T02:52:55.873643+00:00: S40 final call-forbidden regeneration PASS:all six primary artifacts byte-identical,seven archive files/13frozen scientific sources/14selected S37source files unchanged. ScientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace;123local links/cache-only release PASS. Post-live426tests childexit0;both final critics/parent exit0. No active generation/review or further scientific calls. git diff --check PASS. Results milestone commit/push then fresh origin clone next.
+
+- 2026-10-25T02:54:22.298124+00:00: iteration27 COMPLETE. S40 registrationcc0652a1a43614fe3b1b7dd464972e589c6e37e8/results40764a2629f138ce43780c7ed9aebf0308516d76 pushed. Fresh full-history ORIGIN REMOTE clone passes frozen full analysis,separate20rawquote/15cell/3sets3125bootstrap+t/32signflip reconstruction,summary/figure regeneration,model-call-forbidden release and all12protocol tests. Six primary artifacts byte-identical;clone git status clean. logs/s40_remote_clean_clone.json records exact commands/hashes and existing frozen-venv reuse,not fresh dependency installation;durable remote childexit0. Durable local426post-live tests childexit0. Both final critics/parent exit0:Codex raw archive/full chronology,Opus explicitly supplied result lists/text only. FrozenDUD:retain0/erase0,all20freshquotes10,all five differences0,bootstrap/tformula[0,0] degenerate atSD0,upperp1;no population equivalence or memory-irrelevance,trajectory,mechanism,agreement,coordination or realized-worker-pay claim. All13scientific sources/seven archivefiles/14selected source inputs unchanged;scientificSHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace. Source/replay known fingerprint differs only PATH hash;provider/effective settings/tool use remain unattested. Ledger result reference finalized;reports/HITS/README current. S39/S41 proposals only,S32unconfirmed,S30unrun. No additional scientific calls,second pilot,source/threshold edits,tuning,pooling,exclusions,semantic labels,reverse/secondary promotion,HIT,sibling writes,direction deviation or active generation/review. Final publication receipt commit/push next.

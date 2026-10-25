@@ -1045,3 +1045,11 @@ committed with results; .writer.lock is already gitignored.
 S40 uncertainty: observed block SD=0 makes both bootstrap bounds and the t
 formula output[0,0] degenerate;they are not population-equivalence or calibrated
 zero-risk intervals. Archived-match and minimum-quote counts coincide here.
+
+S40 registrationcc0652a/results40764a2 pushed. Fresh full-history
+origin clone passes the full offline release,all12S40protocol tests and six
+byte-identical artifacts;clone clean. Receipts:logs/s40_remote_clean_clone.json
+and logs/s40_remote_exit.json. The clone reuses the installed frozen venv.
+Local post-live426tests childexit0,both final critics exit0;Codex independently
+read raw archives,Opus used supplied result lists/text only. Scientific result
+SHA903bdfcab56ff8b7c9fc08b77f57f86a3e138d571e496ffd434f7bfdaf4fdace unchanged.
