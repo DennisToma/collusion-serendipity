@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "commit": "da6cf2c109800e67cc43ed70b304c552cdaaf2da",
+  "clone_source": "origin",
+  "full_history": true,
+  "clone_clean": true,
+  "commands": [
+    [
+      "scripts/s69_release.py"
+    ],
+    [
+      "-m",
+      "unittest",
+      "scripts.test_s69",
+      "-q"
+    ],
+    [
+      "scripts/s69_independent.py"
+    ],
+    [
+      "scripts/s69_postcheck.py"
+    ]
+  ],
+  "focused_tests": 16,
+  "dependency_environment": "Existing pinned installed venv;no fresh dependency installation",
+  "byte_identical_artifacts": {
+    "results/s69_pooled_enforcement.json": "5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143",
+    "logs/s69_independent.json": "08c745e772cf87660a51209a2bdeaeb1bfd4fe4811e66fdfe483d4280228f8ef",
+    "results/s69_summary.md": "b17739466a1ab7dc5d1e2d0968eb788220ca10c52d4cd47555b7ee22ef4e9a9c",
+    "figures/s69_pooled_enforcement.png": "edc8a66f2fb918ad698f97c1e4c631c9dbb082adb49bd62b6688ff9900cce244",
+    "REPORT.md": "12840494573b790e92e3f1f9f66477b3cbcbf36c85ebe369d2f51bf6676c4dd0",
+    "REPORT_DETAILS.md": "d2741f2a4923228abaa18418a3e65098021d8cbfc72412fb24c0ea10913c06e4",
+    "HITS.md": "f9d667fb91a3f5bb616fa40b35e99cc29ccf2172ca4621c57d83ee45ad2641a0",
+    "README.md": "6abc1dd26085bdbb628572e24a3ae67770bf3dd9f02d99f267894458e86514ca",
+    "logs/s69_release.json": "1c212c3a19f9097df3b64a6f171823502f57b62c02bd4f3cc5f85c202692a04a",
+    "logs/s69_postcheck.json": "8c8cbf2ddbd79ccbce5a9494cdc247bd0ff3a16f610d76b1898c356e2e1af373"
+  }
+}

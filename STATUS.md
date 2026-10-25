@@ -1,17 +1,18 @@
 # STATUS
 
-## Current state (2026-10-25T11:15:16.188061+00:00; Phase2, iteration50 REPRODUCTION)
+## Current state (2026-10-25T11:18:48.232164+00:00; Phase2, iteration50 COMPLETE)
 - S69D:10fresh games/5blocks;pooled Ypayoff+2versus-3 via charge3to13.
 - Yapprovals31/40versus4/40;low-high+.675[+.450,+.875],t[+.335,+1.015].
 - Upper sign-flipp=.03125;all5positive;EXPECTED calibration maps to DUD.
 - No HIT,collusion,mechanism,absence or cross-pilot pooling claim.
 - Sole200responses,zero retries/failures;19frozen sources unchanged.
 - Mainraw replay+separate50cells/15bootstrap+t/all32signs/200bindings PASS.
-- Ten verifier mutations and three prewrite editorial mutations reject.
-- Full call-forbidden result/figure/docs reproduction PASS;1422older paths unchanged.
-- REPORT51pilots,HITS unpromoted;both final critics exit0;871canonical checks PASS.
-- Next results commit+push,clean-origin reproduction,closing proof/ledger commit.
-- OwnS70endowment idea queued;next different-axis A/C/F or own;pilots stop14:30UTC.
+- Ten verifier/three prewrite editorial corruptions reject;871canonical checks PASS.
+- Both final critics exit0;raw Codex versus supplied-text Opus scopes retained.
+- Originda6cf2c:10artifacts byte-identical,16focused tests,clean clone;existing venv.
+- All1422older sciencepaths/exact split append/50prior report rows preserved.
+- REPORT51pilots,HITS unpromoted;no active simulation/review or sibling change.
+- Next different-axis A/C/F or ownS70/S68/S63/S57/S52/S49;pilots stop14:30UTC.
 - Risks:n5,exploratory multiplicity,provider settings,incentive+wording package.
 
 ## Log
@@ -707,3 +708,5 @@
 - 2026-10-25T11:15:16.188061+00:00: S69 sole live run COMPLETE:all10games/200returned and accepted responses,zero retries/failures. Charge3=31/40,charge13=4/40;low-minus-high+0.675[0.45, 0.875];pairedt[0.33495630967087225, 1.0150436903291278];upperp0.03125;blocks[0.25, 1.0, 0.625, 0.75, 0.75];EXPECTED/DUD;200responses/zero retries/failures;zero tuning. Main full provenance/raw replay and separate50metriccells/15exactbootstrap+t summaries/all32signpatterns/200action-note-reason bindings PASS;ten result corruptions and three isolated prewrite document mutations reject. Source19hashes and1422older sciencepaths/exact prospective split append unchanged;REPORT51contiguouspilotrows/50priorrows preserved;figure visually checked. Call-forbidden reanalysis/replay/figure/docs byte-identical. Final critics and final canonical suite running. Communication-only correction:initial progress update misread net27approval difference as27versus0;actual31versus4has always been correct in all scientific/presentation artifacts. No scientific source,estimate,screen or result changed. No extra scientific calls,games,tuning,pooling,exclusions,HIT,sibling writes or direction deviation.
 
 - 2026-10-25T11:17:52.817701+00:00: Both final critics exit0 confirm frozen S69EXPECTED→DUD and every displayed number. Codex independently reproduces raw50cells/15bootstrap+t/15tailprobabilities/200bindings and all19source+1422older artifact hashes;four pure checks pass,write-producing release not run in read-only critic environment(matplotlib cache failure retained). Compact Opus is supplied-text hand-arithmetic only,not raw/timing/cache audit. All871final canonical checks PASS with existing historical synthetic fixtures;16S69checks included. Final release/postcheck PASS,unchanged scientific resultSHA5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143. Generic unused-branch wording retained;sign_tests15 clarified as5contrasts×3tails,not per-arm tests. No scientific change,extra scientific call,promotion or sibling write. Results commit+push and clean-origin reproduction next.
+
+- 2026-10-25T11:18:48.232164+00:00: iteration50 COMPLETE. Registration754ed1b8a840cf4e4faed68529fe8d2b2d8e5449/scientific+document resultsda6cf2c109800e67cc43ed70b304c552cdaaf2da committed and pushed. Fresh full-history ORIGIN clone at exact resultsrevision reproduces all10checked artifacts byte-identically,16focused tests,full call-forbidden raw/provenance replay and separate50metriccells/15exactbootstrap+t summaries/all32signpatterns percontrast/200action-note-reason and prompt/history bindings,plus ten verifier/three prewrite editorial corruption probes;clone gitstatus clean. Receipt logs/s69_remote_clean_clone.json;full commands/output logs/s69_origin_clone_run.log. Existing pinned installed venv reused,no fresh-install claim. Ledger result reference points to this exact reproduced revision. All871final canonical checks PASS with pre-existing historical synthetic fixtures;actual archive audits unpatched. All19registeredsource hashes/1422older sciencepaths/exact prospective split append/50older report rows/51contiguous currentrows/471links verified. Both final critics exit0(Codex raw/source/statistical reconstruction versus compact Opus supplied-text arithmetic);read-only critic matplotlib cache limitation retained. Scientific resultSHA5ef9b1edfbb45b844f0f2ae2c8960ab8788b5f4cb291097208900a11261cb143. Yapprovalscharge3=31/40,charge13=4/40;low-minus-high+.675[+.450,+.875],pairedt[.33495630967087225,1.0150436903291278],upper/lower/two-sided sign-flipp.03125/1/.0625;blocks[.25,1,.625,.75,.75]. EXPECTED frozen calibration maps to serendipity DUD,no HIT rule. All200returned/accepted responses,zero retries/failures;live elapsed366.062808seconds. No additional scientificcalls,games,tuning,pooling,exclusions,reverse/secondary/subgroup promotion,siblingwrites or headlinechange. Source/estimates/verdict unchanged after outcomes. Incentive and numeric-description package,not an isolated mechanism;unbounded t95% is descriptive. Earlier communication-only count correction retained;all saved artifacts always correct. OwnS70endowment proposal queued before complete outcomes;no secondpilot. No DIRECTION deviation or remaining simulation/review. Closing proof/status/ledger commit+push follows.
