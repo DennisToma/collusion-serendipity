@@ -1,0 +1,17 @@
+**S32’s published ODD verdict is correct. No result-changing arithmetic or economics bug found.** Two remaining integrity weaknesses were reproduced using in-memory mocks; neither shows that the recorded run was compromised.
+
+- **Medium — fingerprint baseline is mutable.** The [dispatch guard](/home/factory/collusion/collusion-serendipity/sim/resource.py:277) rereads the expected CLI fingerprint from `config.json` on every check. Changing both CLI inputs and that field makes subsequent guards pass. The final comparison against the original in-memory configuration catches persistent drift, but coordinated changes restored before completion can escape detection. **Remedy:** capture the launch fingerprint in the guard closure and check the complete configuration against an immutable digest at every admission/completion.
+
+- **Low — “exact” bounds receive approximate verification.** The [independent verifier](/home/factory/collusion/collusion-serendipity/scripts/s32_independent.py:137) converts rational bounds to floats and accepts differences within `1e-12`. I reproduced acceptance after perturbing a claimed exact bound by `1/10¹³`. **Remedy:** independently compute the interpolated quantiles using `Fraction` and require rational equality. Current published bounds are correct.
+
+**Independent reconstruction:** raw accepted rate choices yield human−compute block differences **0, 9.75, 0, 9.875, −0.625**. Their mean is **19/5 = 3.8**. Enumerating all **3,125** ordered bootstrap samples gives **[−1/4, 63/8] = [−0.25, 7.875]**. All **32** sign flips give upper/lower/two-sided counts **8/28/16**, hence probabilities **0.25/0.875/0.5**. HIT and DUD conditions both fail; **ODD** follows. The claimed five-block HIT equivalence is correct.
+
+Exhaustive enumeration confirms exactly **(18,18), (19,19), (20,20)** as pure equilibria. Payment plus total firm profit always equals 20; complementary profit supplies no independent evidence.
+
+All **20 initial requests** have empty public history and notes. The system prompts differ only in the resource-identity phrase. Reconstruction of all **200 requests** confirms self-only notes, completed-round public history, and withholding of current actions/notes until both decisions. Sequential transport therefore preserves informational simultaneity.
+
+The independent checker passes all 50 metric cells, 15 bootstrap/t summaries, five sign sets, notes/reasons and request contracts. Full analysis regenerates the saved result identically, including source registration, chronology, cache replay and canonical exports. Eight selected read-only protocol tests pass. Failure handling is fail-closed by inspection.
+
+**Acknowledged limitations:** five exploratory blocks; conditional sign-flip calibration; uncontrolled model draws/service interference; incomplete effective CLI configuration and provider attestation; instruction-only tool restrictions; disclosed prefix exposure. REPORT’s S32 wording appropriately avoids fairness, agreement, welfare and profitable-collusion claims.
+
+Unchecked: actual provider execution/tool non-use, and write-producing transport/crash fault-injection tests. No edits, live model calls, or other final critic reviews were used.

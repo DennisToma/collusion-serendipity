@@ -304,3 +304,21 @@ needs fresh registered scenarios and an appropriate public-history or incentive
 control. [Design](DESIGN_S31.md) · [All outcomes/figure](results/s31_summary.md).
 Reproduce: `uv run python scripts/s31_release.py`;
 `uv run python scripts/s31_present.py`.
+
+
+**S32 (own),unpromoted ODD — human labor versus automated compute:** ten fresh
+games/five blocks24600..24604,200valid decisions,zero retries/tuning/pooling.
+One identity sentence at identical passive-resource economics,self-only notes
+both arms. Human paid rate17.525,compute13.725;
+human−compute+3.800[-0.250, 7.875],paired t[-3.022623,10.622623],upper p0.25000.
+Two positive blocks,two ties,one negative;frozen bootstrap/sign screen fails,
+so no HIT or confirmed framing/fairness mechanism. The positive sample mean
+is not confirmation;profit is its mechanical complement. For both siblings,
+this is an unconfirmed prompt-sensitivity lead,not a detector or collusion
+claim. Fresh registered independent blocks and matched model/timing are needed;
+never pool with S31's differently worded scenario or select the two large blocks.
+Manager accidentally saw some prefix histories via process arguments;frozen
+analysis unchanged,no partial contrast or tuning. [Disclosure](logs/s32_review_disposition.md).
+[Design](DESIGN_S32.md) · [All outcomes](results/s32_summary.md).
+Reproduce:`uv run python scripts/s32_release.py`;
+`uv run python scripts/s32_present.py`.

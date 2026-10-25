@@ -1,16 +1,18 @@
 # STATUS
 
-## Current state (2026-10-24T23:44:48.847931+00:00; Phase2, iteration20 ACTIVE)
-- Selected own/S32 resource identity after A/S31;fresh10games/5blocks planned.
-- Single human-labor/automated-compute phrase;self-only notes both arms.
-- Primary human-minus-compute paid rate;fixed directional screen,zero tuning.
-- No live calls yet;14 protocol checks/first full dry replay PASS.
-- Dry independent50cells/15bootstrap+t/five sign sets/200notes+reasons PASS.
-- Prospective known CLI-input fingerprint added;effective config not attested.
-- Codex+Opus methodology reviews/full repository tests running.
-- S31 remains DUD:earnings10 both arms,contrast0[0,0],no equivalence claim.
-- No pooling,HIT,sibling writes or direction deviation.
-- Next:dispose critics,final dry freeze/push,one-shot S32 run,verify/review.
+## Current state (2026-10-25T00:07:16.423688+00:00; Phase2, iteration20 RELEASE READY)
+- S32 own resource identity:10games/5blocks,200valid decisions,zero retries/failures.
+- Human17.525/compute13.725;primary+3.800[-.250,7.875],t[-3.023,10.623],upperp.25.
+- Two positive/two ties/one negative;frozen ODD,no HIT/fairness claim.
+- Exact200-key replay/all19sources/registration/known CLI fingerprints PASS.
+- Independent50cells/15summaries/five sign sets/200full prompts+notes PASS.
+- New post-outcome exact companion15rational summaries/two regressions PASS.
+- Full276 tests/cache-only release/seven byte-identical regenerations PASS.
+- S21/S31 real original archives PASS;runner-only synthetic clocks scoped14+12.
+- Final critique texts complete,parent143;individual final exit statuses unverified.
+- Mutable CLI expected-baseline/effective-config gaps and prefix peek disclosed.
+- Scientific SHA0950187e/source freezeab7e42a unchanged;no tuning/pooling/HIT.
+- Next:results push/remote clone;then fresh structure/intervention with immutable CLI baseline.
 
 ## Log
 
@@ -267,3 +269,17 @@
 - 2026-10-24T23:43:44.725018+00:00: iteration20 read CLAUDE/PLAN/STATUS/DIRECTION/EXPERIMENTS and both sibling report/status summaries read-only. Activated queued own S32 after A/S31:single human-labor versus automated-compute identity sentence at identical resource allocation/payoffs,self-only notes in both arms,five fresh blocks/ten games. Fixed human-minus-compute directional screen,no profit gate,mechanism or S31 pooling claim. Synthetic economics/parser/visibility/transport checks and first full dry200-key replay/independent50cells+15summaries+five sign sets PASS. Prospective local CLI input fingerprints added;effective configuration/provider execution still unverified. No live calls or direction deviation;methodology critics next.
 
 - 2026-10-24T23:48:02.574470+00:00: S32 methodology Codex+Opus exit0;accepted response-completion freeze guard,actual call-interval timing,resolved dry-publication paths,fixed synthetic clocks,independent full prompt contracts,explicit cache-only mode and n5 rule equivalence. Patch-specific independent Codex review confirms no blockers,nine read-only tests;manager17 scoped/full274 repository tests and final dry200-key replay/independent50cells+15bootstrap+t summaries+five sign sets+200prompt/note/reason bindings PASS. All19 source hashes recorded;real S21 original-cutoff release PASS. No live outcomes,tuning,pooling or historical-source edits;freeze/push then one-shot run.
+
+- 2026-10-24T23:48:39.717390+00:00: S32 source freezeab7e42ae1c83911a4b0481da63ee43f0bfbcc127 committed/pushed;one-shot launcher observed matching remote at2026-10-24T23:48:29.838996+00:00. Historical headroom71.53min versus required19.59min;all19 sources and prospective local CLI fingerprint pinned,two concurrent games/seed barrier,Sun01:00UTC uncached admission cutoff. No partial rates,notes or treatment contrasts inspected;scientific sources frozen. Ledger registration linked,no extra pilot or sibling writes.
+
+- 2026-10-24T23:49:37.312148+00:00: monitoring deviation disclosed:ps process arguments unexpectedly printed active Codex seller prompts,including some first-block completed public rates and own-note histories. Manager saw those prefixes,not a full dataset or computed treatment contrast. All19 sources/screen were frozen/pushed before calls and remain unchanged;no tuning,exclusions,redraw,subgroup or second pilot follows. Future monitoring restricted to completion/failure counters and command names/PIDs,never full process arguments. This is an unplanned prefix exposure,not a blinded-outcome claim.
+
+- 2026-10-24T23:57:10.625778+00:00: S32 all10games/200valid decisions finished23:55:54UTC,zero retries/transport/parse/route failures. Frozen ODD:human17.525/compute13.725,human-minus-compute+3.8[-0.250, 7.875],t[-3.022623,10.622623],upperp0.25;two positive/two tied/one negative blocks. Magnitude passes,bootstrap/sign gates fail,no HIT/fairness mechanism/secondary/reverse promotion or pooling. Exact200-key replay,all19 sources/registration/environment/local CLI fingerprints/UTC/actual call overlap/exports/payoffs and independent50cells/15bootstrap+t summaries/five complete sign sets/all200prompt+note+reason bindings PASS. Canonical SHA0950187e. Prefix-exposure disclosure retained. Final critics/full suite/release/remote clone next;no frozen-source edits or further scientific calls.
+
+- 2026-10-25T00:01:54.599474+00:00: S32 final Codex/Opus critics exit0,confirm primary+3.8[-.25,7.875]/t[-3.022623,10.622623]/upperp.25/ODD. Codex raw-reconstructs all metrics/bootstrap/signs/prompts/replay,eight read-only checks;Opus supplied-text-only arithmetic,neither reads the other. Accepted unresolved mutable expected CLI-fingerprint baseline gap and incomplete input coverage,explicitly disclosed;recorded launch/config/dispatch/completion agree but cannot exclude coordinated transient rewrites. Original rational-bound tolerance gap addressed with separate post-outcome exact-equality companion/all15 summaries,original sources/result unchanged. Prefix peek affected no abort/continue/analysis decision. Declined unverified low-rate coordination interpretation;secondary regret unpromoted. Companion regressions/full post-companion suite/release/regeneration next.
+
+- 2026-10-25T00:02:55.603045+00:00: correction to preceding final-review exit-status wording:both full critique artifacts were saved23:58/23:59UTC and contain complete substantive conclusions,but polling the parent runner returned143 with no per-child exit receipts. Individual exit0 statuses are unverified,so earlier blanket exit0 statement should not be quoted. Methodology/patch exit0 receipts remain valid. Scientific result/replay/reconstructed arithmetic and substantive final-review findings unchanged;no additional review/model call.
+
+- 2026-10-25T00:06:27.280727+00:00: post-companion/full final276-test suite PASS. Confirmed two legacy S31 mocked fixtures fail under simulated00:31 clock;scoped12-test S31 fixture clock added only in scripts/run_tests.py,alongside existing14 S21 synthetic overrides. Actual S21 and S31 original-source/original-cutoff releases separately PASS;old derived S31 receipt restored after its link count regenerated. All19 S32 sources/canonical SHA0950187e unchanged. Exact companion15 summaries/two regressions PASS;release includes companion. Final critique artifacts complete,parent143/individual exitcodes unverified accurately recorded. No scientific calls,source mutation,new outcome,tuning,pooling or HIT. Byte regeneration/results push/remote clone follow.
+
+- 2026-10-25T00:07:16.423894+00:00: final byte regeneration PASS:scientific result,summary,figure,independent receipt,post-outcome exact receipt,release receipt and REPORT all seven byte-identical under cache-only analysis. All19 sources and canonical SHA0950187e unchanged. Full276 tests and real S21/S31 archives pass;all final review dispositions documented,individual final critic exit statuses unverified after parent143. No new scientific calls,metric/source changes,tuning,pooling,HIT or sibling writes. Results milestone commit/push then remote-origin clean clone.

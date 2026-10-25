@@ -16,6 +16,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 def check():
     from scripts.s32_analyze import analyze
     from scripts.s32_independent import verify
+    from scripts.s32_exact_check import check as check_exact
     from sim.resource import main as resume
     paths=[p for p in Path('data/s32_resource').rglob('*') if p.is_file() and p.name!='.writer.lock']
     original={str(p):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
@@ -23,6 +24,7 @@ def check():
         with contextlib.redirect_stdout(io.StringIO()):r=analyze('data/s32_resource')
         assert json.dumps(r,indent=2)+'\n'==Path('results/s32_resource.json').read_text()
         independent=verify();assert independent==json.loads(Path('logs/s32_independent.json').read_text())
+        exact=check_exact();assert exact==json.loads(Path('logs/s32_exact_check.json').read_text())
         with patch.object(sys,'argv',['sim.resource']),contextlib.redirect_stdout(io.StringIO()):resume()
     for name,digest in original.items():assert hashlib.sha256(Path(name).read_bytes()).hexdigest()==digest,name
     links=0
@@ -34,17 +36,17 @@ def check():
             links+=1
     receipt=dict(passed=True,all_key_replay=True,canonical_result_byte_identical=True,cached_resume_byte_identical=True,
                  source_entries=len(json.loads(Path('data/s32_resource/config.json').read_text())['sources']),
-                 local_links_checked=links,independent=independent)
+                 local_links_checked=links,independent=independent,exact_companion=exact)
     Path('logs/s32_release.json').write_text(json.dumps(receipt,indent=2)+'\n');print(json.dumps(receipt,indent=2))
 
 def clean_clone():
     root=Path.cwd();head=subprocess.check_output(['git','rev-parse','HEAD'],text=True).strip()
     remote=subprocess.check_output(['git','remote','get-url','origin'],text=True).strip()
-    artifacts=['results/s32_resource.json','results/s32_summary.md','figures/s32_resource.png','logs/s32_independent.json','logs/s32_release.json','REPORT.md']
+    artifacts=['results/s32_resource.json','results/s32_summary.md','figures/s32_resource.png','logs/s32_independent.json','logs/s32_release.json','logs/s32_exact_check.json','REPORT.md']
     with tempfile.TemporaryDirectory(prefix='s32_remote_',dir='/var/tmp') as td:
         clone=Path(td)/'repo';subprocess.run(['git','clone','--quiet',remote,str(clone)],check=True)
         subprocess.run(['git','checkout','--quiet',head],cwd=clone,check=True)
-        commands=[['scripts/s32_release.py'],['-m','unittest','scripts.test_s32'],['scripts/s32_independent.py'],['scripts/s32_present.py']]
+        commands=[['scripts/s32_analyze.py'],['scripts/s32_independent.py'],['scripts/s32_exact_check.py'],['scripts/s32_present.py'],['scripts/s32_release.py'],['-m','unittest','scripts.test_s32','scripts.test_s32_exact'],['scripts/s21_release.py']]
         env=dict(os.environ,VIRTUAL_ENV=str(root/'.venv'),TMPDIR='/var/tmp',PYTHONDONTWRITEBYTECODE='1')
         for args in commands:subprocess.run([str(root/'.venv/bin/python'),*args],cwd=clone,env=env,check=True)
         for name in artifacts:assert (clone/name).read_bytes()==(root/name).read_bytes(),name

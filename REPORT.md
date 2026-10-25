@@ -1,6 +1,6 @@
 # Serendipity log — Beyond Words
 
-2026-10-24 · Iteration 20 (S32 registered; awaiting outcomes) · **No hits promoted.** Exploratory pilots; zero tuning attempts.
+2026-10-24 · Iteration 20 · **No hits promoted.** Exploratory pilots; zero tuning attempts.
 
 | Pilot | Result (descriptive 95% bootstrap bounds when estimated) | Verdict |
 |---|---|---|
@@ -24,8 +24,14 @@
 | S29 · C, partner notepad | 10 games /5 blocks. Partner Y approval rate r3–10: self **0.050**, shared **0.375**; difference **0.325 [0.100, 0.575]**. | **ODD** for directional screen |
 | S28 · own, role payoff table | 10 games /5 blocks. Partner Y approval rate r3–10: prose **0.175**, table **0.075**; prose−table **0.100 [-0.050, 0.275]**. | **ODD** for reduction screen |
 | S31 · A2, labor duopsony | 10 games /5 blocks. Worker earnings r3–10: self **10.000**, shared **10.000**; self−shared **0.000 [0.000, 0.000]** (degenerate). | **DUD** for wage-reduction screen |
+| S32 · own, resource identity | 10 games /5 blocks. Paid rate r3–10: human **17.525**, compute **13.725**; human−compute **+3.800 [-0.250, 7.875]**. | **ODD** for directional framing screen |
 
 S25 uses a deliberately enriched fixed-history challenge. Source approvals only select cases; the comparison uses fresh outputs in both arms. Neither fresh arm reproduced any of the four archived adverse approvals used to enrich the challenge. With no adverse baseline in the fresh action-first arm, this pilot cannot demonstrate an output-order correction mechanism. The common extra order instruction and fresh model draws also differ from S19; their effects are not separated here.
+
+<!-- S32 summary start -->
+**S32:** paired t95% **[-3.023, 10.623]**, upper sign-flip **p=0.25000**. Two positive blocks,two ties,one negative; bootstrap/sign gates fail. One identity sentence at identical economics,self-only notes both arms;no fairness or agreement mechanism. [All outcomes and figure](results/s32_summary.md).
+Manager process arguments accidentally exposed some prefix rates/notes during generation;no abort/continue/analysis decision depended on them,frozen source unchanged. [Disclosure and reviews](logs/s32_review_disposition.md).
+<!-- S32 summary end -->
 
 <!-- S31 summary start -->
 **S31:** paired t95% **[0, 0]**, upper sign-flip **p=1**; all five paired differences zero. Mean worker earnings10 in both arms lie between symmetric integer Nash wages18–20 and joint-profit wage0; this does not establish an agreement. Public wages remain visible in self-only games. No equivalence or zero-effect population claim. [All outcomes and figure](results/s31_summary.md).
@@ -43,7 +49,7 @@ S25 uses a deliberately enriched fixed-history challenge. Source approvals only 
 **S27:** paired t95% **[-0.002, 0.352]**, upper sign-flip **p=0.06250**. Two versus three active employees; pair payoffs and shared notes fixed. Team size bundles outsider interaction, workload and history dimension; approvals do not verify agreement. [All outcomes and figure](results/s27_summary.md).
 <!-- S27 summary end -->
 
-Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. The Codex binary/effective CLI configuration was not frozen.
+Five paired game blocks are the resampling unit unless stated otherwise; intervals are descriptive empirical bootstrap bounds. With n5 they can degenerate, and sign/t intervals may disagree. No multiplicity correction, held-out validation or equivalence claims. Actions, private notes and high rewards alone do not verify an agreement or profitable collusion. Earlier pilots did not freeze the Codex binary/configuration; S32 fingerprints known local inputs; a mutable expected-baseline field leaves transient coordinated drift unexcluded, and effective CLI layers/provider execution remain unattested.
 
 Cournot: three integer-output firms, P=max(0,30−total output), cost6, symmetric static Nash q6. Workplace: synthetic fixed work types and personal bonus incentives; no realistic task production. Identity/wording, uncontrolled model draws and shared-service interference limit transfer. Procurement ties are divisible.
 
@@ -53,4 +59,4 @@ S29 remains ODD because one of five blocks ties;the bootstrap-positive interval 
 
 [All methods, outcomes, earlier uncertainty and figures](REPORT_DETAILS.md) · [S19 adverse actions](results/s19_action_text.md) · [S21 audit](results/s21_summary.md) · [Reproduction](README.md) · [Unpromoted handoffs](HITS.md).
 
-**Next:** S32 registered: fresh human-labor versus automated-compute identity phrase at identical economics, five paired blocks; no live outcomes yet. S30 remains unrun. No secondary-driven promotion.
+**Next:** Fresh structure/intervention question after own; S32 needs independent fresh confirmation, not promotion from its positive mean. S30 remains unrun.

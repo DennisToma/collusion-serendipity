@@ -616,3 +616,41 @@ blocks,uncontrolled model draws and passive synthetic workers limit transfer.
 All200 raw keys replay,18 frozen sources/registration/environment/UTC/export
 checks and independent50metric cells/15bootstrap+t summaries/five sign-tail
 sets/all200notes and reasons PASS. Final Codex and Opus critics confirm DUD. Codex reconstructed raw actions and prompt contracts;Opus supplied-text-only arithmetic/analytic economics. Neither read the other final review. See [disposition](logs/s31_review_disposition.md). Codex binary/effective inherited CLI configuration was not frozen;[post-run observation](logs/s31_runtime_observation.json) is not execution-time attestation. Cache-only release and full257-test suite PASS;figure visually checked. Fresh origin-remote full-history clone of resultsc62f9ce passes12 protocol checks,all offline release/replay checks and six byte-identical artifact regenerations;clone clean. Existing frozen dependency environment reused,not independently installed. [Remote receipt](logs/s31_remote_clean_clone.json).
+
+
+### S32 — Passive resource identity (own,iteration20)
+
+[Design](DESIGN_S32.md) · [All five outcomes/figure](results/s32_summary.md) ·
+[Scientific result](results/s32_resource.json) · [Independent reconstruction](logs/s32_independent.json).
+Ten fresh games/five paired blocks24600..24604,T10,primary r3..10,200valid decisions,
+zero retries/failures,zero tuning,no pooling. The one changed system sentence
+identifies the resource as human labor or automated compute;generic firms/rates,
+allocation/profits and self-only notepads otherwise identical. This new generic
+resource wording differs from S31,so cross-pilot level differences cannot be
+attributed to resource identity or note delivery.
+
+Human payment17.525,compute13.725;human−compute
++3.800[-0.250, 7.875],paired t[-3.022623,10.622623],upper p0.25000.
+Block differences[0.0, 9.75, 0.0, 9.875, -0.625]. Frozen ODD:mean magnitude passes but
+bootstrap lower/sign criteria fail. No equivalence,confirmed identity/fairness
+mechanism,HIT,secondary/reverse promotion or sibling headline change. In
+particular,the stage-regret bootstrap interval is a prespecified secondary,
+not an independently promoted result. Profit differences mechanically complement
+payments;there is no profit gate. Weak pure Nash rate profiles18/18,19/19,20/20;
+passive suppliers accept0 and this is no human-welfare evidence.
+
+All200 request keys replayed exactly;all19 source hashes/registration/environment/
+local chronology/actual call-interval overlap/exports/payoffs pass. Independent
+checker reconstructs50metric cells,15bootstrap+t summaries,five complete sign
+sets and200 full prompt/note/reason contracts. Source freezeab7e42a pushed before
+calls;canonical scientific SHA0950187eea087d0d9e6440efe58482f9d689fe732cae66155a63d1418c7faecd.
+Known local launcher/node/native/config/routing inputs fingerprinted before
+calls,each admission,response completion and run completion;all effective CLI
+layers and provider execution remain unattested. Historical sources unchanged.
+
+Unplanned exposure:manager process-health check at23:49UTC printed active seller
+command arguments,including some first-block public rate/own-note histories.
+No partial treatment contrast computed;all19 sources and screening rules already
+frozen and unchanged,no tuning/exclusion/redraw/selected subgroup followed.
+Monitoring then used only metadata. Do not claim fully blinded monitoring.
+Both final critics confirm the unchanged ODD and primary numbers. Codex independently reconstructed raw arithmetic/all3125 bootstrap samples/all32 signs/all200 prompts/full replay;Opus checked supplied source/result text only,without raw/shell or the other review. Codex found a mutable CLI-baseline integrity gap:the expected fingerprint is reread from config,so coordinated transient input/baseline changes restored before completion are not excluded. Recorded launch/config/dispatch/completion fingerprints agree;this is no complete immutability or provider attestation. Frozen code unchanged;future harness should capture baseline in an immutable closure and guard the full config digest. Original independent rational-bound check used float tolerance;new post-outcome [exact-number companion](logs/s32_exact_check.json) checks all15 rational summaries by equality after binding50 metric cells to raw decisions. Two companion regressions catch1e-13 bound/mean perturbations. Manager figure/release/clone checks are outside critics fixed input scope. No abort/continue/analysis decision depended on the accidental prefix exposure;the one-shot automatic run completed unchanged. Opus proposed interpreting low rates as coordination;declined because actions do not identify an agreement or mechanism. Stage-regret remains unpromoted. Full post-companion suite and remote reproduction follow.

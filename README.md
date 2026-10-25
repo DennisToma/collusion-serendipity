@@ -754,3 +754,26 @@ then `uv run python scripts/s32_analyze.py --allow-dry --data /var/tmp/s32_examp
 --out /var/tmp/s32_example/result.json`. A live launch is one-shot;never restart
 interrupted or failed scientific evidence. All S32 synthetic tests use a fixed
 clock,independent of the actual experiment's unchanged UTC cutoff.
+
+
+S32 complete:human payment17.525 versus compute13.725,difference+3.800
+[-.250,7.875] descriptive bootstrap,t[-3.022623,10.622623],upperp.25;ODD,
+no HIT/fairness or agreement claim. Two large positive blocks,two ties,one
+negative. Both final critics confirm. CLI fingerprints share a mutable expected
+baseline field;transient coordinated changes are not excluded. The observed
+saved fingerprints agree,without continuous/provider attestation. A process
+argument check exposed prefix histories;no run/analysis decision depended on
+those prefixes,and frozen sources unchanged. [Final dispositions](logs/s32_review_disposition.md).
+`uv run python scripts/s32_exact_check.py` adds post-outcome exact rational
+verification of all15 summaries;original independent checker used float
+tolerance for its reported rational bounds. Scientific result and all19 frozen
+sources remain unchanged. [All outcomes](results/s32_summary.md).
+
+Final full276-test suite passes with14 scoped historical S21 synthetic cutoff
+overrides and12 scoped S31 synthetic clock overrides;actual S21/S31 archives
+separately pass their original-source/original-cutoff releases. Two S31 mocked
+fixtures were independently shown to expire after00:30UTC before adding the
+runner-only clock patch. Frozen scientific/test source files remain unchanged.
+Both full final critique artifacts are retained;their parent runner later
+returned143 without individual exit receipts,so individual final exit0 statuses
+are unverified. No scientific number or substantive critique changes.
