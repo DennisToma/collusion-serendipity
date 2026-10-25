@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "uncommitted_runner_rejected": true,
+  "prior_pass_invalidated": true,
+  "returncode": 1,
+  "stderr": "Traceback (most recent call last):\n  File \"/home/factory/collusion/collusion-serendipity/scripts/check_release_clone.py\", line 143, in <module>\n    main()\n  File \"/home/factory/collusion/collusion-serendipity/scripts/check_release_clone.py\", line 39, in main\n    raise RuntimeError('Commit and push the acceptance runner before running this check')\nRuntimeError: Commit and push the acceptance runner before running this check\n"
+}

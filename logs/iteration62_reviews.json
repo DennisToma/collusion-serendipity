@@ -1,0 +1,21 @@
+{
+  "reviews": [
+    {
+      "critic": "codex",
+      "exit": 0,
+      "scope": "read-only repository"
+    },
+    {
+      "critic": "opus",
+      "exit": 0,
+      "scope": "supplied text only"
+    }
+  ],
+  "sources_at_launch": {
+    "scripts/check_release_clone.py": "29d393d25a2ebb04d4805de31010cb05c94729c199481662607fa8e43147306f",
+    "scripts/release_tests.py": "7f90524e6ed051aed054f3499bca70f5ccdf5a5b91b1097d154cb7487f812902",
+    "README.md": "133edab66555c81b573c36adbbd1ff5a9310e672f72ca44b7d56471751d59404",
+    "REPORT.md": "6a3288f84c9f99401c26d0d3e643b6d00dca31e4e11215cba53d37b22427b595"
+  },
+  "sources_unchanged": true
+}
